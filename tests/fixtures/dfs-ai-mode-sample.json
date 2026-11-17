@@ -1,0 +1,25 @@
+{
+  "_note": "Sintético. Misma forma que la respuesta de /v3/serp/google/ai_mode/live/advanced. No son datos reales.",
+  "status_code": 20000,
+  "tasks": [{
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "cost": 0.004,
+    "result": [{
+      "keyword": "soc 2 type 1 vs type 2",
+      "location_code": 2840,
+      "language_code": "en",
+      "check_url": "https://www.google.com/search?q=soc+2+type+1+vs+type+2&udm=50",
+      "item_types": ["ai_overview"],
+      "items": [
+        { "type": "ai_overview", "rank_group": 1, "rank_absolute": 1, "markdown": "...", "items": [
+          { "type": "ai_overview_element", "text": "Type 2 takes longer because it covers an observation period.",
+            "references": [
+              { "type": "ai_overview_reference", "domain": "northwindsec.com", "url": "https://northwindsec.com/blog/soc-2-timeline" },
+              { "type": "ai_overview_reference", "domain": "complyhq.com", "url": "https://complyhq.com/soc-2-types" }
+            ] }
+        ] }
+      ]
+    }]
+  }]
+}

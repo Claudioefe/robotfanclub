@@ -1,0 +1,742 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Citable client portal MVP</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#EEF1F4; --surface:#FFFFFF; --side:#E2E7EC; --ink:#18212B; --muted:#5A6676; --line:#D2D9E1;
+  --cite:#2849C9; --on-cite:#FFFFFF; --cite-soft:#E1E7FA;
+  --off:#0B7A66; --off-soft:#DCF1EC; --bad:#B42330; --bad-soft:#F8E2E4; --code:#F5F7F9;
+  color-scheme:light;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#0F141A; --surface:#161D25; --side:#131921; --ink:#E3E8EE; --muted:#98A4B2; --line:#2A3440;
+    --cite:#88A2FF; --on-cite:#0F141A; --cite-soft:#1C2645;
+    --off:#4FCBB0; --off-soft:#12302A; --bad:#FF8089; --bad-soft:#3A1B1F; --code:#11171E;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0F141A; --surface:#161D25; --side:#131921; --ink:#E3E8EE; --muted:#98A4B2; --line:#2A3440;
+  --cite:#88A2FF; --on-cite:#0F141A; --cite-soft:#1C2645;
+  --off:#4FCBB0; --off-soft:#12302A; --bad:#FF8089; --bad-soft:#3A1B1F; --code:#11171E;
+  color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:inherit}
+html{height:100%;scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;min-height:100%;background:var(--bg);color:var(--ink);
+  font:400 15px/1.5 "Schibsted Grotesk",ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-variant-numeric:tabular-nums;-webkit-font-smoothing:antialiased}
+a{color:var(--cite)}
+:focus-visible{outline:2px solid var(--cite);outline-offset:2px}
+
+/* Shell */
+.app{display:grid;grid-template-columns:220px minmax(0,1fr);min-height:100%}
+.side{background:var(--side);border-right:1px solid var(--line);padding:28px 16px;position:sticky;top:0;
+  align-self:start;height:100vh;display:flex;flex-direction:column;gap:28px;min-width:0}
+.brand{font-weight:700;font-size:20px;letter-spacing:-.02em;padding:0 10px;line-height:1.2}
+.brand small{display:block;font-size:13.5px;font-weight:500;color:var(--muted);letter-spacing:0;margin-top:4px}
+.nav{display:flex;flex-direction:column;gap:2px}
+.nav a{display:block;padding:8px 10px;border-radius:6px;color:var(--muted);text-decoration:none;font-weight:500}
+.nav a:hover{color:var(--ink)}
+.nav a[aria-current="page"]{background:var(--surface);color:var(--ink);box-shadow:inset 3px 0 0 var(--cite)}
+.side-foot{margin:auto 0 0;padding:0 10px;font-size:13px;color:var(--muted)}
+main{padding:40px clamp(18px,4vw,56px) 72px;max-width:1080px;width:100%;min-width:0}
+
+@media (max-width:820px){
+  .app{grid-template-columns:1fr}
+  .side{position:sticky;top:env(safe-area-inset-top,0px);height:auto;flex-direction:row;align-items:center;
+    padding:10px 12px;gap:12px;z-index:10;border-right:0;border-bottom:1px solid var(--line)}
+  .brand{padding:0 4px;font-size:18px}
+  .brand small,.side-foot{display:none}
+  .nav{flex-direction:row;overflow-x:auto;gap:2px;min-width:0}
+  .nav a{white-space:nowrap;padding:6px 10px}
+  .nav a[aria-current="page"]{box-shadow:inset 0 -2px 0 var(--cite)}
+  body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--side)}
+  main{padding-top:24px}
+}
+
+/* Type */
+h1{font-size:clamp(22px,2.4vw,28px);font-weight:600;letter-spacing:-.015em;margin:0 0 4px;line-height:1.2}
+h2{font-size:17px;font-weight:600;margin:0 0 4px;line-height:1.3}
+.sub{color:var(--muted);margin:0;max-width:68ch}
+.note{font-size:13.5px;color:var(--muted);margin:2px 0 14px;max-width:70ch}
+.lede{font-size:clamp(32px,5.4vw,56px);line-height:1.04;font-weight:600;letter-spacing:-.03em;margin:44px 0 10px;max-width:20ch}
+.lede-2{font-size:clamp(18px,2.2vw,24px);line-height:1.3;color:var(--muted);font-weight:500;margin:0;max-width:38ch;letter-spacing:-.01em}
+.status{font-size:16px;margin:0;max-width:64ch}
+.status.good{color:var(--off)} .status.bad{color:var(--bad)}
+.section{margin-top:48px}
+
+/* Citation ruler: the one bold element */
+.ruler{position:relative;height:22px;margin:64px 0 40px}
+.track{position:absolute;inset:0;background:var(--line);border-radius:4px;overflow:hidden}
+.track .fill{position:absolute;top:0;bottom:0;left:0;background:var(--cite)}
+.track .proj{position:absolute;top:0;bottom:0;opacity:.6;
+  background:repeating-linear-gradient(135deg,var(--cite) 0 2px,transparent 2px 7px)}
+.mark{position:absolute;top:-36px;bottom:-6px;border-left:2px solid var(--ink);padding-left:6px;
+  font-size:13px;line-height:1.2;color:var(--muted);white-space:nowrap}
+.mark em{font-style:normal;font-weight:700;color:var(--ink)}
+.mark.end{border-left:0;border-right:2px solid var(--ink);padding:0 6px 0 0;transform:translateX(-100%)}
+@media (max-width:560px){.ruler{margin-top:84px}.mark.mid{top:-58px}}
+.tick{position:absolute;top:calc(100% + 8px);transform:translateX(-50%);font-size:12px;color:var(--muted)}
+.tick.first{transform:none}.tick.last{transform:translateX(-100%)}
+
+/* Panels */
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,290px),1fr));gap:16px;margin-top:44px}
+.section .grid2{margin-top:12px}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:20px 22px}
+.panel p{margin:6px 0 0}
+.meter{position:relative;height:10px;background:var(--line);border-radius:5px;margin:16px 0 8px}
+.meter i{position:absolute;top:0;bottom:0;left:0;border-radius:5px;background:var(--off)}
+.meter i.cite{background:var(--cite)}
+.meter b{position:absolute;top:-5px;bottom:-5px;border-left:2px solid var(--ink)}
+
+/* Citation cards */
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,250px),1fr));gap:14px}
+.ccard{background:var(--surface);border:1px solid var(--line);border-left:5px solid var(--cite);
+  border-radius:4px 10px 10px 4px;padding:16px 18px;display:flex;flex-direction:column;gap:6px}
+.ccard p{margin:0}
+.ccard .ck{font-size:13px;color:var(--muted);font-weight:500}
+.ccard .q{font-size:17px;font-weight:600;line-height:1.3;letter-spacing:-.01em}
+.ccard .src{color:var(--cite);font-weight:500;word-break:break-word}
+.ccard .meta{font-size:13.5px;color:var(--muted)}
+.ccard .btn{align-self:flex-start;margin-top:6px}
+.badge{display:inline-block;font-size:12.5px;font-weight:600;padding:1px 8px;border-radius:999px;white-space:nowrap}
+.badge.off{background:var(--off-soft);color:var(--off)}
+.badge.top{background:var(--cite-soft);color:var(--cite)}
+.badge.bad{background:var(--bad-soft);color:var(--bad)}
+.dim{color:var(--muted)}
+
+/* Tables */
+.tablewrap{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:10px}
+table{border-collapse:collapse;width:100%;min-width:720px;font-size:14px}
+th{text-align:left;font-weight:600;color:var(--muted);padding:10px 14px;border-bottom:1px solid var(--line);white-space:nowrap;font-size:13px}
+td{padding:10px 14px;border-bottom:1px solid var(--line);vertical-align:middle}
+tbody tr:last-child td{border-bottom:0}
+td.q{font-weight:500;min-width:220px}
+.bar{position:relative;height:12px;background:var(--code);border:1px solid var(--line);border-radius:3px;min-width:160px}
+.bar i{position:absolute;top:0;bottom:0;left:0;border-radius:2px;background:var(--off)}
+.bar i.over{background:var(--bad)}
+.bar b{position:absolute;top:-5px;bottom:-5px;left:50%;border-left:2px dashed var(--ink)}
+
+/* Controls */
+.btn{font:inherit;font-weight:600;font-size:14px;padding:9px 16px;border-radius:7px;border:1px solid var(--cite);
+  background:var(--cite);color:var(--on-cite);cursor:pointer;line-height:1.3}
+.btn.ghost{background:transparent;color:var(--cite)}
+.btn.small{padding:4px 10px;font-size:13px}
+.seg{display:flex;flex-wrap:wrap;gap:6px;margin:24px 0 14px}
+.seg button{font:inherit;font-size:13.5px;font-weight:500;padding:6px 12px;border-radius:999px;border:1px solid var(--line);
+  background:var(--surface);color:var(--muted);cursor:pointer}
+.seg button[aria-pressed="true"]{border-color:var(--cite);color:var(--cite);background:var(--cite-soft)}
+label{display:block;font-weight:600;font-size:14px;margin:18px 0 6px}
+input,textarea,select{font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:7px}
+input,textarea{width:100%;padding:10px 12px}
+textarea{min-height:210px;resize:vertical;line-height:1.5}
+select{padding:6px 8px;font-size:14px;max-width:100%}
+.scan-form{max-width:620px;margin-top:8px}
+.row{display:flex;flex-wrap:wrap;align-items:center;gap:14px;margin-top:16px}
+.err{color:var(--bad);margin:10px 0 0;font-weight:500}
+
+/* Trend */
+.trend{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:18px 18px 12px}
+.plot{position:relative;height:180px}
+.plot svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.plot .lbl{position:absolute;font-size:12.5px;color:var(--muted);transform:translateY(-120%);white-space:nowrap}
+.axis{display:flex;justify-content:space-between;font-size:12.5px;color:var(--muted);margin-top:8px}
+
+/* Code */
+pre{background:var(--code);border:1px solid var(--line);border-radius:8px;padding:16px;overflow-x:auto;margin:10px 0 0;
+  font:13px/1.55 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:var(--ink);tab-size:2}
+ul.todo{margin:8px 0 0;padding-left:20px;max-width:70ch}
+ul.todo li{margin:6px 0}
+
+/* Dialog + toast */
+dialog{border:0;padding:0;background:transparent;width:min(440px,calc(100% - 32px));color:var(--ink)}
+dialog::backdrop{background:rgba(10,15,20,.5)}
+dialog .ccard{box-shadow:0 18px 40px rgba(0,0,0,.25)}
+.dlg-actions{display:flex;gap:10px;margin-top:14px}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);
+  background:var(--ink);color:var(--bg);padding:9px 16px;border-radius:8px;font-size:14px;font-weight:500;
+  opacity:0;transition:opacity .2s;pointer-events:none;z-index:50}
+.toast.show{opacity:1}
+.appear{animation:appear .28s ease-out both}
+@keyframes appear{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.appear{animation:none}.toast{transition:none}}
+</style>
+</head>
+<body>
+<div class="app">
+  <aside class="side">
+    <div class="brand">Citable<small>Northwind Security</small></div>
+    <nav class="nav" aria-label="Portal">
+      <a href="#overview">Overview</a>
+      <a href="#citations">AI citations</a>
+      <a href="#inp">Speed</a>
+      <a href="#scan">Mini-Scan</a>
+      <a href="#setup">Setup</a>
+    </nav>
+    <p class="side-foot">Demo data for a fictional client. Nothing on this page is live yet.</p>
+  </aside>
+
+  <main>
+    <!-- Overview -->
+    <section data-view="overview" hidden>
+      <h1>Northwind Security</h1>
+      <p class="sub" id="ov-sub"></p>
+      <p class="lede" id="ov-lede"></p>
+      <p class="lede-2" id="ov-lede2"></p>
+      <div class="ruler" id="ruler" aria-hidden="true"></div>
+      <p class="status" id="ov-status"></p>
+      <div class="grid2">
+        <div class="panel" id="ov-off"></div>
+        <div class="panel" id="ov-inp"></div>
+      </div>
+      <div class="section">
+        <h2>Newest citations</h2>
+        <p class="note">Each card can be shared to your Slack channel as is.</p>
+        <div class="cards" id="ov-cards"></div>
+      </div>
+    </section>
+
+    <!-- Citations -->
+    <section data-view="citations" hidden>
+      <h1>AI citations</h1>
+      <p class="sub" id="cit-sub"></p>
+      <div class="seg" role="group" aria-label="Filter queries">
+        <button data-f="all" aria-pressed="true">All</button>
+        <button data-f="cited" aria-pressed="false">Cited</button>
+        <button data-f="off" aria-pressed="false">Cited from outside top 10</button>
+        <button data-f="gap" aria-pressed="false">AI answer without us</button>
+      </div>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th>Query</th><th>AI answer</th><th>Northwind cited</th><th>Organic rank</th><th>Other sources</th><th>First seen</th><th><span class="dim">Card</span></th></tr></thead>
+          <tbody id="cit-body"></tbody>
+        </table>
+      </div>
+      <p class="note" style="margin-top:14px">How a citation counts: one frozen query where a Northwind page appears among the AI answer’s sources at least once during the 60-day window. Seeing the same query again does not add to the count.</p>
+    </section>
+
+    <!-- INP -->
+    <section data-view="inp" hidden>
+      <h1>Speed: Interaction to Next Paint</h1>
+      <p class="sub">Real visitors on mobile, 75th percentile. Goal: 200 ms or less.</p>
+      <p class="lede" id="inp-lede"></p>
+      <p class="lede-2" id="inp-lede2"></p>
+
+      <div class="section">
+        <h2>By page template</h2>
+        <p class="note">Red bars are over the 200 ms goal.</p>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>Template</th><th>p75</th><th>Interactions, 28 days</th><th style="width:44%">0 to 400 ms, dashed line at 200</th></tr></thead>
+            <tbody id="tpl-body"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Last 28 days</h2>
+        <p class="note">Daily p75 from real visitors.</p>
+        <div class="trend" id="trend"></div>
+      </div>
+
+      <div class="section">
+        <h2>Google’s field data</h2>
+        <p class="note">The SLA is judged on two full 28-day Chrome UX Report windows after the sprint ships, so a verdict takes about eight weeks.</p>
+        <div class="grid2" id="crux"></div>
+      </div>
+
+      <div class="section">
+        <h2>Tag Bouncer</h2>
+        <p class="note">Third-party scripts that block interactions. Choose what happens to each; the estimate below updates.</p>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>Script</th><th>Blocking at p75</th><th>Action</th><th>Contract note</th></tr></thead>
+            <tbody id="tb-body"></tbody>
+          </table>
+        </div>
+        <p class="status" id="tb-total" style="margin-top:14px"></p>
+      </div>
+    </section>
+
+    <!-- Mini-Scan -->
+    <section data-view="scan" hidden>
+      <h1>Mini-Scan</h1>
+      <p class="sub">Check up to 25 buying-intent queries: does Google answer with AI, and does it cite this domain?</p>
+      <div class="scan-form">
+        <label for="sc-domain">Domain</label>
+        <input id="sc-domain" value="peoplestack.io" autocomplete="off" spellcheck="false">
+        <label for="sc-q">Queries, one per line</label>
+        <textarea id="sc-q" spellcheck="false"></textarea>
+        <div class="row">
+          <button class="btn" id="sc-run">Run scan</button>
+          <span class="note" style="margin:0">Simulated in this MVP. Production version calls a SERP API.</span>
+        </div>
+        <p class="err" id="sc-err" role="alert" hidden></p>
+      </div>
+      <div id="sc-out" class="section" hidden></div>
+    </section>
+
+    <!-- Setup -->
+    <section data-view="setup" hidden>
+      <h1>Setup</h1>
+      <p class="sub">The real pieces that connect this portal to live data.</p>
+
+      <div class="section">
+        <h2>Real-visitor speed snippet</h2>
+        <p class="note">Goes in the client’s site bundle. Sends INP, LCP and CLS with attribution to the portal.</p>
+        <button class="btn small ghost" data-copy="rum">Copy snippet</button>
+        <pre id="code-rum"></pre>
+      </div>
+
+      <div class="section">
+        <h2>Database tables (Supabase)</h2>
+        <p class="note">Speed events, daily AI-answer checks, the frozen query list, and a p75 view per template.</p>
+        <button class="btn small ghost" data-copy="sql">Copy SQL</button>
+        <pre id="code-sql"></pre>
+      </div>
+
+      <div class="section">
+        <h2>Not built yet</h2>
+        <ul class="todo">
+          <li>Client login (one workspace per client) and row-level access.</li>
+          <li>Daily AI-answer check job that writes to <code>aio_checks</code> from a SERP API, with a snapshot per check.</li>
+          <li>Nightly CrUX and PageSpeed pull per template.</li>
+          <li>Slack Connect alerts that post a citation card when a new citation appears.</li>
+          <li>Public landing page and a real Mini-Scan backend with a weekly cap.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+</div>
+
+<dialog id="dlg" aria-label="Citation card">
+  <div id="dlg-card"></div>
+  <div class="dlg-actions">
+    <button class="btn" id="dlg-copy">Copy for Slack</button>
+    <button class="btn ghost" id="dlg-close">Close</button>
+  </div>
+</dialog>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+(function(){
+"use strict";
+const $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+/* ---------- Contract parameters (from the AIO Pro offer) ---------- */
+const START = Date.UTC(2026, 9, 11);          // window day 1: Oct 11, 2026
+const TODAY = Date.UTC(2026, 10, 17);         // demo "today": Nov 17, 2026
+const DAY = Math.round((TODAY - START) / 864e5) + 1;
+const WINDOW = 60, FLOOR = 12, TARGET = 18, BONUS = 25, OFF_TARGET = 0.30;
+const FEE = 14500, CLAWBACK = 0.20;
+const CLIENT = 'northwindsec.com';
+const dateOf = d => new Date(START + (d - 1) * 864e5);
+const fmt = d => dateOf(d).toLocaleDateString('en-US', {month:'short', day:'numeric', year:'numeric', timeZone:'UTC'});
+const fmtDate = (y,m,dd) => new Date(Date.UTC(y,m,dd)).toLocaleDateString('en-US', {month:'short', day:'numeric', year:'numeric', timeZone:'UTC'});
+
+/* ---------- Seeded random so the demo is stable ---------- */
+function mulberry32(a){return function(){a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296;};}
+function hashStr(s){let h=2166136261;for(let i=0;i<s.length;i++){h^=s.charCodeAt(i);h=Math.imul(h,16777619);}return h>>>0;}
+
+/* ---------- Demo data: 40 frozen queries ---------- */
+const QUERIES = ["soc 2 compliance software for startups","soc 2 type 1 vs type 2","how long does soc 2 take","soc 2 cost for a 50 person company","iso 27001 vs soc 2","hipaa compliance checklist for saas","continuous compliance monitoring tools","soc 2 readiness assessment","vendor risk management software","security questionnaire automation","soc 2 evidence collection automation","gdpr compliance software b2b","compliance automation pricing","soc 2 audit firms for startups","pci dss compliance for saas","access review software","trust center page examples","soc 2 policy templates","how to pass a soc 2 audit","compliance automation vs consultant","iso 27001 certification cost","soc 2 penetration test requirement","security awareness training for soc 2","automated access reviews with okta","soc 2 bridge letter","hitrust vs soc 2","risk register template for saas","soc 2 for ai companies","nist csf vs iso 27001","cmmc compliance software","data retention policy for saas","incident response plan template","soc 2 scope definition","background checks for soc 2","mdm requirement for soc 2","soc 2 renewal timeline","third party risk assessment questionnaire","compliance software aws integration","soc 2 trust services criteria explained","compliance evidence storage"];
+const COMPETITORS = ['auditly.io','trustkit.com','complyhq.com','secopsguide.net','riskledger.org'];
+const PAGES = ['/facts/soc-2','/facts/pricing','/compare/compliance-automation','/facts/iso-27001','/blog/soc-2-timeline','/facts/integrations'];
+
+const rnd = mulberry32(33);
+const rows = QUERIES.map(q => {
+  const aio = rnd() < 0.74;
+  const roll = rnd();
+  const rank = roll < 0.45 ? 1 + Math.floor(rnd()*10) : (roll < 0.8 ? 11 + Math.floor(rnd()*30) : null);
+  const cited = aio && rnd() < ((rank && rank <= 10) ? 0.55 : 0.38);
+  const firstDay = cited ? 3 + Math.floor(rnd()*(DAY-3)) : null;
+  const page = PAGES[Math.floor(rnd()*PAGES.length)];
+  const others = aio ? COMPETITORS.filter(() => rnd() < 0.45).slice(0,3) : [];
+  if (aio && !others.length) others.push(COMPETITORS[Math.floor(rnd()*COMPETITORS.length)]);
+  const nsrc = others.length + (cited ? 1 : 0);
+  const pos = cited ? 1 + Math.floor(rnd()*nsrc) : null;
+  return {q, aio, rank, cited, firstDay, page, others, nsrc, pos, off: cited && (rank === null || rank > 10)};
+});
+const cited = rows.filter(r => r.cited);
+const offTop = cited.filter(r => r.off);
+const projected = Math.round(cited.length / DAY * WINDOW);
+
+/* ---------- Helpers ---------- */
+const rankText = r => r.rank ? 'Organic rank ' + r.rank : 'Not in the organic top 50';
+const badge = r => r.off ? '<span class="badge off">Outside top 10</span>' : '<span class="badge top">Top 10 page</span>';
+function cardHTML(r, withBtn){
+  const i = rows.indexOf(r);
+  return '<article class="ccard">'
+    + '<p class="ck">Cited in Google’s AI answer</p>'
+    + '<p class="q">\u201C' + esc(r.q) + '\u201D</p>'
+    + '<p class="src">' + CLIENT + r.page + '</p>'
+    + '<p class="meta">Source ' + r.pos + ' of ' + r.nsrc + '. ' + rankText(r) + '.</p>'
+    + '<p class="meta">' + badge(r) + ' First seen ' + fmt(r.firstDay) + '</p>'
+    + (withBtn ? '<button class="btn small ghost" data-card="' + i + '">Share</button>' : '')
+    + '</article>';
+}
+function slackText(r){
+  return ':bookmark: Northwind Security was cited in Google\u2019s AI answer\n'
+    + 'Query: \u201C' + r.q + '\u201D\n'
+    + 'Source ' + r.pos + ' of ' + r.nsrc + ': ' + CLIENT + r.page + '\n'
+    + rankText(r) + (r.off ? ' (cited from outside the top 10)' : '') + '\n'
+    + 'First seen: ' + fmt(r.firstDay);
+}
+let toastTimer;
+function toast(msg){const t=$('#toast');t.textContent=msg;t.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.classList.remove('show'),1800);}
+async function copy(text){
+  try { await navigator.clipboard.writeText(text); toast('Copied'); }
+  catch(e){
+    const ta=document.createElement('textarea'); ta.value=text; ta.style.position='fixed'; ta.style.opacity='0';
+    document.body.appendChild(ta); ta.select();
+    let ok=false; try{ ok=document.execCommand('copy'); }catch(_){}
+    ta.remove(); toast(ok ? 'Copied' : 'The browser blocked copying. Select the text and copy it manually.');
+  }
+}
+
+/* ---------- Overview ---------- */
+function renderOverview(){
+  $('#ov-sub').textContent = 'AIO Pro and INP Sprint. Day ' + DAY + ' of ' + WINDOW + '. Query list frozen until ' + fmt(WINDOW) + '.';
+  $('#ov-lede').textContent = cited.length + ' citations in ' + DAY + ' days.';
+  $('#ov-lede2').textContent = 'At this pace, about ' + projected + ' by day ' + WINDOW + '. Solid bar is confirmed, hatched is projected.';
+
+  const max = 30, pct = v => Math.min(v, max) / max * 100;
+  const c = pct(cited.length), p = pct(projected);
+  $('#ruler').innerHTML =
+    '<div class="track"><i class="fill" style="width:' + c + '%"></i><i class="proj" style="left:' + c + '%;width:' + Math.max(0, p - c) + '%"></i></div>'
+    + [[FLOOR,'floor'],[TARGET,'target'],[BONUS,'bonus']].map(([v,l],i) =>
+        '<span class="mark' + (i === 1 ? ' mid' : '') + (i === 2 ? ' end' : '') + '" style="left:' + pct(v) + '%"><em>' + v + '</em> ' + l + '</span>').join('')
+    + [0,5,10,15,20,25,30].map((v,i,a) =>
+        '<span class="tick' + (i === 0 ? ' first' : i === a.length - 1 ? ' last' : '') + '" style="left:' + pct(v) + '%">' + v + '</span>').join('');
+
+  const daysLeft = WINDOW - DAY, st = $('#ov-status');
+  if (projected >= BONUS) { st.className = 'status good'; st.textContent = 'On pace for the bonus at ' + BONUS + '.'; }
+  else if (projected >= TARGET) { st.className = 'status good'; st.textContent = 'On pace for the target of ' + TARGET + '. The bonus needs ' + (BONUS - cited.length) + ' more in ' + daysLeft + ' days.'; }
+  else if (cited.length >= FLOOR) { st.className = 'status'; st.textContent = 'SLA floor of ' + FLOOR + ' already met. The target of ' + TARGET + ' needs ' + (TARGET - cited.length) + ' more in ' + daysLeft + ' days.'; }
+  else if (projected >= FLOOR) { st.className = 'status'; st.textContent = 'On pace to clear the SLA floor of ' + FLOOR + ', not the target of ' + TARGET + '. ' + (FLOOR - cited.length) + ' more needed for the floor in ' + daysLeft + ' days.'; }
+  else { st.className = 'status bad'; st.textContent = 'Clawback risk: projected below ' + FLOOR + '. A ' + (CLAWBACK*100) + '% credit ($' + (FEE*CLAWBACK).toLocaleString('en-US') + ') would apply.'; }
+
+  const share = cited.length ? offTop.length / cited.length : 0;
+  $('#ov-off').innerHTML = '<h2>Citations from pages outside the top 10</h2>'
+    + '<p>' + offTop.length + ' of ' + cited.length + ', or ' + Math.round(share*100) + '%. The SLA asks for at least ' + OFF_TARGET*100 + '%.</p>'
+    + '<div class="meter" aria-hidden="true"><i style="width:' + share*100 + '%"></i><b style="left:' + OFF_TARGET*100 + '%"></b></div>'
+    + '<p class="' + (share >= OFF_TARGET ? 'status good' : 'status bad') + '" style="font-size:14px">' + (share >= OFF_TARGET ? 'Meeting the share goal.' : 'Below the share goal.') + '</p>';
+
+  $('#ov-inp').innerHTML = '<h2>Mobile INP, 75th percentile</h2>'
+    + '<p><strong>' + INP_NOW + ' ms</strong> against a 200 ms goal, down from ' + INP_BEFORE + ' ms before the sprint.</p>'
+    + '<div class="meter" aria-hidden="true"><i class="cite" style="width:' + (22/28*100) + '%"></i></div>'
+    + '<p style="font-size:14px">First Google field-data window: 22 of 28 days. Closes ' + fmtDate(2026,10,23) + '.</p>'
+    + '<p style="font-size:14px"><a href="#inp">See speed details</a></p>';
+
+  $('#ov-cards').innerHTML = cited.slice().sort((a,b) => b.firstDay - a.firstDay).slice(0,3).map(r => cardHTML(r, true)).join('');
+}
+
+/* ---------- Citations table ---------- */
+let filter = 'all';
+function renderCitations(){
+  $('#cit-sub').textContent = QUERIES.length + ' frozen queries, checked daily in Google AI Overviews and AI Mode (US). Window: ' + fmt(1) + ' to ' + fmt(WINDOW) + '.';
+  const f = {all: () => true, cited: r => r.cited, off: r => r.off, gap: r => r.aio && !r.cited}[filter];
+  const list = rows.filter(f);
+  $('#cit-body').innerHTML = list.length ? list.map(r => {
+    const i = rows.indexOf(r);
+    return '<tr>'
+      + '<td class="q">' + esc(r.q) + '</td>'
+      + '<td>' + (r.aio ? 'Yes' : '<span class="dim">No</span>') + '</td>'
+      + '<td>' + (r.cited ? badge(r) : (r.aio ? '<span class="badge bad">Not cited</span>' : '<span class="dim">No AI answer</span>')) + '</td>'
+      + '<td>' + (r.rank ? r.rank : '<span class="dim">Not in top 50</span>') + '</td>'
+      + '<td>' + (r.others.length ? r.others.join(', ') : '<span class="dim">None</span>') + '</td>'
+      + '<td>' + (r.cited ? fmt(r.firstDay) : '') + '</td>'
+      + '<td>' + (r.cited ? '<button class="btn small ghost" data-card="' + i + '">Card</button>' : '') + '</td>'
+      + '</tr>';
+  }).join('') : '<tr><td colspan="7" class="dim">No queries match this filter.</td></tr>';
+}
+document.querySelectorAll('.seg button').forEach(b => b.addEventListener('click', () => {
+  filter = b.dataset.f;
+  document.querySelectorAll('.seg button').forEach(x => x.setAttribute('aria-pressed', String(x === b)));
+  renderCitations();
+}));
+
+/* ---------- Card dialog ---------- */
+const dlg = $('#dlg'); let dlgRow = null;
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-card]');
+  if (!b) return;
+  dlgRow = rows[+b.dataset.card];
+  $('#dlg-card').innerHTML = cardHTML(dlgRow, false);
+  if (dlg.showModal) dlg.showModal(); else dlg.setAttribute('open','');
+});
+$('#dlg-close').addEventListener('click', () => dlg.close());
+$('#dlg-copy').addEventListener('click', () => dlgRow && copy(slackText(dlgRow)));
+dlg.addEventListener('click', e => { if (e.target === dlg) dlg.close(); });
+
+/* ---------- INP ---------- */
+const INP_NOW = 214, INP_BEFORE = 296, GOAL = 200;
+const TEMPLATES = [
+  {t:'/ (home)', p75:189, n:4210}, {t:'/pricing', p75:168, n:2980}, {t:'/product/*', p75:231, n:6120},
+  {t:'/compare/*', p75:254, n:1870}, {t:'/blog/*', p75:142, n:9340}, {t:'/facts/*', p75:121, n:1440}
+];
+const TAGS = [
+  {n:'Live chat widget', ms:62, def:'delay'},
+  {n:'Session replay', ms:48, def:'remove'},
+  {n:'Tag manager container, 14 tags', ms:41, def:'server'},
+  {n:'A/B testing script', ms:35, def:'keep'},
+  {n:'Consent banner (CMP)', ms:29, def:'keep', cmp:true},
+  {n:'Marketing form embed', ms:22, def:'delay'}
+];
+const ACTIONS = {keep:['Keep as is',0], delay:['Load on first interaction',0.8], server:['Move server-side',0.7], remove:['Remove',1]};
+let choices = {};
+try { choices = JSON.parse(localStorage.getItem('citable-tagbouncer') || '{}') || {}; } catch(e) { choices = {}; }
+
+function renderINP(){
+  $('#inp-lede').textContent = INP_NOW + ' ms on mobile.';
+  $('#inp-lede2').textContent = 'Down from ' + INP_BEFORE + ' ms before the sprint shipped on ' + fmtDate(2026,9,26) + '. ' + (INP_NOW - GOAL) + ' ms left to reach the goal.';
+
+  $('#tpl-body').innerHTML = TEMPLATES.map(x => '<tr><td class="q">' + esc(x.t) + '</td><td>' + x.p75 + ' ms</td><td>' + x.n.toLocaleString('en-US') + '</td>'
+    + '<td><div class="bar" aria-hidden="true"><i class="' + (x.p75 > GOAL ? 'over' : '') + '" style="width:' + Math.min(100, x.p75/400*100) + '%"></i><b></b></div></td></tr>').join('');
+
+  // 28-day trend, Oct 21 to Nov 17; sprint shipped on day index 5 (Oct 26)
+  const r = mulberry32(11), vals = [];
+  for (let i = 0; i < 28; i++) {
+    const base = i < 5 ? INP_BEFORE : INP_BEFORE - (INP_BEFORE - INP_NOW) * (1 - Math.exp(-(i - 5) / 6));
+    vals.push(Math.round(base + (r() - 0.5) * 16));
+  }
+  vals[27] = INP_NOW;
+  const lo = 150, hi = 330, W = 560, H = 180;
+  const x = i => i / 27 * W, y = v => H - (v - lo) / (hi - lo) * H;
+  const pts = vals.map((v,i) => x(i).toFixed(1) + ',' + y(v).toFixed(1)).join(' ');
+  $('#trend').innerHTML = '<div class="plot">'
+    + '<svg viewBox="0 0 ' + W + ' ' + H + '" preserveAspectRatio="none" role="img" aria-label="Daily mobile INP p75 from ' + vals[0] + ' ms to ' + INP_NOW + ' ms over 28 days">'
+    + '<line x1="0" x2="' + W + '" y1="' + y(GOAL) + '" y2="' + y(GOAL) + '" stroke="var(--off)" stroke-width="2" stroke-dasharray="6 5" vector-effect="non-scaling-stroke"/>'
+    + '<line x1="' + x(5) + '" x2="' + x(5) + '" y1="0" y2="' + H + '" stroke="var(--muted)" stroke-width="1" vector-effect="non-scaling-stroke"/>'
+    + '<polyline points="' + pts + '" fill="none" stroke="var(--cite)" stroke-width="2.5" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>'
+    + '</svg>'
+    + '<span class="lbl" style="right:0;top:' + (y(GOAL)/H*100) + '%;color:var(--off)">200 ms goal</span>'
+    + '<span class="lbl" style="left:calc(' + (x(5)/W*100) + '% + 6px);top:14px">Sprint shipped</span>'
+    + '</div><div class="axis"><span>' + fmtDate(2026,9,21) + '</span><span>' + fmtDate(2026,10,17) + '</span></div>';
+
+  $('#crux').innerHTML =
+      '<div class="panel"><h2>Window 1</h2><p>' + fmtDate(2026,9,27) + ' to ' + fmtDate(2026,10,23) + '. 22 of 28 days collected.</p>'
+    + '<div class="meter" aria-hidden="true"><i class="cite" style="width:' + (22/28*100) + '%"></i></div><p class="dim" style="font-size:14px">Google publishes the value after the window closes.</p></div>'
+    + '<div class="panel"><h2>Window 2</h2><p>' + fmtDate(2026,10,24) + ' to ' + fmtDate(2026,11,21) + '. Not started.</p>'
+    + '<div class="meter" aria-hidden="true"><i class="cite" style="width:0"></i></div><p class="dim" style="font-size:14px">Both windows must be at 200 ms or less for the SLA.</p></div>';
+
+  $('#tb-body').innerHTML = TAGS.map((t,i) => {
+    const cur = choices[i] || t.def;
+    return '<tr><td class="q">' + esc(t.n) + '</td><td>' + t.ms + ' ms</td><td><select data-tag="' + i + '" aria-label="Action for ' + esc(t.n) + '">'
+      + Object.entries(ACTIONS).filter(([k]) => !(t.cmp && k === 'remove')).map(([k,[l]]) => '<option value="' + k + '"' + (k === cur ? ' selected' : '') + '>' + l + '</option>').join('')
+      + '</select></td><td>' + (t.cmp ? 'Required by law for many sites. If kept, its cost is carved out of the SLA.' : (cur === 'keep' ? 'Client keeps it; adds risk to the SLA.' : '<span class="dim">Covered</span>')) + '</td></tr>';
+  }).join('');
+  updateTotal();
+}
+function updateTotal(){
+  const saving = Math.round(TAGS.reduce((s,t,i) => s + t.ms * ACTIONS[choices[i] || t.def][1], 0) * 0.5);
+  const proj = INP_NOW - saving, el = $('#tb-total');
+  el.className = 'status ' + (proj <= GOAL ? 'good' : 'bad');
+  el.textContent = 'With these choices: about ' + proj + ' ms, saving roughly ' + saving + ' ms. Rough estimate that assumes half of the blocking time overlaps other work.';
+}
+document.addEventListener('change', e => {
+  const s = e.target.closest('[data-tag]');
+  if (!s) return;
+  choices[s.dataset.tag] = s.value;
+  try { localStorage.setItem('citable-tagbouncer', JSON.stringify(choices)); } catch(err) {}
+  renderINP();
+});
+
+/* ---------- Mini-Scan (simulated) ---------- */
+$('#sc-q').value = ["best hr software for small business","hris vs hcm","payroll software with pto tracking","how to automate employee onboarding","performance review software for startups","hr software pricing per employee","hr platform alternatives for mid-size companies","employee engagement survey tools","applicant tracking system for startups","how to calculate employee turnover rate"].join('\n');
+const POOL = ['competitor-a.com','competitor-b.com','reviewsite.com','a forum thread','industry-blog.net'];
+function simulate(domain, qs){
+  return qs.map(q => {
+    const r = mulberry32(hashStr(domain.toLowerCase() + '|' + q.toLowerCase()));
+    const aio = r() < 0.64, you = aio && r() < 0.18;
+    const others = aio ? POOL.filter(() => r() < 0.4).slice(0,3) : [];
+    if (aio && !others.length) others.push(POOL[Math.floor(r()*POOL.length)]);
+    return {q, aio, you, others};
+  });
+}
+let lastScan = null;
+$('#sc-run').addEventListener('click', () => {
+  const err = $('#sc-err'), out = $('#sc-out');
+  const domain = $('#sc-domain').value.trim().replace(/^https?:\/\//,'').replace(/\/.*$/,'');
+  let qs = $('#sc-q').value.split('\n').map(s => s.trim()).filter(Boolean);
+  err.hidden = true;
+  if (!/^[a-z0-9-]+(\.[a-z0-9-]+)+$/i.test(domain)) { err.textContent = 'Enter a domain like example.com.'; err.hidden = false; return; }
+  if (!qs.length) { err.textContent = 'Add at least one query, one per line.'; err.hidden = false; return; }
+  let trimmed = false;
+  if (qs.length > 25) { qs = qs.slice(0,25); trimmed = true; }
+  const res = simulate(domain, qs);
+  const a = res.filter(r => r.aio).length, y = res.filter(r => r.you).length, gap = res.filter(r => r.aio && !r.you);
+  lastScan = {domain, res, a, y, gap};
+  out.hidden = false;
+  out.innerHTML = '<h2>Citation gap for ' + esc(domain) + '</h2>'
+    + '<p class="lede" style="margin-top:16px">' + gap.length + ' of ' + res.length + ' queries.</p>'
+    + '<p class="lede-2">Google answers ' + a + ' of them with AI and cites ' + esc(domain) + ' in ' + y + '. In the other ' + gap.length + ', the AI answer cites someone else.</p>'
+    + (trimmed ? '<p class="note" style="margin-top:12px">Mini-Scan covers 25 queries. Only the first 25 were checked.</p>' : '')
+    + '<div class="row" style="margin:20px 0 14px"><button class="btn" id="sc-copy">Copy outreach summary</button></div>'
+    + '<div class="tablewrap"><table><thead><tr><th>Query</th><th>AI answer</th><th>' + esc(domain) + ' cited</th><th>Cited instead</th></tr></thead><tbody>'
+    + res.map((r,i) => '<tr class="appear" style="animation-delay:' + (i*45) + 'ms"><td class="q">' + esc(r.q) + '</td><td>' + (r.aio ? 'Yes' : '<span class="dim">No</span>') + '</td><td>'
+      + (r.you ? '<span class="badge off">Cited</span>' : (r.aio ? '<span class="badge bad">Gap</span>' : '<span class="dim">No AI answer</span>')) + '</td><td>'
+      + (r.others.length ? r.others.join(', ') : '<span class="dim">None</span>') + '</td></tr>').join('')
+    + '</tbody></table></div>';
+  $('#sc-copy').addEventListener('click', () => {
+    const s = lastScan;
+    copy('Mini-Scan for ' + s.domain + ', ' + fmtDate(2026,10,17) + '\n'
+      + 'Google answers ' + s.a + ' of ' + s.res.length + ' buying-intent queries with AI. ' + s.domain + ' is cited in ' + s.y + '.\n'
+      + 'Gap: ' + s.gap.length + ' queries where the AI answer cites other sites.'
+      + (s.gap.length ? '\nExamples:\n' + s.gap.slice(0,3).map(r => '- ' + r.q + ' (cites ' + r.others.join(', ') + ')').join('\n') : ''));
+  });
+  out.scrollIntoView({behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block:'start'});
+});
+
+/* ---------- Setup code ---------- */
+const CODE = {
+rum: `// npm i web-vitals   (pin the exact version you validate)
+import { onINP, onLCP, onCLS } from 'web-vitals/attribution';
+
+const ENDPOINT = 'https://portal.example.com/api/ingest/vitals';
+const CLIENT_ID = 'YOUR_CLIENT_ID';
+
+// Report p75 per template, not per URL
+const RULES = [[/^\\/product\\//, '/product/*'], [/^\\/compare\\//, '/compare/*'], [/^\\/blog\\//, '/blog/*']];
+function template(path) {
+  for (const [re, t] of RULES) if (re.test(path)) return t;
+  return path;
+}
+
+function send(m) {
+  const a = m.attribution || {};
+  const body = JSON.stringify({
+    client_id: CLIENT_ID,
+    metric: m.name,
+    value: Math.round(m.value * (m.name === 'CLS' ? 1000 : 1)),
+    rating: m.rating,
+    nav_type: m.navigationType,
+    url_template: template(location.pathname),
+    device: matchMedia('(pointer: coarse)').matches ? 'mobile' : 'desktop', // rough; refine by UA server-side
+    attribution: m.name === 'INP' ? {
+      target: a.interactionTarget,
+      type: a.interactionType,
+      input_delay: Math.round(a.inputDelay || 0),
+      processing: Math.round(a.processingDuration || 0),
+      presentation: Math.round(a.presentationDelay || 0),
+    } : null,
+  });
+  if (!(navigator.sendBeacon && navigator.sendBeacon(ENDPOINT, body))) {
+    fetch(ENDPOINT, { method: 'POST', body, keepalive: true });
+  }
+}
+
+onINP(send);
+onLCP(send);
+onCLS(send);
+// SPA route changes (soft navigations): enable only if the version you pin
+// supports it, and verify before promising it in the SLA.`,
+sql: `create table clients (
+  id uuid primary key default gen_random_uuid(),
+  name text not null,
+  domain text not null
+);
+
+-- Real-visitor speed events
+create table vitals (
+  id bigint generated always as identity primary key,
+  client_id uuid not null references clients(id),
+  metric text not null check (metric in ('INP','LCP','CLS')),
+  value integer not null,          -- ms (CLS x1000)
+  rating text,
+  device text,
+  url_template text not null,
+  nav_type text,
+  attribution jsonb,
+  created_at timestamptz not null default now()
+);
+create index on vitals (client_id, metric, created_at);
+
+-- Frozen query list (60 days)
+create table query_sets (
+  client_id uuid not null references clients(id),
+  query text not null,
+  frozen_from date not null,
+  frozen_until date not null,
+  primary key (client_id, query)
+);
+
+-- One row per daily check of an AI answer
+create table aio_checks (
+  id bigint generated always as identity primary key,
+  client_id uuid not null references clients(id),
+  query text not null,
+  checked_at timestamptz not null default now(),
+  surface text not null check (surface in ('ai_overview','ai_mode')),
+  aio_present boolean not null,
+  cited boolean not null default false,
+  cited_url text,
+  source_position int,
+  source_count int,
+  organic_rank int,                -- null = not in top 50
+  other_domains text[],
+  snapshot_path text,              -- Supabase Storage
+  off_top10 boolean generated always as
+    (cited and (organic_rank is null or organic_rank > 10)) stored
+);
+
+-- SLA count: one citation per frozen query, first sighting only
+create view sla_citations as
+select c.client_id, c.query, min(c.checked_at) as first_seen,
+       bool_or(c.off_top10) as off_top10
+from aio_checks c
+join query_sets q on q.client_id = c.client_id and q.query = c.query
+where c.cited and c.checked_at::date between q.frozen_from and q.frozen_until
+group by 1, 2;
+
+-- Mobile INP p75 per template, last 28 days
+create view inp_p75 as
+select client_id, url_template,
+       percentile_cont(0.75) within group (order by value) as p75,
+       count(*) as interactions
+from vitals
+where metric = 'INP' and device = 'mobile'
+  and created_at > now() - interval '28 days'
+group by 1, 2;
+
+alter table vitals enable row level security;
+alter table aio_checks enable row level security;
+alter table query_sets enable row level security;
+-- Policies: each client reads only rows where client_id matches its JWT claim.`
+};
+$('#code-rum').textContent = CODE.rum;
+$('#code-sql').textContent = CODE.sql;
+document.querySelectorAll('[data-copy]').forEach(b => b.addEventListener('click', () => copy(CODE[b.dataset.copy])));
+
+/* ---------- Router ---------- */
+const VIEWS = ['overview','citations','inp','scan','setup'];
+function route(){
+  const h = location.hash.slice(1), v = VIEWS.includes(h) ? h : 'overview';
+  document.querySelectorAll('[data-view]').forEach(s => { s.hidden = s.dataset.view !== v; });
+  document.querySelectorAll('.nav a').forEach(a => {
+    if (a.getAttribute('href') === '#' + v) a.setAttribute('aria-current','page'); else a.removeAttribute('aria-current');
+  });
+  window.scrollTo(0,0);
+}
+
+renderOverview();
+renderCitations();
+renderINP();
+addEventListener('hashchange', route);
+route();
+})();
+</script>
+</body>
+</html>

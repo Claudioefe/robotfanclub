@@ -1,0 +1,35 @@
+{
+  "_note": "Sintético. Misma forma que la respuesta de /v3/serp/google/organic/live/advanced con load_async_ai_overview. No son datos reales.",
+  "status_code": 20000,
+  "tasks": [{
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "cost": 0.0026,
+    "result": [{
+      "keyword": "soc 2 type 1 vs type 2",
+      "location_code": 2840,
+      "language_code": "en",
+      "check_url": "https://www.google.com/search?q=soc+2+type+1+vs+type+2&hl=en&gl=US",
+      "datetime": "2026-11-17 14:00:00 +00:00",
+      "item_types": ["ai_overview", "organic"],
+      "items": [
+        { "type": "ai_overview", "rank_group": 1, "rank_absolute": 1, "items": [
+          { "type": "ai_overview_element", "title": null, "text": "SOC 2 Type 1 checks design at a point in time; Type 2 checks operation over a period.",
+            "references": [
+              { "type": "ai_overview_reference", "source": "TrustKit", "domain": "trustkit.com", "url": "https://www.trustkit.com/soc2", "title": "SOC 2 guide" },
+              { "type": "ai_overview_reference", "source": "Northwind", "domain": "www.northwindsec.com", "url": "https://www.northwindsec.com/facts/soc-2?utm_source=x", "title": "SOC 2 facts" }
+            ] },
+          { "type": "ai_overview_table_element", "markdown": "| | Type 1 | Type 2 |",
+            "table": { "table_header": ["", "Type 1", "Type 2"], "table_content": [["Period", "Point in time", "3-12 months"]] },
+            "references": [
+              { "type": "ai_overview_reference", "domain": "trustkit.com", "url": "https://trustkit.com/soc2/" },
+              { "type": "ai_overview_reference", "domain": "auditly.io", "url": "https://auditly.io/guide" }
+            ] }
+        ] },
+        { "type": "organic", "rank_group": 1, "rank_absolute": 2, "domain": "www.trustkit.com", "url": "https://www.trustkit.com/soc2", "title": "SOC 2 guide" },
+        { "type": "organic", "rank_group": 2, "rank_absolute": 3, "domain": "complyhq.com", "url": "https://complyhq.com/soc-2-types", "title": "SOC 2 types" },
+        { "type": "organic", "rank_group": 3, "rank_absolute": 4, "domain": "northwindsec.com", "url": "https://northwindsec.com/blog/soc-2-timeline/", "title": "SOC 2 timeline" }
+      ]
+    }]
+  }]
+}
