@@ -109,3 +109,34 @@ Second migration `20261117150000_hardening.sql` (the initial one is not edited):
 5. **Routes:** `/portal` (list or redirect), `/portal/[clientId]` (Overview), `/citations`, `/speed`, `/setup`, and `/snapshot` (signed link to the evidence).
 6. **Organic rank:** only stored for cited queries; uncited ones show "—". Copy says "top 10", not "top 50", because we measure at depth 10.
 7. **Demo:** the seed now rebuilds the demo client's checks (including AI Mode, sample snapshots, ~2,600 INP events calibrated to ≈214 ms and 6 scripts). Only the demo is reset; other clients' checks stay append-only.
+
+## D-023 — Client kinds: real, demo and sandbox ✅ (2026-11-17)
+- **Problem:** the fixtures are a single synthetic response; applying it to real clients would write fake SLA evidence (append-only, and it blocks that day's real check), and it would change Northwind's 13 citations.
+- **Decision:** `clients.kind`: `real` (live mode only), `demo` (Northwind; no job touches it) and `sandbox` ("Fixture Sandbox", the only client the dry-run writes to). Live refuses `demo` and `sandbox`; dry-run refuses `real`.
+
+## D-024 — Watcher design ✅ (2026-11-17)
+- Fixed time **14:00 UTC** (9:00 AM New York in winter) and UTC day; not changed without notice (D-006).
+- **Idempotent:** one check per query, surface and day. A second run the same day does not call the API again (saves money) and overwrites nothing: `insert … do nothing` and snapshots without `upsert`. If only one surface is missing, only that one is filled in.
+- One retry per call, with a wait. Partial failures are recorded and the run continues: if AI Mode fails but the SERP worked, the AI Overview is kept; if the SERP fails, AI Mode is saved with `organic_checked = false` (the organic rank is not guessed). The run only "fails" (exit 1) if nothing worked.
+- `cost_usd` per check and one `watcher_runs` row per run (mode, checks written, errors, cost). The raw JSON is always stored, even when there is no AI answer (it is evidence of absence).
+
+## D-025 — Live mode is blocked by default ✅ (2026-11-17)
+- Calling DataForSEO needs three things at once: `--mode live`, `WATCHER_ALLOW_LIVE=yes` (on GitHub, the repository variable `WATCHER_LIVE_ENABLED`) and `DFS_LOGIN`/`DFS_PASSWORD`. Without the variable it does not run, even with credentials. Tests use only fixtures and a stubbed `fetch`.
+- Scheduled runs are dry-run until the owner enables live (D-011 is still pending: account and budget).
+
+## D-026 — Native TypeScript in jobs ✅ (2026-11-17)
+- Node 24 (Actions) and 25 (local) run `.ts` with no dependencies: jobs import with the `.ts` extension and use only erasable syntax (`erasableSyntaxOnly`). `tsx` is not installed. `package.json` declares `"type": "module"`.
+
+## D-027 — Watcher hardening after the Phase 3 audit ✅ (2026-11-17)
+Code plus migration `20261119120000_watcher_hardening.sql`:
+1. **Unique snapshot paths:** `{client}/{day}/{surface}/{slug}-{hash of the query}-{time}.json`. Before, two queries with the same slug (case, punctuation, non-ASCII, truncation at 80) shared a file and the evidence was silently wrong. An existing snapshot is now an error, not ignored.
+2. **An empty top 10 is "unknown":** a SERP without organic results sets `organic_checked = false`; it no longer turns every citation into off-top10. A 20000 response without a `result` is a **failure**, not "no AI answer".
+3. **D-019 refined:** `first_off_top10` is judged on the first citation whose organic top 10 was known (`organic_checked`). A check without a top 10 does not decide.
+4. **Retries only for transient errors** (network, timeout, 429, 5xx). An authentication or funds error (HTTP 401/402/403 or code 40100–40299) **stops the whole run**. 120 s timeout per call and a **per-run cost ceiling** (`WATCHER_MAX_COST_USD`, default USD 5).
+5. **`clients.kind` has no default:** it must be chosen when creating a client (before, forgetting it meant `real` and was billed in live).
+6. **Fixed hour reinforced:** live refuses to run outside 14:00–16:59 UTC unless `WATCHER_ALLOW_OFF_HOUR=yes`. DataForSEO credentials only reach the workflow's live step. A live run with failures ends red (GitHub emails the owner).
+7. A failure in one client does not cut the others, and the run is always closed in `watcher_runs`. `existing()` pages (PostgREST's 1000-row cap).
+8. The parser recognizes the client by the domain field **or** the URL host.
+- **Verified in DataForSEO's public documentation (no API call):** AI Mode returns the same `ai_overview` / `ai_overview_reference` as the SERP, nested in elements, tables and expanded components.
+- **Business rules documented:** if several client pages are cited, the first by source position defines the citation; the URL is normalized without the query string (`?utm=…` does not change the page).
+- **Accepted risks:** (a) the secret key can still delete evidence (the trigger only blocks `UPDATE`); mitigation: backups, to be evaluated in Phase 7; (b) GitHub actions are pinned by tag, not SHA; (c) GitHub disables cron after 60 days without repo activity: a heartbeat or a check is needed; (d) the cost of a failed-but-billed call is unknown and not in `cost_usd`.

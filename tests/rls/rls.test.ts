@@ -53,8 +53,8 @@ describe.skipIf(!hasEnv)("row level security", () => {
     admin = createClient(url!, secretKey!, opts);
     anon = createClient(url!, publishableKey!, opts);
 
-    const a = await admin.from("clients").insert({ name: `rls-test A ${run}`, domain: `a-${run}.test` }).select("id").single();
-    const b = await admin.from("clients").insert({ name: `rls-test B ${run}`, domain: `b-${run}.test` }).select("id").single();
+    const a = await admin.from("clients").insert({ name: `rls-test A ${run}`, domain: `a-${run}.test`, kind: "demo" }).select("id").single();
+    const b = await admin.from("clients").insert({ name: `rls-test B ${run}`, domain: `b-${run}.test`, kind: "demo" }).select("id").single();
     if (a.error || b.error) throw a.error ?? b.error;
     clientA = a.data.id;
     clientB = b.data.id;
@@ -251,6 +251,21 @@ describe.skipIf(!hasEnv)("row level security", () => {
       const { data } = await userA.from("sla_citations").select("first_off_top10").eq("client_id", clientA).eq("query", "q2");
       expect(data).toEqual([{ first_off_top10: false }]);
       await admin.from("aio_checks").delete().eq("client_id", clientA).eq("query", "q2").in("checked_on", [day(-3), day(0)]);
+    });
+
+    it("ignores checks without a known organic top 10 when judging off-top10", async () => {
+      // q2: first cited while the organic top 10 was unknown, then cited again, outside the top 10, with it known.
+      ok("q2 unknown", await admin.from("aio_checks").insert({
+        client_id: clientA, query: "q2", surface: "ai_mode", checked_on: day(-4), checked_at: `${day(-4)}T14:00:00Z`,
+        aio_present: true, cited: true, organic_rank: null, organic_checked: false,
+      }));
+      ok("q2 known", await admin.from("aio_checks").insert({
+        client_id: clientA, query: "q2", surface: "ai_overview", checked_on: day(-3), checked_at: `${day(-3)}T14:00:00Z`,
+        aio_present: true, cited: true, organic_rank: null, organic_checked: true,
+      }));
+      const { data } = await userA.from("sla_citations").select("first_off_top10").eq("client_id", clientA).eq("query", "q2");
+      expect(data).toEqual([{ first_off_top10: true }]);
+      await admin.from("aio_checks").delete().eq("client_id", clientA).eq("query", "q2").in("checked_on", [day(-4), day(-3)]);
     });
 
     it("does not call a citation off-top10 when the organic top 10 was unavailable", async () => {

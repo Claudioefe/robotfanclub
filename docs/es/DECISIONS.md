@@ -109,3 +109,34 @@ Segunda migración `20261117150000_hardening.sql` (la inicial no se edita):
 5. **Rutas:** `/portal` (lista o redirige), `/portal/[clientId]` (Overview), `/citations`, `/speed`, `/setup`, y `/snapshot` (enlace firmado a la evidencia).
 6. **Rank orgánico:** solo se guarda para queries citadas; en las no citadas la tabla muestra "—". Los textos dicen "top 10", no "top 50", porque medimos con profundidad 10.
 7. **Demo:** el seed ahora reconstruye los chequeos del cliente demo (incluye AI Mode, snapshots de ejemplo, ~2.600 eventos de INP calibrados a ≈214 ms y 6 scripts). Es append-only para el resto de clientes; solo el demo se reinicia.
+
+## D-023 — Tipos de cliente: real, demo y sandbox ✅ (2026-11-17)
+- **Problema:** los fixtures son una sola respuesta sintética; aplicarla a clientes reales escribiría evidencia falsa del SLA (que es append-only y bloquea el chequeo real de ese día), y a Northwind le cambiaría las 13 citas.
+- **Decisión:** `clients.kind`: `real` (solo el modo live), `demo` (Northwind; ningún job lo toca) y `sandbox` ("Fixture Sandbox", el único cliente donde escribe el dry-run). El live se niega a procesar `demo` y `sandbox`; el dry-run, `real`.
+
+## D-024 — Diseño del watcher ✅ (2026-11-17)
+- Hora fija **14:00 UTC** (9:00 de Nueva York en invierno) y día UTC; no se cambia sin avisar (D-006).
+- **Idempotente:** un chequeo por query, superficie y día. Una segunda corrida el mismo día no vuelve a llamar a la API (ahorra plata) ni sobrescribe nada: `insert … do nothing` y snapshots sin `upsert`. Si falta una sola superficie, se completa solo esa.
+- Un reintento por llamada, con espera. Las fallas parciales se registran y se sigue: si falla AI Mode pero el SERP salió bien, se guarda el AI Overview; si falla el SERP, se guarda AI Mode con `organic_checked = false` (no se adivina el rank orgánico). La corrida solo "falla" (exit 1) si no funcionó nada.
+- Se guarda `cost_usd` por chequeo y una fila por corrida en `watcher_runs` (modo, chequeos escritos, errores, costo). El JSON crudo se guarda siempre, también cuando no hay respuesta de IA (es evidencia de la ausencia).
+
+## D-025 — El modo live está bloqueado por defecto ✅ (2026-11-17)
+- Para llamar a DataForSEO hacen falta tres cosas a la vez: `--mode live`, `WATCHER_ALLOW_LIVE=yes` (en GitHub, la variable de repositorio `WATCHER_LIVE_ENABLED`) y `DFS_LOGIN`/`DFS_PASSWORD`. Sin la variable, ni con credenciales se ejecuta. Los tests usan solo fixtures y un `fetch` simulado.
+- Las corridas programadas son dry-run hasta que el dueño habilite el live (D-011 sigue pendiente: cuenta y presupuesto).
+
+## D-026 — TypeScript nativo en los jobs ✅ (2026-11-17)
+- Node 24 (Actions) y 25 (local) ejecutan `.ts` sin dependencias: los jobs importan con extensión `.ts` y solo usan sintaxis borrable (`erasableSyntaxOnly`). No se instala `tsx`. `package.json` declara `"type": "module"`.
+
+## D-027 — Endurecimiento del watcher tras la auditoría de la Fase 3 ✅ (2026-11-17)
+Código más la migración `20261119120000_watcher_hardening.sql`:
+1. **Rutas de snapshot únicas:** `{cliente}/{día}/{superficie}/{slug}-{hash de la query}-{hora}.json`. Antes, dos queries con el mismo slug (mayúsculas, signos, no-ASCII, truncado a 80) compartían archivo y la evidencia quedaba equivocada sin error. Un snapshot que ya existe ahora es un error, no se ignora.
+2. **Un top 10 vacío es "desconocido":** un SERP sin resultados orgánicos pone `organic_checked = false`; no convierte toda cita en off-top10. Una respuesta 20000 sin `result` es una **falla**, no "sin respuesta de IA".
+3. **D-019 refinado:** `first_off_top10` se juzga con la primera cita cuyo top 10 orgánico era conocido (`organic_checked`). Un chequeo sin top 10 no decide.
+4. **Reintentos solo para errores transitorios** (red, timeout, 429, 5xx). Un error de autenticación o fondos (HTTP 401/402/403 o código 40100–40299) **detiene toda la corrida**. Hay timeout de 120 s por llamada y un **tope de costo por corrida** (`WATCHER_MAX_COST_USD`, por defecto USD 5).
+5. **`clients.kind` sin valor por defecto:** hay que elegirlo al crear el cliente (antes, olvidarlo equivalía a `real` y se cobraba en live).
+6. **Hora fija reforzada:** el live se niega fuera de 14:00–16:59 UTC salvo `WATCHER_ALLOW_OFF_HOUR=yes`. Las credenciales de DataForSEO solo llegan al paso live del workflow. Un live con fallas termina en rojo (GitHub avisa por email).
+7. Una falla en un cliente no corta a los demás, y la corrida siempre queda cerrada en `watcher_runs`. `existing()` pagina (tope de 1000 filas de PostgREST).
+8. El parser reconoce al cliente por el dominio **o** por el host de la URL.
+- **Verificado en la documentación pública de DataForSEO (sin llamar a la API):** AI Mode devuelve el mismo `ai_overview` / `ai_overview_reference` que el SERP, anidado en elementos, tablas y componentes expandidos.
+- **Reglas de negocio documentadas:** si se citan varias páginas del cliente, define la cita la primera por posición de fuente; la URL se normaliza sin query (`?utm=…` no cambia la página).
+- **Riesgos aceptados:** (a) con la secret key todavía se puede borrar evidencia (el trigger solo bloquea `UPDATE`); mitigación: backups, y a evaluar en la Fase 7; (b) las acciones de GitHub se fijan por tag, no por SHA; (c) GitHub desactiva los cron tras 60 días sin actividad en el repo: hace falta un latido o revisar; (d) el costo de una llamada fallida pero cobrada no se conoce y no entra en `cost_usd`.

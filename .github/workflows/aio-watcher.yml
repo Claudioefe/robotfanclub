@@ -1,0 +1,58 @@
+name: AIO watcher
+
+# Daily check of Google AI Overviews and AI Mode. The time is fixed on purpose (D-006): changing it breaks the
+# comparability of the series. 14:00 UTC = 9:00 AM New York (winter). Live runs outside 14:00 to 16:59 UTC are refused.
+on:
+  schedule:
+    - cron: "0 14 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "dry-run uses fixtures and sandbox clients. live calls DataForSEO (costs money, needs the repo variable below)."
+        type: choice
+        options: [dry-run, live]
+        default: dry-run
+
+permissions:
+  contents: read
+
+concurrency:
+  group: aio-watcher
+  cancel-in-progress: false
+
+env:
+  # Scheduled runs are dry-run unless live was enabled. Manual runs use the chosen input.
+  MODE: ${{ inputs.mode || (vars.WATCHER_LIVE_ENABLED == 'yes' && 'live' || 'dry-run') }}
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+
+      # Dry-run never receives the DataForSEO credentials: it cannot spend money even by mistake.
+      - name: Run watcher (dry-run)
+        if: env.MODE != 'live'
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+        run: node jobs/watcher/cli.ts --mode dry-run
+
+      # Live stays off until the repository variable WATCHER_LIVE_ENABLED is set to "yes" by the owner.
+      # A failed live run ends red so GitHub notifies the owner.
+      - name: Run watcher (live)
+        if: env.MODE == 'live'
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+          DFS_LOGIN: ${{ secrets.DFS_LOGIN }}
+          DFS_PASSWORD: ${{ secrets.DFS_PASSWORD }}
+          WATCHER_ALLOW_LIVE: ${{ vars.WATCHER_LIVE_ENABLED }}
+          WATCHER_MAX_COST_USD: ${{ vars.WATCHER_MAX_COST_USD }}
+        run: node jobs/watcher/cli.ts --mode live

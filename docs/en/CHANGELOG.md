@@ -22,3 +22,11 @@
 - Verified: 49 tests (including the prototype's numbers against the database: 13 citations, 6 off-top10, INP ≈213 ms), lint, typecheck, build, and a pass over the 7 URLs as staff with a real session (200, correct data, 404 for unknown routes, snapshot link).
 - Differences from the prototype: organic rank only on cited queries; the demo's per-template p75s sit ~20% above the prototype's because of the calibration to the headline INP.
 - Pending: visual review in the browser (light/dark/phone) by the user; the ingest endpoint (Phase 4).
+
+## Phase 3 — dry-run watcher (2026-11-17)
+- TypeScript watcher (`jobs/watcher/`): parser, sources (fixtures and live), idempotent orchestrator, Supabase store and CLI. Node's native TypeScript (D-026).
+- `real` / `demo` / `sandbox` clients (D-023); `watcher_runs` table; GitHub Actions workflow (cron 14:00 UTC and manual).
+- Live mode blocked by default, with a fixed hour and a cost ceiling (D-025, D-027). DataForSEO was never called.
+- Read-only subagent audit and fixes (D-027): unique snapshot paths, empty top 10 = unknown, transient-only retries, `kind` without a default.
+- Verified: 96 tests (parser, orchestrator, live gate, stubbed requests, and the real watcher against the database on a sandbox client), lint, typecheck, build. The dry-run writes 4 checks and a second run writes 0.
+- Pending: authorize the DataForSEO account and budget (D-011) before turning on live; add the GitHub secrets for the cron; evaluate blocking evidence deletion (Phase 7).

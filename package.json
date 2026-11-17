@@ -2,6 +2,7 @@
   "name": "robot-fan-club",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -11,7 +12,8 @@
     "test:watch": "vitest",
     "typecheck": "next typegen && tsc --noEmit",
     "seed:demo": "node --env-file=.env.local scripts/seed-demo.mjs",
-    "grant-access": "node --env-file=.env.local scripts/grant-access.mjs"
+    "grant-access": "node --env-file=.env.local scripts/grant-access.mjs",
+    "watcher:dry-run": "node --env-file=.env.local jobs/watcher/cli.ts --mode dry-run"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.7",

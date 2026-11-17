@@ -103,6 +103,24 @@ async function seedSpeed(sb, must) {
   }, { onConflict: "client_id,scope,target,form_factor,period_end" }));
 }
 
+// Fixture Sandbox: the only client the dry-run watcher writes to. Its queries match tests/fixtures, and its window
+// starts today so the daily dry-run always has an active window. Rebuilt on every seed.
+const SANDBOX_CLIENT_ID = "00000000-0000-4000-8000-000000000002";
+async function seedSandbox(sb, must) {
+  const today = new Date().toISOString().slice(0, 10);
+  const until = new Date(Date.parse(today) + 59 * 864e5).toISOString().slice(0, 10);
+  must("sandbox client", await sb.from("clients").upsert({
+    id: SANDBOX_CLIENT_ID, name: "Fixture Sandbox", domain: "northwindsec.com", kind: "sandbox",
+  }));
+  must("sandbox clear checks", await sb.from("aio_checks").delete().eq("client_id", SANDBOX_CLIENT_ID));
+  must("sandbox clear sets", await sb.from("query_sets").delete().eq("client_id", SANDBOX_CLIENT_ID));
+  must("sandbox sets", await sb.from("query_sets").insert(
+    ["soc 2 type 1 vs type 2", "how long does soc 2 take"].map((query) => ({
+      client_id: SANDBOX_CLIENT_ID, query, frozen_from: today, frozen_until: until,
+    })),
+  ));
+}
+
 async function main() {
   const { SUPABASE_URL, SUPABASE_SECRET_KEY } = process.env;
   if (!SUPABASE_URL || !SUPABASE_SECRET_KEY) throw new Error("Missing SUPABASE_URL or SUPABASE_SECRET_KEY");
@@ -113,7 +131,7 @@ async function main() {
 
   must("client", await sb.from("clients").upsert({
     id: DEMO_CLIENT_ID, name: "Northwind Security", domain: "northwindsec.com", service_fee_usd: 14500,
-    inp_sprint_deployed_on: "2026-10-26", inp_baseline_ms: 296,
+    inp_sprint_deployed_on: "2026-10-26", inp_baseline_ms: 296, kind: "demo",
   }));
 
   const frozenFrom = isoDay(1);
@@ -163,6 +181,7 @@ async function main() {
   must("aio_checks", await sb.from("aio_checks").insert(checks));
 
   await seedSpeed(sb, must);
+  await seedSandbox(sb, must);
 
   const cited = rows.filter((r) => r.cited);
   console.log(`Demo ready: ${rows.length} queries, ${cited.length} citations, day ${DAY} of ${WINDOW}, speed events and scripts loaded.`);
