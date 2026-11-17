@@ -58,3 +58,7 @@ Findings from the analysis, to resolve in the first migration (nothing is migrat
 
 ## D-012 — Phase 0 technical base ✅ (2026-11-17)
 - Next.js 16.4.6 + React 19.3 + Vitest 4, no Tailwind (styles use prototype tokens in Phase 2). `npm audit` only flags dev dependencies; the fix is not forced.
+
+## D-013 — GitHub remote configured ✅ (2026-11-17)
+- **Decision:** the repo is published at https://github.com/Claudioefe/robotfanclub.git (`main` branch). The remote's initial commit (a README only) was integrated with an unrelated-histories merge. Supersedes the "local repo" part of D-003.
+- **Consequences:** the Netlify preview deploy is now unblocked; it happens when instructed.

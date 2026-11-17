@@ -58,3 +58,7 @@ Hallazgos del análisis, a resolver en la primera migración (aún no hay nada m
 
 ## D-012 — Base técnica de la Fase 0 ✅ (2026-11-17)
 - Next.js 16.4.6 + React 19.3 + Vitest 4, sin Tailwind (estilos con tokens del prototipo en Fase 2). `npm audit` solo marca dependencias de desarrollo; no se fuerza el fix.
+
+## D-013 — Remoto de GitHub configurado ✅ (2026-11-17)
+- **Decisión:** el repo se publica en https://github.com/Claudioefe/robotfanclub.git (rama `main`). Se integró el commit inicial del remoto (solo un README) con merge de historias no relacionadas. Reemplaza la parte "repo local" de D-003.
+- **Consecuencias:** el deploy de preview en Netlify queda habilitado; se hace cuando se indique.

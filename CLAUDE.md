@@ -10,7 +10,7 @@ La especificación completa y las fases están en `docs/spec.md`. Leela antes de
 - Hablame en español. Todo el código y el texto visible del producto van en inglés.
 - Documentación bilingüe: cada doc en `docs/es/` y `docs/en/`, siempre sincronizados. Las decisiones tomadas se registran en `docs/es/DECISIONS.md` y `docs/en/DECISIONS.md`; actualizalas al decidir algo nuevo.
 - Agentes: la sesión principal hace lo delicado y secuencial; subagentes solo para trabajo independiente, revisiones de solo lectura y traducciones (ver D-008).
-- Repo local por ahora; sin remoto de GitHub ni deploy hasta que lo indique (D-003).
+- Remoto de GitHub: `origin` (D-013). Sin deploy en Netlify hasta que lo indique.
 - Trabajamos por fases (ver `docs/spec.md`). Al empezar cada fase: plan corto, archivos que vas a crear o tocar, comandos, y qué tengo que hacer yo (cuentas, keys, configuraciones). Esperá mi OK antes de ejecutar.
 - Al terminar una fase: qué quedó hecho, cómo lo pruebo, qué quedó pendiente. Hacé commit al cerrar cada fase.
 - Preguntá antes de: instalar dependencias grandes, crear recursos en la nube, cambiar el esquema de datos ya migrado, o correr algo que cueste plata.

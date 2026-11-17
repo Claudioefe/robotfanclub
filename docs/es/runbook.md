@@ -18,4 +18,4 @@ Copiar `.env.example` a `.env.local` (nunca commitear). Hasta la Fase 1 no hace 
 
 ## Notas
 - `npm audit` reporta vulnerabilidades solo en dependencias de desarrollo (cadena de ESLint); `npm audit --omit=dev` da 0. No se corrió `audit fix --force` para no romper versiones.
-- Sin remoto de GitHub ni deploy por ahora (D-003).
+- Remoto: `origin` = https://github.com/Claudioefe/robotfanclub.git (D-013). Deploy en Netlify pendiente.
