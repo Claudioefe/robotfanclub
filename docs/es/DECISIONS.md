@@ -96,3 +96,16 @@ Segunda migración `20261117150000_hardening.sql` (la inicial no se edita):
 ## D-020 — Sin Cache Components ni Partial Prefetching ✅ (2026-11-17)
 - **Contexto:** el esqueleto de `create-next-app` activó `cacheComponents` y `partialPrefetching`; `/portal` fallaba con "unstable value Date.now() while prerendering".
 - **Decisión:** se quitan ambos (CLAUDE.md: sin features opcionales/experimentales). Las páginas que leen la sesión son dinámicas por defecto. Next.js indica que ambas pasarán a ser estándar en la próxima versión mayor; se reevalúa entonces.
+
+## D-021 — Tailwind CSS ✅ (2026-11-17)
+- **Decisión:** el portal usa Tailwind CSS 4. Reemplaza el "sin Tailwind" de D-012. Los colores del prototipo son variables CSS (claro y oscuro según el sistema) mapeadas a utilidades de Tailwind (`bg-surface`, `text-muted`, `border-line`, `text-cite`…).
+- **Alcance:** la fidelidad visual al prototipo es secundaria (el diseño se rehará después); la lógica, los cálculos y el copy sí se mantienen.
+
+## D-022 — Decisiones de la Fase 2 (portal) ✅ (2026-11-17)
+1. **Tag Bouncer:** la acción guardada la fija el staff (en base de datos; se edita en la Fase 7). El cliente ve un simulador "¿y si…?" que recalcula la estimación pero no guarda nada.
+2. **INP de cabecera:** p75 móvil de todos los eventos reales de los últimos 28 días. Las ventanas de CrUX son un panel aparte (es lo que juzga el SLA) y se cuentan desde el día siguiente al deploy.
+3. **Datos nuevos (migración `20261118100000_portal_speed.sql`):** `clients.inp_sprint_deployed_on` e `inp_baseline_ms`; `tag_bouncer_scripts.label` e `is_required`; vistas `inp_p75_overall`, `inp_p75_daily`, `citation_first_checks` y `latest_checks`. Las dos últimas evitan el tope de 1000 filas por consulta de PostgREST.
+4. **Fuera de la Fase 2:** la vista Mini-Scan del prototipo (Fase 7) y las secciones "Database tables" y "Not built yet" de Setup. Setup solo muestra el snippet (con `web-vitals` 6.2.3 fijado).
+5. **Rutas:** `/portal` (lista o redirige), `/portal/[clientId]` (Overview), `/citations`, `/speed`, `/setup`, y `/snapshot` (enlace firmado a la evidencia).
+6. **Rank orgánico:** solo se guarda para queries citadas; en las no citadas la tabla muestra "—". Los textos dicen "top 10", no "top 50", porque medimos con profundidad 10.
+7. **Demo:** el seed ahora reconstruye los chequeos del cliente demo (incluye AI Mode, snapshots de ejemplo, ~2.600 eventos de INP calibrados a ≈214 ms y 6 scripts). Es append-only para el resto de clientes; solo el demo se reinicia.

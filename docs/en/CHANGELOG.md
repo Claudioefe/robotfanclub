@@ -14,3 +14,11 @@
 - 23 RLS tests against the development project; read-only subagent audit and fixes.
 - Verified: 24 tests, lint, typecheck.
 - Pending: manual login test with a real link.
+
+## Phase 2 — portal (2026-11-17)
+- Tailwind 4 (D-021). Views `/portal`, `/citations`, `/speed`, `/setup` and a signed link to the evidence (D-022). SLA logic in `src/lib/sla.ts`.
+- `portal_speed` migration: sprint deploy date, baseline, INP views and citation-evidence views.
+- Extended, repeatable demo seed (AI Mode, snapshots, ~2,600 INP events, Tag Bouncer scripts).
+- Verified: 49 tests (including the prototype's numbers against the database: 13 citations, 6 off-top10, INP ≈213 ms), lint, typecheck, build, and a pass over the 7 URLs as staff with a real session (200, correct data, 404 for unknown routes, snapshot link).
+- Differences from the prototype: organic rank only on cited queries; the demo's per-template p75s sit ~20% above the prototype's because of the calibration to the headline INP.
+- Pending: visual review in the browser (light/dark/phone) by the user; the ingest endpoint (Phase 4).

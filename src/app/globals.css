@@ -1,3 +1,44 @@
-/* Placeholder. Phase 2 ports the color and type tokens from prototype/portal-mvp.html. */
-:root { color-scheme: light dark; }
-body { margin: 0; font-family: var(--font-geist-sans), system-ui, sans-serif; }
+@import "tailwindcss";
+
+/* Color tokens from prototype/portal-mvp.html, light and dark (follows the system setting). */
+:root {
+  --bg: #eef1f4; --surface: #ffffff; --side: #e2e7ec; --ink: #18212b; --muted: #5a6676; --line: #d2d9e1;
+  --cite: #2849c9; --on-cite: #ffffff; --cite-soft: #e1e7fa;
+  --off: #0b7a66; --off-soft: #dcf1ec; --bad: #b42330; --bad-soft: #f8e2e4; --code: #f5f7f9;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0f141a; --surface: #161d25; --side: #131921; --ink: #e3e8ee; --muted: #98a4b2; --line: #2a3440;
+    --cite: #88a2ff; --on-cite: #0f141a; --cite-soft: #1c2645;
+    --off: #4fcbb0; --off-soft: #12302a; --bad: #ff8089; --bad-soft: #3a1b1f; --code: #11171e;
+    color-scheme: dark;
+  }
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-side: var(--side);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-cite: var(--cite);
+  --color-on-cite: var(--on-cite);
+  --color-cite-soft: var(--cite-soft);
+  --color-off: var(--off);
+  --color-off-soft: var(--off-soft);
+  --color-bad: var(--bad);
+  --color-bad-soft: var(--bad-soft);
+  --color-code: var(--code);
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, Menlo, monospace;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+a { color: var(--cite); }
+:focus-visible { outline: 2px solid var(--cite); outline-offset: 2px; }

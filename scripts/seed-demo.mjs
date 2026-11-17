@@ -1,7 +1,8 @@
 // Seeds the demo client from prototype/portal-mvp.html (Northwind Security).
 // Same seeded RNG and rules as the prototype, so the portal shows the same numbers.
 //
-// Usage: npm run seed:demo        (reads .env.local; safe to run more than once)
+// Usage: npm run seed:demo        (reads .env.local; safe to run more than once: it rebuilds the demo client's
+// checks, snapshots, speed events and scripts from scratch)
 // Writes with the secret key, so run it only against the development project.
 
 import { createClient } from "@supabase/supabase-js";
@@ -44,6 +45,64 @@ export function buildDemoRows() {
 
 const isoDay = (d) => new Date(START + (d - 1) * 864e5).toISOString().slice(0, 10);
 
+// Speed demo: ~10% of the prototype's interaction counts, shaped like its trend (sprint shipped Oct 26).
+const TEMPLATES = [
+  { t: "/ (home)", p75: 189, n: 421 }, { t: "/pricing", p75: 168, n: 298 }, { t: "/product/*", p75: 231, n: 612 },
+  { t: "/compare/*", p75: 254, n: 187 }, { t: "/blog/*", p75: 142, n: 934 }, { t: "/facts/*", p75: 121, n: 144 },
+];
+const TAGS = [
+  { label: "Live chat widget", host: "chat.example-widget.com", ms: 62, action: "load_on_first_interaction" },
+  { label: "Session replay", host: "replay.example-analytics.com", ms: 48, action: "remove" },
+  { label: "Tag manager container, 14 tags", host: "tags.example-manager.com", ms: 41, action: "move_server_side" },
+  { label: "A/B testing script", host: "cdn.example-experiments.com", ms: 35, action: "keep" },
+  { label: "Consent banner (CMP)", host: "consent.example-cmp.com", ms: 29, action: "keep", required: true },
+  { label: "Marketing form embed", host: "forms.example-marketing.com", ms: 22, action: "load_on_first_interaction" },
+];
+
+async function seedSpeed(sb, must) {
+  const INP_NOW = 214, INP_BEFORE = 296;
+  const rnd = mulberry32(11);
+  const TODAY_MS = TODAY;
+  const events = [];
+  for (const tpl of TEMPLATES) {
+    for (let i = 0; i < tpl.n; i++) {
+      const dayAgo = Math.floor(rnd() * 28);                       // 0 = today
+      const idx = 27 - dayAgo;                                     // trend index, 0 = oldest
+      const trend = idx < 5 ? INP_BEFORE : INP_BEFORE - (INP_BEFORE - INP_NOW) * (1 - Math.exp(-(idx - 5) / 6));
+      // log-normal-ish spread around the template level, shaped by the day's trend
+      const spread = Math.exp((rnd() + rnd() + rnd() - 1.5) * 0.9);
+      const value = (tpl.p75 / 1.25) * (trend / INP_NOW) * spread;
+      const at = TODAY_MS - dayAgo * 864e5 - Math.floor(rnd() * 20 * 36e5);
+      events.push({ tpl: tpl.t, value, at });
+    }
+  }
+  // Calibrate so the overall 28-day p75 lands on the prototype's headline (214 ms).
+  const sorted = events.map((e) => e.value).sort((a, b) => a - b);
+  const pos = 0.75 * (sorted.length - 1);
+  const p75 = sorted[Math.floor(pos)] + (pos % 1) * (sorted[Math.ceil(pos)] - sorted[Math.floor(pos)]);
+  const k = INP_NOW / p75;
+  const vitals = events.map((e) => ({
+    client_id: DEMO_CLIENT_ID, metric: "INP", value: Math.max(16, Math.round(e.value * k)),
+    device: "mobile", url_template: e.tpl, created_at: new Date(e.at).toISOString(),
+  }));
+  must("clear vitals", await sb.from("vitals").delete().eq("client_id", DEMO_CLIENT_ID));
+  for (let i = 0; i < vitals.length; i += 500) {
+    must("vitals", await sb.from("vitals").insert(vitals.slice(i, i + 500)));
+  }
+
+  must("clear tags", await sb.from("tag_bouncer_scripts").delete().eq("client_id", DEMO_CLIENT_ID));
+  must("tags", await sb.from("tag_bouncer_scripts").insert(TAGS.map((t) => ({
+    client_id: DEMO_CLIENT_ID, label: t.label, script_host: t.host, script_url: `https://${t.host}/script.js`,
+    blocking_ms: t.ms, action: t.action, is_required: Boolean(t.required), excluded_from_sla: Boolean(t.required),
+  }))));
+
+  // Pre-sprint CrUX reading (the 28 days that ended the day before the deploy).
+  must("crux", await sb.from("crux_history").upsert({
+    client_id: DEMO_CLIENT_ID, scope: "origin", target: "https://northwindsec.com", form_factor: "PHONE",
+    period_start: "2026-09-28", period_end: "2026-10-25", inp_p75_ms: INP_BEFORE,
+  }, { onConflict: "client_id,scope,target,form_factor,period_end" }));
+}
+
 async function main() {
   const { SUPABASE_URL, SUPABASE_SECRET_KEY } = process.env;
   if (!SUPABASE_URL || !SUPABASE_SECRET_KEY) throw new Error("Missing SUPABASE_URL or SUPABASE_SECRET_KEY");
@@ -54,35 +113,59 @@ async function main() {
 
   must("client", await sb.from("clients").upsert({
     id: DEMO_CLIENT_ID, name: "Northwind Security", domain: "northwindsec.com", service_fee_usd: 14500,
+    inp_sprint_deployed_on: "2026-10-26", inp_baseline_ms: 296,
   }));
 
   const frozenFrom = isoDay(1);
   const frozenUntil = isoDay(WINDOW);
-  must("query_sets", await sb.from("query_sets").upsert(
+  // Rebuilt from scratch: a re-insert would be rejected by the overlapping-window guard.
+  must("clear query_sets", await sb.from("query_sets").delete().eq("client_id", DEMO_CLIENT_ID));
+  must("query_sets", await sb.from("query_sets").insert(
     rows.map((r) => ({ client_id: DEMO_CLIENT_ID, query: r.q, frozen_from: frozenFrom, frozen_until: frozenUntil })),
-    { onConflict: "client_id,query,frozen_from", ignoreDuplicates: true },
   ));
 
+  // Checks are append-only evidence, so the demo is rebuilt by deleting its rows first.
+  must("clear checks", await sb.from("aio_checks").delete().eq("client_id", DEMO_CLIENT_ID));
+
+  const slug = (q) => q.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 80);
+  const modeRnd = mulberry32(77); // separate RNG so the AI Overview numbers stay identical to the prototype
   const checks = [];
-  for (const r of rows) {
-    const base = (day) => ({
-      client_id: DEMO_CLIENT_ID, query: r.q, surface: "ai_overview",
-      checked_on: isoDay(day), checked_at: `${isoDay(day)}T14:00:00Z`,
-      aio_present: r.aio, cited: r.cited,
-      cited_url: r.cited ? `https://northwindsec.com${r.page}` : null,
-      source_position: r.pos, source_count: r.aio ? r.nsrc : null,
-      organic_rank: r.cited && r.rank && r.rank <= 10 ? r.rank : null,
-      other_domains: r.aio ? r.others : null,
+  const snapshots = [];
+  const push = (r, surface, day, cited, others) => {
+    const date = isoDay(day);
+    const path = cited ? `${DEMO_CLIENT_ID}/${date}/${surface}/${slug(r.q)}.json` : null;
+    if (path) snapshots.push({ path, body: { synthetic: true, demo: true, surface, query: r.q, date, cited_url: `https://northwindsec.com${r.page}`, other_domains: others } });
+    checks.push({
+      client_id: DEMO_CLIENT_ID, query: r.q, surface,
+      checked_on: date, checked_at: `${date}T14:00:00Z`,
+      aio_present: true, cited,
+      cited_url: cited ? `https://northwindsec.com${r.page}` : null,
+      source_position: cited ? r.pos : null, source_count: r.nsrc,
+      organic_rank: cited && r.rank && r.rank <= 10 ? r.rank : null,
+      other_domains: others, snapshot_path: path,
     });
-    checks.push(base(DAY));                       // latest check
-    if (r.cited) checks.push(base(r.firstDay));   // first time it was seen cited
+  };
+  for (const r of rows) {
+    // AI Overview: latest check for every query, plus the first time it was seen cited.
+    if (r.aio) {
+      push(r, "ai_overview", DAY, r.cited, r.others);
+      if (r.cited) push(r, "ai_overview", r.firstDay, true, r.others);
+    } else {
+      checks.push({ client_id: DEMO_CLIENT_ID, query: r.q, surface: "ai_overview", checked_on: isoDay(DAY),
+        checked_at: `${isoDay(DAY)}T14:00:00Z`, aio_present: false, cited: false });
+    }
+    // AI Mode: only where an AI answer exists; cited only where AI Overview cited too, so the count stays at 13.
+    if (r.aio) push(r, "ai_mode", DAY, r.cited && modeRnd() < 0.6, r.others);
   }
-  must("aio_checks", await sb.from("aio_checks").upsert(checks, {
-    onConflict: "client_id,query,surface,checked_on", ignoreDuplicates: true,
-  }));
+  for (const sn of snapshots) {
+    must("snapshot", await sb.storage.from("snapshots").upload(sn.path, JSON.stringify(sn.body), { contentType: "application/json", upsert: true }));
+  }
+  must("aio_checks", await sb.from("aio_checks").insert(checks));
+
+  await seedSpeed(sb, must);
 
   const cited = rows.filter((r) => r.cited);
-  console.log(`Demo ready: ${rows.length} queries, ${cited.length} citations, day ${DAY} of ${WINDOW}.`);
+  console.log(`Demo ready: ${rows.length} queries, ${cited.length} citations, day ${DAY} of ${WINDOW}, speed events and scripts loaded.`);
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {

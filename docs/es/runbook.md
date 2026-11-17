@@ -31,3 +31,6 @@ npm run grant-access -- --email cliente@ejemplo.com --role client --client <uuid
 En Supabase, *Authentication > URL Configuration*: Site URL `http://localhost:3000` y Redirect URL `http://localhost:3000/auth/callback`.
 
 `npm test` incluye los tests de RLS: crean clientes y usuarios temporales (prefijo `rls-test`) en el proyecto de desarrollo y los borran al terminar. Sin keys en `.env.local` se omiten solos.
+
+## Portal (Fase 2)
+`npm run seed:demo` reconstruye el cliente demo (borra y vuelve a cargar solo sus datos). Luego `npm run dev`, entrar en `/login` y abrir `/portal`. `NEXT_PUBLIC_SITE_URL` define el redirect del magic link y el endpoint del snippet.

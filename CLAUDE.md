@@ -28,7 +28,7 @@ La especificación completa y las fases están en `docs/spec.md`. Leela antes de
 - Next.js (App Router, TypeScript), deploy en Netlify (adaptador oficial de Next.js, sin configuración extra). No activar features experimentales de Next.js.
 - Supabase: Postgres, Auth (magic link), Storage. Migraciones con Supabase CLI en `supabase/migrations/`.
 - Watcher diario: GitHub Actions con cron (el job puede tardar varios minutos por cliente).
-- Estilos: tokens de color y tipografía del prototipo (`prototype/portal-mvp.html`), con modo claro y oscuro. Sin librerías de UI pesadas.
+- Estilos: Tailwind CSS (D-021) con los tokens de color del prototipo (`prototype/portal-mvp.html`) en modo claro y oscuro. La fidelidad de diseño es secundaria (es un prototipo); la de lógica y copy no. Sin librerías de UI pesadas.
 - Tests: Vitest para parsers, cálculo del SLA y endpoints.
 
 ## Material de referencia en el repo

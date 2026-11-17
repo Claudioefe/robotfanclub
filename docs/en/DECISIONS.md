@@ -96,3 +96,16 @@ Second migration `20261117150000_hardening.sql` (the initial one is not edited):
 ## D-020 — No Cache Components or Partial Prefetching ✅ (2026-11-17)
 - **Context:** the `create-next-app` scaffold turned on `cacheComponents` and `partialPrefetching`; `/portal` failed with "unstable value Date.now() while prerendering".
 - **Decision:** both are removed (CLAUDE.md: no opt-in/experimental features). Pages that read the session are dynamic by default. Next.js says both become standard in the next major version; revisit then.
+
+## D-021 — Tailwind CSS ✅ (2026-11-17)
+- **Decision:** the portal uses Tailwind CSS 4. It replaces the "no Tailwind" of D-012. The prototype's colors are CSS variables (light and dark following the system) mapped to Tailwind utilities (`bg-surface`, `text-muted`, `border-line`, `text-cite`…).
+- **Scope:** visual fidelity to the prototype is secondary (the design will be redone later); logic, calculations and copy are kept.
+
+## D-022 — Phase 2 (portal) decisions ✅ (2026-11-17)
+1. **Tag Bouncer:** the saved action is set by staff (in the database; edited in Phase 7). Clients see a "what if" simulator that recalculates the estimate but saves nothing.
+2. **Headline INP:** mobile p75 of all real-visitor events in the last 28 days. The CrUX windows are a separate panel (that is what the SLA judges) and are counted from the day after the deploy.
+3. **New data (migration `20261118100000_portal_speed.sql`):** `clients.inp_sprint_deployed_on` and `inp_baseline_ms`; `tag_bouncer_scripts.label` and `is_required`; views `inp_p75_overall`, `inp_p75_daily`, `citation_first_checks` and `latest_checks`. The last two avoid PostgREST's 1000-rows-per-request cap.
+4. **Out of Phase 2:** the prototype's Mini-Scan view (Phase 7) and Setup's "Database tables" and "Not built yet" sections. Setup shows only the snippet (with `web-vitals` 6.2.3 pinned).
+5. **Routes:** `/portal` (list or redirect), `/portal/[clientId]` (Overview), `/citations`, `/speed`, `/setup`, and `/snapshot` (signed link to the evidence).
+6. **Organic rank:** only stored for cited queries; uncited ones show "—". Copy says "top 10", not "top 50", because we measure at depth 10.
+7. **Demo:** the seed now rebuilds the demo client's checks (including AI Mode, sample snapshots, ~2,600 INP events calibrated to ≈214 ms and 6 scripts). Only the demo is reset; other clients' checks stay append-only.
