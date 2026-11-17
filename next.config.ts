@@ -1,9 +1,6 @@
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  /* config options here */
-  cacheComponents: true,
-  partialPrefetching: true,
-};
+// No experimental or opt-in Next.js features (see CLAUDE.md).
+const nextConfig: NextConfig = {};
 
 export default nextConfig;

@@ -13,4 +13,4 @@
 - Magic-link login with no public sign-up, a proxy protecting `/portal`, a placeholder `/portal` page. Access via `npm run grant-access`.
 - 23 RLS tests against the development project; read-only subagent audit and fixes.
 - Verified: 24 tests, lint, typecheck.
-- Pending: manual login test with a real link; decide D-009 (`any_off_top10`).
+- Pending: manual login test with a real link.

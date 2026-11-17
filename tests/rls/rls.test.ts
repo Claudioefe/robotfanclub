@@ -214,9 +214,9 @@ describe.skipIf(!hasEnv)("row level security", () => {
 
   describe("data rules", () => {
     it("counts a query once per window, however many days it was cited", async () => {
-      const { data } = await userA.from("sla_citations").select("query, any_off_top10, surfaces").eq("client_id", clientA);
+      const { data } = await userA.from("sla_citations").select("query, first_off_top10, surfaces").eq("client_id", clientA);
       expect(data).toHaveLength(1);
-      expect(data![0]).toMatchObject({ query: "q1", any_off_top10: true });
+      expect(data![0]).toMatchObject({ query: "q1", first_off_top10: true });
     });
 
     it("computes the citation rate over the window", async () => {
@@ -236,6 +236,21 @@ describe.skipIf(!hasEnv)("row level security", () => {
       expect(data).toHaveLength(1);
       expect([...data![0].surfaces].sort()).toEqual(["ai_mode", "ai_overview"]);
       await admin.from("aio_checks").delete().eq("client_id", clientA).eq("surface", "ai_mode");
+    });
+
+    it("judges off-top10 by the first citation, not a later one", async () => {
+      // q2 is first cited inside the top 10, then cited again outside it.
+      ok("q2 first", await admin.from("aio_checks").insert({
+        client_id: clientA, query: "q2", surface: "ai_overview", checked_on: day(-3), checked_at: `${day(-3)}T14:00:00Z`,
+        aio_present: true, cited: true, organic_rank: 4,
+      }));
+      ok("q2 later", await admin.from("aio_checks").insert({
+        client_id: clientA, query: "q2", surface: "ai_overview", checked_on: day(0), checked_at: `${day(0)}T14:00:00Z`,
+        aio_present: true, cited: true, organic_rank: null,
+      }));
+      const { data } = await userA.from("sla_citations").select("first_off_top10").eq("client_id", clientA).eq("query", "q2");
+      expect(data).toEqual([{ first_off_top10: false }]);
+      await admin.from("aio_checks").delete().eq("client_id", clientA).eq("query", "q2").in("checked_on", [day(-3), day(0)]);
     });
 
     it("does not call a citation off-top10 when the organic top 10 was unavailable", async () => {

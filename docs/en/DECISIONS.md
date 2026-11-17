@@ -88,4 +88,11 @@ Second migration `20261117150000_hardening.sql` (the initial one is not edited):
 6. The magic link uses `NEXT_PUBLIC_SITE_URL`, not the `Origin` header.
 - **Required Supabase setting:** Authentication > Sign In / Providers: turn off "Allow new users to sign up" (and anonymous sign-ins). A test verifies it.
 - **Accepted risks:** (a) with sign-up closed, Supabase answers differently for a non-existent email if someone calls the API directly (cannot be hidden); (b) raw JSON in Storage may include DataForSEO's `cost` and clients can read it; (c) frozen lists are protected in the app (server-only writes), with no database block on INSERT/DELETE.
-- **Pending decisions:** D-009 `any_off_top10` (judge by the first citation or any?); sprint deploy date for the INP SLA (Phase 5).
+- **Pending decisions:** sprint deploy date for the INP SLA (Phase 5).
+
+## D-019 — Off-top10 is judged by the first citation ✅ (2026-11-17)
+- **Decision:** a citation counts as off-top10 if its **first** cited check was. It replaces the `bool_or` of D-009: a later drop out of the top 10 no longer turns it off-top10. The `sla_citations` view exposes `first_off_top10` (formerly `any_off_top10`). Migration `20261117170000_first_citation_off_top10.sql`.
+
+## D-020 — No Cache Components or Partial Prefetching ✅ (2026-11-17)
+- **Context:** the `create-next-app` scaffold turned on `cacheComponents` and `partialPrefetching`; `/portal` failed with "unstable value Date.now() while prerendering".
+- **Decision:** both are removed (CLAUDE.md: no opt-in/experimental features). Pages that read the session are dynamic by default. Next.js says both become standard in the next major version; revisit then.

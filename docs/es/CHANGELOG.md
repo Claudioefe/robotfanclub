@@ -13,4 +13,4 @@
 - Login con magic link sin registro público, proxy que protege `/portal`, página `/portal` provisoria. Accesos con `npm run grant-access`.
 - 23 tests de RLS contra el proyecto de desarrollo; auditoría de solo lectura con subagente y correcciones.
 - Verificado: 24 tests, lint, typecheck.
-- Pendiente: prueba manual del login con link real; decidir D-009 (`any_off_top10`).
+- Pendiente: prueba manual del login con link real.

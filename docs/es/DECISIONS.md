@@ -88,4 +88,11 @@ Segunda migración `20261117150000_hardening.sql` (la inicial no se edita):
 6. El link del magic link usa `NEXT_PUBLIC_SITE_URL`, no el header `Origin`.
 - **Config obligatoria en Supabase:** Authentication > Sign In / Providers: apagar "Allow new users to sign up" (y los inicios de sesión anónimos). Un test lo verifica.
 - **Riesgos aceptados:** (a) con registro cerrado, Supabase responde distinto a un email inexistente si alguien llama a la API directo (no se puede ocultar); (b) los JSON crudos en Storage pueden incluir el `cost` de DataForSEO y los clientes los leen; (c) las listas congeladas se protegen en la app (escrituras solo del servidor), no hay bloqueo de INSERT/DELETE en la base.
-- **Pendientes de decisión:** D-009 `any_off_top10` (¿juzgar por la primera cita o por cualquiera?); fecha de deploy del sprint para el SLA de INP (Fase 5).
+- **Pendientes de decisión:** fecha de deploy del sprint para el SLA de INP (Fase 5).
+
+## D-019 — Off-top10 se juzga por la primera cita ✅ (2026-11-17)
+- **Decisión:** una cita cuenta como off-top10 si su **primer** chequeo citado lo fue. Reemplaza el `bool_or` de D-009: una caída posterior fuera del top 10 ya no la convierte en off-top10. La vista `sla_citations` expone `first_off_top10` (antes `any_off_top10`). Migración `20261117170000_first_citation_off_top10.sql`.
+
+## D-020 — Sin Cache Components ni Partial Prefetching ✅ (2026-11-17)
+- **Contexto:** el esqueleto de `create-next-app` activó `cacheComponents` y `partialPrefetching`; `/portal` fallaba con "unstable value Date.now() while prerendering".
+- **Decisión:** se quitan ambos (CLAUDE.md: sin features opcionales/experimentales). Las páginas que leen la sesión son dinámicas por defecto. Next.js indica que ambas pasarán a ser estándar en la próxima versión mayor; se reevalúa entonces.
