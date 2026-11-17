@@ -66,3 +66,26 @@ Findings from the analysis, to resolve in the first migration (nothing is migrat
 ## D-014 — Intelligence layer (AI) ⏳ (idea logged 2026-11-17)
 - **Idea:** make the product "intelligent": connect a model (Claude or GPT) to help measure, track and improve (e.g. explain why a citation was lost or suggest INP fixes).
 - **To define:** provider (Claude or GPT), what data the model may see (client data: privacy), cost cap, and the phase it enters. To be handled after the MVP; the data schema should leave room to store the analyses.
+
+## D-015 — Supabase configuration and explicit privileges ✅ (2026-11-17)
+- **Decision:** the `robotfanclub-dev` project (East US) has Data API on, "automatically expose new tables" **off** and "automatic RLS" **on**. So the migration writes every `grant` by hand: `authenticated` only reads; `anon` gets nothing; `service_role` has full access.
+- **Consequences:** the `clients.slack_webhook_url` column is not readable by users (the portal must list explicit columns, never `select *` on `clients`). Every new table or view needs its `grant` in its own migration.
+
+## D-016 — Access model ✅ (2026-11-17)
+- **Decision:** reads go only through RLS (staff or client member). All writes are done by jobs and endpoints using the secret key. No public sign-up: the magic link uses `shouldCreateUser: false` and the form reply is identical for any email (it does not reveal who has an account). Staff grants access with `npm run grant-access`.
+- **Consequences:** ingest, the watcher and Mini-Scan are server routes. `mini_scans` and `ingest_rate_limits` have no policies: only the server touches them.
+
+## D-017 — Migrations: the user applies them ✅ (2026-11-17)
+- **Decision:** Supabase CLI 3.x requires human confirmation to apply migrations to the remote project (`supabase db push --remote`). Claude prepares and validates (`--dry-run`); the user runs the push in their terminal.
+
+## D-018 — Hardening after the Phase 1 audit ✅ (2026-11-17)
+Second migration `20261117150000_hardening.sql` (the initial one is not edited):
+1. `organic_checked`: if the organic top 10 was unavailable, `off_top10` is not inferred from a null `organic_rank`.
+2. `aio_checks` is **append-only** evidence: never updated. The watcher must use `insert ... on conflict do nothing` (a same-day rerun never erases a citation).
+3. Overlapping windows for the same client and query are rejected (they would double the count).
+4. Staff-only columns: `aio_checks.cost_usd` and `citation_cards.slack_error` are not readable by users; the portal lists explicit columns.
+5. Default privileges for `service_role` on future tables; the `snapshots` bucket is forced private and the path policy cannot error on odd input.
+6. The magic link uses `NEXT_PUBLIC_SITE_URL`, not the `Origin` header.
+- **Required Supabase setting:** Authentication > Sign In / Providers: turn off "Allow new users to sign up" (and anonymous sign-ins). A test verifies it.
+- **Accepted risks:** (a) with sign-up closed, Supabase answers differently for a non-existent email if someone calls the API directly (cannot be hidden); (b) raw JSON in Storage may include DataForSEO's `cost` and clients can read it; (c) frozen lists are protected in the app (server-only writes), with no database block on INSERT/DELETE.
+- **Pending decisions:** D-009 `any_off_top10` (judge by the first citation or any?); sprint deploy date for the INP SLA (Phase 5).

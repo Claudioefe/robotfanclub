@@ -66,3 +66,26 @@ Hallazgos del análisis, a resolver en la primera migración (aún no hay nada m
 ## D-014 — Capa de inteligencia (IA) ⏳ (idea registrada 2026-11-17)
 - **Idea:** que el producto sea "inteligente": conectar un modelo (Claude o GPT) para ayudar a medir, trackear y mejorar (por ejemplo, explicar por qué se perdió una cita o sugerir mejoras de INP).
 - **Pendiente de definir:** proveedor (Claude o GPT), qué datos puede ver el modelo (datos de clientes: privacidad), tope de costo, y fase en que entra. Se trata después del MVP; el esquema de datos debe dejar espacio para guardar los análisis.
+
+## D-015 — Configuración de Supabase y permisos explícitos ✅ (2026-11-17)
+- **Decisión:** el proyecto `robotfanclub-dev` (East US) tiene Data API activada, "automatically expose new tables" **desactivado** y "automatic RLS" **activado**. Por eso la migración escribe cada `grant` a mano: `authenticated` solo lee; `anon` no tiene nada; `service_role` tiene acceso completo.
+- **Consecuencias:** la columna `clients.slack_webhook_url` no es legible para usuarios (el portal debe listar columnas explícitas, nunca `select *` sobre `clients`). Toda tabla o vista nueva necesita su `grant` en su migración.
+
+## D-016 — Modelo de acceso ✅ (2026-11-17)
+- **Decisión:** solo hay lectura por RLS (staff o miembro del cliente). Toda escritura la hacen jobs y endpoints con la secret key. Sin registro público: el magic link usa `shouldCreateUser: false` y la respuesta del formulario es idéntica para cualquier email (no revela quién tiene cuenta). El staff da acceso con `npm run grant-access`.
+- **Consecuencias:** el ingest, el watcher y el Mini-Scan son rutas de servidor. `mini_scans` e `ingest_rate_limits` no tienen políticas: solo el servidor las toca.
+
+## D-017 — Migraciones: las aplica el usuario ✅ (2026-11-17)
+- **Decisión:** la Supabase CLI 3.x pide confirmación humana para aplicar migraciones al proyecto remoto (`supabase db push --remote`). Claude prepara y valida (`--dry-run`); el usuario ejecuta el push en su terminal.
+
+## D-018 — Endurecimiento tras la auditoría de la Fase 1 ✅ (2026-11-17)
+Segunda migración `20261117150000_hardening.sql` (la inicial no se edita):
+1. `organic_checked`: si el top 10 orgánico no estuvo disponible, `off_top10` no se infiere de un `organic_rank` nulo.
+2. `aio_checks` es evidencia **append-only**: no se actualiza. El watcher debe usar `insert ... on conflict do nothing` (un reintento el mismo día nunca borra una cita).
+3. No se permiten ventanas solapadas para el mismo cliente y query (duplicarían el conteo).
+4. Columnas solo para staff: `aio_checks.cost_usd` y `citation_cards.slack_error` no son legibles por usuarios; el portal lista columnas explícitas.
+5. Permisos por defecto para `service_role` en tablas futuras; el bucket `snapshots` se fuerza privado y la política de rutas no puede fallar con entradas raras.
+6. El link del magic link usa `NEXT_PUBLIC_SITE_URL`, no el header `Origin`.
+- **Config obligatoria en Supabase:** Authentication > Sign In / Providers: apagar "Allow new users to sign up" (y los inicios de sesión anónimos). Un test lo verifica.
+- **Riesgos aceptados:** (a) con registro cerrado, Supabase responde distinto a un email inexistente si alguien llama a la API directo (no se puede ocultar); (b) los JSON crudos en Storage pueden incluir el `cost` de DataForSEO y los clientes los leen; (c) las listas congeladas se protegen en la app (escrituras solo del servidor), no hay bloqueo de INSERT/DELETE en la base.
+- **Pendientes de decisión:** D-009 `any_off_top10` (¿juzgar por la primera cita o por cualquiera?); fecha de deploy del sprint para el SLA de INP (Fase 5).

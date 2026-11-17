@@ -19,3 +19,15 @@ Copiar `.env.example` a `.env.local` (nunca commitear). Hasta la Fase 1 no hace 
 ## Notas
 - `npm audit` reporta vulnerabilidades solo en dependencias de desarrollo (cadena de ESLint); `npm audit --omit=dev` da 0. No se corrió `audit fix --force` para no romper versiones.
 - Remoto: `origin` = https://github.com/Claudioefe/robotfanclub.git (D-013). Deploy en Netlify pendiente.
+
+## Base de datos y acceso (Fase 1)
+```bash
+supabase db push --remote --dry-run   # ver qué migraciones faltan
+supabase db push --remote             # aplicarlas (lo corrés vos en tu terminal, D-017)
+npm run seed:demo                     # cliente demo Northwind Security (40 queries, 13 citas); se puede repetir
+npm run grant-access -- --email vos@ejemplo.com --role staff
+npm run grant-access -- --email cliente@ejemplo.com --role client --client <uuid del cliente>
+```
+En Supabase, *Authentication > URL Configuration*: Site URL `http://localhost:3000` y Redirect URL `http://localhost:3000/auth/callback`.
+
+`npm test` incluye los tests de RLS: crean clientes y usuarios temporales (prefijo `rls-test`) en el proyecto de desarrollo y los borran al terminar. Sin keys en `.env.local` se omiten solos.
