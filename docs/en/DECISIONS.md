@@ -62,3 +62,7 @@ Findings from the analysis, to resolve in the first migration (nothing is migrat
 ## D-013 — GitHub remote configured ✅ (2026-11-17)
 - **Decision:** the repo is published at https://github.com/Claudioefe/robotfanclub.git (`main` branch). The remote's initial commit (a README only) was integrated with an unrelated-histories merge. Supersedes the "local repo" part of D-003.
 - **Consequences:** the Netlify preview deploy is now unblocked; it happens when instructed.
+
+## D-014 — Intelligence layer (AI) ⏳ (idea logged 2026-11-17)
+- **Idea:** make the product "intelligent": connect a model (Claude or GPT) to help measure, track and improve (e.g. explain why a citation was lost or suggest INP fixes).
+- **To define:** provider (Claude or GPT), what data the model may see (client data: privacy), cost cap, and the phase it enters. To be handled after the MVP; the data schema should leave room to store the analyses.

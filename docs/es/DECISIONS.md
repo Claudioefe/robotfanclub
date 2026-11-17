@@ -62,3 +62,7 @@ Hallazgos del análisis, a resolver en la primera migración (aún no hay nada m
 ## D-013 — Remoto de GitHub configurado ✅ (2026-11-17)
 - **Decisión:** el repo se publica en https://github.com/Claudioefe/robotfanclub.git (rama `main`). Se integró el commit inicial del remoto (solo un README) con merge de historias no relacionadas. Reemplaza la parte "repo local" de D-003.
 - **Consecuencias:** el deploy de preview en Netlify queda habilitado; se hace cuando se indique.
+
+## D-014 — Capa de inteligencia (IA) ⏳ (idea registrada 2026-11-17)
+- **Idea:** que el producto sea "inteligente": conectar un modelo (Claude o GPT) para ayudar a medir, trackear y mejorar (por ejemplo, explicar por qué se perdió una cita o sugerir mejoras de INP).
+- **Pendiente de definir:** proveedor (Claude o GPT), qué datos puede ver el modelo (datos de clientes: privacidad), tope de costo, y fase en que entra. Se trata después del MVP; el esquema de datos debe dejar espacio para guardar los análisis.
