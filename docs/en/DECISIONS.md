@@ -154,3 +154,8 @@ Code plus migration `20261119120000_watcher_hardening.sql`:
 - **How:** the app runs locally in production mode and ngrok (free plan) exposes it on its fixed domain; the snippet points at that domain. This avoids creating a project in the Netlify account that hosts the site, whose credits are per team (going over pauses all projects).
 - **Later:** the portal's real deploy will go in a separate Netlify account.
 - **ngrok free plan limits** (per its documentation): ≈20,000 requests and 1 GB per month. Sampling keeps usage down.
+
+## D-030 — Snippet address separate from the portal's ✅ (2026-11-18)
+- **Problem:** using `NEXT_PUBLIC_SITE_URL` to point the snippet at the ngrok tunnel also changed the login magic link's redirect, which is not in Supabase's allowed URLs, and login stopped working.
+- **Decision:** `NEXT_PUBLIC_INGEST_URL` sets where the snippet sends events (tunnel or deployed portal; if missing, it falls back to `NEXT_PUBLIC_SITE_URL`). `NEXT_PUBLIC_SITE_URL` is only for login.
+- **First real test (2026-11-18):** an 884 ms LCP and a ≈0 CLS arrived from a phone, with attribution, through the tunnel and from the real domain. No INP until there is an interaction.

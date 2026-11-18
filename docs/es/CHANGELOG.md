@@ -35,4 +35,5 @@
 - `POST /api/ingest/vitals` con validación acotada, chequeo de origen, rate limit en Postgres, IP hasheada y CORS (D-028). Snippet con muestreo por sesión. `npm run create-client`.
 - Cliente "EFE Digital" (`efedigital.com.ar`, `kind = demo`) para la prueba con un sitio real (D-029).
 - Verificado: tests del validador, del handler, del contrato snippet↔endpoint (ejecuta el código real del snippet) y de integración con la base; prueba HTTP real sobre el build de producción (preflight, beacon con y sin www, origen ajeno, cliente inexistente, cuerpo inválido, atribución).
-- Pendiente: prueba con el sitio real (requiere ngrok y subir el snippet al sitio, ver `ingest.md`); deploy real del portal en una cuenta de Netlify aparte.
+- **Prueba real hecha (2026-11-18):** desde `efedigital.com.ar` en un móvil llegaron LCP de 4 páginas, un CLS y un **INP de 40 ms** (toque en el botón del menú de `/cotizador/`), con atribución, a través de ngrok. La vista Speed los muestra. Se agregó un aviso de muestra baja (menos de 50 interacciones en 28 días).
+- Pendiente: sacar el snippet del sitio y cerrar ngrok al terminar; deploy real del portal en una cuenta de Netlify aparte.

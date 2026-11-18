@@ -5,7 +5,7 @@ import { ShareCard } from "@/components/ShareCard";
 import { Lede, Meter, PageHeader, Panel, Section, Status } from "@/components/ui";
 import { fmtDate, fmtPct } from "@/lib/format";
 import { getCitations, getClient, getSpeed } from "@/lib/portal/data";
-import { SLA, citationRate, cruxWindows, projectCitations, share, slaStatus } from "@/lib/sla";
+import { MIN_INP_SAMPLE, SLA, citationRate, cruxWindows, projectCitations, share, slaStatus } from "@/lib/sla";
 
 export default async function Overview({ params }: PageProps<"/portal/[clientId]">) {
   const { clientId } = await params;
@@ -74,6 +74,9 @@ export default async function Overview({ params }: PageProps<"/portal/[clientId]
                 <strong>{Math.round(speed.headline.p75)} ms</strong> against a {SLA.inpGoalMs} ms goal
                 {client.inp_baseline_ms ? `, down from ${client.inp_baseline_ms} ms before the sprint.` : "."}
               </p>
+              {speed.headline.interactions < MIN_INP_SAMPLE && (
+                <p className="mt-1.5 text-sm text-muted">Preview: only {speed.headline.interactions} interactions so far.</p>
+              )}
               {win1 && (
                 <>
                   <Meter value={(win1.daysCollected / 28) * 100} tone="cite" />

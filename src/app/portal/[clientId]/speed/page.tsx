@@ -4,7 +4,7 @@ import { Trend } from "@/components/Trend";
 import { Lede, Meter, PageHeader, Panel, Section, TableWrap, Td, Th } from "@/components/ui";
 import { fmtDate, fmtInt } from "@/lib/format";
 import { getClient, getSpeed } from "@/lib/portal/data";
-import { SLA, cruxWindows } from "@/lib/sla";
+import { MIN_INP_SAMPLE, SLA, cruxWindows } from "@/lib/sla";
 
 export default async function Speed({ params }: PageProps<"/portal/[clientId]/speed">) {
   const { clientId } = await params;
@@ -28,6 +28,12 @@ export default async function Speed({ params }: PageProps<"/portal/[clientId]/sp
     <>
       <PageHeader title="Speed: Interaction to Next Paint" sub={`Real visitors on mobile, 75th percentile. Goal: ${SLA.inpGoalMs} ms or less.`} />
       <Lede big={now === null ? "No data yet." : `${now} ms on mobile.`} small={lede2} />
+      {speed.headline && speed.headline.interactions < MIN_INP_SAMPLE && (
+        <p className="mt-4 max-w-[64ch] rounded-lg border border-line bg-cite-soft px-3.5 py-2.5 text-sm">
+          Based on only {speed.headline.interactions} {speed.headline.interactions === 1 ? "interaction" : "interactions"} in the last 28 days.
+          A 75th percentile needs many more to be reliable, so treat this number as a preview.
+        </p>
+      )}
 
       <Section title="By page template" note="Red bars are over the 200 ms goal. Last 28 days.">
         {speed.templates.length ? (

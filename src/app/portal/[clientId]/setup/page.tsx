@@ -9,7 +9,9 @@ export default async function Setup({ params }: PageProps<"/portal/[clientId]/se
   const client = await getClient(clientId);
   if (!client) notFound();
 
-  const site = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+  // Where the snippet sends events. Separate from NEXT_PUBLIC_SITE_URL (the portal's own address, used by the
+  // login link) so a tunnel for testing does not change how login works.
+  const site = process.env.NEXT_PUBLIC_INGEST_URL ?? process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
   const sampleRate = Number(process.env.NEXT_PUBLIC_SNIPPET_SAMPLE_RATE ?? 1);
   const snippet = buildSnippet({ clientId: client.id, endpoint: `${site}/api/ingest/vitals`, sampleRate: Number.isFinite(sampleRate) ? sampleRate : 1 });
   const isLocal = /localhost|127\.0\.0\.1/.test(site);
@@ -24,7 +26,7 @@ export default async function Setup({ params }: PageProps<"/portal/[clientId]/se
         {isLocal && (
           <p className="mb-3 max-w-[70ch] rounded-lg border border-line bg-cite-soft px-3.5 py-2.5 text-sm">
             This snippet points to a local address, so it only works from this computer. Deploy the portal, or open a tunnel, and set
-            NEXT_PUBLIC_SITE_URL before installing it on a live site.
+            NEXT_PUBLIC_INGEST_URL before installing it on a live site.
           </p>
         )}
         <CopyButton text={snippet} label="Copy snippet" />

@@ -20,7 +20,7 @@ INP, LCP y CLS se envían cuando la pestaña se oculta o se cierra: para probar,
 ## Prueba con un sitio real (ngrok)
 1. Cuenta gratuita en ngrok.com; `brew install ngrok`; `ngrok config add-authtoken <token>` (el token es una credencial).
 2. En el panel de ngrok, *Domains*: copiar el dominio de desarrollo (`algo.ngrok-free.app`).
-3. En `.env.local`: `NEXT_PUBLIC_SITE_URL=https://algo.ngrok-free.app` y `NEXT_PUBLIC_SNIPPET_SAMPLE_RATE=0.25`. Son variables que se fijan en el build.
+3. En `.env.local`: `NEXT_PUBLIC_INGEST_URL=https://algo.ngrok-free.app` y `NEXT_PUBLIC_SNIPPET_SAMPLE_RATE=0.25`. Son variables que se fijan en el build. No uses `NEXT_PUBLIC_SITE_URL` para esto: define el enlace del login y entrar al portal por el túnel no funciona (no está en las URLs permitidas de Supabase). Entrá al portal por `http://localhost:3000`.
 4. Terminal 1: `npm run build && npm start`. Terminal 2: `ngrok http --url=algo.ngrok-free.app 3000`.
 5. Entrar a `http://localhost:3000`, abrir el cliente en **Setup**, copiar el snippet y pegarlo en el layout del sitio. Subir el cambio.
 6. Visitar el sitio, interactuar y cambiar de pestaña. En el portal, **Speed** del cliente muestra los eventos.

@@ -20,7 +20,7 @@ INP, LCP and CLS are sent when the tab is hidden or closed: to test, interact wi
 ## Testing with a real site (ngrok)
 1. Free account at ngrok.com; `brew install ngrok`; `ngrok config add-authtoken <token>` (the token is a credential).
 2. In ngrok's dashboard, *Domains*: copy the development domain (`something.ngrok-free.app`).
-3. In `.env.local`: `NEXT_PUBLIC_SITE_URL=https://something.ngrok-free.app` and `NEXT_PUBLIC_SNIPPET_SAMPLE_RATE=0.25`. These are fixed at build time.
+3. In `.env.local`: `NEXT_PUBLIC_INGEST_URL=https://something.ngrok-free.app` and `NEXT_PUBLIC_SNIPPET_SAMPLE_RATE=0.25`. These are fixed at build time.
 4. Terminal 1: `npm run build && npm start`. Terminal 2: `ngrok http --url=something.ngrok-free.app 3000`.
 5. Open `http://localhost:3000`, open the client's **Setup**, copy the snippet and paste it in the site's layout. Push the change.
 6. Visit the site, interact, and switch tabs. In the portal, the client's **Speed** shows the events.

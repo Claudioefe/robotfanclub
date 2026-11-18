@@ -11,6 +11,9 @@ export const SLA = {
   inpGoalMs: 200,
 } as const;
 
+// Below this many interactions in 28 days, a p75 is not reliable and the portal says so (UI heuristic, not an SLA rule).
+export const MIN_INP_SAMPLE = 50;
+
 const MS_PER_DAY = 864e5;
 const utc = (iso: string) => Date.parse(`${iso}T00:00:00Z`);
 

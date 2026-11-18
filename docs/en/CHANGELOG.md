@@ -35,4 +35,5 @@
 - `POST /api/ingest/vitals` with bounded validation, origin check, Postgres rate limit, hashed IP and CORS (D-028). Snippet with per-session sampling. `npm run create-client`.
 - Client "EFE Digital" (`efedigital.com.ar`, `kind = demo`) for the real-site test (D-029).
 - Verified: validator, handler, snippet↔endpoint contract (runs the snippet's real code) and database integration tests; real HTTP test on the production build (preflight, beacon with and without www, foreign origin, unknown client, invalid body, attribution).
-- Pending: test with the real site (needs ngrok and pushing the snippet to the site, see `ingest.md`); real portal deploy in a separate Netlify account.
+- **Real test done (2026-11-18):** from `efedigital.com.ar` on a phone, LCP from 4 pages, one CLS and a **40 ms INP** (a tap on the menu button on `/cotizador/`) arrived with attribution through ngrok. The Speed view shows them. A low-sample notice was added (fewer than 50 interactions in 28 days).
+- Pending: remove the snippet from the site and close ngrok when done; real portal deploy in a separate Netlify account.
