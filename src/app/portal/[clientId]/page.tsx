@@ -5,7 +5,7 @@ import { ShareCard } from "@/components/ShareCard";
 import { Lede, Meter, PageHeader, Panel, Section, Status } from "@/components/ui";
 import { fmtDate, fmtPct } from "@/lib/format";
 import { getCitations, getClient, getSpeed } from "@/lib/portal/data";
-import { MIN_INP_SAMPLE, SLA, citationRate, cruxWindows, projectCitations, share, slaStatus } from "@/lib/sla";
+import { MIN_INP_SAMPLE, SLA, canProject, citationRate, cruxWindows, projectCitations, share, slaStatus } from "@/lib/sla";
 
 export default async function Overview({ params }: PageProps<"/portal/[clientId]">) {
   const { clientId } = await params;
@@ -23,7 +23,8 @@ export default async function Overview({ params }: PageProps<"/portal/[clientId]
     );
   }
 
-  const projected = projectCitations(cit.cited, cit.day);
+  const early = !canProject(cit.day); // first week: no projection yet
+  const projected = early ? cit.cited : projectCitations(cit.cited, cit.day);
   const status = slaStatus({ cited: cit.cited, day: cit.day, feeUsd: client.service_fee_usd });
   const offShare = share(cit.offTop10, cit.cited);
   const meetsOff = offShare >= SLA.offTop10Share;
@@ -37,8 +38,12 @@ export default async function Overview({ params }: PageProps<"/portal/[clientId]
         sub={`AIO Pro and INP Sprint. Day ${cit.day} of ${SLA.windowDays}. Query list frozen until ${fmtDate(cit.frozenUntil)}.`}
       />
       <Lede
-        big={`${cit.cited} citations in ${cit.day} days.`}
-        small={`At this pace, about ${projected} by day ${SLA.windowDays}. Solid bar is confirmed, hatched is projected.`}
+        big={`${cit.cited} ${cit.cited === 1 ? "citation" : "citations"} in ${cit.day} ${cit.day === 1 ? "day" : "days"}.`}
+        small={
+          early
+            ? "The first week is too short to project from. The projection appears from day 7."
+            : `At this pace, about ${projected} by day ${SLA.windowDays}. Solid bar is confirmed, hatched is projected.`
+        }
       />
       <Ruler cited={cit.cited} projected={projected} />
       <Status tone={status.tone}>{status.text}</Status>

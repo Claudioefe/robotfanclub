@@ -50,6 +50,14 @@ describe("projection and status (prototype demo: 13 citations on day 38)", () =>
       text: "On pace to clear the SLA floor of 12, not the target of 18. 4 more needed for the floor in 30 days.",
     });
   });
+  it("does not project, or warn about a clawback, during the first week", () => {
+    expect(slaStatus({ cited: 0, day: 1, feeUsd: 14500 })).toEqual({ tone: "neutral", text: "Day 1 of 60: too early to project. 0 citations so far." });
+    expect(slaStatus({ cited: 1, day: 6 }).text).toBe("Day 6 of 60: too early to project. 1 citation so far.");
+    // From day 7 the usual rules apply
+    expect(slaStatus({ cited: 0, day: 7 }).tone).toBe("bad");
+    // An already met floor is still reported in the first week
+    expect(slaStatus({ cited: 12, day: 3 })).toEqual({ tone: "good", text: "SLA floor of 12 already met on day 3." });
+  });
   it("warns about the clawback credit with the fee", () => {
     expect(slaStatus({ cited: 4, day: 30, feeUsd: 14500 })).toEqual({
       tone: "bad",

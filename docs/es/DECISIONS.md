@@ -204,3 +204,7 @@ Segunda consulta autorizada (misma query, `resolve_goto_urls: true`): **todas** 
 ## D-035 — La URL normalizada conserva los parámetros que identifican la página ✅ (2026-11-18)
 - **Problema (descubierto con datos reales):** la normalización descartaba todo el query string. En YouTube `?v=<id>` identifica el video: el video citado y un video distinto que rankeaba orgánicamente quedaban como "la misma página". Pasa con cualquier sitio que identifique páginas con parámetros (`?p=123`).
 - **Decisión:** `normUrl` conserva los parámetros, ordenados, y quita solo los de rastreo (`utm_*`, `gclid`, `gbraid`, `wbraid`, `fbclid`, `msclkid`, `dclid`, `mc_cid`, `mc_eid`, `igshid`, `_ga`, `_gl`), el hash y la barra final. Corrige lo dicho en D-027 ("sin query"). Las referencias redirigidas sin resolver se distinguen por su URL completa.
+
+## D-036 — Sin proyección en la primera semana ✅ (2026-11-18)
+- **Problema (visto con un cliente real, día 1):** con 0 citas el portal decía "Clawback risk: projected below 12", una alarma sin base (una proyección lineal con 1 día de datos es ruido).
+- **Decisión:** durante los primeros 6 días de la ventana el portal no proyecta ni advierte de clawback: dice "Day N of 60: too early to project" y la regla se aplica desde el día 7 (`MIN_PROJECTION_DAYS`). Si el piso de 12 ya se cumplió, se informa eso. Es una regla de la interfaz; **el SLA no cambia**: el crédito se decide el día 60.

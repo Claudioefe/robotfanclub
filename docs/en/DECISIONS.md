@@ -204,3 +204,7 @@ Second authorized query (same query, `resolve_goto_urls: true`): **all** URLs ca
 ## D-035 — The normalized URL keeps the parameters that identify the page ✅ (2026-11-18)
 - **Problem (found with real data):** normalization dropped the whole query string. On YouTube `?v=<id>` identifies the video: the cited video and a different video ranking organically came out as "the same page". It happens with any site that identifies pages with parameters (`?p=123`).
 - **Decision:** `normUrl` keeps the parameters, sorted, and drops only tracking ones (`utm_*`, `gclid`, `gbraid`, `wbraid`, `fbclid`, `msclkid`, `dclid`, `mc_cid`, `mc_eid`, `igshid`, `_ga`, `_gl`), the hash and the trailing slash. It corrects what D-027 said ("no query"). Unresolved redirect references are told apart by their full URL.
+
+## D-036 — No projection in the first week ✅ (2026-11-18)
+- **Problem (seen with a real client, day 1):** with 0 citations the portal said "Clawback risk: projected below 12", an unfounded alarm (a straight-line projection from 1 day of data is noise).
+- **Decision:** during the first 6 days of the window the portal neither projects nor warns about a clawback: it says "Day N of 60: too early to project" and the rule applies from day 7 (`MIN_PROJECTION_DAYS`). If the floor of 12 is already met, it says that. This is a UI rule; **the SLA does not change**: the credit is decided on day 60.

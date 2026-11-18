@@ -30,6 +30,10 @@ export function windowDay(frozenFrom: string, today: string = todayUtc()): numbe
 
 export const windowEnd = (frozenFrom: string) => addDays(frozenFrom, SLA.windowDays - 1);
 
+/** The first week of a window is too short to project from (UI rule, not an SLA rule). */
+export const MIN_PROJECTION_DAYS = 7;
+export const canProject = (day: number) => day >= MIN_PROJECTION_DAYS;
+
 /** Straight-line projection of the citation count to the end of the window. */
 export function projectCitations(cited: number, day: number): number {
   return Math.round((cited / day) * SLA.windowDays);
@@ -44,6 +48,13 @@ export function slaStatus(args: { cited: number; day: number; feeUsd?: number | 
   const { floor, target, bonus, clawbackShare, windowDays } = SLA;
   const projected = projectCitations(cited, day);
   const daysLeft = windowDays - day;
+
+  // A straight-line projection from the first few days is noise: do not warn about a clawback yet (unless the floor is already met).
+  if (!canProject(day)) {
+    return cited >= floor
+      ? { tone: "good", text: `SLA floor of ${floor} already met on day ${day}.` }
+      : { tone: "neutral", text: `Day ${day} of ${windowDays}: too early to project. ${cited} ${cited === 1 ? "citation" : "citations"} so far.` };
+  }
 
   if (projected >= bonus) return { tone: "good", text: `On pace for the bonus at ${bonus}.` };
   if (projected >= target) {
