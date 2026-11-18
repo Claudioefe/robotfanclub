@@ -130,7 +130,7 @@ describe("runCrux", () => {
     expect(s).toMatchObject({ failed: 1, withData: 1 });
   });
 
-  it("stops the run on a bad key or disabled API (HTTP 403)", async () => {
+  it("stops the run on a bad key or disabled API (HTTP 403) after one retry", async () => {
     let calls = 0;
     const denied: CruxSource = { name: "live", current: async () => { calls++; throw new CruxError("CrUX API HTTP 403", 403); }, history: async () => [] };
     const store = new MemoryStore([
@@ -138,8 +138,19 @@ describe("runCrux", () => {
       { clientId: CLIENT, scope: "origin", target: "https://b.example.com" },
     ]);
     const s = await runCrux(store, denied, { ...opts, live: true });
-    expect(calls).toBe(1);
+    expect(calls).toBe(2); // one retry for the first target, and the second target was never attempted
     expect(s.stopped).toMatch(/403/);
+  });
+
+  it("recovers from a one-off 403 (key restrictions still propagating)", async () => {
+    let n = 0;
+    const flaky: CruxSource = {
+      name: "live",
+      current: async () => { if (++n === 1) throw new CruxError("CrUX API HTTP 403", 403); return new FixtureSource().current(); },
+      history: async () => [],
+    };
+    const s = await runCrux(new MemoryStore(), flaky, { ...opts, live: true });
+    expect(s).toMatchObject({ withData: 1, failed: 0, stopped: null });
   });
 
   it("asks the store for live or sandbox targets according to the mode", async () => {

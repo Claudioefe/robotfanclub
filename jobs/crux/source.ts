@@ -28,8 +28,11 @@ export class CruxError extends Error {
 
 /** Bad request, bad key, or the API is not enabled for the key: retrying or continuing would repeat the same failure. */
 export const isFatal = (e: unknown) => e instanceof CruxError && [400, 401, 403].includes(e.httpStatus ?? 0);
-/** Worth one retry: network errors, timeouts, 429 (quota) and 5xx. */
-export const isTransient = (e: unknown) => !(e instanceof CruxError) || e.httpStatus === 429 || (e.httpStatus ?? 0) >= 500;
+/**
+ * Worth one retry: network errors, timeouts, 429 (quota) and 5xx. Also 403: right after a key's restrictions change,
+ * Google can answer 403 for a few minutes (seen in practice). A real key problem fails again on the retry and stops the run.
+ */
+export const isTransient = (e: unknown) => !(e instanceof CruxError) || e.httpStatus === 429 || e.httpStatus === 403 || (e.httpStatus ?? 0) >= 500;
 
 export class FixtureSource implements CruxSource {
   readonly name = "fixture";
