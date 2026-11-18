@@ -1,0 +1,207 @@
+{
+  "_note": "DATOS REALES de DataForSEO (2026-11-18), RECORTADOS: /v3/serp/google/ai_mode/live/advanced, location 2840, en, mobile. Query: 'how to tell if a book is a first edition'. Se acortaron los campos de texto largos (markdown, text) y se conservaron 7 de los 12 elementos; la estructura, los tipos, las referencias y las URLs son las reales.",
+  "version": "0.1.20261117",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "cost": 0.004,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "11181353-2831-0139-0000-3bfb5d1e2048",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "cost": 0.004,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "ai_mode",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "ai_mode",
+        "location_code": 2840,
+        "language_code": "en",
+        "device": "mobile",
+        "keyword": "how to tell if a book is a first edition",
+        "os": "android"
+      },
+      "result": [
+        {
+          "keyword": "how to tell if a book is a first edition",
+          "type": "ai_mode",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=how%20to%20tell%20if%20a%20book%20is%20a%20first%20edition&hl=en&gl=US&udm=50&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-11-18 13:53:46 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview"
+          ],
+          "se_results_count": 0,
+          "items_count": 1,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/…",
+              "markdown": "Determining whether a book is a true **first edition** …",
+              "items": [
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Determining whether a book is a true first edition (and a first printing) requires looking past the cover …",
+                  "markdown": "…",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "AbeBooks",
+                      "domain": "www.abebooks.com",
+                      "url": "https://www.abebooks.com/books/rarebooks/collecting-guide/what_books_collect/collecting-first-editions.shtml",
+                      "title": "Identifying and collecting first edition books - AbeBooks",
+                      "text": "The publisher may actually state the words 'first edition' or 'first printing' on the copyright page. …"
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Because every publisher uses slightly different codes, use this step-by-step checklist to investigate.",
+                  "markdown": "…",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "AbeBooks",
+                      "domain": "www.abebooks.com",
+                      "url": "https://www.abebooks.com/books/rarebooks/collecting-guide/what_books_collect/collecting-first-editions.shtml",
+                      "title": "Identifying and collecting first edition books - AbeBooks",
+                      "text": "Identifying a first edition is no simple matter. The line sequence could ascend or descend or even have no discernable order depending on the publisher."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Step 1: Check the Copyright Page for Direct Statements",
+                  "text": "Explicit wording: Look for the phrase \"First Edition\" or \"First Printing\". …",
+                  "markdown": "…",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "AbeBooks",
+                      "domain": "www.abebooks.com",
+                      "url": "https://www.abebooks.com/books/rarebooks/collecting-guide/what_books_collect/collecting-first-editions.shtml",
+                      "title": "Identifying and collecting first edition books - AbeBooks",
+                      "text": "Identifying a first edition is no simple matter. The line sequence could ascend or descend or even have no discernable order depending on the publisher."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Scribner’s: Historically used a small \"A\" on the copyright page alongside the date for first printings. …",
+                  "markdown": "…",
+                  "links": null,
+                  "images": null,
+                  "references": null
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Check the original price on the flap …",
+                  "markdown": "…",
+                  "links": null,
+                  "images": null,
+                  "references": null
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "For deep dives into rare or valuable titles, you can cross-reference physical traits using resources like the AbeBooks Collecting Guide for First Editions or specialized price guides.",
+                  "markdown": "…",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "AbeBooks Collecting Guide for First Editions",
+                      "description": null,
+                      "url": "https://www.abebooks.com/books/rarebooks/collecting-guide/what_books_collect/collecting-first-editions.shtml",
+                      "domain": "www.abebooks.com"
+                    }
+                  ],
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "AbeBooks",
+                      "domain": "www.abebooks.com",
+                      "url": "https://www.abebooks.com/books/rarebooks/collecting-guide/what_books_collect/collecting-first-editions.shtml",
+                      "title": "Identifying and collecting first edition books - AbeBooks",
+                      "text": "Identifying a first edition is no simple matter. The line sequence could ascend or descend or even have no discernable order depending on the publisher."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "I can help you figure out what you're holding!",
+                  "markdown": "…",
+                  "links": null,
+                  "images": null,
+                  "references": null
+                }
+              ],
+              "references": [
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "AbeBooks",
+                  "domain": "www.abebooks.com",
+                  "url": "https://www.abebooks.com/books/rarebooks/collecting-guide/what_books_collect/collecting-first-editions.shtml",
+                  "title": "Identifying and collecting first edition books - AbeBooks",
+                  "text": "Identifying a first edition is no simple matter. The line sequence could ascend or descend or even have no discernable order depending on the publisher."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "AbeBooks",
+                  "domain": "www.abebooks.com",
+                  "url": "https://www.abebooks.com/books/rarebooks/collecting-guide/what_books_collect/collecting-first-editions.shtml",
+                  "title": "Identifying and collecting first edition books - AbeBooks",
+                  "text": "Definition: An edition comprises all copies from the same type setting; …"
+                }
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

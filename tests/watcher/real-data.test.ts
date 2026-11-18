@@ -1,0 +1,76 @@
+// Parser against REAL DataForSEO responses captured on 2026-11-18 (tests/fixtures/real).
+// Query: "how to tell if a book is a first edition", US, English, mobile. See D-033 for what these showed.
+import { readFileSync } from "node:fs";
+import { describe, expect, it } from "vitest";
+import { collectRefs, normUrl, organicTop10, parseCitation, type DfsResult } from "../../jobs/watcher/parser.ts";
+
+const load = (name: string): DfsResult => JSON.parse(readFileSync(new URL(`../fixtures/real/${name}`, import.meta.url), "utf8")).tasks[0].result[0];
+const organic = load("dfs-organic-mobile-real.json");
+const aiMode = load("dfs-ai-mode-mobile-real.json");
+
+describe("real SERP with AI Overview (mobile)", () => {
+  const aio = organic.items!.find((i) => i.type === "ai_overview")!;
+
+  it("finds the AI Overview and dedupes its references by URL (26 mentions, 10 pages)", () => {
+    expect(collectRefs(aio)).toHaveLength(26);
+    const c = parseCitation(organic, "abebooks.com", organicTop10(organic));
+    expect(c).toMatchObject({ aio_present: true, cited: true, source_position: 6, source_count: 10 });
+    expect(c.other_domains).toContain("biblio.com");
+  });
+
+  it("does not cite a client that is absent, and lists who was cited instead", () => {
+    const c = parseCitation(organic, "baumanrarebooks.com", organicTop10(organic));
+    expect(c).toMatchObject({ aio_present: true, cited: false, cited_url: null, source_count: 10 });
+    expect(c.other_domains).toEqual(expect.arrayContaining(["youtube.com", "abebooks.com", "reddit.com"]));
+  });
+});
+
+// CANARIES. These pin down what real mobile data looks like today. If DataForSEO or Google change it,
+// they fail on purpose: revisit D-033 (off-top10 needs real destination URLs).
+describe("canary: mobile organic results are Google redirect links (D-033)", () => {
+  const items = organic.items!.filter((i) => i.type === "organic");
+
+  it("organic urls are google.com/goto redirects and the domain field is google.com", () => {
+    expect(items.length).toBeGreaterThan(0);
+    for (const i of items) {
+      expect(i.url).toMatch(/^https:\/\/google\.com\/goto\?url=/);
+      expect(i.domain).toBe("google.com");
+    }
+  });
+
+  it("therefore the organic rank of a cited page can never be found by URL", () => {
+    // The cited page ranks nowhere according to the URL comparison, even though the site may be in the top 10.
+    expect(organicTop10(organic)!.map((o) => normUrl(o.url))).toEqual(Array(8).fill("google.com/goto"));
+    expect(parseCitation(organic, "abebooks.com", organicTop10(organic)).organic_rank).toBeNull();
+  });
+
+  it("the real site of a result survives only as the breadcrumb host (not the page)", () => {
+    expect(items.map((i) => i.breadcrumb)).toContain("https://www.reddit.com");
+  });
+
+  it("one AI Overview reference is itself a redirect: its site is invisible to client matching", () => {
+    const hidden = collectRefs(aio_of(organic)).find((r) => String(r.url).includes("google.com/goto"));
+    expect(hidden).toMatchObject({ domain: "google.com", source: "Quill & Brush" });
+    expect(parseCitation(organic, "quillandbrush.com", organicTop10(organic)).cited).toBe(false);
+  });
+});
+
+function aio_of(result: DfsResult) {
+  return result.items!.find((i) => i.type === "ai_overview");
+}
+
+describe("real AI Mode response (mobile, trimmed fixture)", () => {
+  it("dedupes repeated references: one page cited many times counts once", () => {
+    const c = parseCitation(aiMode, "abebooks.com", organicTop10(organic));
+    expect(c).toMatchObject({ aio_present: true, cited: true, source_position: 1, source_count: 1, cited_url: expect.stringContaining("collecting-first-editions") });
+  });
+
+  it("does not cite an absent client", () => {
+    expect(parseCitation(aiMode, "baumanrarebooks.com", organicTop10(organic))).toMatchObject({ aio_present: true, cited: false, source_count: 1 });
+  });
+
+  it("has the same ai_overview type and nested references as the SERP, as the docs say", () => {
+    expect(aiMode.items!.map((i) => i.type)).toEqual(["ai_overview"]);
+    expect(collectRefs(aiMode).every((r) => r.type === "ai_overview_reference")).toBe(true);
+  });
+});

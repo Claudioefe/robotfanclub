@@ -1,0 +1,849 @@
+{
+  "_note": "DATOS REALES de DataForSEO (2026-11-18): /v3/serp/google/organic/live/advanced, location 2840, en, mobile, depth 10, load_async_ai_overview. Query: 'how to tell if a book is a first edition'. Respuesta cruda sin editar (excepto esta nota). Hallazgo: en mobile los resultados organicos traen url 'google.com/goto?url=...' y domain 'google.com' (ver docs D-033).",
+  "version": "0.1.20261117",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "5.7248 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "11181353-2831-0139-0000-5a2d9e6d7a96",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "5.5442 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "location_code": 2840,
+        "language_code": "en",
+        "device": "mobile",
+        "keyword": "how to tell if a book is a first edition",
+        "depth": 10,
+        "load_async_ai_overview": true,
+        "os": "android"
+      },
+      "result": [
+        {
+          "keyword": "how to tell if a book is a first edition",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=how%20to%20tell%20if%20a%20book%20is%20a%20first%20edition&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-11-18 13:53:31 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "organic",
+            "people_also_ask",
+            "images"
+          ],
+          "se_results_count": 0,
+          "pages_count": 1,
+          "items_count": 11,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": false,
+              "markdown": "![How to Tell if a Book Is a First Edition: A Quick Reference ...](https://api.dataforseo.com/cdn/i/11181353-2831-0139-0000-5a2d9e6d7a96:4)\nTo tell if a book is a true first edition (and a first printing), `inspect the copyright page—usually located directly behind the title page`.[[1]](https://www.youtube.com/watch?v=cOHGtC8piyk)[[2]](https://google.com/goto?url=CAESgwEBxCJF18YR3OpurZ0AoI1GTjwQrUpgnhNsPlGJKyNg3EMxG5lKb0ylSgQhbwSx8WDC3qdkItb4vYcTII2qi371kzEXCj2oTMtEYEx7VpqUoZXDPpBLo4sGFAUSResvhtATRrJSBRJVNC4OoDsWuqEc4MQn9UXfOAFlFF52wHvfKA4mEg)\n\n### Key Indicators to Check\n\n- **The Number Line (Post-1970s Books):** Look at the bottom of the copyright page for a string of numbers (e.g., `10 9 8 7 6 5 4 3 2 1` ). The lowest number in the sequence tells you the printing. If the lowest digit is **1** , it is a first printing. *(Note: Some publishers like Random House used sequences counting down to 2 for first printings between 1970 and 2002).* [[1]](https://google.com/goto?url=CAESgwEBxCJF18YR3OpurZ0AoI1GTjwQrUpgnhNsPlGJKyNg3EMxG5lKb0ylSgQhbwSx8WDC3qdkItb4vYcTII2qi371kzEXCj2oTMtEYEx7VpqUoZXDPpBLo4sGFAUSResvhtATRrJSBRJVNC4OoDsWuqEc4MQn9UXfOAFlFF52wHvfKA4mEg)[[2]](https://www.tiktok.com/@rebeccaromney/video/7487692700418952490)[[3]](https://google.com/goto?url=CAESigEBxCJF1-BTl1E2mUGB0uV7f3Hc1AYD5FvfZK1kgA21yBCHpa8yuVLbOVMbiZP_PXLtaE8CTzZgLwI81ebHSkXGOi2bo3M5hRiCx5r5iR58JaBwjTTJpwDuCi4D4HNQXTcvSsgViq2N0ypCX5L8fZ1lF6bAnoiUC_c8HzDIssYvTPD71TQ7wl1SD1w)\n- **Stated Statements:** Look for explicit text like **\"First Edition,\"** **\"First Printing,\"** or **\"First Impression\"**.[[1]](https://google.com/goto?url=CAESkAEBxCJF1wvKvbfGRqfNPbmazBxH8OK9nx3sq-azNpXCw92cZSIwTjqDSL2LNa6OHTQS1BondEqtgKWNdX9kxHLvQxpvE7xspcvtR8c4AXn_QyKmyRf8kVZVT6s8f_ejT-QThxSWygDq0mTkjeV0NONdMvW2NK96vUz2hAQpLMOJPLvxitDzBQpfcNVSWi9mJ5o)[[2]](https://google.com/goto?url=CAESigEBxCJF1-BTl1E2mUGB0uV7f3Hc1AYD5FvfZK1kgA21yBCHpa8yuVLbOVMbiZP_PXLtaE8CTzZgLwI81ebHSkXGOi2bo3M5hRiCx5r5iR58JaBwjTTJpwDuCi4D4HNQXTcvSsgViq2N0ypCX5L8fZ1lF6bAnoiUC_c8HzDIssYvTPD71TQ7wl1SD1w)\n- **Matching Dates:** For many modern and older books, the year on the copyright page should match the year on the title page.[[1]](https://google.com/goto?url=CAESqQEBxCJF15IKmJOkmnRzz2OIb0tvKoVONLQTFmNjyjViM--_HiGFC9aG_n3DqkrtDdXrpxC7nf5t7UbglsGamNGV8irzyz19QT_TF_fDB9pBphHitOPEtp6FDqxoOQvkCtu_3qKlKbo19ZArflT3DhEOaTrrMRJmXH1KKjX-dFsIQrIFqHIqmKGUyni7mz5BhiUcoN4gTPu71DodXvIiA6_BCD4B3sT_Qwj8)[[2]](https://google.com/goto?url=CAESkAEBxCJF1wvKvbfGRqfNPbmazBxH8OK9nx3sq-azNpXCw92cZSIwTjqDSL2LNa6OHTQS1BondEqtgKWNdX9kxHLvQxpvE7xspcvtR8c4AXn_QyKmyRf8kVZVT6s8f_ejT-QThxSWygDq0mTkjeV0NONdMvW2NK96vUz2hAQpLMOJPLvxitDzBQpfcNVSWi9mJ5o)\n- **Letter Rows:** Some publishers use a sequence of letters (e.g., `A B C D E` ) instead of numbers, where **A** represents the first printing.[[1]](https://google.com/goto?url=CAESigEBxCJF1-BTl1E2mUGB0uV7f3Hc1AYD5FvfZK1kgA21yBCHpa8yuVLbOVMbiZP_PXLtaE8CTzZgLwI81ebHSkXGOi2bo3M5hRiCx5r5iR58JaBwjTTJpwDuCi4D4HNQXTcvSsgViq2N0ypCX5L8fZ1lF6bAnoiUC_c8HzDIssYvTPD71TQ7wl1SD1w)\n- **Pre-1900s Books:** Older books rarely have number lines or explicit printing statements. You must rely on matching title page dates, known publisher histories, or specific historical errors unique to the first release.[[1]](https://google.com/goto?url=CAESmAEBxCJF1-QTtmYCcnLiM1zOjFrpkCoApr-k8fOtBgF3fDvXcEqscLImq4LHxmCmlTVoyzshDdCIoVaWmZM2ehCoYTw8KoxTCu7YYeymUkFJUQ7pJ8iFaA5MKwzDJu0CbOeH0fJDUFVYkNqJ9w2WSHxpD-4hEFIXoQZqVVcSd5Rj4_6teLL2y8MCN54hwJk6qAd8SSLYhkdQhg)[[2]](https://google.com/goto?url=CAESZQHEIkXXq6p1EmFmoez4wseOLkbJdzAisGpMnle6jRFnMYYRxfAyR8DsqFr9E2FZ-riXACWEfZ5e6Z3mzn7wa4WCjIl0IcpGDq_7tX1PDGNXUG9NRl3IUOv8YjszTWWz0ArcXhK2)[[3]](https://google.com/goto?url=CAESdQHEIkXX9FaUejHB8l3L-fP6ETxlFpZDtyMeFdz__psU34yG7Y_JUDkO4jJlPK9cMofJzK4UTZC5n7Ug1DNjpHcTBIn8p0PoU3P3jlshFjO4bGEdm77cC2_HPgHEotsdAplYRrbi9rM-IDiL-UZgJVMT_EeB8Q)\n\n#### Important Distinction: Edition vs. Printing\n\n- **First Edition:** The initial typeset and layout of the book. If it is later re-released in a new format (like going from hardcover to paperback) or with major text changes, it becomes a new edition.[[1]](https://google.com/goto?url=CAESdQHEIkXX9FaUejHB8l3L-fP6ETxlFpZDtyMeFdz__psU34yG7Y_JUDkO4jJlPK9cMofJzK4UTZC5n7Ug1DNjpHcTBIn8p0PoU3P3jlshFjO4bGEdm77cC2_HPgHEotsdAplYRrbi9rM-IDiL-UZgJVMT_EeB8Q)[[2]](https://google.com/goto?url=CAESqQEBxCJF15IKmJOkmnRzz2OIb0tvKoVONLQTFmNjyjViM--_HiGFC9aG_n3DqkrtDdXrpxC7nf5t7UbglsGamNGV8irzyz19QT_TF_fDB9pBphHitOPEtp6FDqxoOQvkCtu_3qKlKbo19ZArflT3DhEOaTrrMRJmXH1KKjX-dFsIQrIFqHIqmKGUyni7mz5BhiUcoN4gTPu71DodXvIiA6_BCD4B3sT_Qwj8)[[3]](https://www.youtube.com/watch?v=cOHGtC8piyk)\n- **First Printing:** The very first batch of books rolled off the press during that initial run. Collectors usually prize a **\"1st/1st\"** (First Edition, First Printing) above later printings of the same edition.[[1]](https://google.com/goto?url=CAESzQEBxCJF1-RxNuLMBsqC-mTlO9JMLLVS1D68V4GfjQWU1TniD-rjFDByQPRU24g695MSVvuky5EeOa88XjCoJ04J-ZN_--PvsEKOYsID7O9u3vBvC_kPoSBj_D_unaNw4JLqVUFMhxGMBytFEnzYyxSF648vuhAWdmEtXTU5Yy7axzeorqoTz2pPDQH_y3vyGCjPkQOm2sk944wZRsuAKoAUsw3ejpCN8dotp4fu2MGCY2qb62LBVGLIQxA1H5zJPBdZxxZvWAstX55R1Fuj)[[2]](https://google.com/goto?url=CAESdQHEIkXX9FaUejHB8l3L-fP6ETxlFpZDtyMeFdz__psU34yG7Y_JUDkO4jJlPK9cMofJzK4UTZC5n7Ug1DNjpHcTBIn8p0PoU3P3jlshFjO4bGEdm77cC2_HPgHEotsdAplYRrbi9rM-IDiL-UZgJVMT_EeB8Q)\n\nYou can read more about collecting and identification guidelines via the [AbeBooks Collecting Guide](https://google.com/goto?url=CAESqQEBxCJF15IKmJOkmnRzz2OIb0tvKoVONLQTFmNjyjViM--_HiGFC9aG_n3DqkrtDdXrpxC7nf5t7UbglsGamNGV8irzyz19QT_TF_fDB9pBphHitOPEtp6FDqxoOQvkCtu_3qKlKbo19ZArflT3DhEOaTrrMRJmXH1KKjX-dFsIQrIFqHIqmKGUyni7mz5BhiUcoN4gTPu71DodXvIiA6_BCD4B3sT_Qwj8) or the [ABAA Identifying First Editions Overview](https://google.com/goto?url=CAESdQHEIkXX9FaUejHB8l3L-fP6ETxlFpZDtyMeFdz__psU34yG7Y_JUDkO4jJlPK9cMofJzK4UTZC5n7Ug1DNjpHcTBIn8p0PoU3P3jlshFjO4bGEdm77cC2_HPgHEotsdAplYRrbi9rM-IDiL-UZgJVMT_EeB8Q).[[1]](https://google.com/goto?url=CAESqQEBxCJF15IKmJOkmnRzz2OIb0tvKoVONLQTFmNjyjViM--_HiGFC9aG_n3DqkrtDdXrpxC7nf5t7UbglsGamNGV8irzyz19QT_TF_fDB9pBphHitOPEtp6FDqxoOQvkCtu_3qKlKbo19ZArflT3DhEOaTrrMRJmXH1KKjX-dFsIQrIFqHIqmKGUyni7mz5BhiUcoN4gTPu71DodXvIiA6_BCD4B3sT_Qwj8)[[2]](https://google.com/goto?url=CAESdQHEIkXX9FaUejHB8l3L-fP6ETxlFpZDtyMeFdz__psU34yG7Y_JUDkO4jJlPK9cMofJzK4UTZC5n7Ug1DNjpHcTBIn8p0PoU3P3jlshFjO4bGEdm77cC2_HPgHEotsdAplYRrbi9rM-IDiL-UZgJVMT_EeB8Q)If you'd like to check a specific book, tell me the **title**, **author** , and **publisher** (plus any numbers or text you see on the copyright page) and I can help you figure out what you have.",
+              "items": [
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "To tell if a book is a true first edition (and a first printing), inspect the copyright page—usually located directly behind the title page.",
+                  "markdown": "![How to Tell if a Book Is a First Edition: A Quick Reference ...](https://api.dataforseo.com/cdn/i/11181353-2831-0139-0000-5a2d9e6d7a96:2)\nTo tell if a book is a true first edition (and a first printing), `inspect the copyright page—usually located directly behind the title page`.[[1]](https://www.youtube.com/watch?v=cOHGtC8piyk)[[2]](https://google.com/goto?url=CAESgwEBxCJF18YR3OpurZ0AoI1GTjwQrUpgnhNsPlGJKyNg3EMxG5lKb0ylSgQhbwSx8WDC3qdkItb4vYcTII2qi371kzEXCj2oTMtEYEx7VpqUoZXDPpBLo4sGFAUSResvhtATRrJSBRJVNC4OoDsWuqEc4MQn9UXfOAFlFF52wHvfKA4mEg)",
+                  "links": null,
+                  "images": [
+                    {
+                      "type": "images_element",
+                      "alt": "How to Tell if a Book Is a First Edition: A Quick Reference ...",
+                      "url": null,
+                      "image_url": "https://api.dataforseo.com/cdn/i/11181353-2831-0139-0000-5a2d9e6d7a96:3"
+                    }
+                  ],
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=cOHGtC8piyk",
+                      "title": "First Editions and First Printings: How to Identify Them",
+                      "text": "First Editions and First Printings: How to Identify Them this book is a first edition. this book is also a first edition. this book is a first printing. this bo..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "First Second Books",
+                      "domain": "firstsecondbooks.com",
+                      "url": "https://firstsecondbooks.com/featured/first-printing-or-first-edition/",
+                      "title": "First Printing or First Edition? - First Second Books",
+                      "text": "First printings are collectible, so people do occasionally want to know if the book they've got is a first printing. How can you tell? It turns out that it's pr..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Key Indicators to Check",
+                  "text": "The Number Line (Post-1970s Books): Look at the bottom of the copyright page for a string of numbers (e.g., 10 9 8 7 6 5 4 3 2 1 ). The lowest number in the sequence tells you the printing. If the lowest digit is 1, it is a first printing. (Note: Some publishers like Random House used sequences counting down to 2 for first printings between 1970 and 2002). Stated Statements: Look for explicit text like \"First Edition,\" \"First Printing,\" or \"First Impression\". Matching Dates: For many modern and older books, the year on the copyright page should match the year on the title page. Letter Rows: Some publishers use a sequence of letters (e.g., A B C D E ) instead of numbers, where A represents the first printing. Pre-1900s Books: Older books rarely have number lines or explicit printing statements. You must rely on matching title page dates, known publisher histories, or specific historical errors unique to the first release.",
+                  "markdown": "- **The Number Line (Post-1970s Books):** Look at the bottom of the copyright page for a string of numbers (e.g., `10 9 8 7 6 5 4 3 2 1` ). The lowest number in the sequence tells you the printing. If the lowest digit is **1** , it is a first printing. *(Note: Some publishers like Random House used sequences counting down to 2 for first printings between 1970 and 2002).* [[1]](https://google.com/goto?url=CAESgwEBxCJF18YR3OpurZ0AoI1GTjwQrUpgnhNsPlGJKyNg3EMxG5lKb0ylSgQhbwSx8WDC3qdkItb4vYcTII2qi371kzEXCj2oTMtEYEx7VpqUoZXDPpBLo4sGFAUSResvhtATRrJSBRJVNC4OoDsWuqEc4MQn9UXfOAFlFF52wHvfKA4mEg)[[2]](https://www.tiktok.com/@rebeccaromney/video/7487692700418952490)[[3]](https://google.com/goto?url=CAESigEBxCJF1-BTl1E2mUGB0uV7f3Hc1AYD5FvfZK1kgA21yBCHpa8yuVLbOVMbiZP_PXLtaE8CTzZgLwI81ebHSkXGOi2bo3M5hRiCx5r5iR58JaBwjTTJpwDuCi4D4HNQXTcvSsgViq2N0ypCX5L8fZ1lF6bAnoiUC_c8HzDIssYvTPD71TQ7wl1SD1w)\n- **Stated Statements:** Look for explicit text like **\"First Edition,\"** **\"First Printing,\"** or **\"First Impression\"**.[[1]](https://google.com/goto?url=CAESkAEBxCJF1wvKvbfGRqfNPbmazBxH8OK9nx3sq-azNpXCw92cZSIwTjqDSL2LNa6OHTQS1BondEqtgKWNdX9kxHLvQxpvE7xspcvtR8c4AXn_QyKmyRf8kVZVT6s8f_ejT-QThxSWygDq0mTkjeV0NONdMvW2NK96vUz2hAQpLMOJPLvxitDzBQpfcNVSWi9mJ5o)[[2]](https://google.com/goto?url=CAESigEBxCJF1-BTl1E2mUGB0uV7f3Hc1AYD5FvfZK1kgA21yBCHpa8yuVLbOVMbiZP_PXLtaE8CTzZgLwI81ebHSkXGOi2bo3M5hRiCx5r5iR58JaBwjTTJpwDuCi4D4HNQXTcvSsgViq2N0ypCX5L8fZ1lF6bAnoiUC_c8HzDIssYvTPD71TQ7wl1SD1w)\n- **Matching Dates:** For many modern and older books, the year on the copyright page should match the year on the title page.[[1]](https://google.com/goto?url=CAESqQEBxCJF15IKmJOkmnRzz2OIb0tvKoVONLQTFmNjyjViM--_HiGFC9aG_n3DqkrtDdXrpxC7nf5t7UbglsGamNGV8irzyz19QT_TF_fDB9pBphHitOPEtp6FDqxoOQvkCtu_3qKlKbo19ZArflT3DhEOaTrrMRJmXH1KKjX-dFsIQrIFqHIqmKGUyni7mz5BhiUcoN4gTPu71DodXvIiA6_BCD4B3sT_Qwj8)[[2]](https://google.com/goto?url=CAESkAEBxCJF1wvKvbfGRqfNPbmazBxH8OK9nx3sq-azNpXCw92cZSIwTjqDSL2LNa6OHTQS1BondEqtgKWNdX9kxHLvQxpvE7xspcvtR8c4AXn_QyKmyRf8kVZVT6s8f_ejT-QThxSWygDq0mTkjeV0NONdMvW2NK96vUz2hAQpLMOJPLvxitDzBQpfcNVSWi9mJ5o)\n- **Letter Rows:** Some publishers use a sequence of letters (e.g., `A B C D E` ) instead of numbers, where **A** represents the first printing.[[1]](https://google.com/goto?url=CAESigEBxCJF1-BTl1E2mUGB0uV7f3Hc1AYD5FvfZK1kgA21yBCHpa8yuVLbOVMbiZP_PXLtaE8CTzZgLwI81ebHSkXGOi2bo3M5hRiCx5r5iR58JaBwjTTJpwDuCi4D4HNQXTcvSsgViq2N0ypCX5L8fZ1lF6bAnoiUC_c8HzDIssYvTPD71TQ7wl1SD1w)\n- **Pre-1900s Books:** Older books rarely have number lines or explicit printing statements. You must rely on matching title page dates, known publisher histories, or specific historical errors unique to the first release.[[1]](https://google.com/goto?url=CAESmAEBxCJF1-QTtmYCcnLiM1zOjFrpkCoApr-k8fOtBgF3fDvXcEqscLImq4LHxmCmlTVoyzshDdCIoVaWmZM2ehCoYTw8KoxTCu7YYeymUkFJUQ7pJ8iFaA5MKwzDJu0CbOeH0fJDUFVYkNqJ9w2WSHxpD-4hEFIXoQZqVVcSd5Rj4_6teLL2y8MCN54hwJk6qAd8SSLYhkdQhg)[[2]](https://google.com/goto?url=CAESZQHEIkXXq6p1EmFmoez4wseOLkbJdzAisGpMnle6jRFnMYYRxfAyR8DsqFr9E2FZ-riXACWEfZ5e6Z3mzn7wa4WCjIl0IcpGDq_7tX1PDGNXUG9NRl3IUOv8YjszTWWz0ArcXhK2)[[3]](https://google.com/goto?url=CAESdQHEIkXX9FaUejHB8l3L-fP6ETxlFpZDtyMeFdz__psU34yG7Y_JUDkO4jJlPK9cMofJzK4UTZC5n7Ug1DNjpHcTBIn8p0PoU3P3jlshFjO4bGEdm77cC2_HPgHEotsdAplYRrbi9rM-IDiL-UZgJVMT_EeB8Q)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "First Second Books",
+                      "domain": "firstsecondbooks.com",
+                      "url": "https://firstsecondbooks.com/featured/first-printing-or-first-edition/",
+                      "title": "First Printing or First Edition? - First Second Books",
+                      "text": "First printings are collectible, so people do occasionally want to know if the book they've got is a first printing. How can you tell? It turns out that it's prett..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "TikTok",
+                      "domain": "www.tiktok.com",
+                      "url": "https://www.tiktok.com/@rebeccaromney/video/7487692700418952490",
+                      "title": "How to Tell a First Edition: Book Number Line Explained",
+                      "text": "how do you tell if a book is a first edition. i'm going to show you with Octavia Butler's Parable of the Talents. but this is only for books like Octavia Butler..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "www.biblio.com",
+                      "domain": "www.biblio.com",
+                      "url": "https://www.biblio.com/book-collecting/basics/how-to-identify-first-editions/",
+                      "title": "How to Identify a First Edition Book - 1st Editions | Book Collecting Guide - Biblio",
+                      "text": "Copyright Page Indicators: Number lines (lowest number indicates printing; complete line starting with 1 or Random House's 2 from 1970–2002 denotes first printi..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Pan Macmillan",
+                      "domain": "www.panmacmillan.com",
+                      "url": "https://www.panmacmillan.com/blogs/fiction/how-to-tell-if-a-book-is-a-first-edition",
+                      "title": "How can I tell if my book is a first edition? - Pan Macmillan",
+                      "text": "Definition: A first edition is a book in its original form from its initial public release. Identification: Look at the copyright page for a number line contain..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "AbeBooks",
+                      "domain": "www.abebooks.com",
+                      "url": "https://www.abebooks.com/books/rarebooks/collecting-guide/what_books_collect/collecting-first-editions.shtml",
+                      "title": "Identifying and collecting first edition books",
+                      "text": "Definition: An edition comprises all copies from the same type setting; a true first edition chronologically supersedes all other editions, while subsequent pri..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Reddit",
+                      "domain": "www.reddit.com",
+                      "url": "https://www.reddit.com/r/books/comments/gjd63/how_can_you_tell_if_you_have_a_first_edition/",
+                      "title": "How can you tell if you have a first edition? : r/books - Reddit",
+                      "text": "First Edition Identification: Methods for identifying first editions vary by publisher and age, with modern first editions often stating \"first edition\" on the ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Quill & Brush",
+                      "domain": "google.com",
+                      "url": "https://google.com/goto?url=CAESZQHEIkXXq6p1EmFmoez4wseOLkbJdzAisGpMnle6jRFnMYYRxfAyR8DsqFr9E2FZ-riXACWEfZ5e6Z3mzn7wa4WCjIl0IcpGDq_7tX1PDGNXUG9NRl3IUOv8YjszTWWz0ArcXhK2",
+                      "title": "First Edition Identification by Publisher A-G | Book Collecting Tips",
+                      "text": "General Identification: Pre-1900 uses title page dates or matching copyright dates; post-1900 uses copyright statements, lack of later printing notes, or number..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Antiquarian Booksellers' Association of America",
+                      "domain": "www.abaa.org",
+                      "url": "https://www.abaa.org/articles/identifying-first-editions",
+                      "title": "Identifying First Editions | News | ABAA",
+                      "text": "Definitions: First edition comprises all copies from the first type setting; first printing is the initial batch. Pre-1900 books rarely indicate printings; mid-"
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Important Distinction: Edition vs. Printing",
+                  "text": "First Edition: The initial typeset and layout of the book. If it is later re-released in a new format (like going from hardcover to paperback) or with major text changes, it becomes a new edition. First Printing: The very first batch of books rolled off the press during that initial run. Collectors usually prize a \"1st/1st\" (First Edition, First Printing) above later printings of the same edition.",
+                  "markdown": "- **First Edition:** The initial typeset and layout of the book. If it is later re-released in a new format (like going from hardcover to paperback) or with major text changes, it becomes a new edition.[[1]](https://google.com/goto?url=CAESdQHEIkXX9FaUejHB8l3L-fP6ETxlFpZDtyMeFdz__psU34yG7Y_JUDkO4jJlPK9cMofJzK4UTZC5n7Ug1DNjpHcTBIn8p0PoU3P3jlshFjO4bGEdm77cC2_HPgHEotsdAplYRrbi9rM-IDiL-UZgJVMT_EeB8Q)[[2]](https://google.com/goto?url=CAESqQEBxCJF15IKmJOkmnRzz2OIb0tvKoVONLQTFmNjyjViM--_HiGFC9aG_n3DqkrtDdXrpxC7nf5t7UbglsGamNGV8irzyz19QT_TF_fDB9pBphHitOPEtp6FDqxoOQvkCtu_3qKlKbo19ZArflT3DhEOaTrrMRJmXH1KKjX-dFsIQrIFqHIqmKGUyni7mz5BhiUcoN4gTPu71DodXvIiA6_BCD4B3sT_Qwj8)[[3]](https://www.youtube.com/watch?v=cOHGtC8piyk)\n- **First Printing:** The very first batch of books rolled off the press during that initial run. Collectors usually prize a **\"1st/1st\"** (First Edition, First Printing) above later printings of the same edition.[[1]](https://google.com/goto?url=CAESzQEBxCJF1-RxNuLMBsqC-mTlO9JMLLVS1D68V4GfjQWU1TniD-rjFDByQPRU24g695MSVvuky5EeOa88XjCoJ04J-ZN_--PvsEKOYsID7O9u3vBvC_kPoSBj_D_unaNw4JLqVUFMhxGMBytFEnzYyxSF648vuhAWdmEtXTU5Yy7axzeorqoTz2pPDQH_y3vyGCjPkQOm2sk944wZRsuAKoAUsw3ejpCN8dotp4fu2MGCY2qb62LBVGLIQxA1H5zJPBdZxxZvWAstX55R1Fuj)[[2]](https://google.com/goto?url=CAESdQHEIkXX9FaUejHB8l3L-fP6ETxlFpZDtyMeFdz__psU34yG7Y_JUDkO4jJlPK9cMofJzK4UTZC5n7Ug1DNjpHcTBIn8p0PoU3P3jlshFjO4bGEdm77cC2_HPgHEotsdAplYRrbi9rM-IDiL-UZgJVMT_EeB8Q)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Antiquarian Booksellers' Association of America",
+                      "domain": "www.abaa.org",
+                      "url": "https://www.abaa.org/articles/identifying-first-editions",
+                      "title": "Identifying First Editions | News | ABAA",
+                      "text": "Definitions: First edition comprises all copies from the first type setting; first printing is the initial batch. Pre-1900 books rarely indicate printings; mid-190..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "AbeBooks",
+                      "domain": "www.abebooks.com",
+                      "url": "https://www.abebooks.com/books/rarebooks/collecting-guide/what_books_collect/collecting-first-editions.shtml",
+                      "title": "Identifying and collecting first edition books",
+                      "text": "Definition: An edition comprises all copies from the same type setting; a true first edition chronologically supersedes all other editions, while subsequent printi..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=cOHGtC8piyk",
+                      "title": "First Editions and First Printings: How to Identify Them",
+                      "text": "First Editions and First Printings: How to Identify Them this book is a first edition. this book is also a first edition. this book is a first printing. this book"
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Facebook",
+                      "domain": "www.facebook.com",
+                      "url": "https://www.facebook.com/romneyrebecca/posts/a-book-collecting-hack-using-the-number-line-to-identity-a-first-edition-meaning/1508322577331959/",
+                      "title": "A book collecting hack: using the number line to identity a first edition (meaning first printing). For more rare books check out my shop website, typepunchmatrix.com, or sign up for the newsletter",
+                      "text": "# A book collecting hack: using the number line to identity a first edition (meaning first printing). For more rare books check out my shop website, typepunchma..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "You can read more about collecting and identification guidelines via the AbeBooks Collecting Guide or the ABAA Identifying First Editions Overview.",
+                  "markdown": "You can read more about collecting and identification guidelines via the [AbeBooks Collecting Guide](https://google.com/goto?url=CAESqQEBxCJF15IKmJOkmnRzz2OIb0tvKoVONLQTFmNjyjViM--_HiGFC9aG_n3DqkrtDdXrpxC7nf5t7UbglsGamNGV8irzyz19QT_TF_fDB9pBphHitOPEtp6FDqxoOQvkCtu_3qKlKbo19ZArflT3DhEOaTrrMRJmXH1KKjX-dFsIQrIFqHIqmKGUyni7mz5BhiUcoN4gTPu71DodXvIiA6_BCD4B3sT_Qwj8) or the [ABAA Identifying First Editions Overview](https://google.com/goto?url=CAESdQHEIkXX9FaUejHB8l3L-fP6ETxlFpZDtyMeFdz__psU34yG7Y_JUDkO4jJlPK9cMofJzK4UTZC5n7Ug1DNjpHcTBIn8p0PoU3P3jlshFjO4bGEdm77cC2_HPgHEotsdAplYRrbi9rM-IDiL-UZgJVMT_EeB8Q).[[1]](https://google.com/goto?url=CAESqQEBxCJF15IKmJOkmnRzz2OIb0tvKoVONLQTFmNjyjViM--_HiGFC9aG_n3DqkrtDdXrpxC7nf5t7UbglsGamNGV8irzyz19QT_TF_fDB9pBphHitOPEtp6FDqxoOQvkCtu_3qKlKbo19ZArflT3DhEOaTrrMRJmXH1KKjX-dFsIQrIFqHIqmKGUyni7mz5BhiUcoN4gTPu71DodXvIiA6_BCD4B3sT_Qwj8)[[2]](https://google.com/goto?url=CAESdQHEIkXX9FaUejHB8l3L-fP6ETxlFpZDtyMeFdz__psU34yG7Y_JUDkO4jJlPK9cMofJzK4UTZC5n7Ug1DNjpHcTBIn8p0PoU3P3jlshFjO4bGEdm77cC2_HPgHEotsdAplYRrbi9rM-IDiL-UZgJVMT_EeB8Q)",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "AbeBooks Collecting Guide",
+                      "description": null,
+                      "url": "https://google.com/goto?url=CAESqQEBxCJF15IKmJOkmnRzz2OIb0tvKoVONLQTFmNjyjViM--_HiGFC9aG_n3DqkrtDdXrpxC7nf5t7UbglsGamNGV8irzyz19QT_TF_fDB9pBphHitOPEtp6FDqxoOQvkCtu_3qKlKbo19ZArflT3DhEOaTrrMRJmXH1KKjX-dFsIQrIFqHIqmKGUyni7mz5BhiUcoN4gTPu71DodXvIiA6_BCD4B3sT_Qwj8",
+                      "domain": "google.com"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "ABAA Identifying First Editions Overview",
+                      "description": null,
+                      "url": "https://google.com/goto?url=CAESdQHEIkXX9FaUejHB8l3L-fP6ETxlFpZDtyMeFdz__psU34yG7Y_JUDkO4jJlPK9cMofJzK4UTZC5n7Ug1DNjpHcTBIn8p0PoU3P3jlshFjO4bGEdm77cC2_HPgHEotsdAplYRrbi9rM-IDiL-UZgJVMT_EeB8Q",
+                      "domain": "google.com"
+                    }
+                  ],
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "AbeBooks",
+                      "domain": "www.abebooks.com",
+                      "url": "https://www.abebooks.com/books/rarebooks/collecting-guide/what_books_collect/collecting-first-editions.shtml",
+                      "title": "Identifying and collecting first edition books",
+                      "text": "Definition: An edition comprises all copies from the same type setting; a true first edition chronologically supersedes all other editions, while subsequent printi..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Antiquarian Booksellers' Association of America",
+                      "domain": "www.abaa.org",
+                      "url": "https://www.abaa.org/articles/identifying-first-editions",
+                      "title": "Identifying First Editions | News | ABAA",
+                      "text": "Definitions: First edition comprises all copies from the first type setting; first printing is the initial batch. Pre-1900 books rarely indicate printings; mid-190..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "If you'd like to check a specific book, tell me the title, author, and publisher (plus any numbers or text you see on the copyright page) and I can help you figure out what you have.",
+                  "markdown": "If you'd like to check a specific book, tell me the **title**, **author** , and **publisher** (plus any numbers or text you see on the copyright page) and I can help you figure out what you have.",
+                  "links": null,
+                  "images": null,
+                  "references": null
+                }
+              ],
+              "references": [
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Reddit",
+                  "domain": "www.reddit.com",
+                  "url": "https://www.reddit.com/r/books/comments/gjd63/how_can_you_tell_if_you_have_a_first_edition/",
+                  "title": "How can you tell if you have a first edition? : r/books - Reddit",
+                  "text": "First Edition Identification: Methods for identifying first editions vary by publisher and age, with modern first editions often stating \"first edition\" on the cop..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Facebook",
+                  "domain": "www.facebook.com",
+                  "url": "https://www.facebook.com/romneyrebecca/posts/a-book-collecting-hack-using-the-number-line-to-identity-a-first-edition-meaning/1508322577331959/",
+                  "title": "A book collecting hack: using the number line to identity a first edition (meaning first printing). For more rare books check out my shop website, typepunchmatrix.com, or sign up for the newsletter",
+                  "text": "# A book collecting hack: using the number line to identity a first edition (meaning first printing). For more rare books check out my shop website, typepunchmatri..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "AbeBooks",
+                  "domain": "www.abebooks.com",
+                  "url": "https://www.abebooks.com/books/rarebooks/collecting-guide/what_books_collect/collecting-first-editions.shtml",
+                  "title": "Identifying and collecting first edition books",
+                  "text": "Definition: An edition comprises all copies from the same type setting; a true first edition chronologically supersedes all other editions, while subsequent printi..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "YouTube",
+                  "domain": "www.youtube.com",
+                  "url": "https://www.youtube.com/watch?v=cOHGtC8piyk",
+                  "title": "First Editions and First Printings: How to Identify Them",
+                  "text": "First Editions and First Printings: How to Identify Them this book is a first edition. this book is also a first edition. this book is a first printing. this book"
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Pan Macmillan",
+                  "domain": "www.panmacmillan.com",
+                  "url": "https://www.panmacmillan.com/blogs/fiction/how-to-tell-if-a-book-is-a-first-edition",
+                  "title": "How can I tell if my book is a first edition? - Pan Macmillan",
+                  "text": "Definition: A first edition is a book in its original form from its initial public release. Identification: Look at the copyright page for a number line containing..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "First Second Books",
+                  "domain": "firstsecondbooks.com",
+                  "url": "https://firstsecondbooks.com/featured/first-printing-or-first-edition/",
+                  "title": "First Printing or First Edition? - First Second Books",
+                  "text": "First printings are collectible, so people do occasionally want to know if the book they've got is a first printing. How can you tell? It turns out that it's prett..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Antiquarian Booksellers' Association of America",
+                  "domain": "www.abaa.org",
+                  "url": "https://www.abaa.org/articles/identifying-first-editions",
+                  "title": "Identifying First Editions | News | ABAA",
+                  "text": "Definitions: First edition comprises all copies from the first type setting; first printing is the initial batch. Pre-1900 books rarely indicate printings; mid-190..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "www.biblio.com",
+                  "domain": "www.biblio.com",
+                  "url": "https://www.biblio.com/book-collecting/basics/how-to-identify-first-editions/",
+                  "title": "How to Identify a First Edition Book - 1st Editions | Book Collecting Guide - Biblio",
+                  "text": "Copyright Page Indicators: Number lines (lowest number indicates printing; complete line starting with 1 or Random House's 2 from 1970–2002 denotes first printing)"
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "TikTok",
+                  "domain": "www.tiktok.com",
+                  "url": "https://www.tiktok.com/@rebeccaromney/video/7487692700418952490",
+                  "title": "How to Tell a First Edition: Book Number Line Explained",
+                  "text": "how do you tell if a book is a first edition. i'm going to show you with Octavia Butler's Parable of the Talents. but this is only for books like Octavia Butler's"
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Quill & Brush",
+                  "domain": "google.com",
+                  "url": "https://google.com/goto?url=CAESZQHEIkXXq6p1EmFmoez4wseOLkbJdzAisGpMnle6jRFnMYYRxfAyR8DsqFr9E2FZ-riXACWEfZ5e6Z3mzn7wa4WCjIl0IcpGDq_7tX1PDGNXUG9NRl3IUOv8YjszTWWz0ArcXhK2",
+                  "title": "First Edition Identification by Publisher A-G | Book Collecting Tips",
+                  "text": "General Identification: Pre-1900 uses title page dates or matching copyright dates; post-1900 uses copyright statements, lack of later printing notes, or number ro..."
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "google.com",
+              "title": "Recently got my hands on this. How do I tell if it's a first edition?",
+              "url": "https://google.com/goto?url=CAESpQEBxCJF1-wxp1vcnjo0ZBdYUR1DIuATS8jYg2Ymg17qU5Lcz7HYkvXcQbkPWlNkn2RsNjYPVGbiSX7g9Ig3_fywpI8nlheIipIEJ5bKc9fIaLUjXhUGwjZSkuAE3rTnilj7ZFD3OZRNp0pwnM17Dm_O0xfG5ZCAuFnpNOUJ21HhkksC2zQKTpNLxyfvrwsRJbvoORfOtlkTRhMLBdu2z-HSZj6nltc&gsessionid=89rxLZ7GD7IXW_4q-mF0vOv0x87MZ8SLvxPmX9W7YeKnnt_toGiZmg",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.reddit.com",
+              "website_name": "Reddit",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Apparently not all publications state the first edition to the nth edition other than my country, and maybe a few more. How do I tell, ...",
+              "pre_snippet": "10/01/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Help! Can't tell if this is a true first edition. Can anyone confirm?5 answers·3y",
+                  "description": null,
+                  "url": "https://google.com/goto?url=CAESpQEBxCJF12OJrg3H2WhBXueLdrmRlPky4LC41sCRqYMxAGtqEIp-LUuTADQCZvP6f-Ml-AvmFHI59P3c6ljAVixT5wlkF9hqrcnFJeFi3Zqebe5Xi13N3IjGu3bMpR-3Xbkv4MVtrmfafik5tKpdjvyddv5y93KwkdRC5NydJH4PDMbdlpm-DjOOECzwFHEShbY8_O5Y4EY2ADYTy8P14Io3d7Ll6IM&gsessionid=89rxLZ7GD7IXW_4q-mF0vOv0x87MZ8SLvxPmX9W7YeKnnt_toGiZmg",
+                  "domain": "google.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Difficulty determining if this is a first edition : r/BookCollecting10+ answers·4mo",
+                  "description": null,
+                  "url": "https://google.com/goto?url=CAESqAEBxCJF18JHYE4-CRMj1Ph4HgBM6OX-7-fuV5Rqb3y6wlf9FTPZw0EoG9xoscNlFRX2LS9x0eDVhYwOGSqoaEIi0UuHbP2n2OafoIEN9WTmjFw_b-n2JRn-YiydOxMfVVL7qBwtZlAQLVgUYKaJUfHq6tCvYBwyp2_VLyNko8YGZ3Q20rRGw_EbKP_I8-EMbpWanZffCHWbc1-pJcB50I4a_1wnwNGXqVM&gsessionid=89rxLZ7GD7IXW_4q-mF0vOv0x87MZ8SLvxPmX9W7YeKnnt_toGiZmg",
+                  "domain": "google.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-10-01 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[6]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What does 10 9 8 7 6 5 4 3 2 1 mean in a book?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[6]/div[1]/div[2]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How do I check if a book is valuable?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[6]/div[1]/div[2]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Does 10 9 8 7 6 5 4 3 2 1 mean first edition?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[6]/div[1]/div[2]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Which first edition books are worth money?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[6]/div[1]/div[2]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "google.com",
+              "title": "How to Spot Valuable First Edition Books: A Guide for Collectors",
+              "url": "https://google.com/goto?url=CAESqAEBxCJF13qbcirEWOw9LgtWe-u_PFxQ8XdxH1UlL0wRaIwVSsMNJXXEpjwxHL5k2B_o7ViCwCYhIchc1BF3bFj9NC42KquvYUomaJ3ap46ks6yvM9o733_5DoHR4Jj1pYMUyuiySg4chHZcyjeIZ7Dqbwyvl9lfOfK2Vje-zoS4XBJyuG6wXRSYVzTLkXoP7ZPdL0Lr-iru6YVq_39BHivnd5rW8s50kWM&gsessionid=89rxLZ7GD7IXW_4q-mF0vOv0x87MZ8SLvxPmX9W7YeKnnt_toGiZmg",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://bookbrokercollectibles.com",
+              "website_name": "The Book Broker",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_image"
+              ],
+              "description": "Jun 28, 2024 — Publishers typically denote first editions on the copyright page, stating “First Edition” or using a number line where “1” appears.",
+              "pre_snippet": "06/28/2024 00:00:00",
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": "how to tell if a book is a first edition from bookbrokercollectibles.com",
+                  "url": "https://google.com/goto?url=CAESqAEBxCJF14O1xOirxLNrwo1MEpDOJ8gR-g9BiXRnwpz5DH34pTEPBn5rC5LCQOJ2pjMalR3V0xzOrKtyHMrJ39S7XAcB7_xRQN-PNaxEcuJfu9mJvnaBKQJRJ2_xNXnGiO3hCDgjeJ-eGiOClfEQX8RMyS_ux4lcvYTzflLTlk4Pn3BDlebK8rZ9tuc4OZVboCRjJq_IUxl5Czg2tKRy_2lEWsNw7bfInZw&gsessionid=89rxLZ7GD7IXW_4q-mF0vOv0x87MZ8SLvxPmX9W7YeKnnt_toGiZmg",
+                  "image_url": "https://api.dataforseo.com/cdn/i/11181353-2831-0139-0000-5a2d9e6d7a96:5"
+                }
+              ],
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Publishers typically denote first editions on the copyright page"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-06-28 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "google.com",
+              "title": "How to Tell If a Book Is a First Edition (Complete Guide)",
+              "url": "https://google.com/goto?url=CAESkQEBxCJF12Vg6CnK3CLEQho0lSiAFLKAVLG6c0CHJqaXE5SxPAmhqO3NvsWLLtZpk02AKsqfmXYLdhbt7L6o9HF7hpWcKEyYy5loyVoI_K93haAQFB5WRXO2_hfyBmE6N4oQfq_smEqstT52FsSUCCnQiUJwozy9nYwukI9UmeIritlswsv4vbcs40NBHBgxQzb5&gsessionid=89rxLZ7GD7IXW_4q-mF0vOv0x87MZ8SLvxPmX9W7YeKnnt_toGiZmg",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.xwprint.com",
+              "website_name": "xwprint.com",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_image"
+              ],
+              "description": "May 9, 2026 — Publishers use \"first edition\" to describe all copies produced from the original typesetting - everything printed before the text is ...",
+              "pre_snippet": "Publishers use \"first edition\" to describe all copies produced from the original typesetting - everything printed before the text is ...",
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": "how to tell if a book is a first edition from www.xwprint.com",
+                  "url": "https://google.com/goto?url=CAESkQEBxCJF1-kwbtSulLgiWO8QuWYPYbLo3gXnRNKL9qnZF2q0oyq2BDv3xfDnGfvTAYP1CFgPO1NRX1ru8hmN0hyIti9zXY86n2SJ_nGTRC5yOpMzbyvWXJiZWXpH9V5OhfoMoLgDurVI47NejIY7Y8lXCxR6sOuC8FPIpH4QpoKEAQKgkj_IonjvIRFVnHCxt3nE&gsessionid=89rxLZ7GD7IXW_4q-mF0vOv0x87MZ8SLvxPmX9W7YeKnnt_toGiZmg",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZXGks77MRPCKAp1ScYTfcoEhyTTUDAFRNBolR91MBQA4YZGcI3kDeExM&usqp=CAE&s"
+                }
+              ],
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "all copies produced from the original typesetting"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-05-09 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[12]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "google.com",
+              "title": "How to Determine If Book Is First Edition First Printing",
+              "url": "https://google.com/goto?url=CAESlQEBxCJF1-odywN72SHLdxdaMYXeRbF9sDDwuZL9FleCdEYAnzNDxCyAMYiciEZ0pMFqhJcWyfppaQKbh0hWs7kFcazYebsaer8G_rCVJskBtm7GEXEKgAtTfVaUN5NUrHmnDzqe6iwmx0Spio2MvbqU_s_-DMebryMXrqOn08TIaW7JnPPT7oKYvuFs47_ttgXyn4Zw7g&gsessionid=89rxLZ7GD7IXW_4q-mF0vOv0x87MZ8SLvxPmX9W7YeKnnt_toGiZmg",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "22K+ views",
+              "website_name": "TikTok · Half Price Books",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_image"
+              ],
+              "description": "Not all “first editions” are the same. True first printings usually have a number line with a 1, a price on the dust jacket, and standard publisher markings.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": "how to tell if a book is a first edition from www.tiktok.com",
+                  "url": "https://google.com/goto?url=CAESlQEBxCJF11SVDBl9R1rT-PsKyg3SyizcrK1nIzJ2rHN7MhFTs6JL0uXqfWmDb8efbykF1al8g3emM3V8SgU7Yt0ZzA4wiTbnbhdVoNWDCkjUyhLqX5pgUtYw_7ymWsP2mmEHk_lMbUvZ0Jvam6ojTdVXT6NggkqmJ-rEPxDthAxlhaolv3WfWEqbvAbWBpL84TgMrfLEEA&gsessionid=89rxLZ7GD7IXW_4q-mF0vOv0x87MZ8SLvxPmX9W7YeKnnt_toGiZmg",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCEUMfPWBnZzftIPAbdqdwckw_P2G_KpHxhced4CSWHYB-ybrysJJOe_w&usqp=CAE&s"
+                }
+              ],
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "images",
+              "rank_group": 1,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[14]",
+              "title": "Images",
+              "url": null,
+              "items": [
+                {
+                  "type": "images_element",
+                  "alt": "How to Determine If Book Is First Edition First Printing | TikTok",
+                  "url": "https://www.tiktok.com/discover/how-to-determine-if-book-is-first-edition-first-printing",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGxUE-mbko71msK9ddpLDAQ6uHIlTgZ6OjpdnRZdWkGahgBtRfBdP3vek&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Question? How do you tell if you have a first edition book?",
+                  "url": "https://www.facebook.com/groups/thebookhangoutspot/posts/2264590363723935/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWVZMBQ9fT3A9zyWtdTp1Vj_M6PiFhFuQwxqrZf0WULLLyTd8qmKPYNko&s"
+                }
+              ],
+              "related_image_searches": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[16]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "google.com",
+              "title": "how do you tell if you have a first edition?",
+              "url": "https://google.com/goto?url=CAESgwEBxCJF13v-YXh58v7EZxOGNiuiCWHcxpH-IU9MNyH17szdW9NC3PRN3AAKsx1Du512UbF_cOkCXm2TTUXgFuLOPn4O18XNKw_CjnVyy6HAAonj2vpEUZ_r0dlfiXr4ar05XpPZWeEmH0Q-y6SP0ksz-j3VJQTA_5Les4R8V98YNy6iyw&gsessionid=89rxLZ7GD7IXW_4q-mF0vOv0x87MZ8SLvxPmX9W7YeKnnt_toGiZmg",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.facebook.com",
+              "website_name": "Facebook",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Mar 7, 2013 — if a #1 was anywhere in the numerical lineup, it is a first edition. Is there a set in stone way of finding out? Find answers to a few of these ...",
+              "pre_snippet": "03/07/2013 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "if a #1 was anywhere in the numerical lineup, it is a first edition"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Hi I was wondering how you tell if a book is a first edition - Facebook3y",
+                  "description": null,
+                  "url": "https://google.com/goto?url=CAESigEBxCJF10vFLygHp6a-yNEtdu5COiJBoJ7tv7AL-ro-DJ4QhygnX2iA5n4HiKvg5wnxWyUNq_kW7c75_X2YPBlUZIvTeLSIqTz3RRbCeLj3eGUcOQcDbAvbWGnPbLsCKk-TrozjgT59L2QmupNnZUfYmAAPA6uygCtPbd8MDuJKrTKn257MZkwP4L4&gsessionid=89rxLZ7GD7IXW_4q-mF0vOv0x87MZ8SLvxPmX9W7YeKnnt_toGiZmg",
+                  "domain": "google.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Thank you for accepting me here!!! May I ask how do I know if the ...1y",
+                  "description": null,
+                  "url": "https://google.com/goto?url=CAESgQEBxCJF1378u2UnXxG29pe5-sLPzSCguJoStqFR_cBAxeUqNBkpy8SY6WoVaCTykGPmXwa8442-hqoADbAinDnwWrCqs4LJeZH99kfMkkhACKTnS98TDMjgkTEiAvrk-F2uD_LpFVkOqA5dEuFfmfHtcOUHB2HF4Ef6Q2-2jaNyboY&gsessionid=89rxLZ7GD7IXW_4q-mF0vOv0x87MZ8SLvxPmX9W7YeKnnt_toGiZmg",
+                  "domain": "google.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2013-03-07 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[17]/div[1]/div[1]",
+              "domain": "google.com",
+              "title": "How To Know If A Book Is First Edition - Full Guide",
+              "url": "https://google.com/goto?url=CAESaAHEIkXX9tH_6rPGJq0X65ZeuV5W6XjRTNGP7xYF4Tze-buIKI5A2l6PXVl8jQtfnkKw73flx-SKkHUjxkir0R87uOnVh73sBdWI_IthX7ZZ86YS7LZmx5SyiJwVkVdlgjF6OGEl2Mte&gsessionid=89rxLZ7GD7IXW_4q-mF0vOv0x87MZ8SLvxPmX9W7YeKnnt_toGiZmg",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.youtube.com",
+              "website_name": "YouTube · MrHowTo",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "How To Know If A Book Is First Edition If you learned anything useful from this video, please like, comment and subscribe to our channel.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-12-24 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[19]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "google.com",
+              "title": "How can you tell if a book is 1st edition? for example...",
+              "url": "https://google.com/goto?url=CAESmwEBxCJF1yFHvO_VTuU14qItCSueau2_izR1C7_jCYpCV3M07P9YOJxGWLZcSo8Ckkb1-_NKoNxjGgMjZ15q5AGUDr00TlqOeFvW1FNdg99IrxpGs4kT-i50ojeU12JowuThTucPlfh2O48aRW84SHQbWTx9mJoJc3cjfrraIfDShYCn1XsBnbQCrXMNTGWnmtrviKXA-5XnGJICEQ&gsessionid=89rxLZ7GD7IXW_4q-mF0vOv0x87MZ8SLvxPmX9W7YeKnnt_toGiZmg",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://m.bonanza.com",
+              "website_name": "Bonanza",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "The books have a number line, and the number line begins or ends with the number of the printing. For instance, 1234567890 is the first printing.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "The books have a number line"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[21]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "google.com",
+              "title": "How to Spot First Editions: A Collector's Guide",
+              "url": "https://google.com/goto?url=CAESkgEBxCJF14vauHDq8eTC5NuSU7lAmswVZ3YZfiEX2xm0O3GGXKLhBxfDvOpO6mRAkElhCMWeICHHxJzkCE6YdvxpdQi7rCmKItMxJC02Xi58BATGr3LaVbc0IwEJJpciQpXNOXkwGhm_EsBNtUulQ0ac0R-KQM1xC8FXJSbQWvg-zSkwwP45qqHyWBvvZ43zMZUR2A&gsessionid=89rxLZ7GD7IXW_4q-mF0vOv0x87MZ8SLvxPmX9W7YeKnnt_toGiZmg",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://thebookheritage.com",
+              "website_name": "The Book Heritage",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_image"
+              ],
+              "description": "Jan 17, 2025 — A “1” in the sequence usually indicates a first printing. If the sequence begins with a higher number, it denotes later printings. Dust Jackets: ...",
+              "pre_snippet": "01/17/2025 00:00:00",
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": "how to tell if a book is a first edition from thebookheritage.com",
+                  "url": "https://google.com/goto?url=CAESkgEBxCJF18ZOB7qWoyYUf9u9ivMFx6ReLNC3ZAl06omQ2dGLJwrbnwwNyy_PbF-QavdnEg_m3_a_fWTYEOPD1B36kX1VCIjwKz5ghP9H8-Y-haNiy6xqYVoxtO8UsYKJKquYutuhoYgy5tG46ywkbhqS17yPLELSFxWP3oAhad5sN2iRugGlSUDOvVbnvGtUrWc9kg&gsessionid=89rxLZ7GD7IXW_4q-mF0vOv0x87MZ8SLvxPmX9W7YeKnnt_toGiZmg",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDV1RI1dMoPbrIVy9U1oi5g9U72xDZytJ6-gHsZ37DDmW1DE7I6i70zEA&usqp=CAE&s"
+                }
+              ],
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "A “1” in the sequence usually indicates a first printing"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-01-17 00:00:00 +00:00",
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

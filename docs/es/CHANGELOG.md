@@ -47,3 +47,6 @@
 
 ## Fase 6 — Slack: diferida (2026-11-18)
 - Decisión del dueño: queda desactivada por ahora (D-032). No se construyó. El botón "Copy for Slack" manual sigue disponible.
+
+## Primera consulta real a DataForSEO (2026-11-18)
+- Una consulta autorizada (USD 0,006) con datos reales guardados como fixtures y tests de canario. Descubrió que en móvil los resultados orgánicos vienen como redirecciones de Google, lo que invalida la comparación off-top10 por URL (D-033, pendiente de decisión). El modo live sigue bloqueado.

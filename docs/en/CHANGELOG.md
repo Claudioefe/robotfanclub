@@ -47,3 +47,6 @@
 
 ## Phase 6 — Slack: deferred (2026-11-18)
 - Owner's decision: it stays off for now (D-032). Not built. The manual "Copy for Slack" button remains available.
+
+## First real DataForSEO query (2026-11-18)
+- One authorized query (USD 0.006) with real data saved as fixtures and canary tests. It found that on mobile organic results come as Google redirects, which breaks the off-top10 comparison by URL (D-033, decision pending). Live mode stays blocked.
