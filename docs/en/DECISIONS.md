@@ -227,3 +227,20 @@ Second authorized query (same query, `resolve_goto_urls: true`): **all** URLs ca
 - **Visitor data:** no email is asked. The domain, the queries and the IP hash are stored. The result page shows neither the cost nor the hash.
 - **Landing (`/`):** name, tagline, what it measures, how it works and ways into the Mini-Scan and login. No verticals (D-004) and no promises: it describes what the product does. All text in English.
 - **To open it to the public** (the owner's decision, D-011 pending): create a Cloudflare Turnstile account (`TURNSTILE_SITE_KEY` and `TURNSTILE_SECRET_KEY`), set `MINI_SCAN_MODE=live` on the server and, on GitHub, the variable `MINI_SCAN_MODE=live` with `MINISCAN_ALLOW_LIVE=yes` and the DataForSEO secrets.
+
+## D-039 — Research: measuring other AIs with DataForSEO ⏳ (2026-11-18)
+Result of reading the public documentation and prices of DataForSEO's **AI Optimization API** (no calls, no spend). Today we measure only Google (AI Overview and AI Mode, D-005). DataForSEO offers four families for other AIs:
+
+| Product | What it delivers | Platforms | Price (per their site) |
+|---|---|---|---|
+| **LLM Scraper** | The answer of ChatGPT/Gemini to a search, with `sources` (what it cited), `search_results` (everything it consulted), `brand_entities` and `fan_out_queries`. The equivalent of what we do with Google | ChatGPT and Gemini | Live **USD 0.004** (up to 120 s) · priority **0.0024** (up to 5 min) · standard **0.0012** (up to 45 min), per result |
+| **LLM Mentions** | A pre-collected database ("280M real prompts and answers" per their page) to query mentions and sources of a domain or keyword, AI search volume, top domains/pages/brands, monthly history and new/lost mentions | ChatGPT (US and English only) and Google AI Overview | **USD 0.1** per request + **0.001** per returned row (Live only, ~2 s) |
+| **LLM Responses** | Calling the models through their API with your prompt | ChatGPT, Claude, Gemini, Perplexity | DataForSEO's fee (USD 0.0006 Live / 0.0002 standard + 0.01 advance) **plus** the model's own charge |
+| **AI Keyword Data** | Estimated search volume in AI tools | — | USD 0.01 per request + 0.0001 per row |
+
+- **What can be measured like Google:** ChatGPT and Gemini, with the LLM Scraper (same flow: query → sources → does the domain appear?). Reference cost: 40 queries a day ≈ USD 0.048 on the standard queue or USD 0.16 Live, per platform.
+- **Claude and Perplexity: there is no scraper.** Only LLM Responses, which queries the model through its API: **it is not what a person sees in the app**. We did not verify whether that API allows web search and citations.
+- **Risks for an SLA:** model answers vary between calls and with the conversation, so a daily series that is "the same every day" is harder to guarantee; in ChatGPT's scraper, `force_web_search` is off by default and even when on it does not guarantee sources (how much it varies must be measured); geographic coverage is narrower (ChatGPT in LLM Mentions: US and English only); and we did not read the scraper's location lists.
+- **Uses that need no SLA and look valuable:** (1) **discovering which queries to freeze** with AI Keyword Data and LLM Mentions; (2) an **instant Mini-Scan**: LLM Mentions answers in ~2 s with a domain's mentions, competitors and most-cited pages, without Google's ~80 s per query (≈ USD 0.10 per scan); (3) **competitive intelligence** (who is cited instead of the client).
+- **Unverified:** whether ChatGPT and Gemini cost the same in the scraper (the page shows a single rate); LLM Mentions' real freshness (each row carries `first_response_at` and `last_response_at`); and how much of that database covers our clients' domains.
+- **Proposal (pending the owner's decision and spend authorization):** do not extend the SLA yet. A cheap experiment (≈ USD 0.25 of the remaining USD 0.98): 5 ChatGPT scraper calls for the same query (variability and use of sources), 3 for Gemini, and one LLM Mentions query on Bauman's domain (coverage). With that, decide whether "other AIs" enter as an **informational** module (no SLA) in the portal.
