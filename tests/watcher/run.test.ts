@@ -254,6 +254,63 @@ describe("runWatcher: failures, cost and evidence integrity", () => {
   });
 });
 
+describe("runWatcher: concurrency", () => {
+  /** Counts how many calls are in flight at once. */
+  class SlowSource implements SerpSource {
+    readonly name = "fixture";
+    inFlight = 0;
+    peak = 0;
+    calls = 0;
+    private inner = new FixtureSource();
+    private failFirstWith?: DfsError;
+    constructor(failFirstWith?: DfsError) {
+      this.failFirstWith = failFirstWith;
+    }
+    async organic(): Promise<SerpTask> {
+      const n = ++this.calls; // this call's own number: other calls may start while it waits
+      this.inFlight++;
+      this.peak = Math.max(this.peak, this.inFlight);
+      await new Promise((r) => setTimeout(r, 15));
+      this.inFlight--;
+      if (this.failFirstWith && n === 1) throw this.failFirstWith;
+      return this.inner.organic();
+    }
+    async aiMode(): Promise<SerpTask> {
+      return this.inner.aiMode();
+    }
+  }
+  const eight = Array.from({ length: 8 }, (_, i) => `query ${i}`);
+
+  it("checks several queries at once, never more than the limit, and writes everything", async () => {
+    const store = new MemoryStore({ clientId: CLIENT, domain: "northwindsec.com", queries: eight });
+    const source = new SlowSource();
+    const s = await runWatcher(store, source, { ...opts, concurrency: 3 });
+    expect(source.peak).toBe(3);
+    expect(s).toMatchObject({ queriesOk: 8, queriesFailed: 0, checksWritten: 16 });
+    expect(new Set(store.checks.map((c) => c.snapshot_path)).size).toBe(16); // no two checks share a file
+  });
+
+  it("is sequential by default", async () => {
+    const source = new SlowSource();
+    await runWatcher(new MemoryStore({ clientId: CLIENT, domain: "northwindsec.com", queries: eight.slice(0, 3) }), source, opts);
+    expect(source.peak).toBe(1);
+  });
+
+  it("stops handing out new queries after a fatal error", async () => {
+    const source = new SlowSource(new DfsError("DataForSEO HTTP 401", { httpStatus: 401 }));
+    const s = await runWatcher(new MemoryStore({ clientId: CLIENT, domain: "northwindsec.com", queries: eight }), source, { ...opts, concurrency: 2 });
+    expect(s.stopped).toMatch(/401/);
+    expect(source.calls).toBeLessThan(8); // the rest were never started
+  });
+
+  it("stops at the cost ceiling, overshooting by no more than the queries already in flight", async () => {
+    const source = new SlowSource();
+    const s = await runWatcher(new MemoryStore({ clientId: CLIENT, domain: "northwindsec.com", queries: eight }), source, { ...opts, concurrency: 2, maxCostUsd: 0.01 });
+    expect(s.stopped).toMatch(/cost ceiling/);
+    expect(s.queriesOk).toBeLessThanOrEqual(3);
+  });
+});
+
 describe("live mode is gated", () => {
   const dry = resolveConfig([], {});
   it("defaults to dry-run", () => expect(dry).toEqual({ ok: true, mode: "dry_run" }));

@@ -67,8 +67,13 @@ export interface RunOptions {
   retryWaitMs?: number;
   sleep?: (ms: number) => Promise<void>;
   log?: (message: string) => void;
-  /** Stop the run once this much has been spent (API cost reported by DataForSEO). */
+  /** Stop the run once this much has been spent (API cost reported by DataForSEO). With concurrency it can overshoot by a few queries. */
   maxCostUsd?: number;
+  /**
+   * Queries checked at the same time. The live SERP call can take 80+ seconds with resolve_goto_urls, so a sequential
+   * run of 40 queries would take close to an hour (D-034). Default 1.
+   */
+  concurrency?: number;
 }
 
 const SURFACES: Surface[] = ["ai_overview", "ai_mode"];
@@ -92,6 +97,7 @@ export async function runWatcher(store: Store, source: SerpSource, options: RunO
   const wait = options.retryWaitMs ?? 5000;
   const sleep = options.sleep ?? ((ms: number) => new Promise<void>((r) => setTimeout(r, ms)));
   const log = options.log ?? (() => {});
+  const concurrency = Math.max(1, Math.floor(options.concurrency ?? 1));
 
   // One retry, only for transient errors (network, timeouts, 429, 5xx). Deterministic errors would just cost again.
   async function withRetry<T>(fn: () => Promise<T>): Promise<T> {
@@ -108,99 +114,108 @@ export async function runWatcher(store: Store, source: SerpSource, options: RunO
   const runId = await store.startRun(options.mode);
   const kind = options.mode === "live" ? "real" : "sandbox";
 
+  /** Checks one query on every surface still missing for today, and records the outcome in the shared summary. */
+  async function checkQuery(target: Target, query: string, done: Set<string>): Promise<void> {
+    const need = SURFACES.filter((s) => !done.has(`${query}|${s}`));
+    if (!need.length) {
+      summary.queriesSkipped++;
+      return;
+    }
+
+    const failures: RunError[] = [];
+    let fatal: unknown = null;
+    const fail = (surface: Surface | undefined, e: unknown) => {
+      failures.push({ client_id: target.clientId, query, surface, message: message(e) });
+      if (isFatal(e)) fatal = e;
+    };
+
+    // The organic SERP is always needed: it carries the AI Overview and the top 10 used for off-top10.
+    let serp: SerpTask | null = null;
+    let ai: SerpTask | null = null;
+    try {
+      serp = await withRetry(() => source.organic(query));
+      summary.costUsd += serp.cost;
+    } catch (e) {
+      fail("ai_overview", e);
+    }
+    if (!fatal && need.includes("ai_mode")) {
+      try {
+        ai = await withRetry(() => source.aiMode(query));
+        summary.costUsd += ai.cost;
+      } catch (e) {
+        fail("ai_mode", e);
+      }
+    }
+
+    // null = the top 10 is unknown (SERP failed or came back empty): organic_checked becomes false instead of guessing.
+    const top10 = organicTop10(serp?.result);
+
+    for (const surface of need) {
+      const task = surface === "ai_overview" ? serp : ai;
+      if (!task) continue; // its failure is already recorded
+      try {
+        const parsed = parseCitation(task.result, target.domain, top10);
+        const path = snapshotPath(target.clientId, today, surface, query, now);
+        await store.saveSnapshot(path, JSON.stringify(task.result)); // evidence first, then the row that points to it
+        const inserted = await store.insertCheck({
+          aio_present: parsed.aio_present,
+          cited: parsed.cited,
+          cited_url: parsed.cited_url,
+          source_position: parsed.source_position,
+          source_count: parsed.source_count,
+          organic_rank: parsed.organic_rank,
+          organic_checked: parsed.organic_checked,
+          other_domains: parsed.other_domains,
+          client_id: target.clientId,
+          query,
+          surface,
+          checked_on: today,
+          checked_at: now.toISOString(),
+          snapshot_path: path,
+          cost_usd: round5(task.cost),
+        });
+        if (inserted) summary.checksWritten++;
+      } catch (e) {
+        fail(surface, e);
+      }
+    }
+
+    if (failures.length) {
+      summary.queriesFailed++;
+      summary.errors.push(...failures);
+      log(`[${target.domain}] "${query}": ${failures.map((f) => f.message).join("; ")}`);
+    } else {
+      summary.queriesOk++;
+    }
+
+    if (fatal) {
+      summary.stopped ??= `Stopped: ${message(fatal)}`;
+    } else if (options.maxCostUsd !== undefined && summary.costUsd >= options.maxCostUsd) {
+      summary.stopped ??= `Stopped: cost ceiling of $${options.maxCostUsd} reached`;
+    }
+  }
+
   try {
-    clients: for (const target of await store.targets(kind, today)) {
+    for (const target of await store.targets(kind, today)) {
       try {
         const done = await store.existing(target.clientId, today);
-
-        for (const query of target.queries) {
-          const need = SURFACES.filter((s) => !done.has(`${query}|${s}`));
-          if (!need.length) {
-            summary.queriesSkipped++;
-            continue;
+        // A small pool of workers takes queries one by one; once the run is stopped nobody starts a new query.
+        const queue = [...target.queries];
+        const worker = async () => {
+          while (!summary.stopped) {
+            const query = queue.shift();
+            if (query === undefined) return;
+            await checkQuery(target, query, done);
           }
-
-          const failures: RunError[] = [];
-          let fatal: unknown = null;
-          const fail = (surface: Surface | undefined, e: unknown) => {
-            failures.push({ client_id: target.clientId, query, surface, message: message(e) });
-            if (isFatal(e)) fatal = e;
-          };
-
-          // The organic SERP is always needed: it carries the AI Overview and the top 10 used for off-top10.
-          let serp: SerpTask | null = null;
-          let ai: SerpTask | null = null;
-          try {
-            serp = await withRetry(() => source.organic(query));
-            summary.costUsd += serp.cost;
-          } catch (e) {
-            fail("ai_overview", e);
-          }
-          if (!fatal && need.includes("ai_mode")) {
-            try {
-              ai = await withRetry(() => source.aiMode(query));
-              summary.costUsd += ai.cost;
-            } catch (e) {
-              fail("ai_mode", e);
-            }
-          }
-
-          // null = the top 10 is unknown (SERP failed or came back empty): organic_checked becomes false instead of guessing.
-          const top10 = organicTop10(serp?.result);
-
-          for (const surface of need) {
-            const task = surface === "ai_overview" ? serp : ai;
-            if (!task) continue; // its failure is already recorded
-            try {
-              const parsed = parseCitation(task.result, target.domain, top10);
-              const path = snapshotPath(target.clientId, today, surface, query, now);
-              await store.saveSnapshot(path, JSON.stringify(task.result)); // evidence first, then the row that points to it
-              const inserted = await store.insertCheck({
-                aio_present: parsed.aio_present,
-                cited: parsed.cited,
-                cited_url: parsed.cited_url,
-                source_position: parsed.source_position,
-                source_count: parsed.source_count,
-                organic_rank: parsed.organic_rank,
-                organic_checked: parsed.organic_checked,
-                other_domains: parsed.other_domains,
-                client_id: target.clientId,
-                query,
-                surface,
-                checked_on: today,
-                checked_at: now.toISOString(),
-                snapshot_path: path,
-                cost_usd: round5(task.cost),
-              });
-              if (inserted) summary.checksWritten++;
-            } catch (e) {
-              fail(surface, e);
-            }
-          }
-
-          if (failures.length) {
-            summary.queriesFailed++;
-            summary.errors.push(...failures);
-            log(`[${target.domain}] "${query}": ${failures.map((f) => f.message).join("; ")}`);
-          } else {
-            summary.queriesOk++;
-          }
-
-          if (fatal) {
-            summary.stopped = `Stopped: ${message(fatal)}`;
-            break clients;
-          }
-          if (options.maxCostUsd !== undefined && summary.costUsd >= options.maxCostUsd) {
-            summary.stopped = `Stopped: cost ceiling of $${options.maxCostUsd} reached`;
-            break clients;
-          }
-        }
+        };
+        await Promise.all(Array.from({ length: Math.min(concurrency, queue.length) }, worker));
       } catch (e) {
         // A problem with one client (for example, reading its checks) must not skip the others.
         summary.queriesFailed++;
         summary.errors.push({ client_id: target.clientId, query: "(client)", message: message(e) });
         log(`[${target.domain}] ${message(e)}`);
       }
+      if (summary.stopped) break;
     }
   } finally {
     summary.costUsd = round5(summary.costUsd);

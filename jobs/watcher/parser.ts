@@ -53,11 +53,22 @@ export const normHost = (h: unknown): string =>
     .toLowerCase()
     .replace(/^www\./, "");
 
-/** host + path, lowercase host, no www, no query or hash, no trailing slash. Null if the URL is invalid. */
+// Parameters that only track campaigns or clicks and never change which page is shown.
+const TRACKING_PARAM = /^(utm_.+|gclid|gbraid|wbraid|fbclid|msclkid|dclid|mc_cid|mc_eid|igshid|_ga|_gl)$/i;
+
+/**
+ * host + path + the query parameters that identify the page, sorted. Lowercase host, no www, no hash, no trailing slash,
+ * no tracking parameters. Null if the URL is invalid.
+ * Query parameters matter: YouTube's ?v=<id> or a CMS's ?p=123 are the page's identity (D-035).
+ */
 export function normUrl(u: unknown): string | null {
   try {
     const x = new URL(String(u));
-    return normHost(x.hostname) + (x.pathname.replace(/\/+$/, "") || "/");
+    const kept = [...x.searchParams.entries()]
+      .filter(([k]) => !TRACKING_PARAM.test(k))
+      .sort(([ak, av], [bk, bv]) => ak.localeCompare(bk) || av.localeCompare(bv));
+    const query = kept.length ? `?${new URLSearchParams(kept).toString()}` : "";
+    return normHost(x.hostname) + (x.pathname.replace(/\/+$/, "") || "/") + query;
   } catch {
     return null;
   }

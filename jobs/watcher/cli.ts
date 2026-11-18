@@ -30,7 +30,10 @@ try {
   // An empty or invalid value (GitHub passes "" for an unset variable) falls back to the default.
   const configured = Number(process.env.WATCHER_MAX_COST_USD);
   const maxCostUsd = configured > 0 ? configured : 5;
-  const summary = await runWatcher(createSupabaseStore(sb), source, { mode: config.mode, log: console.error, maxCostUsd });
+  // Queries checked at once. Live calls take 80+ seconds each with resolve_goto_urls, so live runs in parallel (D-034).
+  const configuredConcurrency = Number(process.env.WATCHER_CONCURRENCY);
+  const concurrency = configuredConcurrency >= 1 ? Math.floor(configuredConcurrency) : config.mode === "live" ? 4 : 1;
+  const summary = await runWatcher(createSupabaseStore(sb), source, { mode: config.mode, log: console.error, maxCostUsd, concurrency });
   console.log(
     `Watcher (${config.mode}, ${source.name}): ${summary.queriesOk} ok, ${summary.queriesFailed} failed, ` +
       `${summary.queriesSkipped} already done, ${summary.checksWritten} checks written, cost $${summary.costUsd}.`,

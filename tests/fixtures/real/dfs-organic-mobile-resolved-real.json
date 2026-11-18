@@ -1,0 +1,393 @@
+{
+  "_note": "DATOS REALES de DataForSEO (2026-11-18), RECORTADOS: /v3/serp/google/organic/live/advanced con resolve_goto_urls=true, location 2840, en, mobile, depth 10, load_async_ai_overview. Query: 'how to tell if a book is a first edition'. Tardó 82,5 s; costo USD 0,002. Se acortaron textos largos y se quitaron campos que el parser no usa (xpath, snippets, imágenes). Las URLs, dominios, tipos y el orden son los reales. Muestra que con el parámetro TODAS las URLs vienen resueltas (ver D-034).",
+  "version": "0.1.20261117",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "82.5337 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "11181402-2831-0139-0000-5458389926ae",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "82.3702 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "location_code": 2840,
+        "language_code": "en",
+        "device": "mobile",
+        "keyword": "how to tell if a book is a first edition",
+        "depth": 10,
+        "load_async_ai_overview": true,
+        "resolve_goto_urls": true,
+        "os": "android"
+      },
+      "result": [
+        {
+          "keyword": "how to tell if a book is a first edition",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=how%20to%20tell%20if%20a%20book%20is%20a%20first%20edition&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-11-18 14:03:49 +00:00",
+          "item_types": [
+            "ai_overview",
+            "organic",
+            "people_also_ask",
+            "images"
+          ],
+          "se_results_count": 0,
+          "pages_count": 1,
+          "items_count": 11,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "asynchronous_ai_overview": false,
+              "markdown": "To tell if a book is a true first edition …",
+              "items": [
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "To tell if a book is a true first edition (and a first printing), inspect the copyright page …",
+                  "markdown": "…",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=cOHGtC8piyk",
+                      "title": "First Editions and First Printings: How to Identify Them",
+                      "text": "…"
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "First Second Books",
+                      "domain": "firstsecondbooks.com",
+                      "url": "https://firstsecondbooks.com/featured/first-printing-or-first-edition/",
+                      "title": "First Printing or First Edition? - First Second Books",
+                      "text": "…"
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Key Indicators to Check",
+                  "text": "The Number Line (Post-1970s Books): …",
+                  "markdown": "…",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "First Second Books",
+                      "domain": "firstsecondbooks.com",
+                      "url": "https://firstsecondbooks.com/featured/first-printing-or-first-edition/",
+                      "title": "First Printing or First Edition? - First Second Books",
+                      "text": "…"
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "TikTok",
+                      "domain": "www.tiktok.com",
+                      "url": "https://www.tiktok.com/@rebeccaromney/video/7487692700418952490",
+                      "title": "How to Tell a First Edition: Book Number Line Explained",
+                      "text": "…"
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "www.biblio.com",
+                      "domain": "www.biblio.com",
+                      "url": "https://www.biblio.com/book-collecting/basics/how-to-identify-first-editions/",
+                      "title": "How to Identify a First Edition Book - Biblio",
+                      "text": "…"
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Pan Macmillan",
+                      "domain": "www.panmacmillan.com",
+                      "url": "https://www.panmacmillan.com/blogs/fiction/how-to-tell-if-a-book-is-a-first-edition",
+                      "title": "How can I tell if my book is a first edition? - Pan Macmillan",
+                      "text": "…"
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "AbeBooks",
+                      "domain": "www.abebooks.com",
+                      "url": "https://www.abebooks.com/books/rarebooks/collecting-guide/what_books_collect/collecting-first-editions.shtml",
+                      "title": "Identifying and collecting first edition books",
+                      "text": "…"
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Reddit",
+                      "domain": "www.reddit.com",
+                      "url": "https://www.reddit.com/r/books/comments/gjd63/how_can_you_tell_if_you_have_a_first_edition/",
+                      "title": "How can you tell if you have a first edition? : r/books - Reddit",
+                      "text": "…"
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Quill & Brush",
+                      "domain": "www.qbbooks.com",
+                      "url": "https://www.qbbooks.com/first_ed_pub.php",
+                      "title": "First Edition Identification by Publisher A-G | Book Collecting Tips",
+                      "text": "…"
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Antiquarian Booksellers' Association of America",
+                      "domain": "www.abaa.org",
+                      "url": "https://www.abaa.org/articles/identifying-first-editions",
+                      "title": "Identifying First Editions | News | ABAA",
+                      "text": "…"
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Important Distinction: Edition vs. Printing",
+                  "text": "First Edition: The initial typeset and layout of the book. …",
+                  "markdown": "…",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Antiquarian Booksellers' Association of America",
+                      "domain": "www.abaa.org",
+                      "url": "https://www.abaa.org/articles/identifying-first-editions",
+                      "title": "Identifying First Editions | News | ABAA",
+                      "text": "…"
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "AbeBooks",
+                      "domain": "www.abebooks.com",
+                      "url": "https://www.abebooks.com/books/rarebooks/collecting-guide/what_books_collect/collecting-first-editions.shtml",
+                      "title": "Identifying and collecting first edition books",
+                      "text": "…"
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=cOHGtC8piyk",
+                      "title": "First Editions and First Printings: How to Identify Them",
+                      "text": "…"
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Facebook",
+                      "domain": "www.facebook.com",
+                      "url": "https://www.facebook.com/romneyrebecca/posts/a-book-collecting-hack-using-the-number-line-to-identity-a-first-edition-meaning/1508322577331959/",
+                      "title": "A book collecting hack: using the number line to identity a first edition",
+                      "text": "…"
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "You can read more about collecting and identification guidelines via the AbeBooks Collecting Guide or the ABAA Identifying First Editions Overview.",
+                  "markdown": "…",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "AbeBooks Collecting Guide",
+                      "description": null,
+                      "url": "https://www.abebooks.com/books/rarebooks/collecting-guide/what_books_collect/collecting-first-editions.shtml",
+                      "domain": "www.abebooks.com"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "ABAA Identifying First Editions Overview",
+                      "description": null,
+                      "url": "https://www.abaa.org/articles/identifying-first-editions",
+                      "domain": "www.abaa.org"
+                    }
+                  ],
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "AbeBooks",
+                      "domain": "www.abebooks.com",
+                      "url": "https://www.abebooks.com/books/rarebooks/collecting-guide/what_books_collect/collecting-first-editions.shtml",
+                      "title": "Identifying and collecting first edition books",
+                      "text": "…"
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Antiquarian Booksellers' Association of America",
+                      "domain": "www.abaa.org",
+                      "url": "https://www.abaa.org/articles/identifying-first-editions",
+                      "title": "Identifying First Editions | News | ABAA",
+                      "text": "…"
+                    }
+                  ]
+                }
+              ],
+              "references": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "domain": "www.pinterest.com",
+              "title": "How to Tell If a Book Is a First Edition: A Complete Guide - BookScouter Blog",
+              "url": "https://www.pinterest.com/pin/how-to-tell-if-a-book-is-a-first-edition-2021-guide-bookdeal--450148925264368076/",
+              "breadcrumb": "https://www.pinterest.com",
+              "website_name": "Pinterest"
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What does 10 9 8 7 6 5 4 3 2 1 mean in a book?",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "images",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "title": "Images",
+              "url": null,
+              "items": [
+                {
+                  "type": "images_element",
+                  "alt": "How to Determine If Book Is First Edition First Printing | TikTok",
+                  "url": "https://www.tiktok.com/discover/how-to-determine-if-book-is-first-edition-first-printing"
+                }
+              ]
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 5,
+              "domain": "bookbrokercollectibles.com",
+              "title": "How to Spot Valuable First Edition Books: A Guide for Collectors",
+              "url": "https://bookbrokercollectibles.com/2024/06/how-to-spot-valuable-first-edition-books-a-guide-for-collectors/",
+              "breadcrumb": "https://bookbrokercollectibles.com",
+              "website_name": "The Book Broker"
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 6,
+              "domain": "m.bonanza.com",
+              "title": "How can you tell if a book is 1st edition? for example...",
+              "url": "https://m.bonanza.com/community_help/how_can_you_tell_if_a_book_is_1st_edition__for_example___",
+              "breadcrumb": "https://m.bonanza.com",
+              "website_name": "Bonanza"
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "domain": "windersrarebooks.com",
+              "title": "How to Verify First Printing Statements in Books",
+              "url": "https://windersrarebooks.com/blogs/articles/verify-first-printing-statements",
+              "breadcrumb": "https://windersrarebooks.com",
+              "website_name": "Winders Rare Books"
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 8,
+              "domain": "www.facebook.com",
+              "title": "how do you tell if you have a first edition?",
+              "url": "https://www.facebook.com/groups/217527018357202/posts/342310289212207/",
+              "breadcrumb": "https://www.facebook.com",
+              "website_name": "Facebook"
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 9,
+              "domain": "www.tiktok.com",
+              "title": "How to Determine If Book Is First Edition First Printing",
+              "url": "https://www.tiktok.com/discover/how-to-determine-if-book-is-first-edition-first-printing",
+              "breadcrumb": "22K+ views",
+              "website_name": "TikTok · Half Price Books"
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 10,
+              "domain": "www.youtube.com",
+              "title": "How To Know If A Book Is First Edition - Full Guide",
+              "url": "https://www.youtube.com/watch?v=IxS-D1pG4cY",
+              "breadcrumb": "https://www.youtube.com",
+              "website_name": "YouTube · MrHowTo"
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 11,
+              "domain": "www.xwprint.com",
+              "title": "How to Tell If a Book Is a First Edition (Complete Guide)",
+              "url": "https://www.xwprint.com/info/how-to-tell-if-a-book-is-a-first-edition-103498154.html",
+              "breadcrumb": "https://www.xwprint.com",
+              "website_name": "xwprint.com"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

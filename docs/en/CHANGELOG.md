@@ -50,3 +50,6 @@
 
 ## First real DataForSEO query (2026-11-18)
 - One authorized query (USD 0.006) with real data saved as fixtures and canary tests. It found that on mobile organic results come as Google redirects, which breaks the off-top10 comparison by URL (D-033, decision pending). Live mode stays blocked.
+
+## `resolve_goto_urls` verification and concurrency (2026-11-18)
+- Second authorized real query (USD 0.002, 82 s): with the parameter every URL comes back real. Resolved fixture + tests. URL normalization fixed (D-035) and watcher concurrency added (D-034). A mistake of mine (a non-existent `unresolved_refs` column) was caught by the integration test and fixed; a test now pins the insert's columns. 172 tests.

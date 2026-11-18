@@ -15,6 +15,13 @@ describe("normalization", () => {
     expect(normUrl("http://northwindsec.com/")).toBe("northwindsec.com/");
     expect(normUrl("not a url")).toBeNull();
   });
+  it("keeps the query parameters that identify the page and drops tracking ones", () => {
+    // Real case: two different YouTube videos differ only by ?v=
+    expect(normUrl("https://www.youtube.com/watch?v=AAA")).not.toBe(normUrl("https://www.youtube.com/watch?v=BBB"));
+    expect(normUrl("https://example.com/index.php?id=7&utm_source=x&gclid=abc#frag")).toBe("example.com/index.php?id=7");
+    expect(normUrl("https://example.com/p?b=2&a=1")).toBe(normUrl("https://example.com/p?a=1&b=2")); // order does not matter
+    expect(normUrl("https://example.com/p/?fbclid=zzz")).toBe("example.com/p");
+  });
   it("matches the client domain and its subdomains, not look-alikes", () => {
     expect(isClientHost("northwindsec.com", "www.northwindsec.com")).toBe(true);
     expect(isClientHost("docs.northwindsec.com", "northwindsec.com")).toBe(true);

@@ -55,4 +55,5 @@ jobs:
           DFS_PASSWORD: ${{ secrets.DFS_PASSWORD }}
           WATCHER_ALLOW_LIVE: ${{ vars.WATCHER_LIVE_ENABLED }}
           WATCHER_MAX_COST_USD: ${{ vars.WATCHER_MAX_COST_USD }}
+          WATCHER_CONCURRENCY: ${{ vars.WATCHER_CONCURRENCY }}
         run: node jobs/watcher/cli.ts --mode live

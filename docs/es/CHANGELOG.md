@@ -50,3 +50,6 @@
 
 ## Primera consulta real a DataForSEO (2026-11-18)
 - Una consulta autorizada (USD 0,006) con datos reales guardados como fixtures y tests de canario. Descubrió que en móvil los resultados orgánicos vienen como redirecciones de Google, lo que invalida la comparación off-top10 por URL (D-033, pendiente de decisión). El modo live sigue bloqueado.
+
+## Verificación de `resolve_goto_urls` y concurrencia (2026-11-18)
+- Segunda consulta real autorizada (USD 0,002, 82 s): con el parámetro todas las URLs vienen reales. Fixture resuelto + tests. Corregida la normalización de URL (D-035) y agregada concurrencia al watcher (D-034). Un error mío (columna `unresolved_refs` inexistente) se detectó con el test de integración y se corrigió; hay un test que fija las columnas del insert. 172 tests.
