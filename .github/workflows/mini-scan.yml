@@ -1,0 +1,47 @@
+name: Mini-Scan worker
+
+# Runs the queued Mini-Scans (the public lead-gen scan). Real scans call DataForSEO and cost money, so this job does
+# nothing at all until the owner turns the feature on with the repository variable MINI_SCAN_MODE (live or simulated).
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: mini-scan
+  cancel-in-progress: false
+
+jobs:
+  work:
+    # Off by default: with the variable unset the job is skipped and uses no runner minutes.
+    if: ${{ vars.MINI_SCAN_MODE == 'live' || vars.MINI_SCAN_MODE == 'simulated' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+
+      - name: Run queued scans (simulated)
+        if: ${{ vars.MINI_SCAN_MODE == 'simulated' }}
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+        run: node jobs/miniscan/cli.ts --mode dry-run
+
+      # Live needs the DataForSEO credentials and a second, explicit switch (the owner's spending authorization).
+      - name: Run queued scans (live)
+        if: ${{ vars.MINI_SCAN_MODE == 'live' }}
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+          DFS_LOGIN: ${{ secrets.DFS_LOGIN }}
+          DFS_PASSWORD: ${{ secrets.DFS_PASSWORD }}
+          MINISCAN_ALLOW_LIVE: ${{ vars.MINISCAN_ALLOW_LIVE }}
+        run: node jobs/miniscan/cli.ts --mode live

@@ -35,7 +35,7 @@ export function parseClient(input: { name: string; domain: string; kind: string;
 }
 
 /** One query per line. Trims, collapses spaces, drops blanks, removes duplicates ignoring case. */
-export function parseQueryList(text: string): Parsed<{ queries: string[]; duplicatesRemoved: number }> {
+export function parseQueryList(text: string, max: number = MAX_QUERIES): Parsed<{ queries: string[]; duplicatesRemoved: number }> {
   const seen = new Set<string>();
   const queries: string[] = [];
   let duplicatesRemoved = 0;
@@ -52,7 +52,7 @@ export function parseQueryList(text: string): Parsed<{ queries: string[]; duplic
     queries.push(q);
   }
   if (!queries.length) return bad("Add at least one query, one per line.");
-  if (queries.length > MAX_QUERIES) return bad(`A window holds at most ${MAX_QUERIES} queries (you entered ${queries.length}).`);
+  if (queries.length > max) return bad(`At most ${max} queries are allowed (you entered ${queries.length}).`);
   return ok({ queries, duplicatesRemoved });
 }
 

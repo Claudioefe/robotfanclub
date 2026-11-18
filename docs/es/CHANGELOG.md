@@ -61,3 +61,6 @@
 - `/admin` para staff: clientes, listas de queries congeladas, objetivos de CrUX, sprint, Tag Bouncer, accesos y costos (D-037). Lógica en `src/lib/admin/` con tests contra la base real; migración `cost_by_client_day`.
 - Verificado por HTTP real: usuario sin sesión, usuario cliente y staff; reproducir con un usuario cliente las acciones de dar acceso, congelar y crear cliente fue rechazado sin cambiar la base; las mismas acciones como staff funcionan.
 - Pendiente: landing (B) y Mini-Scan (C).
+
+## Fase 7 (piezas B y C) — Landing y Mini-Scan (2026-11-18)
+- Landing pública en `/` y Mini-Scan (`/mini-scan`, resultado por enlace privado), **construido y apagado** (D-038). Worker asíncrono con modo simulado y modo live protegido por su propio interruptor; captcha Turnstile que falla cerrado; tope de 30 por semana y 3 por visitante por día; migración con estado, `simulated` y `public_token`. Sección de Mini-Scan en `/admin`.
