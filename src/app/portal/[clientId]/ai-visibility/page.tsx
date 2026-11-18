@@ -107,7 +107,7 @@ export default async function AiVisibility({ params }: PageProps<"/portal/[clien
       </Section>
 
       {rivals.length > 0 && (
-        <Section title="Cited next to you" note="Other sites that appear in the same recorded answers, by how many of them.">
+        <Section title="Cited next to you" note="Other sites that appear in the same recorded answers, by how many of them. Many are reference sites such as Wikipedia or YouTube, not competitors.">
           <TableWrap minWidth={420}>
             <thead>
               <tr>

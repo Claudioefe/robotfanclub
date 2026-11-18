@@ -87,10 +87,13 @@ export interface Competitor {
   answers: number;
 }
 
+/** Google's own links (Shopping and search pages inside the answer) are not sources worth listing. */
+const isGoogleOwn = (domain: string): boolean => domain === "google.com" || domain.endsWith(".google.com");
+
 /** Domains cited next to the client, by how many of the stored answers they appear in. */
 export function competitors(mentions: MentionView[], limit = 8): Competitor[] {
   const counts = new Map<string, number>();
-  for (const m of mentions) for (const d of new Set(m.otherDomains)) counts.set(d, (counts.get(d) ?? 0) + 1);
+  for (const m of mentions) for (const d of new Set(m.otherDomains)) if (!isGoogleOwn(d)) counts.set(d, (counts.get(d) ?? 0) + 1);
   return [...counts.entries()]
     .map(([domain, answers]) => ({ domain, answers }))
     .sort((a, b) => b.answers - a.answers || a.domain.localeCompare(b.domain))

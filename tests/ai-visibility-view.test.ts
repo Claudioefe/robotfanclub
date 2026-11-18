@@ -64,6 +64,8 @@ describe("AI visibility view logic (on the real Bauman data)", () => {
     expect(list.some((c) => c.domain.includes("baumanrarebooks"))).toBe(false);
     const dup: MentionView = { ...google[0], otherDomains: ["a.com", "a.com", "b.com"] };
     expect(competitors([dup])).toEqual([{ domain: "a.com", answers: 1 }, { domain: "b.com", answers: 1 }]);
+    expect(competitors([{ ...google[0], otherDomains: ["google.com", "www.google.com", "a.com"] }])).toEqual([{ domain: "a.com", answers: 1 }]); // Google's own links are not sources
+    expect(competitors(all)[0].domain).toBe("en.wikipedia.org"); // the most cited alongside Bauman are reference sites
   });
 
   it("says how old the recorded answers are: they are not from the capture day", () => {

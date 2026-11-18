@@ -103,7 +103,7 @@ describe.skipIf(!applied)("AI visibility against Supabase (dry-run, sandbox clie
     expect(runs.data).toHaveLength(2);
     expect((await member.from("ai_mention_runs").select("cost_usd").eq("client_id", sandbox)).error).not.toBeNull();
     expect((await member.from("ai_mentions").insert({ client_id: sandbox, platform: "google", captured_on: "2026-01-01", question: "x", relation: "cited" })).error).not.toBeNull();
-    expect((await member.from("ai_mentions").delete().eq("client_id", sandbox)).error ?? null).toBeNull(); // no policy: deletes nothing
+    expect((await member.from("ai_mentions").delete().eq("client_id", sandbox)).error).not.toBeNull(); // no delete privilege at all
     expect((await admin.from("ai_mentions").select("id", { count: "exact", head: true }).eq("client_id", sandbox)).count).toBe(80);
   });
 
