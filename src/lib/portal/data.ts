@@ -65,7 +65,8 @@ export interface QueryRow {
   sourceCount: number | null;
   organicRank: number | null;
   otherDomains: string[];
-  snapshotPath: string | null;
+  snapshotPath: string | null; // evidence of the first citation
+  evidence: Partial<Record<Surface, string>>; // evidence (raw JSON) of the latest check on each surface, cited or not
   surfaces: Record<Surface, SurfaceState>;
 }
 
@@ -116,7 +117,7 @@ export async function getCitations(client: ClientRow): Promise<CitationsData | n
       .select("query, checked_at, cited_url, source_position, source_count, organic_rank, off_top10, other_domains, snapshot_path")
       .eq("client_id", client.id)
       .eq("frozen_from", frozenFrom),
-    sb.from("latest_checks").select("query, surface, aio_present, other_domains").eq("client_id", client.id),
+    sb.from("latest_checks").select("query, surface, aio_present, other_domains, snapshot_path").eq("client_id", client.id),
     sb.from("citation_rate").select("query, surface, checks_with_ai, checks_cited").eq("client_id", client.id).eq("frozen_from", frozenFrom),
   ]);
 
@@ -128,12 +129,16 @@ export async function getCitations(client: ClientRow): Promise<CitationsData | n
     const s = slaBy.get(query);
     const f = firstBy.get(query);
     for (const surface of (s?.surfaces ?? []) as Surface[]) surfaces[surface].cited = true;
-    let otherDomains: string[] = [];
+    // Other sources are the union over both surfaces: AI Overview and AI Mode usually cite different sites.
+    const otherDomains = new Set<string>();
+    const evidence: QueryRow["evidence"] = {};
     for (const l of latest.data ?? []) {
       if (l.query !== query) continue;
       surfaces[l.surface as Surface].aiPresent = Boolean(l.aio_present);
-      if (l.aio_present && !otherDomains.length) otherDomains = (l.other_domains as string[] | null) ?? [];
+      if (l.aio_present) for (const d of (l.other_domains as string[] | null) ?? []) otherDomains.add(d);
+      if (l.snapshot_path) evidence[l.surface as Surface] = l.snapshot_path as string;
     }
+    for (const d of (f?.other_domains as string[] | null) ?? []) otherDomains.add(d);
     for (const r of rates.data ?? []) {
       if (r.query !== query) continue;
       surfaces[r.surface as Surface].checksCited = Number(r.checks_cited);
@@ -148,8 +153,9 @@ export async function getCitations(client: ClientRow): Promise<CitationsData | n
       sourcePosition: (f?.source_position as number | undefined) ?? null,
       sourceCount: (f?.source_count as number | undefined) ?? null,
       organicRank: (f?.organic_rank as number | undefined) ?? null,
-      otherDomains: f?.other_domains && otherDomains.length === 0 ? ((f.other_domains as string[]) ?? []) : otherDomains,
+      otherDomains: [...otherDomains],
       snapshotPath: (f?.snapshot_path as string | undefined) ?? null,
+      evidence,
       surfaces,
     };
   });

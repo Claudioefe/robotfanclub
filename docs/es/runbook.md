@@ -34,3 +34,6 @@ En Supabase, *Authentication > URL Configuration*: Site URL `http://localhost:30
 
 ## Portal (Fase 2)
 `npm run seed:demo` reconstruye el cliente demo (borra y vuelve a cargar solo sus datos). Luego `npm run dev`, entrar en `/login` y abrir `/portal`. `NEXT_PUBLIC_SITE_URL` define el redirect del magic link y el endpoint del snippet.
+
+## Ver los datos reales de DataForSEO en el portal
+Las respuestas reales capturadas el 2026-11-18 están en `tests/fixtures/real/` (SERP sin resolver, SERP con `resolve_goto_urls`, y AI Mode recortada). Para verlas en el portal bajo Bauman Rare Books: `npm run load-real-sample` (no llama a DataForSEO, es repetible), y en `/portal` entrar a Bauman > **AI citations**. La columna **Evidence** abre el JSON crudo de cada superficie (AI Overview y AI Mode), también cuando el cliente no fue citado.

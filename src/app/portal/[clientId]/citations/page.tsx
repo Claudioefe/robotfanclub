@@ -126,13 +126,20 @@ export default async function Citations({ params, searchParams }: PageProps<"/po
                   <Td>{r.otherDomains.length ? r.otherDomains.join(", ") : <Dim>None</Dim>}</Td>
                   <Td>{r.firstSeen ? fmtDate(r.firstSeen) : ""}</Td>
                   <Td>
-                    {r.snapshotPath ? (
-                      <a href={`/portal/${client.id}/snapshot?path=${encodeURIComponent(r.snapshotPath)}`} target="_blank" rel="noreferrer">
-                        Snapshot
-                      </a>
-                    ) : (
-                      ""
-                    )}
+                    {/* Evidence of the latest check on each surface, also when we were NOT cited: that is what proves a gap. */}
+                    <div className="flex flex-col gap-0.5">
+                      {SURFACES.filter((s) => r.evidence[s]).map((s) => (
+                        <a key={s} href={`/portal/${client.id}/snapshot?path=${encodeURIComponent(r.evidence[s]!)}`} target="_blank" rel="noreferrer">
+                          {SURFACE_LABEL[s]}
+                        </a>
+                      ))}
+                      {r.snapshotPath && (
+                        <a href={`/portal/${client.id}/snapshot?path=${encodeURIComponent(r.snapshotPath)}`} target="_blank" rel="noreferrer">
+                          First citation
+                        </a>
+                      )}
+                    </div>
+                    {!r.snapshotPath && !SURFACES.some((s) => r.evidence[s]) && <Dim>—</Dim>}
                   </Td>
                   <Td>
                     {r.cited && r.firstSeen ? (

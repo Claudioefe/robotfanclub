@@ -18,7 +18,8 @@
     "crux:dry-run": "node --env-file=.env.local jobs/crux/cli.ts --mode dry-run",
     "crux:live": "node --env-file=.env.local jobs/crux/cli.ts --mode live",
     "crux:backfill": "node --env-file=.env.local jobs/crux/cli.ts --mode live --backfill",
-    "add-crux-target": "node --env-file=.env.local scripts/add-crux-target.mjs"
+    "add-crux-target": "node --env-file=.env.local scripts/add-crux-target.mjs",
+    "load-real-sample": "node --no-warnings --env-file=.env.local scripts/load-real-sample.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.7",

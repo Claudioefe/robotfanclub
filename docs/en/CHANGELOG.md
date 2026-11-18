@@ -53,3 +53,6 @@
 
 ## `resolve_goto_urls` verification and concurrency (2026-11-18)
 - Second authorized real query (USD 0.002, 82 s): with the parameter every URL comes back real. Resolved fixture + tests. URL normalization fixed (D-035) and watcher concurrency added (D-034). A mistake of mine (a non-existent `unresolved_refs` column) was caught by the integration test and fixed; a test now pins the insert's columns. 172 tests.
+
+## Real DataForSEO data visible in the portal (2026-11-18)
+- `npm run load-real-sample` loads the real responses under Bauman (through the watcher's own parser and evidence format). The portal now merges "Other sources" from both surfaces (it used to show only the first one) and links the evidence of each surface also for uncited queries.

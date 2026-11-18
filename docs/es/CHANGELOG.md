@@ -53,3 +53,6 @@
 
 ## Verificación de `resolve_goto_urls` y concurrencia (2026-11-18)
 - Segunda consulta real autorizada (USD 0,002, 82 s): con el parámetro todas las URLs vienen reales. Fixture resuelto + tests. Corregida la normalización de URL (D-035) y agregada concurrencia al watcher (D-034). Un error mío (columna `unresolved_refs` inexistente) se detectó con el test de integración y se corrigió; hay un test que fija las columnas del insert. 172 tests.
+
+## Datos reales de DataForSEO visibles en el portal (2026-11-18)
+- `npm run load-real-sample` carga las respuestas reales bajo Bauman (pasan por el mismo parser y el mismo formato de evidencia del watcher). El portal ahora combina "Other sources" de ambas superficies (antes mostraba solo la primera) y enlaza la evidencia de cada superficie también para queries no citadas.

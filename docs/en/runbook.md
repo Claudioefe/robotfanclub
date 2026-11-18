@@ -34,3 +34,6 @@ In Supabase, *Authentication > URL Configuration*: Site URL `http://localhost:30
 
 ## Portal (Phase 2)
 `npm run seed:demo` rebuilds the demo client (deletes and reloads only its data). Then `npm run dev`, sign in at `/login` and open `/portal`. `NEXT_PUBLIC_SITE_URL` sets the magic-link redirect and the snippet endpoint.
+
+## Seeing the real DataForSEO data in the portal
+The real responses captured on 2026-11-18 are in `tests/fixtures/real/` (unresolved SERP, SERP with `resolve_goto_urls`, and a trimmed AI Mode). To see them in the portal under Bauman Rare Books: `npm run load-real-sample` (it makes no DataForSEO call and is repeatable), then in `/portal` open Bauman > **AI citations**. The **Evidence** column opens the raw JSON of each surface (AI Overview and AI Mode), also when the client was not cited.
