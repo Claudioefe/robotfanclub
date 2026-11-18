@@ -89,20 +89,22 @@ export class LiveSource implements SerpSource {
     this.fetcher = fetcher;
   }
 
-  private async call(path: string, task: Record<string, unknown>): Promise<SerpTask> {
+  private async call(path: string, task: Record<string, unknown>, timeoutMs = 120_000): Promise<SerpTask> {
     const res = await this.fetcher(`${this.root}/${path}`, {
       method: "POST",
       headers: { Authorization: this.auth, "Content-Type": "application/json" },
       body: JSON.stringify([task]), // Live endpoints take one task per request
-      signal: AbortSignal.timeout(120_000),
+      signal: AbortSignal.timeout(timeoutMs),
     });
     if (!res.ok) throw new DfsError(`DataForSEO HTTP ${res.status}`, { httpStatus: res.status });
     return firstTask((await res.json()) as DfsEnvelope);
   }
 
   // load_async_ai_overview matters: many AI Overviews load asynchronously and would be missed without it.
+  // resolve_goto_urls: Google now returns results as google.com/goto redirects. Without this the real URLs are missing and
+  // off-top10 cannot be judged (D-033). It adds up to 40 s (maximum turnaround 260 s), so the timeout is longer.
   organic(keyword: string) {
-    return this.call("organic/live/advanced", { ...BASE, keyword, depth: 10, load_async_ai_overview: true });
+    return this.call("organic/live/advanced", { ...BASE, keyword, depth: 10, load_async_ai_overview: true, resolve_goto_urls: true }, 280_000);
   }
   aiMode(keyword: string) {
     return this.call("ai_mode/live/advanced", { ...BASE, keyword });

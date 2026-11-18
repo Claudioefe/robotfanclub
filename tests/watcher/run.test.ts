@@ -289,7 +289,7 @@ describe("LiveSource requests (stubbed fetch, no network)", () => {
     await source.aiMode("my query");
 
     expect(calls[0].url).toBe("https://api.dataforseo.com/v3/serp/google/organic/live/advanced");
-    expect(calls[0].body).toEqual([{ location_code: 2840, language_code: "en", device: "mobile", keyword: "my query", depth: 10, load_async_ai_overview: true }]);
+    expect(calls[0].body).toEqual([{ location_code: 2840, language_code: "en", device: "mobile", keyword: "my query", depth: 10, load_async_ai_overview: true, resolve_goto_urls: true }]);
     expect(calls[1].url).toBe("https://api.dataforseo.com/v3/serp/google/ai_mode/live/advanced");
     expect(calls[1].body).toEqual([{ location_code: 2840, language_code: "en", device: "mobile", keyword: "my query" }]);
     expect(calls[0].headers.Authorization).toBe("Basic " + Buffer.from("login:secret").toString("base64"));

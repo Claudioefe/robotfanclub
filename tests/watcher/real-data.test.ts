@@ -38,10 +38,11 @@ describe("canary: mobile organic results are Google redirect links (D-033)", () 
     }
   });
 
-  it("therefore the organic rank of a cited page can never be found by URL", () => {
-    // The cited page ranks nowhere according to the URL comparison, even though the site may be in the top 10.
+  it("therefore the organic rank of a cited page cannot be found by URL, and must be reported as UNKNOWN, not 'off the top 10'", () => {
     expect(organicTop10(organic)!.map((o) => normUrl(o.url))).toEqual(Array(8).fill("google.com/goto"));
-    expect(parseCitation(organic, "abebooks.com", organicTop10(organic)).organic_rank).toBeNull();
+    const c = parseCitation(organic, "abebooks.com", organicTop10(organic));
+    expect(c.organic_rank).toBeNull();
+    expect(c.organic_checked).toBe(false); // unresolved redirects in the top 10: no claim about the rank (D-033)
   });
 
   it("the real site of a result survives only as the breadcrumb host (not the page)", () => {
@@ -49,11 +50,17 @@ describe("canary: mobile organic results are Google redirect links (D-033)", () 
   });
 
   it("one AI Overview reference is itself a redirect: its site is invisible to client matching", () => {
+    const c = parseCitation(organic, "abebooks.com", organicTop10(organic));
+    expect(c.unresolved_refs).toBe(refsBehindRedirects());
     const hidden = collectRefs(aio_of(organic)).find((r) => String(r.url).includes("google.com/goto"));
     expect(hidden).toMatchObject({ domain: "google.com", source: "Quill & Brush" });
     expect(parseCitation(organic, "quillandbrush.com", organicTop10(organic)).cited).toBe(false);
   });
 });
+
+function refsBehindRedirects() {
+  return new Set(collectRefs(aio_of(organic)).map((r) => String(r.url)).filter((u) => u.includes("google.com/goto"))).size;
+}
 
 function aio_of(result: DfsResult) {
   return result.items!.find((i) => i.type === "ai_overview");

@@ -103,6 +103,25 @@ describe("edge cases", () => {
     expect(c).toMatchObject({ cited_url: "https://x.com/b", source_position: 2, source_count: 3 });
   });
 
+  it("keeps two different unresolved redirects apart and counts them", () => {
+    const c = parseCitation(aio({ url: "https://google.com/goto?url=AAA" }, { url: "https://google.com/goto?url=BBB" }, { url: "https://x.com/a" }), "x.com", []);
+    expect(c).toMatchObject({ source_count: 3, unresolved_refs: 2, source_position: 3 });
+    expect(c.other_domains).toEqual([]); // a redirect says nothing about the real site
+  });
+
+  it("organic rank is unknown, not 'off', when the top 10 hides pages behind unresolved redirects", () => {
+    const top = [
+      { type: "organic", rank_group: 1, url: "https://google.com/goto?url=AAA" },
+      { type: "organic", rank_group: 2, url: "https://other.com/p" },
+    ];
+    expect(parseCitation(aio({ url: "https://x.com/a" }), "x.com", top)).toMatchObject({ organic_rank: null, organic_checked: false });
+    // If the cited page is found among the resolved results, the rank is known even with redirects around it
+    const found = [...top, { type: "organic", rank_group: 3, url: "https://x.com/a" }];
+    expect(parseCitation(aio({ url: "https://x.com/a" }), "x.com", found)).toMatchObject({ organic_rank: 3, organic_checked: true });
+    // With every result resolved and the page absent, it really is outside the top 10
+    expect(parseCitation(aio({ url: "https://x.com/a" }), "x.com", [top[1]])).toMatchObject({ organic_rank: null, organic_checked: true });
+  });
+
   it("caps other domains at 10", () => {
     const refs = Array.from({ length: 14 }, (_, i) => ({ domain: `d${i}.com`, url: `https://d${i}.com/` }));
     expect(parseCitation(aio(...refs), "x.com", []).other_domains).toHaveLength(10);

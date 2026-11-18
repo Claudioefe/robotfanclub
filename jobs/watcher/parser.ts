@@ -25,6 +25,16 @@ export interface DfsResult {
   [key: string]: unknown;
 }
 
+/** A Google redirect link (google.com/goto?url=<encrypted>) that was not resolved to its real destination. */
+export function isGotoUrl(url: unknown): boolean {
+  try {
+    const u = new URL(String(url));
+    return normHost(u.hostname) === "google.com" && u.pathname.startsWith("/goto");
+  } catch {
+    return false;
+  }
+}
+
 export interface ParsedCitation {
   aio_present: boolean;
   cited: boolean;
@@ -34,6 +44,8 @@ export interface ParsedCitation {
   organic_rank: number | null; // rank of the cited URL in the organic top 10; null = not there (or unknown, see organic_checked)
   organic_checked: boolean;
   other_domains: string[];
+  /** AI answer references that are unresolved Google redirects: their real site is unknown, so a client citation could hide there. */
+  unresolved_refs: number;
 }
 
 export const normHost = (h: unknown): string =>
@@ -107,13 +119,15 @@ export function parseCitation(result: DfsResult | null | undefined, clientDomain
   const organic_checked = top10 !== null;
   const aio = (result?.items ?? []).find((i) => i.type === "ai_overview");
   if (!aio) {
-    return { aio_present: false, cited: false, cited_url: null, source_position: null, source_count: null, organic_rank: null, organic_checked, other_domains: [] };
+    return { aio_present: false, cited: false, cited_url: null, source_position: null, source_count: null, organic_rank: null, organic_checked, other_domains: [], unresolved_refs: 0 };
   }
 
   // Dedupe by normalized URL, keeping the order of appearance.
   const unique = new Map<string, DfsReference>();
   for (const r of collectRefs(aio)) {
-    const k = normUrl(r.url);
+    // Unresolved Google redirects differ only in their query string, which normUrl drops: key them by the full URL
+    // so two different hidden sources are not merged into one.
+    const k = isGotoUrl(r.url) ? String(r.url) : normUrl(r.url);
     if (k && !unique.has(k)) unique.set(k, r);
   }
   const refs = [...unique.values()];
@@ -124,7 +138,11 @@ export function parseCitation(result: DfsResult | null | undefined, clientDomain
   const mine = idx >= 0 ? refs[idx] : null;
 
   const organic = mine && top10 ? top10.find((o) => normUrl(o.url) === normUrl(mine.url)) : null;
-  const others = refs.filter((r) => r !== mine).map(hostOf).filter(Boolean);
+  // Unresolved redirects in the top 10 hide their real URLs. If the cited page is not among the resolved results we
+  // cannot say it is outside the top 10: the organic rank is unknown, never "off" (D-033).
+  const unresolvedOrganic = top10 ? top10.filter((o) => isGotoUrl(o.url)).length : 0;
+  const rankKnown = organic !== null && organic !== undefined ? true : unresolvedOrganic === 0;
+  const others = refs.filter((r) => r !== mine && !isGotoUrl(r.url)).map(hostOf).filter(Boolean);
 
   return {
     aio_present: true,
@@ -133,8 +151,9 @@ export function parseCitation(result: DfsResult | null | undefined, clientDomain
     source_position: mine ? idx + 1 : null,
     source_count: refs.length,
     organic_rank: organic ? (organic.rank_group ?? null) : null,
-    organic_checked,
+    organic_checked: organic_checked && (!mine || rankKnown),
     other_domains: [...new Set(others)].slice(0, 10),
+    unresolved_refs: refs.filter((r) => isGotoUrl(r.url)).length,
   };
 }
 
