@@ -67,3 +67,4 @@
 
 ## Investigación de otras IA con DataForSEO (2026-11-18)
 - Lectura de la documentación y experimento autorizado de 9 llamadas reales (USD 0,123): ChatGPT, Gemini y LLM Mentions. Respuestas guardadas como fixtures con tests de canario; resultados y conclusiones en D-039. No se construyó nada.
+- Segundo experimento con ChatGPT (6 llamadas, ≈ USD 0,127): Bauman 0 de 5 corridas en "gifts for a book lover", fuentes que rotan, y 122 menciones en ChatGPT sobre libros raros. Respuestas completas guardadas como fixtures + canarios (D-039).

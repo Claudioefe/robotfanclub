@@ -67,3 +67,4 @@
 
 ## Research on other AIs with DataForSEO (2026-11-18)
 - Reading the documentation and an authorized experiment of 9 real calls (USD 0.123): ChatGPT, Gemini and LLM Mentions. Responses saved as fixtures with canary tests; results and conclusions in D-039. Nothing was built.
+- Second ChatGPT experiment (6 calls, ≈ USD 0.127): Bauman 0 of 5 runs on "gifts for a book lover", rotating sources, and 122 ChatGPT mentions about rare books. Complete responses saved as fixtures + canaries (D-039).

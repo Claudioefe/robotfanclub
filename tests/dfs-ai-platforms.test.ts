@@ -73,3 +73,39 @@ describe("LLM Mentions for a client's domain", () => {
     expect(body.tasks[0].cost).toBeCloseTo(0.1 + 0.001 * result.items_count, 5);
   });
 });
+
+describe("ChatGPT repeated runs (gifts for a book lover, search forced)", () => {
+  const runs = [1, 2, 3, 4, 5].map((n) => firstResult(`dfs-chatgpt-scraper-gifts-run${n}-real.json`));
+
+  it("the client was cited in none of the 5 runs, even though Google AI Overview cites it for this query", () => {
+    for (const r of runs) expect(JSON.stringify(r).toLowerCase().includes("bauman")).toBe(false);
+  });
+
+  it("every run returns sources and consulted pages, so an appearance rate over N runs is computable", () => {
+    for (const r of runs) {
+      expect(r.sources.length).toBeGreaterThanOrEqual(1);
+      expect(r.search_results.length).toBeGreaterThan(0);
+    }
+  });
+
+  it("the cited sources differ between runs: one run is not evidence", () => {
+    const sets = runs.map((r) => new Set(domains(r.sources)));
+    const distinct = new Set(sets.map((s) => [...s].sort().join(",")));
+    expect(distinct.size).toBeGreaterThan(1);
+  });
+});
+
+describe("LLM Mentions on the chat_gpt platform", () => {
+  const body = load("dfs-llm-mentions-bauman-chatgpt-real.json");
+  const result = body.tasks[0].result[0];
+
+  it("reports far fewer ChatGPT answers than Google AI Overview for the same domain, about other topics", () => {
+    expect(result.total_count).toBeGreaterThan(50);
+    expect(result.total_count).toBeLessThan(load("dfs-llm-mentions-bauman-real.json").tasks[0].result[0].total_count);
+    for (const m of result.items) expect(m.platform).toBe("chat_gpt");
+  });
+
+  it("keeps no pagination token (it embeds an account id)", () => {
+    expect(result.search_after_token).toBe("REDACTED");
+  });
+});

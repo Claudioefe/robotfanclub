@@ -1,0 +1,598 @@
+{
+  "version": "0.1.20261117",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "23.3078 sec.",
+  "cost": 0.004,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "11181849-2831-0629-0000-bb418172ba65",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "22.7318 sec.",
+      "cost": 0.004,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "chat_gpt",
+        "llm_scraper",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "live",
+        "se": "chat_gpt",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "gifts for a book lover",
+        "force_web_search": true,
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "gifts for a book lover",
+          "location_code": 2840,
+          "language_code": "en",
+          "model": "gpt-6",
+          "check_url": "https://chatgpt.com/?prompt=gifts%20for%20a%20book%20lover&hints=search",
+          "datetime": "2026-11-18 18:50:22 +00:00",
+          "markdown": "Here are some lovely gift ideas for a book lover, ranging from inexpensive, thoughtful surprises to more unique and luxurious gifts. I focused on gifts beyond simply buying them another book\\!\n\n## 12 great gifts for book lovers\n\n### Personalized and sentimental gifts\n\n\n\n**1\\. Personalized book embosser**\n\n(Most thoughtful)\n\n## \\$39.95\n\nA custom stamp that says \"From the Library of...\" with their name. Perfect for someone with a personal library.\n\nSuzitee Store\n\n[Shop embosser](https://www.suzitee.com/products/ex-libris-from-the-library-personalized-book-embosser-stamp-hth-dpl-ell?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=51144874164527&utm_source=chatgpt.com)\n\n---\n\n\n\n**2\\. Personalized reading journal**\n\n## \\$29.99\n\nA place to record favorite books, reviews, reading goals and memorable quotes.\n\nPawfect House\n\n[Shop reading journal](https://pawfecthouse.com/products/custom-name-birth-flower-reading-journal-for-book-lovers-personalized-leather-writing-journal?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=54325148352801&utm_source=chatgpt.com)\n\n---\n\n\n\n**3\\. Wooden book page holder**\n\n## \\$22.99\n\nHolds a book open with one hand. A clever little accessory for avid readers.\n\nWrappiness Gifts\n\n[Shop page holder](https://wrappiness.co/products/spread-those-pages-gift-for-book-lovers-personalized-custom-book-page-holder?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=51060262732064&utm_source=chatgpt.com)\n\n### Cozy reading gifts\n\n![Minimalist LED Rechargeable Book Light  – Your Gifts](https://images.openai.com/static-rsc-4/0_24AqHpz4gAUk4cyLI4HVDL6ZsAE90hmAJ9FlbANsow_lv_oWw3JFcJqX_l8ij53OhA6DOmeq0BBtblkI2G1qHlU-ZSgOL3f68UPgHeR92gvajiqn0d4r2ZoiUlZuN28eKgBRji201XUkt4-3DZhz3Yhxnrx2e3EGT-BSN7t-606-n-R9iEUpRIaz7gPKx1?purpose=fullsize)\n\n**4\\. Rechargeable book light**\n\nAround \\$15–25\n\nPerfect for late-night reading.\n\n![Oxford Library - 8 oz Candle | Frostbeard Studio](https://images.openai.com/static-rsc-4/GQYBD93OLF_WY9VoACrrG-inkH4GlgH99-C_3We1Z22Q0xC40a2LB3BtUaBnWDLnIhw7BK6yu1swUiBggym0GaoaxkHXyVYSQZBP7zY4ogx1MCM3rrWugFh8J3oh_wZm1Z1cIAXjLgHQGdWzZQF1QHs0GkfXCsZY0cnGiaybEkREk9kF6MOCRbt1i-uEz4_C?purpose=fullsize)\n\n**5\\. Library-scented candle**\n\nAround \\$20–48\n\nA cozy old-library atmosphere.\n\n![Personalized Book Blanket, Custom Name Reading Throw, Cozy Library Gift for Book Lovers and Readers - Etsy](https://images.openai.com/static-rsc-4/6RfgNaf_rsV0kq1nRHkrKjEnpjKHe3xSnrse9uvXSsiShi-bNfBUt3MEUfHgxSn2vlmmME3HxmmaaSbA4ZzOjHH3Jv-H6V3eGM3tDv8J4fNtFafmK7Ux7R56666z3-bel8D4M7ew2bpmDrZZHlOpHDFN1P5wKhPOj8cTFcmlpioN1fYdd8tikydeOwer03Mm?purpose=fullsize)\n\n**6\\. Reading blanket**\n\nAround \\$25–60\n\nFor curling up with a good book.\n\n![Rifle Paper Co. Book Club Gold Foil Porcelain Mug — Hello World Modern Mercantile](https://images.openai.com/static-rsc-4/iv3RvieCWCFv5doN7FR0hlgeRxf_-hE_RmcSfUF3Cu7oAjN5NGj3h-1_TocrWFmLIK8Km9_viw0mq733YPboctVawW9Gvz3MJpolVyBpFj5Yol_A0oLUlDJseoKGEFEZBwlsrLUM4h-myWYVdSmhrGcqHD98o7jEvWPlNb4NrdgsVJV1-iZOSX1g_BVu4lyP?purpose=fullsize)\n\n**7\\. Literary coffee mug**\n\nAround \\$15–30\n\nA great companion for reading time.\n\n### Unique and fun gifts\n\n![[Out of Print] Library Card Tote Bag 6 (Natural)](https://images.openai.com/static-rsc-4/CF4qxhcv7acaOldEnmnz5IMMF9xH4V_20ZYIr4biUNU0sVVqyt-r8QQJMW6DiA2uKjBt_c7eiiks8xs6EnZG5QCgta0NlmykmppIQgOv_fw1aKWmvrPVBTK_ihJ_16E2c2zvi57APKbZ7gx4uUfGoBhWM-wuMAFY0pQcJkMhLQZS2L1HGX2wExo2f6DvpjnD?purpose=fullsize)\n\n**8\\. Library card tote bag**\n\nAround \\$22–30\n\nStylish and practical for carrying books.\n\n![Uncommon Goods | The Book Lover's Advent Calendar | Advent](https://images.openai.com/static-rsc-4/TGaiiBBlv_Fx_WFvA2e1NrIGrgVxS4Ao2Jd8qEL5a4PsHZ_x9ge339heNn3y18ogWSz_KR74XzeNxZHHe8kWjxdK0R44JzKKVw-iG3BvMMB68wTzNMPiyc3hAMqnyv5I8aoRe7Icyf7hiiGXB16-vkm-vu9_jYO5mzPM9G3NYHURmoZOBX3gsy16LgjR2KLh?purpose=fullsize)\n\n**9\\. Bookish advent calendar**\n\nAround \\$30\n\nLittle literary surprises to unwrap.\n\n![Enchanted Book Lamp – Rechargeable LED Storybook Light\n– Twilight & Co](https://images.openai.com/static-rsc-4/GTxGTtBLo8mom-GhojfsAFT_KWA7nyFNGfx1gl8gElQodPTrwynTjmmL1oMAISMwiviXmja11ee-vxDQkeXvwXvTmEyi5c0OcYPdDXjJUNCMflrNKzYOuzUaLkQi3wrre5Xl-5JJjd2Oz0FjShdY-qWQU59kEF0mUMIrRTZ0Jrko9HsfxwEJ5CK7mGUDWpNQ?purpose=fullsize)\n\n**10\\. Book-shaped lamp**\n\nAround \\$40–225\n\nA beautiful decorative piece for a reading nook.\n\n![Book Lovers Aesthetic Magnetic Bookmarks\n – OneOclock.in](https://images.openai.com/static-rsc-4/dMngoa6gRJjLDXpiA9RkzJpCDtVj1BA8ArcoaS5RyhH8rjE5ZD0SDrC4khEHN-_pxOfnb8wQBnQjq9s_0ogQ5x8A3y5sGKRrt4lPgHE-d5MC7uvsIb_aAqKoQKFCH4lvkvM95Cj2ymOY5R6wDPGOnzJ66ZSiotze6FXOrAvb5kLVY2IONNTszcUjK0W0PjO9?purpose=fullsize)\n\n**11\\. Beautiful bookmark set**\n\nAround \\$8–20\n\nEspecially nice if they love collecting pretty bookmarks.\n\n![The Verge’s 2023 digital gift guide | The Verge](https://images.openai.com/static-rsc-4/GfRB-1BOD2WHpX0Do2EU2VoSbCabs90VL3kGZvbXBC5DCSLW7ORB_tRYU2mKbEEGj5JRufUvcV9tLoM_-7w5_ois0mHuCD93fY0vchtCJr1FejwPxWvoJSFUouMqwH2I0ZyEMXb-rYVAJxeBc4cZreYVtFHns24tlfXEpOGJXo3CkQcohwf4TVenQePF6Hew?purpose=fullsize)\n\n**12\\. Book subscription**\n\nAround \\$60 and up\n\nA monthly book delivered to their door. Great for someone who loves discovering new authors.\n\n## My favorite gift combinations\n\nRather than giving just one item, you could create a little book lover's gift basket\\:\n\n![Cozy Book Lover's Gift Box Set/book, Blanket Scarf, Candle, Mug & More - Etsy New Zealand](https://images.openai.com/static-rsc-4/r17tWXEh2YJ9GPdiTpv2iLrrl5wHb5xA0PbX6wLhOBLt6TXagbnQ5gVRLPXzYFTeAJJpsKT9Q-W56mQqEmodAaO4ZzphuBNqiYdnJ5n9UcY8U8kiPO_Gk_dHI75B9499ai9lEhFJHXbuigHoWrOfWSx_RZkY5tkfD9Wo-uHf4DuuEeO9XSzpUXwZuOP8MfUC?purpose=fullsize)\n\n**The Cozy Reader Basket**\n\n- Reading candle\n- Pretty mug\n- Tea or hot chocolate\n- Soft blanket\n- Bookmark\n\n---\n\n![Personalized Book Lover's Keepsake Set | Custom Tumbler, Journal, and Bookmark Gift Box - Groovy Girl Gifts](https://images.openai.com/static-rsc-4/aHFHoIGPRWxxq10k3fFXqu59IeGJ8063FBYsCdMsKxGR77l4HY7DExIYVMt_ySAGhZe_iqy_QpfBUMNbt0jotRs1iOPmgLRPaGaLwJr7-WCddEMOSJYg8UGz7dEj_3NdslBQAYZiVGcLfAFBpl9tlY_EiJzZPjy4NUWyj9lSBDOsreBrzD-zoGrhwmRnyTcK?purpose=fullsize)\n\n**The Bibliophile Gift Box**\n\n- Personalized reading journal\n- Custom book embosser\n- Elegant bookmarks\n- Beautiful pen\n\n## Let me narrow it down\\!\n\nI can find some particularly special gifts if you tell me a little more.\n\n**1\\. What's your budget?**\n\n---\n\n**2\\. What kind of gifts do you prefer?**\n\n---\n\n**3\\. Who is the gift for?**\n\n---\n\n**4\\. What would you like to give?**\n\n[Find my gifts]",
+          "search_results": [
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://abcnews.com/GMA/Shop/reader-book-lovers-gift-guide/story?id=128255383&utm_source=chatgpt.com",
+              "domain": "abcnews.com",
+              "title": "Our 2026 gift guide for book lovers: Kindles, decor, book club picks and more - ABC News",
+              "description": "OUR 2026 GIFT GUIDE FOR BOOK LOVERS: KINDLES, DECOR, BOOK CLUB PICKS AND MORE  Gifts for book lovers 2026  Amazon, Anthropologie, Lola Blankets, Williams Sonoma, Etsy, Papier, Rifle Paper Co.  ByClai...",
+              "breadcrumb": "abcnews.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.nbcnews.com/select/shopping/best-gifts-for-book-lovers-rcna609989?utm_source=chatgpt.com",
+              "domain": "www.nbcnews.com",
+              "title": "The Best Gifts for Book Lovers in 2026 | NBC Selected",
+              "description": "Gift Guide  21 GIFTS FOR BOOK LOVERS THAT GO BEYOND GETTING THEM ANOTHER BOOK  We found functional, bibliophile-inspired items that avid readers will actually want to use.  Nov. 18, 2026, 10:55 AM ES...",
+              "breadcrumb": "nbcnews.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.wired.com/story/gifts-for-book-lovers/?utm_source=chatgpt.com",
+              "domain": "www.wired.com",
+              "title": "The Best Gifts for Book Lovers (2026): E-Readers, Handy Accessories, Book Sets | WIRED",
+              "description": "Nena Farrell  Gear  Sep 30, 2026 7:36 AM  THE BEST GIFTS FOR BOOK LOVERS, ACCORDING TO AN AVID READER  Any one of these gift ideas will make your favorite bookworm very happy, from e-readers and acce...",
+              "breadcrumb": "wired.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.goodmorningamerica.com/news/story/reader-book-lovers-gift-guide-128255383?utm_source=chatgpt.com",
+              "domain": "www.goodmorningamerica.com",
+              "title": "Our 2026 gift guide for book lovers: Kindles, decor, book club picks and more - Good Morning America",
+              "description": "OUR 2026 GIFT GUIDE FOR BOOK LOVERS: KINDLES, DECOR, BOOK CLUB PICKS AND MORE  Gifts for book lovers 2026  Amazon, Anthropologie, Lola Blankets, Williams Sonoma, Etsy, Papier, Rifle Paper Co.  ByClai...",
+              "breadcrumb": "goodmorningamerica.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://video.goodmorningamerica.com/shop/story/reader-book-lovers-gift-guide-128255383?utm_source=chatgpt.com",
+              "domain": "video.goodmorningamerica.com",
+              "title": "Our 2026 gift guide for book lovers: Kindles, decor, book club picks and more - Good Morning America",
+              "description": "OUR 2026 GIFT GUIDE FOR BOOK LOVERS: KINDLES, DECOR, BOOK CLUB PICKS AND MORE  Gifts for book lovers 2026  Amazon, Anthropologie, Lola Blankets, Williams Sonoma, Etsy, Papier, Rifle Paper Co.  ByClai...",
+              "breadcrumb": "goodmorningamerica.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://goodmorningamerica.com/shop/story/reader-book-lovers-gift-guide-128255383?utm_source=chatgpt.com",
+              "domain": "goodmorningamerica.com",
+              "title": "Our 2026 gift guide for book lovers: Personalized accessories, book club picks and more - Good Morning America",
+              "description": "OUR 2026 GIFT GUIDE FOR BOOK LOVERS: PERSONALIZED ACCESSORIES, BOOK CLUB PICKS AND MORE  Gifts for readers 2025  Amazon, Uncommon Goods, Cozy Earth, Papier, Anthropologie, Adobe  ByClaire Peltier  Fe...",
+              "breadcrumb": "goodmorningamerica.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.hgtv.com/shopping/gift-guides/gifts-for-book-lovers?utm_source=chatgpt.com",
+              "domain": "www.hgtv.com",
+              "title": "The Best Gifts for Book Lovers 2026 | HGTV",
+              "description": "THE BEST READING-THEMED GIFT IDEAS FOR BOOK LOVERS  Check out these thoughtful gift ideas for the avid reader on your list that won't add to their TBR pile.  Price and stock could change after publis...",
+              "breadcrumb": "hgtv.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.reviewed.com/gift-guides/features/gift-ideas-for-book-lovers-2025/?utm_source=chatgpt.com",
+              "domain": "www.reviewed.com",
+              "title": "32 gift ideas for book lovers: Unique gifts for readers 2026 - Reviewed",
+              "description": "32 GIFT IDEAS FOR BOOK LOVERS  From bestselling novels to cozy reading accessories, these are the best gifts for readers.  Image: A pile of books on a blue gift background Credit: Reviewed  Image: De...",
+              "breadcrumb": "reviewed.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.reviewed.com/gift-guides/features/gift-ideas-for-book-lovers-2025?utm_source=chatgpt.com",
+              "domain": "www.reviewed.com",
+              "title": "32 gift ideas for book lovers: Unique gifts for readers 2026 - Reviewed",
+              "description": "32 GIFT IDEAS FOR BOOK LOVERS  From bestselling novels to cozy reading accessories, these are the best gifts for readers.  Image: A pile of books on a blue gift background Credit: Reviewed  Image: De...",
+              "breadcrumb": "reviewed.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://tollbit.rollingstone.com/product-recommendations/gift-guide/best-gifts-for-book-lovers-where-to-shop-1235542163/?utm_source=chatgpt.com",
+              "domain": "tollbit.rollingstone.com",
+              "title": "25+ Gifts for Book Lovers That Are Bound to Impress",
+              "description": "Gift Guide  30+ GIFTS FOR BOOK LOVERS THAT ARE BOUND TO IMPRESS  From literary lamps to library-card charms, purchasing these presents for the bibliophile in your life is long overdue  By  Alexis Miku...",
+              "breadcrumb": "rollingstone.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://theeverygirl.com/gifts-for-book-lovers/?utm_source=chatgpt.com",
+              "domain": "theeverygirl.com",
+              "title": "The Best Gifts for Book Lovers | The Everygirl",
+              "description": "60+ GIFTS FOR THE PERSON WHO’S NEVER WITHOUT A BOOK  October 13, 2026  written by GARRI CHAVERST & MADIGAN WILL  The Everygirl’s gift recommendations are curated by our editorial team with some items...",
+              "breadcrumb": "theeverygirl.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.oprahdaily.com/entertainment/books/g23110271/gifts-for-book-lovers/?utm_source=chatgpt.com",
+              "domain": "www.oprahdaily.com",
+              "title": "Best Gifts for Book Lovers 2026: 49 Ideas Bibliophiles Will Adore",
+              "description": "1. Culture & News 2. Books 3. 51 Gifts the Book Lovers in Your Life Will Adore  51 GIFTS THE BOOK LOVERS IN YOUR LIFE WILL ADORE  You’ll definitely want to bookmark this! (See what we did there?)  By...",
+              "breadcrumb": "oprahdaily.com"
+            }
+          ],
+          "sources": [
+            {
+              "type": "chat_gpt_source",
+              "title": "Shop embosser",
+              "snippet": null,
+              "domain": "www.suzitee.com",
+              "url": "https://www.suzitee.com/products/ex-libris-from-the-library-personalized-book-embosser-stamp-hth-dpl-ell?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=51144874164527&utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[Shop embosser](https://www.suzitee.com/products/ex-libris-from-the-library-personalized-book-embosser-stamp-hth-dpl-ell?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=51144874164527&utm_source=chatgpt.com)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Shop reading journal",
+              "snippet": null,
+              "domain": "pawfecthouse.com",
+              "url": "https://pawfecthouse.com/products/custom-name-birth-flower-reading-journal-for-book-lovers-personalized-leather-writing-journal?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=54325148352801&utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[Shop reading journal](https://pawfecthouse.com/products/custom-name-birth-flower-reading-journal-for-book-lovers-personalized-leather-writing-journal?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=54325148352801&utm_source=chatgpt.com)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Shop page holder",
+              "snippet": null,
+              "domain": "wrappiness.co",
+              "url": "https://wrappiness.co/products/spread-those-pages-gift-for-book-lovers-personalized-custom-book-page-holder?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=51060262732064&utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[Shop page holder](https://wrappiness.co/products/spread-those-pages-gift-for-book-lovers-personalized-custom-book-page-holder?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=51060262732064&utm_source=chatgpt.com)"
+            }
+          ],
+          "fan_out_queries": [
+            "best gifts for book lovers 2026 reading accessories bookish gift ideas"
+          ],
+          "brand_entities": null,
+          "se_results_count": 0,
+          "item_types": [
+            "chat_gpt_text",
+            "chat_gpt_images",
+            "chat_gpt_products"
+          ],
+          "items_count": 31,
+          "items": [
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "markdown": "Here are some lovely gift ideas for a book lover, ranging from inexpensive, thoughtful surprises to more unique and luxurious gifts. I focused on gifts beyond simply buying them another book\\!\n\n## 12 great gifts for book lovers\n\n### Personalized and sentimental gifts\n\n",
+              "sources": null,
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "markdown": null,
+              "items": null
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "markdown": "\n\n**1\\. Personalized book embosser**\n\n(Most thoughtful)\n\n## \\$39.95\n\nA custom stamp that says \"From the Library of...\" with their name. Perfect for someone with a personal library.\n\nSuzitee Store\n\n[Shop embosser](https://www.suzitee.com/products/ex-libris-from-the-library-personalized-book-embosser-stamp-hth-dpl-ell?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=51144874164527&utm_source=chatgpt.com)\n\n---\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Shop embosser",
+                  "snippet": null,
+                  "domain": "www.suzitee.com",
+                  "url": "https://www.suzitee.com/products/ex-libris-from-the-library-personalized-book-embosser-stamp-hth-dpl-ell?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=51144874164527&utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[Shop embosser](https://www.suzitee.com/products/ex-libris-from-the-library-personalized-book-embosser-stamp-hth-dpl-ell?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=51144874164527&utm_source=chatgpt.com)"
+                }
+              ],
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "markdown": null,
+              "items": null
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 3,
+              "rank_absolute": 5,
+              "markdown": "\n\n**2\\. Personalized reading journal**\n\n## \\$29.99\n\nA place to record favorite books, reviews, reading goals and memorable quotes.\n\nPawfect House\n\n[Shop reading journal](https://pawfecthouse.com/products/custom-name-birth-flower-reading-journal-for-book-lovers-personalized-leather-writing-journal?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=54325148352801&utm_source=chatgpt.com)\n\n---\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Shop reading journal",
+                  "snippet": null,
+                  "domain": "pawfecthouse.com",
+                  "url": "https://pawfecthouse.com/products/custom-name-birth-flower-reading-journal-for-book-lovers-personalized-leather-writing-journal?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=54325148352801&utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[Shop reading journal](https://pawfecthouse.com/products/custom-name-birth-flower-reading-journal-for-book-lovers-personalized-leather-writing-journal?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=54325148352801&utm_source=chatgpt.com)"
+                }
+              ],
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 3,
+              "rank_absolute": 6,
+              "markdown": null,
+              "items": null
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "markdown": "\n\n**3\\. Wooden book page holder**\n\n## \\$22.99\n\nHolds a book open with one hand. A clever little accessory for avid readers.\n\nWrappiness Gifts\n\n[Shop page holder](https://wrappiness.co/products/spread-those-pages-gift-for-book-lovers-personalized-custom-book-page-holder?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=51060262732064&utm_source=chatgpt.com)\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Shop page holder",
+                  "snippet": null,
+                  "domain": "wrappiness.co",
+                  "url": "https://wrappiness.co/products/spread-those-pages-gift-for-book-lovers-personalized-custom-book-page-holder?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=51060262732064&utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[Shop page holder](https://wrappiness.co/products/spread-those-pages-gift-for-book-lovers-personalized-custom-book-page-holder?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=51060262732064&utm_source=chatgpt.com)"
+                }
+              ],
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_products",
+              "rank_group": 1,
+              "rank_absolute": 8,
+              "items": [
+                {
+                  "type": "chat_gpt_products_element",
+                  "product_id": null,
+                  "merchants": null,
+                  "id_to_token_map": null,
+                  "title": "Personalized book embosser",
+                  "rating": null,
+                  "price": 39.95,
+                  "currency": "USD",
+                  "tag": "Most thoughtful",
+                  "url": "https://www.suzitee.com/products/ex-libris-from-the-library-personalized-book-embosser-stamp-hth-dpl-ell?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=51144874164527&utm_source=chatgpt.com",
+                  "domain": "www.suzitee.com",
+                  "images": null,
+                  "product_ids": null
+                },
+                {
+                  "type": "chat_gpt_products_element",
+                  "product_id": null,
+                  "merchants": null,
+                  "id_to_token_map": null,
+                  "title": "Personalized reading journal",
+                  "rating": null,
+                  "price": 29.99,
+                  "currency": "USD",
+                  "tag": null,
+                  "url": "https://pawfecthouse.com/products/custom-name-birth-flower-reading-journal-for-book-lovers-personalized-leather-writing-journal?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=54325148352801&utm_source=chatgpt.com",
+                  "domain": "pawfecthouse.com",
+                  "images": null,
+                  "product_ids": null
+                },
+                {
+                  "type": "chat_gpt_products_element",
+                  "product_id": null,
+                  "merchants": null,
+                  "id_to_token_map": null,
+                  "title": "Wooden book page holder",
+                  "rating": null,
+                  "price": 22.99,
+                  "currency": "USD",
+                  "tag": null,
+                  "url": "https://wrappiness.co/products/spread-those-pages-gift-for-book-lovers-personalized-custom-book-page-holder?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=51060262732064&utm_source=chatgpt.com",
+                  "domain": "wrappiness.co",
+                  "images": null,
+                  "product_ids": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 5,
+              "rank_absolute": 9,
+              "markdown": "### Cozy reading gifts\n\n",
+              "sources": null,
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 4,
+              "rank_absolute": 10,
+              "markdown": "![Minimalist LED Rechargeable Book Light  – Your Gifts](https://images.openai.com/static-rsc-4/0_24AqHpz4gAUk4cyLI4HVDL6ZsAE90hmAJ9FlbANsow_lv_oWw3JFcJqX_l8ij53OhA6DOmeq0BBtblkI2G1qHlU-ZSgOL3f68UPgHeR92gvajiqn0d4r2ZoiUlZuN28eKgBRji201XUkt4-3DZhz3Yhxnrx2e3EGT-BSN7t-606-n-R9iEUpRIaz7gPKx1?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://giftedbyyourgifts.com/products/minimalist-led-rechargeable-book-light-1",
+                  "alt": "Minimalist LED Rechargeable Book Light  – Your Gifts",
+                  "image_url": "https://images.openai.com/static-rsc-4/0_24AqHpz4gAUk4cyLI4HVDL6ZsAE90hmAJ9FlbANsow_lv_oWw3JFcJqX_l8ij53OhA6DOmeq0BBtblkI2G1qHlU-ZSgOL3f68UPgHeR92gvajiqn0d4r2ZoiUlZuN28eKgBRji201XUkt4-3DZhz3Yhxnrx2e3EGT-BSN7t-606-n-R9iEUpRIaz7gPKx1?purpose=fullsize",
+                  "markdown": "![Minimalist LED Rechargeable Book Light  – Your Gifts](https://images.openai.com/static-rsc-4/0_24AqHpz4gAUk4cyLI4HVDL6ZsAE90hmAJ9FlbANsow_lv_oWw3JFcJqX_l8ij53OhA6DOmeq0BBtblkI2G1qHlU-ZSgOL3f68UPgHeR92gvajiqn0d4r2ZoiUlZuN28eKgBRji201XUkt4-3DZhz3Yhxnrx2e3EGT-BSN7t-606-n-R9iEUpRIaz7gPKx1?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 6,
+              "rank_absolute": 11,
+              "markdown": "\n\n**4\\. Rechargeable book light**\n\nAround \\$15–25\n\nPerfect for late-night reading.\n\n",
+              "sources": null,
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 5,
+              "rank_absolute": 12,
+              "markdown": "![Oxford Library - 8 oz Candle | Frostbeard Studio](https://images.openai.com/static-rsc-4/GQYBD93OLF_WY9VoACrrG-inkH4GlgH99-C_3We1Z22Q0xC40a2LB3BtUaBnWDLnIhw7BK6yu1swUiBggym0GaoaxkHXyVYSQZBP7zY4ogx1MCM3rrWugFh8J3oh_wZm1Z1cIAXjLgHQGdWzZQF1QHs0GkfXCsZY0cnGiaybEkREk9kF6MOCRbt1i-uEz4_C?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.frostbeardstudio.com/products/oxford-library-8oz-candle",
+                  "alt": "Oxford Library - 8 oz Candle | Frostbeard Studio",
+                  "image_url": "https://images.openai.com/static-rsc-4/GQYBD93OLF_WY9VoACrrG-inkH4GlgH99-C_3We1Z22Q0xC40a2LB3BtUaBnWDLnIhw7BK6yu1swUiBggym0GaoaxkHXyVYSQZBP7zY4ogx1MCM3rrWugFh8J3oh_wZm1Z1cIAXjLgHQGdWzZQF1QHs0GkfXCsZY0cnGiaybEkREk9kF6MOCRbt1i-uEz4_C?purpose=fullsize",
+                  "markdown": "![Oxford Library - 8 oz Candle | Frostbeard Studio](https://images.openai.com/static-rsc-4/GQYBD93OLF_WY9VoACrrG-inkH4GlgH99-C_3We1Z22Q0xC40a2LB3BtUaBnWDLnIhw7BK6yu1swUiBggym0GaoaxkHXyVYSQZBP7zY4ogx1MCM3rrWugFh8J3oh_wZm1Z1cIAXjLgHQGdWzZQF1QHs0GkfXCsZY0cnGiaybEkREk9kF6MOCRbt1i-uEz4_C?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 7,
+              "rank_absolute": 13,
+              "markdown": "\n\n**5\\. Library-scented candle**\n\nAround \\$20–48\n\nA cozy old-library atmosphere.\n\n",
+              "sources": null,
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 6,
+              "rank_absolute": 14,
+              "markdown": "![Personalized Book Blanket, Custom Name Reading Throw, Cozy Library Gift for Book Lovers and Readers - Etsy](https://images.openai.com/static-rsc-4/6RfgNaf_rsV0kq1nRHkrKjEnpjKHe3xSnrse9uvXSsiShi-bNfBUt3MEUfHgxSn2vlmmME3HxmmaaSbA4ZzOjHH3Jv-H6V3eGM3tDv8J4fNtFafmK7Ux7R56666z3-bel8D4M7ew2bpmDrZZHlOpHDFN1P5wKhPOj8cTFcmlpioN1fYdd8tikydeOwer03Mm?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.etsy.com/listing/4496540352/personalized-book-blanket-custom-name",
+                  "alt": "Personalized Book Blanket, Custom Name Reading Throw, Cozy Library Gift for Book Lovers and Readers - Etsy",
+                  "image_url": "https://images.openai.com/static-rsc-4/6RfgNaf_rsV0kq1nRHkrKjEnpjKHe3xSnrse9uvXSsiShi-bNfBUt3MEUfHgxSn2vlmmME3HxmmaaSbA4ZzOjHH3Jv-H6V3eGM3tDv8J4fNtFafmK7Ux7R56666z3-bel8D4M7ew2bpmDrZZHlOpHDFN1P5wKhPOj8cTFcmlpioN1fYdd8tikydeOwer03Mm?purpose=fullsize",
+                  "markdown": "![Personalized Book Blanket, Custom Name Reading Throw, Cozy Library Gift for Book Lovers and Readers - Etsy](https://images.openai.com/static-rsc-4/6RfgNaf_rsV0kq1nRHkrKjEnpjKHe3xSnrse9uvXSsiShi-bNfBUt3MEUfHgxSn2vlmmME3HxmmaaSbA4ZzOjHH3Jv-H6V3eGM3tDv8J4fNtFafmK7Ux7R56666z3-bel8D4M7ew2bpmDrZZHlOpHDFN1P5wKhPOj8cTFcmlpioN1fYdd8tikydeOwer03Mm?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 8,
+              "rank_absolute": 15,
+              "markdown": "\n\n**6\\. Reading blanket**\n\nAround \\$25–60\n\nFor curling up with a good book.\n\n",
+              "sources": null,
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 7,
+              "rank_absolute": 16,
+              "markdown": "![Rifle Paper Co. Book Club Gold Foil Porcelain Mug — Hello World Modern Mercantile](https://images.openai.com/static-rsc-4/iv3RvieCWCFv5doN7FR0hlgeRxf_-hE_RmcSfUF3Cu7oAjN5NGj3h-1_TocrWFmLIK8Km9_viw0mq733YPboctVawW9Gvz3MJpolVyBpFj5Yol_A0oLUlDJseoKGEFEZBwlsrLUM4h-myWYVdSmhrGcqHD98o7jEvWPlNb4NrdgsVJV1-iZOSX1g_BVu4lyP?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://shophelloworld.com/products/book-club-gold-foil-porcelain-mug",
+                  "alt": "Rifle Paper Co. Book Club Gold Foil Porcelain Mug — Hello World Modern Mercantile",
+                  "image_url": "https://images.openai.com/static-rsc-4/iv3RvieCWCFv5doN7FR0hlgeRxf_-hE_RmcSfUF3Cu7oAjN5NGj3h-1_TocrWFmLIK8Km9_viw0mq733YPboctVawW9Gvz3MJpolVyBpFj5Yol_A0oLUlDJseoKGEFEZBwlsrLUM4h-myWYVdSmhrGcqHD98o7jEvWPlNb4NrdgsVJV1-iZOSX1g_BVu4lyP?purpose=fullsize",
+                  "markdown": "![Rifle Paper Co. Book Club Gold Foil Porcelain Mug — Hello World Modern Mercantile](https://images.openai.com/static-rsc-4/iv3RvieCWCFv5doN7FR0hlgeRxf_-hE_RmcSfUF3Cu7oAjN5NGj3h-1_TocrWFmLIK8Km9_viw0mq733YPboctVawW9Gvz3MJpolVyBpFj5Yol_A0oLUlDJseoKGEFEZBwlsrLUM4h-myWYVdSmhrGcqHD98o7jEvWPlNb4NrdgsVJV1-iZOSX1g_BVu4lyP?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 9,
+              "rank_absolute": 17,
+              "markdown": "\n\n**7\\. Literary coffee mug**\n\nAround \\$15–30\n\nA great companion for reading time.\n\n### Unique and fun gifts\n\n",
+              "sources": null,
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 8,
+              "rank_absolute": 18,
+              "markdown": "![[Out of Print] Library Card Tote Bag 6 (Natural)](https://images.openai.com/static-rsc-4/CF4qxhcv7acaOldEnmnz5IMMF9xH4V_20ZYIr4biUNU0sVVqyt-r8QQJMW6DiA2uKjBt_c7eiiks8xs6EnZG5QCgta0NlmykmppIQgOv_fw1aKWmvrPVBTK_ihJ_16E2c2zvi57APKbZ7gx4uUfGoBhWM-wuMAFY0pQcJkMhLQZS2L1HGX2wExo2f6DvpjnD?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://outofprint.jp/?pid=169002295",
+                  "alt": "[Out of Print] Library Card Tote Bag 6 (Natural)",
+                  "image_url": "https://images.openai.com/static-rsc-4/CF4qxhcv7acaOldEnmnz5IMMF9xH4V_20ZYIr4biUNU0sVVqyt-r8QQJMW6DiA2uKjBt_c7eiiks8xs6EnZG5QCgta0NlmykmppIQgOv_fw1aKWmvrPVBTK_ihJ_16E2c2zvi57APKbZ7gx4uUfGoBhWM-wuMAFY0pQcJkMhLQZS2L1HGX2wExo2f6DvpjnD?purpose=fullsize",
+                  "markdown": "![[Out of Print] Library Card Tote Bag 6 (Natural)](https://images.openai.com/static-rsc-4/CF4qxhcv7acaOldEnmnz5IMMF9xH4V_20ZYIr4biUNU0sVVqyt-r8QQJMW6DiA2uKjBt_c7eiiks8xs6EnZG5QCgta0NlmykmppIQgOv_fw1aKWmvrPVBTK_ihJ_16E2c2zvi57APKbZ7gx4uUfGoBhWM-wuMAFY0pQcJkMhLQZS2L1HGX2wExo2f6DvpjnD?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 10,
+              "rank_absolute": 19,
+              "markdown": "\n\n**8\\. Library card tote bag**\n\nAround \\$22–30\n\nStylish and practical for carrying books.\n\n",
+              "sources": null,
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 9,
+              "rank_absolute": 20,
+              "markdown": "![Uncommon Goods | The Book Lover's Advent Calendar | Advent](https://images.openai.com/static-rsc-4/TGaiiBBlv_Fx_WFvA2e1NrIGrgVxS4Ao2Jd8qEL5a4PsHZ_x9ge339heNn3y18ogWSz_KR74XzeNxZHHe8kWjxdK0R44JzKKVw-iG3BvMMB68wTzNMPiyc3hAMqnyv5I8aoRe7Icyf7hiiGXB16-vkm-vu9_jYO5mzPM9G3NYHURmoZOBX3gsy16LgjR2KLh?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.uncommongoods.com/product/the-book-lovers-advent-calendar",
+                  "alt": "Uncommon Goods | The Book Lover's Advent Calendar | Advent",
+                  "image_url": "https://images.openai.com/static-rsc-4/TGaiiBBlv_Fx_WFvA2e1NrIGrgVxS4Ao2Jd8qEL5a4PsHZ_x9ge339heNn3y18ogWSz_KR74XzeNxZHHe8kWjxdK0R44JzKKVw-iG3BvMMB68wTzNMPiyc3hAMqnyv5I8aoRe7Icyf7hiiGXB16-vkm-vu9_jYO5mzPM9G3NYHURmoZOBX3gsy16LgjR2KLh?purpose=fullsize",
+                  "markdown": "![Uncommon Goods | The Book Lover's Advent Calendar | Advent](https://images.openai.com/static-rsc-4/TGaiiBBlv_Fx_WFvA2e1NrIGrgVxS4Ao2Jd8qEL5a4PsHZ_x9ge339heNn3y18ogWSz_KR74XzeNxZHHe8kWjxdK0R44JzKKVw-iG3BvMMB68wTzNMPiyc3hAMqnyv5I8aoRe7Icyf7hiiGXB16-vkm-vu9_jYO5mzPM9G3NYHURmoZOBX3gsy16LgjR2KLh?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 11,
+              "rank_absolute": 21,
+              "markdown": "\n\n**9\\. Bookish advent calendar**\n\nAround \\$30\n\nLittle literary surprises to unwrap.\n\n",
+              "sources": null,
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 10,
+              "rank_absolute": 22,
+              "markdown": "![Enchanted Book Lamp – Rechargeable LED Storybook Light\n– Twilight & Co](https://images.openai.com/static-rsc-4/GTxGTtBLo8mom-GhojfsAFT_KWA7nyFNGfx1gl8gElQodPTrwynTjmmL1oMAISMwiviXmja11ee-vxDQkeXvwXvTmEyi5c0OcYPdDXjJUNCMflrNKzYOuzUaLkQi3wrre5Xl-5JJjd2Oz0FjShdY-qWQU59kEF0mUMIrRTZ0Jrko9HsfxwEJ5CK7mGUDWpNQ?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://twilightandco.com/products/enchanted-book-lamp-rechargeable-led-storybook-light",
+                  "alt": "Enchanted Book Lamp – Rechargeable LED Storybook Light\n– Twilight & Co",
+                  "image_url": "https://images.openai.com/static-rsc-4/GTxGTtBLo8mom-GhojfsAFT_KWA7nyFNGfx1gl8gElQodPTrwynTjmmL1oMAISMwiviXmja11ee-vxDQkeXvwXvTmEyi5c0OcYPdDXjJUNCMflrNKzYOuzUaLkQi3wrre5Xl-5JJjd2Oz0FjShdY-qWQU59kEF0mUMIrRTZ0Jrko9HsfxwEJ5CK7mGUDWpNQ?purpose=fullsize",
+                  "markdown": "![Enchanted Book Lamp – Rechargeable LED Storybook Light\n– Twilight & Co](https://images.openai.com/static-rsc-4/GTxGTtBLo8mom-GhojfsAFT_KWA7nyFNGfx1gl8gElQodPTrwynTjmmL1oMAISMwiviXmja11ee-vxDQkeXvwXvTmEyi5c0OcYPdDXjJUNCMflrNKzYOuzUaLkQi3wrre5Xl-5JJjd2Oz0FjShdY-qWQU59kEF0mUMIrRTZ0Jrko9HsfxwEJ5CK7mGUDWpNQ?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 12,
+              "rank_absolute": 23,
+              "markdown": "\n\n**10\\. Book-shaped lamp**\n\nAround \\$40–225\n\nA beautiful decorative piece for a reading nook.\n\n",
+              "sources": null,
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 11,
+              "rank_absolute": 24,
+              "markdown": "![Book Lovers Aesthetic Magnetic Bookmarks\n – OneOclock.in](https://images.openai.com/static-rsc-4/dMngoa6gRJjLDXpiA9RkzJpCDtVj1BA8ArcoaS5RyhH8rjE5ZD0SDrC4khEHN-_pxOfnb8wQBnQjq9s_0ogQ5x8A3y5sGKRrt4lPgHE-d5MC7uvsIb_aAqKoQKFCH4lvkvM95Cj2ymOY5R6wDPGOnzJ66ZSiotze6FXOrAvb5kLVY2IONNTszcUjK0W0PjO9?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://oneoclock.in/products/book-lovers-aesthetic-magnetic-bookmarks",
+                  "alt": "Book Lovers Aesthetic Magnetic Bookmarks\n – OneOclock.in",
+                  "image_url": "https://images.openai.com/static-rsc-4/dMngoa6gRJjLDXpiA9RkzJpCDtVj1BA8ArcoaS5RyhH8rjE5ZD0SDrC4khEHN-_pxOfnb8wQBnQjq9s_0ogQ5x8A3y5sGKRrt4lPgHE-d5MC7uvsIb_aAqKoQKFCH4lvkvM95Cj2ymOY5R6wDPGOnzJ66ZSiotze6FXOrAvb5kLVY2IONNTszcUjK0W0PjO9?purpose=fullsize",
+                  "markdown": "![Book Lovers Aesthetic Magnetic Bookmarks\n – OneOclock.in](https://images.openai.com/static-rsc-4/dMngoa6gRJjLDXpiA9RkzJpCDtVj1BA8ArcoaS5RyhH8rjE5ZD0SDrC4khEHN-_pxOfnb8wQBnQjq9s_0ogQ5x8A3y5sGKRrt4lPgHE-d5MC7uvsIb_aAqKoQKFCH4lvkvM95Cj2ymOY5R6wDPGOnzJ66ZSiotze6FXOrAvb5kLVY2IONNTszcUjK0W0PjO9?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 13,
+              "rank_absolute": 25,
+              "markdown": "\n\n**11\\. Beautiful bookmark set**\n\nAround \\$8–20\n\nEspecially nice if they love collecting pretty bookmarks.\n\n",
+              "sources": null,
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 12,
+              "rank_absolute": 26,
+              "markdown": "![The Verge’s 2023 digital gift guide | The Verge](https://images.openai.com/static-rsc-4/GfRB-1BOD2WHpX0Do2EU2VoSbCabs90VL3kGZvbXBC5DCSLW7ORB_tRYU2mKbEEGj5JRufUvcV9tLoM_-7w5_ois0mHuCD93fY0vchtCJr1FejwPxWvoJSFUouMqwH2I0ZyEMXb-rYVAJxeBc4cZreYVtFHns24tlfXEpOGJXo3CkQcohwf4TVenQePF6Hew?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.theverge.com/23958480/digital-gift-ideas-2023-last-minute-subscriptions-unique-memberships-boxes",
+                  "alt": "The Verge’s 2023 digital gift guide | The Verge",
+                  "image_url": "https://images.openai.com/static-rsc-4/GfRB-1BOD2WHpX0Do2EU2VoSbCabs90VL3kGZvbXBC5DCSLW7ORB_tRYU2mKbEEGj5JRufUvcV9tLoM_-7w5_ois0mHuCD93fY0vchtCJr1FejwPxWvoJSFUouMqwH2I0ZyEMXb-rYVAJxeBc4cZreYVtFHns24tlfXEpOGJXo3CkQcohwf4TVenQePF6Hew?purpose=fullsize",
+                  "markdown": "![The Verge’s 2023 digital gift guide | The Verge](https://images.openai.com/static-rsc-4/GfRB-1BOD2WHpX0Do2EU2VoSbCabs90VL3kGZvbXBC5DCSLW7ORB_tRYU2mKbEEGj5JRufUvcV9tLoM_-7w5_ois0mHuCD93fY0vchtCJr1FejwPxWvoJSFUouMqwH2I0ZyEMXb-rYVAJxeBc4cZreYVtFHns24tlfXEpOGJXo3CkQcohwf4TVenQePF6Hew?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 14,
+              "rank_absolute": 27,
+              "markdown": "\n\n**12\\. Book subscription**\n\nAround \\$60 and up\n\nA monthly book delivered to their door. Great for someone who loves discovering new authors.\n\n## My favorite gift combinations\n\nRather than giving just one item, you could create a little book lover's gift basket\\:\n\n",
+              "sources": null,
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 13,
+              "rank_absolute": 28,
+              "markdown": "![Cozy Book Lover's Gift Box Set/book, Blanket Scarf, Candle, Mug & More - Etsy New Zealand](https://images.openai.com/static-rsc-4/r17tWXEh2YJ9GPdiTpv2iLrrl5wHb5xA0PbX6wLhOBLt6TXagbnQ5gVRLPXzYFTeAJJpsKT9Q-W56mQqEmodAaO4ZzphuBNqiYdnJ5n9UcY8U8kiPO_Gk_dHI75B9499ai9lEhFJHXbuigHoWrOfWSx_RZkY5tkfD9Wo-uHf4DuuEeO9XSzpUXwZuOP8MfUC?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.etsy.com/listing/1661539370/cozy-book-lovers-gift-box-setbook",
+                  "alt": "Cozy Book Lover's Gift Box Set/book, Blanket Scarf, Candle, Mug & More - Etsy New Zealand",
+                  "image_url": "https://images.openai.com/static-rsc-4/r17tWXEh2YJ9GPdiTpv2iLrrl5wHb5xA0PbX6wLhOBLt6TXagbnQ5gVRLPXzYFTeAJJpsKT9Q-W56mQqEmodAaO4ZzphuBNqiYdnJ5n9UcY8U8kiPO_Gk_dHI75B9499ai9lEhFJHXbuigHoWrOfWSx_RZkY5tkfD9Wo-uHf4DuuEeO9XSzpUXwZuOP8MfUC?purpose=fullsize",
+                  "markdown": "![Cozy Book Lover's Gift Box Set/book, Blanket Scarf, Candle, Mug & More - Etsy New Zealand](https://images.openai.com/static-rsc-4/r17tWXEh2YJ9GPdiTpv2iLrrl5wHb5xA0PbX6wLhOBLt6TXagbnQ5gVRLPXzYFTeAJJpsKT9Q-W56mQqEmodAaO4ZzphuBNqiYdnJ5n9UcY8U8kiPO_Gk_dHI75B9499ai9lEhFJHXbuigHoWrOfWSx_RZkY5tkfD9Wo-uHf4DuuEeO9XSzpUXwZuOP8MfUC?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 15,
+              "rank_absolute": 29,
+              "markdown": "\n\n**The Cozy Reader Basket**\n\n- Reading candle\n- Pretty mug\n- Tea or hot chocolate\n- Soft blanket\n- Bookmark\n\n---\n\n",
+              "sources": null,
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 14,
+              "rank_absolute": 30,
+              "markdown": "![Personalized Book Lover's Keepsake Set | Custom Tumbler, Journal, and Bookmark Gift Box - Groovy Girl Gifts](https://images.openai.com/static-rsc-4/aHFHoIGPRWxxq10k3fFXqu59IeGJ8063FBYsCdMsKxGR77l4HY7DExIYVMt_ySAGhZe_iqy_QpfBUMNbt0jotRs1iOPmgLRPaGaLwJr7-WCddEMOSJYg8UGz7dEj_3NdslBQAYZiVGcLfAFBpl9tlY_EiJzZPjy4NUWyj9lSBDOsreBrzD-zoGrhwmRnyTcK?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.groovygirlgifts.com/products/book-lovers-keepsake-set",
+                  "alt": "Personalized Book Lover's Keepsake Set | Custom Tumbler, Journal, and Bookmark Gift Box - Groovy Girl Gifts",
+                  "image_url": "https://images.openai.com/static-rsc-4/aHFHoIGPRWxxq10k3fFXqu59IeGJ8063FBYsCdMsKxGR77l4HY7DExIYVMt_ySAGhZe_iqy_QpfBUMNbt0jotRs1iOPmgLRPaGaLwJr7-WCddEMOSJYg8UGz7dEj_3NdslBQAYZiVGcLfAFBpl9tlY_EiJzZPjy4NUWyj9lSBDOsreBrzD-zoGrhwmRnyTcK?purpose=fullsize",
+                  "markdown": "![Personalized Book Lover's Keepsake Set | Custom Tumbler, Journal, and Bookmark Gift Box - Groovy Girl Gifts](https://images.openai.com/static-rsc-4/aHFHoIGPRWxxq10k3fFXqu59IeGJ8063FBYsCdMsKxGR77l4HY7DExIYVMt_ySAGhZe_iqy_QpfBUMNbt0jotRs1iOPmgLRPaGaLwJr7-WCddEMOSJYg8UGz7dEj_3NdslBQAYZiVGcLfAFBpl9tlY_EiJzZPjy4NUWyj9lSBDOsreBrzD-zoGrhwmRnyTcK?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 16,
+              "rank_absolute": 31,
+              "markdown": "\n\n**The Bibliophile Gift Box**\n\n- Personalized reading journal\n- Custom book embosser\n- Elegant bookmarks\n- Beautiful pen\n\n## Let me narrow it down\\!\n\nI can find some particularly special gifts if you tell me a little more.\n\n**1\\. What's your budget?**\n\n---\n\n**2\\. What kind of gifts do you prefer?**\n\n---\n\n**3\\. Who is the gift for?**\n\n---\n\n**4\\. What would you like to give?**\n\n[Find my gifts]",
+              "sources": null,
+              "brand_entities": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_note": "ChatGPT LLM Scraper, query \"gifts for a book lover\", force_web_search true, US/en. Run 2 of 5 back to back (about 25 s apart). Bauman Rare Books is not cited in any of the 5 runs; the cited sources change almost completely between runs. Captured 2026-11-18 with DataForSEO Live, saved complete and unmodified (see D-039)."
+}

@@ -1,0 +1,701 @@
+{
+  "version": "0.1.20261117",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "24.2250 sec.",
+  "cost": 0.004,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "11181850-2831-0629-0000-c549b1b1a71b",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "23.9299 sec.",
+      "cost": 0.004,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "chat_gpt",
+        "llm_scraper",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "live",
+        "se": "chat_gpt",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "gifts for a book lover",
+        "force_web_search": true,
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "gifts for a book lover",
+          "location_code": 2840,
+          "language_code": "en",
+          "model": "gpt-6",
+          "check_url": "https://chatgpt.com/?prompt=gifts%20for%20a%20book%20lover&hints=search",
+          "datetime": "2026-11-18 18:51:16 +00:00",
+          "markdown": "If you're shopping for a book lover, I'd look for something that makes their reading experience more special rather than simply buying them another book. 📚\n\nI found some lovely ideas for 2026, ranging from inexpensive stocking stuffers to more memorable gifts.\n\n## Best gifts for book lovers\n\n![Glocusent 1600mAh Long Lasting Rechargeable Ergonomic LED Book Lamp Neck Reading Light - Neck Reading Light and Book Light](https://images.openai.com/static-rsc-4/3xOoyrNi2p3E1XabLPXaCAGCpC9qhaAJHTtVY5DugbI2A5i0-vaOlc0vOgLOp_cBcusruj_vwowel0WYQeKz7t5YuEoUwmFa2PvEwZ0f8_8OFS2ggyeNcuYboERIkIYzzJL7PwL7Rti5eV2xJIzMksaqjVwbFn-pmo0VBRNsELFvZRYyNiqwTBr7nU0cEs2m?purpose=fullsize)\n\n**1\\. Hands-free reading light**\n\n(Practical favorite)\n\n## \\$19.98\n\nA rechargeable neck light for reading in bed without disturbing anyone.\n\nGlocusent · Walmart\n\n[Shop reading light](https://www.walmart.com/ip/Glocusent-Upgraded-LED-Neck-Reading-Light-Book-Light-Bed-30-min-Timer-3-Colors-Brightness-Adjustable-Rechargeable-Long-Lasting-Perfect-Reading-Knitti/5695560519?utm_medium=feed&utm_source=chatgpt.com)\n\n---\n\n![Papier A5 Nose In a Book Guided Reading Journal\n– Good Postage](https://images.openai.com/static-rsc-4/VJH9Rf_TWVIUujbzs4hIG-IlnHITy47WKfgyQpbzyDu2msG2hIVpjF769xRZmY_XfsylZ1C_FlsUDZQKSJbsGH7CiV41HRF_4baoh1R5xCuVdTqq13hdXsLQ6C4K0ur4Fnd7ykN3c9N0P7rC9AgtMPcycODFVuZhp9aqZVK45zgWOG8orH49Zgikes3N3iOt?purpose=fullsize)\n\n**2\\. Beautiful reading journal**\n\n## \\$32\n\nTrack books read, favorite stories, reviews and books to read next.\n\nPapier · Nordstrom\n\n[Shop reading journal](https://www.nordstrom.com/s/nose-in-a-book-reading-journal/8784914?color=light+beige&size=one+size&utm_medium=organic&utm_campaign=genai_shopping&utm_source=chatgpt.com)\n\n---\n\n![Uncommon Goods | Book Nook&#8482; Reading Valet | Book Nook | 4.9-Star Rated](https://images.openai.com/static-rsc-4/3bnwM0siTS_f350P_LxFnOyaOPUYgMceV1hNryTtpJraEMrXkQ2G9BfcEMzG_figeKi2VMiU_Z0oJOYFeI_KdSiyLmAXL6uaPqieMKFiJXaitMFjbwbjOHpfp86NuaYuHtFzAxEfcbZrPxiXoaMdofea6dX8YCMw0NT6TW5fC8lHW1oy92iS4aji4pddUfSf?purpose=fullsize)\n\n**3\\. Book nook reading valet**\n\n## \\$50\n\nA beautiful bedside organizer for a book, glasses, phone and drink.\n\nUncommon Goods · Nordstrom\n\n[Shop reading valet](https://www.nordstrom.com/s/uncommon-goods-book-nook-reading-valet/9004870?color=brown&size=one+size&utm_medium=organic&utm_campaign=genai_shopping&utm_source=chatgpt.com)\n\n---\n\n![Books & Related Bibliophile Stuff\n – Ideal Bookshelf](https://images.openai.com/static-rsc-4/5LFpuMhQSZ1asAfe3ApzrE_qR5_uJkKT_lE--v8Su4vKy5GXkeEFHeo4ycWIQtN3UET24ELWZZZ4omiMiHhKUZnEupsZOkL8g05RKgbJMK6sVj3EtY9jNuO_-GWcyv3vXf4rHITjv4oPjBCEZQlIE-wjKdUK-FSYv67f4lMifg6701ohKFFXEYUZJbydVlz3?purpose=fullsize)\n\n**4\\. Decorative literary bookends**\n\n## \\$60\n\nCharming book-themed decor for their bookshelf or home library.\n\nBarnes &amp; Noble\n\n[Shop bookends](https://shop.barnesandnoble.com/products/9781452173818?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=46472636498161&utm_source=chatgpt.com)\n\n---\n\n![Left](https://images.openai.com/static-rsc-4/D93PoM4cYKhnEgV2duIBNnb7EFi-OLF7w5OG-VG7DtOJ_iaxT6058MrCBxqjZDHG-iTwt1O53bgKCUXZOUbuU4PVnd1e_eVp2ixrRBBXuz4671Bur26AX-3UBv37RaDdHRD9StIkiV-s29pqesDgaYdnfmRWzOfqwO9G1qildrP6ydGiRtfcKGobJTb6lC5M?purpose=fullsize)\n\n**5\\. Avid reader's journal**\n\n(Great sentimental gift)\n\n## \\$24.95\n\nA keepsake journal with room for 105 book reviews and reading lists.\n\nKunitsa Co.\n\n[Shop journal](https://kunitsa.co/products/the-reading-journal-avid-reader?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=40321875148936&utm_source=chatgpt.com)\n\n---\n\n![Gifts for Readers & Writers Flexilight Bookmark Book Light - LED, Batt\n      \n      \n      \n        –\n        Lightsdaddy](https://images.openai.com/static-rsc-4/JVvsxJs_KdewQRa1aY-1Qsqbr9wPypl8gMHtkcPZh17cHmRh-XFoWo5AH7cxM0ri_DYBAHaGDROWxgaCUUQdDVOsNmMilN2fbztvQFhSJB0HyJ7dGyDg_1mu96y94v42RRlWVkKxn8kZJQrYu5tGXdnQO4XpHcmS4sKv2h_rPbVe9mhZ2AxUKbwy_6cnXgnP?purpose=fullsize)\n\n**6\\. Book light bookmark**\n\n## \\$9.49\n\nA clever little combination of bookmark and reading light.\n\nWalmart\n\n[Shop book light](https://www.walmart.com/ip/Flexilight-Reading-Light-2-1-Bookmark-Book-LED-Clip-On-Lamp-Children-Torch-Bed-Accessories-Gift-Idea-Readers-Lovers-Cat/165636166?utm_medium=feed&utm_source=chatgpt.com)\n\n## More thoughtful gift ideas\n\n![Custom Book Embosser,from the Library of Stamp,self Inking,book Lover Gift - Etsy](https://images.openai.com/static-rsc-4/ra9jHm3heXtCOPyc3ZaOmt-WrZKB4KFWBOScJrVDL2HSIZk3-VKT_O3qQfR_lmCVSDbw6zIBsLNIKqZsT1UWDGlIccXB8zfOCfa4p6tcGReocTjjC-GpdFbWf7HgEwpNCksWWGiPuzSRvSqK7HXRmKrEg8Kk5tBGXk12fGJrK2qZlnNIuyAUE4qJhQORyRVn?purpose=fullsize)\n\n**Personalized book embosser**\n\nFor someone who loves owning and collecting books.\n\n![Ancient Library Fantasy Candle - Firelight Fables Candle Co - D&D Candles](https://images.openai.com/static-rsc-4/wVB8RtELwrhvk_3XxuEAQJKEcIGvHZRy7jZ8rg9GVnujY8OST8rxRZQtRfSP9HjBVe8WJACHUKpTK7Sj3BNE4rnYg1kwFo5bJ9ytj19y6ylh2knY4bHPd3pNmd65OhTNbQ1jKqmT_Q6YMmHNnFtJlZ15qi0fc2HR4QCAlvwT4CfUf1-ywYuKJkUDrXch1nsR?purpose=fullsize)\n\n**Library-scented candle**\n\nFor creating a cozy reading atmosphere.\n\n![Book Lover Gift Set | Cozy Blanket, Book Scented Soy Candle & Mug - Etsy Australia](https://images.openai.com/static-rsc-4/1cjyqgAnD5xUSKzFsYqVCXxCNQ56t4zlFIZRZmW2eIldd3r5ei1W3kH-3S4sBagYQ16dt2k3q8hHzd19dUOVy-46AXICbHH2LWDJ1ppu4E-a3rZapbRdkzpVcYm5gB82FyMdP6ie5FF9l9FzXEzkMEPMgNDFxZq0CjOb0W_gLSDshDlmQrHLdKyguF2C50iY?purpose=fullsize)\n\n**Cozy reading gift basket**\n\nBlanket, tea, mug and bookmarks.\n\n![The Verge’s 2023 digital gift guide | The Verge](https://images.openai.com/static-rsc-4/GfRB-1BOD2WHpX0Do2EU2VoSbCabs90VL3kGZvbXBC5DCSLW7ORB_tRYU2mKbEEGj5JRufUvcV9tLoM_-7w5_ois0mHuCD93fY0vchtCJr1FejwPxWvoJSFUouMqwH2I0ZyEMXb-rYVAJxeBc4cZreYVtFHns24tlfXEpOGJXo3CkQcohwf4TVenQePF6Hew?purpose=fullsize)\n\n**Book subscription**\n\nA new reading surprise every month.\n\nThese ideas are also featured in recent gift guides from [NBC Select](https://www.nbcnews.com/select/shopping/best-gifts-for-book-lovers-rcna609989?utm_source=chatgpt.com) and [WIRED](https://www.wired.com/story/gifts-for-book-lovers/?utm_source=chatgpt.com)\\.\n\n## Let me narrow it down\\!\n\nI can find something especially lovely depending on your budget and the person's reading style.\n\n**1\\. What's your budget?**\n\n---\n\n**2\\. What kind of gifts do you prefer?**\n\n---\n\n**3\\. Who is the gift for?**\n\n---\n\n**4\\. What's the occasion?**\n\n[Find my perfect gifts]",
+          "search_results": [
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://abcnews.com/GMA/Shop/reader-book-lovers-gift-guide/story?id=128255383&utm_source=chatgpt.com",
+              "domain": "abcnews.com",
+              "title": "Our 2026 gift guide for book lovers: Kindles, decor, book club picks and more - ABC News",
+              "description": "OUR 2026 GIFT GUIDE FOR BOOK LOVERS: KINDLES, DECOR, BOOK CLUB PICKS AND MORE  Gifts for book lovers 2026  Amazon, Anthropologie, Lola Blankets, Williams Sonoma, Etsy, Papier, Rifle Paper Co.  ByClai...",
+              "breadcrumb": "abcnews.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.nbcnews.com/select/shopping/best-gifts-for-book-lovers-rcna609989?utm_source=chatgpt.com",
+              "domain": "www.nbcnews.com",
+              "title": "The Best Gifts for Book Lovers in 2026 | NBC Selected",
+              "description": "Gift Guide  21 GIFTS FOR BOOK LOVERS THAT GO BEYOND GETTING THEM ANOTHER BOOK  We found functional, bibliophile-inspired items that avid readers will actually want to use.  Nov. 18, 2026, 10:55 AM ES...",
+              "breadcrumb": "nbcnews.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.wired.com/story/gifts-for-book-lovers/?utm_source=chatgpt.com",
+              "domain": "www.wired.com",
+              "title": "The Best Gifts for Book Lovers (2026): E-Readers, Handy Accessories, Book Sets | WIRED",
+              "description": "Nena Farrell  Gear  Sep 30, 2026 7:36 AM  THE BEST GIFTS FOR BOOK LOVERS, ACCORDING TO AN AVID READER  Any one of these gift ideas will make your favorite bookworm very happy, from e-readers and acce...",
+              "breadcrumb": "wired.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.goodmorningamerica.com/news/story/reader-book-lovers-gift-guide-128255383?utm_source=chatgpt.com",
+              "domain": "www.goodmorningamerica.com",
+              "title": "Our 2026 gift guide for book lovers: Kindles, decor, book club picks and more - Good Morning America",
+              "description": "OUR 2026 GIFT GUIDE FOR BOOK LOVERS: KINDLES, DECOR, BOOK CLUB PICKS AND MORE  Gifts for book lovers 2026  Amazon, Anthropologie, Lola Blankets, Williams Sonoma, Etsy, Papier, Rifle Paper Co.  ByClai...",
+              "breadcrumb": "goodmorningamerica.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://video.goodmorningamerica.com/shop/story/reader-book-lovers-gift-guide-128255383?utm_source=chatgpt.com",
+              "domain": "video.goodmorningamerica.com",
+              "title": "Our 2026 gift guide for book lovers: Kindles, decor, book club picks and more - Good Morning America",
+              "description": "OUR 2026 GIFT GUIDE FOR BOOK LOVERS: KINDLES, DECOR, BOOK CLUB PICKS AND MORE  Gifts for book lovers 2026  Amazon, Anthropologie, Lola Blankets, Williams Sonoma, Etsy, Papier, Rifle Paper Co.  ByClai...",
+              "breadcrumb": "goodmorningamerica.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://goodmorningamerica.com/shop/story/reader-book-lovers-gift-guide-128255383?utm_source=chatgpt.com",
+              "domain": "goodmorningamerica.com",
+              "title": "Our 2026 gift guide for book lovers: Personalized accessories, book club picks and more - Good Morning America",
+              "description": "OUR 2026 GIFT GUIDE FOR BOOK LOVERS: PERSONALIZED ACCESSORIES, BOOK CLUB PICKS AND MORE  Gifts for readers 2025  Amazon, Uncommon Goods, Cozy Earth, Papier, Anthropologie, Adobe  ByClaire Peltier  Fe...",
+              "breadcrumb": "goodmorningamerica.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.goodmorningamerica.com/amp/shop/story/reader-book-lovers-gift-guide-128255383?utm_source=chatgpt.com",
+              "domain": "www.goodmorningamerica.com",
+              "title": "Our 2026 gift guide for book lovers: Kindles, decor, book club picks and more | GMA",
+              "description": "October 27, 2026  OUR 2026 GIFT GUIDE FOR BOOK LOVERS: KINDLES, DECOR, BOOK CLUB PICKS AND MORE  Amazon, Anthropologie, Lola Blankets, Williams Sonoma, Etsy, Papier, Rifle Paper Co.  Gifts for book l...",
+              "breadcrumb": "goodmorningamerica.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.hgtv.com/shopping/gift-guides/gifts-for-book-lovers?utm_source=chatgpt.com",
+              "domain": "www.hgtv.com",
+              "title": "The Best Gifts for Book Lovers 2026 | HGTV",
+              "description": "THE BEST READING-THEMED GIFT IDEAS FOR BOOK LOVERS  Check out these thoughtful gift ideas for the avid reader on your list that won't add to their TBR pile.  Price and stock could change after publis...",
+              "breadcrumb": "hgtv.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.reviewed.com/gift-guides/features/gift-ideas-for-book-lovers-2025/?utm_source=chatgpt.com",
+              "domain": "www.reviewed.com",
+              "title": "32 gift ideas for book lovers: Unique gifts for readers 2026 - Reviewed",
+              "description": "32 GIFT IDEAS FOR BOOK LOVERS  From bestselling novels to cozy reading accessories, these are the best gifts for readers.  Image: A pile of books on a blue gift background Credit: Reviewed  Image: De...",
+              "breadcrumb": "reviewed.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.reviewed.com/gift-guides/features/gift-ideas-for-book-lovers-2025?utm_source=chatgpt.com",
+              "domain": "www.reviewed.com",
+              "title": "32 gift ideas for book lovers: Unique gifts for readers 2026 - Reviewed",
+              "description": "32 GIFT IDEAS FOR BOOK LOVERS  From bestselling novels to cozy reading accessories, these are the best gifts for readers.  Image: A pile of books on a blue gift background Credit: Reviewed  Image: De...",
+              "breadcrumb": "reviewed.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://tollbit.rollingstone.com/product-recommendations/gift-guide/best-gifts-for-book-lovers-where-to-shop-1235542163/?utm_source=chatgpt.com",
+              "domain": "tollbit.rollingstone.com",
+              "title": "25+ Gifts for Book Lovers That Are Bound to Impress",
+              "description": "Gift Guide  30+ GIFTS FOR BOOK LOVERS THAT ARE BOUND TO IMPRESS  From literary lamps to library-card charms, purchasing these presents for the bibliophile in your life is long overdue  By  Alexis Miku...",
+              "breadcrumb": "rollingstone.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://abc-news.co.uk/GMA/Shop/reader-book-lovers-gift-guide/story?id=128255383&utm_source=chatgpt.com",
+              "domain": "abc-news.co.uk",
+              "title": "Our 2026 gift guide for book lovers: Kindles, decor, book club picks and more - ABC News",
+              "description": "OUR 2026 GIFT GUIDE FOR BOOK LOVERS: KINDLES, DECOR, BOOK CLUB PICKS AND MORE  Image: Gifts for book lovers 2026  Gifts for book lovers 2026  Amazon, Anthropologie, Lola Blankets, Williams Sonoma, Et...",
+              "breadcrumb": "abc-news.co.uk"
+            }
+          ],
+          "sources": [
+            {
+              "type": "chat_gpt_source",
+              "title": "Shop reading light",
+              "snippet": null,
+              "domain": "www.walmart.com",
+              "url": "https://www.walmart.com/ip/Glocusent-Upgraded-LED-Neck-Reading-Light-Book-Light-Bed-30-min-Timer-3-Colors-Brightness-Adjustable-Rechargeable-Long-Lasting-Perfect-Reading-Knitti/5695560519?utm_medium=feed&utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[Shop reading light](https://www.walmart.com/ip/Glocusent-Upgraded-LED-Neck-Reading-Light-Book-Light-Bed-30-min-Timer-3-Colors-Brightness-Adjustable-Rechargeable-Long-Lasting-Perfect-Reading-Knitti/5695560519?utm_medium=feed&utm_source=chatgpt.com)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Shop reading journal",
+              "snippet": null,
+              "domain": "www.nordstrom.com",
+              "url": "https://www.nordstrom.com/s/nose-in-a-book-reading-journal/8784914?color=light+beige&size=one+size&utm_medium=organic&utm_campaign=genai_shopping&utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[Shop reading journal](https://www.nordstrom.com/s/nose-in-a-book-reading-journal/8784914?color=light+beige&size=one+size&utm_medium=organic&utm_campaign=genai_shopping&utm_source=chatgpt.com)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Shop reading valet",
+              "snippet": null,
+              "domain": "www.nordstrom.com",
+              "url": "https://www.nordstrom.com/s/uncommon-goods-book-nook-reading-valet/9004870?color=brown&size=one+size&utm_medium=organic&utm_campaign=genai_shopping&utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[Shop reading valet](https://www.nordstrom.com/s/uncommon-goods-book-nook-reading-valet/9004870?color=brown&size=one+size&utm_medium=organic&utm_campaign=genai_shopping&utm_source=chatgpt.com)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Shop bookends",
+              "snippet": null,
+              "domain": "shop.barnesandnoble.com",
+              "url": "https://shop.barnesandnoble.com/products/9781452173818?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=46472636498161&utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[Shop bookends](https://shop.barnesandnoble.com/products/9781452173818?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=46472636498161&utm_source=chatgpt.com)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Shop journal",
+              "snippet": null,
+              "domain": "kunitsa.co",
+              "url": "https://kunitsa.co/products/the-reading-journal-avid-reader?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=40321875148936&utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[Shop journal](https://kunitsa.co/products/the-reading-journal-avid-reader?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=40321875148936&utm_source=chatgpt.com)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Shop book light",
+              "snippet": null,
+              "domain": "www.walmart.com",
+              "url": "https://www.walmart.com/ip/Flexilight-Reading-Light-2-1-Bookmark-Book-LED-Clip-On-Lamp-Children-Torch-Bed-Accessories-Gift-Idea-Readers-Lovers-Cat/165636166?utm_medium=feed&utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[Shop book light](https://www.walmart.com/ip/Flexilight-Reading-Light-2-1-Bookmark-Book-LED-Clip-On-Lamp-Children-Torch-Bed-Accessories-Gift-Idea-Readers-Lovers-Cat/165636166?utm_medium=feed&utm_source=chatgpt.com)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "NBC Select",
+              "snippet": null,
+              "domain": "www.nbcnews.com",
+              "url": "https://www.nbcnews.com/select/shopping/best-gifts-for-book-lovers-rcna609989?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[NBC Select](https://www.nbcnews.com/select/shopping/best-gifts-for-book-lovers-rcna609989?utm_source=chatgpt.com)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "WIRED",
+              "snippet": null,
+              "domain": "www.wired.com",
+              "url": "https://www.wired.com/story/gifts-for-book-lovers/?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[WIRED](https://www.wired.com/story/gifts-for-book-lovers/?utm_source=chatgpt.com)"
+            }
+          ],
+          "fan_out_queries": [
+            "best gifts for book lovers 2026 gift guide readers book accessories"
+          ],
+          "brand_entities": null,
+          "se_results_count": 0,
+          "item_types": [
+            "chat_gpt_text",
+            "chat_gpt_images",
+            "chat_gpt_products"
+          ],
+          "items_count": 23,
+          "items": [
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "markdown": "If you're shopping for a book lover, I'd look for something that makes their reading experience more special rather than simply buying them another book. 📚\n\nI found some lovely ideas for 2026, ranging from inexpensive stocking stuffers to more memorable gifts.\n\n## Best gifts for book lovers\n\n",
+              "sources": null,
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "markdown": "![Glocusent 1600mAh Long Lasting Rechargeable Ergonomic LED Book Lamp Neck Reading Light - Neck Reading Light and Book Light](https://images.openai.com/static-rsc-4/3xOoyrNi2p3E1XabLPXaCAGCpC9qhaAJHTtVY5DugbI2A5i0-vaOlc0vOgLOp_cBcusruj_vwowel0WYQeKz7t5YuEoUwmFa2PvEwZ0f8_8OFS2ggyeNcuYboERIkIYzzJL7PwL7Rti5eV2xJIzMksaqjVwbFn-pmo0VBRNsELFvZRYyNiqwTBr7nU0cEs2m?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://m.made-in-china.com/product/Glocusent-1600mAh-Long-Lasting-Rechargeable-Ergonomic-LED-Book-Lamp-Neck-Reading-Light-2215322125.html",
+                  "alt": "Glocusent 1600mAh Long Lasting Rechargeable Ergonomic LED Book Lamp Neck Reading Light - Neck Reading Light and Book Light",
+                  "image_url": "https://images.openai.com/static-rsc-4/3xOoyrNi2p3E1XabLPXaCAGCpC9qhaAJHTtVY5DugbI2A5i0-vaOlc0vOgLOp_cBcusruj_vwowel0WYQeKz7t5YuEoUwmFa2PvEwZ0f8_8OFS2ggyeNcuYboERIkIYzzJL7PwL7Rti5eV2xJIzMksaqjVwbFn-pmo0VBRNsELFvZRYyNiqwTBr7nU0cEs2m?purpose=fullsize",
+                  "markdown": "![Glocusent 1600mAh Long Lasting Rechargeable Ergonomic LED Book Lamp Neck Reading Light - Neck Reading Light and Book Light](https://images.openai.com/static-rsc-4/3xOoyrNi2p3E1XabLPXaCAGCpC9qhaAJHTtVY5DugbI2A5i0-vaOlc0vOgLOp_cBcusruj_vwowel0WYQeKz7t5YuEoUwmFa2PvEwZ0f8_8OFS2ggyeNcuYboERIkIYzzJL7PwL7Rti5eV2xJIzMksaqjVwbFn-pmo0VBRNsELFvZRYyNiqwTBr7nU0cEs2m?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "markdown": "\n\n**1\\. Hands-free reading light**\n\n(Practical favorite)\n\n## \\$19.98\n\nA rechargeable neck light for reading in bed without disturbing anyone.\n\nGlocusent · Walmart\n\n[Shop reading light](https://www.walmart.com/ip/Glocusent-Upgraded-LED-Neck-Reading-Light-Book-Light-Bed-30-min-Timer-3-Colors-Brightness-Adjustable-Rechargeable-Long-Lasting-Perfect-Reading-Knitti/5695560519?utm_medium=feed&utm_source=chatgpt.com)\n\n---\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Shop reading light",
+                  "snippet": null,
+                  "domain": "www.walmart.com",
+                  "url": "https://www.walmart.com/ip/Glocusent-Upgraded-LED-Neck-Reading-Light-Book-Light-Bed-30-min-Timer-3-Colors-Brightness-Adjustable-Rechargeable-Long-Lasting-Perfect-Reading-Knitti/5695560519?utm_medium=feed&utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[Shop reading light](https://www.walmart.com/ip/Glocusent-Upgraded-LED-Neck-Reading-Light-Book-Light-Bed-30-min-Timer-3-Colors-Brightness-Adjustable-Rechargeable-Long-Lasting-Perfect-Reading-Knitti/5695560519?utm_medium=feed&utm_source=chatgpt.com)"
+                }
+              ],
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "markdown": "![Papier A5 Nose In a Book Guided Reading Journal\n– Good Postage](https://images.openai.com/static-rsc-4/VJH9Rf_TWVIUujbzs4hIG-IlnHITy47WKfgyQpbzyDu2msG2hIVpjF769xRZmY_XfsylZ1C_FlsUDZQKSJbsGH7CiV41HRF_4baoh1R5xCuVdTqq13hdXsLQ6C4K0ur4Fnd7ykN3c9N0P7rC9AgtMPcycODFVuZhp9aqZVK45zgWOG8orH49Zgikes3N3iOt?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.goodpostage.com/products/papier-guided-reading-journal-a5-hardcover-nose-in-a-book",
+                  "alt": "Papier A5 Nose In a Book Guided Reading Journal\n– Good Postage",
+                  "image_url": "https://images.openai.com/static-rsc-4/VJH9Rf_TWVIUujbzs4hIG-IlnHITy47WKfgyQpbzyDu2msG2hIVpjF769xRZmY_XfsylZ1C_FlsUDZQKSJbsGH7CiV41HRF_4baoh1R5xCuVdTqq13hdXsLQ6C4K0ur4Fnd7ykN3c9N0P7rC9AgtMPcycODFVuZhp9aqZVK45zgWOG8orH49Zgikes3N3iOt?purpose=fullsize",
+                  "markdown": "![Papier A5 Nose In a Book Guided Reading Journal\n– Good Postage](https://images.openai.com/static-rsc-4/VJH9Rf_TWVIUujbzs4hIG-IlnHITy47WKfgyQpbzyDu2msG2hIVpjF769xRZmY_XfsylZ1C_FlsUDZQKSJbsGH7CiV41HRF_4baoh1R5xCuVdTqq13hdXsLQ6C4K0ur4Fnd7ykN3c9N0P7rC9AgtMPcycODFVuZhp9aqZVK45zgWOG8orH49Zgikes3N3iOt?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 3,
+              "rank_absolute": 5,
+              "markdown": "\n\n**2\\. Beautiful reading journal**\n\n## \\$32\n\nTrack books read, favorite stories, reviews and books to read next.\n\nPapier · Nordstrom\n\n[Shop reading journal](https://www.nordstrom.com/s/nose-in-a-book-reading-journal/8784914?color=light+beige&size=one+size&utm_medium=organic&utm_campaign=genai_shopping&utm_source=chatgpt.com)\n\n---\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Shop reading journal",
+                  "snippet": null,
+                  "domain": "www.nordstrom.com",
+                  "url": "https://www.nordstrom.com/s/nose-in-a-book-reading-journal/8784914?color=light+beige&size=one+size&utm_medium=organic&utm_campaign=genai_shopping&utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[Shop reading journal](https://www.nordstrom.com/s/nose-in-a-book-reading-journal/8784914?color=light+beige&size=one+size&utm_medium=organic&utm_campaign=genai_shopping&utm_source=chatgpt.com)"
+                }
+              ],
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 3,
+              "rank_absolute": 6,
+              "markdown": "![Uncommon Goods | Book Nook&#8482; Reading Valet | Book Nook | 4.9-Star Rated](https://images.openai.com/static-rsc-4/3bnwM0siTS_f350P_LxFnOyaOPUYgMceV1hNryTtpJraEMrXkQ2G9BfcEMzG_figeKi2VMiU_Z0oJOYFeI_KdSiyLmAXL6uaPqieMKFiJXaitMFjbwbjOHpfp86NuaYuHtFzAxEfcbZrPxiXoaMdofea6dX8YCMw0NT6TW5fC8lHW1oy92iS4aji4pddUfSf?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.uncommongoods.com/product/book-nook-reading-valet",
+                  "alt": "Uncommon Goods | Book Nook&#8482; Reading Valet | Book Nook | 4.9-Star Rated",
+                  "image_url": "https://images.openai.com/static-rsc-4/3bnwM0siTS_f350P_LxFnOyaOPUYgMceV1hNryTtpJraEMrXkQ2G9BfcEMzG_figeKi2VMiU_Z0oJOYFeI_KdSiyLmAXL6uaPqieMKFiJXaitMFjbwbjOHpfp86NuaYuHtFzAxEfcbZrPxiXoaMdofea6dX8YCMw0NT6TW5fC8lHW1oy92iS4aji4pddUfSf?purpose=fullsize",
+                  "markdown": "![Uncommon Goods | Book Nook&#8482; Reading Valet | Book Nook | 4.9-Star Rated](https://images.openai.com/static-rsc-4/3bnwM0siTS_f350P_LxFnOyaOPUYgMceV1hNryTtpJraEMrXkQ2G9BfcEMzG_figeKi2VMiU_Z0oJOYFeI_KdSiyLmAXL6uaPqieMKFiJXaitMFjbwbjOHpfp86NuaYuHtFzAxEfcbZrPxiXoaMdofea6dX8YCMw0NT6TW5fC8lHW1oy92iS4aji4pddUfSf?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "markdown": "\n\n**3\\. Book nook reading valet**\n\n## \\$50\n\nA beautiful bedside organizer for a book, glasses, phone and drink.\n\nUncommon Goods · Nordstrom\n\n[Shop reading valet](https://www.nordstrom.com/s/uncommon-goods-book-nook-reading-valet/9004870?color=brown&size=one+size&utm_medium=organic&utm_campaign=genai_shopping&utm_source=chatgpt.com)\n\n---\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Shop reading valet",
+                  "snippet": null,
+                  "domain": "www.nordstrom.com",
+                  "url": "https://www.nordstrom.com/s/uncommon-goods-book-nook-reading-valet/9004870?color=brown&size=one+size&utm_medium=organic&utm_campaign=genai_shopping&utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[Shop reading valet](https://www.nordstrom.com/s/uncommon-goods-book-nook-reading-valet/9004870?color=brown&size=one+size&utm_medium=organic&utm_campaign=genai_shopping&utm_source=chatgpt.com)"
+                }
+              ],
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 4,
+              "rank_absolute": 8,
+              "markdown": "![Books & Related Bibliophile Stuff\n – Ideal Bookshelf](https://images.openai.com/static-rsc-4/5LFpuMhQSZ1asAfe3ApzrE_qR5_uJkKT_lE--v8Su4vKy5GXkeEFHeo4ycWIQtN3UET24ELWZZZ4omiMiHhKUZnEupsZOkL8g05RKgbJMK6sVj3EtY9jNuO_-GWcyv3vXf4rHITjv4oPjBCEZQlIE-wjKdUK-FSYv67f4lMifg6701ohKFFXEYUZJbydVlz3?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.idealbookshelf.com/collections/books",
+                  "alt": "Books & Related Bibliophile Stuff\n – Ideal Bookshelf",
+                  "image_url": "https://images.openai.com/static-rsc-4/5LFpuMhQSZ1asAfe3ApzrE_qR5_uJkKT_lE--v8Su4vKy5GXkeEFHeo4ycWIQtN3UET24ELWZZZ4omiMiHhKUZnEupsZOkL8g05RKgbJMK6sVj3EtY9jNuO_-GWcyv3vXf4rHITjv4oPjBCEZQlIE-wjKdUK-FSYv67f4lMifg6701ohKFFXEYUZJbydVlz3?purpose=fullsize",
+                  "markdown": "![Books & Related Bibliophile Stuff\n – Ideal Bookshelf](https://images.openai.com/static-rsc-4/5LFpuMhQSZ1asAfe3ApzrE_qR5_uJkKT_lE--v8Su4vKy5GXkeEFHeo4ycWIQtN3UET24ELWZZZ4omiMiHhKUZnEupsZOkL8g05RKgbJMK6sVj3EtY9jNuO_-GWcyv3vXf4rHITjv4oPjBCEZQlIE-wjKdUK-FSYv67f4lMifg6701ohKFFXEYUZJbydVlz3?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 5,
+              "rank_absolute": 9,
+              "markdown": "\n\n**4\\. Decorative literary bookends**\n\n## \\$60\n\nCharming book-themed decor for their bookshelf or home library.\n\nBarnes &amp; Noble\n\n[Shop bookends](https://shop.barnesandnoble.com/products/9781452173818?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=46472636498161&utm_source=chatgpt.com)\n\n---\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Shop bookends",
+                  "snippet": null,
+                  "domain": "shop.barnesandnoble.com",
+                  "url": "https://shop.barnesandnoble.com/products/9781452173818?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=46472636498161&utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[Shop bookends](https://shop.barnesandnoble.com/products/9781452173818?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=46472636498161&utm_source=chatgpt.com)"
+                }
+              ],
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 5,
+              "rank_absolute": 10,
+              "markdown": "![Left](https://images.openai.com/static-rsc-4/D93PoM4cYKhnEgV2duIBNnb7EFi-OLF7w5OG-VG7DtOJ_iaxT6058MrCBxqjZDHG-iTwt1O53bgKCUXZOUbuU4PVnd1e_eVp2ixrRBBXuz4671Bur26AX-3UBv37RaDdHRD9StIkiV-s29pqesDgaYdnfmRWzOfqwO9G1qildrP6ydGiRtfcKGobJTb6lC5M?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://kunitsa.co/products/reading-journal-original",
+                  "alt": "Left",
+                  "image_url": "https://images.openai.com/static-rsc-4/D93PoM4cYKhnEgV2duIBNnb7EFi-OLF7w5OG-VG7DtOJ_iaxT6058MrCBxqjZDHG-iTwt1O53bgKCUXZOUbuU4PVnd1e_eVp2ixrRBBXuz4671Bur26AX-3UBv37RaDdHRD9StIkiV-s29pqesDgaYdnfmRWzOfqwO9G1qildrP6ydGiRtfcKGobJTb6lC5M?purpose=fullsize",
+                  "markdown": "![Left](https://images.openai.com/static-rsc-4/D93PoM4cYKhnEgV2duIBNnb7EFi-OLF7w5OG-VG7DtOJ_iaxT6058MrCBxqjZDHG-iTwt1O53bgKCUXZOUbuU4PVnd1e_eVp2ixrRBBXuz4671Bur26AX-3UBv37RaDdHRD9StIkiV-s29pqesDgaYdnfmRWzOfqwO9G1qildrP6ydGiRtfcKGobJTb6lC5M?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 6,
+              "rank_absolute": 11,
+              "markdown": "\n\n**5\\. Avid reader's journal**\n\n(Great sentimental gift)\n\n## \\$24.95\n\nA keepsake journal with room for 105 book reviews and reading lists.\n\nKunitsa Co.\n\n[Shop journal](https://kunitsa.co/products/the-reading-journal-avid-reader?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=40321875148936&utm_source=chatgpt.com)\n\n---\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Shop journal",
+                  "snippet": null,
+                  "domain": "kunitsa.co",
+                  "url": "https://kunitsa.co/products/the-reading-journal-avid-reader?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=40321875148936&utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[Shop journal](https://kunitsa.co/products/the-reading-journal-avid-reader?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=40321875148936&utm_source=chatgpt.com)"
+                }
+              ],
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 6,
+              "rank_absolute": 12,
+              "markdown": "![Gifts for Readers & Writers Flexilight Bookmark Book Light - LED, Batt\n      \n      \n      \n        –\n        Lightsdaddy](https://images.openai.com/static-rsc-4/JVvsxJs_KdewQRa1aY-1Qsqbr9wPypl8gMHtkcPZh17cHmRh-XFoWo5AH7cxM0ri_DYBAHaGDROWxgaCUUQdDVOsNmMilN2fbztvQFhSJB0HyJ7dGyDg_1mu96y94v42RRlWVkKxn8kZJQrYu5tGXdnQO4XpHcmS4sKv2h_rPbVe9mhZ2AxUKbwy_6cnXgnP?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://lightsdaddy.com/products/gifts-for-readers-writers-flexilight-bookmark-book-light-led-battery-operated-pink-flowers-model-2",
+                  "alt": "Gifts for Readers & Writers Flexilight Bookmark Book Light - LED, Batt\n      \n      \n      \n        –\n        Lightsdaddy",
+                  "image_url": "https://images.openai.com/static-rsc-4/JVvsxJs_KdewQRa1aY-1Qsqbr9wPypl8gMHtkcPZh17cHmRh-XFoWo5AH7cxM0ri_DYBAHaGDROWxgaCUUQdDVOsNmMilN2fbztvQFhSJB0HyJ7dGyDg_1mu96y94v42RRlWVkKxn8kZJQrYu5tGXdnQO4XpHcmS4sKv2h_rPbVe9mhZ2AxUKbwy_6cnXgnP?purpose=fullsize",
+                  "markdown": "![Gifts for Readers & Writers Flexilight Bookmark Book Light - LED, Batt\n      \n      \n      \n        –\n        Lightsdaddy](https://images.openai.com/static-rsc-4/JVvsxJs_KdewQRa1aY-1Qsqbr9wPypl8gMHtkcPZh17cHmRh-XFoWo5AH7cxM0ri_DYBAHaGDROWxgaCUUQdDVOsNmMilN2fbztvQFhSJB0HyJ7dGyDg_1mu96y94v42RRlWVkKxn8kZJQrYu5tGXdnQO4XpHcmS4sKv2h_rPbVe9mhZ2AxUKbwy_6cnXgnP?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 7,
+              "rank_absolute": 13,
+              "markdown": "\n\n**6\\. Book light bookmark**\n\n## \\$9.49\n\nA clever little combination of bookmark and reading light.\n\nWalmart\n\n[Shop book light](https://www.walmart.com/ip/Flexilight-Reading-Light-2-1-Bookmark-Book-LED-Clip-On-Lamp-Children-Torch-Bed-Accessories-Gift-Idea-Readers-Lovers-Cat/165636166?utm_medium=feed&utm_source=chatgpt.com)\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Shop book light",
+                  "snippet": null,
+                  "domain": "www.walmart.com",
+                  "url": "https://www.walmart.com/ip/Flexilight-Reading-Light-2-1-Bookmark-Book-LED-Clip-On-Lamp-Children-Torch-Bed-Accessories-Gift-Idea-Readers-Lovers-Cat/165636166?utm_medium=feed&utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[Shop book light](https://www.walmart.com/ip/Flexilight-Reading-Light-2-1-Bookmark-Book-LED-Clip-On-Lamp-Children-Torch-Bed-Accessories-Gift-Idea-Readers-Lovers-Cat/165636166?utm_medium=feed&utm_source=chatgpt.com)"
+                }
+              ],
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_products",
+              "rank_group": 1,
+              "rank_absolute": 14,
+              "items": [
+                {
+                  "type": "chat_gpt_products_element",
+                  "product_id": null,
+                  "merchants": null,
+                  "id_to_token_map": null,
+                  "title": "Hands-free reading light",
+                  "rating": null,
+                  "price": 19.98,
+                  "currency": "USD",
+                  "tag": "Practical favorite",
+                  "url": "https://www.walmart.com/ip/Glocusent-Upgraded-LED-Neck-Reading-Light-Book-Light-Bed-30-min-Timer-3-Colors-Brightness-Adjustable-Rechargeable-Long-Lasting-Perfect-Reading-Knitti/5695560519?utm_medium=feed&utm_source=chatgpt.com",
+                  "domain": "www.walmart.com",
+                  "images": [
+                    "https://images.openai.com/static-rsc-4/3xOoyrNi2p3E1XabLPXaCAGCpC9qhaAJHTtVY5DugbI2A5i0-vaOlc0vOgLOp_cBcusruj_vwowel0WYQeKz7t5YuEoUwmFa2PvEwZ0f8_8OFS2ggyeNcuYboERIkIYzzJL7PwL7Rti5eV2xJIzMksaqjVwbFn-pmo0VBRNsELFvZRYyNiqwTBr7nU0cEs2m?purpose=fullsize"
+                  ],
+                  "product_ids": null
+                },
+                {
+                  "type": "chat_gpt_products_element",
+                  "product_id": null,
+                  "merchants": null,
+                  "id_to_token_map": null,
+                  "title": "Beautiful reading journal",
+                  "rating": null,
+                  "price": 32,
+                  "currency": "USD",
+                  "tag": null,
+                  "url": "https://www.nordstrom.com/s/nose-in-a-book-reading-journal/8784914?color=light+beige&size=one+size&utm_medium=organic&utm_campaign=genai_shopping&utm_source=chatgpt.com",
+                  "domain": "www.nordstrom.com",
+                  "images": [
+                    "https://images.openai.com/static-rsc-4/VJH9Rf_TWVIUujbzs4hIG-IlnHITy47WKfgyQpbzyDu2msG2hIVpjF769xRZmY_XfsylZ1C_FlsUDZQKSJbsGH7CiV41HRF_4baoh1R5xCuVdTqq13hdXsLQ6C4K0ur4Fnd7ykN3c9N0P7rC9AgtMPcycODFVuZhp9aqZVK45zgWOG8orH49Zgikes3N3iOt?purpose=fullsize"
+                  ],
+                  "product_ids": null
+                },
+                {
+                  "type": "chat_gpt_products_element",
+                  "product_id": null,
+                  "merchants": null,
+                  "id_to_token_map": null,
+                  "title": "Book nook reading valet",
+                  "rating": null,
+                  "price": 50,
+                  "currency": "USD",
+                  "tag": null,
+                  "url": "https://www.nordstrom.com/s/uncommon-goods-book-nook-reading-valet/9004870?color=brown&size=one+size&utm_medium=organic&utm_campaign=genai_shopping&utm_source=chatgpt.com",
+                  "domain": "www.nordstrom.com",
+                  "images": [
+                    "https://images.openai.com/static-rsc-4/3bnwM0siTS_f350P_LxFnOyaOPUYgMceV1hNryTtpJraEMrXkQ2G9BfcEMzG_figeKi2VMiU_Z0oJOYFeI_KdSiyLmAXL6uaPqieMKFiJXaitMFjbwbjOHpfp86NuaYuHtFzAxEfcbZrPxiXoaMdofea6dX8YCMw0NT6TW5fC8lHW1oy92iS4aji4pddUfSf?purpose=fullsize"
+                  ],
+                  "product_ids": null
+                },
+                {
+                  "type": "chat_gpt_products_element",
+                  "product_id": null,
+                  "merchants": null,
+                  "id_to_token_map": null,
+                  "title": "Decorative literary bookends",
+                  "rating": null,
+                  "price": 60,
+                  "currency": "USD",
+                  "tag": null,
+                  "url": "https://shop.barnesandnoble.com/products/9781452173818?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=46472636498161&utm_source=chatgpt.com",
+                  "domain": "shop.barnesandnoble.com",
+                  "images": [
+                    "https://images.openai.com/static-rsc-4/5LFpuMhQSZ1asAfe3ApzrE_qR5_uJkKT_lE--v8Su4vKy5GXkeEFHeo4ycWIQtN3UET24ELWZZZ4omiMiHhKUZnEupsZOkL8g05RKgbJMK6sVj3EtY9jNuO_-GWcyv3vXf4rHITjv4oPjBCEZQlIE-wjKdUK-FSYv67f4lMifg6701ohKFFXEYUZJbydVlz3?purpose=fullsize"
+                  ],
+                  "product_ids": null
+                },
+                {
+                  "type": "chat_gpt_products_element",
+                  "product_id": null,
+                  "merchants": null,
+                  "id_to_token_map": null,
+                  "title": "Avid reader's journal",
+                  "rating": null,
+                  "price": 24.95,
+                  "currency": "USD",
+                  "tag": "Great sentimental gift",
+                  "url": "https://kunitsa.co/products/the-reading-journal-avid-reader?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=40321875148936&utm_source=chatgpt.com",
+                  "domain": "kunitsa.co",
+                  "images": [
+                    "https://images.openai.com/static-rsc-4/D93PoM4cYKhnEgV2duIBNnb7EFi-OLF7w5OG-VG7DtOJ_iaxT6058MrCBxqjZDHG-iTwt1O53bgKCUXZOUbuU4PVnd1e_eVp2ixrRBBXuz4671Bur26AX-3UBv37RaDdHRD9StIkiV-s29pqesDgaYdnfmRWzOfqwO9G1qildrP6ydGiRtfcKGobJTb6lC5M?purpose=fullsize"
+                  ],
+                  "product_ids": null
+                },
+                {
+                  "type": "chat_gpt_products_element",
+                  "product_id": null,
+                  "merchants": null,
+                  "id_to_token_map": null,
+                  "title": "Book light bookmark",
+                  "rating": null,
+                  "price": 9.49,
+                  "currency": "USD",
+                  "tag": null,
+                  "url": "https://www.walmart.com/ip/Flexilight-Reading-Light-2-1-Bookmark-Book-LED-Clip-On-Lamp-Children-Torch-Bed-Accessories-Gift-Idea-Readers-Lovers-Cat/165636166?utm_medium=feed&utm_source=chatgpt.com",
+                  "domain": "www.walmart.com",
+                  "images": [
+                    "https://images.openai.com/static-rsc-4/JVvsxJs_KdewQRa1aY-1Qsqbr9wPypl8gMHtkcPZh17cHmRh-XFoWo5AH7cxM0ri_DYBAHaGDROWxgaCUUQdDVOsNmMilN2fbztvQFhSJB0HyJ7dGyDg_1mu96y94v42RRlWVkKxn8kZJQrYu5tGXdnQO4XpHcmS4sKv2h_rPbVe9mhZ2AxUKbwy_6cnXgnP?purpose=fullsize"
+                  ],
+                  "product_ids": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 8,
+              "rank_absolute": 15,
+              "markdown": "## More thoughtful gift ideas\n\n",
+              "sources": null,
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 7,
+              "rank_absolute": 16,
+              "markdown": "![Custom Book Embosser,from the Library of Stamp,self Inking,book Lover Gift - Etsy](https://images.openai.com/static-rsc-4/ra9jHm3heXtCOPyc3ZaOmt-WrZKB4KFWBOScJrVDL2HSIZk3-VKT_O3qQfR_lmCVSDbw6zIBsLNIKqZsT1UWDGlIccXB8zfOCfa4p6tcGReocTjjC-GpdFbWf7HgEwpNCksWWGiPuzSRvSqK7HXRmKrEg8Kk5tBGXk12fGJrK2qZlnNIuyAUE4qJhQORyRVn?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.etsy.com/listing/4372390864/custom-book-embosserfrom-the-library-of",
+                  "alt": "Custom Book Embosser,from the Library of Stamp,self Inking,book Lover Gift - Etsy",
+                  "image_url": "https://images.openai.com/static-rsc-4/ra9jHm3heXtCOPyc3ZaOmt-WrZKB4KFWBOScJrVDL2HSIZk3-VKT_O3qQfR_lmCVSDbw6zIBsLNIKqZsT1UWDGlIccXB8zfOCfa4p6tcGReocTjjC-GpdFbWf7HgEwpNCksWWGiPuzSRvSqK7HXRmKrEg8Kk5tBGXk12fGJrK2qZlnNIuyAUE4qJhQORyRVn?purpose=fullsize",
+                  "markdown": "![Custom Book Embosser,from the Library of Stamp,self Inking,book Lover Gift - Etsy](https://images.openai.com/static-rsc-4/ra9jHm3heXtCOPyc3ZaOmt-WrZKB4KFWBOScJrVDL2HSIZk3-VKT_O3qQfR_lmCVSDbw6zIBsLNIKqZsT1UWDGlIccXB8zfOCfa4p6tcGReocTjjC-GpdFbWf7HgEwpNCksWWGiPuzSRvSqK7HXRmKrEg8Kk5tBGXk12fGJrK2qZlnNIuyAUE4qJhQORyRVn?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 9,
+              "rank_absolute": 17,
+              "markdown": "\n\n**Personalized book embosser**\n\nFor someone who loves owning and collecting books.\n\n",
+              "sources": null,
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 8,
+              "rank_absolute": 18,
+              "markdown": "![Ancient Library Fantasy Candle - Firelight Fables Candle Co - D&D Candles](https://images.openai.com/static-rsc-4/wVB8RtELwrhvk_3XxuEAQJKEcIGvHZRy7jZ8rg9GVnujY8OST8rxRZQtRfSP9HjBVe8WJACHUKpTK7Sj3BNE4rnYg1kwFo5bJ9ytj19y6ylh2knY4bHPd3pNmd65OhTNbQ1jKqmT_Q6YMmHNnFtJlZ15qi0fc2HR4QCAlvwT4CfUf1-ywYuKJkUDrXch1nsR?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.firelightfables.com/product-page/ancient-library",
+                  "alt": "Ancient Library Fantasy Candle - Firelight Fables Candle Co - D&D Candles",
+                  "image_url": "https://images.openai.com/static-rsc-4/wVB8RtELwrhvk_3XxuEAQJKEcIGvHZRy7jZ8rg9GVnujY8OST8rxRZQtRfSP9HjBVe8WJACHUKpTK7Sj3BNE4rnYg1kwFo5bJ9ytj19y6ylh2knY4bHPd3pNmd65OhTNbQ1jKqmT_Q6YMmHNnFtJlZ15qi0fc2HR4QCAlvwT4CfUf1-ywYuKJkUDrXch1nsR?purpose=fullsize",
+                  "markdown": "![Ancient Library Fantasy Candle - Firelight Fables Candle Co - D&D Candles](https://images.openai.com/static-rsc-4/wVB8RtELwrhvk_3XxuEAQJKEcIGvHZRy7jZ8rg9GVnujY8OST8rxRZQtRfSP9HjBVe8WJACHUKpTK7Sj3BNE4rnYg1kwFo5bJ9ytj19y6ylh2knY4bHPd3pNmd65OhTNbQ1jKqmT_Q6YMmHNnFtJlZ15qi0fc2HR4QCAlvwT4CfUf1-ywYuKJkUDrXch1nsR?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 10,
+              "rank_absolute": 19,
+              "markdown": "\n\n**Library-scented candle**\n\nFor creating a cozy reading atmosphere.\n\n",
+              "sources": null,
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 9,
+              "rank_absolute": 20,
+              "markdown": "![Book Lover Gift Set | Cozy Blanket, Book Scented Soy Candle & Mug - Etsy Australia](https://images.openai.com/static-rsc-4/1cjyqgAnD5xUSKzFsYqVCXxCNQ56t4zlFIZRZmW2eIldd3r5ei1W3kH-3S4sBagYQ16dt2k3q8hHzd19dUOVy-46AXICbHH2LWDJ1ppu4E-a3rZapbRdkzpVcYm5gB82FyMdP6ie5FF9l9FzXEzkMEPMgNDFxZq0CjOb0W_gLSDshDlmQrHLdKyguF2C50iY?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.etsy.com/nz/listing/4407277308/book-lover-gift-set-cozy-blanket-book",
+                  "alt": "Book Lover Gift Set | Cozy Blanket, Book Scented Soy Candle & Mug - Etsy Australia",
+                  "image_url": "https://images.openai.com/static-rsc-4/1cjyqgAnD5xUSKzFsYqVCXxCNQ56t4zlFIZRZmW2eIldd3r5ei1W3kH-3S4sBagYQ16dt2k3q8hHzd19dUOVy-46AXICbHH2LWDJ1ppu4E-a3rZapbRdkzpVcYm5gB82FyMdP6ie5FF9l9FzXEzkMEPMgNDFxZq0CjOb0W_gLSDshDlmQrHLdKyguF2C50iY?purpose=fullsize",
+                  "markdown": "![Book Lover Gift Set | Cozy Blanket, Book Scented Soy Candle & Mug - Etsy Australia](https://images.openai.com/static-rsc-4/1cjyqgAnD5xUSKzFsYqVCXxCNQ56t4zlFIZRZmW2eIldd3r5ei1W3kH-3S4sBagYQ16dt2k3q8hHzd19dUOVy-46AXICbHH2LWDJ1ppu4E-a3rZapbRdkzpVcYm5gB82FyMdP6ie5FF9l9FzXEzkMEPMgNDFxZq0CjOb0W_gLSDshDlmQrHLdKyguF2C50iY?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 11,
+              "rank_absolute": 21,
+              "markdown": "\n\n**Cozy reading gift basket**\n\nBlanket, tea, mug and bookmarks.\n\n",
+              "sources": null,
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 10,
+              "rank_absolute": 22,
+              "markdown": "![The Verge’s 2023 digital gift guide | The Verge](https://images.openai.com/static-rsc-4/GfRB-1BOD2WHpX0Do2EU2VoSbCabs90VL3kGZvbXBC5DCSLW7ORB_tRYU2mKbEEGj5JRufUvcV9tLoM_-7w5_ois0mHuCD93fY0vchtCJr1FejwPxWvoJSFUouMqwH2I0ZyEMXb-rYVAJxeBc4cZreYVtFHns24tlfXEpOGJXo3CkQcohwf4TVenQePF6Hew?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.theverge.com/23958480/digital-gift-ideas-2023-last-minute-subscriptions-unique-memberships-boxes",
+                  "alt": "The Verge’s 2023 digital gift guide | The Verge",
+                  "image_url": "https://images.openai.com/static-rsc-4/GfRB-1BOD2WHpX0Do2EU2VoSbCabs90VL3kGZvbXBC5DCSLW7ORB_tRYU2mKbEEGj5JRufUvcV9tLoM_-7w5_ois0mHuCD93fY0vchtCJr1FejwPxWvoJSFUouMqwH2I0ZyEMXb-rYVAJxeBc4cZreYVtFHns24tlfXEpOGJXo3CkQcohwf4TVenQePF6Hew?purpose=fullsize",
+                  "markdown": "![The Verge’s 2023 digital gift guide | The Verge](https://images.openai.com/static-rsc-4/GfRB-1BOD2WHpX0Do2EU2VoSbCabs90VL3kGZvbXBC5DCSLW7ORB_tRYU2mKbEEGj5JRufUvcV9tLoM_-7w5_ois0mHuCD93fY0vchtCJr1FejwPxWvoJSFUouMqwH2I0ZyEMXb-rYVAJxeBc4cZreYVtFHns24tlfXEpOGJXo3CkQcohwf4TVenQePF6Hew?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 12,
+              "rank_absolute": 23,
+              "markdown": "\n\n**Book subscription**\n\nA new reading surprise every month.\n\nThese ideas are also featured in recent gift guides from [NBC Select](https://www.nbcnews.com/select/shopping/best-gifts-for-book-lovers-rcna609989?utm_source=chatgpt.com) and [WIRED](https://www.wired.com/story/gifts-for-book-lovers/?utm_source=chatgpt.com)\\.\n\n## Let me narrow it down\\!\n\nI can find something especially lovely depending on your budget and the person's reading style.\n\n**1\\. What's your budget?**\n\n---\n\n**2\\. What kind of gifts do you prefer?**\n\n---\n\n**3\\. Who is the gift for?**\n\n---\n\n**4\\. What's the occasion?**\n\n[Find my perfect gifts]",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "NBC Select",
+                  "snippet": null,
+                  "domain": "www.nbcnews.com",
+                  "url": "https://www.nbcnews.com/select/shopping/best-gifts-for-book-lovers-rcna609989?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[NBC Select](https://www.nbcnews.com/select/shopping/best-gifts-for-book-lovers-rcna609989?utm_source=chatgpt.com)"
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "WIRED",
+                  "snippet": null,
+                  "domain": "www.wired.com",
+                  "url": "https://www.wired.com/story/gifts-for-book-lovers/?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[WIRED](https://www.wired.com/story/gifts-for-book-lovers/?utm_source=chatgpt.com)"
+                }
+              ],
+              "brand_entities": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_note": "ChatGPT LLM Scraper, query \"gifts for a book lover\", force_web_search true, US/en. Run 4 of 5 back to back (about 25 s apart). Bauman Rare Books is not cited in any of the 5 runs; the cited sources change almost completely between runs. Captured 2026-11-18 with DataForSEO Live, saved complete and unmodified (see D-039)."
+}

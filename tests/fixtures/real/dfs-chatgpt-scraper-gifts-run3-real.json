@@ -1,0 +1,888 @@
+{
+  "version": "0.1.20261117",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "27.7281 sec.",
+  "cost": 0.004,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "11181850-2831-0629-0000-653a8a332799",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "27.2958 sec.",
+      "cost": 0.004,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "chat_gpt",
+        "llm_scraper",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "live",
+        "se": "chat_gpt",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "gifts for a book lover",
+        "force_web_search": true,
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "gifts for a book lover",
+          "location_code": 2840,
+          "language_code": "en",
+          "model": "gpt-6",
+          "check_url": "https://chatgpt.com/?prompt=gifts%20for%20a%20book%20lover&hints=search",
+          "datetime": "2026-11-18 18:50:50 +00:00",
+          "markdown": "If you're shopping for a book lover, I'd look for something that makes their reading experience more special rather than simply buying another book. Here are some lovely ideas for 2026, from affordable little gifts to more memorable presents. 📚\n\n## My favorite gift ideas\n\n![Papier Midnight Hour Reading Journal, Multi](https://images.openai.com/static-rsc-4/DG0RS4nbndWvsTA8jHuXq9gcnazXPIzLDA-IPhYm9xuoDZ2ZE9pVnl4dlJA9TKnKVcQj9COEBBJ3t2o0EZKk18DaVYWlx19eDyAZp3nxrUkJMpNrC5NUKVEoSfcxLJMuOfTPqcjAsdVScXNio_--Gzo__A6-elq0Q5uLuYZEvUx87AXsPOLnfnEn3cBEAKYw?purpose=fullsize)\n\n**1\\. A beautiful reading journal**\n\n(Thoughtful gift)\n\n## \\$25–\\$38\n\nA place to track books, write reviews, save favorite quotes and keep a reading wishlist.\n\nGreat for someone who reads constantly.\n\n[Shop Papier](https://www.papier.com/)\n\n---\n\n![Lumio Book Lamp - Walnut – MoMA Design Store](https://images.openai.com/static-rsc-4/D3Lt4qdL4KeF9PepE4Vj36Yz2zg-iDQp4dZiEbkoYYnoLrYh9TQoENszsylczkqHdXnYip6t-qTmBO4h4uDNrjIz9arrn8xPPfbfDrerMxYgBEbbqYjC0PsaFAmB3Yes-hqInGGmwHyVtXYKcBk4JZgvxcGdveUHUXorIzMFcFg_vE9AOZUuDUeULKLDLhaA?purpose=fullsize)\n\n**2\\. A book-shaped lamp**\n\n## \\$50–\\$225\n\nA gorgeous decorative lamp that looks like a hardcover book. Perfect for a bedside table or reading nook.\n\n[Shop MoMA Design Store](https://store.moma.org/)\n\n---\n\n![Custom Book Embosser,from the Library of Stamp,self Inking,book Lover Gift - Etsy](https://images.openai.com/static-rsc-4/ra9jHm3heXtCOPyc3ZaOmt-WrZKB4KFWBOScJrVDL2HSIZk3-VKT_O3qQfR_lmCVSDbw6zIBsLNIKqZsT1UWDGlIccXB8zfOCfa4p6tcGReocTjjC-GpdFbWf7HgEwpNCksWWGiPuzSRvSqK7HXRmKrEg8Kk5tBGXk12fGJrK2qZlnNIuyAUE4qJhQORyRVn?purpose=fullsize)\n\n**3\\. Personalized book embosser**\n\n(Unique idea)\n\n## \\$15–\\$40\n\nA custom stamp that says something like \"From the Library of...\" with their name. Wonderful for someone with a personal book collection.\n\n[Shop Etsy](https://www.etsy.com/)\n\n---\n\n![Bookish Bliss Gift Box | Cozy Reading Gift for Book Lovers - giftboxloveco](https://images.openai.com/static-rsc-4/BmzWehdKr---Mob-qrKWYLaqjTnAHRXxJQonBq8YZzVPfAD04Hsk3M29heMwW0rVC_vFGYGozY1ZMeXWj675KNQ-qdMbf9cCoP4d9hdjoN3h7mEO9RWLXqk2IgVjfSEos0HHm6A75smQN6Iw6_7g4b5EzmDuMVs1kmObP0fpX-UmuQxItAhvr6EgLhOCAtw3?purpose=fullsize)\n\n**4\\. Cozy book lover gift box**\n\n## \\$25–\\$60\n\nPut together a book sleeve, pretty bookmark, candle, tea and chocolate. A lovely ready-made reading experience.\n\n[Shop Uncommon Goods](https://www.uncommongoods.com/)\n\n---\n\n![Library Card Tote Bag](https://images.openai.com/static-rsc-4/IcJ8SqBuEH33nXH1CQD6VBjr33mr3BElWC6RE5OtT3ZvGtHG4v8wRT0ll9-bEE6w0oBOF7Wkv6MF6_eSNye-xoZ6jLMxzZEPwNi5PypynUssqZm4AHLvEi9tFbQBk6bu8xdl8IkgYqvdv6uG2WdRlCggcELhr8t94PW0Kx4EZvrf43D9w2LYmChJ-T1EhpoM?purpose=fullsize)\n\n**5\\. Literary tote bag**\n\n## \\$20–\\$35\n\nA library-card-inspired canvas tote for carrying books everywhere.\n\n[Shop Out of Print](https://outofprint.com/)\n\n---\n\n![Essential Annotation Supplies for Book Lovers](https://images.openai.com/static-rsc-4/lqa-VZFy9DbifFPQWcAYn80-GM_jUQ8mBu0Pcc9yF1EF6eoULPZ1QkGWv3sWGVYVPkwOYLNohR4IMBoQUm4ZyyWvyexd8vgSU5XELcXZbZ2eWtoMvYiO3blhOuzmAcskPZtPmHB2480WdB_b1bDpvXndf8Jmh7bcuhe7MNtLJ7Q5ZELPAF1v7ZhrETjqoU4J?purpose=fullsize)\n\n**6\\. Book annotation kit**\n\n## \\$13–\\$35\n\nColorful tabs, highlighters, pens and bookmarks for readers who love marking favorite passages.\n\n[Shop Mr. Pen](https://mrpen.com/)\n\n---\n\n![Puffin in Bloom Collection (Illustrated Hardcovers)\n – Bookworld UAE](https://images.openai.com/static-rsc-4/FWAjE6qJBj2LxjMRQ6qAWbEPG3wZYMbSVLnLunVMpRAwqTU-KHLDy-WfA57sGOjI2XKXiiXaVIHuimj4rY5rWJVC0pQVFCuufsLOvXBCejc5V2_4QmbgU_Y_e8nGDv-UgfVV37EHF96WmOj_gyfOuI5LkzAvw5atPlIp8FCbAOwEL6qJ-anEuaW6knh5Y55D?purpose=fullsize)\n\n**7\\. Special edition book collection**\n\n## \\$40–\\$100+\n\nBeautiful illustrated classics or a collectible edition of their favorite series.\n\n[Shop Barnes & Noble](https://www.barnesandnoble.com/)\n\nThese ideas are also reflected in recent 2026 gift guides from [NBC Select](https://www.nbcnews.com/select/shopping/best-gifts-for-book-lovers-rcna609989?utm_source=chatgpt.com) and [WIRED](https://www.wired.com/story/gifts-for-book-lovers/?utm_source=chatgpt.com)\\.\n\n## A few actual gifts you can buy\n\n\n\n**Reading Journal (Original)**\n\n## \\$24.95\n\nKunitsa Co. · 4.9/5\n\n[View gift](https://kunitsa.co/products/reading-journal-original?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=39555794108552&utm_source=chatgpt.com)\n\n\n\n**B&N Exclusive Readers Boxed Gift Set**\n\n## \\$23.99\n\nBarnes &amp; Noble\n\n[View gift](https://shop.barnesandnoble.com/products/0067103214451?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=46472890417393&utm_source=chatgpt.com)\n\n\n\n**Mr. Pen Annotation Essentials Kit for Book Lovers**\n\n## \\$25.99\n\nMr. Pen\n\n[View gift](https://mrpen.com/products/annotation-kit-jessica-martin?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=45405406101660&utm_source=chatgpt.com)\n\n## Let me narrow it down to the perfect gift\\!\n\nWhat's your approximate budget?\n\n**1\\. What's your budget?**\n\nUnder \\$25\n\n\\$25–\\$50\n\n\\$50–\\$100\n\n\\$100–\\$200\n\n\\$200+\n\n---\n\n**2\\. Who is the gift for?**\n\nFemale friend\n\nMale friend\n\nPartner\n\nMom or family member\n\nCoworker\n\n---\n\n**3\\. What kind of gift would you prefer?**\n\nElegant and thoughtful\n\nCute and cozy\n\nUnique and personalized\n\nLuxury and impressive\n\nPractical and useful\n\n[Find my perfect bookish gift]",
+          "search_results": [
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.wired.com/story/gifts-for-book-lovers/?utm_source=chatgpt.com",
+              "domain": "www.wired.com",
+              "title": "The Best Gifts for Book Lovers (2026): E-Readers, Handy Accessories, Book Sets | WIRED",
+              "description": "Nena Farrell  Gear  Sep 30, 2026 7:36 AM  THE BEST GIFTS FOR BOOK LOVERS, ACCORDING TO AN AVID READER  Any one of these gift ideas will make your favorite bookworm very happy, from e-readers and acce...",
+              "breadcrumb": "wired.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.nbcnews.com/select/shopping/best-gifts-for-book-lovers-rcna609989?utm_source=chatgpt.com",
+              "domain": "www.nbcnews.com",
+              "title": "The Best Gifts for Book Lovers in 2026 | NBC Selected",
+              "description": "Gift Guide  21 GIFTS FOR BOOK LOVERS THAT GO BEYOND GETTING THEM ANOTHER BOOK  We found functional, bibliophile-inspired items that avid readers will actually want to use.  Nov. 18, 2026, 10:55 AM ES...",
+              "breadcrumb": "nbcnews.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://abcnews.com/GMA/Shop/reader-book-lovers-gift-guide/story?id=128255383&utm_source=chatgpt.com",
+              "domain": "abcnews.com",
+              "title": "Our 2026 gift guide for book lovers: Kindles, decor, book club picks and more - ABC News",
+              "description": "OUR 2026 GIFT GUIDE FOR BOOK LOVERS: KINDLES, DECOR, BOOK CLUB PICKS AND MORE  Gifts for book lovers 2026  Amazon, Anthropologie, Lola Blankets, Williams Sonoma, Etsy, Papier, Rifle Paper Co.  ByClai...",
+              "breadcrumb": "abcnews.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.hgtv.com/shopping/gift-guides/gifts-for-book-lovers?utm_source=chatgpt.com",
+              "domain": "www.hgtv.com",
+              "title": "The Best Gifts for Book Lovers 2026 | HGTV",
+              "description": "THE BEST READING-THEMED GIFT IDEAS FOR BOOK LOVERS  Check out these thoughtful gift ideas for the avid reader on your list that won't add to their TBR pile.  Price and stock could change after publis...",
+              "breadcrumb": "hgtv.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.goodmorningamerica.com/news/story/reader-book-lovers-gift-guide-128255383?utm_source=chatgpt.com",
+              "domain": "www.goodmorningamerica.com",
+              "title": "Our 2026 gift guide for book lovers: Kindles, decor, book club picks and more - Good Morning America",
+              "description": "OUR 2026 GIFT GUIDE FOR BOOK LOVERS: KINDLES, DECOR, BOOK CLUB PICKS AND MORE  Gifts for book lovers 2026  Amazon, Anthropologie, Lola Blankets, Williams Sonoma, Etsy, Papier, Rifle Paper Co.  ByClai...",
+              "breadcrumb": "goodmorningamerica.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://video.goodmorningamerica.com/shop/story/reader-book-lovers-gift-guide-128255383?utm_source=chatgpt.com",
+              "domain": "video.goodmorningamerica.com",
+              "title": "Our 2026 gift guide for book lovers: Kindles, decor, book club picks and more - Good Morning America",
+              "description": "OUR 2026 GIFT GUIDE FOR BOOK LOVERS: KINDLES, DECOR, BOOK CLUB PICKS AND MORE  Gifts for book lovers 2026  Amazon, Anthropologie, Lola Blankets, Williams Sonoma, Etsy, Papier, Rifle Paper Co.  ByClai...",
+              "breadcrumb": "goodmorningamerica.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://goodmorningamerica.com/shop/story/reader-book-lovers-gift-guide-128255383?utm_source=chatgpt.com",
+              "domain": "goodmorningamerica.com",
+              "title": "Our 2026 gift guide for book lovers: Personalized accessories, book club picks and more - Good Morning America",
+              "description": "OUR 2026 GIFT GUIDE FOR BOOK LOVERS: PERSONALIZED ACCESSORIES, BOOK CLUB PICKS AND MORE  Gifts for readers 2025  Amazon, Uncommon Goods, Cozy Earth, Papier, Anthropologie, Adobe  ByClaire Peltier  Fe...",
+              "breadcrumb": "goodmorningamerica.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://tollbit.rollingstone.com/product-recommendations/gift-guide/best-gifts-for-book-lovers-where-to-shop-1235542163/?utm_source=chatgpt.com",
+              "domain": "tollbit.rollingstone.com",
+              "title": "25+ Gifts for Book Lovers That Are Bound to Impress",
+              "description": "Gift Guide  30+ GIFTS FOR BOOK LOVERS THAT ARE BOUND TO IMPRESS  From literary lamps to library-card charms, purchasing these presents for the bibliophile in your life is long overdue  By  Alexis Miku...",
+              "breadcrumb": "rollingstone.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://boredom-at-work.com/best-gifts-for-book-lovers/?utm_source=chatgpt.com",
+              "domain": "boredom-at-work.com",
+              "title": "Best Gifts for Book Lovers 2026 (Beyond Just Books)",
+              "description": "BEST GIFTS FOR BOOK LOVERS 2026 (BEYOND JUST BOOKS)  The best gifts for book lovers in 2026: Kindles, reading accessories, subscriptions, and cozy extras, with picks for every budget and every kind o...",
+              "breadcrumb": "boredom-at-work.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.oprahdaily.com/entertainment/books/g23110271/gifts-for-book-lovers/?utm_source=chatgpt.com",
+              "domain": "www.oprahdaily.com",
+              "title": "Best Gifts for Book Lovers 2026: 49 Ideas Bibliophiles Will Adore",
+              "description": "1. Culture & News 2. Books 3. 51 Gifts the Book Lovers in Your Life Will Adore  51 GIFTS THE BOOK LOVERS IN YOUR LIFE WILL ADORE  You’ll definitely want to bookmark this! (See what we did there?)  By...",
+              "breadcrumb": "oprahdaily.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://wirednews.pages.dev/story/gifts-for-book-lovers/?utm_source=chatgpt.com",
+              "domain": "wirednews.pages.dev",
+              "title": "The Best Gifts for Book Lovers (2026): E-Readers, Handy Accessories, Book Sets | WIRED",
+              "description": "Nena Farrell  Gear  Sep 30, 2026 7:36 AM  THE BEST GIFTS FOR BOOK LOVERS, ACCORDING TO AN AVID READER  Any one of these gift ideas will make your favorite bookworm very happy, from e-readers and acce...",
+              "breadcrumb": "wirednews.pages.dev"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.apartmenttherapy.com/book-gifts-37113129?utm_source=chatgpt.com",
+              "domain": "www.apartmenttherapy.com",
+              "title": "The Best Gifts for Book Lovers in 2026",
+              "description": "28 BOOK GIFTS THAT ALL THE READERS IN YOUR LIFE WILL LOVE  Amy Gordon Contributor  Amy GordonContributor  From the garden to the kitchen to the bedroom, Amy can't stop herself from constantly switchi...",
+              "breadcrumb": "apartmenttherapy.com"
+            }
+          ],
+          "sources": [
+            {
+              "type": "chat_gpt_source",
+              "title": "Shop Papier",
+              "snippet": null,
+              "domain": "www.papier.com",
+              "url": "https://www.papier.com/",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[Shop Papier](https://www.papier.com/)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Shop MoMA Design Store",
+              "snippet": null,
+              "domain": "store.moma.org",
+              "url": "https://store.moma.org/",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[Shop MoMA Design Store](https://store.moma.org/)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Shop Etsy",
+              "snippet": null,
+              "domain": "www.etsy.com",
+              "url": "https://www.etsy.com/",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[Shop Etsy](https://www.etsy.com/)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Shop Uncommon Goods",
+              "snippet": null,
+              "domain": "www.uncommongoods.com",
+              "url": "https://www.uncommongoods.com/",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[Shop Uncommon Goods](https://www.uncommongoods.com/)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Shop Out of Print",
+              "snippet": null,
+              "domain": "outofprint.com",
+              "url": "https://outofprint.com/",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[Shop Out of Print](https://outofprint.com/)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Shop Mr. Pen",
+              "snippet": null,
+              "domain": "mrpen.com",
+              "url": "https://mrpen.com/",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[Shop Mr. Pen](https://mrpen.com/)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Shop Barnes & Noble",
+              "snippet": null,
+              "domain": "www.barnesandnoble.com",
+              "url": "https://www.barnesandnoble.com/",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[Shop Barnes & Noble](https://www.barnesandnoble.com/)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "NBC Select",
+              "snippet": null,
+              "domain": "www.nbcnews.com",
+              "url": "https://www.nbcnews.com/select/shopping/best-gifts-for-book-lovers-rcna609989?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[NBC Select](https://www.nbcnews.com/select/shopping/best-gifts-for-book-lovers-rcna609989?utm_source=chatgpt.com)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "WIRED",
+              "snippet": null,
+              "domain": "www.wired.com",
+              "url": "https://www.wired.com/story/gifts-for-book-lovers/?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[WIRED](https://www.wired.com/story/gifts-for-book-lovers/?utm_source=chatgpt.com)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "View gift",
+              "snippet": null,
+              "domain": "kunitsa.co",
+              "url": "https://kunitsa.co/products/reading-journal-original?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=39555794108552&utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[View gift](https://kunitsa.co/products/reading-journal-original?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=39555794108552&utm_source=chatgpt.com)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "View gift",
+              "snippet": null,
+              "domain": "shop.barnesandnoble.com",
+              "url": "https://shop.barnesandnoble.com/products/0067103214451?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=46472890417393&utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[View gift](https://shop.barnesandnoble.com/products/0067103214451?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=46472890417393&utm_source=chatgpt.com)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "View gift",
+              "snippet": null,
+              "domain": "mrpen.com",
+              "url": "https://mrpen.com/products/annotation-kit-jessica-martin?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=45405406101660&utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[View gift](https://mrpen.com/products/annotation-kit-jessica-martin?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=45405406101660&utm_source=chatgpt.com)"
+            }
+          ],
+          "fan_out_queries": [
+            "best gifts for book lovers 2026 ideas reading accessories book subscriptions literary gifts"
+          ],
+          "brand_entities": [
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Reading Journal (Original)",
+              "category": "product",
+              "markdown": "Reading Journal (Original)",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "B&N Exclusive Readers Boxed Gift Set",
+              "category": "product",
+              "markdown": "B&N Exclusive Readers Boxed Gift Set",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Mr. Pen Annotation Essentials Kit for Book Lovers",
+              "category": "product",
+              "markdown": "Mr. Pen Annotation Essentials Kit for Book Lovers",
+              "urls": null
+            }
+          ],
+          "se_results_count": 0,
+          "item_types": [
+            "chat_gpt_text",
+            "chat_gpt_images",
+            "chat_gpt_products"
+          ],
+          "items_count": 23,
+          "items": [
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "markdown": "If you're shopping for a book lover, I'd look for something that makes their reading experience more special rather than simply buying another book. Here are some lovely ideas for 2026, from affordable little gifts to more memorable presents. 📚\n\n## My favorite gift ideas\n\n",
+              "sources": null,
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "markdown": "![Papier Midnight Hour Reading Journal, Multi](https://images.openai.com/static-rsc-4/DG0RS4nbndWvsTA8jHuXq9gcnazXPIzLDA-IPhYm9xuoDZ2ZE9pVnl4dlJA9TKnKVcQj9COEBBJ3t2o0EZKk18DaVYWlx19eDyAZp3nxrUkJMpNrC5NUKVEoSfcxLJMuOfTPqcjAsdVScXNio_--Gzo__A6-elq0Q5uLuYZEvUx87AXsPOLnfnEn3cBEAKYw?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.johnlewis.com/papier-midnight-hour-reading-journal-multi/p113233950",
+                  "alt": "Papier Midnight Hour Reading Journal, Multi",
+                  "image_url": "https://images.openai.com/static-rsc-4/DG0RS4nbndWvsTA8jHuXq9gcnazXPIzLDA-IPhYm9xuoDZ2ZE9pVnl4dlJA9TKnKVcQj9COEBBJ3t2o0EZKk18DaVYWlx19eDyAZp3nxrUkJMpNrC5NUKVEoSfcxLJMuOfTPqcjAsdVScXNio_--Gzo__A6-elq0Q5uLuYZEvUx87AXsPOLnfnEn3cBEAKYw?purpose=fullsize",
+                  "markdown": "![Papier Midnight Hour Reading Journal, Multi](https://images.openai.com/static-rsc-4/DG0RS4nbndWvsTA8jHuXq9gcnazXPIzLDA-IPhYm9xuoDZ2ZE9pVnl4dlJA9TKnKVcQj9COEBBJ3t2o0EZKk18DaVYWlx19eDyAZp3nxrUkJMpNrC5NUKVEoSfcxLJMuOfTPqcjAsdVScXNio_--Gzo__A6-elq0Q5uLuYZEvUx87AXsPOLnfnEn3cBEAKYw?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "markdown": "\n\n**1\\. A beautiful reading journal**\n\n(Thoughtful gift)\n\n## \\$25–\\$38\n\nA place to track books, write reviews, save favorite quotes and keep a reading wishlist.\n\nGreat for someone who reads constantly.\n\n[Shop Papier](https://www.papier.com/)\n\n---\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Shop Papier",
+                  "snippet": null,
+                  "domain": "www.papier.com",
+                  "url": "https://www.papier.com/",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[Shop Papier](https://www.papier.com/)"
+                }
+              ],
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "markdown": "![Lumio Book Lamp - Walnut – MoMA Design Store](https://images.openai.com/static-rsc-4/D3Lt4qdL4KeF9PepE4Vj36Yz2zg-iDQp4dZiEbkoYYnoLrYh9TQoENszsylczkqHdXnYip6t-qTmBO4h4uDNrjIz9arrn8xPPfbfDrerMxYgBEbbqYjC0PsaFAmB3Yes-hqInGGmwHyVtXYKcBk4JZgvxcGdveUHUXorIzMFcFg_vE9AOZUuDUeULKLDLhaA?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://store.moma.org/products/lumio-book-lamp-walnut",
+                  "alt": "Lumio Book Lamp - Walnut – MoMA Design Store",
+                  "image_url": "https://images.openai.com/static-rsc-4/D3Lt4qdL4KeF9PepE4Vj36Yz2zg-iDQp4dZiEbkoYYnoLrYh9TQoENszsylczkqHdXnYip6t-qTmBO4h4uDNrjIz9arrn8xPPfbfDrerMxYgBEbbqYjC0PsaFAmB3Yes-hqInGGmwHyVtXYKcBk4JZgvxcGdveUHUXorIzMFcFg_vE9AOZUuDUeULKLDLhaA?purpose=fullsize",
+                  "markdown": "![Lumio Book Lamp - Walnut – MoMA Design Store](https://images.openai.com/static-rsc-4/D3Lt4qdL4KeF9PepE4Vj36Yz2zg-iDQp4dZiEbkoYYnoLrYh9TQoENszsylczkqHdXnYip6t-qTmBO4h4uDNrjIz9arrn8xPPfbfDrerMxYgBEbbqYjC0PsaFAmB3Yes-hqInGGmwHyVtXYKcBk4JZgvxcGdveUHUXorIzMFcFg_vE9AOZUuDUeULKLDLhaA?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 3,
+              "rank_absolute": 5,
+              "markdown": "\n\n**2\\. A book-shaped lamp**\n\n## \\$50–\\$225\n\nA gorgeous decorative lamp that looks like a hardcover book. Perfect for a bedside table or reading nook.\n\n[Shop MoMA Design Store](https://store.moma.org/)\n\n---\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Shop MoMA Design Store",
+                  "snippet": null,
+                  "domain": "store.moma.org",
+                  "url": "https://store.moma.org/",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[Shop MoMA Design Store](https://store.moma.org/)"
+                }
+              ],
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 3,
+              "rank_absolute": 6,
+              "markdown": "![Custom Book Embosser,from the Library of Stamp,self Inking,book Lover Gift - Etsy](https://images.openai.com/static-rsc-4/ra9jHm3heXtCOPyc3ZaOmt-WrZKB4KFWBOScJrVDL2HSIZk3-VKT_O3qQfR_lmCVSDbw6zIBsLNIKqZsT1UWDGlIccXB8zfOCfa4p6tcGReocTjjC-GpdFbWf7HgEwpNCksWWGiPuzSRvSqK7HXRmKrEg8Kk5tBGXk12fGJrK2qZlnNIuyAUE4qJhQORyRVn?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.etsy.com/listing/4372390864/custom-book-embosserfrom-the-library-of",
+                  "alt": "Custom Book Embosser,from the Library of Stamp,self Inking,book Lover Gift - Etsy",
+                  "image_url": "https://images.openai.com/static-rsc-4/ra9jHm3heXtCOPyc3ZaOmt-WrZKB4KFWBOScJrVDL2HSIZk3-VKT_O3qQfR_lmCVSDbw6zIBsLNIKqZsT1UWDGlIccXB8zfOCfa4p6tcGReocTjjC-GpdFbWf7HgEwpNCksWWGiPuzSRvSqK7HXRmKrEg8Kk5tBGXk12fGJrK2qZlnNIuyAUE4qJhQORyRVn?purpose=fullsize",
+                  "markdown": "![Custom Book Embosser,from the Library of Stamp,self Inking,book Lover Gift - Etsy](https://images.openai.com/static-rsc-4/ra9jHm3heXtCOPyc3ZaOmt-WrZKB4KFWBOScJrVDL2HSIZk3-VKT_O3qQfR_lmCVSDbw6zIBsLNIKqZsT1UWDGlIccXB8zfOCfa4p6tcGReocTjjC-GpdFbWf7HgEwpNCksWWGiPuzSRvSqK7HXRmKrEg8Kk5tBGXk12fGJrK2qZlnNIuyAUE4qJhQORyRVn?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "markdown": "\n\n**3\\. Personalized book embosser**\n\n(Unique idea)\n\n## \\$15–\\$40\n\nA custom stamp that says something like \"From the Library of...\" with their name. Wonderful for someone with a personal book collection.\n\n[Shop Etsy](https://www.etsy.com/)\n\n---\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Shop Etsy",
+                  "snippet": null,
+                  "domain": "www.etsy.com",
+                  "url": "https://www.etsy.com/",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[Shop Etsy](https://www.etsy.com/)"
+                }
+              ],
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 4,
+              "rank_absolute": 8,
+              "markdown": "![Bookish Bliss Gift Box | Cozy Reading Gift for Book Lovers - giftboxloveco](https://images.openai.com/static-rsc-4/BmzWehdKr---Mob-qrKWYLaqjTnAHRXxJQonBq8YZzVPfAD04Hsk3M29heMwW0rVC_vFGYGozY1ZMeXWj675KNQ-qdMbf9cCoP4d9hdjoN3h7mEO9RWLXqk2IgVjfSEos0HHm6A75smQN6Iw6_7g4b5EzmDuMVs1kmObP0fpX-UmuQxItAhvr6EgLhOCAtw3?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://giftboxloveco.com/products/bookish-bliss-gift-box",
+                  "alt": "Bookish Bliss Gift Box | Cozy Reading Gift for Book Lovers - giftboxloveco",
+                  "image_url": "https://images.openai.com/static-rsc-4/BmzWehdKr---Mob-qrKWYLaqjTnAHRXxJQonBq8YZzVPfAD04Hsk3M29heMwW0rVC_vFGYGozY1ZMeXWj675KNQ-qdMbf9cCoP4d9hdjoN3h7mEO9RWLXqk2IgVjfSEos0HHm6A75smQN6Iw6_7g4b5EzmDuMVs1kmObP0fpX-UmuQxItAhvr6EgLhOCAtw3?purpose=fullsize",
+                  "markdown": "![Bookish Bliss Gift Box | Cozy Reading Gift for Book Lovers - giftboxloveco](https://images.openai.com/static-rsc-4/BmzWehdKr---Mob-qrKWYLaqjTnAHRXxJQonBq8YZzVPfAD04Hsk3M29heMwW0rVC_vFGYGozY1ZMeXWj675KNQ-qdMbf9cCoP4d9hdjoN3h7mEO9RWLXqk2IgVjfSEos0HHm6A75smQN6Iw6_7g4b5EzmDuMVs1kmObP0fpX-UmuQxItAhvr6EgLhOCAtw3?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 5,
+              "rank_absolute": 9,
+              "markdown": "\n\n**4\\. Cozy book lover gift box**\n\n## \\$25–\\$60\n\nPut together a book sleeve, pretty bookmark, candle, tea and chocolate. A lovely ready-made reading experience.\n\n[Shop Uncommon Goods](https://www.uncommongoods.com/)\n\n---\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Shop Uncommon Goods",
+                  "snippet": null,
+                  "domain": "www.uncommongoods.com",
+                  "url": "https://www.uncommongoods.com/",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[Shop Uncommon Goods](https://www.uncommongoods.com/)"
+                }
+              ],
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 5,
+              "rank_absolute": 10,
+              "markdown": "![Library Card Tote Bag](https://images.openai.com/static-rsc-4/IcJ8SqBuEH33nXH1CQD6VBjr33mr3BElWC6RE5OtT3ZvGtHG4v8wRT0ll9-bEE6w0oBOF7Wkv6MF6_eSNye-xoZ6jLMxzZEPwNi5PypynUssqZm4AHLvEi9tFbQBk6bu8xdl8IkgYqvdv6uG2WdRlCggcELhr8t94PW0Kx4EZvrf43D9w2LYmChJ-T1EhpoM?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.cedarcanoebooks.com/products/library-card-tote-bag",
+                  "alt": "Library Card Tote Bag",
+                  "image_url": "https://images.openai.com/static-rsc-4/IcJ8SqBuEH33nXH1CQD6VBjr33mr3BElWC6RE5OtT3ZvGtHG4v8wRT0ll9-bEE6w0oBOF7Wkv6MF6_eSNye-xoZ6jLMxzZEPwNi5PypynUssqZm4AHLvEi9tFbQBk6bu8xdl8IkgYqvdv6uG2WdRlCggcELhr8t94PW0Kx4EZvrf43D9w2LYmChJ-T1EhpoM?purpose=fullsize",
+                  "markdown": "![Library Card Tote Bag](https://images.openai.com/static-rsc-4/IcJ8SqBuEH33nXH1CQD6VBjr33mr3BElWC6RE5OtT3ZvGtHG4v8wRT0ll9-bEE6w0oBOF7Wkv6MF6_eSNye-xoZ6jLMxzZEPwNi5PypynUssqZm4AHLvEi9tFbQBk6bu8xdl8IkgYqvdv6uG2WdRlCggcELhr8t94PW0Kx4EZvrf43D9w2LYmChJ-T1EhpoM?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 6,
+              "rank_absolute": 11,
+              "markdown": "\n\n**5\\. Literary tote bag**\n\n## \\$20–\\$35\n\nA library-card-inspired canvas tote for carrying books everywhere.\n\n[Shop Out of Print](https://outofprint.com/)\n\n---\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Shop Out of Print",
+                  "snippet": null,
+                  "domain": "outofprint.com",
+                  "url": "https://outofprint.com/",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[Shop Out of Print](https://outofprint.com/)"
+                }
+              ],
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 6,
+              "rank_absolute": 12,
+              "markdown": "![Essential Annotation Supplies for Book Lovers](https://images.openai.com/static-rsc-4/lqa-VZFy9DbifFPQWcAYn80-GM_jUQ8mBu0Pcc9yF1EF6eoULPZ1QkGWv3sWGVYVPkwOYLNohR4IMBoQUm4ZyyWvyexd8vgSU5XELcXZbZ2eWtoMvYiO3blhOuzmAcskPZtPmHB2480WdB_b1bDpvXndf8Jmh7bcuhe7MNtLJ7Q5ZELPAF1v7ZhrETjqoU4J?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.lemon8-app.com/mayasboringbooks/7312218906603684357?region=us",
+                  "alt": "Essential Annotation Supplies for Book Lovers",
+                  "image_url": "https://images.openai.com/static-rsc-4/lqa-VZFy9DbifFPQWcAYn80-GM_jUQ8mBu0Pcc9yF1EF6eoULPZ1QkGWv3sWGVYVPkwOYLNohR4IMBoQUm4ZyyWvyexd8vgSU5XELcXZbZ2eWtoMvYiO3blhOuzmAcskPZtPmHB2480WdB_b1bDpvXndf8Jmh7bcuhe7MNtLJ7Q5ZELPAF1v7ZhrETjqoU4J?purpose=fullsize",
+                  "markdown": "![Essential Annotation Supplies for Book Lovers](https://images.openai.com/static-rsc-4/lqa-VZFy9DbifFPQWcAYn80-GM_jUQ8mBu0Pcc9yF1EF6eoULPZ1QkGWv3sWGVYVPkwOYLNohR4IMBoQUm4ZyyWvyexd8vgSU5XELcXZbZ2eWtoMvYiO3blhOuzmAcskPZtPmHB2480WdB_b1bDpvXndf8Jmh7bcuhe7MNtLJ7Q5ZELPAF1v7ZhrETjqoU4J?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 7,
+              "rank_absolute": 13,
+              "markdown": "\n\n**6\\. Book annotation kit**\n\n## \\$13–\\$35\n\nColorful tabs, highlighters, pens and bookmarks for readers who love marking favorite passages.\n\n[Shop Mr. Pen](https://mrpen.com/)\n\n---\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Shop Mr. Pen",
+                  "snippet": null,
+                  "domain": "mrpen.com",
+                  "url": "https://mrpen.com/",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[Shop Mr. Pen](https://mrpen.com/)"
+                }
+              ],
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 7,
+              "rank_absolute": 14,
+              "markdown": "![Puffin in Bloom Collection (Illustrated Hardcovers)\n – Bookworld UAE](https://images.openai.com/static-rsc-4/FWAjE6qJBj2LxjMRQ6qAWbEPG3wZYMbSVLnLunVMpRAwqTU-KHLDy-WfA57sGOjI2XKXiiXaVIHuimj4rY5rWJVC0pQVFCuufsLOvXBCejc5V2_4QmbgU_Y_e8nGDv-UgfVV37EHF96WmOj_gyfOuI5LkzAvw5atPlIp8FCbAOwEL6qJ-anEuaW6knh5Y55D?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://bookworlduae.com/products/puffin-in-bloom-collection-illustrated-hardcovers",
+                  "alt": "Puffin in Bloom Collection (Illustrated Hardcovers)\n – Bookworld UAE",
+                  "image_url": "https://images.openai.com/static-rsc-4/FWAjE6qJBj2LxjMRQ6qAWbEPG3wZYMbSVLnLunVMpRAwqTU-KHLDy-WfA57sGOjI2XKXiiXaVIHuimj4rY5rWJVC0pQVFCuufsLOvXBCejc5V2_4QmbgU_Y_e8nGDv-UgfVV37EHF96WmOj_gyfOuI5LkzAvw5atPlIp8FCbAOwEL6qJ-anEuaW6knh5Y55D?purpose=fullsize",
+                  "markdown": "![Puffin in Bloom Collection (Illustrated Hardcovers)\n – Bookworld UAE](https://images.openai.com/static-rsc-4/FWAjE6qJBj2LxjMRQ6qAWbEPG3wZYMbSVLnLunVMpRAwqTU-KHLDy-WfA57sGOjI2XKXiiXaVIHuimj4rY5rWJVC0pQVFCuufsLOvXBCejc5V2_4QmbgU_Y_e8nGDv-UgfVV37EHF96WmOj_gyfOuI5LkzAvw5atPlIp8FCbAOwEL6qJ-anEuaW6knh5Y55D?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 8,
+              "rank_absolute": 15,
+              "markdown": "\n\n**7\\. Special edition book collection**\n\n## \\$40–\\$100+\n\nBeautiful illustrated classics or a collectible edition of their favorite series.\n\n[Shop Barnes & Noble](https://www.barnesandnoble.com/)\n\nThese ideas are also reflected in recent 2026 gift guides from [NBC Select](https://www.nbcnews.com/select/shopping/best-gifts-for-book-lovers-rcna609989?utm_source=chatgpt.com) and [WIRED](https://www.wired.com/story/gifts-for-book-lovers/?utm_source=chatgpt.com)\\.\n\n## A few actual gifts you can buy\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Shop Barnes & Noble",
+                  "snippet": null,
+                  "domain": "www.barnesandnoble.com",
+                  "url": "https://www.barnesandnoble.com/",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[Shop Barnes & Noble](https://www.barnesandnoble.com/)"
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "NBC Select",
+                  "snippet": null,
+                  "domain": "www.nbcnews.com",
+                  "url": "https://www.nbcnews.com/select/shopping/best-gifts-for-book-lovers-rcna609989?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[NBC Select](https://www.nbcnews.com/select/shopping/best-gifts-for-book-lovers-rcna609989?utm_source=chatgpt.com)"
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "WIRED",
+                  "snippet": null,
+                  "domain": "www.wired.com",
+                  "url": "https://www.wired.com/story/gifts-for-book-lovers/?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[WIRED](https://www.wired.com/story/gifts-for-book-lovers/?utm_source=chatgpt.com)"
+                }
+              ],
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 8,
+              "rank_absolute": 16,
+              "markdown": null,
+              "items": null
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 9,
+              "rank_absolute": 17,
+              "markdown": "\n\n**Reading Journal (Original)**\n\n## \\$24.95\n\nKunitsa Co. · 4.9/5\n\n[View gift](https://kunitsa.co/products/reading-journal-original?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=39555794108552&utm_source=chatgpt.com)\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "View gift",
+                  "snippet": null,
+                  "domain": "kunitsa.co",
+                  "url": "https://kunitsa.co/products/reading-journal-original?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=39555794108552&utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[View gift](https://kunitsa.co/products/reading-journal-original?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=39555794108552&utm_source=chatgpt.com)"
+                }
+              ],
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Reading Journal (Original)",
+                  "category": "product",
+                  "markdown": "Reading Journal (Original)",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 9,
+              "rank_absolute": 18,
+              "markdown": null,
+              "items": null
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 10,
+              "rank_absolute": 19,
+              "markdown": "\n\n**B&N Exclusive Readers Boxed Gift Set**\n\n## \\$23.99\n\nBarnes &amp; Noble\n\n[View gift](https://shop.barnesandnoble.com/products/0067103214451?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=46472890417393&utm_source=chatgpt.com)\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "View gift",
+                  "snippet": null,
+                  "domain": "shop.barnesandnoble.com",
+                  "url": "https://shop.barnesandnoble.com/products/0067103214451?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=46472890417393&utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[View gift](https://shop.barnesandnoble.com/products/0067103214451?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=46472890417393&utm_source=chatgpt.com)"
+                }
+              ],
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "B&N Exclusive Readers Boxed Gift Set",
+                  "category": "product",
+                  "markdown": "B&N Exclusive Readers Boxed Gift Set",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 10,
+              "rank_absolute": 20,
+              "markdown": null,
+              "items": null
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 11,
+              "rank_absolute": 21,
+              "markdown": "\n\n**Mr. Pen Annotation Essentials Kit for Book Lovers**\n\n## \\$25.99\n\nMr. Pen\n\n[View gift](https://mrpen.com/products/annotation-kit-jessica-martin?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=45405406101660&utm_source=chatgpt.com)\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "View gift",
+                  "snippet": null,
+                  "domain": "mrpen.com",
+                  "url": "https://mrpen.com/products/annotation-kit-jessica-martin?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=45405406101660&utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[View gift](https://mrpen.com/products/annotation-kit-jessica-martin?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=45405406101660&utm_source=chatgpt.com)"
+                }
+              ],
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Mr. Pen Annotation Essentials Kit for Book Lovers",
+                  "category": "product",
+                  "markdown": "Mr. Pen Annotation Essentials Kit for Book Lovers",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_products",
+              "rank_group": 1,
+              "rank_absolute": 22,
+              "items": [
+                {
+                  "type": "chat_gpt_products_element",
+                  "product_id": null,
+                  "merchants": null,
+                  "id_to_token_map": null,
+                  "title": "A beautiful reading journal",
+                  "rating": null,
+                  "price": 25,
+                  "currency": "USD",
+                  "tag": "Thoughtful gift",
+                  "url": "https://www.papier.com/",
+                  "domain": "www.papier.com",
+                  "images": [
+                    "https://images.openai.com/static-rsc-4/DG0RS4nbndWvsTA8jHuXq9gcnazXPIzLDA-IPhYm9xuoDZ2ZE9pVnl4dlJA9TKnKVcQj9COEBBJ3t2o0EZKk18DaVYWlx19eDyAZp3nxrUkJMpNrC5NUKVEoSfcxLJMuOfTPqcjAsdVScXNio_--Gzo__A6-elq0Q5uLuYZEvUx87AXsPOLnfnEn3cBEAKYw?purpose=fullsize"
+                  ],
+                  "product_ids": null
+                },
+                {
+                  "type": "chat_gpt_products_element",
+                  "product_id": null,
+                  "merchants": null,
+                  "id_to_token_map": null,
+                  "title": "A book-shaped lamp",
+                  "rating": null,
+                  "price": 50,
+                  "currency": "USD",
+                  "tag": null,
+                  "url": "https://store.moma.org/",
+                  "domain": "store.moma.org",
+                  "images": [
+                    "https://images.openai.com/static-rsc-4/D3Lt4qdL4KeF9PepE4Vj36Yz2zg-iDQp4dZiEbkoYYnoLrYh9TQoENszsylczkqHdXnYip6t-qTmBO4h4uDNrjIz9arrn8xPPfbfDrerMxYgBEbbqYjC0PsaFAmB3Yes-hqInGGmwHyVtXYKcBk4JZgvxcGdveUHUXorIzMFcFg_vE9AOZUuDUeULKLDLhaA?purpose=fullsize"
+                  ],
+                  "product_ids": null
+                },
+                {
+                  "type": "chat_gpt_products_element",
+                  "product_id": null,
+                  "merchants": null,
+                  "id_to_token_map": null,
+                  "title": "Personalized book embosser",
+                  "rating": null,
+                  "price": 15,
+                  "currency": "USD",
+                  "tag": "Unique idea",
+                  "url": "https://www.etsy.com/",
+                  "domain": "www.etsy.com",
+                  "images": [
+                    "https://images.openai.com/static-rsc-4/ra9jHm3heXtCOPyc3ZaOmt-WrZKB4KFWBOScJrVDL2HSIZk3-VKT_O3qQfR_lmCVSDbw6zIBsLNIKqZsT1UWDGlIccXB8zfOCfa4p6tcGReocTjjC-GpdFbWf7HgEwpNCksWWGiPuzSRvSqK7HXRmKrEg8Kk5tBGXk12fGJrK2qZlnNIuyAUE4qJhQORyRVn?purpose=fullsize"
+                  ],
+                  "product_ids": null
+                },
+                {
+                  "type": "chat_gpt_products_element",
+                  "product_id": null,
+                  "merchants": null,
+                  "id_to_token_map": null,
+                  "title": "Cozy book lover gift box",
+                  "rating": null,
+                  "price": 25,
+                  "currency": "USD",
+                  "tag": null,
+                  "url": "https://www.uncommongoods.com/",
+                  "domain": "www.uncommongoods.com",
+                  "images": [
+                    "https://images.openai.com/static-rsc-4/BmzWehdKr---Mob-qrKWYLaqjTnAHRXxJQonBq8YZzVPfAD04Hsk3M29heMwW0rVC_vFGYGozY1ZMeXWj675KNQ-qdMbf9cCoP4d9hdjoN3h7mEO9RWLXqk2IgVjfSEos0HHm6A75smQN6Iw6_7g4b5EzmDuMVs1kmObP0fpX-UmuQxItAhvr6EgLhOCAtw3?purpose=fullsize"
+                  ],
+                  "product_ids": null
+                },
+                {
+                  "type": "chat_gpt_products_element",
+                  "product_id": null,
+                  "merchants": null,
+                  "id_to_token_map": null,
+                  "title": "Literary tote bag",
+                  "rating": null,
+                  "price": 20,
+                  "currency": "USD",
+                  "tag": null,
+                  "url": "https://outofprint.com/",
+                  "domain": "outofprint.com",
+                  "images": [
+                    "https://images.openai.com/static-rsc-4/IcJ8SqBuEH33nXH1CQD6VBjr33mr3BElWC6RE5OtT3ZvGtHG4v8wRT0ll9-bEE6w0oBOF7Wkv6MF6_eSNye-xoZ6jLMxzZEPwNi5PypynUssqZm4AHLvEi9tFbQBk6bu8xdl8IkgYqvdv6uG2WdRlCggcELhr8t94PW0Kx4EZvrf43D9w2LYmChJ-T1EhpoM?purpose=fullsize"
+                  ],
+                  "product_ids": null
+                },
+                {
+                  "type": "chat_gpt_products_element",
+                  "product_id": null,
+                  "merchants": null,
+                  "id_to_token_map": null,
+                  "title": "Book annotation kit",
+                  "rating": null,
+                  "price": 13,
+                  "currency": "USD",
+                  "tag": null,
+                  "url": "https://mrpen.com/",
+                  "domain": "mrpen.com",
+                  "images": [
+                    "https://images.openai.com/static-rsc-4/lqa-VZFy9DbifFPQWcAYn80-GM_jUQ8mBu0Pcc9yF1EF6eoULPZ1QkGWv3sWGVYVPkwOYLNohR4IMBoQUm4ZyyWvyexd8vgSU5XELcXZbZ2eWtoMvYiO3blhOuzmAcskPZtPmHB2480WdB_b1bDpvXndf8Jmh7bcuhe7MNtLJ7Q5ZELPAF1v7ZhrETjqoU4J?purpose=fullsize"
+                  ],
+                  "product_ids": null
+                },
+                {
+                  "type": "chat_gpt_products_element",
+                  "product_id": null,
+                  "merchants": null,
+                  "id_to_token_map": null,
+                  "title": "Special edition book collection",
+                  "rating": null,
+                  "price": 40,
+                  "currency": "USD",
+                  "tag": null,
+                  "url": "https://www.barnesandnoble.com/",
+                  "domain": "www.barnesandnoble.com",
+                  "images": [
+                    "https://images.openai.com/static-rsc-4/FWAjE6qJBj2LxjMRQ6qAWbEPG3wZYMbSVLnLunVMpRAwqTU-KHLDy-WfA57sGOjI2XKXiiXaVIHuimj4rY5rWJVC0pQVFCuufsLOvXBCejc5V2_4QmbgU_Y_e8nGDv-UgfVV37EHF96WmOj_gyfOuI5LkzAvw5atPlIp8FCbAOwEL6qJ-anEuaW6knh5Y55D?purpose=fullsize"
+                  ],
+                  "product_ids": null
+                },
+                {
+                  "type": "chat_gpt_products_element",
+                  "product_id": "gid://shopify/p/4wp2nCM284XUA5LsZiwMph",
+                  "merchants": "Kunitsa Co.",
+                  "id_to_token_map": null,
+                  "title": "Reading Journal (Original)",
+                  "rating": null,
+                  "price": 24.95,
+                  "currency": "USD",
+                  "tag": null,
+                  "url": "https://kunitsa.co/products/reading-journal-original?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=39555794108552&utm_source=chatgpt.com",
+                  "domain": "kunitsa.co",
+                  "images": [
+                    "https://images.openai.com/static-rsc-1/uSAAu5SfpEYFxf8CSW0xhrmwlacU4Px4JlskqIK-HeCdB_GlM8S2_1v-av9t8C5Wdzcz1ZgxAoPwkpv-ugn2FmjgDe6rem_DWOTdqXsLNcr6QY4S_KKExiNGmJDYVxVtXc9kSUpVyJcj7aQ5Ki52v687esKfrbA_BOKPczUJGcMKsiCUH6gUSpsOUL2z-8Td7Ylu3HsWUxy9uBimLlTAZ3VQoZOFJvbMxj_ySeYNcL4qYK-dAbHR-jt-efTBOdH7DWAeRPjqXp5i71gC5YMt5-LeryR1S7er7tcxgexvoOQ",
+                    "https://images.openai.com/static-rsc-1/C0zTv5o2D3s852Rn4zyMkZuKmfXqqBzePp98bkad-Wcef-_veon0En7z478pm5SrXmlzZ99Vq4rHmdecNx8jUa01qGzEGYmJj0TQKSS2bbgt9GQ6QW510cBjnPFxw3_No7GNf84k-arlKSup02DUmF4FLSEsrkza0dCCtn-0ihv8PN6VES-24XtvevefSZueMCq0SLspMrlMQj9nCmt0p-P5XWDi1WojsuGZw0AZ_nJl_5jNZkUNXZhZPUuvhlhKQdcITyH_t969gkheQKYZlw",
+                    "https://images.openai.com/static-rsc-1/qpALiAERwESJDViettFT5XMq0O1mq9z5-wgF9AilfQjiq2ihZLB_wuPMxdFu3QDqelhJ6odm2nTvG5QCnn3OHinHyXRqQDSKLTA2Rb64rDwIXNolhxfB1GVwP8Rum-yO5QowEBzEva3CkVPx-X9E_D_-Q2MmlN5jikm6kHM4OuTH7HSPnquYmQnbGO6Z-SQxqy0eg9LeFzjFjCsefCT6W8uSJUyIeE21e8uC56TbDR7_upV_tq6NkzRzE8H2RVkygtSMTWJgk1BuwV6p5xgMwA"
+                  ],
+                  "product_ids": null
+                },
+                {
+                  "type": "chat_gpt_products_element",
+                  "product_id": "gid://shopify/p/4VKTMysTC0qHgGOdSCZvq9",
+                  "merchants": "Barnes & Noble",
+                  "id_to_token_map": null,
+                  "title": "B&N Exclusive Readers Boxed Gift Set",
+                  "rating": null,
+                  "price": 23.99,
+                  "currency": "USD",
+                  "tag": null,
+                  "url": "https://shop.barnesandnoble.com/products/0067103214451?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=46472890417393&utm_source=chatgpt.com",
+                  "domain": "shop.barnesandnoble.com",
+                  "images": [
+                    "https://images.openai.com/static-rsc-1/pTHe9oX2ZxIT6Vc13Ik20kod3EAqC0ut71Fz3BXSRXbs51Bp37z4D7tsI8mfyTaLy_oaCVqVY5yRZODqNeIoIo6mnFw4PTCOJIIRORVW5-QIrb4btthtp0woKY_iaDs0gDhih7fsPOmVSnpzlBxbCQ",
+                    "https://images.openai.com/static-rsc-1/o36dk3MJStpTX3BUEVpV2KQbl31VamauQ_9SJpD6UKmMSqmPPMVsGKfRjWBXIziF2ymR47Z1aigfIbFNYnRc-A8l3_zU3s3Dy3C6cEkTO2k79e-RVsF9Tx126j4ODDjv-q4wd256yHBGdPeEG5UALQ",
+                    "https://images.openai.com/static-rsc-1/LQ6Q1MX_1RrkaJxNazcn-3jzTAcmERUGWhFjx1JLSiQDp_A047mWZM5OuZfI4a-WccbvEJF9c80IYLkoOs9tRs9zWC0QAM2cWiluqxbbSzy5uoePAjRgaw-a_4KpAjJrQo5zYnbaJUJIPe_m7Qt2GA"
+                  ],
+                  "product_ids": null
+                },
+                {
+                  "type": "chat_gpt_products_element",
+                  "product_id": "gid://shopify/p/7lMUrqU97HKitYQ01uYqFm",
+                  "merchants": "Mr. Pen",
+                  "id_to_token_map": null,
+                  "title": "Mr. Pen Annotation Essentials Kit for Book Lovers",
+                  "rating": null,
+                  "price": 25.99,
+                  "currency": "USD",
+                  "tag": null,
+                  "url": "https://mrpen.com/products/annotation-kit-jessica-martin?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=45405406101660&utm_source=chatgpt.com",
+                  "domain": "mrpen.com",
+                  "images": [
+                    "https://images.openai.com/static-rsc-1/K9kukhCeiwXhYk9vCx7hnNx1xWTTUiowf97_rdpK7fL70eV7xuYMhFMKf45TH6rMK0ycvYKqj4bsebll6cKmCRArm-wj0-ROJfKIbGW1HYeTXN5W4NhbD1aBE6bp8YSG9K_7jY4ilvYK7670KRnw3ne8JtamFohHArUDxEoB-A8",
+                    "https://images.openai.com/static-rsc-1/KEhpp7pntqR5j0pFKTBmHtytsmzV-WbxFCqOBYIxLCdhFydAxyO6Vd4gTjC5ZpRXBOG5hyubtyFXf_1PatcdmZb3RPV04wcJ0nJXX-jm_UqJ7ahgbuf4QyU6-iWPNwNJ",
+                    "https://images.openai.com/static-rsc-1/VihPBVCNWrbKHUFFJQJUxbFwLFVrKtUU5o5UJudmQldvlP2WbSq-WiallwZDCmfcylhha0ivWdZ3lTAKFJ1OWOB9wWyU-HgHib56ol0CT50h9cArVi0zHoVS7BvHJUic"
+                  ],
+                  "product_ids": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 12,
+              "rank_absolute": 23,
+              "markdown": "## Let me narrow it down to the perfect gift\\!\n\nWhat's your approximate budget?\n\n**1\\. What's your budget?**\n\nUnder \\$25\n\n\\$25–\\$50\n\n\\$50–\\$100\n\n\\$100–\\$200\n\n\\$200+\n\n---\n\n**2\\. Who is the gift for?**\n\nFemale friend\n\nMale friend\n\nPartner\n\nMom or family member\n\nCoworker\n\n---\n\n**3\\. What kind of gift would you prefer?**\n\nElegant and thoughtful\n\nCute and cozy\n\nUnique and personalized\n\nLuxury and impressive\n\nPractical and useful\n\n[Find my perfect bookish gift]",
+              "sources": null,
+              "brand_entities": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_note": "ChatGPT LLM Scraper, query \"gifts for a book lover\", force_web_search true, US/en. Run 3 of 5 back to back (about 25 s apart). Bauman Rare Books is not cited in any of the 5 runs; the cited sources change almost completely between runs. Captured 2026-11-18 with DataForSEO Live, saved complete and unmodified (see D-039)."
+}

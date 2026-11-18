@@ -1,0 +1,1086 @@
+{
+  "version": "0.1.20261117",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.6245 sec.",
+  "cost": 0.103,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "11181849-2831-0650-0000-6661996cf919",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.5641 sec.",
+      "cost": 0.103,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "llm_mentions",
+        "search_mentions",
+        "live"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "search_mentions",
+        "target": [
+          {
+            "domain": "baumanrarebooks.com",
+            "include_subdomains": true
+          }
+        ],
+        "platform": "chat_gpt",
+        "location_code": 2840,
+        "language_code": "en",
+        "order_by": [
+          "ai_search_volume,desc"
+        ],
+        "limit": 3
+      },
+      "result": [
+        {
+          "total_count": 122,
+          "offset": 0,
+          "search_after_token": "REDACTED",
+          "items_count": 3,
+          "items": [
+            {
+              "platform": "chat_gpt",
+              "model_name": "gpt-5-6",
+              "location_code": 2840,
+              "language_code": "en",
+              "question": "what's the rarest dr. seuss book?",
+              "answer": "If by **“rarest” you mean a collectible Dr. Seuss book that’s genuinely hard to find**, the strongest candidate is:\n\n### 📕 *And to Think That I Saw It on Mulberry Street* (1937)\n\nIt was **Dr. Seuss’s first children’s book**, published by Vanguard Press. A genuine first edition—especially one with its **original dust jacket**—is quite scarce. Rare-book dealers specifically describe it as a “great rarity” and a scarce first edition. [www.baumanrarebooks.com](https://www.baumanrarebooks.com/rare-books/seuss-dr-/and-to-think-that-i-saw-it-on-mulberry-street/79156.aspx?utm_source=chatgpt.com)\n\nCollectors pay particular attention to the **first printing/early issue**. One identifying feature of the earliest version is **Marco wearing white pants** on the cover; later issues changed the pants to blue. [1stedition.net](https://1stedition.net/drseuss.html?utm_source=chatgpt.com)\n\nOther extremely collectible early Seuss books include:\n\n- **The 500 Hats of Bartholomew Cubbins** (1938) — first edition; early copies with the original dust jacket are scarce. [www.christies.com](https://www.christies.com/en/lot/lot-3918786?utm_source=chatgpt.com)[curmudgeonbooksofdenver.com](https://curmudgeonbooksofdenver.com/products/the-pocket-book-of-boners-illustrated-by-dr-seuss?utm_source=chatgpt.com)\n- **The King’s Stilts** (1939) — another valuable early Vanguard title. [1stedition.net](https://1stedition.net/drseuss.html?utm_source=chatgpt.com)\n- **Horton Hatches the Egg** (1940) — also highly collectible in first-edition condition. [www.1stedition.net](https://www.1stedition.net/?pg=%2Fvalues%2Fmostvaluable&utm_source=chatgpt.com)[curmudgeonbooksofdenver.com](https://curmudgeonbooksofdenver.com/products/the-pocket-book-of-boners-illustrated-by-dr-seuss?utm_source=chatgpt.com)\n- **The Pocket Book of Boners** / the earlier *Boners* books — interesting because they contain some of Seuss's earliest published illustrations, although they're a different category from his classic children's books. [curmudgeonbooksofdenver.com](https://curmudgeonbooksofdenver.com/products/the-pocket-book-of-boners-illustrated-by-dr-seuss?utm_source=chatgpt.com)\n\n**If you have an old Dr. Seuss book, tell me the title and publication year (or send me a photo of the cover/title page). I can help determine whether it's a rare first edition and roughly what it's worth.**",
+              "sources": [
+                {
+                  "snippet": null,
+                  "source_name": "Bauman Rare Books",
+                  "thumbnail": null,
+                  "markdown": null,
+                  "rank": 1,
+                  "title": "And to Think That I Saw It on Mulberry Street First Edition - Dr. Seuss - Bauman Rare Books",
+                  "domain": "www.baumanrarebooks.com",
+                  "url": "https://www.baumanrarebooks.com/rare-books/seuss-dr-/and-to-think-that-i-saw-it-on-mulberry-street/79156.aspx?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "snippet": null,
+                  "source_name": "1st Edition",
+                  "thumbnail": null,
+                  "markdown": null,
+                  "rank": 2,
+                  "title": "Collecting, Identifying, and Valuing First Edition Dr. Seuss Books",
+                  "domain": "1stedition.net",
+                  "url": "https://1stedition.net/drseuss.html?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "snippet": null,
+                  "source_name": "Christie's",
+                  "thumbnail": null,
+                  "markdown": null,
+                  "rank": 3,
+                  "title": "SEUSS, Dr. The 500 Hats of Bartholomew Cubbins. New York: The Vanguard Press, 1938. | Christie's",
+                  "domain": "www.christies.com",
+                  "url": "https://www.christies.com/en/lot/lot-3918786?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "snippet": null,
+                  "source_name": "curmudgeonbooksofdenver.com",
+                  "thumbnail": null,
+                  "markdown": null,
+                  "rank": 4,
+                  "title": "The Pocket Book of Boners. Illustrated by Dr. Seuss. – Curmudgeon Books of Denver",
+                  "domain": "curmudgeonbooksofdenver.com",
+                  "url": "https://curmudgeonbooksofdenver.com/products/the-pocket-book-of-boners-illustrated-by-dr-seuss?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "snippet": null,
+                  "source_name": "1st Edition",
+                  "thumbnail": null,
+                  "markdown": null,
+                  "rank": 5,
+                  "title": null,
+                  "domain": "www.1stedition.net",
+                  "url": "https://www.1stedition.net/?pg=%2Fvalues%2Fmostvaluable&utm_source=chatgpt.com",
+                  "publication_date": null
+                }
+              ],
+              "search_results": [
+                {
+                  "description": "SCARCITY INDEX & COLLECTIBILITY INDEX  Image: First Edition Books The Cat In The Hat Performing daily, weekly, and monthly searches for specific first editions over the past 25 years has given me a ce...",
+                  "breadcrumb": "1stedition.net",
+                  "rank": 1,
+                  "title": null,
+                  "domain": "1stedition.net",
+                  "url": "https://1stedition.net/?pg=%2Fvalues%2Fmostvaluable&utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "COMPLETED EBAY CHILDRENS BOOK AUCTIONS  The following is a list of some completed eBay auctions for first edition children's picturebooks. From our experience, the eBay auctions tends toward wholesale...",
+                  "breadcrumb": "1stedition.net",
+                  "rank": 2,
+                  "title": "Collecting, Identifying, and Valuing First Edition Childrens Books",
+                  "domain": "1stedition.net",
+                  "url": "https://1stedition.net/ebaycompletedauctions.html?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "AND TO THINK THAT I SAW IT ON MULBERRY STREET  Dr. SEUSS  Item#: 33555 We're sorry, this item has been sold  Image: And to Think That I Saw It on Mulberry Street  A LANDMARK IN CHILDREN’S LITERATURE:...",
+                  "breadcrumb": "baumanrarebooks.com",
+                  "rank": 3,
+                  "title": "And to Think That I Saw It on Mulberry Street First Edition - Dr. Seuss - Bauman Rare Books",
+                  "domain": "www.baumanrarebooks.com",
+                  "url": "https://www.baumanrarebooks.com/rare-books/seuss-dr-/and-to-think-that-i-saw-it-on-mulberry-street/33555.aspx?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "LOT #36357  |  [Input] [Input] [Input: Jump to Lot] [Input]  Sold on Apr 7, 2011 for: Sign-in or Join (free & quick)  DR. SEUSS. AND TO THINK THAT I SAW IT ON MULBERRY STREET. NEW YORK: THE VANGUARD...",
+                  "breadcrumb": "ha.com",
+                  "rank": 4,
+                  "title": "Dr. Seuss. And to Think That I Saw It on Mulberry Street. New York: | Lot #36357 | Heritage Auctions",
+                  "domain": "historical.ha.com",
+                  "url": "https://historical.ha.com/itm/books/children-s-books/dr-seuss-and-to-think-that-i-saw-it-on-mulberry-street-new-york-the-vanguard-press-1937/a/6053-36357.s?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "6. DR. SEUSS: THE MOST COLLECTED CHILDREN'S AUTHOR  No discussion of children's books worth money can be complete without a thorough examination of Dr. Seuss — the pen name of Theodor Seuss Geisel. Se...",
+                  "breadcrumb": "newmexicoliteracyproject.org",
+                  "rank": 5,
+                  "title": "Children's Books Worth Money — ID Guide (2026)",
+                  "domain": "newmexicoliteracyproject.org",
+                  "url": "https://newmexicoliteracyproject.org/childrens-books-worth-money-guide?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "#7 – AND TO THINK THAT I SAW IT ON MULBERRY STREET BY DR. SEUSS (1937)  👍4👎2  Image: #7 - And to Think That I Saw It on Mulberry Street by Dr. Seuss (1937) (Image Credits: Gemini)#7 – And to Think Tha...",
+                  "breadcrumb": "mums-diary.com",
+                  "rank": 6,
+                  "title": "16 Old Children's Books Worth Checking Before Donating the Family Collection | Mums Diary",
+                  "domain": "mums-diary.com",
+                  "url": "https://mums-diary.com/16-old-childrens-books-worth-checking-before-donating-the-family-collection?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "TOP 10 DR. SEUSS BOOKS WORTH A FORTUNE: WHAT BOOKS ARE ACTUALLY WORTH RESELLING  Leave a Comment / Uncategorized / By Matthew Taylor  By Matt Taylor | Everyday Treasure Hunter  I recently at my uncle...",
+                  "breadcrumb": "everydaytreasurehunters.com",
+                  "rank": 7,
+                  "title": "Top 10 Dr. Seuss Books Worth a Fortune: What Books Sell BIG",
+                  "domain": "everydaytreasurehunters.com",
+                  "url": "https://everydaytreasurehunters.com/top-10-dr-seuss-books-worth-a-fortune-what-books-are-actually-worth-reselling/?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "TO THINK WE SAW IT ON SUTTER STREET  Kuldip Mehta | November 22, 2023  Image  Mulberry Street by Dr. Seuss  On Thursday, November 2nd, PBA Galleries will offer more than 550 lots of Illustrated Books...",
+                  "breadcrumb": "pbagalleries.com",
+                  "rank": 8,
+                  "title": "To Think We Saw It on Sutter Street | PBA Galleries",
+                  "domain": "www.pbagalleries.com",
+                  "url": "https://www.pbagalleries.com/to-think-we-saw-it-on-sutter-street/?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "Image: Picture 1 of 5Image: Picture 2 of 5Image: Picture 3 of 5Image: Picture 4 of 5Image: Picture 5 of 5  THE POCKET BOOK OF BONERS ILUSTRATED BY DR. SEUSS (1961) RARE 1ST EDITION  rust-iowa  (1742)...",
+                  "breadcrumb": "ebay.com",
+                  "rank": 9,
+                  "title": "The Pocket Book Of Boners Ilustrated By Dr. Seuss (1961) Rare 1st Edition | eBay",
+                  "domain": "www.ebay.com",
+                  "url": "https://www.ebay.com/itm/147583004010?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "THE POCKET BOOK OF BONERS  186 results  Including results for the pocket book of bones. Search instead for the pocket book of boners  RESULTS  * Find more like this See all similar items on eBay.  Th...",
+                  "breadcrumb": "ebay.com",
+                  "rank": 10,
+                  "title": "The Pocket Book of Boners | eBay",
+                  "domain": "www.ebay.com",
+                  "url": "https://www.ebay.com/shop/the-pocket-book-of-boners?_nkw=the+pocket+book+of+boners&utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "Image: Picture 1 of 4Image: Picture 2 of 4Image: Picture 3 of 4Image: Picture 4 of 4  PICTURE 1 OF 4  Image: Picture 1 of 4  Image: Picture 2 of 4  Image: Picture 3 of 4  Image: Picture 4 of 4  GALLE...",
+                  "breadcrumb": "ebay.com",
+                  "rank": 11,
+                  "title": "The Pocket Book of Boners Dr. Seuss July 1941 1st Printing Great Condition | eBay",
+                  "domain": "www.ebay.com",
+                  "url": "https://www.ebay.com/itm/326615397930?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "BONERS DR SEUSS  59 results  Brand New  $20.00  or Best Offer  derosnopS  * Shop on eBay  Brand New  $20.00  or Best Offer  derosnopS  RESULTS  * Find more like this See all similar items on eBay.  D...",
+                  "breadcrumb": "ebay.com",
+                  "rank": 12,
+                  "title": "Boners Dr Seuss | eBay",
+                  "domain": "www.ebay.com",
+                  "url": "https://www.ebay.com/shop/boners-dr-seuss?_nkw=boners+dr+seuss&utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "WEDNESDAY, JANUARY 04, 2006  RARE DR. SEUSS  Okay, let’s just get right past the fact that the title of this book, THE POCKET BOOK OF BONERS, makes it sound like something you’d get at the Hustler st...",
+                  "breadcrumb": "booksteveslibrary.blogspot.com",
+                  "rank": 13,
+                  "title": "BOOKSTEVE'S LIBRARY: Rare Dr. Seuss",
+                  "domain": "booksteveslibrary.blogspot.com",
+                  "url": "https://booksteveslibrary.blogspot.com/2006/01/rare-dr-seuss.html?m=0&utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "* Overview * View 1 Edition * Details * Reviews * Lists * Related Books Image  An edition of The Pocket Book of Boners (1961)  THE POCKET BOOK OF BONERS  BY ILLUSTRATED BY DR. SEUSS (TED GEISEL)  * 6...",
+                  "breadcrumb": "openlibrary.org",
+                  "rank": 14,
+                  "title": "The Pocket Book of Boners by Illustrated by Dr. Seuss (Ted Geisel) | Open Library",
+                  "domain": "openlibrary.org",
+                  "url": "https://openlibrary.org/books/OL47765380M/The_Pocket_Book_of_Boners?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "An edition of The Pocket Book of Boners (1961)  THE POCKET BOOK OF BONERS  BY ILLUSTRATED BY DR. SEUSS (TED GEISEL)  * 6 Want to read  The Pocket Book of Boners  Illustrated by Dr. Seuss (Ted ...  Pr...",
+                  "breadcrumb": "openlibrary.org",
+                  "rank": 15,
+                  "title": "The Pocket Book of Boners by Illustrated by Dr. Seuss (Ted Geisel) | Open Library",
+                  "domain": "openlibrary.org",
+                  "url": "https://openlibrary.org/works/OL35349989W/The_Pocket_Book_of_Boners?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "Image: Front cover image for The pocket book of boners : an omnibus of schoolboy howlers and unconscious humor    The pocket book of boners : an omnibus of schoolboy howlers and unconscious humor  Au...",
+                  "breadcrumb": "worldcat.org",
+                  "rank": 16,
+                  "title": "The pocket book of boners : an omnibus of schoolboy howlers and unconscious humor | WorldCat.org",
+                  "domain": "search.worldcat.org",
+                  "url": "https://search.worldcat.org/title/The-pocket-book-of-boners-%3A-an-omnibus-of-schoolboy-howlers-and-unconscious-humor/oclc/3032548?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "Image1941 Readers' League of America printing Author  | Dr. Seuss Cover artist  | Dr. Seuss Country  | United States Language  | English Genre  | Humor Publisher  | The Viking Press Publication date...",
+                  "breadcrumb": "bitter.house",
+                  "rank": 17,
+                  "title": "The Pocket Book of Boners",
+                  "domain": "wiki.bitter.house",
+                  "url": "https://wiki.bitter.house/content/wikipedia_en_all_maxi_2024-01/A/The_Pocket_Book_of_Boners?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "THE POCKET BOOK OF BONERS  The Pocket Book of Boners is a book illustrated by Theodor Seuss Geisel (Dr. Seuss), originally published as four separate books in 1931–32 by The Viking Press. In 1941, Rea...",
+                  "breadcrumb": "thechonk.zone",
+                  "rank": 18,
+                  "title": "The Pocket Book of Boners",
+                  "domain": "wiki.thechonk.zone",
+                  "url": "https://wiki.thechonk.zone/content/wikipedia_en_all_maxi_2022-05/A/The_Pocket_Book_of_Boners?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "THE POCKET BOOK OF BONERS EXPLAINED  The Pocket Book of Boners Author:  | Dr. Seuss Cover Artist:  | Dr. Seuss Country:  | United States Language:  | English Genre:  | Humor Publisher:  | The Viking...",
+                  "breadcrumb": "explained.today",
+                  "rank": 19,
+                  "title": "The Pocket Book of Boners explained",
+                  "domain": "everything.explained.today",
+                  "url": "https://everything.explained.today/The_Pocket_Book_of_Boners/?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "THE RAREST & MOST EXPENSIVE DR. SEUSS BOOKS—HOW FIRST EDITIONS & ARTIFACTS FETCH SIX FIGURES  Networth • 2026-09-07 • 2,422 words • rare books Dr. Seuss collectibles first edition values literary auc...",
+                  "breadcrumb": "actiontec.com",
+                  "rank": 20,
+                  "title": "The Rarest & Most Expensive Dr. Seuss Books—How First Editions & Artifacts Fetch Six Figures — Networth News",
+                  "domain": "optout.actiontec.com",
+                  "url": "https://optout.actiontec.com/article/the-rarest-most-expensive-dr-seuss-books-how-first-editions-artifacts-fetch-six-figures?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "THE HIDDEN FORTUNE: RARE DR SEUSS BOOKS THAT ARE WORTH MONEY TODAY  Networth • Sep 10, 2026 • 3,017 words • collectible books rare children's literature vintage Dr Seuss book valuation literary colle...",
+                  "breadcrumb": "musicplay.ca",
+                  "rank": 21,
+                  "title": "The Hidden Fortune: Rare Dr Seuss Books That Are Worth Money Today — Networth Zone",
+                  "domain": "auth.musicplay.ca",
+                  "url": "https://auth.musicplay.ca/article/the-hidden-fortune-rare-dr-seuss-books-that-are-worth-money-today?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "THE MOST EXPENSIVE DR. SEUSS BOOKS: RARITY, AUCTION RECORDS, AND HIDDEN TREASURES  Networth • 2026-08-28 • 2,322 words • rare books Dr. Seuss collectibles book auctions literary antiques vintage chil...",
+                  "breadcrumb": "inbestia.com",
+                  "rank": 22,
+                  "title": "The Most Expensive Dr. Seuss Books: Rarity, Auction Records, and Hidden Treasures — Networth Information",
+                  "domain": "inbestia.com",
+                  "url": "https://inbestia.com/article/the-most-expensive-dr-seuss-books-rarity-auction-records-and-hidden-treasures?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "THE MOST VALUABLE DR. SEUSS BOOK: BEYOND WHIMSY, A LITERARY TREASURE  Networth • 2026-08-28 • 2,705 words • Dr. Seuss rare books children's literature value collectible Seuss editions literary invest...",
+                  "breadcrumb": "inbestia.com",
+                  "rank": 23,
+                  "title": "The Most Valuable Dr. Seuss Book: Beyond Whimsy, a Literary Treasure — Networth Information",
+                  "domain": "inbestia.com",
+                  "url": "https://inbestia.com/article/the-most-valuable-dr-seuss-book-beyond-whimsy-a-literary-treasure?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "THE MOST VALUABLE DR. SEUSS BOOK: WHY ONE TITLE OUTSHINES THE REST  Networth • 2026-07-03 • 2,140 words • Dr. Seuss rare books vintage children's literature book collecting literary value Seuss first...",
+                  "breadcrumb": "adquadrant.com",
+                  "rank": 24,
+                  "title": "The Most Valuable Dr. Seuss Book: Why One Title Outshines the Rest — Networth Area",
+                  "domain": "zeus.adquadrant.com",
+                  "url": "https://zeus.adquadrant.com/article/the-most-valuable-dr-seuss-book-why-one-title-outshines-the-rest?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "BEYOND THE RHYMES: THE MOST VALUABLE DR. SEUSS BOOKS YOU’RE OVERLOOKING  Networth • 2026-07-10 • 2,774 words • classic literature children’s books Dr. Seuss analysis rare book collecting literary val...",
+                  "breadcrumb": "adquadrant.com",
+                  "rank": 25,
+                  "title": "Beyond the Rhymes: The Most Valuable Dr. Seuss Books You’re Overlooking — Networth Area",
+                  "domain": "zeus.adquadrant.com",
+                  "url": "https://zeus.adquadrant.com/article/beyond-the-rhymes-the-most-valuable-dr-seuss-books-you-re-overlooking?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "ARTUNDERWRAPS  Annotated Reference Guide to Collectible Books and Original Prints  DR SEUSS ANNOTATED BIBLIOGRAPHY & SELECTED COLLECTIBLE BOOKS  There is sometimes a lot of confusion in the book colle...",
+                  "breadcrumb": "artunderwraps.com",
+                  "rank": 26,
+                  "title": "Dr Seuss: Research and Buy First Editions, Limited Editions, Signed, Rare, Antiquarian and Collectible Books",
+                  "domain": "artunderwraps.com",
+                  "url": "https://artunderwraps.com/Dr-Seuss.html?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "Rate this book  Clear rating  1 of 5 stars2 of 5 stars3 of 5 stars4 of 5 stars5 of 5 stars  progress:    (70%) — Mar 06, 2023 05:40AM  | Mar 06, 2023 05:40AM   WEDAEI’S QUOTES  “So many books, so lit...",
+                  "breadcrumb": "goodreads.com",
+                  "rank": 27,
+                  "title": "Wedaei - Manama, 16, Bahrain (140 books)",
+                  "domain": "www.goodreads.com",
+                  "url": "https://www.goodreads.com/user/show/146698888-wedaei?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "KS9  Sort by [Select]  This is the complete collection containing all books  My First Hindi Readers (Set of 5 books) - Paperback Rs. 995.00  The Search for Indiaâ€™s Rarest Birds - Paperback Rs. 499....",
+                  "breadcrumb": "koolskoolbookstore.com",
+                  "rank": 28,
+                  "title": "KS9",
+                  "domain": "koolskoolbookstore.com",
+                  "url": "https://koolskoolbookstore.com/collections/no-discount?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "Image: Dr. Seuss`s ABC (Hardcover) Image: Dr. Seuss`s ABC (Hardcover)  Closed  DR. SEUSS`S ABC (HARDCOVER)  Secondhand 1 was available  R35.00  0% off  [Input] [Input] [Input]  Shipping  R65.00 Stand...",
+                  "breadcrumb": "bobshop.co.za",
+                  "rank": 29,
+                  "title": "Picture Books - Dr. Seuss`s ABC (Hardcover) was listed for 35.00 on 27 Aug at 20:01 by Epiphany on main in Cape Town (ID:649848719)",
+                  "domain": "www.bobshop.co.za",
+                  "url": "https://www.bobshop.co.za/dr-seuss-s-abc-hardcover/p/649848719?utm_source=chatgpt.com",
+                  "publication_date": null
+                }
+              ],
+              "ai_search_volume": 1405,
+              "monthly_searches": [
+                {
+                  "year": 2026,
+                  "month": 9,
+                  "search_volume": 1405
+                },
+                {
+                  "year": 2026,
+                  "month": 8,
+                  "search_volume": 1242
+                },
+                {
+                  "year": 2026,
+                  "month": 7,
+                  "search_volume": 1440
+                },
+                {
+                  "year": 2026,
+                  "month": 6,
+                  "search_volume": 1059
+                },
+                {
+                  "year": 2026,
+                  "month": 5,
+                  "search_volume": 756
+                },
+                {
+                  "year": 2026,
+                  "month": 4,
+                  "search_volume": 4
+                }
+              ],
+              "first_response_at": "2026-06-12 02:02:54 +00:00",
+              "last_response_at": "2026-10-02 11:07:26 +00:00",
+              "brand_entities": null,
+              "fan_out_queries": [
+                "rarest Dr. Seuss book rare first editions And to Think That I Saw It on Mulberry Street auction rarest",
+                "\"rarest\" \"Dr. Seuss\" book",
+                "\"The Pocket Book of Boners\" Dr Seuss rare first edition"
+              ],
+              "is_web_search_based": true
+            },
+            {
+              "platform": "chat_gpt",
+              "model_name": "gpt-6",
+              "location_code": 2840,
+              "language_code": "en",
+              "question": "which nancy drew book is considered the rarest?",
+              "answer": "The Nancy Drew book most often considered the rarest is **The Secret of the Old Clock \\(1930), specifically the true first printing with its original first-printing dust jacket.** It is the first book in the Nancy Drew series, and collectors consider it a holy grail of Nancy Drew collecting. [myvolumes.com](https://myvolumes.com/guides/nancy-drew-first-editions/?utm_source=chatgpt.com)[www.ndsleuths.com](https://www.ndsleuths.com/thesleuth_aug05pg12.pdf?utm_source=chatgpt.com)[natedsandersauctionblog.com](https://natedsandersauctionblog.com/nancy-drew-secret-of-the-old-clock-1st-edition/?utm_source=chatgpt.com)\n\n![The Secret of the Old Clock by Carolyn Keene (first edition, 1930) | Nancy drew books, Nancy drew mystery stories, Nancy drew mysteries](https://images.openai.com/static-rsc-4/-Lhx_lDCBh2c-F2yuP6-U4QulWmzozOsagk2kPsYpbRib0AevnVoWO3GOHii0GFsU3ylgqtz6kJAqyBHF_RABQFnAEQYr4OxWnTtJwSah2UJyE4gSZHXyOvdLoCnZprfa-w0EXl7qnmRK-ZgWCosJk7-AR_0s69hNUM4DQbVk8lJ-zrmt5vwrWtV3NQ9a87-?purpose=fullsize)![Nancy Drew Mystery Stories: The Secret of the Old Clock | Carolyn Keene | first](https://images.openai.com/static-rsc-4/r1H43_ov4Qjm-Gdxj1IKxUAcQD_s-uqcNWJcZPGhA6dBNNvXJy2BA-xHK9hpHwsFyUywgVf6BckUx_kM4P1Rr3r2uifLLEd4CvpikKRYsDqGhqxXlzF3okaBRfUXMG28xqtxjX0ecns4qB2X3sOU60aLSEBcXPofhS5Vn_ZXgJHKpKsrP8KJ7xyEI-D3r40H?purpose=fullsize)![Nancy Drew Mystery Stories: The Secret of the Old Clock | CSUN University Library](https://images.openai.com/static-rsc-4/r2fu3SOf7HlTsznRdf9f60GboBv1I2N6ZNAIhsh8xXJU03mxSMY9vwZrj-mDUZ0rxZfmbhV35kUcDxZKQiJq8-OkNK3z-6JCEtCpyYcukriI4RIrkArj_KBvDuJ8GJ5T9_ExNd3_aOMnhIkmpwRfmzEBZju580d5cRQrL4NWLJQg6KH-7pJ3jWxIVSFo5MIB?purpose=fullsize)![The Secret of the Old Clock\nby Keene, Carolyn |\nHardcover |\n1930 |\nGrosset & Dunlap |\nBiblio](https://images.openai.com/static-rsc-4/o1CFQ-roXetj83gU8_faSlktsEiEppvR6luGx_knjaadbtb2oYbSVNhFD3AVgo5Xj9td6yfLpy_bGZ8fSdJlUg7BCw0eAyi72qfKj5OyEZpn6K2mCCl-NsJHHnA1FTLIzVdgPEGwd-g48P4sgtmgNBSHrMjkQMM-luQE8aHt2CwWquyPzJcqtDRhy6M2zYeZ?purpose=fullsize)![Vintage 1930 Nancy Drew The Secret of the Old Clock Early Edition Carolyn Keene | eBay](https://images.openai.com/static-rsc-4/4kPXTEK4I3jnoTzuKSBQ8SdxE5llkEFo9ROsNkmQEIMn6_A-f0iIzeRyDCNxnBw7lvRRWiQgDz2a6vZdy4YS9Ym9ltdZhWeb06UuMDj04gByJN8OyeiGQYUK0TWiHtvNQJhhw_amWz8j-u-w3JcjAf3GJm6kXCoixdbNd2oMYuxLQzxxfj6PrxEJEowhBTpd?purpose=fullsize)![Series Books for Girls: The 13th 1930A-1 Nancy Drew Old Clock Dust Jacket](https://images.openai.com/static-rsc-4/eMxplp472kNeKVQfJZSqZed5FGgZeAWfadXqmY-hZFJ9iKaKlSzHdZNka4TrWxMNS8S1okIEkNIgMjpjjNR4GCSNFw-zcFpdNymMxAc0We6SvjSShqyem6UqqX850cKX59kqUDGQmP6zpzzC5JEEIV0Eyi2JAyqOJDenQjcHwXORz3-LeE5k7NOqU4CT23dJ?purpose=fullsize)![Nancy Drew Mystery Stories: The Secret of the Old Clock by Keene, Carolyn: very good hardcover (1930) first. | Bookbid](https://images.openai.com/static-rsc-4/nrTzCs_wqS5YdUq4bgo58Vm3yrej4NMkq4U85l0g9IlGIxK0VEu0h7HtDnpDC_ibeeYHNgjmu63F11PE_pfKXGvVrTPVXbfGSpcGzUlEkqAIdkTtLUf8RR4OjxY9eDeWnPimyiiAHgg3K6pG8enZA-rjrIdI-VUB-8VIK6M5bLtyqET8CHNsWArxItWAOwrJ?purpose=fullsize)\n\n## What makes it so rare?\n\n- **Extremely few surviving copies\\:** Collector records reported roughly 8–13 known examples of the first-printing dust jacket at different points in time. [myvolumes.com](https://myvolumes.com/guides/nancy-drew-first-editions/?utm_source=chatgpt.com)[www.ndsleuths.com](https://www.ndsleuths.com/thesleuth_aug05pg12.pdf?utm_source=chatgpt.com)[natedsandersauctionblog.com](https://natedsandersauctionblog.com/nancy-drew-secret-of-the-old-clock-1st-edition/?utm_source=chatgpt.com)[exhibitions.lib.umd.edu](https://exhibitions.lib.umd.edu/nancy/nancy-drews-legacy/collecting-nancy-drew?utm_source=chatgpt.com)\n- **A very specific dust jacket\\:** The original jacket's front flap lists only the first three Nancy Drew titles, ending with *The Bungalow Mystery*\\.\n- **Distinctive physical features\\:** The first printing has blank endpapers, blue cloth boards, and a white-spined dust jacket without Nancy's familiar orange silhouette.\n- **High collector value\\:** Auction records include a sale for \\$4,350 for a first-printing copy with its original jacket. Condition and authenticity matter enormously. [myvolumes.com](https://myvolumes.com/guides/nancy-drew-first-editions/?utm_source=chatgpt.com)[www.ndsleuths.com](https://www.ndsleuths.com/thesleuth_aug05pg12.pdf?utm_source=chatgpt.com)[natedsandersauctionblog.com](https://natedsandersauctionblog.com/nancy-drew-secret-of-the-old-clock-1st-edition/?utm_source=chatgpt.com)[exhibitions.lib.umd.edu](https://exhibitions.lib.umd.edu/nancy/nancy-drews-legacy/collecting-nancy-drew?utm_source=chatgpt.com)\n\n## Are there other exceptionally rare Nancy Drew books?\n\nTwo other collectible examples worth knowing about are\\:\n\n- Nancy's Mysterious Letter — its earliest first printing is exceptionally difficult to find. [series-books.blogspot.com](https://series-books.blogspot.com/2011/09/ten-rarest-nancy-drew-books-and.html?utm_source=chatgpt.com)\n- The Clue in the Diary — its early first-edition printing is highly sought after. [www.baumanrarebooks.com](https://www.baumanrarebooks.com/catalogues/january2026.pdf?utm_source=chatgpt.com)[www.series-books.com](https://www.series-books.com/nancydrew/values2.html?utm_source=chatgpt.com)\n\n**One important distinction\\:** A regular 1930 edition of *The Secret of the Old Clock* is not necessarily extremely rare. The real treasure is the authenticated first printing with the correct original dust jacket.\n\nIf you have an old Nancy Drew book, the copyright page, endpapers, cover, and dust jacket can help determine whether you have a genuinely rare collectible.",
+              "sources": [
+                {
+                  "snippet": null,
+                  "source_name": "MyVolumes",
+                  "thumbnail": null,
+                  "markdown": null,
+                  "rank": 1,
+                  "title": "Nancy Drew First Editions: How to Tell Them",
+                  "domain": "myvolumes.com",
+                  "url": "https://myvolumes.com/guides/nancy-drew-first-editions/?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "snippet": null,
+                  "source_name": "ndsleuths.com",
+                  "thumbnail": null,
+                  "markdown": null,
+                  "rank": 2,
+                  "title": "Collectible of the Month: First Printing,",
+                  "domain": "www.ndsleuths.com",
+                  "url": "https://www.ndsleuths.com/thesleuth_aug05pg12.pdf?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "snippet": null,
+                  "source_name": "natedsandersauctionblog.com",
+                  "thumbnail": null,
+                  "markdown": null,
+                  "rank": 3,
+                  "title": "Sell Nancy Drew Secret of the Old Clock 1st Edition at Auction",
+                  "domain": "natedsandersauctionblog.com",
+                  "url": "https://natedsandersauctionblog.com/nancy-drew-secret-of-the-old-clock-1st-edition/?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "snippet": null,
+                  "source_name": "Nancy Drew and Friends",
+                  "thumbnail": null,
+                  "markdown": null,
+                  "rank": 4,
+                  "title": "Collecting Nancy Drew",
+                  "domain": "exhibitions.lib.umd.edu",
+                  "url": "https://exhibitions.lib.umd.edu/nancy/nancy-drews-legacy/collecting-nancy-drew?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "snippet": null,
+                  "source_name": "series-books.blogspot.com",
+                  "thumbnail": null,
+                  "markdown": null,
+                  "rank": 5,
+                  "title": "Series Books for Girls: Ten Rarest Nancy Drew Books and Collectibles",
+                  "domain": "series-books.blogspot.com",
+                  "url": "https://series-books.blogspot.com/2011/09/ten-rarest-nancy-drew-books-and.html?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "snippet": null,
+                  "source_name": "Bauman Rare Books",
+                  "thumbnail": null,
+                  "markdown": null,
+                  "rank": 6,
+                  "title": "Bauman Rare Books",
+                  "domain": "www.baumanrarebooks.com",
+                  "url": "https://www.baumanrarebooks.com/catalogues/january2026.pdf?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "snippet": null,
+                  "source_name": "Values and Collecting Tips",
+                  "thumbnail": null,
+                  "markdown": null,
+                  "rank": 7,
+                  "title": "Nancy Drew",
+                  "domain": "www.series-books.com",
+                  "url": "https://www.series-books.com/nancydrew/values2.html?utm_source=chatgpt.com",
+                  "publication_date": null
+                }
+              ],
+              "search_results": [
+                {
+                  "description": "NANCY DREW FIRST EDITIONS: HOW TO TELL A 1930 FIRST PRINTING  By Harriet Ellis, MyVolumes editor · 10 min read  IN SHORT  A Nancy Drew first edition is a Grosset & Dunlap hardback whose lists stop at...",
+                  "breadcrumb": "myvolumes.com",
+                  "rank": 1,
+                  "title": "Nancy Drew First Editions: How to Tell Them | MyVolumes",
+                  "domain": "myvolumes.com",
+                  "url": "https://myvolumes.com/guides/nancy-drew-first-editions/?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "COLLECTING NANCY DREW  Once scorned literature rejected by many, the classic Nancy Drew books have now become prized collector’s items. This page exemplifies the many physical differences in covers,...",
+                  "breadcrumb": "umd.edu",
+                  "rank": 2,
+                  "title": "Collecting Nancy Drew | Nancy Drew and Friends",
+                  "domain": "exhibitions.lib.umd.edu",
+                  "url": "https://exhibitions.lib.umd.edu/nancy/nancy-drews-legacy/collecting-nancy-drew?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "RARE and Not-So-RARE Nancy Drew Books There are very few Nancy Drew books that actually are RARE. 1930-1932 Blank Endpapers Editions Image  | These books are highly scarce and would come closest to be...",
+                  "breadcrumb": "series-books.com",
+                  "rank": 3,
+                  "title": "Nancy Drew - Values and Collecting Tips",
+                  "domain": "www.series-books.com",
+                  "url": "https://www.series-books.com/nancydrew/values2.html?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "THE SECRET OF THE OLD CLOCK  THE SECRET OF THE OLD CLOCK, WAS FIRST PUBLISHED IN THE REGULAR NANCY DREW® SERIES--IN 1930. BY 1959, IT HAD BEEN REVISED BY HARRIET ADAMS AND THE CAMEO VERSION IS THE RE...",
+                  "breadcrumb": "nancydrewsleuth.com",
+                  "rank": 4,
+                  "title": "Nancy Drew® Library: Cameo Editions",
+                  "domain": "www.nancydrewsleuth.com",
+                  "url": "https://www.nancydrewsleuth.com/cameo1.html?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "2. Beware of the Copyright Red Herring. Just because the book has a 1930 copyright, doesn't mean it's a printing from 1930. Some sellers do not realize this. One way to help you figure out the general...",
+                  "breadcrumb": "nancydrewsleuth.com",
+                  "rank": 5,
+                  "title": "Collecting Nancy Drew®",
+                  "domain": "www.nancydrewsleuth.com",
+                  "url": "https://www.nancydrewsleuth.com/collect.html?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "VALUABLE VINTAGE NANCY DREW BOOKS & THE CLUES TO FINDING THEM  Mystery solved. These are the most valuable Nancy Drew books and what they're worth.  By Megan Cooper  Megan Cooper  Megan's contributed...",
+                  "breadcrumb": "lovetoknow.com",
+                  "rank": 6,
+                  "title": "Valuable Vintage Nancy Drew Books & the Clues to Finding Them",
+                  "domain": "www.lovetoknow.com",
+                  "url": "https://www.lovetoknow.com/home/antiques-collectibles/valuable-vintage-nancy-drew-books-clues-finding-them?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "We sold a true Nancy Drew Secret of the Old Clock 1st Edition for $4,350, which can be seen below.  True First Edition, First Printing of Carolyn Keene’s “Nancy Drew Mystery Stories: The Secret of th...",
+                  "breadcrumb": "natedsandersauctionblog.com",
+                  "rank": 7,
+                  "title": "Sell Nancy Drew Secret of the Old Clock 1st Edition at Auction",
+                  "domain": "natedsandersauctionblog.com",
+                  "url": "https://natedsandersauctionblog.com/nancy-drew-secret-of-the-old-clock-1st-edition/?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "NANCY DREW & THE SECRET OF THE OLD CLOCK'' FIRST EDITION  Currency:USD Category:Collectibles Start Price:1,000.00 USD Estimated At:NA  * NOT SOLD (BIDDING OVER) 0.00 USD+ applicable fees & taxes....",
+                  "breadcrumb": "icollector.com",
+                  "rank": 8,
+                  "title": "Nancy Drew & The Secret of the Old Clock'' First Edition",
+                  "domain": "www.icollector.com",
+                  "url": "https://www.icollector.com/Nancy-Drew-The-Secret-of-the-Old-Clock-First-Edition_i10374848?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "THE SECRET OF THE OLD CLOCK (BOOK)  Sign In to Save Save Edit  * History * Purge * Talk (0)  iframe  This page is for book. For the video game of the same name, see Secret of the Old Clock (video gam...",
+                  "breadcrumb": "fandom.com",
+                  "rank": 9,
+                  "title": "The Secret of the Old Clock (book) | Nancy Drew Wiki | Fandom",
+                  "domain": "nancydrew.fandom.com",
+                  "url": "https://nancydrew.fandom.com/wiki/The_Secret_of_the_Old_Clock_%28book%29?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "As always, buyer beware. Do your homework before jumping in. Book: The Secret at Shadow Ranch--Format 1/1st Printing Book Why it's NOT Rare: While it is a format one and could be a first printing book...",
+                  "breadcrumb": "nancydrewsleuths.blogspot.com",
+                  "rank": 10,
+                  "title": "Nancy Drew Sleuth: January 2011",
+                  "domain": "nancydrewsleuths.blogspot.com",
+                  "url": "https://nancydrewsleuths.blogspot.com/2011/01/?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "Nancy Drew Canister Puzzle Courtesy of www.nancydrewsleuth.com The boxed versions of the Nancy Drew and Hardy Boys puzzles from the late 1970s are findable, but the canister versions are extremely elu...",
+                  "breadcrumb": "series-books.blogspot.com",
+                  "rank": 11,
+                  "title": "Series Books for Girls: Ten Rarest Nancy Drew Books and Collectibles",
+                  "domain": "series-books.blogspot.com",
+                  "url": "https://series-books.blogspot.com/2011/09/ten-rarest-nancy-drew-books-and.html?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "“About 90 percent of my collection I got via eBay in the mid-2000s — which was the heyday of finding classic Nancy Drew stuff. I’m glad I started collecting when I did. You can find some nice things...",
+                  "breadcrumb": "antiquetrader.com",
+                  "rank": 12,
+                  "title": "Confessions of a Nancy Drew collector - Antique Trader",
+                  "domain": "www.antiquetrader.com",
+                  "url": "https://www.antiquetrader.com/features/confessions-of-a-nancy-drew-collector?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "WHERE TO FIND ORIGIONAL NANCY DREW BOOKS?  Asked by: Mr. Dr. Silvana Koch B.Eng. | Last update: August 10, 2021  star rating: 4.4/5 (25 ratings)  The first Nancy Drew book, 1930's The Secret of the O...",
+                  "breadcrumb": "cocafish.com",
+                  "rank": 13,
+                  "title": "Where To Find Origional Nancy Drew Books - Cocafish",
+                  "domain": "www.cocafish.com",
+                  "url": "https://www.cocafish.com/wiki/where-to-find-origional-nancy-drew-books?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "WHAT YEAR WAS THE FIRST HARDY BOYS BOOK?  Hardy Boys, fictional brothers Frank and Joe Hardy, the teenage protagonists of a series of American juvenile mystery novels first published in 1927.  WHICH...",
+                  "breadcrumb": "cocafish.com",
+                  "rank": 14,
+                  "title": "How To Find The Value Of Old Hardy Boys Books - Cocafish",
+                  "domain": "www.cocafish.com",
+                  "url": "https://www.cocafish.com/wiki/how-to-find-the-value-of-old-hardy-boys-books?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "1.   2. # Nancy Drew #7 The Clue In The Diary 1932A-1 TRUE 1ST PRINTING ULTRA RARE FORMAT 1 BOOK W/ORIGINAL DUST JACKET - HIGH GRADE WITH ALL 4 GLOSSY INTERNALS. Este artículo no está disponible.Nanc...",
+                  "breadcrumb": "iberlibro.com",
+                  "rank": 15,
+                  "title": "Nancy Drew #7 The Clue In The Diary 1932A-1 TRUE 1ST PRINTING ULTRA RARE FORMAT 1 BOOK W/ORIGINAL DUST JACKET - HIGH GRADE WITH ALL 4 GLOSSY INTERNALS de Carolyn Keene: Near Fine Hardcover (1932) 1st Edition | Far North Collectible Books",
+                  "domain": "www.iberlibro.com",
+                  "url": "https://www.iberlibro.com/primera-edicion/Nancy-Drew-Clue-Diary-1932A-1-TRUE/32125388219/bd?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "The twenty-two (US) Wanderer imprint titles were produced between 1979 and 1985, after which the main Nancy Drew Mystery Stories went on a short hiatus. During this time, Simon & Schuster began publi...",
+                  "breadcrumb": "newikis.com",
+                  "rank": 16,
+                  "title": "Nancy Drew Mystery Stories",
+                  "domain": "newikis.com",
+                  "url": "https://newikis.com/en/Nancy_Drew_Mystery_Stories?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "NANCY DREW HARDCOVER BOOKS: ARE THEY WORTH A FORTUNE?  * by Chu Dung * 02/07/2024  Image: Nancy Drew Hardcover Books: Are They Worth A Fortune?  ARE NANCY DREW BOOKS WORTH ANY MONEY?  The most collect...",
+                  "breadcrumb": "activegaliano.org",
+                  "rank": 17,
+                  "title": "Nancy Drew Hardcover Books: Are They Worth A Fortune? - Activegaliano.org",
+                  "domain": "activegaliano.org",
+                  "url": "https://activegaliano.org/nancy-drew-hardcover-books-are-they-worth-a-fortune-543/?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "NANCY DREW #7 THE CLUE IN THE DIARY 1932A-1 TRUE 1ST PRINTING ULTRA RARE FORMAT 1 BOOK W/ORIGINAL DUST JACKET - HIGH GRADE WITH ALL 4 GLOSSY INTERNALS  CAROLYN KEENE  Published by Grosset & Dunlap, 1...",
+                  "breadcrumb": "abebooks.com",
+                  "rank": 18,
+                  "title": "Nancy Drew #7 The Clue In The Diary 1932A-1 TRUE 1ST PRINTING ULTRA RARE FORMAT 1 BOOK W/ORIGINAL DUST JACKET - HIGH GRADE WITH ALL 4 GLOSSY INTERNALS by Carolyn Keene: Near Fine Hardcover (1932) 1st Edition | Far North Collectible Books",
+                  "domain": "www.abebooks.com",
+                  "url": "https://www.abebooks.com/first-edition/Nancy-Drew-Clue-Diary-1932A-1-TRUE/32125388219/bd?msockid=06a101ffff7d6612359f17b4fe54678a&utm_source=chatgpt.com",
+                  "publication_date": null
+                }
+              ],
+              "ai_search_volume": 283,
+              "monthly_searches": [
+                {
+                  "year": 2026,
+                  "month": 9,
+                  "search_volume": 283
+                },
+                {
+                  "year": 2026,
+                  "month": 8,
+                  "search_volume": 92
+                }
+              ],
+              "first_response_at": "2026-10-28 18:52:41 +00:00",
+              "last_response_at": "2026-10-28 18:52:41 +00:00",
+              "brand_entities": [
+                {
+                  "rank": 1,
+                  "title": "1930 first Nancy Drew mystery by Carolyn Keene",
+                  "category": "book"
+                },
+                {
+                  "rank": 2,
+                  "title": "Nancy Drew mystery number 8, 1932",
+                  "category": "book"
+                },
+                {
+                  "rank": 3,
+                  "title": "Nancy Drew mystery number 7, 1932",
+                  "category": "book"
+                }
+              ],
+              "fan_out_queries": [
+                "rarest Nancy Drew book first edition rarest collectible volume",
+                "Nancy Drew rarest book The Secret of the Old Clock first edition dust jacket rare books"
+              ],
+              "is_web_search_based": true
+            },
+            {
+              "platform": "chat_gpt",
+              "model_name": "gpt-5-6",
+              "location_code": 2840,
+              "language_code": "en",
+              "question": "what is the rarest dr. seuss book?",
+              "answer": "If you mean **the rarest collectible Dr. Seuss book**, the strongest candidate is **_And to Think That I Saw It on Mulberry Street_ (1937), especially a true first printing/first issue**.\n\n- 📕 **_And to Think That I Saw It on Mulberry Street_ (1937)** was Seuss’s **first children’s book** and is described by rare-book dealers as “extremely scarce” or a “great rarity.” [www.baumanrarebooks.com](https://www.baumanrarebooks.com/rare-books/seuss-dr-/and-to-think-that-i-saw-it-on-mulberry-street/33555.aspx?utm_source=chatgpt.com)\n- The **true first issue** is particularly desirable because the boy, Marco, appears wearing **white shorts**. Later issues have blue shorts. [1stedition.net](https://1stedition.net/drseuss.html?utm_source=chatgpt.com)\n- A first edition **with its original dust jacket** can be worth **around $12,000 in very-good-plus condition**, according to a specialist collecting guide; exceptional copies can command substantially more. [1stedition.net](https://1stedition.net/drseuss.html?utm_source=chatgpt.com)\n- A rare-book dealer currently describes a first-edition copy as “incredibly scarce,” with one listed at **$1,995 without the dust jacket**. [www.abaa.org](https://www.abaa.org/book/1565484058?utm_source=chatgpt.com)\n\nAnother extremely scarce early title is **_The 500 Hats of Bartholomew Cubbins_ (1938)**. Its first edition is also difficult to find, and specialist valuations put a VG+ copy with jacket around **$9,000**. [1stedition.net](https://1stedition.net/drseuss.html?utm_source=chatgpt.com)\n\n**If you have a Dr. Seuss book and want to know whether it's rare/valuable, send me a photo of the cover and copyright page.** I can identify the edition/printing and give you an approximate collector value.",
+              "sources": [
+                {
+                  "snippet": null,
+                  "source_name": "Bauman Rare Books",
+                  "thumbnail": null,
+                  "markdown": null,
+                  "rank": 1,
+                  "title": "And to Think That I Saw It on Mulberry Street First Edition - Dr. Seuss - Bauman Rare Books",
+                  "domain": "www.baumanrarebooks.com",
+                  "url": "https://www.baumanrarebooks.com/rare-books/seuss-dr-/and-to-think-that-i-saw-it-on-mulberry-street/33555.aspx?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "snippet": null,
+                  "source_name": "1st Edition",
+                  "thumbnail": null,
+                  "markdown": null,
+                  "rank": 2,
+                  "title": "Collecting, Identifying, and Valuing First Edition Dr. Seuss Books",
+                  "domain": "1stedition.net",
+                  "url": "https://1stedition.net/drseuss.html?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "snippet": null,
+                  "source_name": "ABAA",
+                  "thumbnail": null,
+                  "markdown": null,
+                  "rank": 3,
+                  "title": "And To Think That I Saw It on Mulberry Street by Dr. Seuss | Search for Rare Books | ABAA",
+                  "domain": "www.abaa.org",
+                  "url": "https://www.abaa.org/book/1565484058?utm_source=chatgpt.com",
+                  "publication_date": null
+                }
+              ],
+              "search_results": [
+                {
+                  "description": "Image: SEUSS, Dr. The 500 Hats of Bartholomew Cubbins. New York: The Vanguard Press, 1938.  SEUSS, Dr. The 500 Hats of Bartholomew Cubbins. New York: The Vanguard Press, 1938.  Details  SEUSS, Dr. The...",
+                  "breadcrumb": "christies.com",
+                  "rank": 1,
+                  "title": "SEUSS, Dr. The 500 Hats of Bartholomew Cubbins. New York: The Vanguard Press, 1938. | Christie's",
+                  "domain": "www.christies.com",
+                  "url": "https://www.christies.com/en/lot/lot-3918786?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "AND TO THINK THAT I SAW IT ON MULBERRY STREET  Dr. SEUSS  Item#: 79156 We're sorry, this item has been sold  Image: And to Think That I Saw It on Mulberry Street  A GREAT RARITY OF CHILDREN’S LITERAT...",
+                  "breadcrumb": "baumanrarebooks.com",
+                  "rank": 2,
+                  "title": "And to Think That I Saw It on Mulberry Street First Edition - Dr. Seuss - Bauman Rare Books",
+                  "domain": "www.baumanrarebooks.com",
+                  "url": "https://www.baumanrarebooks.com/rare-books/seuss-dr-/and-to-think-that-i-saw-it-on-mulberry-street/79156.aspx?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "Harold And The Purple Crayon is difficult to find, as are the Smith and Haas Babar books.  The early Seuss books are also difficult to find in collectible, first edition state. The first edition Dr. S...",
+                  "breadcrumb": "1stedition.net",
+                  "rank": 3,
+                  "title": null,
+                  "domain": "www.1stedition.net",
+                  "url": "https://www.1stedition.net/?pg=%2Fvalues%2Fmostvaluable&utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "HORTON HEARS A WHO! (1954)  January 21, 2007 by Stan Zielinski  DR. SEUSS FIRST EDITION IDENTIFICATION  Horton Hears A Who; written and illustrated by Theodor Seuss Geisel (a.k.a. Dr. Seuss); Random...",
+                  "breadcrumb": "1stedition.net",
+                  "rank": 4,
+                  "title": "Horton Hears A Who! (1954) - Collecting First Edition Children's Books",
+                  "domain": "1stedition.net",
+                  "url": "https://1stedition.net/blog/2007/horton-hears-a-who-1954/?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "Harold And The Purple Crayon is difficult to find, as are the Smith and Haas Babar books.  The early Seuss books are also difficult to find in collectible, first edition state. The first edition Dr. S...",
+                  "breadcrumb": "1stedition.net",
+                  "rank": 5,
+                  "title": null,
+                  "domain": "1stedition.net",
+                  "url": "https://1stedition.net/?pg=%2Fvalues%2Fmostvaluable&utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "Image  Image  Image: Item #41418 And To Think That I Saw It On Mulberry Street. SEUSS Dr.  SEUSS, DR. AND TO THINK THAT I SAW IT ON MULBERRY STREET. NEW YORK: THE VANGUARD PRESS, 1937.  First Edition...",
+                  "breadcrumb": "yesterdaysgallery.com",
+                  "rank": 6,
+                  "title": "And To Think That I Saw It On Mulberry Street | SEUSS Dr",
+                  "domain": "www.yesterdaysgallery.com",
+                  "url": "https://www.yesterdaysgallery.com/pages/books/41418/seuss-dr/and-to-think-that-i-saw-it-on-mulberry-street?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "COLLECTORS CORNER: DR. SEUSS  October 14, 2017October 14, 2017 Michele Alice  Image: Collectors Corner  Image: Collectors CornerBy the early 1950s, parents, educators, and publishers had become conce...",
+                  "breadcrumb": "ecommercebytes.com",
+                  "rank": 7,
+                  "title": "Collectors Corner: Dr. Seuss - EcommerceBytes",
+                  "domain": "www.ecommercebytes.com",
+                  "url": "https://www.ecommercebytes.com/2017/10/14/collectors-corner-dr-seuss/?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "MULBERRY STREET: 1937, FIRST EDITION (15 RESULTS)  Title:  mulberry street  Keywords:  1937   Sort by: Relevance Sort by...  * Image  And to Think That I Saw It on Mulberry Street  Dr. Seuss  Languag...",
+                  "breadcrumb": "abebooks.com",
+                  "rank": 8,
+                  "title": "Mulberry Street, 1937, First Edition – AbeBooks",
+                  "domain": "www.abebooks.com",
+                  "url": "https://www.abebooks.com/book-search/title/mulberry-street/kw/1937/first-edition/?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "MULBERRY STREET BY SEUSS: 1937, FIRST EDITION (16 RESULTS)  Author:  seuss  Title:  mulberry street  Keywords:  1937  Refine with Advanced Search  Sort by: Highest Price Sort by...  [Input]  [Input]...",
+                  "breadcrumb": "abebooks.com",
+                  "rank": 9,
+                  "title": "Mulberry Street by Seuss, 1937, First Edition – AbeBooks",
+                  "domain": "www.abebooks.com",
+                  "url": "https://www.abebooks.com/servlet/SearchResults?an=seuss&fe=on&kn=1937&sortby=1&tn=mulberry+street&utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "DR SEUSS THE POCKET BOOK OF BONERS (6 RESULTS)  Keywords:  dr seuss the pocket book of boners  Refine with Advanced Search  Sort by: Relevance Sort by...  [Input]  [Input]  Search within these result...",
+                  "breadcrumb": "abebooks.com",
+                  "rank": 10,
+                  "title": "Dr Seuss the Pocket Book of Boners – AbeBooks",
+                  "domain": "www.abebooks.com",
+                  "url": "https://www.abebooks.com/book-search/kw/dr-seuss-the-pocket-book-of-boners/?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "Image: The Seven Lady Godivas: Dr. Seuss  THE SEVEN LADY GODIVAS  DR. SEUSS  Published by Random House, New York, 1939  Condition: Used - Fine Hardcover  Sold by Hirschfeld Galleries, Saint Louis, MO...",
+                  "breadcrumb": "abebooks.com",
+                  "rank": 11,
+                  "title": "The Seven Lady Godivas by Dr. Seuss: Fine Hardcover (1939) 1st Edition | Hirschfeld Galleries",
+                  "domain": "www.abebooks.com",
+                  "url": "https://www.abebooks.com/first-edition/Seven-Lady-Godivas-Dr-Seuss-Random/19028599689/bd?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "Show less Show more  * Image  THE SEVEN LADY GODIVAS.  Seuss, Dr.  Published by Random House: NY, 1939  * Hardcover * First Edition  Seller: John K King Used & Rare Books, Detroit, MI, U.S.A.John K Ki...",
+                  "breadcrumb": "abebooks.com",
+                  "rank": 12,
+                  "title": "Seven Lady Godivas by Seuss, First Edition – AbeBooks",
+                  "domain": "www.abebooks.com",
+                  "url": "https://www.abebooks.com/servlet/SearchResults?an=seuss&ds=30&dym=off&fe=on&rollup=off&sortby=17&tn=seven+lady+godivas&utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "THE POCKET BOOK OF BONERS  186 results  Including results for the pocket book of bones. Search instead for the pocket book of boners  RESULTS  * Find more like this See all similar items on eBay.  Th...",
+                  "breadcrumb": "ebay.com",
+                  "rank": 13,
+                  "title": "The Pocket Book of Boners | eBay",
+                  "domain": "www.ebay.com",
+                  "url": "https://www.ebay.com/shop/the-pocket-book-of-boners?_nkw=the+pocket+book+of+boners&utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "BONERS DR SEUSS  59 results  Brand New  $20.00  or Best Offer  derosnopS  * Shop on eBay  Brand New  $20.00  or Best Offer  derosnopS  RESULTS  * Find more like this See all similar items on eBay.  D...",
+                  "breadcrumb": "ebay.com",
+                  "rank": 14,
+                  "title": "Boners Dr Seuss | eBay",
+                  "domain": "www.ebay.com",
+                  "url": "https://www.ebay.com/shop/boners-dr-seuss?_nkw=boners+dr+seuss&utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "Image: Picture 1 of 7Image: Picture 2 of 7Image: Picture 3 of 7Image: Picture 4 of 7Image: Picture 5 of 7Image: Picture 6 of 7  PICTURE 1 OF 7  Image: Picture 1 of 7  Image: Picture 2 of 7  Image: Pi...",
+                  "breadcrumb": "ebay.com",
+                  "rank": 15,
+                  "title": "The Pocket Book of Boners - Dr Seuss (1943 17th Pocket pb #110, Humor, RARE, VG) | eBay",
+                  "domain": "www.ebay.com",
+                  "url": "https://www.ebay.com/itm/236774952264?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "Image: Picture 1 of 5Image: Picture 2 of 5Image: Picture 3 of 5Image: Picture 4 of 5Image: Picture 5 of 5  THE POCKET BOOK OF BONERS ILUSTRATED BY DR. SEUSS (1961) RARE 1ST EDITION  rust-iowa  (1742)...",
+                  "breadcrumb": "ebay.com",
+                  "rank": 16,
+                  "title": "The Pocket Book Of Boners Ilustrated By Dr. Seuss (1961) Rare 1st Edition | eBay",
+                  "domain": "www.ebay.com",
+                  "url": "https://www.ebay.com/itm/147583004010?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "SHOP ON EBAY  $479.99  Free shipping  2⁣Ѕ⁣p⁣J⁣ ⁣H⁣V⁣ ⁣o⁣n⁣5⁣L⁣s⁣ ⁣6⁣o⁣r⁣O⁣ ⁣B⁣e⁣V⁣d⁣⁣ ⁣⁣⁣⁣  * Image: eBay item  SHOP ON EBAY  $479.99  Free shipping  ⁣H⁣E⁣⁣⁣⁣ ⁣⁣0⁣6⁣ ⁣⁣⁣⁣⁣A⁣⁣Y⁣ ⁣V⁣C⁣⁣⁣ ⁣F⁣⁣P⁣ ⁣  *...",
+                  "breadcrumb": "ebay.com",
+                  "rank": 17,
+                  "title": "Dr. Seuss Humor 1900-1949 Antiquarian & Collectible Books for sale | eBay",
+                  "domain": "www.ebay.com",
+                  "url": "https://www.ebay.com/b/Dr-Seuss-Humor-1900-1949-Antiquarian-Collectible-Books/29223/bn_106157537?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "Image: Picture 1 of 18Image: Picture 2 of 18Image: Picture 3 of 18Image: Picture 4 of 18Image: Picture 5 of 18Image: Picture 6 of 18  PICTURE 1 OF 18  Image: Picture 1 of 18  Image: Picture 2 of 18...",
+                  "breadcrumb": "ebay.com",
+                  "rank": 18,
+                  "title": "Vintage 1944 The Pocket Book Of Boners Dr. Seuss Rare Illustrated Paperback SC | eBay",
+                  "domain": "www.ebay.com",
+                  "url": "https://www.ebay.com/itm/257482404718?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "SHOP ON EBAY  $479.99  Free shipping  * Image: eBay item  SHOP ON EBAY  $479.99  Free shipping  *     *     *     *     * Dr. Seuss Pocket Book of Boners first printing PB - Acceptable  $40.00  Free s...",
+                  "breadcrumb": "ebay.com",
+                  "rank": 19,
+                  "title": "Dr. Seuss Humor Antiquarian & Collectible Books for sale | eBay",
+                  "domain": "www.ebay.com",
+                  "url": "https://www.ebay.com/b/Dr-Seuss-Humor-Antiquarian-Collectible-Books/29223/bn_84949732?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "Image: The Pocket Book of Boners. Illustrated by Dr. Seuss.  Image: The Pocket Book of Boners. Illustrated by Dr. Seuss.  *   *   *   *   *   * # The Pocket Book of Boners. Illustrated by Dr. Seuss....",
+                  "breadcrumb": "curmudgeonbooksofdenver.com",
+                  "rank": 20,
+                  "title": "The Pocket Book of Boners. Illustrated by Dr. Seuss. – Curmudgeon Books of Denver",
+                  "domain": "curmudgeonbooksofdenver.com",
+                  "url": "https://curmudgeonbooksofdenver.com/products/the-pocket-book-of-boners-illustrated-by-dr-seuss?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "WEDNESDAY, JANUARY 04, 2006  RARE DR. SEUSS  Okay, let’s just get right past the fact that the title of this book, THE POCKET BOOK OF BONERS, makes it sound like something you’d get at the Hustler st...",
+                  "breadcrumb": "booksteveslibrary.blogspot.com",
+                  "rank": 21,
+                  "title": "BOOKSTEVE'S LIBRARY: Rare Dr. Seuss",
+                  "domain": "booksteveslibrary.blogspot.com",
+                  "url": "https://booksteveslibrary.blogspot.com/2006/01/rare-dr-seuss.html?m=0&utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "Image: Front cover image for The pocket book of boners : an omnibus of schoolboy howlers and unconscious humor    The pocket book of boners : an omnibus of schoolboy howlers and unconscious humor  Au...",
+                  "breadcrumb": "worldcat.org",
+                  "rank": 22,
+                  "title": "The pocket book of boners : an omnibus of schoolboy howlers and unconscious humor | WorldCat.org",
+                  "domain": "search.worldcat.org",
+                  "url": "https://search.worldcat.org/title/The-pocket-book-of-boners-%3A-an-omnibus-of-schoolboy-howlers-and-unconscious-humor/oclc/3032548?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "Richter Conrad  | The Sea of Grass  | Pocket Book  | f  | 1947  | 1st  |  | 413 Rigsby Howard  | Murder for the Holidays  | Pocket Book  | vg  | 1952  | 1st  |  | 907 Rinehart Mary Roberts  | The Albu...",
+                  "breadcrumb": "notinheckmondwikebookshop.com",
+                  "rank": 23,
+                  "title": "Pocket Books – Not in Heckmondwike Book Shop",
+                  "domain": "notinheckmondwikebookshop.com",
+                  "url": "https://notinheckmondwikebookshop.com/2023/12/20/pocket-books/?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "THE RAREST & MOST EXPENSIVE DR. SEUSS BOOKS—HOW FIRST EDITIONS & ARTIFACTS FETCH SIX FIGURES  Networth • 2026-09-07 • 2,422 words • rare books Dr. Seuss collectibles first edition values literary auc...",
+                  "breadcrumb": "actiontec.com",
+                  "rank": 24,
+                  "title": "The Rarest & Most Expensive Dr. Seuss Books—How First Editions & Artifacts Fetch Six Figures — Networth News",
+                  "domain": "optout.actiontec.com",
+                  "url": "https://optout.actiontec.com/article/the-rarest-most-expensive-dr-seuss-books-how-first-editions-artifacts-fetch-six-figures?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "3. HOW TO IDENTIFY FIRST EDITIONS OF CHILDREN'S BOOKS  Identifying first editions of children's books requires publisher-specific knowledge. Each house had its own conventions, and those conventions c...",
+                  "breadcrumb": "newmexicoliteracyproject.org",
+                  "rank": 25,
+                  "title": "Children's Books Worth Money — ID Guide (2026)",
+                  "domain": "newmexicoliteracyproject.org",
+                  "url": "https://newmexicoliteracyproject.org/childrens-books-worth-money-guide?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "ARTUNDERWRAPS  Annotated Reference Guide to Collectible Books and Original Prints  DR SEUSS ANNOTATED BIBLIOGRAPHY & SELECTED COLLECTIBLE BOOKS  There is sometimes a lot of confusion in the book colle...",
+                  "breadcrumb": "artunderwraps.com",
+                  "rank": 26,
+                  "title": "Dr Seuss: Research and Buy First Editions, Limited Editions, Signed, Rare, Antiquarian and Collectible Books",
+                  "domain": "artunderwraps.com",
+                  "url": "https://artunderwraps.com/Dr-Seuss.html?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "THE HIDDEN FORTUNE: RARE DR SEUSS BOOKS THAT ARE WORTH MONEY TODAY  Networth • Sep 10, 2026 • 3,017 words • collectible books rare children's literature vintage Dr Seuss book valuation literary colle...",
+                  "breadcrumb": "musicplay.ca",
+                  "rank": 27,
+                  "title": "The Hidden Fortune: Rare Dr Seuss Books That Are Worth Money Today — Networth Zone",
+                  "domain": "auth.musicplay.ca",
+                  "url": "https://auth.musicplay.ca/article/the-hidden-fortune-rare-dr-seuss-books-that-are-worth-money-today?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "BEYOND THE RHYMES: THE MOST VALUABLE DR. SEUSS BOOKS YOU’RE OVERLOOKING  Networth • 2026-07-10 • 2,774 words • classic literature children’s books Dr. Seuss analysis rare book collecting literary val...",
+                  "breadcrumb": "adquadrant.com",
+                  "rank": 28,
+                  "title": "Beyond the Rhymes: The Most Valuable Dr. Seuss Books You’re Overlooking — Networth Area",
+                  "domain": "zeus.adquadrant.com",
+                  "url": "https://zeus.adquadrant.com/article/beyond-the-rhymes-the-most-valuable-dr-seuss-books-you-re-overlooking?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "THE MOST VALUABLE DR. SEUSS BOOK: WHY ONE TITLE OUTSHINES THE REST  Networth • 2026-07-03 • 2,140 words • Dr. Seuss rare books vintage children's literature book collecting literary value Seuss first...",
+                  "breadcrumb": "adquadrant.com",
+                  "rank": 29,
+                  "title": "The Most Valuable Dr. Seuss Book: Why One Title Outshines the Rest — Networth Area",
+                  "domain": "zeus.adquadrant.com",
+                  "url": "https://zeus.adquadrant.com/article/the-most-valuable-dr-seuss-book-why-one-title-outshines-the-rest?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "Oblong quarto. [40] pages. Illustrated in color by the author. Original green cloth-backed pictorial boards, patterned endpapers, dust jacket. Jacket slightly toned, with some rubbing and minor wear,...",
+                  "breadcrumb": "scribd.com",
+                  "rank": 30,
+                  "title": "Heritage Auctions Rare Books Auction 6064 Beverly Hills California | PDF | Bookbinding | Pony Express",
+                  "domain": "www.scribd.com",
+                  "url": "https://www.scribd.com/document/79619330/Heritage-Auctions-Rare-Books-Auction-6064-Beverly-Hills-California?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "THE MOST EXPENSIVE DR. SEUSS BOOKS: RARITY, AUCTION RECORDS, AND HIDDEN TREASURES  Networth • 2026-08-28 • 2,322 words • rare books Dr. Seuss collectibles book auctions literary antiques vintage chil...",
+                  "breadcrumb": "inbestia.com",
+                  "rank": 31,
+                  "title": "The Most Expensive Dr. Seuss Books: Rarity, Auction Records, and Hidden Treasures — Networth Information",
+                  "domain": "inbestia.com",
+                  "url": "https://inbestia.com/article/the-most-expensive-dr-seuss-books-rarity-auction-records-and-hidden-treasures?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "THE MOST VALUABLE DR. SEUSS BOOK: BEYOND WHIMSY, A LITERARY TREASURE  Networth • 2026-08-28 • 2,705 words • Dr. Seuss rare books children's literature value collectible Seuss editions literary invest...",
+                  "breadcrumb": "inbestia.com",
+                  "rank": 32,
+                  "title": "The Most Valuable Dr. Seuss Book: Beyond Whimsy, a Literary Treasure — Networth Information",
+                  "domain": "inbestia.com",
+                  "url": "https://inbestia.com/article/the-most-valuable-dr-seuss-book-beyond-whimsy-a-literary-treasure?utm_source=chatgpt.com",
+                  "publication_date": null
+                },
+                {
+                  "description": "> ### What are the most valuable Dr. Seuss books in 2026? > > The most valuable Dr. Seuss book is a first edition of And to Think That I Saw It on Mulberry Street (1937), which can fetch over $12,000...",
+                  "breadcrumb": "everydaytreasurehunters.com",
+                  "rank": 33,
+                  "title": "Top 10 Dr. Seuss Books Worth a Fortune: What Books Sell BIG",
+                  "domain": "everydaytreasurehunters.com",
+                  "url": "https://everydaytreasurehunters.com/top-10-dr-seuss-books-worth-a-fortune-what-books-are-actually-worth-reselling/?utm_source=chatgpt.com",
+                  "publication_date": null
+                }
+              ],
+              "ai_search_volume": 277,
+              "monthly_searches": [
+                {
+                  "year": 2026,
+                  "month": 9,
+                  "search_volume": 277
+                },
+                {
+                  "year": 2026,
+                  "month": 8,
+                  "search_volume": 62
+                },
+                {
+                  "year": 2026,
+                  "month": 7,
+                  "search_volume": 19
+                },
+                {
+                  "year": 2026,
+                  "month": 6,
+                  "search_volume": 1
+                }
+              ],
+              "first_response_at": "2026-08-30 06:54:19 +00:00",
+              "last_response_at": "2026-10-02 22:15:34 +00:00",
+              "brand_entities": null,
+              "fan_out_queries": [
+                "rarest Dr. Seuss book rarest first edition And to Think That I Saw It on Mulberry Street prices rare books",
+                "\"rarest\" \"Dr. Seuss\" book rare first edition",
+                "Dr Seuss rare books \"The Pocket Book of Boners\" rare"
+              ],
+              "is_web_search_based": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_note": "LLM Mentions for baumanrarebooks.com (include_subdomains) on platform chat_gpt, US/en, ordered by ai_search_volume desc, limit 3. 122 ChatGPT answers mention the domain in total, but the top rows are about rare Dr. Seuss / Nancy Drew books, not the gift queries where Google AI Overviews cite Bauman. search_after_token redacted (it embeds an account id). Captured 2026-11-18 with DataForSEO Live, saved complete and unmodified (see D-039)."
+}
