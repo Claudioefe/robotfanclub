@@ -1,0 +1,24 @@
+{
+  "_note": "Sintético. Misma forma que la respuesta de https://chromeuxreport.googleapis.com/v1/records:queryHistoryRecord (documentación oficial): serie semanal, periodos faltantes como null en p75s y \"NaN\" en densities. No son datos reales.",
+  "record": {
+    "key": { "formFactor": "PHONE", "origin": "https://www.example.com" },
+    "metrics": {
+      "interaction_to_next_paint": {
+        "histogramTimeseries": [
+          { "start": 0, "end": 200, "densities": [0.62, 0.64, "NaN", 0.74, 0.78] },
+          { "start": 200, "end": 500, "densities": [0.28, 0.27, "NaN", 0.2, 0.17] },
+          { "start": 500, "densities": [0.1, 0.09, "NaN", 0.06, 0.05] }
+        ],
+        "percentilesTimeseries": { "p75s": [296, 289, null, 214, 188] }
+      }
+    },
+    "collectionPeriods": [
+      { "firstDate": { "year": 2026, "month": 9, "day": 20 }, "lastDate": { "year": 2026, "month": 10, "day": 17 } },
+      { "firstDate": { "year": 2026, "month": 9, "day": 27 }, "lastDate": { "year": 2026, "month": 10, "day": 24 } },
+      { "firstDate": { "year": 2026, "month": 10, "day": 4 }, "lastDate": { "year": 2026, "month": 10, "day": 31 } },
+      { "firstDate": { "year": 2026, "month": 10, "day": 11 }, "lastDate": { "year": 2026, "month": 11, "day": 7 } },
+      { "firstDate": { "year": 2026, "month": 10, "day": 18 }, "lastDate": { "year": 2026, "month": 11, "day": 14 } }
+    ]
+  },
+  "urlNormalizationDetails": { "originalUrl": "https://www.example.com", "normalizedUrl": "https://www.example.com" }
+}

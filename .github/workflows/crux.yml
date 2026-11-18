@@ -1,0 +1,58 @@
+name: CrUX
+
+# Nightly read of Google's Chrome UX Report (mobile INP, 28-day windows). Google updates the data around 04:00 UTC,
+# two days behind, so this runs at 06:00 UTC. The SLA's window readings depend on this running every day.
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "dry-run uses fixtures and sandbox clients. live calls Google's API (free, needs CRUX_API_KEY)."
+        type: choice
+        options: [dry-run, live]
+        default: dry-run
+      backfill:
+        description: "Read the weekly history (up to 40 periods) instead of the current window. Run once when a client is added."
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: crux
+  cancel-in-progress: false
+
+env:
+  # Scheduled runs are dry-run until the repository variable CRUX_LIVE_ENABLED is "yes".
+  MODE: ${{ inputs.mode || (vars.CRUX_LIVE_ENABLED == 'yes' && 'live' || 'dry-run') }}
+  BACKFILL: ${{ inputs.backfill && '--backfill' || '' }}
+
+jobs:
+  crux:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+
+      - name: Run CrUX job (dry-run)
+        if: env.MODE != 'live'
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+        run: node jobs/crux/cli.ts --mode dry-run
+
+      # A failed live run ends red so GitHub notifies the owner. "No data" for a site is not a failure.
+      - name: Run CrUX job (live)
+        if: env.MODE == 'live'
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+          CRUX_API_KEY: ${{ secrets.CRUX_API_KEY }}
+        run: node jobs/crux/cli.ts --mode live $BACKFILL

@@ -37,3 +37,9 @@
 - Verified: validator, handler, snippet↔endpoint contract (runs the snippet's real code) and database integration tests; real HTTP test on the production build (preflight, beacon with and without www, foreign origin, unknown client, invalid body, attribution).
 - **Real test done (2026-11-18):** from `efedigital.com.ar` on a phone, LCP from 4 pages, one CLS and a **40 ms INP** (a tap on the menu button on `/cotizador/`) arrived with attribution through ngrok. The Speed view shows them. A low-sample notice was added (fewer than 50 interactions in 28 days).
 - Pending: remove the snippet from the site and close ngrok when done; real portal deploy in a separate Netlify account.
+
+## Phase 5 — CrUX (2026-11-18)
+- Nightly job `jobs/crux/` (parsers for `queryRecord` and `queryHistoryRecord`, fixture and live sources, idempotent orchestrator, Supabase store, CLI), `crux_targets` table, GitHub Actions workflow at 06:00 UTC and the `add-crux-target` and `crux:*` scripts (D-031).
+- Speed view: CrUX history, per-URL reading, each SLA window's value and a CrUX fallback for clients without the snippet. Explicit notice that CrUX is global, not only US.
+- Verified: 149 tests (parsers on fixtures shaped as Google documents them, orchestrator, stubbed requests that never leak the key, and database integration); idempotent dry-run (1 new row, then 0 on the second run).
+- **Pending:** first real test with the API key (Google answered 403 `PERMISSION_DENIED` with the current key: the API needs enabling or the key's restrictions adjusting); load Bauman Rare Books (`demo`) and backfill; GitHub secret `CRUX_API_KEY` and variable `CRUX_LIVE_ENABLED`.

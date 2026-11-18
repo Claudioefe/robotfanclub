@@ -14,7 +14,11 @@
     "seed:demo": "node --env-file=.env.local scripts/seed-demo.mjs",
     "grant-access": "node --env-file=.env.local scripts/grant-access.mjs",
     "watcher:dry-run": "node --env-file=.env.local jobs/watcher/cli.ts --mode dry-run",
-    "create-client": "node --env-file=.env.local scripts/create-client.mjs"
+    "create-client": "node --env-file=.env.local scripts/create-client.mjs",
+    "crux:dry-run": "node --env-file=.env.local jobs/crux/cli.ts --mode dry-run",
+    "crux:live": "node --env-file=.env.local jobs/crux/cli.ts --mode live",
+    "crux:backfill": "node --env-file=.env.local jobs/crux/cli.ts --mode live --backfill",
+    "add-crux-target": "node --env-file=.env.local scripts/add-crux-target.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.7",

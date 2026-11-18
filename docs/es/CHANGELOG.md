@@ -37,3 +37,9 @@
 - Verificado: tests del validador, del handler, del contrato snippet↔endpoint (ejecuta el código real del snippet) y de integración con la base; prueba HTTP real sobre el build de producción (preflight, beacon con y sin www, origen ajeno, cliente inexistente, cuerpo inválido, atribución).
 - **Prueba real hecha (2026-11-18):** desde `efedigital.com.ar` en un móvil llegaron LCP de 4 páginas, un CLS y un **INP de 40 ms** (toque en el botón del menú de `/cotizador/`), con atribución, a través de ngrok. La vista Speed los muestra. Se agregó un aviso de muestra baja (menos de 50 interacciones en 28 días).
 - Pendiente: sacar el snippet del sitio y cerrar ngrok al terminar; deploy real del portal en una cuenta de Netlify aparte.
+
+## Fase 5 — CrUX (2026-11-18)
+- Job nocturno `jobs/crux/` (parser de `queryRecord` y `queryHistoryRecord`, fuentes fixture y live, orquestador idempotente, store de Supabase, CLI), tabla `crux_targets`, workflow de GitHub Actions a las 06:00 UTC y scripts `add-crux-target` y `crux:*` (D-031).
+- Vista Speed: historial de CrUX, lectura por URL, valor de cada ventana del SLA y respaldo con CrUX para clientes sin snippet. Aviso explícito de que CrUX es global, no solo EE. UU.
+- Verificado: 149 tests (parser sobre fixtures con la forma documentada por Google, orquestador, requests simulados sin filtrar la key, e integración con la base); dry-run idempotente (1 fila nueva y 0 en la segunda corrida).
+- **Pendiente:** primera prueba real con la API key (Google respondió 403 `PERMISSION_DENIED` con la key actual: falta habilitar la API o ajustar restricciones de la key); cargar a Bauman Rare Books (`demo`) y hacer el backfill; secrets de GitHub (`CRUX_API_KEY`) y variable `CRUX_LIVE_ENABLED`.

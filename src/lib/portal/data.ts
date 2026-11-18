@@ -203,13 +203,43 @@ export interface TagScript {
   isRequired: boolean;
 }
 
+export interface CruxPoint {
+  periodEnd: string;
+  inpMs: number;
+  goodShare: number | null;
+}
+
+/** Google's field data (CrUX): the origin's history, and the latest reading of each URL we track. */
+export interface CruxData {
+  origin: { target: string; points: CruxPoint[] } | null;
+  urls: { target: string; periodEnd: string; inpMs: number; goodShare: number | null }[];
+}
+
 export interface SpeedData {
   client: ClientRow;
   headline: { p75: number; interactions: number } | null;
   templates: { template: string; p75: number; interactions: number }[];
   daily: { day: string; p75: number }[];
-  cruxReadings: { periodEnd: string; inpMs: number | null }[];
+  crux: CruxData;
   scripts: TagScript[];
+}
+
+function buildCrux(rows: { scope: string; target: string; period_end: string; inp_p75_ms: number | null; inp_good_share: number | null }[]): CruxData {
+  const byTarget = new Map<string, CruxPoint[]>();
+  const urls = new Map<string, CruxData["urls"][number]>();
+  for (const r of rows) {
+    if (r.inp_p75_ms === null) continue;
+    const point = { periodEnd: r.period_end, inpMs: r.inp_p75_ms, goodShare: r.inp_good_share === null ? null : Number(r.inp_good_share) };
+    if (r.scope === "origin") byTarget.set(r.target, [...(byTarget.get(r.target) ?? []), point]);
+    else if (!urls.has(r.target) || urls.get(r.target)!.periodEnd < r.period_end) urls.set(r.target, { target: r.target, ...point });
+  }
+  // If several origins are tracked (www and apex), show the one with the most recent data.
+  let origin: CruxData["origin"] = null;
+  for (const [target, pts] of byTarget) {
+    const points = pts.sort((a, b) => a.periodEnd.localeCompare(b.periodEnd));
+    if (!origin || points[points.length - 1].periodEnd > origin.points[origin.points.length - 1].periodEnd) origin = { target, points };
+  }
+  return { origin, urls: [...urls.values()].sort((a, b) => a.target.localeCompare(b.target)) };
 }
 
 export async function getSpeed(client: ClientRow): Promise<SpeedData> {
@@ -220,11 +250,11 @@ export async function getSpeed(client: ClientRow): Promise<SpeedData> {
     sb.from("inp_p75_daily").select("day, p75").eq("client_id", client.id).order("day", { ascending: true }),
     sb
       .from("crux_history")
-      .select("period_end, inp_p75_ms")
+      .select("scope, target, period_end, inp_p75_ms, inp_good_share")
       .eq("client_id", client.id)
-      .eq("scope", "origin")
+      .eq("form_factor", "PHONE")
       .order("period_end", { ascending: false })
-      .limit(4),
+      .limit(400),
     sb.from("tag_bouncer_scripts").select("id, label, script_host, blocking_ms, action, is_required").eq("client_id", client.id).order("blocking_ms", { ascending: false }),
   ]);
 
@@ -233,7 +263,7 @@ export async function getSpeed(client: ClientRow): Promise<SpeedData> {
     headline: overall.data ? { p75: Number(overall.data.p75), interactions: Number(overall.data.interactions) } : null,
     templates: (templates.data ?? []).map((t) => ({ template: t.url_template as string, p75: Number(t.p75), interactions: Number(t.interactions) })),
     daily: (daily.data ?? []).map((d) => ({ day: d.day as string, p75: Number(d.p75) })),
-    cruxReadings: (crux.data ?? []).map((c) => ({ periodEnd: c.period_end as string, inpMs: c.inp_p75_ms as number | null })),
+    crux: buildCrux((crux.data ?? []) as Parameters<typeof buildCrux>[0]),
     scripts: (tags.data ?? []).map((t) => ({
       id: t.id as number,
       label: (t.label as string | null) ?? (t.script_host as string),

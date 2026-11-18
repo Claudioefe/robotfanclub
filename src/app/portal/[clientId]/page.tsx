@@ -86,8 +86,13 @@ export default async function Overview({ params }: PageProps<"/portal/[clientId]
                 </>
               )}
             </>
+          ) : speed.crux.origin ? (
+            <p className="mt-1.5">
+              <strong>{speed.crux.origin.points[speed.crux.origin.points.length - 1].inpMs} ms</strong> against a {SLA.inpGoalMs} ms goal, from
+              Google’s field data (28 days to {fmtDate(speed.crux.origin.points[speed.crux.origin.points.length - 1].periodEnd)}).
+            </p>
           ) : (
-            <p className="mt-1.5 text-muted">No real-visitor data yet.</p>
+            <p className="mt-1.5 text-muted">No speed data yet.</p>
           )}
           <p className="mt-1.5 text-sm">
             <Link href={`/portal/${client.id}/speed`}>See speed details</Link>

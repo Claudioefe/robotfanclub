@@ -96,11 +96,15 @@ async function seedSpeed(sb, must) {
     blocking_ms: t.ms, action: t.action, is_required: Boolean(t.required), excluded_from_sla: Boolean(t.required),
   }))));
 
-  // Pre-sprint CrUX reading (the 28 days that ended the day before the deploy).
-  must("crux", await sb.from("crux_history").upsert({
+  // CrUX history for the demo: weekly 28-day windows, flat at ~296 ms before the sprint (Oct 26), then improving.
+  const ends = ["2026-09-05", "2026-09-12", "2026-09-19", "2026-09-26", "2026-10-03", "2026-10-10", "2026-10-17", "2026-10-24", "2026-10-31", "2026-11-07", "2026-11-14"];
+  const p75s = [296, 298, 294, 297, 295, 293, 291, 290, 276, 249, 226];
+  const day = (iso, n) => new Date(Date.parse(iso) + n * 864e5).toISOString().slice(0, 10);
+  must("clear crux", await sb.from("crux_history").delete().eq("client_id", DEMO_CLIENT_ID));
+  must("crux", await sb.from("crux_history").insert(ends.map((end, i) => ({
     client_id: DEMO_CLIENT_ID, scope: "origin", target: "https://northwindsec.com", form_factor: "PHONE",
-    period_start: "2026-09-28", period_end: "2026-10-25", inp_p75_ms: INP_BEFORE,
-  }, { onConflict: "client_id,scope,target,form_factor,period_end" }));
+    period_start: day(end, -27), period_end: end, inp_p75_ms: p75s[i], inp_good_share: Number((0.55 + i * 0.019).toFixed(4)),
+  }))));
 }
 
 // Fixture Sandbox: the only client the dry-run watcher writes to. Its queries match tests/fixtures, and its window
@@ -114,6 +118,9 @@ async function seedSandbox(sb, must) {
   }));
   must("sandbox clear checks", await sb.from("aio_checks").delete().eq("client_id", SANDBOX_CLIENT_ID));
   must("sandbox clear sets", await sb.from("query_sets").delete().eq("client_id", SANDBOX_CLIENT_ID));
+  must("sandbox crux history", await sb.from("crux_history").delete().eq("client_id", SANDBOX_CLIENT_ID));
+  must("sandbox crux targets clear", await sb.from("crux_targets").delete().eq("client_id", SANDBOX_CLIENT_ID));
+  must("sandbox crux target", await sb.from("crux_targets").insert({ client_id: SANDBOX_CLIENT_ID, scope: "origin", target: "https://www.example.com" }));
   must("sandbox sets", await sb.from("query_sets").insert(
     ["soc 2 type 1 vs type 2", "how long does soc 2 take"].map((query) => ({
       client_id: SANDBOX_CLIENT_ID, query, frozen_from: today, frozen_until: until,

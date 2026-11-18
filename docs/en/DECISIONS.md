@@ -159,3 +159,14 @@ Code plus migration `20261119120000_watcher_hardening.sql`:
 - **Problem:** using `NEXT_PUBLIC_SITE_URL` to point the snippet at the ngrok tunnel also changed the login magic link's redirect, which is not in Supabase's allowed URLs, and login stopped working.
 - **Decision:** `NEXT_PUBLIC_INGEST_URL` sets where the snippet sends events (tunnel or deployed portal; if missing, it falls back to `NEXT_PUBLIC_SITE_URL`). `NEXT_PUBLIC_SITE_URL` is only for login.
 - **First real test (2026-11-18):** an 884 ms LCP and a ≈0 CLS arrived from a phone, with attribution, through the tunnel and from the real domain. No INP until there is an interaction.
+
+## D-031 — CrUX job (Phase 5) ✅ (2026-11-18)
+- **Source:** Google's Chrome UX Report API (`queryRecord` for the current 28-day window and `queryHistoryRecord` for the weekly history of up to 40 periods). `PHONE` only and INP only. Free (150 queries per minute per project, per the official docs); needs an API key restricted to that API.
+- **What is queried:** the `crux_targets` table explicitly lists origin and key URLs per client. CrUX distinguishes `https://www.x.com` from `https://x.com`, so it is not derived from the domain.
+- **Idempotent:** one row per target and period (`period_end`); a period already stored is not touched. A Google 404 means **"no data"** (low traffic), not an error. A key or disabled-API error (400/401/403) stops the run; 429 and 5xx are retried once. The key goes in the URL (Google's format) and is never written to messages or logs.
+- **Modes:** dry-run uses fixtures and `sandbox` clients only; live uses the API and `real` and `demo` clients (the data is public and free), never `sandbox`. A live run with failures ends red.
+- **Cadence:** 06:00 UTC; Google updates ~04:00 UTC and publishes ~2 days behind. The history is **weekly** and each point is a 28-day window overlapping its neighbours: it serves the trend and the baseline (`--backfill` once when a client is added), not aligning the SLA windows.
+- **SLA windows:** a window's value (it starts the day after the deploy) is the daily reading whose `period_end` equals the window's end. That reading exists if the job ran that day (two days after the close): hence the workflow must run every day and fails red. If it is missing, the view says Google publishes the value about two days after the close.
+- **Geography:** the CrUX API **does not filter by country**: the data is global. "US" in the rules applies only to Google searches; the view says so.
+- **Speed view:** history chart, per-URL reading, each SLA window's value when it exists and, for clients without the snippet (like Bauman), CrUX's INP as the headline, labelled as Google's.
+- **Test client:** Bauman Rare Books (an agency client, no snippet; public domain only, `kind = demo`).
