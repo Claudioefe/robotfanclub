@@ -1,5 +1,6 @@
 import "server-only";
 import { createClient } from "@/lib/supabase/server";
+import type { MentionView, Platform, RunView } from "@/lib/ai-visibility";
 import { todayUtc, windowDay, windowEnd } from "@/lib/sla";
 
 // All reads run as the signed-in user, so RLS decides what comes back.
@@ -278,4 +279,57 @@ export async function getSpeed(client: ClientRow): Promise<SpeedData> {
       isRequired: Boolean(t.is_required),
     })),
   };
+}
+
+// AI visibility (D-040) -------------------------------------------------------
+
+export interface AiVisibilityData {
+  runs: RunView[];
+  mentions: MentionView[];
+}
+
+/**
+ * The latest capture of each platform. Empty (not an error) until the first run, and also while the Phase 8 migration is
+ * not applied yet, so the page can say "no data yet" instead of breaking.
+ */
+export async function getAiVisibility(clientId: string): Promise<AiVisibilityData> {
+  const sb = await createClient();
+  const runsRes = await sb
+    .from("ai_mention_runs")
+    .select("platform, captured_on, total_count, rows_stored")
+    .eq("client_id", clientId)
+    .order("captured_on", { ascending: false })
+    .limit(20);
+  if (runsRes.error || !runsRes.data?.length) return { runs: [], mentions: [] };
+
+  const runs: RunView[] = runsRes.data.map((r) => ({ platform: r.platform as Platform, capturedOn: r.captured_on as string, totalCount: r.total_count as number, rowsStored: r.rows_stored as number }));
+  const latest = new Map<Platform, string>();
+  for (const r of runs) if (!latest.has(r.platform)) latest.set(r.platform, r.capturedOn);
+
+  const mentions: MentionView[] = [];
+  for (const [platform, day] of latest) {
+    const { data } = await sb
+      .from("ai_mentions")
+      .select("question, ai_search_volume, first_response_at, last_response_at, relation, source_count, client_source_rank, client_url, other_domains")
+      .eq("client_id", clientId)
+      .eq("platform", platform)
+      .eq("captured_on", day)
+      .order("ai_search_volume", { ascending: false, nullsFirst: false })
+      .limit(200);
+    for (const m of data ?? []) {
+      mentions.push({
+        platform,
+        question: m.question as string,
+        aiSearchVolume: (m.ai_search_volume as number | null) ?? null,
+        firstResponseAt: (m.first_response_at as string | null) ?? null,
+        lastResponseAt: (m.last_response_at as string | null) ?? null,
+        relation: m.relation as "cited" | "consulted",
+        sourceCount: m.source_count as number,
+        clientSourceRank: (m.client_source_rank as number | null) ?? null,
+        clientUrl: (m.client_url as string | null) ?? null,
+        otherDomains: (m.other_domains as string[] | null) ?? [],
+      });
+    }
+  }
+  return { runs: runs.filter((r) => latest.get(r.platform) === r.capturedOn), mentions };
 }

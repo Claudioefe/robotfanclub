@@ -68,3 +68,6 @@
 ## Investigación de otras IA con DataForSEO (2026-11-18)
 - Lectura de la documentación y experimento autorizado de 9 llamadas reales (USD 0,123): ChatGPT, Gemini y LLM Mentions. Respuestas guardadas como fixtures con tests de canario; resultados y conclusiones en D-039. No se construyó nada.
 - Segundo experimento con ChatGPT (6 llamadas, ≈ USD 0,127): Bauman 0 de 5 corridas en "gifts for a book lover", fuentes que rotan, y 122 menciones en ChatGPT sobre libros raros. Respuestas completas guardadas como fixtures + canarios (D-039).
+
+## Fase 8 — AI visibility (2026-11-18)
+- Módulo informativo (D-040): migración `ai_visibility`, job semanal `jobs/ai-visibility/` (dry-run con respuestas reales guardadas, live protegido por `AI_VISIBILITY_ALLOW_LIVE` y tope de costo), página `/portal/<cliente>/ai-visibility` y "Query ideas" en Admin. Citado vs leído separados. Una llamada real por plataforma para Bauman (≈ USD 0,28), respuestas guardadas completas. Pendiente: aplicar la migración y `npm run load-real-mentions`.

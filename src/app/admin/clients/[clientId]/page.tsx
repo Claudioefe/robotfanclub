@@ -11,9 +11,10 @@ import {
   setSprintAction,
 } from "../../actions";
 import { ActionForm, Field, inputClass } from "@/components/admin/forms";
+import { CopyButton } from "@/components/CopyButton";
 import { Badge, Dim, PageHeader, Panel, Section, TableWrap, Td, Th } from "@/components/ui";
 import { requireStaffPage } from "@/lib/admin/guard";
-import { getClientAdmin, listCruxTargets, listMembers, listTagScripts, listWindows } from "@/lib/admin/ops";
+import { getClientAdmin, listCruxTargets, listMembers, listQueryIdeas, listTagScripts, listWindows } from "@/lib/admin/ops";
 import { MAX_QUERIES, TAG_ACTION_VALUES } from "@/lib/admin/validate";
 import { fmtDate } from "@/lib/format";
 import { TAG_ACTIONS, todayUtc } from "@/lib/sla";
@@ -32,6 +33,7 @@ export default async function AdminClient({ params }: PageProps<"/admin/clients/
   if (!client) notFound();
   const [windows, targets, scripts, members] = await Promise.all([listWindows(sb, clientId), listCruxTargets(sb, clientId), listTagScripts(sb, clientId), listMembers(sb, clientId)]);
   const today = todayUtc();
+  const { ideas, capturedOn } = await listQueryIdeas(sb, clientId, windows.flatMap((w) => w.queries));
 
   return (
     <>
@@ -94,6 +96,27 @@ export default async function AdminClient({ params }: PageProps<"/admin/clients/
           </ActionForm>
         </Panel>
       </Section>
+
+      {ideas.length > 0 && (
+        <Section
+          title="Query ideas from AI visibility"
+          note={`Questions Google’s AI already cites ${client.domain} for (read on ${capturedOn ? fmtDate(capturedOn) : "n/a"}), by AI search volume, minus what is already frozen. Copy the ones you want into the form above. Nothing is frozen from here.`}
+        >
+          <Panel className="max-w-2xl">
+            <ul className="space-y-1 text-sm">
+              {ideas.map((i) => (
+                <li key={i.query} className="flex justify-between gap-4">
+                  <span>{i.query}</span>
+                  <Dim>{i.volume === null ? "n/a" : `${i.volume.toLocaleString("en-US")} / month`}</Dim>
+                </li>
+              ))}
+            </ul>
+            <div className="mt-4">
+              <CopyButton text={ideas.map((i) => i.query).join("\n")} label="Copy all as a list" />
+            </div>
+          </Panel>
+        </Section>
+      )}
 
       <Section title="Speed: sprint details" note="The INP SLA counts its two 28-day Chrome windows from the day after the sprint deploy.">
         <Panel className="max-w-xl">

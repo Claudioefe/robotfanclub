@@ -19,6 +19,8 @@
     "crux:live": "node --env-file=.env.local jobs/crux/cli.ts --mode live",
     "crux:backfill": "node --env-file=.env.local jobs/crux/cli.ts --mode live --backfill",
     "add-crux-target": "node --env-file=.env.local scripts/add-crux-target.mjs",
+    "ai-visibility:dry-run": "node --env-file=.env.local jobs/ai-visibility/cli.ts --mode dry-run",
+    "load-real-mentions": "node --no-warnings --env-file=.env.local scripts/load-real-mentions.mjs",
     "load-real-sample": "node --no-warnings --env-file=.env.local scripts/load-real-sample.mjs"
   },
   "dependencies": {

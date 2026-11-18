@@ -1,0 +1,56 @@
+name: AI visibility
+
+# Weekly read of DataForSEO's LLM Mentions (where Google AI Overview and ChatGPT already mention each client's domain).
+# It is a snapshot of a database, not a daily measurement, so weekly is enough. Costs about USD 0.28 per client and week.
+on:
+  schedule:
+    - cron: "0 7 * * 1"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "dry-run uses the saved real responses and sandbox clients. live calls DataForSEO and spends money."
+        type: choice
+        options: [dry-run, live]
+        default: dry-run
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ai-visibility
+  cancel-in-progress: false
+
+env:
+  # Scheduled runs are dry-run until the repository variable AI_VISIBILITY_LIVE_ENABLED is "yes".
+  MODE: ${{ inputs.mode || (vars.AI_VISIBILITY_LIVE_ENABLED == 'yes' && 'live' || 'dry-run') }}
+
+jobs:
+  ai-visibility:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+
+      - name: Run AI visibility job (dry-run)
+        if: env.MODE != 'live'
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+        run: node jobs/ai-visibility/cli.ts --mode dry-run
+
+      # A failed live run ends red so GitHub notifies the owner. The job refuses to spend more than the ceiling.
+      - name: Run AI visibility job (live)
+        if: env.MODE == 'live'
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+          DFS_LOGIN: ${{ secrets.DFS_LOGIN }}
+          DFS_PASSWORD: ${{ secrets.DFS_PASSWORD }}
+          AI_VISIBILITY_ALLOW_LIVE: "yes"
+          AI_VISIBILITY_MAX_COST_USD: ${{ vars.AI_VISIBILITY_MAX_COST_USD || '2' }}
+        run: node jobs/ai-visibility/cli.ts --mode live

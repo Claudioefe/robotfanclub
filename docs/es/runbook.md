@@ -37,3 +37,5 @@ En Supabase, *Authentication > URL Configuration*: Site URL `http://localhost:30
 
 ## Ver los datos reales de DataForSEO en el portal
 Las respuestas reales capturadas el 2026-11-18 están en `tests/fixtures/real/` (SERP sin resolver, SERP con `resolve_goto_urls`, y AI Mode recortada). Para verlas en el portal bajo Bauman Rare Books: `npm run load-real-sample` (no llama a DataForSEO, es repetible), y en `/portal` entrar a Bauman > **AI citations**. La columna **Evidence** abre el JSON crudo de cada superficie (AI Overview y AI Mode), también cuando el cliente no fue citado.
+
+- `npm run load-real-mentions`: carga bajo Bauman las respuestas reales de LLM Mentions (Fase 8, sin llamar a DataForSEO). `npm run ai-visibility:dry-run`: corre el job con las respuestas guardadas.

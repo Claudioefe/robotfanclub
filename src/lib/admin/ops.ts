@@ -2,6 +2,7 @@
 // can be tested against the real database. The server actions (src/app/admin/actions.ts) are thin wrappers that first
 // check the caller is staff, then call these with the secret-key client.
 import type { SupabaseClient } from "@supabase/supabase-js";
+import { queryIdeas, type QueryIdea } from "../ai-visibility.ts";
 import { todayUtc } from "../sla.ts";
 import {
   isEmail,
@@ -313,4 +314,44 @@ export async function getCosts(sb: SupabaseClient, days = 30): Promise<OpResult<
       errors: Array.isArray(r.errors) ? r.errors.length : 0,
     })),
   });
+}
+
+// AI visibility: query ideas (D-040) -------------------------------------------------
+
+/**
+ * Questions Google's AI already cites the client for, from the latest AI visibility read, minus what is already frozen.
+ * Read-only: staff copy them into the freeze form. Nothing is frozen automatically (a frozen list cannot be edited).
+ */
+export async function listQueryIdeas(sb: SupabaseClient, clientId: string, frozen: string[]): Promise<{ ideas: QueryIdea[]; capturedOn: string | null }> {
+  const run = await sb
+    .from("ai_mention_runs")
+    .select("captured_on")
+    .eq("client_id", clientId)
+    .eq("platform", "google")
+    .order("captured_on", { ascending: false })
+    .limit(1)
+    .maybeSingle();
+  if (run.error || !run.data) return { ideas: [], capturedOn: null }; // no read yet, or the migration is not applied
+  const { data, error } = await sb
+    .from("ai_mentions")
+    .select("question, ai_search_volume, relation")
+    .eq("client_id", clientId)
+    .eq("platform", "google")
+    .eq("captured_on", run.data.captured_on)
+    .order("ai_search_volume", { ascending: false, nullsFirst: false })
+    .limit(200);
+  if (error) throw new Error(`ai_mentions: ${error.message}`);
+  const mentions = (data ?? []).map((m) => ({
+    platform: "google" as const,
+    question: m.question as string,
+    aiSearchVolume: (m.ai_search_volume as number | null) ?? null,
+    firstResponseAt: null,
+    lastResponseAt: null,
+    relation: m.relation as "cited" | "consulted",
+    sourceCount: 0,
+    clientSourceRank: null,
+    clientUrl: null,
+    otherDomains: [],
+  }));
+  return { ideas: queryIdeas(mentions, frozen, 25), capturedOn: run.data.captured_on as string };
 }
