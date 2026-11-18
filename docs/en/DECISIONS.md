@@ -170,3 +170,7 @@ Code plus migration `20261119120000_watcher_hardening.sql`:
 - **Geography:** the CrUX API **does not filter by country**: the data is global. "US" in the rules applies only to Google searches; the view says so.
 - **Speed view:** history chart, per-URL reading, each SLA window's value when it exists and, for clients without the snippet (like Bauman), CrUX's INP as the headline, labelled as Google's.
 - **Test client:** Bauman Rare Books (an agency client, no snippet; public domain only, `kind = demo`).
+
+## D-032 — Phase 6 (Slack) deferred; temporary snippet on the test site ✅ (2026-11-18)
+- **Slack:** automatic Citation Cards stay **off for now**. The webhook sending is not built (`clients.slack_webhook_url` still exists, empty and unreadable by users; `citation_cards` already has its columns). The portal's "Copy for Slack" button keeps working: it copies the text to paste by hand. Resumed when decided (needs a client's Slack webhook).
+- **Test site:** `efedigital.com.ar` temporarily keeps the speed snippet pointing at the ngrok tunnel (`SAMPLE_RATE = 1`). The owner will remove it later. Meanwhile: with the computer and ngrok off the events are lost, and every visitor downloads `web-vitals` from `unpkg.com`. To remove it: delete the `<script is:inline type="module">` block from `BaseLayout.astro`, push, and close ngrok.

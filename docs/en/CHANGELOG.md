@@ -44,3 +44,6 @@
 - Verified: 149 tests (parsers on fixtures shaped as Google documents them, orchestrator, stubbed requests that never leak the key, and database integration); idempotent dry-run (1 new row, then 0 on the second run).
 - **Real test done (2026-11-18):** the key works (the first 403 `PERMISSION_DENIED` was Google propagating the key's restriction changes; afterwards 12 of 12 calls were 200). Bauman Rare Books (`demo`, no snippet) loaded with its origin and home page: 80 history rows (40 weeks per target) and an idempotent daily read. **Mobile INP p75 of 77 ms, 97% of loads ≤ 200 ms**, 28 days to Nov 15, 2026. The Speed view shows it through the CrUX fallback. A 403 is now retried once before stopping the run (D-031).
 - Pending: GitHub secret `CRUX_API_KEY` and variable `CRUX_LIVE_ENABLED=yes` for the nightly cron.
+
+## Phase 6 — Slack: deferred (2026-11-18)
+- Owner's decision: it stays off for now (D-032). Not built. The manual "Copy for Slack" button remains available.

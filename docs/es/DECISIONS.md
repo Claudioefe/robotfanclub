@@ -170,3 +170,7 @@ Código más la migración `20261119120000_watcher_hardening.sql`:
 - **Alcance geográfico:** la API de CrUX **no filtra por país**: son datos globales. "EE. UU." de las reglas aplica solo a las búsquedas en Google; la vista lo aclara.
 - **Vista Speed:** gráfico del historial, lectura por URL, valor de cada ventana del SLA cuando existe y, para clientes sin snippet (como Bauman), el INP de CrUX como cifra principal, indicando que es de Google.
 - **Cliente de prueba:** Bauman Rare Books (cliente de la agencia, sin snippet; solo dominio público, `kind = demo`).
+
+## D-032 — Fase 6 (Slack) diferida; snippet temporal en el sitio de prueba ✅ (2026-11-18)
+- **Slack:** las Citation Cards automáticas quedan **desactivadas por ahora**. No se construye el envío al webhook (`clients.slack_webhook_url` sigue existiendo, vacío, y no es legible por usuarios; `citation_cards` ya tiene sus columnas). El botón "Copy for Slack" del portal sigue funcionando: copia el texto para pegarlo a mano. Se retoma cuando se decida (hace falta un webhook de Slack del cliente).
+- **Sitio de prueba:** `efedigital.com.ar` conserva temporalmente el snippet de velocidad apuntando al túnel de ngrok (`SAMPLE_RATE = 1`). El dueño lo quitará más adelante. Mientras tanto: sin la compu y ngrok prendidos los eventos se pierden, y cada visitante descarga `web-vitals` desde `unpkg.com`. Para quitarlo: borrar el bloque `<script is:inline type="module">` de `BaseLayout.astro`, hacer push y cerrar ngrok.
