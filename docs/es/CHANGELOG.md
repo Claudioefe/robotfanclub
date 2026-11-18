@@ -56,3 +56,8 @@
 
 ## Datos reales de DataForSEO visibles en el portal (2026-11-18)
 - `npm run load-real-sample` carga las respuestas reales bajo Bauman (pasan por el mismo parser y el mismo formato de evidencia del watcher). El portal ahora combina "Other sources" de ambas superficies (antes mostraba solo la primera) y enlaza la evidencia de cada superficie también para queries no citadas.
+
+## Fase 7 (pieza A) — Admin (2026-11-18)
+- `/admin` para staff: clientes, listas de queries congeladas, objetivos de CrUX, sprint, Tag Bouncer, accesos y costos (D-037). Lógica en `src/lib/admin/` con tests contra la base real; migración `cost_by_client_day`.
+- Verificado por HTTP real: usuario sin sesión, usuario cliente y staff; reproducir con un usuario cliente las acciones de dar acceso, congelar y crear cliente fue rechazado sin cambiar la base; las mismas acciones como staff funcionan.
+- Pendiente: landing (B) y Mini-Scan (C).

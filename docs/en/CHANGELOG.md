@@ -56,3 +56,8 @@
 
 ## Real DataForSEO data visible in the portal (2026-11-18)
 - `npm run load-real-sample` loads the real responses under Bauman (through the watcher's own parser and evidence format). The portal now merges "Other sources" from both surfaces (it used to show only the first one) and links the evidence of each surface also for uncited queries.
+
+## Phase 7 (piece A) — Admin (2026-11-18)
+- `/admin` for staff: clients, frozen query lists, CrUX targets, sprint, Tag Bouncer, access and costs (D-037). Logic in `src/lib/admin/` with tests against the real database; `cost_by_client_day` migration.
+- Verified over real HTTP: signed-out user, client user and staff; replaying the grant-access, freeze and create-client actions as a client user was refused without changing the database; the same actions as staff work.
+- Pending: landing (B) and Mini-Scan (C).
