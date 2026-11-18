@@ -74,6 +74,14 @@ describe("runWatcher", () => {
     expect(store.runs[0].summary?.checksWritten).toBe(4);
   });
 
+  it("sends only columns that exist in aio_checks (a new parser field must not leak into the insert)", async () => {
+    const store = new MemoryStore({ clientId: CLIENT, domain: "northwindsec.com", queries: ["q1"] });
+    await runWatcher(store, new ScriptedSource(), opts);
+    // Keep in sync with supabase/migrations: if a column is added there, add it here on purpose.
+    const columns = ["aio_present", "checked_at", "checked_on", "cited", "cited_url", "client_id", "cost_usd", "organic_checked", "organic_rank", "other_domains", "query", "snapshot_path", "source_count", "source_position", "surface"];
+    for (const row of store.checks) expect(Object.keys(row).sort()).toEqual(columns);
+  });
+
   it("is idempotent: a rerun the same day writes nothing and does not call the API", async () => {
     const store = new MemoryStore();
     await runWatcher(store, new ScriptedSource(), opts);

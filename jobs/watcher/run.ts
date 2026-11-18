@@ -17,7 +17,11 @@ export interface Target {
   queries: string[];
 }
 
-export interface CheckRow extends ParsedCitation {
+/**
+ * One row of aio_checks. Only columns that exist in the database: ParsedCitation also carries values (such as
+ * unresolved_refs) that stay in the raw JSON snapshot and must not be sent to the table.
+ */
+export interface CheckRow extends Omit<ParsedCitation, "unresolved_refs"> {
   client_id: string;
   query: string;
   surface: Surface;
@@ -152,7 +156,14 @@ export async function runWatcher(store: Store, source: SerpSource, options: RunO
               const path = snapshotPath(target.clientId, today, surface, query, now);
               await store.saveSnapshot(path, JSON.stringify(task.result)); // evidence first, then the row that points to it
               const inserted = await store.insertCheck({
-                ...parsed,
+                aio_present: parsed.aio_present,
+                cited: parsed.cited,
+                cited_url: parsed.cited_url,
+                source_position: parsed.source_position,
+                source_count: parsed.source_count,
+                organic_rank: parsed.organic_rank,
+                organic_checked: parsed.organic_checked,
+                other_domains: parsed.other_domains,
                 client_id: target.clientId,
                 query,
                 surface,
