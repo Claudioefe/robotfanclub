@@ -1,5 +1,5 @@
 {
-  "_note": "DATOS REALES de DataForSEO (2026-11-18): /v3/ai_optimization/llm_mentions/search_mentions/live para el dominio baumanrarebooks.com (con subdominios), EE. UU., en, limit 3 de 1665 menciones. Respuesta cruda sin editar (excepto esta nota). Costo USD 0,103.",
+  "_note": "DATOS REALES de DataForSEO (2026-11-18): /v3/ai_optimization/llm_mentions/search_mentions/live para el dominio baumanrarebooks.com (con subdominios), EE. UU., en, limit 3 de 1665 menciones. Respuesta cruda sin editar (excepto esta nota). Costo USD 0,103. El search_after_token fue reemplazado porque embebe un identificador de cuenta.",
   "version": "0.1.20261117",
   "status_code": 20000,
   "status_message": "Ok.",
@@ -39,7 +39,7 @@
         {
           "total_count": 1665,
           "offset": 0,
-          "search_after_token": "eyJDdXJyZW50T2Zmc2V0IjozLCJSYXdSZXF1ZXN0Ijp7InRhcmdldCI6W3sidHlwZSI6ImRvbWFpbiIsImRvbWFpbiI6ImJhdW1hbnJhcmVib29rcy5jb20iLCJzZWFyY2hfc2NvcGUiOlsiYW55Il0sInNlYXJjaF90eXBlIjoiaW5jbHVkZSIsImluY2x1ZGVfc3ViZG9tYWlucyI6dHJ1ZX1dLCJwbGF0Zm9ybSI6bnVsbCwibGFuZ3VhZ2UiOiJlbiIsImxvY2F0aW9uIjoyODQwLCJsaW1pdCI6Mywib2Zmc2V0IjowLCJvcmRlcl9ieSI6bnVsbCwic2VhcmNoX2FmdGVyX3Rva2VuIjpudWxsLCJhaWQiOjI4MzE2MH0sIlNlYXJjaEFmdGVyRGF0YSI6eyJWZXJzaW9uIjoxLCJTZWFyY2hBZnRlclZhbHVlcyI6eyJhaV9zZWFyY2hfdm9sdW1lIjo5OTAwLCJkYXRlIjoiMjAyNi0xMS0wN1QwMjo1MDo0MloiLCJoYXNoIjotMzI0MzcwNTYxMTkzMzYwMTY0OH0sIlRva2VuUmVhbE9mZnNldCI6MH19",
+          "search_after_token": "<redacted: pagination token that embeds a DataForSEO account identifier>",
           "items_count": 3,
           "items": [
             {
