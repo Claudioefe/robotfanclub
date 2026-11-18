@@ -140,3 +140,17 @@ Código más la migración `20261119120000_watcher_hardening.sql`:
 - **Verificado en la documentación pública de DataForSEO (sin llamar a la API):** AI Mode devuelve el mismo `ai_overview` / `ai_overview_reference` que el SERP, anidado en elementos, tablas y componentes expandidos.
 - **Reglas de negocio documentadas:** si se citan varias páginas del cliente, define la cita la primera por posición de fuente; la URL se normaliza sin query (`?utm=…` no cambia la página).
 - **Riesgos aceptados:** (a) con la secret key todavía se puede borrar evidencia (el trigger solo bloquea `UPDATE`); mitigación: backups, y a evaluar en la Fase 7; (b) las acciones de GitHub se fijan por tag, no por SHA; (c) GitHub desactiva los cron tras 60 días sin actividad en el repo: hace falta un latido o revisar; (d) el costo de una llamada fallida pero cobrada no se conoce y no entra en `cost_usd`.
+
+## D-028 — Endpoint de ingest de velocidad (Fase 4) ✅ (2026-11-18)
+- `POST /api/ingest/vitals`: público a propósito (el snippet corre en el sitio del cliente). Acepta `text/plain` (sendBeacon) y JSON, que son el mismo JSON. Responde `204` (guardado, o descartado en silencio si el cliente no existe), `400` (payload inválido), `403` (origen ajeno), `413` (cuerpo grande), `429` (rate limit) y `503` (base no disponible, sin detalles).
+- **Validación acotada:** métrica INP/LCP/CLS, valor con tope por métrica, URL como plantilla de ruta (sin query ni hash, para no guardar datos personales), atribución reducida a una lista de claves escalares con textos de hasta 200 caracteres.
+- **Origen:** si el navegador envía `Origin`, debe ser el dominio del cliente o un subdominio (www incluido). Sin `Origin` (curl, servidores) se acepta y lo cubre el rate limit. Para desarrollo, `INGEST_EXTRA_ORIGINS`.
+- **Rate limit persistido en Postgres:** 120 eventos por minuto por visitante y 6000 por cliente. La IP se guarda solo como HMAC con la secret key, nunca en claro.
+- **Snippet:** muestreo por sesión (`SAMPLE_RATE`, `NEXT_PUBLIC_SNIPPET_SAMPLE_RATE`) para acotar volumen y costo. Un test ejecuta el código real del snippet contra el parser del endpoint, para que no se desincronicen.
+- Los clientes se registran con `npm run create-client` (`--kind` obligatorio) hasta que exista el admin (Fase 7).
+
+## D-029 — Prueba con un sitio real vía ngrok ✅ (2026-11-18)
+- **Sitio de prueba:** `efedigital.com.ar` (Astro en Netlify, sitio personal, fuera de la agencia), registrado como cliente "EFE Digital" con `kind = demo` (ningún job lo toca). No tiene CSP, no hay que tocar encabezados.
+- **Cómo:** la app corre en local en modo producción y ngrok (plan gratuito) la expone con su dominio fijo; el snippet apunta a ese dominio. Evita crear un proyecto en la cuenta de Netlify del sitio, cuyos créditos son del equipo (un exceso pausa todos los proyectos).
+- **Más adelante:** el deploy real del portal irá en una cuenta de Netlify aparte.
+- **Límites del plan gratuito de ngrok** (según su documentación): ≈20.000 requests y 1 GB por mes. Se acota con el muestreo.

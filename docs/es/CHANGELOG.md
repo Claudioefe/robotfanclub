@@ -30,3 +30,9 @@
 - Auditoría de solo lectura con subagente y correcciones (D-027): rutas de snapshot únicas, top 10 vacío = desconocido, reintentos solo transitorios, `kind` sin valor por defecto.
 - Verificado: 96 tests (parser, orquestador, gate del live, requests simulados, y el watcher real contra la base en un cliente sandbox), lint, typecheck, build. El dry-run escribe 4 chequeos y una segunda corrida escribe 0.
 - Pendiente: autorizar la cuenta y el presupuesto de DataForSEO (D-011) antes de activar el live; agregar los secrets de GitHub para el cron; evaluar bloquear el borrado de evidencia (Fase 7).
+
+## Fase 4 — medición de visitantes reales (2026-11-18)
+- `POST /api/ingest/vitals` con validación acotada, chequeo de origen, rate limit en Postgres, IP hasheada y CORS (D-028). Snippet con muestreo por sesión. `npm run create-client`.
+- Cliente "EFE Digital" (`efedigital.com.ar`, `kind = demo`) para la prueba con un sitio real (D-029).
+- Verificado: tests del validador, del handler, del contrato snippet↔endpoint (ejecuta el código real del snippet) y de integración con la base; prueba HTTP real sobre el build de producción (preflight, beacon con y sin www, origen ajeno, cliente inexistente, cuerpo inválido, atribución).
+- Pendiente: prueba con el sitio real (requiere ngrok y subir el snippet al sitio, ver `ingest.md`); deploy real del portal en una cuenta de Netlify aparte.

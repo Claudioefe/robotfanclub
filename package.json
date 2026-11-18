@@ -13,7 +13,8 @@
     "typecheck": "next typegen && tsc --noEmit",
     "seed:demo": "node --env-file=.env.local scripts/seed-demo.mjs",
     "grant-access": "node --env-file=.env.local scripts/grant-access.mjs",
-    "watcher:dry-run": "node --env-file=.env.local jobs/watcher/cli.ts --mode dry-run"
+    "watcher:dry-run": "node --env-file=.env.local jobs/watcher/cli.ts --mode dry-run",
+    "create-client": "node --env-file=.env.local scripts/create-client.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.7",

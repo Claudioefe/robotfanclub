@@ -30,3 +30,9 @@
 - Read-only subagent audit and fixes (D-027): unique snapshot paths, empty top 10 = unknown, transient-only retries, `kind` without a default.
 - Verified: 96 tests (parser, orchestrator, live gate, stubbed requests, and the real watcher against the database on a sandbox client), lint, typecheck, build. The dry-run writes 4 checks and a second run writes 0.
 - Pending: authorize the DataForSEO account and budget (D-011) before turning on live; add the GitHub secrets for the cron; evaluate blocking evidence deletion (Phase 7).
+
+## Phase 4 — real-visitor measurement (2026-11-18)
+- `POST /api/ingest/vitals` with bounded validation, origin check, Postgres rate limit, hashed IP and CORS (D-028). Snippet with per-session sampling. `npm run create-client`.
+- Client "EFE Digital" (`efedigital.com.ar`, `kind = demo`) for the real-site test (D-029).
+- Verified: validator, handler, snippet↔endpoint contract (runs the snippet's real code) and database integration tests; real HTTP test on the production build (preflight, beacon with and without www, foreign origin, unknown client, invalid body, attribution).
+- Pending: test with the real site (needs ngrok and pushing the snippet to the site, see `ingest.md`); real portal deploy in a separate Netlify account.
