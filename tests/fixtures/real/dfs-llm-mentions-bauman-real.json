@@ -1,0 +1,518 @@
+{
+  "_note": "DATOS REALES de DataForSEO (2026-11-18): /v3/ai_optimization/llm_mentions/search_mentions/live para el dominio baumanrarebooks.com (con subdominios), EE. UU., en, limit 3 de 1665 menciones. Respuesta cruda sin editar (excepto esta nota). Costo USD 0,103.",
+  "version": "0.1.20261117",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.4450 sec.",
+  "cost": 0.103,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "11181757-2831-0650-0000-152e45110771",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.3694 sec.",
+      "cost": 0.103,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "llm_mentions",
+        "search_mentions",
+        "live"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "search_mentions",
+        "target": [
+          {
+            "domain": "baumanrarebooks.com",
+            "include_subdomains": true
+          }
+        ],
+        "location_code": 2840,
+        "language_code": "en",
+        "limit": 3
+      },
+      "result": [
+        {
+          "total_count": 1665,
+          "offset": 0,
+          "search_after_token": "eyJDdXJyZW50T2Zmc2V0IjozLCJSYXdSZXF1ZXN0Ijp7InRhcmdldCI6W3sidHlwZSI6ImRvbWFpbiIsImRvbWFpbiI6ImJhdW1hbnJhcmVib29rcy5jb20iLCJzZWFyY2hfc2NvcGUiOlsiYW55Il0sInNlYXJjaF90eXBlIjoiaW5jbHVkZSIsImluY2x1ZGVfc3ViZG9tYWlucyI6dHJ1ZX1dLCJwbGF0Zm9ybSI6bnVsbCwibGFuZ3VhZ2UiOiJlbiIsImxvY2F0aW9uIjoyODQwLCJsaW1pdCI6Mywib2Zmc2V0IjowLCJvcmRlcl9ieSI6bnVsbCwic2VhcmNoX2FmdGVyX3Rva2VuIjpudWxsLCJhaWQiOjI4MzE2MH0sIlNlYXJjaEFmdGVyRGF0YSI6eyJWZXJzaW9uIjoxLCJTZWFyY2hBZnRlclZhbHVlcyI6eyJhaV9zZWFyY2hfdm9sdW1lIjo5OTAwLCJkYXRlIjoiMjAyNi0xMS0wN1QwMjo1MDo0MloiLCJoYXNoIjotMzI0MzcwNTYxMTkzMzYwMTY0OH0sIlRva2VuUmVhbE9mZnNldCI6MH19",
+          "items_count": 3,
+          "items": [
+            {
+              "platform": "google",
+              "model_name": "google_ai_overview",
+              "location_code": 2840,
+              "language_code": "en",
+              "question": "gifts for a book lover",
+              "answer": "Here are some ideas to get you started:[[1]](https://paperbackdown.com/blogs/news/the-perfect-gift-why-a-book-subscription-is-the-best-gift-for-book-lovers)[[2]](https://www.onceuponabookclub.com/blogs/book-subscription-boxes/the-top-5-benefits-of-a-book-subscription-box)[[3]](https://www.deburcararebooks.com/rare-books-christmas-gifts/#:~:text=Rare%20books%20make%20exceptional%20Christmas%20gifts%2C%20offering,books%20can%20be%20the%20ideal%20Christmas%20gift.)[[4]](https://www.baumanrarebooks.com/blog/rare-books-as-gifts/)\n\n![](https://api.dataforseo.com/llm_m/cdn/i/-1002584545601225862:11b0f5c375194c90bbbf2005b8e67a9a)\nRare book edition Track down a vintage or limited edition of their favorite book, or a signed copy by their favorite author.This will be a treasured item for any bibliophile.![]()\nFull Leather Classic 100 Greatest Books Pt 2, 1974-1985 Vintage Franklin Library Collectors Editions, INDIVIDUAL PRICES & CONDITIONS $74.00![](https://api.dataforseo.com/llm_m/cdn/i/-1002584545601225862:afbf16a7f26e4849a7266215c94a2810)\nEtsy - YourGrandpasLibrary Shipping Free shipping Small business Small business 5.0 (3)![]()\nTwelve Months Autographed, by Jim Butcher $30.00![](https://api.dataforseo.com/llm_m/cdn/i/-1002584545601225862:863144cea92d4b739b57b88364515fa6)\nBarnes & Noble - Barnes and Noble - Heavy, + more Shipping $6.99![]()\n1,000 Books to Read Before You Die $140.00![](https://api.dataforseo.com/llm_m/cdn/i/-1002584545601225862:ef4a4efd7d654db9a82df64b8acfe983)\nOverstock, + more Shipping Free by 12/10 5.0 (3)![]()\nThe Hand Illustrated Book of Everything | Cool Gift Ideas for Book lovers | Christmas Gifts | Gifts for Dad | Reading Gifts | Gifts for Men | $119.00![](https://api.dataforseo.com/llm_m/cdn/i/-1002584545601225862:17c10c969f5f4f27b2618a053af6618c)\nUncommon Goods Shipping $10.95 by 12/9![]()\n*GIFT BOX* The Library of Unruly Treasures Signed Book w/ Exclusive Goodies $42.00![](https://api.dataforseo.com/llm_m/cdn/i/-1002584545601225862:81770aac74b74bc2a86c900a59b46f65)\nHigh Five Books Shipping $9.57 by 12/10 Small business Small business![]()\nA Book Lover's Box: Paper Goodies to Celebrate Your Inner Bookworm $35.00![](https://api.dataforseo.com/llm_m/cdn/i/-1002584545601225862:0bcd5c124f964b85b555ab941cc81ecd)\nBookPeople, + more 5.0 (2)![]()\nWordsworth Classics: Collector's Editions $26.99![](https://encrypted-tbn2.gstatic.com/faviconV2?url=https://landoflovely.com&client=SHOPPING&size=32&type=FAVICON&fallback_opts=TYPE,SIZE,URL&nfrp=2)\nLand of Lovely![]()\nVirtue & Vice Signed Paperbacks Book Box (Limited Edition)$44.99![](https://api.dataforseo.com/llm_m/cdn/i/-1002584545601225862:3439efbd7fad4c71ac1390b7093cf464)\ncarrielomaxbooks![]()\nVintage Book Collection VERY RARE COLLECTION $299.00![](https://api.dataforseo.com/llm_m/cdn/i/-1002584545601225862:c2ee289df5a74ccc9015b61ba4d436da)\neBay Shipping Free shipping![]()\nJuniper Books The Wheel of Time Book Set $999.99![](https://api.dataforseo.com/llm_m/cdn/i/-1002584545601225862:73ba76d734cb48df8dec446d441f9adc)\nJuniper Books, + more Shipping Free by 12/9 Small business Small business 4.8 (7)[vintage or limited edition books](https://www.google.com/search?hl=en&gl=US&cs=0&sca_esv=3fb0e2d94fbc189e&snr=0&q=gifts+for+a+book+lover+vintage+or+limited+edition+books&mcur=MgA&msig=ATM4YPi8rifrShs2H7tbrzj3u_44WKCVAGVnrhBkD0UnJrNqKQ) [signed edition books](https://www.google.com/search?hl=en&gl=US&cs=0&sca_esv=3fb0e2d94fbc189e&snr=0&q=gifts+for+a+book+lover+signed+edition+books&mcur=MgA&msig=ATM4YPisZrGUiga8kWzWV8DAQi0Ne-nmFfMUEmn0ryCVnMk6Ug) [rare books](https://www.google.com/search?hl=en&gl=US&cs=0&sca_esv=3fb0e2d94fbc189e&snr=0&q=gifts+for+a+book+lover+rare+books&mcur=MgA&msig=ATM4YPhjUMazH0C82FCBXQGH6bVpNKk6WAu-VxSgNh1l96dgFQ) ![](https://api.dataforseo.com/llm_m/cdn/i/-1002584545601225862:7c6fa703accc441db2d7535360c2f5eb)\nTech for readers Enhance their reading experience with an e-reader, a comfortable reading light, or a pair of noise-canceling headphones for audiobook immersion.![]()\nKobo Clara BW eReader $139.99![](https://api.dataforseo.com/llm_m/cdn/i/-1002584545601225862:eb55492409b54c3997c9dd3a83ff46e7)\nRakuten Kobo USA, + more Shipping Free by 12/12 4.7 (1.5K)![]()\nSale Custom Foldable LED Magic Book Lamp - Personalized Bookish Gifts For Book Lovers, Bookworms, Readers - Light Up Your Own Little Bookstore - Pawfect $39.99 $50![](https://api.dataforseo.com/llm_m/cdn/i/-1002584545601225862:19317617ea224327b5da47591378888c)\nPawfect House Shipping $6.99 by 12/19 5.0 (45)![]()\nSale JBL Tune 670NC Noise Cancelling Wireless On-Ear Headphones $54.95 $110![](https://api.dataforseo.com/llm_m/cdn/i/-1002584545601225862:8c863ef9f9da4be8b10f301f9454ac80)\nHome Depot, + more Shipping Free by 12/12 4.4 (2.2K)![]()\nviwoods E Ink Tablet AiPaper Mini $429.00![](https://api.dataforseo.com/llm_m/cdn/i/-1002584545601225862:46f3c951c81a4f5aad890332549fcf5a)\nViwoods Shipping Free by 12/9 4.6 (68)![]()\nBlind Date with an E Reader Bundle: Book Lover Gift Set works with Kindle, Kobo $32.00![](https://api.dataforseo.com/llm_m/cdn/i/-1002584545601225862:01605e8b26ef4068afe62182a268c01b)\nEtsy Shipping Free shipping 4.8 (23)![]()\nGlocusent Pro Bookmark Style Reading Light $20.39![](https://api.dataforseo.com/llm_m/cdn/i/-1002584545601225862:86c65f040ead4d0abad546c987f0157a)\nGlocusent, + more Shipping $3.99 by 12/10 Small business Small business![]()\nSale JBL Tune 770NC Wireless Noise Cancelling Over-Ear Headphones $79.95 $150![](https://api.dataforseo.com/llm_m/cdn/i/-1002584545601225862:a65048fac5df47a88c0776d138370beb)\nSweetwater, + more Shipping Free by 12/5 4.5 (6.3K)![]()\nBOOX Go Color 7 E-Ink Tablet $219.99![](https://api.dataforseo.com/llm_m/cdn/i/-1002584545601225862:c5ec1ef7d05742e4a26673e7604ef404)\nshop.boox.com, + more Shipping Free by 12/10 4.3 (148)![]()\nBOOX Go 6 E-Ink Tablet $159.99![](https://api.dataforseo.com/llm_m/cdn/i/-1002584545601225862:e511e0b621924ac2ada1df546fa94e2a)\nBest Buy, + more Shipping $16.49 by 12/16 4.6 (186)![]()\nKikkerland Hands-Free Book Light BL14 $29.59![](https://api.dataforseo.com/llm_m/cdn/i/-1002584545601225862:c66e9aaa775d4163a6200c4bffd37abc)\nBlick Art Materials, + more Shipping Free $79+5.0 (7)[e-readers](https://www.google.com/search?hl=en&gl=US&cs=0&sca_esv=3fb0e2d94fbc189e&snr=0&q=gifts+for+a+book+lover+e-readers&mcur=MgA&msig=ATM4YPh_67BuFLJ7GhAaArWUgrleFEoSUbsKvsDaqTsgwrgzcw) [comfortable reading lights](https://www.google.com/search?hl=en&gl=US&cs=0&sca_esv=3fb0e2d94fbc189e&snr=0&q=gifts+for+a+book+lover+comfortable+reading+lights&mcur=MgA&msig=ATM4YPjzAu8NWeTep8n0UvmPGoARHZd-TgymHhQNBd1PYtOy4g) [noise-canceling headphones](https://www.google.com/search?hl=en&gl=US&cs=0&sca_esv=3fb0e2d94fbc189e&snr=0&q=gifts+for+a+book+lover+noise-canceling+headphones&mcur=MgA&msig=ATM4YPjNOyT0L_wjV9QwMzxbL_7EkYFsSOoOQtAEY8g9xDygmQ) [tech for readers](https://www.google.com/search?hl=en&gl=US&cs=0&sca_esv=3fb0e2d94fbc189e&snr=0&q=gifts+for+a+book+lover+tech+for+readers&mcur=MgA&msig=ATM4YPgtsBR1vGaKGd5WmaCG7qbvWqTYuTtSzVx4HeHfEsC7RQ) ![](https://api.dataforseo.com/llm_m/cdn/i/-1002584545601225862:61f20ca77ec246ee9075f5cb55b4d691)\nBookish apparel and accessories Help them display their love for reading with unique fashion items.Spoil them with cozy socks printed with book quotes, a literary-themed tote bag, or a necklace with a book charm.![]()\nLiterary Book Lover Tote Bag Natural / 15\" x 16\"$29.00![](https://api.dataforseo.com/llm_m/cdn/i/-1002584545601225862:e340be58909244c980a4eb8727484f3c)\nHoney Dazed Shipping Free $35+Small business Small business![]()\nSale Personalized Book Necklace $9.99 $20![](https://api.dataforseo.com/llm_m/cdn/i/-1002584545601225862:0b0febe5cd7e45b197a5cb0d508c2a27)\nEtsy - nRichCollection Shipping $4.65 5.0 (67)![]()\nPride and Prejudice Book Tote $38.00![](https://api.dataforseo.com/llm_m/cdn/i/-1002584545601225862:3b5facc07ed24f12bf09e3b89af00f9a)\nBarnes & Noble, + more Shipping $6.99 by 12/4 4.9 (37)![]()\nPersonalized Openable Book Pendant Necklace for Book Lovers Readers Librarians Writers $29.00![](https://api.dataforseo.com/llm_m/cdn/i/-1002584545601225862:f0c63b7cb8134acab6c8a872b65de950)\nCallie Shipping $6![]()\nJolly Book Lover Canvas Tote Bag $22.99![](https://api.dataforseo.com/llm_m/cdn/i/-1002584545601225862:4214530badd74db99f9ed31e2d0d6d74)\nBarnes & Noble Shipping $6.99 by 12/4![]()\nSale Book Charm Necklace $10.80 $18![](https://encrypted-tbn1.gstatic.com/faviconV2?url=https://hannaschoice20.com&client=SHOPPING&size=32&type=FAVICON&fallback_opts=TYPE,SIZE,URL&nfrp=2)\nhannaschoice20 Shipping Free $35+![]()\nSale Well Read Beauty and the Beast Book Tote Bag $25.87 $37![](https://api.dataforseo.com/llm_m/cdn/i/-1002584545601225862:3d741290d7db43e4bc4e06171d03a19e)\nWell Read Company USA, + more Shipping Free $35+5.0 (28)![]()\nPersonalized Miniature Book Necklace $26.24![](https://api.dataforseo.com/llm_m/cdn/i/-1002584545601225862:5c5869b3d5c741dbabfa31af0777abaa)\nEtsy Shipping $9.64 4.9 (513)![]()\nSale Literary Freedom Book Tote Bag $14.99 $20![](https://api.dataforseo.com/llm_m/cdn/i/-1002584545601225862:f4f6eaaed3b541c6bdf05ac7530c51ea)\nThe Desert Tulip Boutique Shipping $5.99 by 12/16![]()\nGold Vermeil Bronze Book Charm Pendant $24.00![](https://api.dataforseo.com/llm_m/cdn/i/-1002584545601225862:5cfa271e99344fb992ff27052e2f48ac)\nLight Years Shipping Free $35+Small business Small business[literary-themed tote bag](https://www.google.com/search?hl=en&gl=US&cs=0&sca_esv=3fb0e2d94fbc189e&snr=0&q=gifts+for+a+book+lover+literary-themed+tote+bag&mcur=MgA&msig=ATM4YPj7hjheMj0mQKP06ANkVzUReAv0kbXJu64SDJM3vogP7w) [book charm necklace](https://www.google.com/search?hl=en&gl=US&cs=0&sca_esv=3fb0e2d94fbc189e&snr=0&q=gifts+for+a+book+lover+book+charm+necklace&mcur=MgA&msig=ATM4YPgKQHg6YyMDwYTznhPnIeRe388SiqLA6JLSVC4Yn32YWw) ![](https://api.dataforseo.com/llm_m/cdn/i/-1002584545601225862:daea0ab9923f469da95bc8d0bbfa5277)\nPersonalized bookends Add a unique touch to their bookshelf with a pair of specially designed bookends.You can customize it with their initials, a favorite quote, or a character from their favorite book.![]()\nSale Executive Monogram Marble Bookends $53.59 $67![](https://api.dataforseo.com/llm_m/cdn/i/-1002584545601225862:af7c8c8225cd467ebb736b799a703752)\nPersonalization Mall![]()\nBookends with Bookish Sayings I'm All Booked Up - Coco And Duckie $27.00![](https://api.dataforseo.com/llm_m/cdn/i/-1002584545601225862:9ed0ff06292f4884926b097fad2bda41)\nCoco and Duckie Shipping $8.40 by 12/11 Small business Small business![]()\nBibliophile Ceramic Bookends $60.00![](https://api.dataforseo.com/llm_m/cdn/i/-1002584545601225862:3bc168bbf607435e9df88810c2e1e45e)\nThe Concord Bookshop, + more 5.0 (1)![]()\nCustom Decorative Bookend $19.00![](https://api.dataforseo.com/llm_m/cdn/i/-1002584545601225862:68f60b5d167a4fc7a9c6eeb1d90a491f)\nPearl Sign Co Shipping Free $35+![]()\nSale Lillian Vernon Marble Monogrammed Bookends $47.99 $60![](https://api.dataforseo.com/llm_m/cdn/i/-1002584545601225862:5138d725cb7542d9b411eafb66ed2ca6)\nLillian Vernon, + more Shipping $22.98 by 12/19![]()\nPersonalized Bookends for Book Lover $45.00![](https://api.dataforseo.com/llm_m/cdn/i/-1002584545601225862:426e45137e764d9ba3f0a59c72f15998)\nCallie Shipping $6![]()\nSale Department 56 Diagon Alley Light Up Bookend $71.99 $140![](https://api.dataforseo.com/llm_m/cdn/i/-1002584545601225862:3e02fcc51f494275b8b586e1d6a8fb72)\nWayfair, + more Shipping Free shipping 4.9 (14)![]()\nSale Custom Alphabet Metal Bookend, Personalized Family Last Name Book Ends, Book Stand Black Metal Art, Book Nook Office Decor for Book Lover $16.49 $30![](https://api.dataforseo.com/llm_m/cdn/i/-1002584545601225862:485687c5cb4b482d8658388637ca7541)\nEtsy - Craftnamesign Shipping Free shipping Small business Small business 4.5 (10)![]()\nMy Bambino Personalized Gifts Wood Bookends $39.99![](https://api.dataforseo.com/llm_m/cdn/i/-1002584545601225862:3856f723a96349e6bc5ae962bdd553af)\nMyBambino Shipping $9.99 by 12/15 5.0 (5)![]()\nSale Write Your Own Personalized Marble Bookends $53.59 $67![](https://api.dataforseo.com/llm_m/cdn/i/-1002584545601225862:a13bef5015b74a398ad0772bfe2675f4)\nPersonalization Mall Shipping $14.99 5.0 (1)[personalized initial bookends](https://www.google.com/search?hl=en&gl=US&cs=0&sca_esv=3fb0e2d94fbc189e&snr=0&q=gifts+for+a+book+lover+personalized+initial+bookends&mcur=MgA&msig=ATM4YPiqbZ6EDPx-as8gBzisb9Xte92Zs6m8M5jLjGZY_jwGUw) [personalized bookends with a literary quote](https://www.google.com/search?hl=en&gl=US&cs=0&sca_esv=3fb0e2d94fbc189e&snr=0&q=gifts+for+a+book+lover+personalized+bookends+with+a+literary+quote&mcur=MgA&msig=ATM4YPg7LuwZ1XDHnYR4ie5FRQ_BYp6ZEZR1jb5yxVTz9qnzfQ) [literary character bookends](https://www.google.com/search?hl=en&gl=US&cs=0&sca_esv=3fb0e2d94fbc189e&snr=0&q=gifts+for+a+book+lover+literary+character+bookends&mcur=MgA&msig=ATM4YPh5IkkXBy_nf-zCI_SrUceWRRrKVW6gt8HuP0Nvg_QcMw) [personalized bookends](https://www.google.com/search?hl=en&gl=US&cs=0&sca_esv=3fb0e2d94fbc189e&snr=0&q=gifts+for+a+book+lover+personalized+bookends&mcur=MgA&msig=ATM4YPhHtJXQjaCaN4MXQiP7PuWItpKVVAPWNq7gDNHifSHz3Q) \n You can also consider: \n\n- **Literary experiences:** Gift them a unique experience like a book-themed escape room, a literary walking tour of their favorite city, or tickets to a book festival or author talk.\n- **Book subscription box:** Surprise them with a curated selection of new and exciting reads delivered to their doorstep every month.It's a great way to keep their bookshelf overflowing with fresh adventures.",
+              "sources": [
+                {
+                  "snippet": "Aug 28, 2025 — Practical Reading Tools and Supplies. 15. Book log / journal. I love the idea of this and have just started using one ...",
+                  "source_name": "Magpie by Jen Shoop",
+                  "thumbnail": null,
+                  "markdown": null,
+                  "rank": 1,
+                  "title": "20 Best Gifts for Book Lovers I Unique Ideas - Magpie by Jen Shoop",
+                  "domain": "magpiebyjenshoop.com",
+                  "url": "https://magpiebyjenshoop.com/20-gifts-for-book-lovers/",
+                  "publication_date": null
+                },
+                {
+                  "snippet": "Apr 10, 2025 — Brandy Patterson. A book that resonates with you, a reliable book light, customized bookmarks, and a book journal pair...",
+                  "source_name": "Facebook ·",
+                  "thumbnail": null,
+                  "markdown": null,
+                  "rank": 2,
+                  "title": "What are some things you'd love to see in a bookish gift? - Facebook",
+                  "domain": "www.facebook.com",
+                  "url": "https://www.facebook.com/groups/TwoGirlsMustReads/posts/1873545553444594/",
+                  "publication_date": null
+                },
+                {
+                  "snippet": "Oct 20, 2025 — If you've ever wandered the aisles of a bookstore trying to remember which books they've mentioned in the past, you'll...",
+                  "source_name": "Paperback Down",
+                  "thumbnail": null,
+                  "markdown": null,
+                  "rank": 3,
+                  "title": "Why The Perfect Present For Book Lovers is a Book Gift Subscription",
+                  "domain": "paperbackdown.com",
+                  "url": "https://paperbackdown.com/blogs/news/the-perfect-gift-why-a-book-subscription-is-the-best-gift-for-book-lovers",
+                  "publication_date": null
+                },
+                {
+                  "snippet": "May 28, 2025 — Let's be honest—life gets busy. Between work, parenting, errands, and the lure of streaming services, even the most de...",
+                  "source_name": "Once Upon a Book Club",
+                  "thumbnail": null,
+                  "markdown": null,
+                  "rank": 4,
+                  "title": "The Top 5 Benefits of a Book Subscription Box",
+                  "domain": "www.onceuponabookclub.com",
+                  "url": "https://www.onceuponabookclub.com/blogs/book-subscription-boxes/the-top-5-benefits-of-a-book-subscription-box",
+                  "publication_date": null
+                },
+                {
+                  "snippet": "Rare books make exceptional Christmas gifts, offering a unique and meaningful way to celebrate the holiday season. Unlike generic ...",
+                  "source_name": "DeBurca Rare Books",
+                  "thumbnail": null,
+                  "markdown": null,
+                  "rank": 5,
+                  "title": "Why Rare Books Make Great Christmas Gifts",
+                  "domain": "www.deburcararebooks.com",
+                  "url": "https://www.deburcararebooks.com/rare-books-christmas-gifts/#:~:text=Rare%20books%20make%20exceptional%20Christmas%20gifts%2C%20offering,books%20can%20be%20the%20ideal%20Christmas%20gift.",
+                  "publication_date": null
+                },
+                {
+                  "snippet": "Nov 19, 2024 — Books make great gifts because they have whole worlds inside of them. And it's much cheaper to buy somebody a book tha...",
+                  "source_name": "Bauman Rare Books",
+                  "thumbnail": null,
+                  "markdown": null,
+                  "rank": 6,
+                  "title": "Rare Books as Gifts",
+                  "domain": "www.baumanrarebooks.com",
+                  "url": "https://www.baumanrarebooks.com/blog/rare-books-as-gifts/",
+                  "publication_date": null
+                }
+              ],
+              "search_results": null,
+              "ai_search_volume": 27100,
+              "monthly_searches": [
+                {
+                  "year": 2025,
+                  "month": 10,
+                  "search_volume": 14800
+                },
+                {
+                  "year": 2025,
+                  "month": 9,
+                  "search_volume": 9900
+                },
+                {
+                  "year": 2025,
+                  "month": 8,
+                  "search_volume": 9900
+                },
+                {
+                  "year": 2025,
+                  "month": 7,
+                  "search_volume": 9900
+                },
+                {
+                  "year": 2025,
+                  "month": 6,
+                  "search_volume": 8100
+                },
+                {
+                  "year": 2025,
+                  "month": 5,
+                  "search_volume": 12100
+                },
+                {
+                  "year": 2025,
+                  "month": 4,
+                  "search_volume": 12100
+                },
+                {
+                  "year": 2025,
+                  "month": 3,
+                  "search_volume": 12100
+                },
+                {
+                  "year": 2025,
+                  "month": 2,
+                  "search_volume": 12100
+                },
+                {
+                  "year": 2025,
+                  "month": 1,
+                  "search_volume": 18100
+                },
+                {
+                  "year": 2024,
+                  "month": 12,
+                  "search_volume": 110000
+                },
+                {
+                  "year": 2024,
+                  "month": 11,
+                  "search_volume": 74000
+                }
+              ],
+              "first_response_at": "2025-12-03 15:09:47 +00:00",
+              "last_response_at": "2025-12-03 15:09:47 +00:00",
+              "brand_entities": null,
+              "fan_out_queries": null,
+              "is_web_search_based": true
+            },
+            {
+              "platform": "google",
+              "model_name": "google_ai_overview",
+              "location_code": 2840,
+              "language_code": "en",
+              "question": "gifts for booklovers",
+              "answer": "Here are some ideas to get you started:[[1]](https://www.biblio.com/blog/2022/11/a-sentimental-gift-vintage-books-combine-beauty-and-meaning-to-make-the-perfect-present/)[[2]](https://paperbackdown.com/blogs/news/the-perfect-gift-why-a-book-subscription-is-the-best-gift-for-book-lovers)[[3]](https://www.onceuponabookclub.com/blogs/book-subscription-boxes/the-top-5-benefits-of-a-book-subscription-box)[[4]](https://www.baumanrarebooks.com/blog/rare-books-as-gifts/)\n\n![](https://api.dataforseo.com/llm_m/cdn/i/420401763723505730:5c746174186f4b53b06824dc351f9ded)\nRare book editions Track down a vintage or limited edition of their favorite book, or a signed copy by their favorite author.This will be a treasured item for any bibliophile.![]()\nSale Pride and Prejudice $11.25 $15![](https://api.dataforseo.com/llm_m/cdn/i/420401763723505730:ba42744950d240e8929d2179c7e5cedb)\nMacy's, + more Shipping $10.95 4.7 (216)![]()\nMy Beloved: A Mitford Novel (Signed book)$32.00![](https://api.dataforseo.com/llm_m/cdn/i/420401763723505730:fd861f0973e646b7a491a8af470f345c)\nBarnes & Noble - Barnes and Noble - Heavy Shipping $6.99 by 12/26![]()\nFranklin Library Books: '100 Greatest Masterpieces of American Literature' Limited Edition Leather Bound Gilded Books [MORE TITLES]$34.00![](https://api.dataforseo.com/llm_m/cdn/i/420401763723505730:5bb9892864c246809bc6fa48bc4e9ef0)\nEtsy Shipping Free shipping 5.0 (3)![]()\nSoftly, As I Leave You: Life After Elvis $32.00![](https://api.dataforseo.com/llm_m/cdn/i/420401763723505730:142621d343fc408a8922d7ffaae9ae01)\nBooks A Million, + more Shipping $6.98 by 1/1 4.6 (58)![]()\nPride and Prejudice (Collector's Edition): The Complete Novel, Featuring the Characters' Letters and Papers, Written and Folded by Hand $80.00![](https://api.dataforseo.com/llm_m/cdn/i/420401763723505730:abb6e535fdea4f968f21e6868e0729f8)\nChronicle Books, + more Shipping Free by 1/8 4.7 (13)![]()\nStarside (Deluxe Limited Edition) (B&N Exclusive Edition); Hardcover; Author - Alex Aster $34.00![](https://api.dataforseo.com/llm_m/cdn/i/420401763723505730:331a97c4b2494f52ba0925aab79a84aa)\nBarnes & Noble - Barnes and Noble - Heavy, + more Shipping $6.99![]()\nSale Murder on the Orient Express Deluxe Collector's Edition: A Hercule Poirot Mystery: The Official Authorized Edition $28.00 $35![](https://api.dataforseo.com/llm_m/cdn/i/420401763723505730:e6c8da6673d0478195f2faf55afcee9b)\nHarperCollins Publishers, + more Shipping Free $35+![]()\nAnniversary Editions (5 signed limited edition books)$150.00![](https://api.dataforseo.com/llm_m/cdn/i/420401763723505730:15f8d925f9af42efbc6f74d6cf1fef8e)\nBlack Sands Shipping Free by 1/7![]()\nFranklin Library Books. Limited Edition, Vintage, Hard Cover, Rare. Price=1 book $30.00![](https://api.dataforseo.com/llm_m/cdn/i/420401763723505730:5c9f7862cc6b4d50921ff8b39febff7b)\neBay Shipping Free shipping![]()\nAmong the Burning Flowers $32.99![](https://api.dataforseo.com/llm_m/cdn/i/420401763723505730:bebf168731354b018bec80b27114450e)\nLinden Tree Books, + more Shipping Free $100+Small business Small business 5.0 (9)[vintage or limited edition books](https://www.google.com/search?hl=en&gl=US&cs=0&sca_esv=f33afe38d9b8e84c&snr=0&q=gifts+for+book+lovers+vintage+or+limited+edition+books&mcur=MgA&msig=ATM4YPhQj-4G83agdeejkcOnA5kMEGT_KGZnuBwXfDMk5W1ldg) [signed edition books](https://www.google.com/search?hl=en&gl=US&cs=0&sca_esv=f33afe38d9b8e84c&snr=0&q=gifts+for+book+lovers+signed+edition+books&mcur=MgA&msig=ATM4YPggIohANzxF8ceIomc6T26j7_Qwx-fVIHoHwm7hXhaG9A) ![](https://api.dataforseo.com/llm_m/cdn/i/420401763723505730:deb0cdfa6a9047b984ff18c1943c9f10)\nTech for readers Enhance their reading experience with an e-reader pre-loaded with their favorite books, a comfortable reading light, or a pair of noise-canceling headphones for audiobook immersion.![]()\nSale Kobo Clara Colour eReader $139.99 $160![](https://api.dataforseo.com/llm_m/cdn/i/420401763723505730:f1dc777a94e84c5380f02b69f256a085)\nTarget, + more Shipping Free by 1/5 4.6 (1.5K)![]()\nBook Lover's Reading Light Botanical $19.99![](https://api.dataforseo.com/llm_m/cdn/i/420401763723505730:826de36edd3740db86da8959420e6929)\nBarnes & Noble, + more Shipping $6.99 by 12/26 5.0 (5)![]()\nSale Sony WH-1000XM4 Wireless Noise Headphones $199.99 $350![](https://api.dataforseo.com/llm_m/cdn/i/420401763723505730:b4917d1f0cbe4295a383a214cf940233)\nSony, + more Shipping Free by 12/30 4.7 (32K)![]()\nKobo Libra Colour Black eReader $199.99![](https://api.dataforseo.com/llm_m/cdn/i/420401763723505730:0aa1fc2f68914559b5b649690db16b9c)\nRakuten Kobo USA, + more Shipping Free by 1/2 4.8 (3K)![]()\nSloth Reading Light and Bookmark $14.00![](https://api.dataforseo.com/llm_m/cdn/i/420401763723505730:cd7c1b8751c84804a0729d1b03e98e09)\nUncommon Goods, + more Shipping $8.95 by 1/1 3.9 (11)![]()\nSale Bose QuietComfort SC Wireless Over-Ear Headphones $229.99 $280![](https://api.dataforseo.com/llm_m/cdn/i/420401763723505730:092c593fc6284cba8f5880a92f47c27c)\nBest Buy, + more Shipping $16.49 by 1/8 4.6 (2.7K)![]()\nSale Amazon Kindle Paperwhite $134.99 $160![](https://api.dataforseo.com/llm_m/cdn/i/420401763723505730:13858ab7e4d647b9b4ae25d87be29dd5)\nBest Buy, + more Shipping Free by 12/29 4.8 (4.1K)![]()\nClassic Book Light: History of Magic $33.71![](https://api.dataforseo.com/llm_m/cdn/i/420401763723505730:8c0caab47bf94a3aa3bebbf1e6230d67)\nklevercase.com Shipping $6.68 by 1/23 4.9 (88)![]()\nSale Bose QuietComfort Ultra Wireless Headphones $399.00 $449![](https://api.dataforseo.com/llm_m/cdn/i/420401763723505730:9acea485007e4ba7b5e9c39e20d7e1c9)\nBose, + more Shipping Free shipping 4.7 (699)![]()\nBOOX 6.13\" Palma 2 E-Ink Tablet $299.99![](https://api.dataforseo.com/llm_m/cdn/i/420401763723505730:4662550cf69640aa93074690d3019cf4)\nStaples, + more Shipping Free by 12/30 4.8 (258)[e-readers](https://www.google.com/search?hl=en&gl=US&cs=0&sca_esv=f33afe38d9b8e84c&snr=0&q=gifts+for+book+lovers+e-readers&mcur=MgA&msig=ATM4YPiDyZ2aEmCfAwdXx0_ygbm3fwnabsaouOcOHjBKWFYS_w) [comfortable reading lights](https://www.google.com/search?hl=en&gl=US&cs=0&sca_esv=f33afe38d9b8e84c&snr=0&q=gifts+for+book+lovers+comfortable+reading+lights&mcur=MgA&msig=ATM4YPgUuoGqQ4cBf5muweQkeZdxXNFRsIi-hlC4qs3upGkQ0w) [noise-canceling headphones](https://www.google.com/search?hl=en&gl=US&cs=0&sca_esv=f33afe38d9b8e84c&snr=0&q=gifts+for+book+lovers+noise-canceling+headphones&mcur=MgA&msig=ATM4YPhNvh8o0dC16ZfzA66GJ7my_bdDyKBttcxZ7ky7XCiABg) [tech for readers](https://www.google.com/search?hl=en&gl=US&cs=0&sca_esv=f33afe38d9b8e84c&snr=0&q=gifts+for+book+lovers+tech+for+readers&mcur=MgA&msig=ATM4YPiy2-d9dBMXxCVnNDsDGQZIMw6c2UMXGQJmGpNeIEXqbw) ![](https://api.dataforseo.com/llm_m/cdn/i/420401763723505730:2a568f3b0a7144e28ef4b8ee7fd89226)\nBookish apparel and accessories Help them display their love for reading with unique fashion items.Spoil them with cozy socks printed with book quotes, a literary-themed tote bag for carrying their books, or a necklace with a book charm.![]()\nSale Orwell's 1984 Book Art Tote Bag $31.41 $37![](https://api.dataforseo.com/llm_m/cdn/i/420401763723505730:740f8aa763c7499c92f1a4ab285c3e3f)\nWell Read Company USA, + more Shipping Free $35+5.0 (3)![]()\nSale Miniature Book Locket Necklace $10.80 $18![](https://api.dataforseo.com/llm_m/cdn/i/420401763723505730:58c93a940ecd4e1ab24f383b610ed023)\nEtsy - LeBuaJewelrytoo Shipping $6.50 Small business Small business 4.9 (431)![]()\nJolly Book Lover Canvas Tote Bag $22.99![](https://api.dataforseo.com/llm_m/cdn/i/420401763723505730:297657e8dc534ad4ad128edec4604ddc)\nBarnes & Noble Shipping $6.99 by 12/26![]()\nWomen's Book Locket Necklace $58.00![](https://api.dataforseo.com/llm_m/cdn/i/420401763723505730:4ab235e886b64e2daeaa4d80ff7775d7)\nUncommon Goods Shipping $9.95 by 1/1![]()\nRifle Paper Book Club Canvas Tote Bag $28.00![](https://api.dataforseo.com/llm_m/cdn/i/420401763723505730:5d3e0f8dc0e44a2997976df03d38a1c7)\nMy Sister's Cottage, + more Shipping $6.95 by 1/9 Small business Small business 4.8 (7)![]()\nSale Personalized Monogram Book Charm Necklace $18.49 $22![](https://api.dataforseo.com/llm_m/cdn/i/420401763723505730:1b4fdff35c1f4a3c970cfa21c7357958)\nEtsy - ShortandBaldJewelry Shipping $5.15 Small business Small business 4.9 (41)![]()\nCavallini & Co. Library Books Tote Bag $19.00![](https://api.dataforseo.com/llm_m/cdn/i/420401763723505730:8b8986c5247e463db0194be80826dd88)\nLittle Craft Place, + more![]()\nSale Personalized Book Locket Necklace $38.00 $75![](https://api.dataforseo.com/llm_m/cdn/i/420401763723505730:61d968061148407596ec775f917cd493)\nFabuLove, + more Shipping Free by 1/6 4.2 (79)![]()\nPride and Prejudice Book Tote $38.00![](https://api.dataforseo.com/llm_m/cdn/i/420401763723505730:ad5e518bfa844d4c917762f0e54924dc)\nBarnes & Noble, + more Shipping $6.99 by 12/26 4.9 (37)![]()\nCharlotte Bront Jane Eyre Book Locket Necklace $58.00![](https://api.dataforseo.com/llm_m/cdn/i/420401763723505730:42785eb11fdb4f43b349d550c29f93f5)\nUncommon Goods Shipping $9.95 by 1/1[literary-themed tote bag](https://www.google.com/search?hl=en&gl=US&cs=0&sca_esv=f33afe38d9b8e84c&snr=0&q=gifts+for+book+lovers+literary-themed+tote+bag&mcur=MgA&msig=ATM4YPipH5NbjGGr_j7NpoRQSMuUVy7z_BhV8osqsfQV_IvlSw) [book charm necklace](https://www.google.com/search?hl=en&gl=US&cs=0&sca_esv=f33afe38d9b8e84c&snr=0&q=gifts+for+book+lovers+book+charm+necklace&mcur=MgA&msig=ATM4YPg_kVY5NYQz-fveFDDoKVD3QITSr536Sj-XW1OTQKgbgA) ![](https://api.dataforseo.com/llm_m/cdn/i/420401763723505730:1ba0dc97e17a4428a87bd3fa64a05f71)\nPersonalized bookends Add a unique touch to their bookshelf with a pair of specially designed bookends.You can customize the gift with their initials, a favorite quote, or a character from their favorite book.![]()\nPersonalized Monogram Bookend / Last Name Initial Bookend / Custom Bookend / Unique Bookends / Minimalistic Home Decor / Name Book Stand $19.95![](https://api.dataforseo.com/llm_m/cdn/i/420401763723505730:898998cb3138454cac3ca1d67c9adc38)\nEtsy - PearlSignCo Shipping $5 Small business Small business 5.0 (1)![]()\nPortico Designs Pride and Prejudice Metal Bookend $39.99![](https://api.dataforseo.com/llm_m/cdn/i/420401763723505730:67f898ff1ea7456aa3fe3e929d1c3405)\nBarnes & Noble Shipping $6.99 by 12/26![]()\nPersonalized Bookends $64.95![](https://encrypted-tbn1.gstatic.com/faviconV2?url=http://www.damhorsttoys.com&client=SHOPPING&size=32&type=FAVICON&fallback_opts=TYPE,SIZE,URL&nfrp=2)\ndamhorsttoys.com Shipping Free by 1/8 Small business Small business![]()\nPersonalized Marble Bookends with Initials by M.LaHart $179.00![](https://api.dataforseo.com/llm_m/cdn/i/420401763723505730:37d94e76498e4ef8a7d9ceee260e2402)\nM.LaHart & Company Shipping Free $295+Small business Small business 4.8 (111)![]()\nIndividual Iconic Woman Bookend Jane Austen $25.00![](https://api.dataforseo.com/llm_m/cdn/i/420401763723505730:5ce91c43f45f41159acad17a9d2c4ffd)\nARCHd Shipping Free $75+Small business Small business![]()\nPersonalized Bookends for Book Lover $45.00![](https://api.dataforseo.com/llm_m/cdn/i/420401763723505730:7c53c867e5c048bfba2ddf855cce71e4)\nCallie Shipping $6![]()\nSale Custom Engraved Wooden Bookends Bookworm Gifts Reading Gifts $30.60 $34![](https://api.dataforseo.com/llm_m/cdn/i/420401763723505730:be74603084e5494a99b8e30a6efbbb4f)\nCallie Shipping $6![]()\nThe Bradford Exchange Harry Potter Hogwarts Bookend Collection Lights Up $79.99![](https://api.dataforseo.com/llm_m/cdn/i/420401763723505730:f60168a98f244b428ba5d828d05c8788)\nBradford Exchange Shipping $12.99 by 1/9![]()\nSale Personalized Books Read This Year Counter, Books Read Tracker, Book Lover Gift, Book Club Gift, Bookshelf Decor, Book Ends, Gift for Readers $25.21 $63![](https://api.dataforseo.com/llm_m/cdn/i/420401763723505730:b286b3cc592344ad8c0df74e6d595e6e)\nEtsy Shipping Free shipping 4.9 (664)![]()\nSale Custom Initial Metal Bookends: Name Monogram Bookends, Minimalist Home or Office Gift, Books $15.20 $38![](https://api.dataforseo.com/llm_m/cdn/i/420401763723505730:28493a53b6a34486bcc82c9621728d47)\nEtsy[personalized initial bookends](https://www.google.com/search?hl=en&gl=US&cs=0&sca_esv=f33afe38d9b8e84c&snr=0&q=gifts+for+book+lovers+personalized+initial+bookends&mcur=MgA&msig=ATM4YPhocFFGZhlJUYvb49qZ8IYTlzEt87tIOs62or31vBUthw) [literary characters bookends](https://www.google.com/search?hl=en&gl=US&cs=0&sca_esv=f33afe38d9b8e84c&snr=0&q=gifts+for+book+lovers+literary+characters+bookends&mcur=MgA&msig=ATM4YPhDq4e6DIL8P4cwX46TYFMj4cgbd6BIkIdy4YzHBNkWXQ) [personalized bookends](https://www.google.com/search?hl=en&gl=US&cs=0&sca_esv=f33afe38d9b8e84c&snr=0&q=gifts+for+book+lovers+personalized+bookends&mcur=MgA&msig=ATM4YPhVe38BMHFZlTf7Hsrw6xK8lJrbLwonvudaHpUqzCW47Q) \n You can also consider: \n\n- **Literary experiences:** Gift them a unique experience like a book-themed escape room, a literary walking tour of their favorite city, or tickets to a book festival or author talk.\n- **Book subscription boxes:** Surprise them with a curated selection of new and exciting reads delivered to their doorstep every month.It's a great way to keep their bookshelf overflowing with fresh adventures.",
+              "sources": [
+                {
+                  "snippet": "Aug 28, 2025 — BOOK LOVER FLEX CUPS // BOOK LOVERS BOOKMARKS // BAD BOOK GIRL HAT // CUSTOM EX LIBRIS EMBOSSER // READING LOG / JOURN...",
+                  "source_name": "Magpie by Jen Shoop",
+                  "thumbnail": null,
+                  "markdown": null,
+                  "rank": 1,
+                  "title": "20 Best Gifts for Book Lovers I Unique Ideas - Magpie by Jen Shoop",
+                  "domain": "magpiebyjenshoop.com",
+                  "url": "https://magpiebyjenshoop.com/20-gifts-for-book-lovers/#:~:text=BOOK%20LOVER%20FLEX%20CUPS%20//%20BOOK%20LOVERS,//%20ACRYLIC%20BOOK%20STAND%20//%20CHAPPYWRAP%20BLANKETS.",
+                  "publication_date": null
+                },
+                {
+                  "snippet": "Mar 16, 2023 — - personalized library stamper with their name (from the library of *insert their name) - book mark set (bonus points ...",
+                  "source_name": "Reddit",
+                  "thumbnail": null,
+                  "markdown": null,
+                  "rank": 2,
+                  "title": "Presents for someone who enjoys books? - Reddit",
+                  "domain": "www.reddit.com",
+                  "url": "https://www.reddit.com/r/books/comments/11stj5l/presents_for_someone_who_enjoys_books/",
+                  "publication_date": null
+                },
+                {
+                  "snippet": "Unique gifts for readers - Book lover presents and reading gifts. So, whether you're searching for book lover presents, gifts for ...",
+                  "source_name": "Once Upon a Book Club",
+                  "thumbnail": null,
+                  "markdown": null,
+                  "rank": 3,
+                  "title": "Gifts for Readers: Unique Bookish Items - Once Upon a Book Club",
+                  "domain": "www.onceuponabookclub.com",
+                  "url": "https://www.onceuponabookclub.com/collections/gifts-for-readers",
+                  "publication_date": null
+                },
+                {
+                  "snippet": "A sentimental gift: why vintage books make a great present. Vintage books combine beauty with meaning in the perfect sentimental g...",
+                  "source_name": "biblio.com",
+                  "thumbnail": null,
+                  "markdown": null,
+                  "rank": 4,
+                  "title": "A Sentimental Gift: Vintage Books Combine Beauty and Meaning to ...",
+                  "domain": "www.biblio.com",
+                  "url": "https://www.biblio.com/blog/2022/11/a-sentimental-gift-vintage-books-combine-beauty-and-meaning-to-make-the-perfect-present/",
+                  "publication_date": null
+                },
+                {
+                  "snippet": "Oct 20, 2025 — If you've ever wandered the aisles of a bookstore trying to remember which books they've mentioned in the past, you'll...",
+                  "source_name": "Paperback Down",
+                  "thumbnail": null,
+                  "markdown": null,
+                  "rank": 5,
+                  "title": "Why The Perfect Present For Book Lovers is a Book Gift Subscription",
+                  "domain": "paperbackdown.com",
+                  "url": "https://paperbackdown.com/blogs/news/the-perfect-gift-why-a-book-subscription-is-the-best-gift-for-book-lovers",
+                  "publication_date": null
+                },
+                {
+                  "snippet": "May 28, 2025 — Let's be honest—life gets busy. Between work, parenting, errands, and the lure of streaming services, even the most de...",
+                  "source_name": "Once Upon a Book Club",
+                  "thumbnail": null,
+                  "markdown": null,
+                  "rank": 6,
+                  "title": "The Top 5 Benefits of a Book Subscription Box",
+                  "domain": "www.onceuponabookclub.com",
+                  "url": "https://www.onceuponabookclub.com/blogs/book-subscription-boxes/the-top-5-benefits-of-a-book-subscription-box",
+                  "publication_date": null
+                },
+                {
+                  "snippet": "Nov 19, 2024 — Books make great gifts because they have whole worlds inside of them. And it's much cheaper to buy somebody a book tha...",
+                  "source_name": "Bauman Rare Books",
+                  "thumbnail": null,
+                  "markdown": null,
+                  "rank": 7,
+                  "title": "Rare Books as Gifts",
+                  "domain": "www.baumanrarebooks.com",
+                  "url": "https://www.baumanrarebooks.com/blog/rare-books-as-gifts/",
+                  "publication_date": null
+                }
+              ],
+              "search_results": null,
+              "ai_search_volume": 22200,
+              "monthly_searches": [
+                {
+                  "year": 2025,
+                  "month": 11,
+                  "search_volume": 49500
+                },
+                {
+                  "year": 2025,
+                  "month": 10,
+                  "search_volume": 14800
+                },
+                {
+                  "year": 2025,
+                  "month": 9,
+                  "search_volume": 9900
+                },
+                {
+                  "year": 2025,
+                  "month": 8,
+                  "search_volume": 9900
+                },
+                {
+                  "year": 2025,
+                  "month": 7,
+                  "search_volume": 9900
+                },
+                {
+                  "year": 2025,
+                  "month": 6,
+                  "search_volume": 8100
+                },
+                {
+                  "year": 2025,
+                  "month": 5,
+                  "search_volume": 12100
+                },
+                {
+                  "year": 2025,
+                  "month": 4,
+                  "search_volume": 12100
+                },
+                {
+                  "year": 2025,
+                  "month": 3,
+                  "search_volume": 12100
+                },
+                {
+                  "year": 2025,
+                  "month": 2,
+                  "search_volume": 12100
+                },
+                {
+                  "year": 2025,
+                  "month": 1,
+                  "search_volume": 18100
+                },
+                {
+                  "year": 2024,
+                  "month": 12,
+                  "search_volume": 110000
+                }
+              ],
+              "first_response_at": "2025-12-25 03:16:06 +00:00",
+              "last_response_at": "2025-12-25 03:16:06 +00:00",
+              "brand_entities": null,
+              "fan_out_queries": null,
+              "is_web_search_based": true
+            },
+            {
+              "platform": "google",
+              "model_name": "google_ai_overview",
+              "location_code": 2840,
+              "language_code": "en",
+              "question": "stephen king books for sale",
+              "answer": "Stephen King books are available from major online retailers, secondhand platforms, and specialty rare book dealers with prices ranging from `under $5 for used paperbacks to over $6,000 for signed and rare first editions`.[[1]](https://www.hpb.com/books/trending-topics/stephen-king)[[2]](https://www.baumanrarebooks.com/authors/Stephen-KING/205284)\n\n### Popular New & Boxed Set Options\n\n\n\n---\n\nThe Dark Tower 8-Book Boxed Set Available new through [Books A Million](https://www.booksamillion.com/p/Dark-Tower-Book-Boxed-Set/Stephen-King/9781501163562) for around $163.\n\n---\n\n![](https://api.dataforseo.com/llm_m/cdn/i/-3243705611933601648:b8bc5504a00ef31edefeb77bea7dca95)\n![](https://api.dataforseo.com/llm_m/cdn/i/-3243705611933601648:b8bc5504a00ef31edefeb77bea7dca95)\nThree Classic Novels Box Set (Carrie, 'Salem's Lot, The Shining)2012·Stephen King![](https://api.dataforseo.com/llm_m/cdn/i/-3243705611933601648:d878e7c6fdd2203af2dce9d49f208d6d)\n![](https://api.dataforseo.com/llm_m/cdn/i/-3243705611933601648:bef933ffb9aea75c1f2f420a7d17b72a)\n![](https://api.dataforseo.com/llm_m/cdn/i/-3243705611933601648:b1f57a63e046f57b754b20846d572b89)\nKindle Store +4  \nOffered new at [Target](https://www.target.com/p/stephen-king-three-classic-novels-box-set-carrie-39-salem-39-s-lot-the-shining-by-stephen-king-paperback/-/A-1013068320?TCID=OGS&AFID=google&CPNG=Entertainment&adgroup=59-4&srsltid=AYCX9vL7wfDk8rj_vrzpxs8eKklS174jqfVZV2o2iMbLKVVHRwK4E3K3IbI) for about $44 and [Barnes & Noble](https://www.barnesandnoble.com/w/stephen-king-three-classic-novels-box-set-stephen-king/1133746610?ean=9780593082218) for $57.\n\n---\n\n![](https://api.dataforseo.com/llm_m/cdn/i/-3243705611933601648:09dbe3ab069ea0fd29f0b7f78cb6054f)\n![](https://api.dataforseo.com/llm_m/cdn/i/-3243705611933601648:09dbe3ab069ea0fd29f0b7f78cb6054f)\nDoctor Sleep![](https://api.dataforseo.com/llm_m/cdn/i/-3243705611933601648:d878e7c6fdd2203af2dce9d49f208d6d)\n![](https://api.dataforseo.com/llm_m/cdn/i/-3243705611933601648:8c004f5c5cd0aa0953033ed787759c6b)\n![](https://api.dataforseo.com/llm_m/cdn/i/-3243705611933601648:bef933ffb9aea75c1f2f420a7d17b72a)\nKindle Store +6 more  \nAvailable new via [Books A Million](https://www.booksamillion.com/p/Doctor-Sleep/Stephen-King/Q726519498) for roughly $11.[[1]](https://www.google.com/search?q=product&prds=pvt:hg,pvo:29,productid:33526653498585392,catalogid:18311675805125557178,gpcid:1349660261718867044,mid:576462915402544793&ibp=oshop)[[2]](https://www.google.com/search?q=product&prds=pvt:hg,pvo:29,productid:11487116358048380573,catalogid:3815343390093295126,gpcid:16215797028270325422,mid:576462629770905350&ibp=oshop)[[3]](https://www.google.com/search?q=product&prds=pvt:hg,pvo:29,productid:14104704700822812089,catalogid:18310713539384943252,gpcid:2422554259993629641,mid:576462227286796647&ibp=oshop)\n\n### Where to Shop & Browse Catalogs\n\n- **Used & Budget Copies** : Browse individual titles, trade paperbacks, and used editions through [BooksRun](https://booksrun.com/author/stephen-king), [Half Price Books](https://www.hpb.com/books/trending-topics/stephen-king) , or [eBay](https://www.ebay.com/b/Stephen-King-Fiction-Books/261186/bn_79900812).\n- **Rare & Signed Editions** : High-value, inscribed first editions and limited releases are stocked by dealers like [Bauman Rare Books](https://www.baumanrarebooks.com/authors/Stephen-KING/205284) , with select collector pieces ranging from $1,100 to $6,800.\n- **New Releases & Direct Bundles** : Check publisher details and new titles like *Other Worlds Than These* on [Stephen King's Official Website](https://stephenking.com/) or via [Simon & Schuster](https://www.simonandschuster.com/p/stephen-king-books).[[1]](https://www.hpb.com/books/trending-topics/stephen-king)[[2]](https://www.ebay.com/b/Stephen-King-Fiction-Books/261186/bn_79900812)[[3]](https://www.baumanrarebooks.com/authors/Stephen-KING/205284)[[4]](https://stephenking.com/)[[5]](https://www.simonandschuster.com/p/stephen-king-books)\n\nIf you let me know:\n\n- Which **specific title or series** you are looking for\n- Whether you prefer **new, used, or collector/signed** copies\n- Your **budget** \n\nI can help point you to the best option.",
+              "sources": [
+                {
+                  "snippet": "Top rated. See all · It : A Novel by Stephen King (2016, Trade Paperback) · It : A Novel by Stephen King (2016, Trade Paperback) · (74). 98% agree - Would recommen...",
+                  "source_name": "eBay",
+                  "thumbnail": null,
+                  "markdown": null,
+                  "rank": 1,
+                  "title": "25+ Stephen King Fiction & Books for sale | Updated Nov 2026 - eBay",
+                  "domain": "www.ebay.com",
+                  "url": "https://www.ebay.com/b/Stephen-King-Fiction-Books/261186/bn_79900812",
+                  "publication_date": null
+                },
+                {
+                  "snippet": "Stephen King Titles and Pricing: Carrie ($13.30–$22.73); The Gwendy Trilogy ($38.28); The Talisman ($5.99–$55.00); If It Bleeds ($4.99–$30.00); Sleeping Beauties (",
+                  "source_name": "Half Price Books",
+                  "thumbnail": null,
+                  "markdown": null,
+                  "rank": 2,
+                  "title": "Comprehensive List of Stephen King Novels",
+                  "domain": "www.hpb.com",
+                  "url": "https://www.hpb.com/books/trending-topics/stephen-king",
+                  "publication_date": null
+                },
+                {
+                  "snippet": "Bauman Rare Books inventory features 11 rare, signed, or inscribed Stephen King items priced from $1100 to $6800. Signed limited editions: Doctor Sleep (2013, $680...",
+                  "source_name": "Bauman Rare Books",
+                  "thumbnail": null,
+                  "markdown": null,
+                  "rank": 3,
+                  "title": "Stephen KING Rare Books and First Editions at Bauman Rare Books",
+                  "domain": "www.baumanrarebooks.com",
+                  "url": "https://www.baumanrarebooks.com/authors/Stephen-KING/205284",
+                  "publication_date": null
+                },
+                {
+                  "snippet": "For the first time ever in a single boxed set, all of Stephen King’s eight Dark Tower novels―one of the most acclaimed and popular...",
+                  "source_name": "Google",
+                  "thumbnail": null,
+                  "markdown": null,
+                  "rank": 4,
+                  "title": "The Dark Tower 8-Book Boxed Set",
+                  "domain": "www.google.com",
+                  "url": "https://www.google.com/search?q=product&prds=pvt:hg,pvo:29,productid:33526653498585392,catalogid:18311675805125557178,gpcid:1349660261718867044,mid:576462915402544793&ibp=oshop",
+                  "publication_date": null
+                },
+                {
+                  "snippet": "A beautifully designed box set of Stephen King's early #1 bestsellers: Carrie, 'Salem's Lot, and The Shining, that will make the p...",
+                  "source_name": "Google",
+                  "thumbnail": null,
+                  "markdown": null,
+                  "rank": 5,
+                  "title": "Stephen King Three Classic Novels Box Set: Carrie, Salem's Lot, the Shining",
+                  "domain": "www.google.com",
+                  "url": "https://www.google.com/search?q=product&prds=pvt:hg,pvo:29,productid:11487116358048380573,catalogid:3815343390093295126,gpcid:16215797028270325422,mid:576462629770905350&ibp=oshop",
+                  "publication_date": null
+                },
+                {
+                  "snippet": "Decades after the terrifying events at the Overlook Hotel, Dan Torrance, now an adult, drifts through life, haunted by his past. H...",
+                  "source_name": "Google",
+                  "thumbnail": null,
+                  "markdown": null,
+                  "rank": 6,
+                  "title": "Doctor Sleep by Stephen King",
+                  "domain": "www.google.com",
+                  "url": "https://www.google.com/search?q=product&prds=pvt:hg,pvo:29,productid:14104704700822812089,catalogid:18310713539384943252,gpcid:2422554259993629641,mid:576462227286796647&ibp=oshop",
+                  "publication_date": null
+                },
+                {
+                  "snippet": "“I wanted to go back to Mid-World, which was always the Territories by another name.” — Stephen King This is Stephen King and Pete...",
+                  "source_name": "StephenKing.com",
+                  "thumbnail": null,
+                  "markdown": null,
+                  "rank": 7,
+                  "title": "Stephen King | The Official Website",
+                  "domain": "stephenking.com",
+                  "url": "https://stephenking.com/",
+                  "publication_date": null
+                },
+                {
+                  "snippet": "Featured Works: Other Worlds Than These by Stephen King and Peter Straub (Talisman Trilogy finale, $35.00 hardcover); It Special E...",
+                  "source_name": "Simon & Schuster",
+                  "thumbnail": null,
+                  "markdown": null,
+                  "rank": 8,
+                  "title": "Stephen King Books | Simon & Schuster",
+                  "domain": "www.simonandschuster.com",
+                  "url": "https://www.simonandschuster.com/p/stephen-king-books",
+                  "publication_date": null
+                }
+              ],
+              "search_results": null,
+              "ai_search_volume": 9900,
+              "monthly_searches": [
+                {
+                  "year": 2026,
+                  "month": 9,
+                  "search_volume": 210
+                },
+                {
+                  "year": 2026,
+                  "month": 8,
+                  "search_volume": 260
+                },
+                {
+                  "year": 2026,
+                  "month": 7,
+                  "search_volume": 260
+                },
+                {
+                  "year": 2026,
+                  "month": 6,
+                  "search_volume": 480
+                },
+                {
+                  "year": 2026,
+                  "month": 5,
+                  "search_volume": 480
+                },
+                {
+                  "year": 2026,
+                  "month": 4,
+                  "search_volume": 12100
+                },
+                {
+                  "year": 2026,
+                  "month": 3,
+                  "search_volume": 6600
+                },
+                {
+                  "year": 2026,
+                  "month": 2,
+                  "search_volume": 2400
+                },
+                {
+                  "year": 2026,
+                  "month": 1,
+                  "search_volume": 40500
+                },
+                {
+                  "year": 2025,
+                  "month": 12,
+                  "search_volume": 12100
+                },
+                {
+                  "year": 2025,
+                  "month": 11,
+                  "search_volume": 5400
+                },
+                {
+                  "year": 2025,
+                  "month": 10,
+                  "search_volume": 33100
+                }
+              ],
+              "first_response_at": "2026-01-19 12:08:39 +00:00",
+              "last_response_at": "2026-11-07 02:50:42 +00:00",
+              "brand_entities": null,
+              "fan_out_queries": null,
+              "is_web_search_based": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

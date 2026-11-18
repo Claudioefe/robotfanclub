@@ -1,0 +1,727 @@
+{
+  "_note": "DATOS REALES de DataForSEO (2026-11-18): /v3/ai_optimization/chat_gpt/llm_scraper/live/advanced con force_web_search=true, EE. UU., en. Query: how to tell if a book is a first edition. Respuesta cruda sin editar (excepto esta nota). Costo USD 0,004.",
+  "version": "0.1.20261117",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "40.9050 sec.",
+  "cost": 0.004,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "11181758-2831-0629-0000-271a6832f3ef",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "40.0210 sec.",
+      "cost": 0.004,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "chat_gpt",
+        "llm_scraper",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "live",
+        "se": "chat_gpt",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "how to tell if a book is a first edition",
+        "force_web_search": true,
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "how to tell if a book is a first edition",
+          "location_code": 2840,
+          "language_code": "en",
+          "model": "gpt-6",
+          "check_url": "https://chatgpt.com/?prompt=how%20to%20tell%20if%20a%20book%20is%20a%20first%20edition&hints=search",
+          "datetime": "2026-11-18 17:58:55 +00:00",
+          "markdown": "Identifying a **first edition book** can be relatively easy with modern books, but older and collectible books require a little detective work.\n\nThe best place to start is the **copyright page**, usually on the back of the title page.\n\n## 1\\. Check the copyright page\n![洋書に印刷された数列「1 3 5 7 9 10 8 6 4 2」の謎｜あらきさんの編集覚え書き](https://images.openai.com/static-rsc-4/Oid8s5pZCrjdJHhm29Qw_TnLa-1IpFmyxXG1VeczSJpf9ZlF5IRc65RC9-1YOtEkW5utsz_TJsbh6B0Y9fY5b4a4xhNoOoWz7V8g88f7_AeP32YEZXdFtthDVELTlNrHT6om_iq236edr2mP6Z4PKfO7QxQJL19lzg1zHeGZch_LpE4JJaFaL8nSmjongu0b?purpose=fullsize)![5 Clues to Identifying First Editions](https://images.openai.com/static-rsc-4/ad-LfVWCJ0lKwJyPZTvzj_s3i8c3yTWqss-pQ9phrW4ghgSjg08bQBkR_vqVfN7HkODaRb0ZgF9IeejD4Sw7VCgVynuzW8VFQTfuo0v9gu-gDcSdZHfE2oFb69kyMKlp2-KcrM-yQcPiCyGW_5nw9uHt5WXCIT7iyY16q7cdQZxq2Rr9VKkHMXpGWc_7ydrw?purpose=fullsize)![A Thief of Time, Tony Hillerman. Signed First Edition.\n– The Rare Book Sleuth](https://images.openai.com/static-rsc-4/tkK0cM_PTzkdbzuUIDXrLyDORulyHL_MXq9Wn8CqQljC9FfQ4nyim3A-rxigN5agC_UGV_-NEuxLKafWkwUsVKW82GvVmGm1qgtVemcoPa6ydvbwlKS0ja1GJvdYUaHm8KqBXL8Kcd52QrCIepOFCPoS1FCrCZOagCAYVT8Cpt47iZCp6WGmsKjLlG5cnPVC?purpose=fullsize)![How to Tell If a Book Is a First Edition (Complete Guide)](https://images.openai.com/static-rsc-4/ZKp-Ep0l0F6kP_Qyf8KYwm0WBqaMB70bx8Z6lAX8b8QElwlOsgpNPZyhS4jT4wtIGV-RtJgMznX2AFk_1N3qHejDNcUKsZlnRdHRBcKlMZYnyb0khYHb4_5MhoPEyPmPbhH8M_OWfQdz8OaZB9IhtCF_l1ef6IwTtSqyVV8_SJhytXHetc4ayE0Ero0WcbGO?purpose=fullsize)![Charlotte's Web | E. B. White | First](https://images.openai.com/static-rsc-4/ETxOFAMtkJbAx2n6u_7UxOk1HOj9ESj2vBzuHWCzd-QNnebh03PZPNGroxbGXmiIgmSkAaaSmuQjxeXhIH1jDZUBddhzpD1c9yqEVTD7HJhkxoQe66gFz_iRAjvUKVIjJPKLSpolt5GftLSfmHUE1BmWtXoJHjIQd7Pk0CFWEFoxbUe92zPSpLyudV0H_88W?purpose=fullsize)![Identifying First Editions | News | ABAA](https://images.openai.com/static-rsc-4/FhO1ejwITPFXAjCmSeN39RuSGRXumGIOGfQLDrk6E2EQW63YJOk_lO-Eiutr_olsKrwtTUrTge0qj-bwKpza--Pv3SFcjFU6cw_jYc4HkBdDByV3i6wnwDr5WWpGM5NwZi9Sf7L0uS8PP3BxVowalmD91cO1Z7nn2dXkUm8UXVky4T8a1YrS6p7FGIam6hJW?purpose=fullsize)![Whirlwind by James Clavell Stated First Edition For Sale at 1stDibs | al shargaz, james clavell whirlwind](https://images.openai.com/static-rsc-4/AeD_DE4067BUYjjLODtlJdKP4ji5m6PLe9bFqvePGEt1ea70qI4TMpBCWMPNbqAlONJC0Vfrw0CG_y0aNK8Vio_-KVZYpBEcPV220mVY176-jXRY6Dv4TuEnYhOjbkjvz8P3uVh2rpLlEuZkNZZzQJJAR-BuEW69wFyOf6U7JWAkF8Ju9qt3Zd89mctqC3JU?purpose=fullsize)![Where the Sidewalk Ends by Shel Silverstein: (1974) First Edition, First Printing. | Ernestoic Books](https://images.openai.com/static-rsc-4/h2AVsTz5--fyhfG3kOlJnK2E5Y2r_cm9lQ45QKxeD2DNZ_I28trpj9twhgJRBTgQkXXJKGSrmJxqbroIVrpSXm2skN9yDzlmqBGKOw32eERvXtSang1zcI-qlW27f6nzum6p41MixwjawnDhfk0oj_qneFtHWBqeWEKaBiugq4TruO7nIZkjN3DhAO5D4osE?purpose=fullsize)![Harper Lee / To Kill a Mockingbird 1st Edition 1960 | eBay](https://images.openai.com/static-rsc-4/mbkjvSAqGde-4UmYdPm-1AC-Aop8egaDZlJLKQ0W-VobGZMa1yjji14JKu34_Oj117MCbLqUSSnnXs57SAcwPiKi441xc1jEcb_aVUtt-b3m6G0aNDT0urhntyCNpbc9tKNKFYy0nQwtj0U2-zQZ8ya9IhddLWMbDQuITnRYq47pOFQGzPlq8P5zHDBymljF?purpose=fullsize)\n\nLook for wording such as\\:\n\n- First Edition\n- First Printing\n- First Published \\[year\\]\n- First Impression\n\nIf it explicitly says \"First Edition,\" that's a good sign, but it doesn't necessarily mean you're holding the first printing. Some publishers leave that wording in later printings. [www.abaa.org](https://www.abaa.org/articles/identifying-first-editions?utm_source=chatgpt.com)[www.ioba.org](https://www.ioba.org/article-identifying-first-editions?utm_source=chatgpt.com)[www.abebooks.com](https://www.abebooks.com/books/rarebooks/collecting-guide/what_books_collect/collecting-first-editions.shtml?utm_source=chatgpt.com)\n\n## 2\\. Look for the number line\n\nThis is one of the easiest ways to identify a modern first printing.\n\n![James Stevenson. What's Under My Bed. [1st Edition] | eBay](https://images.openai.com/static-rsc-4/uobuAS8CYX8IPuAUTd8JfeKknxMjr09EaMFKnpvoAwbgQeaIL3WknXjAqqFIEugG9KGVAnp0CYjU-AM1lgBZdgT4dmEqeaBSn_O-W9u1O5YGKqJR7IZ5r1Z76kvjOU6vZaZ8ot4lMDtlPuXpCWJ1tNJcbTQassHlqxg27z8Fzzh38tDUW0GH-UUlyLfcGCec?purpose=fullsize)![5 Clues to Identifying First Editions](https://images.openai.com/static-rsc-4/ad-LfVWCJ0lKwJyPZTvzj_s3i8c3yTWqss-pQ9phrW4ghgSjg08bQBkR_vqVfN7HkODaRb0ZgF9IeejD4Sw7VCgVynuzW8VFQTfuo0v9gu-gDcSdZHfE2oFb69kyMKlp2-KcrM-yQcPiCyGW_5nw9uHt5WXCIT7iyY16q7cdQZxq2Rr9VKkHMXpGWc_7ydrw?purpose=fullsize)![Clocks and More Clocks by Pat Hutchins, Paperback | Pangobooks](https://images.openai.com/static-rsc-4/M6W8B5iFQA7YLeRxpbBj3osdVuuMDPAW7EfUbfe9n_F2lg7Cn_gZOhDitPVS8fAHnsHQU_Md53_Nb1nWORE8WE0JqtF8m03NoT_le7Vr66ruFsztxepejh9TnWS55R7vMdD8EOe5P1RgKRYjLvOv-ZlP-0EO7wNzJ8RaxDy76ZfWRgvlpSl6KjDdfqpEhH2h?purpose=fullsize)![洋書に印刷された数列「1 3 5 7 9 10 8 6 4 2」の謎｜あらきさんの編集覚え書き](https://images.openai.com/static-rsc-4/Oid8s5pZCrjdJHhm29Qw_TnLa-1IpFmyxXG1VeczSJpf9ZlF5IRc65RC9-1YOtEkW5utsz_TJsbh6B0Y9fY5b4a4xhNoOoWz7V8g88f7_AeP32YEZXdFtthDVELTlNrHT6om_iq236edr2mP6Z4PKfO7QxQJL19lzg1zHeGZch_LpE4JJaFaL8nSmjongu0b?purpose=fullsize)![The Outsiders | S. E. Hinton | 2nd printing](https://images.openai.com/static-rsc-4/U-JEZb5kREhJVNbSOAaZBp_ANsBov0F7lGVmtiGNigOG097Oy6arZmUfU1YoXmwceL2hO8QvCERSm3Vd_ZU9mUe2Fao-WYKcne3lQfOr627IdpZHyOfMH5fPryFjSGfBvqWj8cMfA0epankQn7b_jw0Zrt5btVAuY8IQdnXkL4zqlGjB2Ep6ZNNZNZ0QaMvB?purpose=fullsize)![Signed First Edition 1989 Hardcover Book The Demons At Rainbow Bridge By Jack L. Chalker](https://images.openai.com/static-rsc-4/MPt0DhGWd5liNF1h7hwajSABKpMV8yqpKluxCm9gdx69yhF8qCsOvxD-roPGluPQvPxKGfcWjZd8sf1koq5e82WzM9ncFRrYbHtAGmPRtdndBKltzXBxGMj-akR0ybErzcDHKHPv-xvq4XBbF0J174b8e3CunlXYXPU4WCqMChRBkL65Nd8EMzugiVf3pg3Z?purpose=fullsize)![Identify valuable copies of Harry Potter and the Philosopher’s Stone\n – Winters Rare Books](https://images.openai.com/static-rsc-4/e4zRxdJYNwfB-pp0mu8fszMQojiNp5th6qRI4oRvcmRhx3dA6YlIdmsjxe-8hGJC7FhZeA5rhSwrEKkMhc4NSuEc4xgRGE1BuLTSnf5EfWXBybQ4nLZkRea9lkG3rA2MXAu35QdQZjVqmwMVRDDeXVv7u3ZiJSHWHNFwSHPz6OUJAZb6NQV3fYMLxB8PyNWI?purpose=fullsize)\n\nHere's how to read it\\:\n\n| Number line | Meaning |\n|--------|--------|\n| 10 9 8 7 6 5 4 3 2 1 | First printing |\n| 10 9 8 7 6 5 4 3 2 | Second printing |\n| 10 9 8 7 6 5 4 3 | Third printing |\n\n\n**The lowest number is generally the printing number.** If the number 1 is present, it's usually a first printing.\n\nThere are exceptions depending on the publisher, so always check its conventions. [www.abaa.org](https://www.abaa.org/articles/identifying-first-editions?utm_source=chatgpt.com)[www.ioba.org](https://www.ioba.org/article-identifying-first-editions?utm_source=chatgpt.com)[www.abebooks.com](https://www.abebooks.com/books/rarebooks/collecting-guide/what_books_collect/collecting-first-editions.shtml?utm_source=chatgpt.com)[ilab.org](https://ilab.org/article/first-edition-identification-by-publisher?utm_source=chatgpt.com)\n\n## 3\\. Check the publication dates\n\nCompare\\:\n\n- The date on the title page.\n- The copyright date.\n- Any dates listed for subsequent printings.\n\nFor older books, particularly those published before 1900, the title-page date can be especially important. [www.abaa.org](https://www.abaa.org/articles/identifying-first-editions?utm_source=chatgpt.com)[www.ioba.org](https://www.ioba.org/article-identifying-first-editions?utm_source=chatgpt.com)[www.abebooks.com](https://www.abebooks.com/books/rarebooks/collecting-guide/what_books_collect/collecting-first-editions.shtml?utm_source=chatgpt.com)[ilab.org](https://ilab.org/article/first-edition-identification-by-publisher?utm_source=chatgpt.com)\n\n## 4\\. Examine the dust jacket\n![A Farewell To Arms. by Hemingway, Ernest: Hardcover (1929) 1st Edition | Raptis Rare Books](https://images.openai.com/static-rsc-4/Z4BsF9zixdZbqp10uFV5VnbyE2nqTySbO_tzIllXnsYwStXRH7g1vUK0R1_o5-28iBrqrqkXvAVv9rZMZsa2mr2MSfcoqQw0zMouBP79Yfpslaa9VJaxsPvTrb5KwwuxdbxT-LRw4eh_MssflKvaCg0dD2oGpyS6FE3Dem-yn9jJ47KnCO9-sgC8ETfzFQuM?purpose=fullsize)![The Magnificent Ambersons | Booth Tarkington | First edition](https://images.openai.com/static-rsc-4/tb95Q_xjHYDSGEQteec2pW_e-x4CxRwOcCeApideAyMemG3Jwpc0oY3q6DhAwMTpQFu9KWd_cLaZj1uOV8R0Kk2KSoAeBOgR_JVx1cJDyyv4CVO3vz4nfMK-viCrGdHu-syaMsfcnEP0Uxqmpgvuw37jryZwX7HTC4CV1Jwsz763XCuXQS_NyxFAzT0t2BfN?purpose=fullsize)![The Shepherd Of Guadaloupe - The First Edition Rare Books](https://images.openai.com/static-rsc-4/Uejt1YnAEFsSW6oN-zb2e6j3hontyv-3A29qyx1ZduvZqktrBpmOFmQc2LGNwpafmDvPVYieFhgC_WWEYoli5SudCdNpQWiMcN1tLT4HlaGbfNcCaKmxaXOMKfTpNvdl_XbQPE2gRS_qtsAEREoCglqiPMbd5ooAAbYLAzL7ZDbrmOr9I3Tu8Y9RSQR5csuq?purpose=fullsize)![The Grapes of Wrath by Steinbeck, John: Fine Cloth (1939) First Edition, First Printing. | The First Edition Rare Books, LLC](https://images.openai.com/static-rsc-4/MzbFRyD1THvL2PEO1ICJCiV__yYAMXzjxdZ13dghYIEmyLnKB4dE1pLzGeXzI48YT6hJXimqXJC2wib6MpE_CoEEeRInGq_3Q9geo5rSfwDr6IdiqfsjQM6VLCVDfdtgh0NRom0PqS4J05FJJrpTdaFQgyY3gISfb0PwaKTtX2tlJMSAlU16q-7u0o8vy3Mq?purpose=fullsize)![To Kill a Mockingbird - The First Edition Rare Books](https://images.openai.com/static-rsc-4/dmVfX_otJ3mJenE2SyMqZV-ljVh9A2lFf6dO_1h6ssL-17EvJf0lSlQKHER6odBrvRQU8H4lzvtrW-FdW77RNUvmCoPAg8nl6_kpVrmW8kV5YohWrPxmumqGQ1SsHsWKZ7P675e95_DkMvSzCLHlXAgCZHKYYiU8oFNRvX-ANbnmjF32jjE7kBFi7fRAYHxZ?purpose=fullsize)![First Edition The Sun Also Rises | 1926 Copy Sold for $14,739](https://images.openai.com/static-rsc-4/VxT6QNCPSLKGlq_W5jAFE-ovA_8fgmlhkMX5rq28k8eKmX3mSmhrUoHPBmF4MPeMH-HSGuMfTQmhrh913J39y8BxOL_CD-6zlzHRpXdgBOG3Aw3mT_dgJDXidw82OKJGkKxS6EgDiu2gfgeLM8tMXyP0k19ov83sp6Acdamkwa-nZ53gPswjQUkTF0oJx7ug?purpose=fullsize)![A Tree Grows in Brooklyn by Betty Smith: Good Hardcover (1943) First Edition. | A Cappella Books, Inc.](https://images.openai.com/static-rsc-4/R7HBDdMUpTHsMd7GnaLUQE0cvClNw5ljdQgTFFwNDmHDdtqlFJJFjKSXAg5GEiaRV7fBeORDP20tPg-X39MMDemyOqFF2XyTPijUGSlDNhMO0T2kvY8cTwC_vH3v8rtlZ3OIS9q_W-iWDY7NbgXfNcyhgCwJQUM4jExgcbVDw3NuZawv2cGLRgl-nqtBHnAJ?purpose=fullsize)![First Edition Points to identify The Bridge of San Luis Rey by Thornton Wilder](https://images.openai.com/static-rsc-4/CRFYvnBZXLepVzde7cUFP3cvaDQ8qR3vMvz5wxaNmD-3LAcen0EeaJRYomxdGhqWGruUQqVZykliM1PVrQZZ0X6aGnUQiLpuyq2Zizy39drzHvG6seNa6Pw3LwPPLOycofCpKIYcyK1aA4J3IsfJx3W19DdJ45OC8C3XPqSi-ARHMakPD1g_kDQwls8w_KLA?purpose=fullsize)![THE IDES OF MARCH | Thornton N. Wilder | First Edition; First Printing](https://images.openai.com/static-rsc-4/iLKVVETBgA7XXjh_Wc9VQ405tpCW6_Hk0lQKDTb0FljhYlARjTCgh7XCxpklGK6teki2Gk-p-0IB77KdoIBNYodwsIhgLJnmiGAMgojPRSXvlE2eHSHgQDHoRgN80WuweAa06z-HDqz-wsGInTwvGDo86iYRZfNURab5RE1-kEkV2XYBJnx1OJkV6dD3zi5v?purpose=fullsize)![The Moon is a Harsh Mistress by Heinlein, Robert A.: Very Good Hardcover (1966) 1st Edition | ivy mountain books](https://images.openai.com/static-rsc-4/m1oy-Op1QHUYJueesZutGfB0j-An0XsRhimEilYmjCjv8GeQ__HFCGXuKNMtp6_jZeDCUP3pABPIW-dX1BXOgNtBgSOd4SW-ZvyF12XUpcc5WGaNuF0c81c8d9Q-Pe8wweg6NesNYRhLZKIluzv8TTXI4XFimB2ghsLuiAjbCG6xMGfxc6V9J6vR_rrLftzQ?purpose=fullsize)\n\nFor collectible books, examine\\:\n\n- Original dust jacket.\n- Original price printed on the inside flap.\n- Publisher's logo and binding.\n- Any distinctive printing errors or corrected text.\n\nCollectors sometimes use these details, called *points of issue*, to distinguish an original first printing from later copies. [www.abaa.org](https://www.abaa.org/articles/identifying-first-editions?utm_source=chatgpt.com)[www.ioba.org](https://www.ioba.org/article-identifying-first-editions?utm_source=chatgpt.com)[www.abebooks.com](https://www.abebooks.com/books/rarebooks/collecting-guide/what_books_collect/collecting-first-editions.shtml?utm_source=chatgpt.com)[ilab.org](https://ilab.org/article/first-edition-identification-by-publisher?utm_source=chatgpt.com)\n\n## 5\\. Understand the difference\n\n| Term | Meaning |\n|--------|--------|\n| First edition | First published edition of the work |\n| First printing | First batch printed of that edition |\n| First edition, second printing | Same edition, but printed again |\n| Revised edition | Updated or changed edition |\n| Book club edition | Separate edition, often less collectible |\n\n\nIf you're interested in book collecting or resale value, a first edition, first printing is often the copy collectors want most.\n\n## Helpful identification resources\n\n- [ABAA – Identifying First Editions](https://www.abaa.org/articles/identifying-first-editions?utm_source=chatgpt.com)\\: Guide from the Antiquarian Booksellers' Association of America.\n- [ILAB – First Edition Identification by Publisher](https://ilab.org/article/first-edition-identification-by-publisher?utm_source=chatgpt.com)\\: Publisher-specific identification methods.\n- [IOBA – Identifying First Editions](https://www.ioba.org/article-identifying-first-editions?utm_source=chatgpt.com)\\: Detailed collector's guide.\n- [AbeBooks – Collecting First Editions](https://www.abebooks.com/books/rarebooks/collecting-guide/what_books_collect/collecting-first-editions.shtml?utm_source=chatgpt.com)\\: Practical examples and explanations.\n\n---\n\n## I can help identify your book\\!\n\nIf you have a book you're curious about, send me\\:\n\n1. A picture of the front cover.\n2. A picture of the title page.\n3. A picture of the copyright page (especially the number line).\n4. A picture of the dust jacket, if it has one.\n\nI can help determine whether it's a **first edition, first printing, later printing, or potentially a collectible book**, and help investigate its approximate market value.",
+          "search_results": [
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.abaa.org/articles/identifying-first-editions?utm_source=chatgpt.com",
+              "domain": "www.abaa.org",
+              "title": "Identifying First Editions | News | ABAA",
+              "description": "IDENTIFYING FIRST EDITIONS  May 22nd, 2023  by Rich Rennicks  ABAA News  What is a modern first edition, and how would you recognize one?  One thing that distinguishes the book collector from the cas...",
+              "breadcrumb": "abaa.org"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://ilab.org/article/first-edition-identification-by-publisher?utm_source=chatgpt.com",
+              "domain": "ilab.org",
+              "title": "First-Edition - Identification by Publisher | International League of Antiquarian Booksellers (ILAB)",
+              "description": "FIRST-EDITION - IDENTIFICATION BY PUBLISHER  05 May 2010  In the case of titles published before 1900, the key to first-edition identification is often the date on the title page. The vast majority o...",
+              "breadcrumb": "ilab.org"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://indiebooksellers.com/collectible-books/how-to-identify-a-first-edition?utm_source=chatgpt.com",
+              "domain": "indiebooksellers.com",
+              "title": "How to Identify a First Edition Book | Indie BookSellers",
+              "description": "HOW TO IDENTIFY A FIRST EDITION  Learn how to identify a first edition using the title page, copyright page, number line, publisher conventions, issue points, and dust jacket.  The short answer  Star...",
+              "breadcrumb": "indiebooksellers.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.ioba.org/identifying-first-editions-2?utm_source=chatgpt.com",
+              "domain": "www.ioba.org",
+              "title": "Identifying First Editions - Pt. 2 | Independent Online Booksellers Association",
+              "description": "​  Basically these publishers can be divided into two groups: those who did identify First Editions, whether it was by specifically stating First Edition on the copyright page, or using the same date...",
+              "breadcrumb": "ioba.org"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.ioba.org/article-identifying-first-editions?utm_source=chatgpt.com",
+              "domain": "www.ioba.org",
+              "title": "Identifying First Editions - Pt. 1 | Independent Online Booksellers Association",
+              "description": "IDENTIFYING FIRST EDITIONS, A PRIMER: IN GENERAL  This article is Part I of a series; read Part II here: Identifying First Editions, A Primer: The Publishers  INTRODUCTION  ​  The ability to identify...",
+              "breadcrumb": "ioba.org"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://myvolumes.com/guides/how-to-identify-a-first-edition/?utm_source=chatgpt.com",
+              "domain": "myvolumes.com",
+              "title": "How to Identify a First Edition Book | MyVolumes",
+              "description": "HOW TO IDENTIFY A FIRST EDITION  By Harriet Ellis, MyVolumes editor · 7 min read · Reviewed 25 October 2026  IN SHORT  To identify a first edition, check that your copy is the first printing of the f...",
+              "breadcrumb": "myvolumes.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.bbourse.ai/guides/how-to-tell-if-a-book-is-a-first-edition?utm_source=chatgpt.com",
+              "domain": "www.bbourse.ai",
+              "title": "How to Tell if a Book Is a First Edition (with Pictures) · BBourse",
+              "description": "Consult a bibliography. Jacob Blanck’s Bibliography of American Literature (BAL) covers American authors from the Federal period to those who died before the end of 1930; author bibliographies (Freem...",
+              "breadcrumb": "bbourse.ai"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.pressmark.co/publishers/identification?utm_source=chatgpt.com",
+              "domain": "www.pressmark.co",
+              "title": "Identify a First Edition by What You Are Looking At | Pressmark",
+              "description": "Publishers  /  Identification  IDENTIFY A BOOK BY WHAT YOU ARE LOOKING AT  The house pages answer “how does this publisher mark a first edition?” These pages answer the question you actually have wit...",
+              "breadcrumb": "pressmark.co"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.pressmark.co/publishers/identification/copyright-page?utm_source=chatgpt.com",
+              "domain": "www.pressmark.co",
+              "title": "On the copyright page — First Edition Identification | Pressmark",
+              "description": "ON THE COPYRIGHT PAGE  What each house stated about first publication and later printings on the page behind the title page, and the years each wording held.  96  Points  36  Houses  Macmillan 6Charl...",
+              "breadcrumb": "pressmark.co"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://usapublishinghouse.com/blog/what-is-a-first-edition-book/?utm_source=chatgpt.com",
+              "domain": "usapublishinghouse.com",
+              "title": "What Is a First Edition Book? How to Identify One",
+              "description": "HOW TO IDENTIFY A FIRST EDITION: READ THE COPYRIGHT PAGE  Everything you need is on the copyright page, the verso of the title page, near the front. Covers, jacket blurbs and online listings tell you...",
+              "breadcrumb": "usapublishinghouse.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://usedbook.com/guides/how-to-identify-a-first-edition/?utm_source=chatgpt.com",
+              "domain": "usedbook.com",
+              "title": "How to Identify a First Edition - Number Lines, Statements and Traps | UsedBook.com",
+              "description": "A “first edition, third printing” is a later printing and is valued accordingly.  METHOD 1: THE EDITION STATEMENT  Many publishers print a statement on the copyright page, such as “First Edition”, “Fi...",
+              "breadcrumb": "usedbook.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.abebooks.com/books/rarebooks/collecting-guide/what_books_collect/collecting-first-editions.shtml?utm_source=chatgpt.com",
+              "domain": "www.abebooks.com",
+              "title": "Identifying and collecting first edition books",
+              "description": "The publisher may actually state the words ‘first edition’ or ‘first printing’ on the copyright page. Another common method of identification is the number line – that’s a line of numbers on the copy...",
+              "breadcrumb": "abebooks.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.allmybooks.com/guides/first-printing-identification?utm_source=chatgpt.com",
+              "domain": "www.allmybooks.com",
+              "title": "How to tell if a book is a first printing — AllMyBooks",
+              "description": "HOW TO TELL IF A BOOK IS A FIRST PRINTING  How to read the copyright page — the number line, the edition statement and points of issue — to judge whether a book is a first printing, with worked examp...",
+              "breadcrumb": "allmybooks.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://microform.digital/resource-centre/identify-first-edition-book?utm_source=chatgpt.com",
+              "domain": "microform.digital",
+              "title": "How to identify a first edition book | Microform",
+              "description": "That said, the first time that a publisher releases a new book, all copies of it that are printed without major changes can be considered a first edition.  Once, or if, the initial print run of this...",
+              "breadcrumb": "microform.digital"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://revivalcreekbooks.com/guides/copyright-page?utm_source=chatgpt.com",
+              "domain": "revivalcreekbooks.com",
+              "title": "How to Read a Copyright Page — Revival Creek Books",
+              "description": "ISBN International Standard Book Number. New for every edition and format — and absent entirely before about 1970, which is itself a dating clue. LCCN Library of Congress Control Number. The catalogue...",
+              "breadcrumb": "revivalcreekbooks.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://ctlgs.org/guides/how-to-tell-a-first-edition/?utm_source=chatgpt.com",
+              "domain": "ctlgs.org",
+              "title": "How to tell a first edition - ctlgs",
+              "description": "So when a listing says \"first edition\" without saying \"first printing\", or \"1st/1st\", the printing is the thing to ask about.  DOES THE COPYRIGHT PAGE TELL ME WHICH PRINTING I HAVE?  Sometimes, and it...",
+              "breadcrumb": "ctlgs.org"
+            }
+          ],
+          "sources": [
+            {
+              "type": "chat_gpt_source",
+              "title": "Identifying First Editions | News",
+              "snippet": null,
+              "domain": "www.abaa.org",
+              "url": "https://www.abaa.org/articles/identifying-first-editions?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "ABAA",
+              "publication_date": "2023-05-22 00:00:00 +00:00",
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Identifying First Editions - Pt. 1",
+              "snippet": null,
+              "domain": "www.ioba.org",
+              "url": "https://www.ioba.org/article-identifying-first-editions?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "Independent Online Booksellers Association",
+              "publication_date": null,
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Identifying and collecting first edition books",
+              "snippet": null,
+              "domain": "www.abebooks.com",
+              "url": "https://www.abebooks.com/books/rarebooks/collecting-guide/what_books_collect/collecting-first-editions.shtml?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "AbeBooks",
+              "publication_date": "2021-06-03 21:02:08 +00:00",
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "First-Edition - Identification by Publisher | International League of Antiquarian Booksellers (ILAB)",
+              "snippet": null,
+              "domain": "ilab.org",
+              "url": "https://ilab.org/article/first-edition-identification-by-publisher?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "ILAB - EN",
+              "publication_date": "2010-05-05 00:00:00 +00:00",
+              "markdown": null
+            }
+          ],
+          "fan_out_queries": [
+            "how to identify a first edition book copyright page number line publisher points issue points ABAA",
+            "Library of Congress first edition identification book number line copyright page publisher"
+          ],
+          "brand_entities": null,
+          "se_results_count": 0,
+          "item_types": [
+            "chat_gpt_text",
+            "chat_gpt_images",
+            "chat_gpt_table"
+          ],
+          "items_count": 11,
+          "items": [
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "markdown": "Identifying a **first edition book** can be relatively easy with modern books, but older and collectible books require a little detective work.\n\nThe best place to start is the **copyright page**, usually on the back of the title page.\n\n## 1\\. Check the copyright page\n",
+              "sources": null,
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "markdown": "![洋書に印刷された数列「1 3 5 7 9 10 8 6 4 2」の謎｜あらきさんの編集覚え書き](https://images.openai.com/static-rsc-4/Oid8s5pZCrjdJHhm29Qw_TnLa-1IpFmyxXG1VeczSJpf9ZlF5IRc65RC9-1YOtEkW5utsz_TJsbh6B0Y9fY5b4a4xhNoOoWz7V8g88f7_AeP32YEZXdFtthDVELTlNrHT6om_iq236edr2mP6Z4PKfO7QxQJL19lzg1zHeGZch_LpE4JJaFaL8nSmjongu0b?purpose=fullsize)![5 Clues to Identifying First Editions](https://images.openai.com/static-rsc-4/ad-LfVWCJ0lKwJyPZTvzj_s3i8c3yTWqss-pQ9phrW4ghgSjg08bQBkR_vqVfN7HkODaRb0ZgF9IeejD4Sw7VCgVynuzW8VFQTfuo0v9gu-gDcSdZHfE2oFb69kyMKlp2-KcrM-yQcPiCyGW_5nw9uHt5WXCIT7iyY16q7cdQZxq2Rr9VKkHMXpGWc_7ydrw?purpose=fullsize)![A Thief of Time, Tony Hillerman. Signed First Edition.\n– The Rare Book Sleuth](https://images.openai.com/static-rsc-4/tkK0cM_PTzkdbzuUIDXrLyDORulyHL_MXq9Wn8CqQljC9FfQ4nyim3A-rxigN5agC_UGV_-NEuxLKafWkwUsVKW82GvVmGm1qgtVemcoPa6ydvbwlKS0ja1GJvdYUaHm8KqBXL8Kcd52QrCIepOFCPoS1FCrCZOagCAYVT8Cpt47iZCp6WGmsKjLlG5cnPVC?purpose=fullsize)![How to Tell If a Book Is a First Edition (Complete Guide)](https://images.openai.com/static-rsc-4/ZKp-Ep0l0F6kP_Qyf8KYwm0WBqaMB70bx8Z6lAX8b8QElwlOsgpNPZyhS4jT4wtIGV-RtJgMznX2AFk_1N3qHejDNcUKsZlnRdHRBcKlMZYnyb0khYHb4_5MhoPEyPmPbhH8M_OWfQdz8OaZB9IhtCF_l1ef6IwTtSqyVV8_SJhytXHetc4ayE0Ero0WcbGO?purpose=fullsize)![Charlotte's Web | E. B. White | First](https://images.openai.com/static-rsc-4/ETxOFAMtkJbAx2n6u_7UxOk1HOj9ESj2vBzuHWCzd-QNnebh03PZPNGroxbGXmiIgmSkAaaSmuQjxeXhIH1jDZUBddhzpD1c9yqEVTD7HJhkxoQe66gFz_iRAjvUKVIjJPKLSpolt5GftLSfmHUE1BmWtXoJHjIQd7Pk0CFWEFoxbUe92zPSpLyudV0H_88W?purpose=fullsize)![Identifying First Editions | News | ABAA](https://images.openai.com/static-rsc-4/FhO1ejwITPFXAjCmSeN39RuSGRXumGIOGfQLDrk6E2EQW63YJOk_lO-Eiutr_olsKrwtTUrTge0qj-bwKpza--Pv3SFcjFU6cw_jYc4HkBdDByV3i6wnwDr5WWpGM5NwZi9Sf7L0uS8PP3BxVowalmD91cO1Z7nn2dXkUm8UXVky4T8a1YrS6p7FGIam6hJW?purpose=fullsize)![Whirlwind by James Clavell Stated First Edition For Sale at 1stDibs | al shargaz, james clavell whirlwind](https://images.openai.com/static-rsc-4/AeD_DE4067BUYjjLODtlJdKP4ji5m6PLe9bFqvePGEt1ea70qI4TMpBCWMPNbqAlONJC0Vfrw0CG_y0aNK8Vio_-KVZYpBEcPV220mVY176-jXRY6Dv4TuEnYhOjbkjvz8P3uVh2rpLlEuZkNZZzQJJAR-BuEW69wFyOf6U7JWAkF8Ju9qt3Zd89mctqC3JU?purpose=fullsize)![Where the Sidewalk Ends by Shel Silverstein: (1974) First Edition, First Printing. | Ernestoic Books](https://images.openai.com/static-rsc-4/h2AVsTz5--fyhfG3kOlJnK2E5Y2r_cm9lQ45QKxeD2DNZ_I28trpj9twhgJRBTgQkXXJKGSrmJxqbroIVrpSXm2skN9yDzlmqBGKOw32eERvXtSang1zcI-qlW27f6nzum6p41MixwjawnDhfk0oj_qneFtHWBqeWEKaBiugq4TruO7nIZkjN3DhAO5D4osE?purpose=fullsize)![Harper Lee / To Kill a Mockingbird 1st Edition 1960 | eBay](https://images.openai.com/static-rsc-4/mbkjvSAqGde-4UmYdPm-1AC-Aop8egaDZlJLKQ0W-VobGZMa1yjji14JKu34_Oj117MCbLqUSSnnXs57SAcwPiKi441xc1jEcb_aVUtt-b3m6G0aNDT0urhntyCNpbc9tKNKFYy0nQwtj0U2-zQZ8ya9IhddLWMbDQuITnRYq47pOFQGzPlq8P5zHDBymljF?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://note.com/asn5x/n/n045703522708",
+                  "alt": "洋書に印刷された数列「1 3 5 7 9 10 8 6 4 2」の謎｜あらきさんの編集覚え書き",
+                  "image_url": "https://images.openai.com/static-rsc-4/Oid8s5pZCrjdJHhm29Qw_TnLa-1IpFmyxXG1VeczSJpf9ZlF5IRc65RC9-1YOtEkW5utsz_TJsbh6B0Y9fY5b4a4xhNoOoWz7V8g88f7_AeP32YEZXdFtthDVELTlNrHT6om_iq236edr2mP6Z4PKfO7QxQJL19lzg1zHeGZch_LpE4JJaFaL8nSmjongu0b?purpose=fullsize",
+                  "markdown": "![洋書に印刷された数列「1 3 5 7 9 10 8 6 4 2」の謎｜あらきさんの編集覚え書き](https://images.openai.com/static-rsc-4/Oid8s5pZCrjdJHhm29Qw_TnLa-1IpFmyxXG1VeczSJpf9ZlF5IRc65RC9-1YOtEkW5utsz_TJsbh6B0Y9fY5b4a4xhNoOoWz7V8g88f7_AeP32YEZXdFtthDVELTlNrHT6om_iq236edr2mP6Z4PKfO7QxQJL19lzg1zHeGZch_LpE4JJaFaL8nSmjongu0b?purpose=fullsize)"
+                },
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.secondhandsomebooks.com/post/5-clues-to-identifying-first-editions",
+                  "alt": "5 Clues to Identifying First Editions",
+                  "image_url": "https://images.openai.com/static-rsc-4/ad-LfVWCJ0lKwJyPZTvzj_s3i8c3yTWqss-pQ9phrW4ghgSjg08bQBkR_vqVfN7HkODaRb0ZgF9IeejD4Sw7VCgVynuzW8VFQTfuo0v9gu-gDcSdZHfE2oFb69kyMKlp2-KcrM-yQcPiCyGW_5nw9uHt5WXCIT7iyY16q7cdQZxq2Rr9VKkHMXpGWc_7ydrw?purpose=fullsize",
+                  "markdown": "![5 Clues to Identifying First Editions](https://images.openai.com/static-rsc-4/ad-LfVWCJ0lKwJyPZTvzj_s3i8c3yTWqss-pQ9phrW4ghgSjg08bQBkR_vqVfN7HkODaRb0ZgF9IeejD4Sw7VCgVynuzW8VFQTfuo0v9gu-gDcSdZHfE2oFb69kyMKlp2-KcrM-yQcPiCyGW_5nw9uHt5WXCIT7iyY16q7cdQZxq2Rr9VKkHMXpGWc_7ydrw?purpose=fullsize)"
+                },
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://rarebooksleuth.com/products/a-thief-of-time-tony-hillerman-signed-first-edition",
+                  "alt": "A Thief of Time, Tony Hillerman. Signed First Edition.\n– The Rare Book Sleuth",
+                  "image_url": "https://images.openai.com/static-rsc-4/tkK0cM_PTzkdbzuUIDXrLyDORulyHL_MXq9Wn8CqQljC9FfQ4nyim3A-rxigN5agC_UGV_-NEuxLKafWkwUsVKW82GvVmGm1qgtVemcoPa6ydvbwlKS0ja1GJvdYUaHm8KqBXL8Kcd52QrCIepOFCPoS1FCrCZOagCAYVT8Cpt47iZCp6WGmsKjLlG5cnPVC?purpose=fullsize",
+                  "markdown": "![A Thief of Time, Tony Hillerman. Signed First Edition.\n– The Rare Book Sleuth](https://images.openai.com/static-rsc-4/tkK0cM_PTzkdbzuUIDXrLyDORulyHL_MXq9Wn8CqQljC9FfQ4nyim3A-rxigN5agC_UGV_-NEuxLKafWkwUsVKW82GvVmGm1qgtVemcoPa6ydvbwlKS0ja1GJvdYUaHm8KqBXL8Kcd52QrCIepOFCPoS1FCrCZOagCAYVT8Cpt47iZCp6WGmsKjLlG5cnPVC?purpose=fullsize)"
+                },
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.xwprint.com/info/how-to-tell-if-a-book-is-a-first-edition-103498154.html",
+                  "alt": "How to Tell If a Book Is a First Edition (Complete Guide)",
+                  "image_url": "https://images.openai.com/static-rsc-4/ZKp-Ep0l0F6kP_Qyf8KYwm0WBqaMB70bx8Z6lAX8b8QElwlOsgpNPZyhS4jT4wtIGV-RtJgMznX2AFk_1N3qHejDNcUKsZlnRdHRBcKlMZYnyb0khYHb4_5MhoPEyPmPbhH8M_OWfQdz8OaZB9IhtCF_l1ef6IwTtSqyVV8_SJhytXHetc4ayE0Ero0WcbGO?purpose=fullsize",
+                  "markdown": "![How to Tell If a Book Is a First Edition (Complete Guide)](https://images.openai.com/static-rsc-4/ZKp-Ep0l0F6kP_Qyf8KYwm0WBqaMB70bx8Z6lAX8b8QElwlOsgpNPZyhS4jT4wtIGV-RtJgMznX2AFk_1N3qHejDNcUKsZlnRdHRBcKlMZYnyb0khYHb4_5MhoPEyPmPbhH8M_OWfQdz8OaZB9IhtCF_l1ef6IwTtSqyVV8_SJhytXHetc4ayE0Ero0WcbGO?purpose=fullsize)"
+                },
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.rareantiquarianbooks.com/pages/books/1403206/e-b-white/charlottes-web",
+                  "alt": "Charlotte's Web | E. B. White | First",
+                  "image_url": "https://images.openai.com/static-rsc-4/ETxOFAMtkJbAx2n6u_7UxOk1HOj9ESj2vBzuHWCzd-QNnebh03PZPNGroxbGXmiIgmSkAaaSmuQjxeXhIH1jDZUBddhzpD1c9yqEVTD7HJhkxoQe66gFz_iRAjvUKVIjJPKLSpolt5GftLSfmHUE1BmWtXoJHjIQd7Pk0CFWEFoxbUe92zPSpLyudV0H_88W?purpose=fullsize",
+                  "markdown": "![Charlotte's Web | E. B. White | First](https://images.openai.com/static-rsc-4/ETxOFAMtkJbAx2n6u_7UxOk1HOj9ESj2vBzuHWCzd-QNnebh03PZPNGroxbGXmiIgmSkAaaSmuQjxeXhIH1jDZUBddhzpD1c9yqEVTD7HJhkxoQe66gFz_iRAjvUKVIjJPKLSpolt5GftLSfmHUE1BmWtXoJHjIQd7Pk0CFWEFoxbUe92zPSpLyudV0H_88W?purpose=fullsize)"
+                },
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.abaa.org/articles/identifying-first-editions",
+                  "alt": "Identifying First Editions | News | ABAA",
+                  "image_url": "https://images.openai.com/static-rsc-4/FhO1ejwITPFXAjCmSeN39RuSGRXumGIOGfQLDrk6E2EQW63YJOk_lO-Eiutr_olsKrwtTUrTge0qj-bwKpza--Pv3SFcjFU6cw_jYc4HkBdDByV3i6wnwDr5WWpGM5NwZi9Sf7L0uS8PP3BxVowalmD91cO1Z7nn2dXkUm8UXVky4T8a1YrS6p7FGIam6hJW?purpose=fullsize",
+                  "markdown": "![Identifying First Editions | News | ABAA](https://images.openai.com/static-rsc-4/FhO1ejwITPFXAjCmSeN39RuSGRXumGIOGfQLDrk6E2EQW63YJOk_lO-Eiutr_olsKrwtTUrTge0qj-bwKpza--Pv3SFcjFU6cw_jYc4HkBdDByV3i6wnwDr5WWpGM5NwZi9Sf7L0uS8PP3BxVowalmD91cO1Z7nn2dXkUm8UXVky4T8a1YrS6p7FGIam6hJW?purpose=fullsize)"
+                },
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.1stdibs.com/furniture/more-furniture-collectibles/collectibles-curiosities/books/whirlwind-james-clavell-stated-first-edition/id-f_18183541/",
+                  "alt": "Whirlwind by James Clavell Stated First Edition For Sale at 1stDibs | al shargaz, james clavell whirlwind",
+                  "image_url": "https://images.openai.com/static-rsc-4/AeD_DE4067BUYjjLODtlJdKP4ji5m6PLe9bFqvePGEt1ea70qI4TMpBCWMPNbqAlONJC0Vfrw0CG_y0aNK8Vio_-KVZYpBEcPV220mVY176-jXRY6Dv4TuEnYhOjbkjvz8P3uVh2rpLlEuZkNZZzQJJAR-BuEW69wFyOf6U7JWAkF8Ju9qt3Zd89mctqC3JU?purpose=fullsize",
+                  "markdown": "![Whirlwind by James Clavell Stated First Edition For Sale at 1stDibs | al shargaz, james clavell whirlwind](https://images.openai.com/static-rsc-4/AeD_DE4067BUYjjLODtlJdKP4ji5m6PLe9bFqvePGEt1ea70qI4TMpBCWMPNbqAlONJC0Vfrw0CG_y0aNK8Vio_-KVZYpBEcPV220mVY176-jXRY6Dv4TuEnYhOjbkjvz8P3uVh2rpLlEuZkNZZzQJJAR-BuEW69wFyOf6U7JWAkF8Ju9qt3Zd89mctqC3JU?purpose=fullsize)"
+                },
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.abebooks.com/first-edition/Where-Sidewalk-Ends-Shel-Silverstein-Harper/32216196107/bd",
+                  "alt": "Where the Sidewalk Ends by Shel Silverstein: (1974) First Edition, First Printing. | Ernestoic Books",
+                  "image_url": "https://images.openai.com/static-rsc-4/h2AVsTz5--fyhfG3kOlJnK2E5Y2r_cm9lQ45QKxeD2DNZ_I28trpj9twhgJRBTgQkXXJKGSrmJxqbroIVrpSXm2skN9yDzlmqBGKOw32eERvXtSang1zcI-qlW27f6nzum6p41MixwjawnDhfk0oj_qneFtHWBqeWEKaBiugq4TruO7nIZkjN3DhAO5D4osE?purpose=fullsize",
+                  "markdown": "![Where the Sidewalk Ends by Shel Silverstein: (1974) First Edition, First Printing. | Ernestoic Books](https://images.openai.com/static-rsc-4/h2AVsTz5--fyhfG3kOlJnK2E5Y2r_cm9lQ45QKxeD2DNZ_I28trpj9twhgJRBTgQkXXJKGSrmJxqbroIVrpSXm2skN9yDzlmqBGKOw32eERvXtSang1zcI-qlW27f6nzum6p41MixwjawnDhfk0oj_qneFtHWBqeWEKaBiugq4TruO7nIZkjN3DhAO5D4osE?purpose=fullsize)"
+                },
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.ebay.com/itm/267249120180",
+                  "alt": "Harper Lee / To Kill a Mockingbird 1st Edition 1960 | eBay",
+                  "image_url": "https://images.openai.com/static-rsc-4/mbkjvSAqGde-4UmYdPm-1AC-Aop8egaDZlJLKQ0W-VobGZMa1yjji14JKu34_Oj117MCbLqUSSnnXs57SAcwPiKi441xc1jEcb_aVUtt-b3m6G0aNDT0urhntyCNpbc9tKNKFYy0nQwtj0U2-zQZ8ya9IhddLWMbDQuITnRYq47pOFQGzPlq8P5zHDBymljF?purpose=fullsize",
+                  "markdown": "![Harper Lee / To Kill a Mockingbird 1st Edition 1960 | eBay](https://images.openai.com/static-rsc-4/mbkjvSAqGde-4UmYdPm-1AC-Aop8egaDZlJLKQ0W-VobGZMa1yjji14JKu34_Oj117MCbLqUSSnnXs57SAcwPiKi441xc1jEcb_aVUtt-b3m6G0aNDT0urhntyCNpbc9tKNKFYy0nQwtj0U2-zQZ8ya9IhddLWMbDQuITnRYq47pOFQGzPlq8P5zHDBymljF?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "markdown": "\n\nLook for wording such as\\:\n\n- First Edition\n- First Printing\n- First Published \\[year\\]\n- First Impression\n\nIf it explicitly says \"First Edition,\" that's a good sign, but it doesn't necessarily mean you're holding the first printing. Some publishers leave that wording in later printings. [www.abaa.org](https://www.abaa.org/articles/identifying-first-editions?utm_source=chatgpt.com)[www.ioba.org](https://www.ioba.org/article-identifying-first-editions?utm_source=chatgpt.com)[www.abebooks.com](https://www.abebooks.com/books/rarebooks/collecting-guide/what_books_collect/collecting-first-editions.shtml?utm_source=chatgpt.com)\n\n## 2\\. Look for the number line\n\nThis is one of the easiest ways to identify a modern first printing.\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Identifying First Editions | News",
+                  "snippet": null,
+                  "domain": "www.abaa.org",
+                  "url": "https://www.abaa.org/articles/identifying-first-editions?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "ABAA",
+                  "publication_date": "2023-05-22 00:00:00 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Identifying First Editions - Pt. 1",
+                  "snippet": null,
+                  "domain": "www.ioba.org",
+                  "url": "https://www.ioba.org/article-identifying-first-editions?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "Independent Online Booksellers Association",
+                  "publication_date": null,
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Identifying and collecting first edition books",
+                  "snippet": null,
+                  "domain": "www.abebooks.com",
+                  "url": "https://www.abebooks.com/books/rarebooks/collecting-guide/what_books_collect/collecting-first-editions.shtml?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "AbeBooks",
+                  "publication_date": "2021-06-03 21:02:08 +00:00",
+                  "markdown": null
+                }
+              ],
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "markdown": "![James Stevenson. What's Under My Bed. [1st Edition] | eBay](https://images.openai.com/static-rsc-4/uobuAS8CYX8IPuAUTd8JfeKknxMjr09EaMFKnpvoAwbgQeaIL3WknXjAqqFIEugG9KGVAnp0CYjU-AM1lgBZdgT4dmEqeaBSn_O-W9u1O5YGKqJR7IZ5r1Z76kvjOU6vZaZ8ot4lMDtlPuXpCWJ1tNJcbTQassHlqxg27z8Fzzh38tDUW0GH-UUlyLfcGCec?purpose=fullsize)![5 Clues to Identifying First Editions](https://images.openai.com/static-rsc-4/ad-LfVWCJ0lKwJyPZTvzj_s3i8c3yTWqss-pQ9phrW4ghgSjg08bQBkR_vqVfN7HkODaRb0ZgF9IeejD4Sw7VCgVynuzW8VFQTfuo0v9gu-gDcSdZHfE2oFb69kyMKlp2-KcrM-yQcPiCyGW_5nw9uHt5WXCIT7iyY16q7cdQZxq2Rr9VKkHMXpGWc_7ydrw?purpose=fullsize)![Clocks and More Clocks by Pat Hutchins, Paperback | Pangobooks](https://images.openai.com/static-rsc-4/M6W8B5iFQA7YLeRxpbBj3osdVuuMDPAW7EfUbfe9n_F2lg7Cn_gZOhDitPVS8fAHnsHQU_Md53_Nb1nWORE8WE0JqtF8m03NoT_le7Vr66ruFsztxepejh9TnWS55R7vMdD8EOe5P1RgKRYjLvOv-ZlP-0EO7wNzJ8RaxDy76ZfWRgvlpSl6KjDdfqpEhH2h?purpose=fullsize)![洋書に印刷された数列「1 3 5 7 9 10 8 6 4 2」の謎｜あらきさんの編集覚え書き](https://images.openai.com/static-rsc-4/Oid8s5pZCrjdJHhm29Qw_TnLa-1IpFmyxXG1VeczSJpf9ZlF5IRc65RC9-1YOtEkW5utsz_TJsbh6B0Y9fY5b4a4xhNoOoWz7V8g88f7_AeP32YEZXdFtthDVELTlNrHT6om_iq236edr2mP6Z4PKfO7QxQJL19lzg1zHeGZch_LpE4JJaFaL8nSmjongu0b?purpose=fullsize)![The Outsiders | S. E. Hinton | 2nd printing](https://images.openai.com/static-rsc-4/U-JEZb5kREhJVNbSOAaZBp_ANsBov0F7lGVmtiGNigOG097Oy6arZmUfU1YoXmwceL2hO8QvCERSm3Vd_ZU9mUe2Fao-WYKcne3lQfOr627IdpZHyOfMH5fPryFjSGfBvqWj8cMfA0epankQn7b_jw0Zrt5btVAuY8IQdnXkL4zqlGjB2Ep6ZNNZNZ0QaMvB?purpose=fullsize)![Signed First Edition 1989 Hardcover Book The Demons At Rainbow Bridge By Jack L. Chalker](https://images.openai.com/static-rsc-4/MPt0DhGWd5liNF1h7hwajSABKpMV8yqpKluxCm9gdx69yhF8qCsOvxD-roPGluPQvPxKGfcWjZd8sf1koq5e82WzM9ncFRrYbHtAGmPRtdndBKltzXBxGMj-akR0ybErzcDHKHPv-xvq4XBbF0J174b8e3CunlXYXPU4WCqMChRBkL65Nd8EMzugiVf3pg3Z?purpose=fullsize)![Identify valuable copies of Harry Potter and the Philosopher’s Stone\n – Winters Rare Books](https://images.openai.com/static-rsc-4/e4zRxdJYNwfB-pp0mu8fszMQojiNp5th6qRI4oRvcmRhx3dA6YlIdmsjxe-8hGJC7FhZeA5rhSwrEKkMhc4NSuEc4xgRGE1BuLTSnf5EfWXBybQ4nLZkRea9lkG3rA2MXAu35QdQZjVqmwMVRDDeXVv7u3ZiJSHWHNFwSHPz6OUJAZb6NQV3fYMLxB8PyNWI?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.ebay.com/itm/254722737027",
+                  "alt": "James Stevenson. What's Under My Bed. [1st Edition] | eBay",
+                  "image_url": "https://images.openai.com/static-rsc-4/uobuAS8CYX8IPuAUTd8JfeKknxMjr09EaMFKnpvoAwbgQeaIL3WknXjAqqFIEugG9KGVAnp0CYjU-AM1lgBZdgT4dmEqeaBSn_O-W9u1O5YGKqJR7IZ5r1Z76kvjOU6vZaZ8ot4lMDtlPuXpCWJ1tNJcbTQassHlqxg27z8Fzzh38tDUW0GH-UUlyLfcGCec?purpose=fullsize",
+                  "markdown": "![James Stevenson. What's Under My Bed. [1st Edition] | eBay](https://images.openai.com/static-rsc-4/uobuAS8CYX8IPuAUTd8JfeKknxMjr09EaMFKnpvoAwbgQeaIL3WknXjAqqFIEugG9KGVAnp0CYjU-AM1lgBZdgT4dmEqeaBSn_O-W9u1O5YGKqJR7IZ5r1Z76kvjOU6vZaZ8ot4lMDtlPuXpCWJ1tNJcbTQassHlqxg27z8Fzzh38tDUW0GH-UUlyLfcGCec?purpose=fullsize)"
+                },
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.secondhandsomebooks.com/post/5-clues-to-identifying-first-editions",
+                  "alt": "5 Clues to Identifying First Editions",
+                  "image_url": "https://images.openai.com/static-rsc-4/ad-LfVWCJ0lKwJyPZTvzj_s3i8c3yTWqss-pQ9phrW4ghgSjg08bQBkR_vqVfN7HkODaRb0ZgF9IeejD4Sw7VCgVynuzW8VFQTfuo0v9gu-gDcSdZHfE2oFb69kyMKlp2-KcrM-yQcPiCyGW_5nw9uHt5WXCIT7iyY16q7cdQZxq2Rr9VKkHMXpGWc_7ydrw?purpose=fullsize",
+                  "markdown": "![5 Clues to Identifying First Editions](https://images.openai.com/static-rsc-4/ad-LfVWCJ0lKwJyPZTvzj_s3i8c3yTWqss-pQ9phrW4ghgSjg08bQBkR_vqVfN7HkODaRb0ZgF9IeejD4Sw7VCgVynuzW8VFQTfuo0v9gu-gDcSdZHfE2oFb69kyMKlp2-KcrM-yQcPiCyGW_5nw9uHt5WXCIT7iyY16q7cdQZxq2Rr9VKkHMXpGWc_7ydrw?purpose=fullsize)"
+                },
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://pangobooks.com/books/4c7d67c3-f4f9-4989-8b1b-8bd06d3b7e93-RdMWopdUpSWFb4ojErarBqVT1Y72",
+                  "alt": "Clocks and More Clocks by Pat Hutchins, Paperback | Pangobooks",
+                  "image_url": "https://images.openai.com/static-rsc-4/M6W8B5iFQA7YLeRxpbBj3osdVuuMDPAW7EfUbfe9n_F2lg7Cn_gZOhDitPVS8fAHnsHQU_Md53_Nb1nWORE8WE0JqtF8m03NoT_le7Vr66ruFsztxepejh9TnWS55R7vMdD8EOe5P1RgKRYjLvOv-ZlP-0EO7wNzJ8RaxDy76ZfWRgvlpSl6KjDdfqpEhH2h?purpose=fullsize",
+                  "markdown": "![Clocks and More Clocks by Pat Hutchins, Paperback | Pangobooks](https://images.openai.com/static-rsc-4/M6W8B5iFQA7YLeRxpbBj3osdVuuMDPAW7EfUbfe9n_F2lg7Cn_gZOhDitPVS8fAHnsHQU_Md53_Nb1nWORE8WE0JqtF8m03NoT_le7Vr66ruFsztxepejh9TnWS55R7vMdD8EOe5P1RgKRYjLvOv-ZlP-0EO7wNzJ8RaxDy76ZfWRgvlpSl6KjDdfqpEhH2h?purpose=fullsize)"
+                },
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://note.com/asn5x/n/n045703522708",
+                  "alt": "洋書に印刷された数列「1 3 5 7 9 10 8 6 4 2」の謎｜あらきさんの編集覚え書き",
+                  "image_url": "https://images.openai.com/static-rsc-4/Oid8s5pZCrjdJHhm29Qw_TnLa-1IpFmyxXG1VeczSJpf9ZlF5IRc65RC9-1YOtEkW5utsz_TJsbh6B0Y9fY5b4a4xhNoOoWz7V8g88f7_AeP32YEZXdFtthDVELTlNrHT6om_iq236edr2mP6Z4PKfO7QxQJL19lzg1zHeGZch_LpE4JJaFaL8nSmjongu0b?purpose=fullsize",
+                  "markdown": "![洋書に印刷された数列「1 3 5 7 9 10 8 6 4 2」の謎｜あらきさんの編集覚え書き](https://images.openai.com/static-rsc-4/Oid8s5pZCrjdJHhm29Qw_TnLa-1IpFmyxXG1VeczSJpf9ZlF5IRc65RC9-1YOtEkW5utsz_TJsbh6B0Y9fY5b4a4xhNoOoWz7V8g88f7_AeP32YEZXdFtthDVELTlNrHT6om_iq236edr2mP6Z4PKfO7QxQJL19lzg1zHeGZch_LpE4JJaFaL8nSmjongu0b?purpose=fullsize)"
+                },
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.rareantiquarianbooks.com/pages/books/2407004/s-e-hinton/the-outsiders",
+                  "alt": "The Outsiders | S. E. Hinton | 2nd printing",
+                  "image_url": "https://images.openai.com/static-rsc-4/U-JEZb5kREhJVNbSOAaZBp_ANsBov0F7lGVmtiGNigOG097Oy6arZmUfU1YoXmwceL2hO8QvCERSm3Vd_ZU9mUe2Fao-WYKcne3lQfOr627IdpZHyOfMH5fPryFjSGfBvqWj8cMfA0epankQn7b_jw0Zrt5btVAuY8IQdnXkL4zqlGjB2Ep6ZNNZNZ0QaMvB?purpose=fullsize",
+                  "markdown": "![The Outsiders | S. E. Hinton | 2nd printing](https://images.openai.com/static-rsc-4/U-JEZb5kREhJVNbSOAaZBp_ANsBov0F7lGVmtiGNigOG097Oy6arZmUfU1YoXmwceL2hO8QvCERSm3Vd_ZU9mUe2Fao-WYKcne3lQfOr627IdpZHyOfMH5fPryFjSGfBvqWj8cMfA0epankQn7b_jw0Zrt5btVAuY8IQdnXkL4zqlGjB2Ep6ZNNZNZ0QaMvB?purpose=fullsize)"
+                },
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.savacoolandsons.com/item-25557.html",
+                  "alt": "Signed First Edition 1989 Hardcover Book The Demons At Rainbow Bridge By Jack L. Chalker",
+                  "image_url": "https://images.openai.com/static-rsc-4/MPt0DhGWd5liNF1h7hwajSABKpMV8yqpKluxCm9gdx69yhF8qCsOvxD-roPGluPQvPxKGfcWjZd8sf1koq5e82WzM9ncFRrYbHtAGmPRtdndBKltzXBxGMj-akR0ybErzcDHKHPv-xvq4XBbF0J174b8e3CunlXYXPU4WCqMChRBkL65Nd8EMzugiVf3pg3Z?purpose=fullsize",
+                  "markdown": "![Signed First Edition 1989 Hardcover Book The Demons At Rainbow Bridge By Jack L. Chalker](https://images.openai.com/static-rsc-4/MPt0DhGWd5liNF1h7hwajSABKpMV8yqpKluxCm9gdx69yhF8qCsOvxD-roPGluPQvPxKGfcWjZd8sf1koq5e82WzM9ncFRrYbHtAGmPRtdndBKltzXBxGMj-akR0ybErzcDHKHPv-xvq4XBbF0J174b8e3CunlXYXPU4WCqMChRBkL65Nd8EMzugiVf3pg3Z?purpose=fullsize)"
+                },
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.wintersrarebooks.com/blogs/news/identifying-collectible-early-printings-of-harry-potter-and-the-philosopher-s-stone",
+                  "alt": "Identify valuable copies of Harry Potter and the Philosopher’s Stone\n – Winters Rare Books",
+                  "image_url": "https://images.openai.com/static-rsc-4/e4zRxdJYNwfB-pp0mu8fszMQojiNp5th6qRI4oRvcmRhx3dA6YlIdmsjxe-8hGJC7FhZeA5rhSwrEKkMhc4NSuEc4xgRGE1BuLTSnf5EfWXBybQ4nLZkRea9lkG3rA2MXAu35QdQZjVqmwMVRDDeXVv7u3ZiJSHWHNFwSHPz6OUJAZb6NQV3fYMLxB8PyNWI?purpose=fullsize",
+                  "markdown": "![Identify valuable copies of Harry Potter and the Philosopher’s Stone\n – Winters Rare Books](https://images.openai.com/static-rsc-4/e4zRxdJYNwfB-pp0mu8fszMQojiNp5th6qRI4oRvcmRhx3dA6YlIdmsjxe-8hGJC7FhZeA5rhSwrEKkMhc4NSuEc4xgRGE1BuLTSnf5EfWXBybQ4nLZkRea9lkG3rA2MXAu35QdQZjVqmwMVRDDeXVv7u3ZiJSHWHNFwSHPz6OUJAZb6NQV3fYMLxB8PyNWI?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 3,
+              "rank_absolute": 5,
+              "markdown": "\n\nHere's how to read it\\:\n\n",
+              "sources": null,
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_table",
+              "rank_group": 1,
+              "rank_absolute": 6,
+              "text": null,
+              "markdown": "| Number line | Meaning |\n|--------|--------|\n| 10 9 8 7 6 5 4 3 2 1 | First printing |\n| 10 9 8 7 6 5 4 3 2 | Second printing |\n| 10 9 8 7 6 5 4 3 | Third printing |\n\n",
+              "table": {
+                "table_header": [
+                  "Number line",
+                  "Meaning"
+                ],
+                "table_content": [
+                  [
+                    "10 9 8 7 6 5 4 3 2 1",
+                    "First printing"
+                  ],
+                  [
+                    "10 9 8 7 6 5 4 3 2",
+                    "Second printing"
+                  ],
+                  [
+                    "10 9 8 7 6 5 4 3",
+                    "Third printing"
+                  ]
+                ]
+              },
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "markdown": "\n**The lowest number is generally the printing number.** If the number 1 is present, it's usually a first printing.\n\nThere are exceptions depending on the publisher, so always check its conventions. [www.abaa.org](https://www.abaa.org/articles/identifying-first-editions?utm_source=chatgpt.com)[www.ioba.org](https://www.ioba.org/article-identifying-first-editions?utm_source=chatgpt.com)[www.abebooks.com](https://www.abebooks.com/books/rarebooks/collecting-guide/what_books_collect/collecting-first-editions.shtml?utm_source=chatgpt.com)[ilab.org](https://ilab.org/article/first-edition-identification-by-publisher?utm_source=chatgpt.com)\n\n## 3\\. Check the publication dates\n\nCompare\\:\n\n- The date on the title page.\n- The copyright date.\n- Any dates listed for subsequent printings.\n\nFor older books, particularly those published before 1900, the title-page date can be especially important. [www.abaa.org](https://www.abaa.org/articles/identifying-first-editions?utm_source=chatgpt.com)[www.ioba.org](https://www.ioba.org/article-identifying-first-editions?utm_source=chatgpt.com)[www.abebooks.com](https://www.abebooks.com/books/rarebooks/collecting-guide/what_books_collect/collecting-first-editions.shtml?utm_source=chatgpt.com)[ilab.org](https://ilab.org/article/first-edition-identification-by-publisher?utm_source=chatgpt.com)\n\n## 4\\. Examine the dust jacket\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Identifying First Editions | News",
+                  "snippet": null,
+                  "domain": "www.abaa.org",
+                  "url": "https://www.abaa.org/articles/identifying-first-editions?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "ABAA",
+                  "publication_date": "2023-05-22 00:00:00 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Identifying First Editions - Pt. 1",
+                  "snippet": null,
+                  "domain": "www.ioba.org",
+                  "url": "https://www.ioba.org/article-identifying-first-editions?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "Independent Online Booksellers Association",
+                  "publication_date": null,
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Identifying and collecting first edition books",
+                  "snippet": null,
+                  "domain": "www.abebooks.com",
+                  "url": "https://www.abebooks.com/books/rarebooks/collecting-guide/what_books_collect/collecting-first-editions.shtml?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "AbeBooks",
+                  "publication_date": "2021-06-03 21:02:08 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "First-Edition - Identification by Publisher | International League of Antiquarian Booksellers (ILAB)",
+                  "snippet": null,
+                  "domain": "ilab.org",
+                  "url": "https://ilab.org/article/first-edition-identification-by-publisher?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "ILAB - EN",
+                  "publication_date": "2010-05-05 00:00:00 +00:00",
+                  "markdown": null
+                }
+              ],
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 3,
+              "rank_absolute": 8,
+              "markdown": "![A Farewell To Arms. by Hemingway, Ernest: Hardcover (1929) 1st Edition | Raptis Rare Books](https://images.openai.com/static-rsc-4/Z4BsF9zixdZbqp10uFV5VnbyE2nqTySbO_tzIllXnsYwStXRH7g1vUK0R1_o5-28iBrqrqkXvAVv9rZMZsa2mr2MSfcoqQw0zMouBP79Yfpslaa9VJaxsPvTrb5KwwuxdbxT-LRw4eh_MssflKvaCg0dD2oGpyS6FE3Dem-yn9jJ47KnCO9-sgC8ETfzFQuM?purpose=fullsize)![The Magnificent Ambersons | Booth Tarkington | First edition](https://images.openai.com/static-rsc-4/tb95Q_xjHYDSGEQteec2pW_e-x4CxRwOcCeApideAyMemG3Jwpc0oY3q6DhAwMTpQFu9KWd_cLaZj1uOV8R0Kk2KSoAeBOgR_JVx1cJDyyv4CVO3vz4nfMK-viCrGdHu-syaMsfcnEP0Uxqmpgvuw37jryZwX7HTC4CV1Jwsz763XCuXQS_NyxFAzT0t2BfN?purpose=fullsize)![The Shepherd Of Guadaloupe - The First Edition Rare Books](https://images.openai.com/static-rsc-4/Uejt1YnAEFsSW6oN-zb2e6j3hontyv-3A29qyx1ZduvZqktrBpmOFmQc2LGNwpafmDvPVYieFhgC_WWEYoli5SudCdNpQWiMcN1tLT4HlaGbfNcCaKmxaXOMKfTpNvdl_XbQPE2gRS_qtsAEREoCglqiPMbd5ooAAbYLAzL7ZDbrmOr9I3Tu8Y9RSQR5csuq?purpose=fullsize)![The Grapes of Wrath by Steinbeck, John: Fine Cloth (1939) First Edition, First Printing. | The First Edition Rare Books, LLC](https://images.openai.com/static-rsc-4/MzbFRyD1THvL2PEO1ICJCiV__yYAMXzjxdZ13dghYIEmyLnKB4dE1pLzGeXzI48YT6hJXimqXJC2wib6MpE_CoEEeRInGq_3Q9geo5rSfwDr6IdiqfsjQM6VLCVDfdtgh0NRom0PqS4J05FJJrpTdaFQgyY3gISfb0PwaKTtX2tlJMSAlU16q-7u0o8vy3Mq?purpose=fullsize)![To Kill a Mockingbird - The First Edition Rare Books](https://images.openai.com/static-rsc-4/dmVfX_otJ3mJenE2SyMqZV-ljVh9A2lFf6dO_1h6ssL-17EvJf0lSlQKHER6odBrvRQU8H4lzvtrW-FdW77RNUvmCoPAg8nl6_kpVrmW8kV5YohWrPxmumqGQ1SsHsWKZ7P675e95_DkMvSzCLHlXAgCZHKYYiU8oFNRvX-ANbnmjF32jjE7kBFi7fRAYHxZ?purpose=fullsize)![First Edition The Sun Also Rises | 1926 Copy Sold for $14,739](https://images.openai.com/static-rsc-4/VxT6QNCPSLKGlq_W5jAFE-ovA_8fgmlhkMX5rq28k8eKmX3mSmhrUoHPBmF4MPeMH-HSGuMfTQmhrh913J39y8BxOL_CD-6zlzHRpXdgBOG3Aw3mT_dgJDXidw82OKJGkKxS6EgDiu2gfgeLM8tMXyP0k19ov83sp6Acdamkwa-nZ53gPswjQUkTF0oJx7ug?purpose=fullsize)![A Tree Grows in Brooklyn by Betty Smith: Good Hardcover (1943) First Edition. | A Cappella Books, Inc.](https://images.openai.com/static-rsc-4/R7HBDdMUpTHsMd7GnaLUQE0cvClNw5ljdQgTFFwNDmHDdtqlFJJFjKSXAg5GEiaRV7fBeORDP20tPg-X39MMDemyOqFF2XyTPijUGSlDNhMO0T2kvY8cTwC_vH3v8rtlZ3OIS9q_W-iWDY7NbgXfNcyhgCwJQUM4jExgcbVDw3NuZawv2cGLRgl-nqtBHnAJ?purpose=fullsize)![First Edition Points to identify The Bridge of San Luis Rey by Thornton Wilder](https://images.openai.com/static-rsc-4/CRFYvnBZXLepVzde7cUFP3cvaDQ8qR3vMvz5wxaNmD-3LAcen0EeaJRYomxdGhqWGruUQqVZykliM1PVrQZZ0X6aGnUQiLpuyq2Zizy39drzHvG6seNa6Pw3LwPPLOycofCpKIYcyK1aA4J3IsfJx3W19DdJ45OC8C3XPqSi-ARHMakPD1g_kDQwls8w_KLA?purpose=fullsize)![THE IDES OF MARCH | Thornton N. Wilder | First Edition; First Printing](https://images.openai.com/static-rsc-4/iLKVVETBgA7XXjh_Wc9VQ405tpCW6_Hk0lQKDTb0FljhYlARjTCgh7XCxpklGK6teki2Gk-p-0IB77KdoIBNYodwsIhgLJnmiGAMgojPRSXvlE2eHSHgQDHoRgN80WuweAa06z-HDqz-wsGInTwvGDo86iYRZfNURab5RE1-kEkV2XYBJnx1OJkV6dD3zi5v?purpose=fullsize)![The Moon is a Harsh Mistress by Heinlein, Robert A.: Very Good Hardcover (1966) 1st Edition | ivy mountain books](https://images.openai.com/static-rsc-4/m1oy-Op1QHUYJueesZutGfB0j-An0XsRhimEilYmjCjv8GeQ__HFCGXuKNMtp6_jZeDCUP3pABPIW-dX1BXOgNtBgSOd4SW-ZvyF12XUpcc5WGaNuF0c81c8d9Q-Pe8wweg6NesNYRhLZKIluzv8TTXI4XFimB2ghsLuiAjbCG6xMGfxc6V9J6vR_rrLftzQ?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.abebooks.com/first-edition/Farewell-Arms-Hemingway-Ernest-Charles-Scribners/31388485252/bd",
+                  "alt": "A Farewell To Arms. by Hemingway, Ernest: Hardcover (1929) 1st Edition | Raptis Rare Books",
+                  "image_url": "https://images.openai.com/static-rsc-4/Z4BsF9zixdZbqp10uFV5VnbyE2nqTySbO_tzIllXnsYwStXRH7g1vUK0R1_o5-28iBrqrqkXvAVv9rZMZsa2mr2MSfcoqQw0zMouBP79Yfpslaa9VJaxsPvTrb5KwwuxdbxT-LRw4eh_MssflKvaCg0dD2oGpyS6FE3Dem-yn9jJ47KnCO9-sgC8ETfzFQuM?purpose=fullsize",
+                  "markdown": "![A Farewell To Arms. by Hemingway, Ernest: Hardcover (1929) 1st Edition | Raptis Rare Books](https://images.openai.com/static-rsc-4/Z4BsF9zixdZbqp10uFV5VnbyE2nqTySbO_tzIllXnsYwStXRH7g1vUK0R1_o5-28iBrqrqkXvAVv9rZMZsa2mr2MSfcoqQw0zMouBP79Yfpslaa9VJaxsPvTrb5KwwuxdbxT-LRw4eh_MssflKvaCg0dD2oGpyS6FE3Dem-yn9jJ47KnCO9-sgC8ETfzFQuM?purpose=fullsize)"
+                },
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.whitmorerarebooks.com/pages/books/1339/booth-tarkington/the-magnificent-ambersons?soldItem=true",
+                  "alt": "The Magnificent Ambersons | Booth Tarkington | First edition",
+                  "image_url": "https://images.openai.com/static-rsc-4/tb95Q_xjHYDSGEQteec2pW_e-x4CxRwOcCeApideAyMemG3Jwpc0oY3q6DhAwMTpQFu9KWd_cLaZj1uOV8R0Kk2KSoAeBOgR_JVx1cJDyyv4CVO3vz4nfMK-viCrGdHu-syaMsfcnEP0Uxqmpgvuw37jryZwX7HTC4CV1Jwsz763XCuXQS_NyxFAzT0t2BfN?purpose=fullsize",
+                  "markdown": "![The Magnificent Ambersons | Booth Tarkington | First edition](https://images.openai.com/static-rsc-4/tb95Q_xjHYDSGEQteec2pW_e-x4CxRwOcCeApideAyMemG3Jwpc0oY3q6DhAwMTpQFu9KWd_cLaZj1uOV8R0Kk2KSoAeBOgR_JVx1cJDyyv4CVO3vz4nfMK-viCrGdHu-syaMsfcnEP0Uxqmpgvuw37jryZwX7HTC4CV1Jwsz763XCuXQS_NyxFAzT0t2BfN?purpose=fullsize)"
+                },
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://thefirstedition.com/product/the-shepherd-of-guadaloupe/",
+                  "alt": "The Shepherd Of Guadaloupe - The First Edition Rare Books",
+                  "image_url": "https://images.openai.com/static-rsc-4/Uejt1YnAEFsSW6oN-zb2e6j3hontyv-3A29qyx1ZduvZqktrBpmOFmQc2LGNwpafmDvPVYieFhgC_WWEYoli5SudCdNpQWiMcN1tLT4HlaGbfNcCaKmxaXOMKfTpNvdl_XbQPE2gRS_qtsAEREoCglqiPMbd5ooAAbYLAzL7ZDbrmOr9I3Tu8Y9RSQR5csuq?purpose=fullsize",
+                  "markdown": "![The Shepherd Of Guadaloupe - The First Edition Rare Books](https://images.openai.com/static-rsc-4/Uejt1YnAEFsSW6oN-zb2e6j3hontyv-3A29qyx1ZduvZqktrBpmOFmQc2LGNwpafmDvPVYieFhgC_WWEYoli5SudCdNpQWiMcN1tLT4HlaGbfNcCaKmxaXOMKfTpNvdl_XbQPE2gRS_qtsAEREoCglqiPMbd5ooAAbYLAzL7ZDbrmOr9I3Tu8Y9RSQR5csuq?purpose=fullsize)"
+                },
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.abebooks.com/first-edition/Grapes-Wrath-Steinbeck-John-Viking-Press/32297322667/bd",
+                  "alt": "The Grapes of Wrath by Steinbeck, John: Fine Cloth (1939) First Edition, First Printing. | The First Edition Rare Books, LLC",
+                  "image_url": "https://images.openai.com/static-rsc-4/MzbFRyD1THvL2PEO1ICJCiV__yYAMXzjxdZ13dghYIEmyLnKB4dE1pLzGeXzI48YT6hJXimqXJC2wib6MpE_CoEEeRInGq_3Q9geo5rSfwDr6IdiqfsjQM6VLCVDfdtgh0NRom0PqS4J05FJJrpTdaFQgyY3gISfb0PwaKTtX2tlJMSAlU16q-7u0o8vy3Mq?purpose=fullsize",
+                  "markdown": "![The Grapes of Wrath by Steinbeck, John: Fine Cloth (1939) First Edition, First Printing. | The First Edition Rare Books, LLC](https://images.openai.com/static-rsc-4/MzbFRyD1THvL2PEO1ICJCiV__yYAMXzjxdZ13dghYIEmyLnKB4dE1pLzGeXzI48YT6hJXimqXJC2wib6MpE_CoEEeRInGq_3Q9geo5rSfwDr6IdiqfsjQM6VLCVDfdtgh0NRom0PqS4J05FJJrpTdaFQgyY3gISfb0PwaKTtX2tlJMSAlU16q-7u0o8vy3Mq?purpose=fullsize)"
+                },
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://thefirstedition.com/product/to-kill-a-mockingbird-12/?srsltid=AfmBOoqeOA-LrWKE6LUl3Y-8qyCFqzJ0Wv6O-s0MAiHLunGB7SaJ4IEd",
+                  "alt": "To Kill a Mockingbird - The First Edition Rare Books",
+                  "image_url": "https://images.openai.com/static-rsc-4/dmVfX_otJ3mJenE2SyMqZV-ljVh9A2lFf6dO_1h6ssL-17EvJf0lSlQKHER6odBrvRQU8H4lzvtrW-FdW77RNUvmCoPAg8nl6_kpVrmW8kV5YohWrPxmumqGQ1SsHsWKZ7P675e95_DkMvSzCLHlXAgCZHKYYiU8oFNRvX-ANbnmjF32jjE7kBFi7fRAYHxZ?purpose=fullsize",
+                  "markdown": "![To Kill a Mockingbird - The First Edition Rare Books](https://images.openai.com/static-rsc-4/dmVfX_otJ3mJenE2SyMqZV-ljVh9A2lFf6dO_1h6ssL-17EvJf0lSlQKHER6odBrvRQU8H4lzvtrW-FdW77RNUvmCoPAg8nl6_kpVrmW8kV5YohWrPxmumqGQ1SsHsWKZ7P675e95_DkMvSzCLHlXAgCZHKYYiU8oFNRvX-ANbnmjF32jjE7kBFi7fRAYHxZ?purpose=fullsize)"
+                },
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.britannicauctions.com/sold/ernest-hemingway-the-sun-also-rises-first-edition/",
+                  "alt": "First Edition The Sun Also Rises | 1926 Copy Sold for $14,739",
+                  "image_url": "https://images.openai.com/static-rsc-4/VxT6QNCPSLKGlq_W5jAFE-ovA_8fgmlhkMX5rq28k8eKmX3mSmhrUoHPBmF4MPeMH-HSGuMfTQmhrh913J39y8BxOL_CD-6zlzHRpXdgBOG3Aw3mT_dgJDXidw82OKJGkKxS6EgDiu2gfgeLM8tMXyP0k19ov83sp6Acdamkwa-nZ53gPswjQUkTF0oJx7ug?purpose=fullsize",
+                  "markdown": "![First Edition The Sun Also Rises | 1926 Copy Sold for $14,739](https://images.openai.com/static-rsc-4/VxT6QNCPSLKGlq_W5jAFE-ovA_8fgmlhkMX5rq28k8eKmX3mSmhrUoHPBmF4MPeMH-HSGuMfTQmhrh913J39y8BxOL_CD-6zlzHRpXdgBOG3Aw3mT_dgJDXidw82OKJGkKxS6EgDiu2gfgeLM8tMXyP0k19ov83sp6Acdamkwa-nZ53gPswjQUkTF0oJx7ug?purpose=fullsize)"
+                },
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.abebooks.com/first-edition/Tree-Grows-Brooklyn-Betty-Smith-Harper/30937310220/bd",
+                  "alt": "A Tree Grows in Brooklyn by Betty Smith: Good Hardcover (1943) First Edition. | A Cappella Books, Inc.",
+                  "image_url": "https://images.openai.com/static-rsc-4/R7HBDdMUpTHsMd7GnaLUQE0cvClNw5ljdQgTFFwNDmHDdtqlFJJFjKSXAg5GEiaRV7fBeORDP20tPg-X39MMDemyOqFF2XyTPijUGSlDNhMO0T2kvY8cTwC_vH3v8rtlZ3OIS9q_W-iWDY7NbgXfNcyhgCwJQUM4jExgcbVDw3NuZawv2cGLRgl-nqtBHnAJ?purpose=fullsize",
+                  "markdown": "![A Tree Grows in Brooklyn by Betty Smith: Good Hardcover (1943) First Edition. | A Cappella Books, Inc.](https://images.openai.com/static-rsc-4/R7HBDdMUpTHsMd7GnaLUQE0cvClNw5ljdQgTFFwNDmHDdtqlFJJFjKSXAg5GEiaRV7fBeORDP20tPg-X39MMDemyOqFF2XyTPijUGSlDNhMO0T2kvY8cTwC_vH3v8rtlZ3OIS9q_W-iWDY7NbgXfNcyhgCwJQUM4jExgcbVDw3NuZawv2cGLRgl-nqtBHnAJ?purpose=fullsize)"
+                },
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.pprize.com/BookDetail.php/Bridge-San-Luis",
+                  "alt": "First Edition Points to identify The Bridge of San Luis Rey by Thornton Wilder",
+                  "image_url": "https://images.openai.com/static-rsc-4/CRFYvnBZXLepVzde7cUFP3cvaDQ8qR3vMvz5wxaNmD-3LAcen0EeaJRYomxdGhqWGruUQqVZykliM1PVrQZZ0X6aGnUQiLpuyq2Zizy39drzHvG6seNa6Pw3LwPPLOycofCpKIYcyK1aA4J3IsfJx3W19DdJ45OC8C3XPqSi-ARHMakPD1g_kDQwls8w_KLA?purpose=fullsize",
+                  "markdown": "![First Edition Points to identify The Bridge of San Luis Rey by Thornton Wilder](https://images.openai.com/static-rsc-4/CRFYvnBZXLepVzde7cUFP3cvaDQ8qR3vMvz5wxaNmD-3LAcen0EeaJRYomxdGhqWGruUQqVZykliM1PVrQZZ0X6aGnUQiLpuyq2Zizy39drzHvG6seNa6Pw3LwPPLOycofCpKIYcyK1aA4J3IsfJx3W19DdJ45OC8C3XPqSi-ARHMakPD1g_kDQwls8w_KLA?purpose=fullsize)"
+                },
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.rarebookcellar.com/pages/books/47753/thornton-n-wilder/the-ides-of-march",
+                  "alt": "THE IDES OF MARCH | Thornton N. Wilder | First Edition; First Printing",
+                  "image_url": "https://images.openai.com/static-rsc-4/iLKVVETBgA7XXjh_Wc9VQ405tpCW6_Hk0lQKDTb0FljhYlARjTCgh7XCxpklGK6teki2Gk-p-0IB77KdoIBNYodwsIhgLJnmiGAMgojPRSXvlE2eHSHgQDHoRgN80WuweAa06z-HDqz-wsGInTwvGDo86iYRZfNURab5RE1-kEkV2XYBJnx1OJkV6dD3zi5v?purpose=fullsize",
+                  "markdown": "![THE IDES OF MARCH | Thornton N. Wilder | First Edition; First Printing](https://images.openai.com/static-rsc-4/iLKVVETBgA7XXjh_Wc9VQ405tpCW6_Hk0lQKDTb0FljhYlARjTCgh7XCxpklGK6teki2Gk-p-0IB77KdoIBNYodwsIhgLJnmiGAMgojPRSXvlE2eHSHgQDHoRgN80WuweAa06z-HDqz-wsGInTwvGDo86iYRZfNURab5RE1-kEkV2XYBJnx1OJkV6dD3zi5v?purpose=fullsize)"
+                },
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.abebooks.com/first-edition/Moon-Harsh-Mistress-Heinlein-Robert-A/32352558674/bd",
+                  "alt": "The Moon is a Harsh Mistress by Heinlein, Robert A.: Very Good Hardcover (1966) 1st Edition | ivy mountain books",
+                  "image_url": "https://images.openai.com/static-rsc-4/m1oy-Op1QHUYJueesZutGfB0j-An0XsRhimEilYmjCjv8GeQ__HFCGXuKNMtp6_jZeDCUP3pABPIW-dX1BXOgNtBgSOd4SW-ZvyF12XUpcc5WGaNuF0c81c8d9Q-Pe8wweg6NesNYRhLZKIluzv8TTXI4XFimB2ghsLuiAjbCG6xMGfxc6V9J6vR_rrLftzQ?purpose=fullsize",
+                  "markdown": "![The Moon is a Harsh Mistress by Heinlein, Robert A.: Very Good Hardcover (1966) 1st Edition | ivy mountain books](https://images.openai.com/static-rsc-4/m1oy-Op1QHUYJueesZutGfB0j-An0XsRhimEilYmjCjv8GeQ__HFCGXuKNMtp6_jZeDCUP3pABPIW-dX1BXOgNtBgSOd4SW-ZvyF12XUpcc5WGaNuF0c81c8d9Q-Pe8wweg6NesNYRhLZKIluzv8TTXI4XFimB2ghsLuiAjbCG6xMGfxc6V9J6vR_rrLftzQ?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 5,
+              "rank_absolute": 9,
+              "markdown": "\n\nFor collectible books, examine\\:\n\n- Original dust jacket.\n- Original price printed on the inside flap.\n- Publisher's logo and binding.\n- Any distinctive printing errors or corrected text.\n\nCollectors sometimes use these details, called *points of issue*, to distinguish an original first printing from later copies. [www.abaa.org](https://www.abaa.org/articles/identifying-first-editions?utm_source=chatgpt.com)[www.ioba.org](https://www.ioba.org/article-identifying-first-editions?utm_source=chatgpt.com)[www.abebooks.com](https://www.abebooks.com/books/rarebooks/collecting-guide/what_books_collect/collecting-first-editions.shtml?utm_source=chatgpt.com)[ilab.org](https://ilab.org/article/first-edition-identification-by-publisher?utm_source=chatgpt.com)\n\n## 5\\. Understand the difference\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Identifying First Editions | News",
+                  "snippet": null,
+                  "domain": "www.abaa.org",
+                  "url": "https://www.abaa.org/articles/identifying-first-editions?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "ABAA",
+                  "publication_date": "2023-05-22 00:00:00 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Identifying First Editions - Pt. 1",
+                  "snippet": null,
+                  "domain": "www.ioba.org",
+                  "url": "https://www.ioba.org/article-identifying-first-editions?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "Independent Online Booksellers Association",
+                  "publication_date": null,
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Identifying and collecting first edition books",
+                  "snippet": null,
+                  "domain": "www.abebooks.com",
+                  "url": "https://www.abebooks.com/books/rarebooks/collecting-guide/what_books_collect/collecting-first-editions.shtml?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "AbeBooks",
+                  "publication_date": "2021-06-03 21:02:08 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "First-Edition - Identification by Publisher | International League of Antiquarian Booksellers (ILAB)",
+                  "snippet": null,
+                  "domain": "ilab.org",
+                  "url": "https://ilab.org/article/first-edition-identification-by-publisher?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "ILAB - EN",
+                  "publication_date": "2010-05-05 00:00:00 +00:00",
+                  "markdown": null
+                }
+              ],
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_table",
+              "rank_group": 2,
+              "rank_absolute": 10,
+              "text": null,
+              "markdown": "| Term | Meaning |\n|--------|--------|\n| First edition | First published edition of the work |\n| First printing | First batch printed of that edition |\n| First edition, second printing | Same edition, but printed again |\n| Revised edition | Updated or changed edition |\n| Book club edition | Separate edition, often less collectible |\n\n",
+              "table": {
+                "table_header": [
+                  "Term",
+                  "Meaning"
+                ],
+                "table_content": [
+                  [
+                    "First edition",
+                    "First published edition of the work"
+                  ],
+                  [
+                    "First printing",
+                    "First batch printed of that edition"
+                  ],
+                  [
+                    "First edition, second printing",
+                    "Same edition, but printed again"
+                  ],
+                  [
+                    "Revised edition",
+                    "Updated or changed edition"
+                  ],
+                  [
+                    "Book club edition",
+                    "Separate edition, often less collectible"
+                  ]
+                ]
+              },
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 6,
+              "rank_absolute": 11,
+              "markdown": "\nIf you're interested in book collecting or resale value, a first edition, first printing is often the copy collectors want most.\n\n## Helpful identification resources\n\n- [ABAA – Identifying First Editions](https://www.abaa.org/articles/identifying-first-editions?utm_source=chatgpt.com)\\: Guide from the Antiquarian Booksellers' Association of America.\n- [ILAB – First Edition Identification by Publisher](https://ilab.org/article/first-edition-identification-by-publisher?utm_source=chatgpt.com)\\: Publisher-specific identification methods.\n- [IOBA – Identifying First Editions](https://www.ioba.org/article-identifying-first-editions?utm_source=chatgpt.com)\\: Detailed collector's guide.\n- [AbeBooks – Collecting First Editions](https://www.abebooks.com/books/rarebooks/collecting-guide/what_books_collect/collecting-first-editions.shtml?utm_source=chatgpt.com)\\: Practical examples and explanations.\n\n---\n\n## I can help identify your book\\!\n\nIf you have a book you're curious about, send me\\:\n\n1. A picture of the front cover.\n2. A picture of the title page.\n3. A picture of the copyright page (especially the number line).\n4. A picture of the dust jacket, if it has one.\n\nI can help determine whether it's a **first edition, first printing, later printing, or potentially a collectible book**, and help investigate its approximate market value.",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "ABAA – Identifying First Editions",
+                  "snippet": null,
+                  "domain": "www.abaa.org",
+                  "url": "https://www.abaa.org/articles/identifying-first-editions?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[ABAA – Identifying First Editions](https://www.abaa.org/articles/identifying-first-editions?utm_source=chatgpt.com)"
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "ILAB – First Edition Identification by Publisher",
+                  "snippet": null,
+                  "domain": "ilab.org",
+                  "url": "https://ilab.org/article/first-edition-identification-by-publisher?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[ILAB – First Edition Identification by Publisher](https://ilab.org/article/first-edition-identification-by-publisher?utm_source=chatgpt.com)"
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "IOBA – Identifying First Editions",
+                  "snippet": null,
+                  "domain": "www.ioba.org",
+                  "url": "https://www.ioba.org/article-identifying-first-editions?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[IOBA – Identifying First Editions](https://www.ioba.org/article-identifying-first-editions?utm_source=chatgpt.com)"
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "AbeBooks – Collecting First Editions",
+                  "snippet": null,
+                  "domain": "www.abebooks.com",
+                  "url": "https://www.abebooks.com/books/rarebooks/collecting-guide/what_books_collect/collecting-first-editions.shtml?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[AbeBooks – Collecting First Editions](https://www.abebooks.com/books/rarebooks/collecting-guide/what_books_collect/collecting-first-editions.shtml?utm_source=chatgpt.com)"
+                }
+              ],
+              "brand_entities": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

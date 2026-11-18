@@ -64,3 +64,6 @@
 
 ## Phase 7 (pieces B and C) — Landing and Mini-Scan (2026-11-18)
 - Public landing at `/` and Mini-Scan (`/mini-scan`, result through a private link), **built and switched off** (D-038). Asynchronous worker with a simulated mode and a live mode guarded by its own switch; Turnstile captcha that fails closed; cap of 30 per week and 3 per visitor per day; migration with status, `simulated` and `public_token`. A Mini-Scan section in `/admin`.
+
+## Research on other AIs with DataForSEO (2026-11-18)
+- Reading the documentation and an authorized experiment of 9 real calls (USD 0.123): ChatGPT, Gemini and LLM Mentions. Responses saved as fixtures with canary tests; results and conclusions in D-039. Nothing was built.

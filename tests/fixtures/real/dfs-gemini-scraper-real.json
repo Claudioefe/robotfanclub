@@ -1,0 +1,64 @@
+{
+  "_note": "DATOS REALES de DataForSEO (2026-11-18), RECORTADOS: /v3/ai_optimization/gemini/llm_scraper/live/advanced, EE. UU., en. Query: how to tell if a book is a first edition. Primera de dos corridas con la misma query. HALLAZGOS: sources vino en null en las DOS corridas (el endpoint documenta el campo pero no lo llenó) y no tiene parámetro para forzar la búsqueda web; las dos respuestas fueron distintas entre sí. Costo USD 0,004 por corrida; 32,7 s.",
+  "version": "0.1.20261117",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "33.1483 sec.",
+  "cost": 0.004,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "11181757-2831-0629-0000-684b7a738625",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "32.7409 sec.",
+      "cost": 0.004,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "gemini",
+        "llm_scraper",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "live",
+        "se": "gemini",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "how to tell if a book is a first edition",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "how to tell if a book is a first edition",
+          "location_code": 2840,
+          "language_code": "en",
+          "model": "3.5 Flash-Lite",
+          "datetime": "2026-11-18 17:57:40 +00:00",
+          "markdown": "Determining whether a book is a first edition typically requires looking for a combination of publishing indicators on the copyright page … 1. Check the Copyright Page … 2. Research Publisher-Specific Conventions … 3. Look for Exclusively First Edition Clues …",
+          "sources": null,
+          "se_results_count": 0,
+          "item_types": [
+            "gemini_text"
+          ],
+          "items_count": 1,
+          "items": [
+            {
+              "type": "gemini_text",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "markdown": "Determining whether a book is a first edition …",
+              "original_text": "…",
+              "sources": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
