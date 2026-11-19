@@ -273,3 +273,11 @@ Aprobado por el dueño tras D-039. Detalle en [`ai-visibility.md`](ai-visibility
 - **Llamada real autorizada:** una por plataforma para Bauman (≈ USD 0,28; quedan ≈ USD 0,45). Resultado: Google 1.543 respuestas, ChatGPT 122; en ChatGPT, 17 citan y 23 solo leyeron una página. Fixtures completos `dfs-llm-mentions-bauman-{google,chatgpt}-40-real.json`.
 - **Fuera de alcance (a decidir):** corridas de ChatGPT en vivo ("citado en X de N") y Mini-Scan con LLM Mentions.
 - **Pendiente del dueño:** aplicar la migración `20261123100000_ai_visibility.sql`, y luego `npm run load-real-mentions` para ver los datos reales bajo Bauman.
+
+## D-041 — Landing integrada desde el diseño (2026-11-19) ✅
+El dueño entregó el diseño de la landing (carpeta "Landing page-html", un export de herramienta de diseño) y pidió integrarlo.
+- **Qué:** `/` ahora es ese diseño, portado a Next.js: `src/app/page.tsx` (servidor, con metadata) y `src/components/landing/` (`Landing.tsx` cliente, `landing.css`, `fonts.ts`). El JSX se generó con un script desde el diseño (no se usó su runtime `support.js`/`react.js`) y la lógica interactiva se reescribió con hooks: modo disco, robots colgados, medidores 19 citas / 184 ms, abanico del CTA y robots que empujan el botón.
+- **Aislamiento:** todos los estilos van bajo `.landing`; el portal y el admin no cambian. La landing es siempre oscura (como el diseño); el portal sigue claro/oscuro. Fuentes (Space Grotesk, Inter, JetBrains Mono) con `next/font`, sin pedir a Google en ejecución. Respeta `prefers-reduced-motion`.
+- **Cambios sobre el diseño:** se agregó "Sign in" al menú (los clientes lo necesitan). El Mini-Scan sigue apagado: solo queda el texto "Mini-scan coming soon".
+- **Copy y reglas:** los textos del diseño ya coinciden con las reglas del producto (piso 12 / objetivo 18 / bonus 25, 30% fuera del top 10, crédito del 20%, INP ≤ 200 ms en dos ventanas de 28 días, EE. UU. · inglés · mobile). `tests/landing.test.tsx` los fija.
+- **Pendiente del dueño:** email de contacto. `CONTACT_EMAIL` en `src/lib/brand.ts` está vacío; mientras tanto "Start a fan club" lleva a la sección `#join`. Al definirlo, el botón pasa solo a `mailto:`.

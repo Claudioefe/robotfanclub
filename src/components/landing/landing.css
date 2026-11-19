@@ -1,0 +1,104 @@
+/* Landing page styles, scoped under .landing so they never touch the portal or the admin. Ported from the design mockup. */
+.landing a{color:#D7FF3A}
+.landing a:hover{color:#F2F0EA}
+.landing .arena{background-image:radial-gradient(rgba(242,240,234,.07) 1px,transparent 1px);background-size:22px 22px}
+.landing .bob{animation:bob 2.6s ease-in-out infinite}
+.landing .blink{transform-box:fill-box;transform-origin:center;animation:blink 4.2s infinite}
+.landing .wave{animation:wave 1.1s ease-in-out infinite}
+.landing .pulse{animation:pulse 1.6s ease-in-out infinite}
+.landing .jumpA{animation:jumpA .7s cubic-bezier(.3,1.6,.5,1)}
+.landing .jumpB{animation:jumpB .7s cubic-bezier(.3,1.6,.5,1)}
+.landing .marquee{animation:marquee 32s linear infinite}
+.landing .stamp{animation:stamp 1.1s cubic-bezier(.2,1.4,.4,1) 1.2s both}
+.landing .shimmer{background:linear-gradient(90deg,#232633 0%,#2F3344 40%,#232633 80%);background-size:300% 100%;animation:shimmer 2.2s linear infinite}
+.landing .pop{animation:pop .45s cubic-bezier(.2,1.6,.4,1)}
+.landing .rise{animation:rise .9s cubic-bezier(.2,.9,.3,1) both}
+.landing .cta{transition:transform .15s ease,box-shadow .15s ease}
+.landing .cta:hover{transform:translate(-3px,-3px);box-shadow:6px 6px 0 #FF5FA2}
+.landing .navlink{color:#A5A9B8;text-decoration:none}
+.landing .navlink:hover{color:#F2F0EA}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
+@keyframes blink{0%,90%,100%{transform:scaleY(1)}94%{transform:scaleY(.08)}}
+@keyframes wave{0%,100%{transform:rotate(-14deg)}50%{transform:rotate(16deg)}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+@keyframes jumpA{0%,100%{transform:translateY(0)}35%{transform:translateY(-46px) rotate(-5deg)}}
+@keyframes jumpB{0%,100%{transform:translateY(0)}35%{transform:translateY(-46px) rotate(5deg)}}
+@keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@keyframes stamp{0%{transform:scale(2.6) rotate(-16deg);opacity:0}60%{transform:scale(.9) rotate(-8deg);opacity:1}100%{transform:scale(1) rotate(-8deg);opacity:1}}
+@keyframes shimmer{from{background-position:100% 0}to{background-position:-200% 0}}
+@keyframes pop{0%{transform:scale(.6);opacity:0}100%{transform:scale(1);opacity:1}}
+@keyframes rise{from{transform:translateY(28px);opacity:0}to{transform:none;opacity:1}}
+.landing .danceA{transform-origin:50% 100%;animation:danceA .62s ease-in-out infinite}
+.landing .danceB{transform-origin:50% 100%;animation:danceB .5s ease-in-out infinite}
+.landing .spinjump{transform-origin:50% 60%;animation:spinjump 1.5s cubic-bezier(.4,0,.2,1) infinite}
+.landing .waveFast{animation:wave .32s ease-in-out infinite}
+.landing .strobe{animation:pulse .25s steps(2) infinite}
+.landing .tiles{animation:tiles 1.4s linear infinite}
+.landing .twinkle{animation:twinkle 1.2s ease-in-out infinite}
+.landing .swing{transform-origin:50% 0;animation:swing 2.4s ease-in-out infinite}
+.landing .ballIn{animation:ballIn .55s cubic-bezier(.2,1.5,.4,1) both}
+.landing .sweep{animation:sweep 16s linear infinite}
+.landing .fadeIn{animation:fadeIn .4s ease both}
+.landing .scribble{animation:scribble .55s ease-in-out infinite}
+.landing .write{transform-box:fill-box;transform-origin:left center;animation:write 2.6s steps(10) infinite}
+.landing .scan{transform-origin:134px 144px;animation:scan 2.4s ease-in-out infinite}
+.landing .tap{animation:tap .2s ease-in-out infinite alternate}
+.landing .flip{transform-box:fill-box;transform-origin:left center;animation:flip 2.8s ease-in-out infinite}
+.landing .grow{transform-box:fill-box;transform-origin:center bottom;animation:grow 2.2s ease-out infinite}
+@keyframes scribble{0%,100%{transform:translate(0,0)}50%{transform:translate(-16px,3px)}}
+@keyframes write{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes scan{0%,100%{transform:rotate(-16deg)}50%{transform:rotate(10deg)}}
+@keyframes tap{to{transform:translateY(5px)}}
+@keyframes flip{0%,55%{transform:scaleX(1)}80%,100%{transform:scaleX(-1)}}
+@keyframes grow{0%{transform:scaleY(.15)}60%,100%{transform:scaleY(1)}}
+.landing .look{animation:look 3.6s ease-in-out infinite}
+.landing .dangle{transform-origin:40px 6px;animation:dangle 2.6s ease-in-out infinite}
+.landing .kickL{transform-origin:40px 90px;animation:kick .7s ease-in-out infinite alternate}
+.landing .kickR{transform-origin:60px 90px;animation:kick .7s ease-in-out infinite alternate-reverse}
+.landing .kickL2{transform-origin:29px 112px;animation:kick .6s ease-in-out infinite alternate}
+.landing .kickR2{transform-origin:51px 112px;animation:kick .6s ease-in-out infinite alternate-reverse}
+.landing .peek{animation:peek 5s ease-in-out infinite}
+.landing .popup{animation:popup 3.4s ease-in-out infinite}
+.landing .hangL{transform-origin:58px 6px;animation:hangL 1.6s ease-in-out infinite}
+.landing .hangR{transform-origin:22px 6px;animation:hangR 1.6s ease-in-out infinite}
+.landing .ouchL{transform-origin:22px 38px;animation:ouchL .14s ease-in-out infinite alternate}
+.landing .ouchR{transform-origin:58px 38px;animation:ouchR .14s ease-in-out infinite alternate}
+.landing .handBtn:hover{background:rgba(215,255,58,.18)!important}
+.landing .handBtn:focus-visible{outline:3px solid #D7FF3A;outline-offset:2px}
+@keyframes hangL{0%,100%{transform:rotate(-16deg)}50%{transform:rotate(-26deg)}}
+@keyframes hangR{0%,100%{transform:rotate(16deg)}50%{transform:rotate(26deg)}}
+@keyframes ouchL{from{transform:rotate(-155deg)}to{transform:rotate(-120deg)}}
+@keyframes ouchR{from{transform:rotate(155deg)}to{transform:rotate(120deg)}}
+.landing .runA{transform-origin:43px 74px;animation:kick .16s linear infinite alternate}
+.landing .runB{transform-origin:63px 74px;animation:kick .16s linear infinite alternate-reverse}
+.landing .sweat{animation:sweat .7s ease-in infinite}
+.landing .pushHop{animation:excited .3s ease-in-out infinite}
+@keyframes sweat{0%{transform:translate(0,0);opacity:0}30%{opacity:1}100%{transform:translate(-14px,10px);opacity:0}}
+.landing .excited{animation:fanRise .28s cubic-bezier(.2,1.5,.4,1) both,excited .3s ease-in-out .28s infinite}
+.landing .heartbeat{transform-box:fill-box;transform-origin:center;animation:heartbeat .4s ease-in-out infinite}
+@keyframes fanRise{from{transform:translateY(75%)}to{transform:translateY(-6px)}}
+@keyframes excited{0%,100%{transform:translateY(-6px) rotate(-5deg)}50%{transform:translateY(-22px) rotate(5deg)}}
+@keyframes heartbeat{0%,100%{transform:scale(1)}50%{transform:scale(1.3)}}
+.landing .ring{transform-box:fill-box;transform-origin:center;animation:nervous .2s linear infinite}
+.landing .zzz{animation:zzz 2.6s ease-in infinite}
+@keyframes look{0%,40%{transform:translateX(0)}50%,78%{transform:translateX(4px)}88%{transform:translateX(-4px)}}
+@keyframes dangle{0%,100%{transform:rotate(-7deg)}50%{transform:rotate(7deg)}}
+@keyframes kick{from{transform:rotate(-14deg)}to{transform:rotate(14deg)}}
+@keyframes peek{0%,72%,100%{transform:translateY(0)}80%,88%{transform:translateY(12px)}}
+@keyframes popup{0%,100%{transform:translateY(75%)}30%,70%{transform:translateY(6%)}}
+@keyframes zzz{0%{transform:translate(0,0);opacity:0}30%{opacity:1}100%{transform:translate(12px,-22px);opacity:0}}
+.landing .secretBtn{transition:transform .15s ease}
+.landing .secretBtn:hover{animation:nervous .18s linear infinite}
+.landing .secretBtn:active{transform:translateY(4px) scale(.97)}
+@keyframes nervous{0%,100%{transform:translateX(0) rotate(0)}25%{transform:translateX(-3px) rotate(-2deg)}75%{transform:translateX(3px) rotate(2deg)}}
+@keyframes danceA{0%,100%{transform:translateY(0) rotate(-11deg)}25%{transform:translateY(-24px) rotate(0)}50%{transform:translateY(0) rotate(11deg)}75%{transform:translateY(-24px) rotate(0)}}
+@keyframes danceB{0%,100%{transform:translateX(0) scale(1,1)}25%{transform:translateX(-16px) scale(1.06,.9)}50%{transform:translateX(0) translateY(-20px) scale(.94,1.08)}75%{transform:translateX(16px) scale(1.06,.9)}}
+@keyframes spinjump{0%,55%,100%{transform:translateY(0) rotate(0)}80%{transform:translateY(-48px) rotate(360deg)}}
+@keyframes tiles{from{transform:translateX(0)}to{transform:translateX(-28px)}}
+@keyframes twinkle{0%,100%{opacity:0}50%{opacity:1}}
+@keyframes swing{0%,100%{transform:rotate(-5deg)}50%{transform:rotate(5deg)}}
+@keyframes ballIn{from{transform:translateY(-160px) scale(.5);opacity:0}to{transform:none;opacity:1}}
+@keyframes sweep{to{transform:rotate(360deg)}}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+@media (prefers-reduced-motion:reduce){.bob,.blink,.wave,.pulse,.marquee,.shimmer,.jumpA,.jumpB,.stamp,.pop,.rise,.danceA,.danceB,.spinjump,.waveFast,.strobe,.tiles,.twinkle,.swing,.ballIn,.sweep,.fadeIn,.secretBtn:hover,.scribble,.write,.scan,.tap,.flip,.grow,.look,.dangle,.kickL,.kickR,.kickL2,.kickR2,.peek,.popup,.ring,.zzz,.excited,.heartbeat,.hangL,.hangR,.ouchL,.ouchR,.runA,.runB,.sweat,.pushHop{animation:none!important}}
+.landing{background:#0E0F13;color:#F2F0EA;min-height:100vh}

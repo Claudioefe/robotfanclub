@@ -71,3 +71,6 @@
 
 ## Fase 8 — AI visibility (2026-11-18)
 - Módulo informativo (D-040): migración `ai_visibility`, job semanal `jobs/ai-visibility/` (dry-run con respuestas reales guardadas, live protegido por `AI_VISIBILITY_ALLOW_LIVE` y tope de costo), página `/portal/<cliente>/ai-visibility` y "Query ideas" en Admin. Citado vs leído separados. Una llamada real por plataforma para Bauman (≈ USD 0,28), respuestas guardadas completas. Pendiente: aplicar la migración y `npm run load-real-mentions`.
+
+## Landing (2026-11-19)
+- La home `/` pasa a ser el diseño de la landing (D-041): componentes en `src/components/landing/`, estilos aislados bajo `.landing`, fuentes con `next/font`. Test `tests/landing.test.tsx`; Vitest ahora incluye `.test.tsx`. Pendiente: email de contacto (`CONTACT_EMAIL`).

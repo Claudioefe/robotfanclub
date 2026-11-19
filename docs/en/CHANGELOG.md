@@ -71,3 +71,6 @@
 
 ## Phase 8 — AI visibility (2026-11-18)
 - Informational module (D-040): `ai_visibility` migration, weekly job `jobs/ai-visibility/` (dry-run on saved real responses, live gated by `AI_VISIBILITY_ALLOW_LIVE` and a cost ceiling), page `/portal/<client>/ai-visibility` and "Query ideas" in Admin. Cited vs read kept apart. One real call per platform for Bauman (≈ USD 0.28), complete responses saved. Pending: apply the migration and `npm run load-real-mentions`.
+
+## Landing (2026-11-19)
+- The home page `/` is now the landing design (D-041): components in `src/components/landing/`, styles isolated under `.landing`, fonts via `next/font`. Test `tests/landing.test.tsx`; Vitest now includes `.test.tsx`. Pending: contact email (`CONTACT_EMAIL`).
