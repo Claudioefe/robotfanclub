@@ -79,3 +79,4 @@
 ## Guide (2026-11-19)
 - New `guide.md`: the product in plain language, who does what, how citations and the 30% off-top-10 rule work (with an example), how queries are chosen today, what it takes for AI to cite you, limits and glossary. Includes the AI advisor (D-014) as "what comes next", not built.
 - Public page `/guide` (same look as the landing) explaining how it works, and a "Read more" button under "How it works" on the home page. Test `tests/guide.test.tsx`.
+- `/guide` in Spanish and English: EN / ES switch in the header (`/guide?lang=es`; English by default). Copy lives in `src/components/guide/copy.ts`; a test checks both languages have the same structure and the same rules.
