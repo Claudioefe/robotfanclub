@@ -16,8 +16,8 @@ type FilterKey = (typeof FILTERS)[number]["key"];
 type SurfaceKey = "all" | Surface;
 
 const chip = (active: boolean) =>
-  `rounded-full border px-3 py-1.5 text-[13.5px] font-medium no-underline ${
-    active ? "border-cite bg-cite-soft text-cite" : "border-line bg-surface text-muted"
+  `rounded-full border px-3 py-1.5 font-mono text-[12.5px] font-medium no-underline ${
+    active ? "border-accent/60 bg-accent/10 text-accent" : "border-line bg-surface text-muted hover:text-ink"
   }`;
 
 export default async function Citations({ params, searchParams }: PageProps<"/portal/[clientId]/citations">) {
@@ -31,7 +31,7 @@ export default async function Citations({ params, searchParams }: PageProps<"/po
   if (!cit) {
     return (
       <>
-        <PageHeader title="AI citations" />
+        <PageHeader eyebrow="AIO Pro" title="AI citations" />
         <p className="mt-6 text-muted">No frozen query list yet.</p>
       </>
     );
@@ -63,6 +63,7 @@ export default async function Citations({ params, searchParams }: PageProps<"/po
   return (
     <>
       <PageHeader
+        eyebrow="AIO Pro"
         title="AI citations"
         sub={`${cit.rows.length} frozen queries, checked daily in Google AI Overviews and AI Mode (US). Window: ${fmtDate(cit.frozenFrom)} to ${fmtDate(cit.frozenUntil)}.`}
       />
@@ -118,7 +119,7 @@ export default async function Citations({ params, searchParams }: PageProps<"/po
                       <Dim>No AI answer</Dim>
                     )}
                   </Td>
-                  <Td>
+                  <Td className="whitespace-nowrap">
                     {SURFACES.filter((s) => r.surfaces[s].cited).map((s) => SURFACE_LABEL[s]).join(", ") || <Dim>None</Dim>}
                   </Td>
                   <Td>{r.cited ? (r.organicRank ?? <Dim>Not in top 10</Dim>) : <Dim>—</Dim>}</Td>

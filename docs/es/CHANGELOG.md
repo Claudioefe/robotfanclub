@@ -80,3 +80,4 @@
 - Nueva `guide.md`: qué es el producto en lenguaje simple, quién hace qué, cómo funcionan citas y la regla del 30% fuera del top 10 (con ejemplo), cómo se eligen hoy las queries, qué hace falta para que la IA cite, límites y glosario. Incluye el asesor de IA (D-014) como "lo que viene", no construido.
 - Página pública `/guide` (misma estética que la landing) con la explicación de cómo funciona, y botón "Read more" bajo "How it works" en la home. Test `tests/guide.test.tsx`.
 - `/guide` en español e inglés: selector EN / ES en el encabezado (`/guide?lang=es`; por defecto inglés). Textos en `src/components/guide/copy.ts`; un test verifica que ambos idiomas tengan la misma estructura y las mismas reglas.
+- Portal, Admin, login y Mini-Scan con el estilo de la landing, solo oscuro (D-042): paleta y fuentes nuevas, barra lateral con logo, Resumen con cifra principal y tres cifras clave, encabezados con etiqueta, tablas más limpias.

@@ -18,7 +18,7 @@ export default async function Setup({ params }: PageProps<"/portal/[clientId]/se
 
   return (
     <>
-      <PageHeader title="Setup" sub="Connect this portal to real-visitor speed data." />
+      <PageHeader eyebrow="INP Sprint" title="Setup" sub="Connect this portal to real-visitor speed data." />
       <Section
         title="Real-visitor speed snippet"
         note={`Goes in the client’s site. Sends INP, LCP and CLS with attribution to the portal for a share of visits (SAMPLE_RATE). It uses web-vitals ${WEB_VITALS_VERSION}, pinned on purpose.`}

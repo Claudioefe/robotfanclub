@@ -5,7 +5,7 @@ import { useActionState } from "react";
 import { submitScanAction, type ScanFormState } from "@/app/mini-scan/actions";
 import { buttonClass } from "@/components/ui";
 
-const input = "w-full rounded-lg border border-line bg-surface px-3 py-2";
+const input = "w-full rounded-lg border border-line bg-bg px-3 py-2";
 
 export function ScanForm({ siteKey, simulated }: { siteKey?: string; simulated: boolean }) {
   const [state, action, pending] = useActionState<ScanFormState, FormData>(submitScanAction, null);

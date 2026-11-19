@@ -16,7 +16,7 @@ export function Nav({ clientId }: { clientId: string }) {
   const base = `/portal/${clientId}`;
 
   return (
-    <nav aria-label="Portal" className="flex gap-0.5 overflow-x-auto md:flex-col">
+    <nav aria-label="Portal" className="flex min-w-0 gap-0.5 overflow-x-auto md:flex-col">
       {ITEMS.map((item) => {
         const href = base + item.href;
         const current = item.href === "" ? pathname === base : pathname.startsWith(href);
@@ -25,12 +25,11 @@ export function Nav({ clientId }: { clientId: string }) {
             key={item.label}
             href={href}
             aria-current={current ? "page" : undefined}
-            className={`whitespace-nowrap rounded-md px-2.5 py-2 font-medium no-underline ${
-              current
-                ? "bg-surface text-ink shadow-[inset_0_-2px_0_var(--cite)] md:shadow-[inset_3px_0_0_var(--cite)]"
-                : "text-muted hover:text-ink"
+            className={`relative whitespace-nowrap rounded-lg px-3 py-2 text-sm font-medium no-underline transition-colors ${
+              current ? "bg-surface text-ink" : "text-muted hover:bg-surface hover:text-ink"
             }`}
           >
+            {current && <span aria-hidden="true" className="absolute inset-x-3 -bottom-px h-0.5 rounded-full bg-accent md:inset-x-auto md:inset-y-2 md:-left-px md:h-auto md:w-0.5" />}
             {item.label}
           </Link>
         );

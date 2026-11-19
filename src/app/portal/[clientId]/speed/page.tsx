@@ -34,6 +34,7 @@ export default async function Speed({ params }: PageProps<"/portal/[clientId]/sp
   return (
     <>
       <PageHeader
+        eyebrow="INP Sprint"
         title="Speed: Interaction to Next Paint"
         sub={`${fromCrux ? "Google’s field data for mobile Chrome users" : "Real visitors on mobile"}, 75th percentile. Goal: ${SLA.inpGoalMs} ms or less.`}
       />

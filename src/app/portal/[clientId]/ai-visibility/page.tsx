@@ -25,7 +25,7 @@ export default async function AiVisibility({ params }: PageProps<"/portal/[clien
   if (!runs.length) {
     return (
       <>
-        <PageHeader title="AI visibility" sub={`Where AI answers already mention ${client.domain}. Informational: it does not count toward the citation guarantee.`} />
+        <PageHeader eyebrow="Informational" title="AI visibility" sub={`Where AI answers already mention ${client.domain}. Informational: it does not count toward the citation guarantee.`} />
         <Lede big="No data yet." small="The first read runs weekly. It will show up here as soon as it is stored." />
       </>
     );
@@ -40,6 +40,7 @@ export default async function AiVisibility({ params }: PageProps<"/portal/[clien
   return (
     <>
       <PageHeader
+        eyebrow="Informational"
         title="AI visibility"
         sub={`Where AI answers already mention ${client.domain}. Informational: it does not count toward the citation guarantee.`}
       />

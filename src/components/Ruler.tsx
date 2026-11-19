@@ -7,16 +7,16 @@ export function Ruler({ cited, projected }: { cited: number; projected: number }
   const marks = [
     { value: SLA.floor, label: "floor", cls: "" },
     { value: SLA.target, label: "target", cls: "max-[560px]:!-top-[58px]" },
-    { value: SLA.bonus, label: "bonus", cls: "border-l-0 border-r-2 !pl-0 pr-1.5 -translate-x-full" },
+    { value: SLA.bonus, label: "bonus", cls: "!border-l-0 border-r-2 !pl-0 pr-1.5 -translate-x-full" },
   ];
   const ticks = [0, 5, 10, 15, 20, 25, 30];
 
   return (
     <div className="relative mb-10 mt-16 h-[22px] max-[560px]:mt-[84px]" aria-hidden="true">
       <div className="absolute inset-0 overflow-hidden rounded bg-line">
-        <i className="absolute inset-y-0 left-0 bg-cite" style={{ width: `${c}%` }} />
+        <i className="absolute inset-y-0 left-0 bg-accent" style={{ width: `${c}%` }} />
         <i
-          className="absolute inset-y-0 bg-[repeating-linear-gradient(135deg,var(--cite)_0_2px,transparent_2px_7px)] opacity-60"
+          className="absolute inset-y-0 bg-[repeating-linear-gradient(135deg,var(--accent)_0_2px,transparent_2px_7px)] opacity-60"
           style={{ left: `${c}%`, width: `${Math.max(0, p - c)}%` }}
         />
       </div>

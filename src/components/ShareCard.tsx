@@ -8,8 +8,8 @@ import { CopyButton } from "./CopyButton";
 
 function CardBody({ card }: { card: CardText }) {
   return (
-    <article className="flex flex-col gap-1.5 rounded-l border border-l-[5px] border-line border-l-cite bg-surface px-[18px] py-4">
-      <p className="text-[13px] font-medium text-muted">Cited in Google’s AI answer</p>
+    <article className="flex flex-col gap-1.5 rounded-2xl border border-line bg-surface px-[18px] py-4">
+      <p className="font-mono text-[11px] uppercase tracking-[0.06em] text-muted">Cited in Google’s AI answer</p>
       <p className="text-[17px] font-semibold leading-snug tracking-tight">“{card.query}”</p>
       {card.url && <p className="break-words font-medium text-cite">{card.url.replace(/^https?:\/\//, "")}</p>}
       <p className="text-[13.5px] text-muted">

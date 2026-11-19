@@ -281,3 +281,9 @@ The owner delivered the landing design (folder "Landing page-html", an export fr
 - **Changes to the design:** "Sign in" was added to the menu (clients need it). The Mini-Scan stays off: only the "Mini-scan coming soon" line remains.
 - **Copy and rules:** the design's text already matches the product rules (floor 12 / target 18 / bonus 25, 30% off top 10, 20% credit, INP ≤ 200 ms over two 28-day windows, US · English · mobile). `tests/landing.test.tsx` pins them.
 - **Pending from the owner:** contact email. `CONTACT_EMAIL` in `src/lib/brand.ts` is empty; until then "Start a fan club" goes to the `#join` section. Once set, the button switches to `mailto:` by itself.
+
+## D-042 — Portal and Admin adopt the landing style (2026-11-19) ✅
+- **Owner's decision:** the portal, Admin, login and Mini-Scan use the landing's palette and typography, quieter (no robots or animation). **Dark only**, like the landing: light mode was removed (it used to follow the system setting).
+- **How:** the color tokens in `globals.css` become the landing palette (background `#0E0F13`, cards `#171922`, lime as accent and "good", periwinkle for secondary data and links, pink for alerts), and `--accent` and the fonts are added (Space Grotesk for headings, Inter, JetBrains Mono for labels and figures). Everything used tokens, so the change reaches every screen. Logic and data are unchanged.
+- **Order:** sidebar with logo, highlighted client and a lime active item; the Overview shows the main figure with the ruler and three key figures (outside top 10, citation rate, INP) using the `Stat` component; headers with a label (`PageHeader eyebrow`); tables with mono headers and hover; Admin with a top bar with the logo.
+- **Fixes found while reviewing:** base rules (`a`, headings) moved to `@layer base` so utility classes can change link colors; the "bonus" mark on the ruler drew an extra line; on mobile the navigation forced horizontal overflow.

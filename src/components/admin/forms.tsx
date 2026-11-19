@@ -4,7 +4,7 @@ import { useActionState, useEffect, useRef, type ReactNode } from "react";
 import type { ActionState } from "@/app/admin/actions";
 import { buttonClass } from "@/components/ui";
 
-export const inputClass = "w-full rounded-lg border border-line bg-surface px-3 py-2 text-sm";
+export const inputClass = "w-full rounded-lg border border-line bg-bg px-3 py-2 text-sm";
 
 export function Field({ label, children, hint }: { label: string; children: ReactNode; hint?: string }) {
   return (
