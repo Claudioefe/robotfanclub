@@ -81,3 +81,4 @@
 - Página pública `/guide` (misma estética que la landing) con la explicación de cómo funciona, y botón "Read more" bajo "How it works" en la home. Test `tests/guide.test.tsx`.
 - `/guide` en español e inglés: selector EN / ES en el encabezado (`/guide?lang=es`; por defecto inglés). Textos en `src/components/guide/copy.ts`; un test verifica que ambos idiomas tengan la misma estructura y las mismas reglas.
 - Portal, Admin, login y Mini-Scan con el estilo de la landing, solo oscuro (D-042): paleta y fuentes nuevas, barra lateral con logo, Resumen con cifra principal y tres cifras clave, encabezados con etiqueta, tablas más limpias.
+- Primera corrida real (D-043): piloto Bauman, 15 queries, 30 chequeos, USD 0,094. 11 de 15 queries citadas, todas fuera del top 10. Evidencia en `tests/fixtures/real/watcher-bauman-pilot-2026-11-19/` y test `tests/watcher/pilot-data.test.ts`.
