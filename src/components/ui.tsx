@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { ReactNode } from "react";
 import type { Tone } from "@/lib/sla";
 
@@ -94,8 +95,8 @@ export const Td = ({ children, className = "" }: { children?: ReactNode; classNa
   <td className={`border-b border-line px-3.5 py-2.5 align-middle ${className}`}>{children}</td>
 );
 
-export const Section = ({ title, note, children }: { title: string; note?: ReactNode; children: ReactNode }) => (
-  <section className="mt-12">
+export const Section = ({ title, note, children, id }: { title: string; note?: ReactNode; children: ReactNode; id?: string }) => (
+  <section id={id} className="mt-12 scroll-mt-6">
     <h2 className="text-xl font-bold leading-snug tracking-tight">{title}</h2>
     {note && <p className="mb-3.5 mt-0.5 max-w-[70ch] text-[13.5px] text-muted">{note}</p>}
     {children}
@@ -106,3 +107,48 @@ export const buttonClass = (ghost = false, small = false) =>
   `inline-flex cursor-pointer items-center rounded-full border font-semibold leading-snug ${
     small ? "px-2.5 py-1 text-[13px]" : "px-4 py-2 text-sm"
   } ${ghost ? "bg-transparent text-ink border-line hover:border-muted" : "border-accent bg-accent text-on-accent"}`;
+
+/** "Showing 26 to 50 of 80" with previous / next and a way to see everything. `href` builds the link for a page ("all" included). */
+export function Pager({ from, to, total, page, pages, all, href }: { from: number; to: number; total: number; page: number; pages: number; all: boolean; href: (p: number | "all") => string }) {
+  if (total === 0) return null;
+  const link = "rounded-full border border-line px-3 py-1 font-mono text-[12.5px] no-underline hover:border-muted";
+  const off = "rounded-full border border-line px-3 py-1 font-mono text-[12.5px] text-muted opacity-40";
+  return (
+    <nav aria-label="Pages" className="mt-3 flex flex-wrap items-center gap-2 text-sm text-muted">
+      <span className="mr-2">
+        Showing {from} to {to} of {total}
+      </span>
+      {!all && pages > 1 && (
+        <>
+          {page > 1 ? (
+            <Link href={href(page - 1)} className={link} scroll={false}>
+              ← Previous
+            </Link>
+          ) : (
+            <span className={off}>← Previous</span>
+          )}
+          <span className="font-mono text-[12.5px]">
+            Page {page} of {pages}
+          </span>
+          {page < pages ? (
+            <Link href={href(page + 1)} className={link} scroll={false}>
+              Next →
+            </Link>
+          ) : (
+            <span className={off}>Next →</span>
+          )}
+        </>
+      )}
+      {pages > 1 && !all && (
+        <Link href={href("all")} className={`${link} ml-auto`} scroll={false}>
+          Show all
+        </Link>
+      )}
+      {all && total > 25 && (
+        <Link href={href(1)} className={link} scroll={false}>
+          Back to pages
+        </Link>
+      )}
+    </nav>
+  );
+}

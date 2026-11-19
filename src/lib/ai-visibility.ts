@@ -82,6 +82,29 @@ export function questionRows(mentions: MentionView[]): QuestionRow[] {
   return [...byKey.values()].sort((a, b) => (b.volume ?? -1) - (a.volume ?? -1) || a.question.localeCompare(b.question));
 }
 
+export interface Page<T> {
+  items: T[];
+  page: number; // 1-based, already clamped to a real page
+  pages: number;
+  total: number;
+  from: number; // 1-based position of the first item shown (0 when empty)
+  to: number;
+  all: boolean;
+}
+
+/** One page of a list. `raw` is the ?p= value: a number, "all", or anything else (which means page 1). */
+export function paginate<T>(list: T[], raw: string | string[] | undefined, size = 25): Page<T> {
+  const value = Array.isArray(raw) ? raw[0] : raw;
+  const total = list.length;
+  if (value === "all") return { items: list, page: 1, pages: 1, total, from: total ? 1 : 0, to: total, all: true };
+  const pages = Math.max(1, Math.ceil(total / size));
+  const n = Number.parseInt(value ?? "", 10);
+  const page = Number.isFinite(n) ? Math.min(pages, Math.max(1, n)) : 1;
+  const start = (page - 1) * size;
+  const items = list.slice(start, start + size);
+  return { items, page, pages, total, from: items.length ? start + 1 : 0, to: start + items.length, all: false };
+}
+
 export interface Competitor {
   domain: string;
   answers: number;

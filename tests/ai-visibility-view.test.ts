@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import { parseMentions } from "../jobs/ai-visibility/parser.ts";
-import { competitors, coverage, daysAgo, freshness, normalizeQuestion, queryIdeas, questionRows, type MentionView, type Platform, type RunView } from "@/lib/ai-visibility";
+import { competitors, coverage, daysAgo, freshness, normalizeQuestion, paginate, queryIdeas, questionRows, type MentionView, type Platform, type RunView } from "@/lib/ai-visibility";
 
 const real = (name: string) => JSON.parse(readFileSync(new URL(`./fixtures/real/${name}`, import.meta.url), "utf8")).tasks[0].result[0];
 const view = (platform: Platform, file: string): MentionView[] =>
@@ -85,5 +85,33 @@ describe("AI visibility view logic (on the real Bauman data)", () => {
     expect(ideas[0].volume).toBe(22200); // the next-highest after the frozen one
     const chatOnly = queryIdeas(chat, []);
     expect(chatOnly).toEqual([]); // ChatGPT questions are no evidence for a Google SLA list
+  });
+});
+
+describe("pagination of the question list", () => {
+  const list = Array.from({ length: 80 }, (_, i) => `q${i + 1}`);
+
+  it("shows 25 at a time and says where it is", () => {
+    const p1 = paginate(list, undefined);
+    expect(p1).toMatchObject({ page: 1, pages: 4, total: 80, from: 1, to: 25, all: false });
+    expect(p1.items[0]).toBe("q1");
+    const p4 = paginate(list, "4");
+    expect(p4).toMatchObject({ page: 4, from: 76, to: 80 });
+    expect(p4.items).toHaveLength(5);
+  });
+
+  it("shows everything when asked", () => {
+    const all = paginate(list, "all");
+    expect(all).toMatchObject({ page: 1, pages: 1, from: 1, to: 80, all: true });
+    expect(all.items).toHaveLength(80);
+  });
+
+  it("never fails on a bad page: it clamps or falls back to page 1", () => {
+    expect(paginate(list, "99").page).toBe(4);
+    expect(paginate(list, "0").page).toBe(1);
+    expect(paginate(list, "-3").page).toBe(1);
+    expect(paginate(list, "abc").page).toBe(1);
+    expect(paginate(list, ["2", "3"]).page).toBe(2);
+    expect(paginate([], "2")).toMatchObject({ page: 1, pages: 1, total: 0, from: 0, to: 0, items: [] });
   });
 });

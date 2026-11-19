@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
-import { Badge, Dim, Lede, PageHeader, Panel, Section, TableWrap, Td, Th } from "@/components/ui";
-import { PLATFORM_LABEL, competitors, coverage, daysAgo, freshness, questionRows, type QuestionRow } from "@/lib/ai-visibility";
+import { Badge, Dim, Lede, PageHeader, Pager, Panel, Section, TableWrap, Td, Th } from "@/components/ui";
+import { PLATFORM_LABEL, competitors, coverage, daysAgo, freshness, paginate, questionRows, type QuestionRow } from "@/lib/ai-visibility";
 import { fmtDate, fmtInt } from "@/lib/format";
 import { getAiVisibility, getClient } from "@/lib/portal/data";
 import { todayUtc } from "@/lib/sla";
@@ -15,8 +15,8 @@ function PlatformCell({ p }: { p: QuestionRow["platforms"][number] | undefined }
   );
 }
 
-export default async function AiVisibility({ params }: PageProps<"/portal/[clientId]/ai-visibility">) {
-  const { clientId } = await params;
+export default async function AiVisibility({ params, searchParams }: PageProps<"/portal/[clientId]/ai-visibility">) {
+  const [{ clientId }, sp] = await Promise.all([params, searchParams]);
   const client = await getClient(clientId);
   if (!client) notFound();
   const { runs, mentions } = await getAiVisibility(client.id);
@@ -32,7 +32,9 @@ export default async function AiVisibility({ params }: PageProps<"/portal/[clien
   }
 
   const [google, chat] = coverage(runs, mentions);
-  const rows = questionRows(mentions);
+  const allRows = questionRows(mentions);
+  const view = paginate(allRows, sp.p);
+  const pageHref = (p: number | "all") => `/portal/${client.id}/ai-visibility${p === 1 ? "" : `?p=${p}`}#questions`;
   const fresh = freshness(mentions);
   const captured = [google.capturedOn, chat.capturedOn].filter((d): d is string => Boolean(d)).sort().pop() as string;
   const rivals = competitors(mentions);
@@ -74,7 +76,7 @@ export default async function AiVisibility({ params }: PageProps<"/portal/[clien
         </div>
       </Section>
 
-      <Section title="Top questions" note="Ordered by monthly searches of the question in AI products, as estimated by DataForSEO.">
+      <Section id="questions" title="Top questions" note="Ordered by monthly searches of the question in AI products, as estimated by DataForSEO.">
         <TableWrap minWidth={760}>
           <thead>
             <tr>
@@ -86,7 +88,7 @@ export default async function AiVisibility({ params }: PageProps<"/portal/[clien
             </tr>
           </thead>
           <tbody>
-            {rows.slice(0, 25).map((r) => {
+            {view.items.map((r) => {
               const last = r.platforms.map((p) => p.lastResponseAt).filter((d): d is string => Boolean(d)).sort().pop();
               return (
                 <tr key={r.question}>
@@ -104,7 +106,7 @@ export default async function AiVisibility({ params }: PageProps<"/portal/[clien
             })}
           </tbody>
         </TableWrap>
-        {rows.length > 25 && <p className="mt-2 text-sm text-muted">Showing 25 of {rows.length} questions stored.</p>}
+        <Pager from={view.from} to={view.to} total={view.total} page={view.page} pages={view.pages} all={view.all} href={pageHref} />
       </Section>
 
       {rivals.length > 0 && (
