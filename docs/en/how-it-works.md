@@ -1,5 +1,7 @@
 # How it works
 
+Plain-language guide (what it is, who does what, how queries are chosen, glossary): [`guide.md`](guide.md).
+
 ## AI citations (AIO Pro)
 1. Staff loads a list of up to 60 queries and **freezes** it: a 60-day window (`frozen_until = frozen_from + 59`). A frozen list is never edited.
 2. Every day, at the same time, the watcher queries Google (US, English, mobile) for each query: AI Overview and AI Mode. It stores one row per query, surface and day, plus the raw JSON as evidence.

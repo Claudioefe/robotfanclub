@@ -1,5 +1,7 @@
 # Cómo funciona
 
+Guía en lenguaje simple (qué es, quién hace qué, cómo se eligen las queries, glosario): [`guide.md`](guide.md).
+
 ## Citas en IA (AIO Pro)
 1. El staff carga una lista de hasta 60 queries y la **congela**: ventana de 60 días (`frozen_until = frozen_from + 59`). Una lista congelada no se edita.
 2. Cada día, a la misma hora, el watcher consulta Google (EE. UU., inglés, mobile) para cada query: AI Overview y AI Mode. Guarda una fila por query, superficie y día, y el JSON crudo como evidencia.

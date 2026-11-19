@@ -10,6 +10,8 @@ Robot Fan Club es un portal por cliente que prueba el trabajo de una agencia con
 
 El cliente ve sus citas, la evidencia (JSON crudo de cada chequeo) y su velocidad sin pedir reportes. Sirve a cualquier agencia o negocio (D-004). Las mediciones son en EE. UU., inglés y mobile (D-006).
 
+**Empieza por la guía:** [`guide.md`](guide.md) — Guía: qué es y cómo se usa.
+
 ## Cómo funciona (resumen)
 - Un job diario consulta DataForSEO por cada query congelada y guarda el resultado en Supabase y el JSON crudo en Storage.
 - Un snippet en el sitio del cliente envía INP, LCP y CLS al endpoint de ingest; un job nocturno suma datos de CrUX.

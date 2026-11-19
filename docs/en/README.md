@@ -10,6 +10,8 @@ Robot Fan Club is a per-client portal that proves an agency's work through two m
 
 Clients see their citations, the evidence (raw JSON of every check) and their speed without asking for reports. It serves any agency or business (D-004). Measurements are US, English, mobile (D-006).
 
+**Start with the guide:** [`guide.md`](guide.md) — Guide: what it is and how it is used.
+
 ## How it works (summary)
 - A daily job queries DataForSEO for every frozen query and stores the result in Supabase and the raw JSON in Storage.
 - A snippet on the client's site sends INP, LCP and CLS to the ingest endpoint; a nightly job adds CrUX data.
