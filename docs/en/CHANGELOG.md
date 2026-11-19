@@ -82,3 +82,4 @@
 - `/guide` in Spanish and English: EN / ES switch in the header (`/guide?lang=es`; English by default). Copy lives in `src/components/guide/copy.ts`; a test checks both languages have the same structure and the same rules.
 - Portal, Admin, login and Mini-Scan in the landing style, dark only (D-042): new palette and fonts, sidebar with logo, Overview with a main figure and three key figures, labeled headers, cleaner tables.
 - First real run (D-043): Bauman pilot, 15 queries, 30 checks, USD 0.094. 11 of 15 queries cited, all outside the top 10. Evidence in `tests/fixtures/real/watcher-bauman-pilot-2026-11-19/` and test `tests/watcher/pilot-data.test.ts`.
+- `load-real-mentions` accepts `--client <uuid>` (two clients share Bauman's domain) and, with that flag, records cost 0 because the same capture is already costed under another client. AI visibility data was loaded into the pilot (80 rows, no DataForSEO call).

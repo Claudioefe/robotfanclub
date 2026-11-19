@@ -82,3 +82,4 @@
 - `/guide` en español e inglés: selector EN / ES en el encabezado (`/guide?lang=es`; por defecto inglés). Textos en `src/components/guide/copy.ts`; un test verifica que ambos idiomas tengan la misma estructura y las mismas reglas.
 - Portal, Admin, login y Mini-Scan con el estilo de la landing, solo oscuro (D-042): paleta y fuentes nuevas, barra lateral con logo, Resumen con cifra principal y tres cifras clave, encabezados con etiqueta, tablas más limpias.
 - Primera corrida real (D-043): piloto Bauman, 15 queries, 30 chequeos, USD 0,094. 11 de 15 queries citadas, todas fuera del top 10. Evidencia en `tests/fixtures/real/watcher-bauman-pilot-2026-11-19/` y test `tests/watcher/pilot-data.test.ts`.
+- `load-real-mentions` acepta `--client <uuid>` (hay dos clientes con el dominio de Bauman) y, con ese flag, registra costo 0 porque la misma captura ya está costeada en otro cliente. Se cargaron los datos de AI visibility en el piloto (80 filas, sin llamar a DataForSEO).
