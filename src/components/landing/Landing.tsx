@@ -446,7 +446,7 @@ See how it works
 </rect>
 <rect x="118" y="44" width="36" height="54" rx="12" fill={bot.finger}>
 </rect>
-<text x="136" y="80" textAnchor="middle" fontWeight="700" fontSize="20" fill="#0E0F13" style={{ fontFamily: "Space Grotesk, sans-serif" }}>
+<text x="136" y="80" textAnchor="middle" fontWeight="700" fontSize="20" fill="#0E0F13" style={{ fontFamily: "var(--font-grotesk), sans-serif" }}>
 #1
 </text>
 </g>
@@ -810,7 +810,7 @@ Same hour, US, English, mobile. AI Overview and AI Mode, every query. The raw re
 </rect>
 <rect x="62" y="6" width="42" height="30" rx="7" fill="#3A56F0">
 </rect>
-<text x="83" y="27" textAnchor="middle" fontWeight="700" fontSize="17" fill="#FFFFFF" style={{ fontFamily: "Space Grotesk, sans-serif" }}>
+<text x="83" y="27" textAnchor="middle" fontWeight="700" fontSize="17" fill="#FFFFFF" style={{ fontFamily: "var(--font-grotesk), sans-serif" }}>
 +1
 </text>
 </g>
@@ -1179,12 +1179,12 @@ snapshots/yoursite/2026-11-18.json
 </div>
 </div>
 </section>
-<section id="join" style={{ maxWidth: "1240px", margin: "0 auto", padding: "160px 32px 80px" }}>
-<div onMouseMove={v.pushMove} onMouseLeave={v.pushLeave} style={{ background: "#D7FF3A", color: "#0E0F13", borderRadius: "36px", padding: "72px 48px 190px", display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "26px", position: "relative", overflow: "hidden" }}>
+<section id="join" style={{ maxWidth: "1480px", margin: "0 auto", padding: "120px 24px 64px" }}>
+<div onMouseMove={v.pushMove} onMouseLeave={v.pushLeave} style={{ background: "#D7FF3A", color: "#0E0F13", borderRadius: "36px", padding: "52px 48px 140px", display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "20px", position: "relative", overflow: "hidden" }}>
 <svg className="wave" viewBox="0 0 60 90" width="70" height="105" aria-hidden="true" style={{ position: "absolute", left: "6%", top: "40px", transformOrigin: "30px 88px" }}>
 <rect x="10" y="0" width="40" height="64" rx="14" fill="#FF5FA2">
 </rect>
-<text x="30" y="40" textAnchor="middle" fontWeight="700" fontSize="20" fill="#0E0F13" style={{ fontFamily: "Space Grotesk, sans-serif" }}>
+<text x="30" y="40" textAnchor="middle" fontWeight="700" fontSize="20" fill="#0E0F13" style={{ fontFamily: "var(--font-grotesk), sans-serif" }}>
 #1
 </text>
 <rect x="22" y="60" width="16" height="30" rx="8" fill="#3A56F0">
@@ -1193,13 +1193,13 @@ snapshots/yoursite/2026-11-18.json
 <svg className="wave" viewBox="0 0 60 90" width="70" height="105" aria-hidden="true" style={{ position: "absolute", right: "6%", bottom: "40px", transformOrigin: "30px 88px", animationDelay: ".5s" }}>
 <rect x="10" y="0" width="40" height="64" rx="14" fill="#3A56F0">
 </rect>
-<text x="30" y="40" textAnchor="middle" fontWeight="700" fontSize="20" fill="#FFFFFF" style={{ fontFamily: "Space Grotesk, sans-serif" }}>
+<text x="30" y="40" textAnchor="middle" fontWeight="700" fontSize="20" fill="#FFFFFF" style={{ fontFamily: "var(--font-grotesk), sans-serif" }}>
 #1
 </text>
 <rect x="22" y="60" width="16" height="30" rx="8" fill="#FF5FA2">
 </rect>
 </svg>
-<h2 style={{ margin: "0", fontFamily: "var(--font-grotesk), sans-serif", fontWeight: "700", fontSize: "clamp(40px, 6vw, 88px)", lineHeight: "0.95", letterSpacing: "-0.045em", maxWidth: "900px", textWrap: "balance" }}>
+<h2 style={{ margin: "0", fontFamily: "var(--font-grotesk), sans-serif", fontWeight: "700", fontSize: "clamp(40px, 6vw, 88px)", lineHeight: "0.95", letterSpacing: "-0.045em", maxWidth: "1100px", textWrap: "balance" }}>
 Your robots are waiting to become fans.
 </h2>
 <p style={{ margin: "0", fontSize: "19px", lineHeight: "1.5", maxWidth: "560px" }}>
