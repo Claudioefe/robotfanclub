@@ -85,3 +85,4 @@
 - `load-real-mentions` accepts `--client <uuid>` (two clients share Bauman's domain) and, with that flag, records cost 0 because the same capture is already costed under another client. AI visibility data was loaded into the pilot (80 rows, no DataForSEO call).
 - AI visibility: the "Top questions" table has a pager (25 per page, Previous / Next, "Show all") through `?p=` in the URL; an invalid value falls back to page 1. `Pager` component and `paginate` function with tests.
 - Notes of 2026-11-19: D-044 (MCP in phases: local first, remote later), D-045 (finding: the agency layer is missing before selling to another agency) and the advisor demo with Bauman (`advisor-demo-bauman.md`). None of this is built.
+- Local read-only MCP (D-044, phase 1): `mcp/` with 7 tools, shared data core `src/lib/data/read.ts` (the portal uses it as before), `docs/en/mcp.md`, `tests/mcp.test.ts`, `npm run mcp`. New dependencies: `@modelcontextprotocol/sdk` and `zod`.

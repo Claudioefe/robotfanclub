@@ -21,14 +21,17 @@
     "add-crux-target": "node --env-file=.env.local scripts/add-crux-target.mjs",
     "ai-visibility:dry-run": "node --env-file=.env.local jobs/ai-visibility/cli.ts --mode dry-run",
     "load-real-mentions": "node --no-warnings --env-file=.env.local scripts/load-real-mentions.mjs",
-    "load-real-sample": "node --no-warnings --env-file=.env.local scripts/load-real-sample.mjs"
+    "load-real-sample": "node --no-warnings --env-file=.env.local scripts/load-real-sample.mjs",
+    "mcp": "node --no-warnings --env-file=.env.local mcp/server.ts"
   },
   "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
     "@supabase/ssr": "^0.12.7",
     "@supabase/supabase-js": "^2.119.0",
     "next": "16.4.6",
     "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "react-dom": "19.3.0",
+    "zod": "^4.6.7"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.3.5",
