@@ -306,6 +306,7 @@ Authorized by the owner. Pilot client "Bauman Rare Books (pilot)" (`kind = real`
 - **Phase 1 tools:** `list_clients`, `get_citations`, `get_evidence` (raw JSON of a query), `get_gaps`, `get_speed`, `get_ai_visibility`, `get_query_ideas`.
 - **Rules from day one:** read-only; no tool triggers paid DataForSEO calls; costs are not exposed; no key travels through the MCP; in the remote version **each person signs in with their own session** and the database access rules (RLS) decide what they see, not a master key.
 - **Why it matters:** with the MCP, Claude can act as the advisor (what queries to measure, why you are not cited, what to improve) on real data **without embedding a model in the product** or paying for its API; see D-014. The manual demo is in [`advisor-demo-bauman.md`](advisor-demo-bauman.md).
+- **Where it can be queried:** the local MCP works for Claude Desktop (the desktop chat app) and Claude Code. **claude.ai in the browser and on the phone need the remote version** (a custom connector, with HTTPS and login); whether a custom connector can be added depends on the account's plan and must be confirmed. The core is built once to serve both; a tunnel (ngrok) is only for controlled tests, never with other agencies' data.
 - **Pending:** the owner's OK on the phase 1 plan; installing the official SDK (`@modelcontextprotocol/sdk`) needs their approval (dependency rule). Phase 2 depends on D-045.
 
 ## D-045 — Several agencies: the agency layer is missing ⏳ (finding 2026-11-19, not started)
