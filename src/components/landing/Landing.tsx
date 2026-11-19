@@ -249,12 +249,7 @@ Start a fan club
 </div>
 </div>
 </>)}
-<section id="top" style={{ position: "relative", zIndex: "1", maxWidth: "1240px", margin: "0 auto", padding: "56px 32px 0", display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "28px" }}>
-<div className="rise" style={{ display: "flex", alignItems: "center", gap: "10px", border: "1px solid #2A2D3A", background: "#171922", padding: "8px 16px", borderRadius: "999px", fontFamily: "var(--font-jbmono), monospace", fontSize: "13px", color: "#A5A9B8" }}>
-<span className="pulse" style={{ width: "8px", height: "8px", borderRadius: "50%", background: "#D7FF3A", display: "block" }}>
-</span>
-{" AI citation tracking + real-world speed "}
-</div>
+<section id="top" style={{ position: "relative", zIndex: "1", maxWidth: "1240px", margin: "0 auto", padding: "36px 32px 0", display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "22px" }}>
 <h1 className="rise" style={{ margin: "0", fontFamily: "var(--font-grotesk), sans-serif", fontWeight: "700", fontSize: "clamp(48px, 8.4vw, 124px)", lineHeight: "0.92", letterSpacing: "-0.045em", maxWidth: "1100px", textWrap: "balance", animationDelay: ".1s" }}>
 {"Make the robots your "}
 <span style={{ color: "#D7FF3A", fontStyle: "italic" }}>
@@ -262,7 +257,7 @@ biggest
 </span>
 {" fans."}
 </h1>
-<p className="rise" style={{ margin: "0", maxWidth: "640px", fontSize: "20px", lineHeight: "1.5", color: "#C9CCD6", textWrap: "pretty", animationDelay: ".2s" }}>
+<p className="rise" style={{ margin: "8px 0 0", maxWidth: "980px", fontSize: "17px", lineHeight: "1.5", color: "#C9CCD6", textWrap: "pretty", animationDelay: ".2s" }}>
 {"Google's AI Overviews and AI Mode are answering your customers now. Robot Fan Club checks every day whether they cite your pages, and keeps your site fast enough that they stay obsessed."}
 </p>
 <div className="rise" style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "14px", animationDelay: ".3s" }}>
