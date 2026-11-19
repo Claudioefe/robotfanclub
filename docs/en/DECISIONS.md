@@ -66,6 +66,7 @@ Findings from the analysis, to resolve in the first migration (nothing is migrat
 ## D-014 — Intelligence layer (AI) ⏳ (idea logged 2026-11-17)
 - **Idea:** make the product "intelligent": connect a model (Claude or GPT) to help measure, track and improve (e.g. explain why a citation was lost or suggest INP fixes).
 - **To define:** provider (Claude or GPT), what data the model may see (client data: privacy), cost cap, and the phase it enters. To be handled after the MVP; the data schema should leave room to store the analyses.
+- **Update 2026-11-19 (D-044):** a faster, cheaper way to have the advisor is to expose the data through an MCP and let Claude advise on demand, without embedding a model in the product. The manual demo with Bauman is in [`advisor-demo-bauman.md`](advisor-demo-bauman.md).
 
 ## D-015 — Supabase configuration and explicit privileges ✅ (2026-11-17)
 - **Decision:** the `robotfanclub-dev` project (East US) has Data API on, "automatically expose new tables" **off** and "automatic RLS" **on**. So the migration writes every `grant` by hand: `authenticated` only reads; `anon` gets nothing; `service_role` has full access.
@@ -296,3 +297,18 @@ Authorized by the owner. Pilot client "Bauman Rare Books (pilot)" (`kind = real`
 - **What this teaches:** (1) Bauman reached 11 of the floor's 12 citations in one day: for a strong site the floor of 12 is easy, so SLA thresholds should be calibrated per client. (2) The LLM Mentions database is a snapshot: "gifts for a book lover" was listed as cited and today it is not. (3) Search Console measures the world, not US/mobile: it helps choose queries, not predict results.
 - **Evidence:** the 30 raw JSON files are in Storage and copied to `tests/fixtures/real/watcher-bauman-pilot-2026-11-19/`; `tests/watcher/pilot-data.test.ts` pins these facts.
 - **Pending the owner's decision:** whether to keep running the pilot daily (≈ USD 0.094 per day; ≈ USD 0.35 left), and whether comparing by URL (not by domain) for "outside the top 10" is the rule wanted when the site already ranks with a different page.
+
+## D-044 — MCP to connect the data to Claude and other tools ⏳ (decided 2026-11-19, not built)
+- **The owner's idea:** an MCP server so other platforms (for example Opsie, Dinkum's internal tool) and Claude can read this data and analyze it. **Anyone with access who wants it could use it.** The product is also meant to be sold to other agencies (D-004), so it is not designed only for Dinkum.
+- **What can connect:** any tool that is an MCP client (Claude Desktop/Code/claude.ai, Cursor, VS Code, several automation builders). Compatibility changes and is tested tool by tool. Opsie looks part of the MCP ecosystem (`opsie-*` connectors appear in sessions), but it is **not confirmed** that it can consume an external MCP. Whatever does not speak MCP (CRM, BI, spreadsheets) needs another door: a read-only REST API with a key, and webhooks.
+- **Architecture:** one data-access core with two doors, MCP first and API later.
+- **Phases:** (1) **Local** MCP (stdio), read-only, for the owner and the team from Claude Code/Desktop; no deploy and no data changes. (2) **Remote** MCP with login, for everyone with access; needs the deploy and D-045. (3) REST API and webhooks if needed.
+- **Phase 1 tools:** `list_clients`, `get_citations`, `get_evidence` (raw JSON of a query), `get_gaps`, `get_speed`, `get_ai_visibility`, `get_query_ideas`.
+- **Rules from day one:** read-only; no tool triggers paid DataForSEO calls; costs are not exposed; no key travels through the MCP; in the remote version **each person signs in with their own session** and the database access rules (RLS) decide what they see, not a master key.
+- **Why it matters:** with the MCP, Claude can act as the advisor (what queries to measure, why you are not cited, what to improve) on real data **without embedding a model in the product** or paying for its API; see D-014. The manual demo is in [`advisor-demo-bauman.md`](advisor-demo-bauman.md).
+- **Pending:** the owner's OK on the phase 1 plan; installing the official SDK (`@modelcontextprotocol/sdk`) needs their approval (dependency rule). Phase 2 depends on D-045.
+
+## D-045 — Several agencies: the agency layer is missing ⏳ (finding 2026-11-19, not started)
+- **Finding:** today the `staff` role **sees every client** in the database (D-016). That works for Dinkum, but if a second agency buys it, its users would see the other agencies' clients. **Without this, the product cannot be sold to another agency**, with or without the MCP.
+- **What it would take:** an **agency** layer above clients (each agency has its clients and its users), access rules (RLS) per agency, and the remote MCP and the API must respect them. It is a large data change on an already migrated schema: **it is planned separately and needs the owner's authorization** before anything is touched.
+- **Meanwhile:** the product serves Dinkum and its clients; `staff` access must not be given to people from other agencies.

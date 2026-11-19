@@ -66,6 +66,7 @@ Hallazgos del análisis, a resolver en la primera migración (aún no hay nada m
 ## D-014 — Capa de inteligencia (IA) ⏳ (idea registrada 2026-11-17)
 - **Idea:** que el producto sea "inteligente": conectar un modelo (Claude o GPT) para ayudar a medir, trackear y mejorar (por ejemplo, explicar por qué se perdió una cita o sugerir mejoras de INP).
 - **Pendiente de definir:** proveedor (Claude o GPT), qué datos puede ver el modelo (datos de clientes: privacidad), tope de costo, y fase en que entra. Se trata después del MVP; el esquema de datos debe dejar espacio para guardar los análisis.
+- **Actualización 2026-11-19 (D-044):** una forma más rápida y barata de tener el asesor es exponer los datos por un MCP y que Claude asesore a pedido, sin integrar un modelo dentro del producto. La demostración manual con Bauman está en [`advisor-demo-bauman.md`](advisor-demo-bauman.md).
 
 ## D-015 — Configuración de Supabase y permisos explícitos ✅ (2026-11-17)
 - **Decisión:** el proyecto `robotfanclub-dev` (East US) tiene Data API activada, "automatically expose new tables" **desactivado** y "automatic RLS" **activado**. Por eso la migración escribe cada `grant` a mano: `authenticated` solo lee; `anon` no tiene nada; `service_role` tiene acceso completo.
@@ -296,3 +297,18 @@ Autorizada por el dueño. Cliente piloto "Bauman Rare Books (pilot)" (`kind = re
 - **Lo que esto enseña:** (1) Bauman llegó a 11 de las 12 citas del piso en un día: para un sitio fuerte el piso de 12 es fácil, así que los umbrales del SLA conviene calibrarlos por cliente. (2) La base de LLM Mentions es una foto: "gifts for a book lover" figuraba como citada y hoy no lo está. (3) Search Console mide el mundo, no EE. UU./mobile: sirve para elegir queries, no para predecir resultados.
 - **Evidencia:** los 30 JSON crudos están en Storage y copiados en `tests/fixtures/real/watcher-bauman-pilot-2026-11-19/`; `tests/watcher/pilot-data.test.ts` fija estos hechos.
 - **Pendiente de decisión del dueño:** seguir o no con corridas diarias del piloto (≈ USD 0,094 por día; quedan ≈ USD 0,35), y si la regla de comparar por URL (no por dominio) para "fuera del top 10" es la que se quiere cuando el sitio ya rankea con otra página.
+
+## D-044 — MCP para conectar los datos a Claude y a otras herramientas ⏳ (decidido 2026-11-19, sin construir)
+- **Idea del dueño:** un servidor MCP para que otras plataformas (por ejemplo Opsie, la herramienta interna de Dinkum) y Claude puedan leer estos datos y analizarlos. **Lo usaría cualquiera que tenga acceso y quiera.** El producto también se quiere vender a otras agencias (D-004), así que no se diseña solo para Dinkum.
+- **Qué se puede conectar:** cualquier herramienta que sea cliente MCP (Claude Desktop/Code/claude.ai, Cursor, VS Code, varios constructores de automatizaciones). La compatibilidad cambia y se prueba herramienta por herramienta. Opsie parece del ecosistema MCP (hay conectores `opsie-*` en las sesiones), pero **no está confirmado** que pueda consumir un MCP externo. Lo que no habla MCP (CRM, BI, hojas) necesita otra puerta: una API REST de solo lectura con clave y webhooks.
+- **Arquitectura:** un solo núcleo de acceso a los datos con dos puertas, MCP primero y API después.
+- **Fases:** (1) MCP **local** (stdio), solo lectura, para el dueño y el equipo desde Claude Code/Desktop; sin deploy ni cambios de datos. (2) MCP **remoto** con login, para todos con acceso; necesita el deploy y D-045. (3) API REST y webhooks si hace falta.
+- **Herramientas de la fase 1:** `list_clients`, `get_citations`, `get_evidence` (JSON crudo de una query), `get_gaps`, `get_speed`, `get_ai_visibility`, `get_query_ideas`.
+- **Reglas desde el día uno:** solo lectura; ninguna herramienta dispara llamadas pagas a DataForSEO; los costos no se exponen; ninguna clave viaja por el MCP; en la versión remota **cada persona entra con su propia sesión** y las reglas de acceso de la base (RLS) deciden qué ve, no una clave maestra.
+- **Por qué importa:** con el MCP, Claude puede hacer de asesor (qué queries medir, por qué no te citan, qué mejorar) sobre datos reales **sin integrar un modelo dentro del producto** ni pagar su API; ver D-014. La demostración manual está en [`advisor-demo-bauman.md`](advisor-demo-bauman.md).
+- **Pendiente:** el OK del dueño al plan de la fase 1; instalar el SDK oficial (`@modelcontextprotocol/sdk`) requiere su aprobación (regla de dependencias). Fase 2 depende de D-045.
+
+## D-045 — Varias agencias: falta la capa de agencias ⏳ (hallazgo 2026-11-19, sin empezar)
+- **Hallazgo:** hoy el rol `staff` **ve todos los clientes** de la base (D-016). Sirve para Dinkum, pero si se vende a una segunda agencia, sus usuarios verían los clientes de las demás. **Sin esto no se puede vender a otra agencia**, con o sin MCP.
+- **Qué haría falta:** una capa de **agencias** por encima de los clientes (cada agencia tiene sus clientes y sus usuarios), reglas de acceso (RLS) por agencia, y que el MCP remoto y la API las respeten. Es un cambio de datos grande sobre un esquema ya migrado: **se planifica aparte y requiere autorización del dueño** antes de tocar nada.
+- **Mientras tanto:** el producto sirve a Dinkum y a sus clientes; no se debe dar acceso `staff` a personas de otras agencias.

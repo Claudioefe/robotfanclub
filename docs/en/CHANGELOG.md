@@ -84,3 +84,4 @@
 - First real run (D-043): Bauman pilot, 15 queries, 30 checks, USD 0.094. 11 of 15 queries cited, all outside the top 10. Evidence in `tests/fixtures/real/watcher-bauman-pilot-2026-11-19/` and test `tests/watcher/pilot-data.test.ts`.
 - `load-real-mentions` accepts `--client <uuid>` (two clients share Bauman's domain) and, with that flag, records cost 0 because the same capture is already costed under another client. AI visibility data was loaded into the pilot (80 rows, no DataForSEO call).
 - AI visibility: the "Top questions" table has a pager (25 per page, Previous / Next, "Show all") through `?p=` in the URL; an invalid value falls back to page 1. `Pager` component and `paginate` function with tests.
+- Notes of 2026-11-19: D-044 (MCP in phases: local first, remote later), D-045 (finding: the agency layer is missing before selling to another agency) and the advisor demo with Bauman (`advisor-demo-bauman.md`). None of this is built.
