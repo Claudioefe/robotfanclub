@@ -841,6 +841,11 @@ A query counts once when an AI answer cites any URL on your domain. Your portal 
 </p>
 </div>
 </div>
+<div style={{ display: "flex", justifyContent: "center" }}>
+<Link className="cta" href="/guide" style={{ color: "#F2F0EA", textDecoration: "none", padding: "16px 28px", borderRadius: "999px", fontWeight: "600", fontSize: "16px", border: "1px solid #3A56F0", background: "#171922" }}>
+{"Read more: how it works, in detail →"}
+</Link>
+</div>
 </section>
 <section id="offers" style={{ maxWidth: "1240px", margin: "0 auto", padding: "160px 32px 40px", display: "flex", flexDirection: "column", gap: "48px" }}>
 <div style={{ display: "flex", flexDirection: "column", gap: "16px", maxWidth: "760px" }}>

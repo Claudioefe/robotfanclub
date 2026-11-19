@@ -22,6 +22,7 @@ describe("landing page", () => {
   it("keeps the in-page anchors working and links clients to sign in", () => {
     for (const id of ['id="top"', 'id="how"', 'id="offers"', 'id="receipts"', 'id="join"']) expect(html).toContain(id);
     expect(html).toContain('href="/login"');
+    expect(html).toContain('href="/guide"'); // "Read more" under How it works
   });
 
   it("has no placeholder left: without a contact email the button scrolls to its own section", () => {
