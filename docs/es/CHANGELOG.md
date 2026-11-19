@@ -74,3 +74,4 @@
 
 ## Landing (2026-11-19)
 - La home `/` pasa a ser el diseño de la landing (D-041): componentes en `src/components/landing/`, estilos aislados bajo `.landing`, fuentes con `next/font`. Test `tests/landing.test.tsx`; Vitest ahora incluye `.test.tsx`. Pendiente: email de contacto (`CONTACT_EMAIL`).
+- Los robots del botón final ahora rotan frases mientras se pasa el cursor ("omg a new fan?!", "let's dance!!" → "...sorry, I meant: work.", etc.).

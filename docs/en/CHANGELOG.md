@@ -74,3 +74,4 @@
 
 ## Landing (2026-11-19)
 - The home page `/` is now the landing design (D-041): components in `src/components/landing/`, styles isolated under `.landing`, fonts via `next/font`. Test `tests/landing.test.tsx`; Vitest now includes `.test.tsx`. Pending: contact email (`CONTACT_EMAIL`).
+- The fan robots at the final button now rotate lines while the pointer is over it ("omg a new fan?!", "let's dance!!" → "...sorry, I meant: work.", etc.).

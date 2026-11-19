@@ -10,7 +10,7 @@ import "./landing.css";
 
 type Side = "L" | "R" | null;
 type Push = { x: number; y: number; ang: number; dist: number } | null;
-type State = { tick: number; cites: number; inp: number; disco: boolean; busted: boolean; ctaHover: boolean; h1: Side; h2: Side; push: Push };
+type State = { tick: number; cites: number; inp: number; disco: boolean; busted: boolean; ctaHover: boolean; hoverTick: number; h1: Side; h2: Side; push: Push };
 
 /** "a: b; c: d" -> React style object (the design builds some styles as strings). */
 function css(text: string): CSSProperties {
@@ -35,6 +35,12 @@ const LINES = [
 const DISCO_LINES = ["WAIT. IS THAT A HUMAN?", "beep boop, this is my song", "shake your servos!!", "cited AND fast? we dance.", "my antenna is VIBING"];
 const ROLES = ["notes", "lens", "book", "laptop", "chart", "lens", "notes"];
 const DANCES = ["danceA", "danceB", "spinjump", "danceB", "danceA", "spinjump", "danceB"];
+// What the three fan robots say while someone hovers the button. Each one cycles through its own lines.
+const FAN_SAY = [
+  ["CLICK IT!!", "let's dance!!", "...sorry, I meant: work.", "we never sleep. literally.", "evidence saved. again!"],
+  ["pick us pick us", "omg a new fan?!", "I knew you'd come back", "do I look cited?", "beep boop (that means hi)"],
+  ["welcome to the club!", "a REAL human?? omg", "I've been indexing all day", "nobody told me humans click", "no robots were harmed"],
+];
 const PALETTE = [
   { color: "#3A56F0", eye: "#D7FF3A", finger: "#D7FF3A", bulb: "#FF5FA2", w: 120 },
   { color: "#FF5FA2", eye: "#D7FF3A", finger: "#F2F0EA", bulb: "#D7FF3A", w: 140 },
@@ -46,7 +52,7 @@ const PALETTE = [
 ];
 
 function useLanding() {
-  const [state, setLocal] = useState<State>({ tick: 0, cites: 0, inp: 460, disco: false, busted: false, ctaHover: false, h1: null, h2: null, push: null });
+  const [state, setLocal] = useState<State>({ tick: 0, cites: 0, inp: 460, disco: false, busted: false, ctaHover: false, hoverTick: 0, h1: null, h2: null, push: null });
   const live = useRef(state); // latest state for timers and handlers
   useEffect(() => {
     live.current = state;
@@ -72,6 +78,13 @@ function useLanding() {
       if (raf.current) cancelAnimationFrame(raf.current);
     };
   }, []);
+
+  const hovering = state.ctaHover;
+  useEffect(() => {
+    if (!hovering) return;
+    const id = setInterval(() => setLocal((s) => ({ ...s, hoverTick: s.hoverTick + 1 })), 1800);
+    return () => clearInterval(id);
+  }, [hovering]);
 
   const hanger = (key: "h1" | "h2") => {
     const off = state[key];
@@ -153,8 +166,9 @@ function useLanding() {
       setState({ push: null });
     },
     ctaHover: hover,
-    ctaOn: () => { if (!live.current.ctaHover) setState({ ctaHover: true }); },
+    ctaOn: () => { if (!live.current.ctaHover) setState({ ctaHover: true, hoverTick: 0 }); },
     ctaOff: () => { if (live.current.ctaHover) setState({ ctaHover: false }); },
+    fanSay: FAN_SAY.map((lines, n) => lines[(state.hoverTick + n) % lines.length]),
     fanClass: hover ? "excited" : "popup",
     fan0: `animation-delay: ${hover ? "0s, .28s" : "0s"}`,
     fan1: `animation-delay: ${hover ? ".08s, .36s" : ".5s"}`,
@@ -1213,8 +1227,8 @@ Mini-scan coming soon: your citation gap across 25 queries.
 </p>
 <div aria-hidden="true" style={{ position: "absolute", bottom: "-4px", left: "28%", transform: "translateX(-50%)", pointerEvents: "none", display: "flex", flexDirection: "column", alignItems: "center" }}>
 {v.ctaHover && (<>
-<span className="pop" style={{ marginBottom: "10px", background: "#0E0F13", color: "#D7FF3A", fontFamily: "var(--font-jbmono), monospace", fontWeight: "700", fontSize: "14px", padding: "7px 12px", borderRadius: "999px", whiteSpace: "nowrap", animationDelay: "0s" }}>
-CLICK IT!!
+<span className="pop" style={{ marginBottom: "10px", background: "#0E0F13", color: "#D7FF3A", fontFamily: "var(--font-jbmono), monospace", fontWeight: "700", fontSize: "14px", padding: "7px 12px", borderRadius: "999px", whiteSpace: "nowrap", animationDelay: "0s" }} key={v.fanSay[0]}>
+{v.fanSay[0]}
 </span>
 </>)}
 <div className={v.fanClass} style={css(v.fan0)}>
@@ -1268,8 +1282,8 @@ CLICK IT!!
 </div>
 <div aria-hidden="true" style={{ position: "absolute", bottom: "-4px", left: "50%", transform: "translateX(-50%)", pointerEvents: "none", display: "flex", flexDirection: "column", alignItems: "center" }}>
 {v.ctaHover && (<>
-<span className="pop" style={{ marginBottom: "10px", background: "#0E0F13", color: "#D7FF3A", fontFamily: "var(--font-jbmono), monospace", fontWeight: "700", fontSize: "14px", padding: "7px 12px", borderRadius: "999px", whiteSpace: "nowrap", animationDelay: ".08s" }}>
-pick us pick us
+<span className="pop" style={{ marginBottom: "10px", background: "#0E0F13", color: "#D7FF3A", fontFamily: "var(--font-jbmono), monospace", fontWeight: "700", fontSize: "14px", padding: "7px 12px", borderRadius: "999px", whiteSpace: "nowrap", animationDelay: ".08s" }} key={v.fanSay[1]}>
+{v.fanSay[1]}
 </span>
 </>)}
 <div className={v.fanClass} style={css(v.fan1)}>
@@ -1323,8 +1337,8 @@ pick us pick us
 </div>
 <div aria-hidden="true" style={{ position: "absolute", bottom: "-4px", left: "72%", transform: "translateX(-50%)", pointerEvents: "none", display: "flex", flexDirection: "column", alignItems: "center" }}>
 {v.ctaHover && (<>
-<span className="pop" style={{ marginBottom: "10px", background: "#0E0F13", color: "#D7FF3A", fontFamily: "var(--font-jbmono), monospace", fontWeight: "700", fontSize: "14px", padding: "7px 12px", borderRadius: "999px", whiteSpace: "nowrap", animationDelay: ".16s" }}>
-omg a new fan?!
+<span className="pop" style={{ marginBottom: "10px", background: "#0E0F13", color: "#D7FF3A", fontFamily: "var(--font-jbmono), monospace", fontWeight: "700", fontSize: "14px", padding: "7px 12px", borderRadius: "999px", whiteSpace: "nowrap", animationDelay: ".16s" }} key={v.fanSay[2]}>
+{v.fanSay[2]}
 </span>
 </>)}
 <div className={v.fanClass} style={css(v.fan2)}>
