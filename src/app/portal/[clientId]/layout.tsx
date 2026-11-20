@@ -36,7 +36,7 @@ export default async function ClientLayout({ children, params }: LayoutProps<"/p
           </form>
         </div>
       </aside>
-      <main className="w-full min-w-0 max-w-[1120px] px-[clamp(18px,4vw,56px)] pb-20 pt-6 md:pt-9">{children}</main>
+      <main className="w-full min-w-0 px-[clamp(18px,4vw,56px)] pb-20 pt-6 md:pt-9 [&:not(:has([data-wide]))]:max-w-[1120px]">{children}</main>
     </div>
   );
 }

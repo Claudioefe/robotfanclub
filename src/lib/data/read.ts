@@ -1,5 +1,6 @@
 import type { SupabaseClient } from "@supabase/supabase-js";
 import { queryIdeas, type MentionView, type Platform, type QueryIdea, type RunView } from "../ai-visibility.ts";
+import { buildHistory, checkState, combine, daysBetween, type CheckRow, type DayState, type HistoryData } from "./history.ts";
 import { todayUtc, windowDay, windowEnd } from "../sla.ts";
 
 // The data core: every read the portal and the MCP server make. Each function receives the database client, so the same
@@ -185,6 +186,96 @@ export async function getCitations(sb: SupabaseClient, client: ClientRow): Promi
     rate,
     newest,
   };
+}
+
+// AI citations, day by day (D-047) ---------------------------------------------
+
+export type { DayPoint, DayState, HistoryData, QueryHistory } from "./history.ts";
+
+const HISTORY_PAGE = 1000; // PostgREST returns at most 1000 rows per request: a 60-day window holds thousands of checks
+const HISTORY_MAX_PAGES = 60;
+
+/**
+ * The stored checks of the active window, as slim rows (no sources, no evidence paths), turned into the day-by-day history
+ * of every frozen query. Read in pages: dropping rows silently would make the strip lie about the evidence.
+ */
+export async function getHistory(sb: SupabaseClient, clientId: string, window: Pick<CitationsData, "frozenFrom" | "frozenUntil" | "rows">): Promise<HistoryData> {
+  const checks: CheckRow[] = [];
+  for (let page = 0; page < HISTORY_MAX_PAGES; page++) {
+    const { data, error } = await sb
+      .from("aio_checks")
+      .select("query, surface, checked_on, aio_present, cited")
+      .eq("client_id", clientId)
+      .gte("checked_on", window.frozenFrom)
+      .lte("checked_on", window.frozenUntil)
+      .order("checked_on", { ascending: true })
+      .order("id", { ascending: true })
+      .range(page * HISTORY_PAGE, (page + 1) * HISTORY_PAGE - 1);
+    if (error) throw new Error(`history: ${error.message}`);
+    checks.push(...(data as CheckRow[]));
+    if (data.length < HISTORY_PAGE) break;
+  }
+  return buildHistory({
+    frozenFrom: window.frozenFrom,
+    frozenUntil: window.frozenUntil,
+    today: todayUtc(),
+    queries: window.rows.map((r) => r.query),
+    checks,
+  });
+}
+
+/** What one surface showed on one day, with the evidence behind it. */
+export interface SurfaceDay {
+  state: DayState;
+  position: number | null;
+  sourceCount: number | null;
+  citedUrl: string | null;
+  organicRank: number | null;
+  offTop10: boolean;
+  otherDomains: string[];
+  snapshotPath: string | null;
+}
+export interface DayDetail {
+  day: string;
+  state: DayState; // combined over both surfaces
+  surfaces: Record<Surface, SurfaceDay>;
+}
+
+const noDay = (): SurfaceDay => ({ state: "unchecked", position: null, sourceCount: null, citedUrl: null, organicRank: null, offTop10: false, otherDomains: [], snapshotPath: null });
+
+/** Every day of the window for one frozen query, newest first, with who else was cited and the link to the raw JSON. */
+export async function getQueryHistory(sb: SupabaseClient, clientId: string, query: string, window: Pick<CitationsData, "frozenFrom" | "frozenUntil">): Promise<DayDetail[]> {
+  const { data, error } = await sb
+    .from("aio_checks")
+    .select("surface, checked_on, aio_present, cited, cited_url, source_position, source_count, organic_rank, off_top10, other_domains, snapshot_path")
+    .eq("client_id", clientId)
+    .eq("query", query)
+    .gte("checked_on", window.frozenFrom)
+    .lte("checked_on", window.frozenUntil)
+    .order("checked_on", { ascending: false })
+    .limit(500); // 60 days x 2 surfaces = 120 rows; the cap only guards against a malformed window
+  if (error) throw new Error(`query history: ${error.message}`);
+
+  const last = todayUtc() < window.frozenUntil ? todayUtc() : window.frozenUntil;
+  const days = new Map<string, Record<Surface, SurfaceDay>>();
+  for (const day of daysBetween(window.frozenFrom, last)) days.set(day, { ai_overview: noDay(), ai_mode: noDay() });
+  for (const r of data ?? []) {
+    const entry = days.get(r.checked_on as string);
+    if (!entry) continue;
+    entry[r.surface as Surface] = {
+      state: checkState(r),
+      position: (r.source_position as number | null) ?? null,
+      sourceCount: (r.source_count as number | null) ?? null,
+      citedUrl: (r.cited_url as string | null) ?? null,
+      organicRank: (r.organic_rank as number | null) ?? null,
+      offTop10: Boolean(r.off_top10),
+      otherDomains: ((r.other_domains as string[] | null) ?? []).slice(),
+      snapshotPath: (r.snapshot_path as string | null) ?? null,
+    };
+  }
+  return [...days.entries()]
+    .map(([day, surfaces]) => ({ day, state: combine(SURFACES.map((s) => surfaces[s].state)), surfaces }))
+    .sort((a, b) => b.day.localeCompare(a.day));
 }
 
 // Speed ---------------------------------------------------------------------

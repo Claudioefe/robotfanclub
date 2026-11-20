@@ -1,0 +1,709 @@
+{
+  "version": "0.1.20261117",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "51.2097 sec.",
+  "cost": 0.004,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "11201220-2831-0629-0000-77d7cd710776",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "51.0904 sec.",
+      "cost": 0.004,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "chat_gpt",
+        "llm_scraper",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "live",
+        "se": "chat_gpt",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "most valuable children's books",
+        "force_web_search": true,
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "most valuable children's books",
+          "location_code": 2840,
+          "language_code": "en",
+          "model": "gpt-6",
+          "check_url": "https://chatgpt.com/?prompt=most%20valuable%20children%27s%20books&hints=search",
+          "datetime": "2026-11-20 12:21:21 +00:00",
+          "markdown": "If you mean **the most financially valuable and collectible children's books**, here are some of the biggest names to look for. These are rare first editions, signed copies, and historically significant printings—not ordinary modern reprints.\n\n# 15 most valuable children's books\n\nValues are approximate collector-market figures, not guaranteed selling prices. Condition, printing, signatures, and original dust jackets matter enormously.\n\n![The Tales of Beedle the Bard, Collector's Edition by J K Rowling - Doodled Books](https://images.openai.com/static-rsc-4/Q8ptOMws2vEBIm0JWiU9yzeGFO-z-j7UeHw3ONq2WKjl6oe1KrutPOuoEykNaK32lg94qVQcv6DpAWsfb9_KKtdBtMTlA9aJ2z8yKAhs76kKKbme-RGETsYbxHiyv040iD13sEk9WJHM9CewA3CxBT5O99TdHq6acnJfsb0nP3Fv4sSyaqNozJi7iBJdomFC?purpose=fullsize)\n\n**1\\. The Tales of Beedle the Bard — J.K. Rowling**\n\n(\\$3 million range)\n\nOne of seven handmade editions sold at auction for approximately £1.95 million.\n\n---\n\n![Kultovú detskú knihu plnú fantázie napísal matematik, o pozadí jej vzniku sa dodnes špekuluje](https://images.openai.com/static-rsc-4/QJaubrp7d67jFPPnuZB5n1J6GdnA1LlsYja8oRH9FKXAxoVzBI4t0uTiaENFNusT7GaRtk3PirdSf4ajeyR6V1prM3gvM9kkwhmWs0vwGZCr8RnjgCrlfTECOkRefZH4ltk-C2vJSDiRfRU6rhDUQmuFT_tfYgU2PvOY1xfEYzbXqI3TTQY6qpdlPMvpIHhc?purpose=fullsize)\n\n**2\\. Alice's Adventures in Wonderland — Lewis Carroll**\n\n(\\$100,000–\\$1 million+)\n\nOriginal 1865 first printing is extraordinarily rare.\n\n---\n\n![J.R.R. Tolkien | The Hobbit, or There and Back Again, London, 1937,](https://images.openai.com/static-rsc-4/-AOdLL8lqcmgVmSgihUiwzpCUzbXRkJtaBcEv-N528H8XrD2Pu1wFLHjJvHOMMEZSCvlH9I-iHYub5_m42X6ArCiAwfz_SgMrvAh-kF3FWueIG0il_Ju9asxsqPQsRxaRQapGjCXRazHex8_ScJhUfWYPlkZL0q0XH4-XnjUDyVVlOIyigXyv8Y-nqxutBIT?purpose=fullsize)\n\n**3\\. The Hobbit — J.R.R. Tolkien**\n\n**\\$30,000–\\$200,000+**\n\nOriginal 1937 first edition.\n\n---\n\n![Bonhams : ROWLING (J.K.) Harry Potter and the Philosopher's Stone, FIRST EDITION, FIRST IMPRESSION, INSCRIBED BY THE AUTHOR, Bloomsbury, 1997](https://images.openai.com/static-rsc-4/31MZO9C-3f62pwoHdlyirzZZhNoz3dEmIl6RoKQnK1P6a4cIIBPgJbMP-mLOBGbk92-oMSGKyD_s7VTaoUxiaCOeCD1HHYEBTKg2V2DI_qvwBEDirYCoEP_OtF7Kke3QRKyIGg_-ZZsv2RcfEddm4XkMA5yV6LPSL4BbAqNpUrEbMBuPKe1dqb9oN_qqhii9?purpose=fullsize)\n\n**4\\. Harry Potter and the Philosopher's Stone — J.K. Rowling**\n\n**\\$50,000–\\$400,000+**\n\nThe original 1997 Bloomsbury first printing had only 500 copies.\n\n---\n\n![The Tale of Peter Rabbit by POTTER, Beatrix - Jonkers Rare Books](https://images.openai.com/static-rsc-4/CTfHqqn6CAZe3opKvgxjfus6SJOEoYfuuKgGecBnmxqJlzbj1N1fax-a-d7EFNKr7lu41rA1wTYNOrZ7EtZbhOwxAuB7QKTzGBxE4TiuqzP3F0xxwIVgcpXq7GaaYLqdCYamc5Msv0oIRYAt2A5YeBX0SVDKxC0ejTQTZ4z3sC2xPDKIJAYn9QMY6_Imde6K?purpose=fullsize)\n\n**5\\. The Tale of Peter Rabbit — Beatrix Potter**\n\n**Thousands to tens of thousands of dollars**\n\nEarly 1902 editions are highly collectible.\n\n---\n\n![Lot - L. Frank Baum (1856-1919) & W. W. Denslow (1856-1915), illus. The Wonderful Wizard of Oz. First Edition, First State. Chicago & New York: Geo. M. Hill Co., 1900.](https://images.openai.com/static-rsc-4/JItnkXRMhSQ0VB7oIVf-EiqrjXkBjJe-D_3UOzlDzusLTmtV3eXq7l43uK59ZNLEZYyT7lhQixl7rOjleNscuCnGFekGjPf9IUn4oBNdoB7xk0nyGMvPoKseDALfx_3m2X2DEMZJUGIGdNZWjFiC8VquVUf0q1gYG_nwOIAMK5HBjA1KbJiFALTXfX-z_oG0?purpose=fullsize)\n\n**6\\. The Wonderful Wizard of Oz — L. Frank Baum**\n\n**\\$8,000–\\$50,000+**\n\nLook for the original 1900 edition.\n\n---\n\n![MILNE. Winnie The Pooh. 1926 - FIRST EDITION - FIRST PRINTING - WITH DUST JACKET at 1stDibs](https://images.openai.com/static-rsc-4/XtF2IaiLZErDnJoeoueag6eELEJfF0Iw5I6D67dk9wFSsnZp8aZnhRQOY3E1-Dr9qS1dJwnLuPUcwl_NlEp6nCjZSihGRPUCLWT56NQw9hA7MGrxQn6mrTbYHGPWLGZVCEb1tJmWympkxCcYFFDVvYCAfF8Yj5Fl7dcZXnXUAJ7KYL5K1nCzTnN-LWoxWk_v?purpose=fullsize)\n\n**7\\. Winnie-the-Pooh — A.A. Milne**\n\n**\\$5,000–\\$20,000+**\n\nOriginal 1926 first edition.\n\n---\n\n![Where the Wild Things Are by SENDAK, Maurice - Jonkers Rare Books](https://images.openai.com/static-rsc-4/5qUxG71YImuI3AXZrXuMfs2ZEwc5uETNVKX25lrrKvGM8-PUzpXdegcx1OvtzSE9Ay6UgIxO_1A2uYwShNXrS3x_dv79OswNwtEK9GmFLnMshpQHKHgyhji9ZUhQVFqLZ3WQbwdFvv0Txi5ANRhrJLyR66ZO_3Cr1wz6o52rNC8vYkWaabKES8gMuucvkxNh?purpose=fullsize)\n\n**8\\. Where the Wild Things Are — Maurice Sendak**\n\n**\\$5,000–\\$40,000+**\n\nFirst edition from 1963, especially signed copies.\n\n---\n\n![CHARLIE AND THE CHOCOLATE FACTORY | Roald Dahl | First issue](https://images.openai.com/static-rsc-4/tuhnsOgd7u7TN6i4OVUZzOaEZIhY9JAHhn6uYX4MscxZ79sq8D4r6nR6Jj9zmqJTsXwS8rGYJbGAJ7mkxs0HK59T0468SAU0xubkgNI-3NuW1pFrk_z9ij2x8I-CdksmltcWAmPieG_cBolF1KBXCV9BFg-2xtjWqPWDyeYQeAINidpMfK3JrWNNJ0mpxqXD?purpose=fullsize)\n\n**9\\. Charlie and the Chocolate Factory — Roald Dahl**\n\n**\\$5,000–\\$25,000+**\n\nOriginal 1964 American edition.\n\n---\n\n![Goodnight Moon. by WISE BROWN, Margaret; HURD, Clement (illustrator).: (1947) | Shapero Rare Books](https://images.openai.com/static-rsc-4/tl0G8DoNxc_imDZCGucSvsuKzAQVJEb-rFG42kC9_qDhMpV0ECypwldog6rNFBvz8RpP5SOdrREzljjwn6ku_leWjRVCB1VJFbF1cUiZ6yyJVZFuOccaeRYW5c9r2e3G8usjtDnr_bHQ-SyRj2z7v3mlV1rM4RJpusokZa2rCWITazFu-bzdrDZ8ZoWumV7H?purpose=fullsize)\n\n**10\\. Goodnight Moon — Margaret Wise Brown**\n\n**Potentially \\$20,000+**\n\nScarce original 1947 first edition.\n\n**Other valuable children's books worth checking\\:**\n\n11. Curious George — H.A. Rey (1941)\n12. The Snowy Day — Ezra Jack Keats (1962)\n13. Make Way for Ducklings — Robert McCloskey (1941)\n14. The Velveteen Rabbit — Margery Williams (1922)\n15. The Cat in the Hat — Dr. Seuss (1957)\n\nThese titles appear in specialist collectible-book price guides. [www.abebooks.com](https://www.abebooks.com/books/rarebooks/most-valuable-childrens-books.shtml?utm_source=chatgpt.com)[1stedition.net](https://1stedition.net/?pg=%2Fvalues%2Fmostvaluable&utm_source=chatgpt.com)[ravelstein.com](https://ravelstein.com/wiki/market-analysis/children-s-book-collecting-guide/?utm_source=chatgpt.com)[www.natgeokids.com](https://www.natgeokids.com/uk/kids-club/entertainment/books/valuable-rare-childrens-books/?utm_source=chatgpt.com)\n\n## What makes a children's book valuable?\n\n- First edition AND first printing.\n- Original dust jacket.\n- Author's signature or original illustration.\n- Excellent condition.\n- Limited print runs and historical significance.\n\n## I can help you find hidden treasures\n\nIf you're interested in finding valuable books in an attic, estate sale, thrift store, or an existing collection, I can help identify them.\n\n**One question\\:** Are you looking for\\:\n\n1. Books you might already own that could be worth money?\n2. The most expensive children's books ever sold?\n3. Children's books worth buying now as investments?\n4. Rare books to look for at garage sales, thrift stores, and estate sales?\n\nI can put together a much more detailed list with estimated values and pictures.",
+          "search_results": [
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://myvolumes.com/guides/most-valuable-first-editions/?utm_source=chatgpt.com",
+              "domain": "myvolumes.com",
+              "title": "Most Valuable First Edition Books | Home Finds | MyVolumes",
+              "description": "HOW TO READ THE TABLES  Each row gives the true first edition (publisher, place and year), the quickest test that separates the first printing from later ones, and a sale. Three rules apply to every t...",
+              "breadcrumb": "myvolumes.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.abebooks.com/books/rarebooks/most-valuable-childrens-books.shtml?utm_source=chatgpt.com",
+              "domain": "www.abebooks.com",
+              "title": "The world's most valuable children's books",
+              "description": "THE WORLD'S MOST VALUABLE CHILDREN'S BOOKS  Are the books from your childhood packed in boxes in the basement? Old children's books can be valuable if they are the right edition in the right conditio...",
+              "breadcrumb": "abebooks.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://1stedition.net/?pg=%2Fvalues%2Fmostvaluable&utm_source=chatgpt.com",
+              "domain": "1stedition.net",
+              "title": null,
+              "description": "﻿ Collecting, Identifying, and Valuing First Edition Childrens Books  MOST VALUABLE FIRST EDITION CHILDREN'S BOOKS  Image: Childrens Picturebook Price GuideThe information in my book, the Children's P...",
+              "breadcrumb": "1stedition.net"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.1stedition.net/?pg=%2Fvalues%2Fmostvaluable&utm_source=chatgpt.com",
+              "domain": "www.1stedition.net",
+              "title": null,
+              "description": "﻿ Collecting, Identifying, and Valuing First Edition Childrens Books  MOST VALUABLE FIRST EDITION CHILDREN'S BOOKS  Image: Childrens Picturebook Price GuideThe information in my book, the Children's P...",
+              "breadcrumb": "1stedition.net"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.scotsman.com/whats-on/arts-and-entertainment/most-expensive-first-edition-childrens-books-2025-5273090?utm_source=chatgpt.com",
+              "domain": "www.scotsman.com",
+              "title": "Most expensive first-edition children's books in 2025 - are any sitting on your bookshelf?",
+              "description": "FROM THE HOBBIT TO PRIDE AND PREJUDICE: THE FIRST EDITION CHILDREN'S BOOKS WORTH A SMALL FORTUNE  By Benjamin Jackson  Reporter  Comment  Published 15th Aug 2025, 09:45 BST  COULD THERE BE HIDDEN GOL...",
+              "breadcrumb": "scotsman.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.abebooks.co.uk/books/rarebooks/most-valuable-childrens-books.shtml?utm_source=chatgpt.com",
+              "domain": "www.abebooks.co.uk",
+              "title": "The world's most valuable children's books",
+              "description": "THE WORLD'S MOST VALUABLE CHILDREN'S BOOKS  Are the books from your childhood packed in boxes in the basement? Old children's books can be valuable if they are the right edition in the right conditio...",
+              "breadcrumb": "abebooks.co.uk"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://brbweb2022.baumanrarebooks.com/rare-books/children/?utm_source=chatgpt.com",
+              "domain": "brbweb2022.baumanrarebooks.com",
+              "title": "Children's Books Rare Books and First Editions - Bauman Rare Books",
+              "description": "Browse > Children's Books  Found 136 books(s). Showing results 1 thru 10.  “ONE OF THE MOST DURABLE WORKS IN AMERICAN LITERATURE”  TWAIN, Mark. Adventures of Tom Sawyer. Hartford, 1876. Rare first Am...",
+              "breadcrumb": "baumanrarebooks.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.mentalfloss.com/literature/books/most-valuable-childrens-books?utm_source=chatgpt.com",
+              "domain": "www.mentalfloss.com",
+              "title": "10 of the Most Valuable Children’s Books",
+              "description": "*   *   *   *   * # 10 of the Most Valuable Children’s Books  If you have any of these classic kids’ books sitting on your shelf in mint condition, you could make a pretty penny.  ByLorna WallaceJun...",
+              "breadcrumb": "mentalfloss.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://ravelstein.com/wiki/market-analysis/children-s-book-collecting-guide/?utm_source=chatgpt.com",
+              "domain": "ravelstein.com",
+              "title": "Children's Book Collecting — A Complete Guide to the Most Challenging Category — Ravelstein",
+              "description": "The collector seeking a Fine copy is competing for the 2–5% that were never given to children, stored in publisher warehouses, or miraculously survived childhood intact.  KEY TITLES AND VALUES  THE MO...",
+              "breadcrumb": "ravelstein.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://ravelstein.com/wiki/market-analysis/childrens-books-first-editions-guide/?utm_source=chatgpt.com",
+              "domain": "ravelstein.com",
+              "title": "Children's Books First Editions — Collecting Guide — Ravelstein",
+              "description": "The period when children’s literature became a recognized art form:  KEY TITLES  Author/Illustrator  | Title  | Year  | Publisher  | Est. Value --- | --- | --- | --- | --- Lewis Carroll / Tenniel  |...",
+              "breadcrumb": "ravelstein.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://ravelstein.com/wiki/market-analysis/childrens-books-collecting-guide/?utm_source=chatgpt.com",
+              "domain": "ravelstein.com",
+              "title": "Collecting Children's Books — A Complete Market Guide — Ravelstein",
+              "description": "market-analysis  COLLECTING CHILDREN'S BOOKS — A COMPLETE MARKET GUIDE  Approx. 6 min read · 2 May 2026  THE PARADOX OF CHILDREN’S BOOKS  Children’s books represent one of the most paradoxical collec...",
+              "breadcrumb": "ravelstein.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.natgeokids.com/uk/kids-club/entertainment/books/valuable-rare-childrens-books/?utm_source=chatgpt.com",
+              "domain": "www.natgeokids.com",
+              "title": "11 of the most valuable kids' books of all time | National Geographic Kids",
+              "description": "11 OF THE MOST VALUABLE KIDS’ BOOKS OF ALL TIME  CHECK OUT THESE PRICEY PAGES, GANG!  Did you know that some of your favourite books can fetch thousands of pounds at auction?  Original copies, called...",
+              "breadcrumb": "natgeokids.com"
+            }
+          ],
+          "sources": [
+            {
+              "type": "chat_gpt_source",
+              "title": "The world's most valuable children's books",
+              "snippet": null,
+              "domain": "www.abebooks.com",
+              "url": "https://www.abebooks.com/books/rarebooks/most-valuable-childrens-books.shtml?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "abebooks.com",
+              "publication_date": null,
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": null,
+              "snippet": null,
+              "domain": "1stedition.net",
+              "url": "https://1stedition.net/?pg=%2Fvalues%2Fmostvaluable&utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "1stedition.net",
+              "publication_date": null,
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Children's Book Collecting — A Complete Guide to the Most Challenging Category",
+              "snippet": null,
+              "domain": "ravelstein.com",
+              "url": "https://ravelstein.com/wiki/market-analysis/children-s-book-collecting-guide/?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "Ravelstein",
+              "publication_date": "2026-05-02 00:00:00 +00:00",
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "11 of the most valuable kids' books of all time",
+              "snippet": null,
+              "domain": "www.natgeokids.com",
+              "url": "https://www.natgeokids.com/uk/kids-club/entertainment/books/valuable-rare-childrens-books/?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "National Geographic Kids",
+              "publication_date": "2017-03-01 11:50:53 +00:00",
+              "markdown": null
+            }
+          ],
+          "fan_out_queries": [
+            "most valuable children's books rare first editions auction records highest prices"
+          ],
+          "brand_entities": [
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "J.K. Rowling illustrated limited edition",
+              "category": "book",
+              "markdown": "The Tales of Beedle the Bard",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Alice's Adventures in Wonderland",
+              "category": "book",
+              "markdown": "Alice's Adventures in Wonderland",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "The Hobbit",
+              "category": "book",
+              "markdown": "The Hobbit",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Harry Potter and the Philosopher's Stone",
+              "category": "book",
+              "markdown": "Harry Potter and the Philosopher's Stone",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "The Tale of Peter Rabbit",
+              "category": "book",
+              "markdown": "The Tale of Peter Rabbit",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "The Wonderful Wizard of Oz",
+              "category": "book",
+              "markdown": "The Wonderful Wizard of Oz",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Winnie-the-Pooh",
+              "category": "book",
+              "markdown": "Winnie-the-Pooh",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Where the Wild Things Are",
+              "category": "book",
+              "markdown": "Where the Wild Things Are",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Charlie and the Chocolate Factory",
+              "category": "book",
+              "markdown": "Charlie and the Chocolate Factory",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Goodnight Moon",
+              "category": "book",
+              "markdown": "Goodnight Moon",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Curious George",
+              "category": "book",
+              "markdown": "Curious George",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "The Snowy Day",
+              "category": "book",
+              "markdown": "The Snowy Day",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Make Way for Ducklings",
+              "category": "book",
+              "markdown": "Make Way for Ducklings",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "The Velveteen Rabbit",
+              "category": "book",
+              "markdown": "The Velveteen Rabbit",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "The Cat in the Hat",
+              "category": "book",
+              "markdown": "The Cat in the Hat",
+              "urls": null
+            }
+          ],
+          "se_results_count": 0,
+          "item_types": [
+            "chat_gpt_text",
+            "chat_gpt_images"
+          ],
+          "items_count": 21,
+          "items": [
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "markdown": "If you mean **the most financially valuable and collectible children's books**, here are some of the biggest names to look for. These are rare first editions, signed copies, and historically significant printings—not ordinary modern reprints.\n\n# 15 most valuable children's books\n\nValues are approximate collector-market figures, not guaranteed selling prices. Condition, printing, signatures, and original dust jackets matter enormously.\n\n",
+              "sources": null,
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "markdown": "![The Tales of Beedle the Bard, Collector's Edition by J K Rowling - Doodled Books](https://images.openai.com/static-rsc-4/Q8ptOMws2vEBIm0JWiU9yzeGFO-z-j7UeHw3ONq2WKjl6oe1KrutPOuoEykNaK32lg94qVQcv6DpAWsfb9_KKtdBtMTlA9aJ2z8yKAhs76kKKbme-RGETsYbxHiyv040iD13sEk9WJHM9CewA3CxBT5O99TdHq6acnJfsb0nP3Fv4sSyaqNozJi7iBJdomFC?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://doodledbooks.com/product/the-tales-of-beedle-the-bard-collectors-edition-by-j-k-rowling/",
+                  "alt": "The Tales of Beedle the Bard, Collector's Edition by J K Rowling - Doodled Books",
+                  "image_url": "https://images.openai.com/static-rsc-4/Q8ptOMws2vEBIm0JWiU9yzeGFO-z-j7UeHw3ONq2WKjl6oe1KrutPOuoEykNaK32lg94qVQcv6DpAWsfb9_KKtdBtMTlA9aJ2z8yKAhs76kKKbme-RGETsYbxHiyv040iD13sEk9WJHM9CewA3CxBT5O99TdHq6acnJfsb0nP3Fv4sSyaqNozJi7iBJdomFC?purpose=fullsize",
+                  "markdown": "![The Tales of Beedle the Bard, Collector's Edition by J K Rowling - Doodled Books](https://images.openai.com/static-rsc-4/Q8ptOMws2vEBIm0JWiU9yzeGFO-z-j7UeHw3ONq2WKjl6oe1KrutPOuoEykNaK32lg94qVQcv6DpAWsfb9_KKtdBtMTlA9aJ2z8yKAhs76kKKbme-RGETsYbxHiyv040iD13sEk9WJHM9CewA3CxBT5O99TdHq6acnJfsb0nP3Fv4sSyaqNozJi7iBJdomFC?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "markdown": "\n\n**1\\. The Tales of Beedle the Bard — J.K. Rowling**\n\n(\\$3 million range)\n\nOne of seven handmade editions sold at auction for approximately £1.95 million.\n\n---\n\n",
+              "sources": null,
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "J.K. Rowling illustrated limited edition",
+                  "category": "book",
+                  "markdown": "The Tales of Beedle the Bard",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "markdown": "![Kultovú detskú knihu plnú fantázie napísal matematik, o pozadí jej vzniku sa dodnes špekuluje](https://images.openai.com/static-rsc-4/QJaubrp7d67jFPPnuZB5n1J6GdnA1LlsYja8oRH9FKXAxoVzBI4t0uTiaENFNusT7GaRtk3PirdSf4ajeyR6V1prM3gvM9kkwhmWs0vwGZCr8RnjgCrlfTECOkRefZH4ltk-C2vJSDiRfRU6rhDUQmuFT_tfYgU2PvOY1xfEYzbXqI3TTQY6qpdlPMvpIHhc?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://hnonline.sk/history/starsie-dejiny/2244788-kultovu-detsku-knihu-plnu-fantazie-napisal-matematik-o-pozadi-jej-vzniku-sa-dodnes-spekuluje",
+                  "alt": "Kultovú detskú knihu plnú fantázie napísal matematik, o pozadí jej vzniku sa dodnes špekuluje",
+                  "image_url": "https://images.openai.com/static-rsc-4/QJaubrp7d67jFPPnuZB5n1J6GdnA1LlsYja8oRH9FKXAxoVzBI4t0uTiaENFNusT7GaRtk3PirdSf4ajeyR6V1prM3gvM9kkwhmWs0vwGZCr8RnjgCrlfTECOkRefZH4ltk-C2vJSDiRfRU6rhDUQmuFT_tfYgU2PvOY1xfEYzbXqI3TTQY6qpdlPMvpIHhc?purpose=fullsize",
+                  "markdown": "![Kultovú detskú knihu plnú fantázie napísal matematik, o pozadí jej vzniku sa dodnes špekuluje](https://images.openai.com/static-rsc-4/QJaubrp7d67jFPPnuZB5n1J6GdnA1LlsYja8oRH9FKXAxoVzBI4t0uTiaENFNusT7GaRtk3PirdSf4ajeyR6V1prM3gvM9kkwhmWs0vwGZCr8RnjgCrlfTECOkRefZH4ltk-C2vJSDiRfRU6rhDUQmuFT_tfYgU2PvOY1xfEYzbXqI3TTQY6qpdlPMvpIHhc?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 3,
+              "rank_absolute": 5,
+              "markdown": "\n\n**2\\. Alice's Adventures in Wonderland — Lewis Carroll**\n\n(\\$100,000–\\$1 million+)\n\nOriginal 1865 first printing is extraordinarily rare.\n\n---\n\n",
+              "sources": null,
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Alice's Adventures in Wonderland",
+                  "category": "book",
+                  "markdown": "Alice's Adventures in Wonderland",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 3,
+              "rank_absolute": 6,
+              "markdown": "![J.R.R. Tolkien | The Hobbit, or There and Back Again, London, 1937,](https://images.openai.com/static-rsc-4/-AOdLL8lqcmgVmSgihUiwzpCUzbXRkJtaBcEv-N528H8XrD2Pu1wFLHjJvHOMMEZSCvlH9I-iHYub5_m42X6ArCiAwfz_SgMrvAh-kF3FWueIG0il_Ju9asxsqPQsRxaRQapGjCXRazHex8_ScJhUfWYPlkZL0q0XH4-XnjUDyVVlOIyigXyv8Y-nqxutBIT?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.sothebys.com/en/buy/auction/2022/books-and-manuscripts-medieval-to-modern/j-r-r-tolkien-the-hobbit-or-there-and-back-again",
+                  "alt": "J.R.R. Tolkien | The Hobbit, or There and Back Again, London, 1937,",
+                  "image_url": "https://images.openai.com/static-rsc-4/-AOdLL8lqcmgVmSgihUiwzpCUzbXRkJtaBcEv-N528H8XrD2Pu1wFLHjJvHOMMEZSCvlH9I-iHYub5_m42X6ArCiAwfz_SgMrvAh-kF3FWueIG0il_Ju9asxsqPQsRxaRQapGjCXRazHex8_ScJhUfWYPlkZL0q0XH4-XnjUDyVVlOIyigXyv8Y-nqxutBIT?purpose=fullsize",
+                  "markdown": "![J.R.R. Tolkien | The Hobbit, or There and Back Again, London, 1937,](https://images.openai.com/static-rsc-4/-AOdLL8lqcmgVmSgihUiwzpCUzbXRkJtaBcEv-N528H8XrD2Pu1wFLHjJvHOMMEZSCvlH9I-iHYub5_m42X6ArCiAwfz_SgMrvAh-kF3FWueIG0il_Ju9asxsqPQsRxaRQapGjCXRazHex8_ScJhUfWYPlkZL0q0XH4-XnjUDyVVlOIyigXyv8Y-nqxutBIT?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "markdown": "\n\n**3\\. The Hobbit — J.R.R. Tolkien**\n\n**\\$30,000–\\$200,000+**\n\nOriginal 1937 first edition.\n\n---\n\n",
+              "sources": null,
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "The Hobbit",
+                  "category": "book",
+                  "markdown": "The Hobbit",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 4,
+              "rank_absolute": 8,
+              "markdown": "![Bonhams : ROWLING (J.K.) Harry Potter and the Philosopher's Stone, FIRST EDITION, FIRST IMPRESSION, INSCRIBED BY THE AUTHOR, Bloomsbury, 1997](https://images.openai.com/static-rsc-4/31MZO9C-3f62pwoHdlyirzZZhNoz3dEmIl6RoKQnK1P6a4cIIBPgJbMP-mLOBGbk92-oMSGKyD_s7VTaoUxiaCOeCD1HHYEBTKg2V2DI_qvwBEDirYCoEP_OtF7Kke3QRKyIGg_-ZZsv2RcfEddm4XkMA5yV6LPSL4BbAqNpUrEbMBuPKe1dqb9oN_qqhii9?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.bonhams.com/auction/27374/lot/222/rowling-jk-harry-potter-and-the-philosophers-stone-first-edition-first-impression-inscribed-by-the-author-bloomsbury-1997/",
+                  "alt": "Bonhams : ROWLING (J.K.) Harry Potter and the Philosopher's Stone, FIRST EDITION, FIRST IMPRESSION, INSCRIBED BY THE AUTHOR, Bloomsbury, 1997",
+                  "image_url": "https://images.openai.com/static-rsc-4/31MZO9C-3f62pwoHdlyirzZZhNoz3dEmIl6RoKQnK1P6a4cIIBPgJbMP-mLOBGbk92-oMSGKyD_s7VTaoUxiaCOeCD1HHYEBTKg2V2DI_qvwBEDirYCoEP_OtF7Kke3QRKyIGg_-ZZsv2RcfEddm4XkMA5yV6LPSL4BbAqNpUrEbMBuPKe1dqb9oN_qqhii9?purpose=fullsize",
+                  "markdown": "![Bonhams : ROWLING (J.K.) Harry Potter and the Philosopher's Stone, FIRST EDITION, FIRST IMPRESSION, INSCRIBED BY THE AUTHOR, Bloomsbury, 1997](https://images.openai.com/static-rsc-4/31MZO9C-3f62pwoHdlyirzZZhNoz3dEmIl6RoKQnK1P6a4cIIBPgJbMP-mLOBGbk92-oMSGKyD_s7VTaoUxiaCOeCD1HHYEBTKg2V2DI_qvwBEDirYCoEP_OtF7Kke3QRKyIGg_-ZZsv2RcfEddm4XkMA5yV6LPSL4BbAqNpUrEbMBuPKe1dqb9oN_qqhii9?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 5,
+              "rank_absolute": 9,
+              "markdown": "\n\n**4\\. Harry Potter and the Philosopher's Stone — J.K. Rowling**\n\n**\\$50,000–\\$400,000+**\n\nThe original 1997 Bloomsbury first printing had only 500 copies.\n\n---\n\n",
+              "sources": null,
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Harry Potter and the Philosopher's Stone",
+                  "category": "book",
+                  "markdown": "Harry Potter and the Philosopher's Stone",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 5,
+              "rank_absolute": 10,
+              "markdown": "![The Tale of Peter Rabbit by POTTER, Beatrix - Jonkers Rare Books](https://images.openai.com/static-rsc-4/CTfHqqn6CAZe3opKvgxjfus6SJOEoYfuuKgGecBnmxqJlzbj1N1fax-a-d7EFNKr7lu41rA1wTYNOrZ7EtZbhOwxAuB7QKTzGBxE4TiuqzP3F0xxwIVgcpXq7GaaYLqdCYamc5Msv0oIRYAt2A5YeBX0SVDKxC0ejTQTZ4z3sC2xPDKIJAYn9QMY6_Imde6K?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.jonkers.co.uk/rare-book/6611/the-tale-of-peter-rabbit/beatrix-potter",
+                  "alt": "The Tale of Peter Rabbit by POTTER, Beatrix - Jonkers Rare Books",
+                  "image_url": "https://images.openai.com/static-rsc-4/CTfHqqn6CAZe3opKvgxjfus6SJOEoYfuuKgGecBnmxqJlzbj1N1fax-a-d7EFNKr7lu41rA1wTYNOrZ7EtZbhOwxAuB7QKTzGBxE4TiuqzP3F0xxwIVgcpXq7GaaYLqdCYamc5Msv0oIRYAt2A5YeBX0SVDKxC0ejTQTZ4z3sC2xPDKIJAYn9QMY6_Imde6K?purpose=fullsize",
+                  "markdown": "![The Tale of Peter Rabbit by POTTER, Beatrix - Jonkers Rare Books](https://images.openai.com/static-rsc-4/CTfHqqn6CAZe3opKvgxjfus6SJOEoYfuuKgGecBnmxqJlzbj1N1fax-a-d7EFNKr7lu41rA1wTYNOrZ7EtZbhOwxAuB7QKTzGBxE4TiuqzP3F0xxwIVgcpXq7GaaYLqdCYamc5Msv0oIRYAt2A5YeBX0SVDKxC0ejTQTZ4z3sC2xPDKIJAYn9QMY6_Imde6K?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 6,
+              "rank_absolute": 11,
+              "markdown": "\n\n**5\\. The Tale of Peter Rabbit — Beatrix Potter**\n\n**Thousands to tens of thousands of dollars**\n\nEarly 1902 editions are highly collectible.\n\n---\n\n",
+              "sources": null,
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "The Tale of Peter Rabbit",
+                  "category": "book",
+                  "markdown": "The Tale of Peter Rabbit",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 6,
+              "rank_absolute": 12,
+              "markdown": "![Lot - L. Frank Baum (1856-1919) & W. W. Denslow (1856-1915), illus. The Wonderful Wizard of Oz. First Edition, First State. Chicago & New York: Geo. M. Hill Co., 1900.](https://images.openai.com/static-rsc-4/JItnkXRMhSQ0VB7oIVf-EiqrjXkBjJe-D_3UOzlDzusLTmtV3eXq7l43uK59ZNLEZYyT7lhQixl7rOjleNscuCnGFekGjPf9IUn4oBNdoB7xk0nyGMvPoKseDALfx_3m2X2DEMZJUGIGdNZWjFiC8VquVUf0q1gYG_nwOIAMK5HBjA1KbJiFALTXfX-z_oG0?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.swanngalleries.com/auction-lot/l.-frank-baum-1856-1919-w.-w.-denslow-1856-1_9862e6b6cd",
+                  "alt": "Lot - L. Frank Baum (1856-1919) & W. W. Denslow (1856-1915), illus. The Wonderful Wizard of Oz. First Edition, First State. Chicago & New York: Geo. M. Hill Co., 1900.",
+                  "image_url": "https://images.openai.com/static-rsc-4/JItnkXRMhSQ0VB7oIVf-EiqrjXkBjJe-D_3UOzlDzusLTmtV3eXq7l43uK59ZNLEZYyT7lhQixl7rOjleNscuCnGFekGjPf9IUn4oBNdoB7xk0nyGMvPoKseDALfx_3m2X2DEMZJUGIGdNZWjFiC8VquVUf0q1gYG_nwOIAMK5HBjA1KbJiFALTXfX-z_oG0?purpose=fullsize",
+                  "markdown": "![Lot - L. Frank Baum (1856-1919) & W. W. Denslow (1856-1915), illus. The Wonderful Wizard of Oz. First Edition, First State. Chicago & New York: Geo. M. Hill Co., 1900.](https://images.openai.com/static-rsc-4/JItnkXRMhSQ0VB7oIVf-EiqrjXkBjJe-D_3UOzlDzusLTmtV3eXq7l43uK59ZNLEZYyT7lhQixl7rOjleNscuCnGFekGjPf9IUn4oBNdoB7xk0nyGMvPoKseDALfx_3m2X2DEMZJUGIGdNZWjFiC8VquVUf0q1gYG_nwOIAMK5HBjA1KbJiFALTXfX-z_oG0?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 7,
+              "rank_absolute": 13,
+              "markdown": "\n\n**6\\. The Wonderful Wizard of Oz — L. Frank Baum**\n\n**\\$8,000–\\$50,000+**\n\nLook for the original 1900 edition.\n\n---\n\n",
+              "sources": null,
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "The Wonderful Wizard of Oz",
+                  "category": "book",
+                  "markdown": "The Wonderful Wizard of Oz",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 7,
+              "rank_absolute": 14,
+              "markdown": "![MILNE. Winnie The Pooh. 1926 - FIRST EDITION - FIRST PRINTING - WITH DUST JACKET at 1stDibs](https://images.openai.com/static-rsc-4/XtF2IaiLZErDnJoeoueag6eELEJfF0Iw5I6D67dk9wFSsnZp8aZnhRQOY3E1-Dr9qS1dJwnLuPUcwl_NlEp6nCjZSihGRPUCLWT56NQw9hA7MGrxQn6mrTbYHGPWLGZVCEb1tJmWympkxCcYFFDVvYCAfF8Yj5Fl7dcZXnXUAJ7KYL5K1nCzTnN-LWoxWk_v?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.1stdibs.com/furniture/more-furniture-collectibles/collectibles-curiosities/books/milne-winnie-pooh-1926-first-edition-first-printing-dust-jacket/id-f_41942872/",
+                  "alt": "MILNE. Winnie The Pooh. 1926 - FIRST EDITION - FIRST PRINTING - WITH DUST JACKET at 1stDibs",
+                  "image_url": "https://images.openai.com/static-rsc-4/XtF2IaiLZErDnJoeoueag6eELEJfF0Iw5I6D67dk9wFSsnZp8aZnhRQOY3E1-Dr9qS1dJwnLuPUcwl_NlEp6nCjZSihGRPUCLWT56NQw9hA7MGrxQn6mrTbYHGPWLGZVCEb1tJmWympkxCcYFFDVvYCAfF8Yj5Fl7dcZXnXUAJ7KYL5K1nCzTnN-LWoxWk_v?purpose=fullsize",
+                  "markdown": "![MILNE. Winnie The Pooh. 1926 - FIRST EDITION - FIRST PRINTING - WITH DUST JACKET at 1stDibs](https://images.openai.com/static-rsc-4/XtF2IaiLZErDnJoeoueag6eELEJfF0Iw5I6D67dk9wFSsnZp8aZnhRQOY3E1-Dr9qS1dJwnLuPUcwl_NlEp6nCjZSihGRPUCLWT56NQw9hA7MGrxQn6mrTbYHGPWLGZVCEb1tJmWympkxCcYFFDVvYCAfF8Yj5Fl7dcZXnXUAJ7KYL5K1nCzTnN-LWoxWk_v?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 8,
+              "rank_absolute": 15,
+              "markdown": "\n\n**7\\. Winnie-the-Pooh — A.A. Milne**\n\n**\\$5,000–\\$20,000+**\n\nOriginal 1926 first edition.\n\n---\n\n",
+              "sources": null,
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Winnie-the-Pooh",
+                  "category": "book",
+                  "markdown": "Winnie-the-Pooh",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 8,
+              "rank_absolute": 16,
+              "markdown": "![Where the Wild Things Are by SENDAK, Maurice - Jonkers Rare Books](https://images.openai.com/static-rsc-4/5qUxG71YImuI3AXZrXuMfs2ZEwc5uETNVKX25lrrKvGM8-PUzpXdegcx1OvtzSE9Ay6UgIxO_1A2uYwShNXrS3x_dv79OswNwtEK9GmFLnMshpQHKHgyhji9ZUhQVFqLZ3WQbwdFvv0Txi5ANRhrJLyR66ZO_3Cr1wz6o52rNC8vYkWaabKES8gMuucvkxNh?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.jonkers.co.uk/rare-book/14199/where-the-wild-things-are/maurice-sendak",
+                  "alt": "Where the Wild Things Are by SENDAK, Maurice - Jonkers Rare Books",
+                  "image_url": "https://images.openai.com/static-rsc-4/5qUxG71YImuI3AXZrXuMfs2ZEwc5uETNVKX25lrrKvGM8-PUzpXdegcx1OvtzSE9Ay6UgIxO_1A2uYwShNXrS3x_dv79OswNwtEK9GmFLnMshpQHKHgyhji9ZUhQVFqLZ3WQbwdFvv0Txi5ANRhrJLyR66ZO_3Cr1wz6o52rNC8vYkWaabKES8gMuucvkxNh?purpose=fullsize",
+                  "markdown": "![Where the Wild Things Are by SENDAK, Maurice - Jonkers Rare Books](https://images.openai.com/static-rsc-4/5qUxG71YImuI3AXZrXuMfs2ZEwc5uETNVKX25lrrKvGM8-PUzpXdegcx1OvtzSE9Ay6UgIxO_1A2uYwShNXrS3x_dv79OswNwtEK9GmFLnMshpQHKHgyhji9ZUhQVFqLZ3WQbwdFvv0Txi5ANRhrJLyR66ZO_3Cr1wz6o52rNC8vYkWaabKES8gMuucvkxNh?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 9,
+              "rank_absolute": 17,
+              "markdown": "\n\n**8\\. Where the Wild Things Are — Maurice Sendak**\n\n**\\$5,000–\\$40,000+**\n\nFirst edition from 1963, especially signed copies.\n\n---\n\n",
+              "sources": null,
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Where the Wild Things Are",
+                  "category": "book",
+                  "markdown": "Where the Wild Things Are",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 9,
+              "rank_absolute": 18,
+              "markdown": "![CHARLIE AND THE CHOCOLATE FACTORY | Roald Dahl | First issue](https://images.openai.com/static-rsc-4/tuhnsOgd7u7TN6i4OVUZzOaEZIhY9JAHhn6uYX4MscxZ79sq8D4r6nR6Jj9zmqJTsXwS8rGYJbGAJ7mkxs0HK59T0468SAU0xubkgNI-3NuW1pFrk_z9ij2x8I-CdksmltcWAmPieG_cBolF1KBXCV9BFg-2xtjWqPWDyeYQeAINidpMfK3JrWNNJ0mpxqXD?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.typepunchmatrix.com/pages/books/50415/roald-dahl/charlie-and-the-chocolate-factory",
+                  "alt": "CHARLIE AND THE CHOCOLATE FACTORY | Roald Dahl | First issue",
+                  "image_url": "https://images.openai.com/static-rsc-4/tuhnsOgd7u7TN6i4OVUZzOaEZIhY9JAHhn6uYX4MscxZ79sq8D4r6nR6Jj9zmqJTsXwS8rGYJbGAJ7mkxs0HK59T0468SAU0xubkgNI-3NuW1pFrk_z9ij2x8I-CdksmltcWAmPieG_cBolF1KBXCV9BFg-2xtjWqPWDyeYQeAINidpMfK3JrWNNJ0mpxqXD?purpose=fullsize",
+                  "markdown": "![CHARLIE AND THE CHOCOLATE FACTORY | Roald Dahl | First issue](https://images.openai.com/static-rsc-4/tuhnsOgd7u7TN6i4OVUZzOaEZIhY9JAHhn6uYX4MscxZ79sq8D4r6nR6Jj9zmqJTsXwS8rGYJbGAJ7mkxs0HK59T0468SAU0xubkgNI-3NuW1pFrk_z9ij2x8I-CdksmltcWAmPieG_cBolF1KBXCV9BFg-2xtjWqPWDyeYQeAINidpMfK3JrWNNJ0mpxqXD?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 10,
+              "rank_absolute": 19,
+              "markdown": "\n\n**9\\. Charlie and the Chocolate Factory — Roald Dahl**\n\n**\\$5,000–\\$25,000+**\n\nOriginal 1964 American edition.\n\n---\n\n",
+              "sources": null,
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Charlie and the Chocolate Factory",
+                  "category": "book",
+                  "markdown": "Charlie and the Chocolate Factory",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 10,
+              "rank_absolute": 20,
+              "markdown": "![Goodnight Moon. by WISE BROWN, Margaret; HURD, Clement (illustrator).: (1947) | Shapero Rare Books](https://images.openai.com/static-rsc-4/tl0G8DoNxc_imDZCGucSvsuKzAQVJEb-rFG42kC9_qDhMpV0ECypwldog6rNFBvz8RpP5SOdrREzljjwn6ku_leWjRVCB1VJFbF1cUiZ6yyJVZFuOccaeRYW5c9r2e3G8usjtDnr_bHQ-SyRj2z7v3mlV1rM4RJpusokZa2rCWITazFu-bzdrDZ8ZoWumV7H?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.abebooks.com/first-edition/Goodnight-Moon-WISE-BROWN-Margaret-HURD/32205658117/bd",
+                  "alt": "Goodnight Moon. by WISE BROWN, Margaret; HURD, Clement (illustrator).: (1947) | Shapero Rare Books",
+                  "image_url": "https://images.openai.com/static-rsc-4/tl0G8DoNxc_imDZCGucSvsuKzAQVJEb-rFG42kC9_qDhMpV0ECypwldog6rNFBvz8RpP5SOdrREzljjwn6ku_leWjRVCB1VJFbF1cUiZ6yyJVZFuOccaeRYW5c9r2e3G8usjtDnr_bHQ-SyRj2z7v3mlV1rM4RJpusokZa2rCWITazFu-bzdrDZ8ZoWumV7H?purpose=fullsize",
+                  "markdown": "![Goodnight Moon. by WISE BROWN, Margaret; HURD, Clement (illustrator).: (1947) | Shapero Rare Books](https://images.openai.com/static-rsc-4/tl0G8DoNxc_imDZCGucSvsuKzAQVJEb-rFG42kC9_qDhMpV0ECypwldog6rNFBvz8RpP5SOdrREzljjwn6ku_leWjRVCB1VJFbF1cUiZ6yyJVZFuOccaeRYW5c9r2e3G8usjtDnr_bHQ-SyRj2z7v3mlV1rM4RJpusokZa2rCWITazFu-bzdrDZ8ZoWumV7H?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 11,
+              "rank_absolute": 21,
+              "markdown": "\n\n**10\\. Goodnight Moon — Margaret Wise Brown**\n\n**Potentially \\$20,000+**\n\nScarce original 1947 first edition.\n\n**Other valuable children's books worth checking\\:**\n\n11. Curious George — H.A. Rey (1941)\n12. The Snowy Day — Ezra Jack Keats (1962)\n13. Make Way for Ducklings — Robert McCloskey (1941)\n14. The Velveteen Rabbit — Margery Williams (1922)\n15. The Cat in the Hat — Dr. Seuss (1957)\n\nThese titles appear in specialist collectible-book price guides. [www.abebooks.com](https://www.abebooks.com/books/rarebooks/most-valuable-childrens-books.shtml?utm_source=chatgpt.com)[1stedition.net](https://1stedition.net/?pg=%2Fvalues%2Fmostvaluable&utm_source=chatgpt.com)[ravelstein.com](https://ravelstein.com/wiki/market-analysis/children-s-book-collecting-guide/?utm_source=chatgpt.com)[www.natgeokids.com](https://www.natgeokids.com/uk/kids-club/entertainment/books/valuable-rare-childrens-books/?utm_source=chatgpt.com)\n\n## What makes a children's book valuable?\n\n- First edition AND first printing.\n- Original dust jacket.\n- Author's signature or original illustration.\n- Excellent condition.\n- Limited print runs and historical significance.\n\n## I can help you find hidden treasures\n\nIf you're interested in finding valuable books in an attic, estate sale, thrift store, or an existing collection, I can help identify them.\n\n**One question\\:** Are you looking for\\:\n\n1. Books you might already own that could be worth money?\n2. The most expensive children's books ever sold?\n3. Children's books worth buying now as investments?\n4. Rare books to look for at garage sales, thrift stores, and estate sales?\n\nI can put together a much more detailed list with estimated values and pictures.",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "The world's most valuable children's books",
+                  "snippet": null,
+                  "domain": "www.abebooks.com",
+                  "url": "https://www.abebooks.com/books/rarebooks/most-valuable-childrens-books.shtml?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "abebooks.com",
+                  "publication_date": null,
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": null,
+                  "snippet": null,
+                  "domain": "1stedition.net",
+                  "url": "https://1stedition.net/?pg=%2Fvalues%2Fmostvaluable&utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "1stedition.net",
+                  "publication_date": null,
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Children's Book Collecting — A Complete Guide to the Most Challenging Category",
+                  "snippet": null,
+                  "domain": "ravelstein.com",
+                  "url": "https://ravelstein.com/wiki/market-analysis/children-s-book-collecting-guide/?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "Ravelstein",
+                  "publication_date": "2026-05-02 00:00:00 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "11 of the most valuable kids' books of all time",
+                  "snippet": null,
+                  "domain": "www.natgeokids.com",
+                  "url": "https://www.natgeokids.com/uk/kids-club/entertainment/books/valuable-rare-childrens-books/?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "National Geographic Kids",
+                  "publication_date": "2017-03-01 11:50:53 +00:00",
+                  "markdown": null
+                }
+              ],
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Goodnight Moon",
+                  "category": "book",
+                  "markdown": "Goodnight Moon",
+                  "urls": null
+                },
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Curious George",
+                  "category": "book",
+                  "markdown": "Curious George",
+                  "urls": null
+                },
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "The Snowy Day",
+                  "category": "book",
+                  "markdown": "The Snowy Day",
+                  "urls": null
+                },
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Make Way for Ducklings",
+                  "category": "book",
+                  "markdown": "Make Way for Ducklings",
+                  "urls": null
+                },
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "The Velveteen Rabbit",
+                  "category": "book",
+                  "markdown": "The Velveteen Rabbit",
+                  "urls": null
+                },
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "The Cat in the Hat",
+                  "category": "book",
+                  "markdown": "The Cat in the Hat",
+                  "urls": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

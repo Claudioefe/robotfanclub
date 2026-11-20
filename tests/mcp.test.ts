@@ -104,23 +104,27 @@ describe.skipIf(!hasEnv)("tools against the development database", () => {
     expect(text).not.toMatch(/fee|cost/i);
   });
 
-  it("gives the pilot's day-1 citations, with the SLA reading but no fee", async () => {
+  // The pilot is a real client that gets a new day of checks (and citations) every run, so these tests do not pin its numbers:
+  // they check that the tools agree with each other. Day 1 (2026-11-19) is pinned in tests/watcher/pilot-data.test.ts.
+  it("gives the pilot's citations, with the SLA reading but no fee", async () => {
     const { json } = await call("get_citations", { client_id: PILOT });
-    expect(json.summary).toMatchObject({ citations: 11, citationsOutsideTop10: 11, shareOutsideTop10: 1, meetsOutsideTop10Goal: true });
-    expect(json.summary.citationRate).toMatchObject({ checksCited: 13, checksWithAi: 27 });
+    expect(json.summary.citations).toBeGreaterThanOrEqual(11); // citations only accumulate inside a window
+    expect(json.summary.citationsOutsideTop10).toBeLessThanOrEqual(json.summary.citations);
+    expect(json.summary.citationRate.checksWithAi).toBeGreaterThanOrEqual(27);
     expect(json.window).toMatchObject({ frozenQueries: 15, days: 60 });
     expect(json.rows).toHaveLength(15);
-    const gap = await call("get_citations", { client_id: PILOT, filter: "gap" });
-    expect(gap.json.matching).toBe(4);
+    expect(json.rows.filter((r: { cited: boolean }) => r.cited)).toHaveLength(json.summary.citations);
     const limited = await call("get_citations", { client_id: PILOT, limit: 3 });
     expect(limited.json.rows).toHaveLength(3);
     expect(limited.json.truncated).toBe(true);
   });
 
   it("lists the gap and who was cited instead", async () => {
+    const all = await call("get_citations", { client_id: PILOT, filter: "gap" });
     const { json } = await call("get_gaps", { client_id: PILOT });
-    expect(json.gaps.map((g: { query: string }) => g.query).sort()).toEqual(["gifts for a book lover", "how to sell rare books", "most valuable stephen king books", "where to sell first edition books"]);
-    expect(json.mostCitedInstead.map((d: { domain: string }) => d.domain)).toContain("reddit.com");
+    expect(json.gaps).toHaveLength(all.json.matching); // the two tools agree on what a gap is
+    expect(json.gaps.length).toBeGreaterThan(0);
+    expect(json.mostCitedInstead.length).toBeGreaterThan(0);
     expect(JSON.stringify(json)).not.toContain("google.com");
   });
 

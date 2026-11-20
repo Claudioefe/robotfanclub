@@ -1,0 +1,927 @@
+{
+  "cost": 0.002,
+  "result": {
+    "keyword": "which wizard of oz books are considered the best?",
+    "type": "organic",
+    "se_domain": "google.com",
+    "location_code": 2840,
+    "language_code": "en",
+    "check_url": "https://www.google.com/search?q=which%20wizard%20of%20oz%20books%20are%20considered%20the%20best%3F&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+    "datetime": "2026-11-20 11:59:46 +00:00",
+    "spell": null,
+    "refinement_chips": {
+      "type": "refinement_chips",
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[4]/div[1]/div[1]/div[2]/span[1]/div[1]/div[1]/div[1]/div[2]",
+      "items": [
+        {
+          "type": "refinement_chips_element",
+          "title": "Kids' Books",
+          "url": "https://www.google.com/search?q=kids'+books+which+wizard+of+oz+are+considered+the+best&hl=en&gl=US&shoprs=GAEqMHdoaWNoIHdpemFyZCBvZiBveiBib29rcyBhcmUgY29uc2lkZXJlZCB0aGUgYmVzdDIbCAESC0tpZHMnIEJvb2tzOgoIzqk6EPXAOjACWNupIGAB&sa=X&ved=2ahUKEwj-7ZDCv5aYAxU-5ckDHalSK44Qip4GKAF6BAgZEAQ",
+          "domain": "www.google.com",
+          "options": null
+        },
+        {
+          "type": "refinement_chips_element",
+          "title": "On sale",
+          "url": "https://www.google.com/search?q=which+wizard+of+oz+books+are+considered+the+best?+sale&hl=en&gl=US&shoprs=EgRKAhgBGAYqMHdoaWNoIHdpemFyZCBvZiBveiBib29rcyBhcmUgY29uc2lkZXJlZCB0aGUgYmVzdDITCAYSB09uIHNhbGUYAiIESgIYAVjbqSBgAQ&sa=X&ved=2ahUKEwj-7ZDCv5aYAxU-5ckDHalSK44Qip4GKAJ6BAgZEAU",
+          "domain": "www.google.com",
+          "options": null
+        },
+        {
+          "type": "refinement_chips_element",
+          "title": "Adult",
+          "url": "https://www.google.com/search?q=adult+which+wizard+of+oz+books+are+considered+the+best&hl=en&gl=US&shoprs=GBIqMHdoaWNoIHdpemFyZCBvZiBveiBib29rcyBhcmUgY29uc2lkZXJlZCB0aGUgYmVzdDIJCBISBUFkdWx0YAE&sa=X&ved=2ahUKEwj-7ZDCv5aYAxU-5ckDHalSK44Qip4GKAN6BAgZEAY",
+          "domain": "www.google.com",
+          "options": null
+        },
+        {
+          "type": "refinement_chips_element",
+          "title": "Under $15",
+          "url": "https://www.google.com/search?q=which+wizard+of+oz+books+are+considered+the+best?+under+$15&hl=en&gl=US&shoprs=Eg0SCxEAAAAAOJxsQRgBGAUqMHdoaWNoIHdpemFyZCBvZiBveiBib29rcyBhcmUgY29uc2lkZXJlZCB0aGUgYmVzdDIiCAUSCVVuZGVyICQxNRgCIg0SCxEAAAAAOJxsQRgBKgIYAVjbqSBgAQ&sa=X&ved=2ahUKEwj-7ZDCv5aYAxU-5ckDHalSK44Qip4GKAR6BAgZEAc",
+          "domain": "www.google.com",
+          "options": null
+        },
+        {
+          "type": "refinement_chips_element",
+          "title": "Get it fast",
+          "url": "https://www.google.com/search?q=which+wizard+of+oz+books+are+considered+the+best&hl=en&gl=US&shoprs=Eg2aAQoKCBADOAFAAUgBGBQqMHdoaWNoIHdpemFyZCBvZiBveiBib29rcyBhcmUgY29uc2lkZXJlZCB0aGUgYmVzdDIkCBQSC0dldCBpdCBmYXN0Ig2aAQoKCBADOAFAAUgBKgQQARgBYAE&sa=X&ved=2ahUKEwj-7ZDCv5aYAxU-5ckDHalSK44Qip4GKAV6BAgZEAg",
+          "domain": "www.google.com",
+          "options": null
+        },
+        {
+          "type": "refinement_chips_element",
+          "title": "Man",
+          "url": "https://www.google.com/search?q=man+which+wizard+of+oz+books+are+considered+the+best&hl=en&gl=US&shoprs=GBIqMHdoaWNoIHdpemFyZCBvZiBveiBib29rcyBhcmUgY29uc2lkZXJlZCB0aGUgYmVzdDIHCBISA01hbmAB&sa=X&ved=2ahUKEwj-7ZDCv5aYAxU-5ckDHalSK44Qip4GKAZ6BAgZEAk",
+          "domain": "www.google.com",
+          "options": null
+        },
+        {
+          "type": "refinement_chips_element",
+          "title": "Movie",
+          "url": "https://www.google.com/search?q=movie+which+wizard+of+oz+books+are+considered+the+best&hl=en&gl=US&shoprs=GBIqMHdoaWNoIHdpemFyZCBvZiBveiBib29rcyBhcmUgY29uc2lkZXJlZCB0aGUgYmVzdDIJCBISBU1vdmllYAE&sa=X&ved=2ahUKEwj-7ZDCv5aYAxU-5ckDHalSK44Qip4GKAd6BAgZEAo",
+          "domain": "www.google.com",
+          "options": null
+        },
+        {
+          "type": "refinement_chips_element",
+          "title": "Free",
+          "url": "https://www.google.com/search?q=free+which+wizard+of+oz+books+are+considered+the+best&hl=en&gl=US&shoprs=GBIqMHdoaWNoIHdpemFyZCBvZiBveiBib29rcyBhcmUgY29uc2lkZXJlZCB0aGUgYmVzdDIICBISBEZyZWVgAQ&sa=X&ved=2ahUKEwj-7ZDCv5aYAxU-5ckDHalSK44Qip4GKAh6BAgZEAs",
+          "domain": "www.google.com",
+          "options": null
+        },
+        {
+          "type": "refinement_chips_element",
+          "title": "Woman",
+          "url": "https://www.google.com/search?q=woman+which+wizard+of+oz+books+are+considered+the+best&hl=en&gl=US&shoprs=GBIqMHdoaWNoIHdpemFyZCBvZiBveiBib29rcyBhcmUgY29uc2lkZXJlZCB0aGUgYmVzdDIJCBISBVdvbWFuYAE&sa=X&ved=2ahUKEwj-7ZDCv5aYAxU-5ckDHalSK44Qip4GKAl6BAgZEAw",
+          "domain": "www.google.com",
+          "options": null
+        },
+        {
+          "type": "refinement_chips_element",
+          "title": "Girl",
+          "url": "https://www.google.com/search?q=girl+which+wizard+of+oz+books+are+considered+the+best&hl=en&gl=US&shoprs=GBIqMHdoaWNoIHdpemFyZCBvZiBveiBib29rcyBhcmUgY29uc2lkZXJlZCB0aGUgYmVzdDIICBISBEdpcmxgAQ&sa=X&ved=2ahUKEwj-7ZDCv5aYAxU-5ckDHalSK44Qip4GKAp6BAgZEA0",
+          "domain": "www.google.com",
+          "options": null
+        }
+      ]
+    },
+    "item_types": [
+      "organic",
+      "people_also_ask",
+      "popular_products"
+    ],
+    "se_results_count": 0,
+    "pages_count": 1,
+    "items_count": 12,
+    "items": [
+      {
+        "type": "organic",
+        "rank_group": 1,
+        "rank_absolute": 1,
+        "page": 1,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+        "domain": "www.litres.ru",
+        "title": "https://www.litres.ru/book/frank-l-baum/ozma-of-oz...",
+        "url": "https://www.litres.ru/book/frank-l-baum/ozma-of-oz-69114841/similar/",
+        "cache_url": null,
+        "related_search_url": null,
+        "breadcrumb": "https://www.litres.ru",
+        "website_name": "ЛитРес",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "is_web_story": false,
+        "checks": null,
+        "description": "No information is available for this page. Learn why",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "images": null,
+        "amp_version": false,
+        "rating": null,
+        "price": null,
+        "highlighted": null,
+        "links": null,
+        "faq": null,
+        "extended_people_also_search": null,
+        "about_this_result": null,
+        "related_result": null,
+        "timestamp": null,
+        "rectangle": null
+      },
+      {
+        "type": "people_also_ask",
+        "rank_group": 1,
+        "rank_absolute": 2,
+        "page": 1,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[4]/div[1]",
+        "items": [
+          {
+            "type": "people_also_ask_element",
+            "title": "Which Harry Potter book edition is the best?",
+            "seed_question": null,
+            "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[4]/div[1]/div[2]/div[2]/div[1]",
+            "expanded_element": [
+              {
+                "type": "people_also_ask_ai_overview_expanded_element",
+                "items": null,
+                "references": null,
+                "asynchronous_ai_overview": true
+              }
+            ]
+          },
+          {
+            "type": "people_also_ask_element",
+            "title": "What are the 12 great books?",
+            "seed_question": null,
+            "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[4]/div[1]/div[2]/div[2]/div[2]",
+            "expanded_element": [
+              {
+                "type": "people_also_ask_ai_overview_expanded_element",
+                "items": null,
+                "references": null,
+                "asynchronous_ai_overview": true
+              }
+            ]
+          },
+          {
+            "type": "people_also_ask_element",
+            "title": "What books do high IQ people read?",
+            "seed_question": null,
+            "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[4]/div[1]/div[2]/div[2]/div[3]",
+            "expanded_element": [
+              {
+                "type": "people_also_ask_ai_overview_expanded_element",
+                "items": null,
+                "references": null,
+                "asynchronous_ai_overview": true
+              }
+            ]
+          },
+          {
+            "type": "people_also_ask_element",
+            "title": "What is Amos Oz's most famous book?",
+            "seed_question": null,
+            "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[4]/div[1]/div[2]/div[2]/div[4]",
+            "expanded_element": [
+              {
+                "type": "people_also_ask_ai_overview_expanded_element",
+                "items": null,
+                "references": null,
+                "asynchronous_ai_overview": true
+              }
+            ]
+          }
+        ],
+        "rectangle": null
+      },
+      {
+        "type": "organic",
+        "rank_group": 2,
+        "rank_absolute": 3,
+        "page": 1,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]",
+        "domain": "bookfinder.com",
+        "title": "Untitled",
+        "url": "https://bookfinder.com/isbn/9781591940531/",
+        "cache_url": null,
+        "related_search_url": null,
+        "breadcrumb": "https://bookfinder.com",
+        "website_name": "BookFinder.com",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "is_web_story": false,
+        "checks": null,
+        "description": "JavaScript is disabled. In order to continue, we need to verify that you're not a robot. This requires JavaScript. Enable JavaScript and then reload the page.",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "images": null,
+        "amp_version": false,
+        "rating": null,
+        "price": null,
+        "highlighted": null,
+        "links": null,
+        "faq": null,
+        "extended_people_also_search": null,
+        "about_this_result": null,
+        "related_result": null,
+        "timestamp": null,
+        "rectangle": null
+      },
+      {
+        "type": "organic",
+        "rank_group": 3,
+        "rank_absolute": 4,
+        "page": 1,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]",
+        "domain": "www.facebook.com",
+        "title": "What are feel good books like The Wizard of Oz?",
+        "url": "https://www.facebook.com/groups/mybookloversclub/posts/7257952710940309/",
+        "cache_url": null,
+        "related_search_url": null,
+        "breadcrumb": "https://www.facebook.com",
+        "website_name": "Facebook",
+        "is_image": true,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "is_web_story": false,
+        "checks": [
+          "is_image"
+        ],
+        "description": "Hello I'm looking for a feel good kind of book I like the Wizard of Oz. Any recommendations I don't know what genre it is can you help?",
+        "pre_snippet": "04/11/2024 00:00:00",
+        "extended_snippet": null,
+        "images": [
+          {
+            "type": "images_element",
+            "alt": null,
+            "url": null,
+            "image_url": "https://api.dataforseo.com/cdn/i/11201158-2831-0139-0000-ea29bc887705:0"
+          },
+          {
+            "type": "images_element",
+            "alt": null,
+            "url": null,
+            "image_url": "https://api.dataforseo.com/cdn/i/11201158-2831-0139-0000-ea29bc887705:1"
+          },
+          {
+            "type": "images_element",
+            "alt": null,
+            "url": null,
+            "image_url": "https://api.dataforseo.com/cdn/i/11201158-2831-0139-0000-ea29bc887705:2"
+          },
+          {
+            "type": "images_element",
+            "alt": null,
+            "url": null,
+            "image_url": "https://api.dataforseo.com/cdn/i/11201158-2831-0139-0000-ea29bc887705:3"
+          },
+          {
+            "type": "images_element",
+            "alt": null,
+            "url": null,
+            "image_url": "https://api.dataforseo.com/cdn/i/11201158-2831-0139-0000-ea29bc887705:4"
+          }
+        ],
+        "amp_version": false,
+        "rating": null,
+        "price": null,
+        "highlighted": null,
+        "links": [
+          {
+            "type": "link_element",
+            "title": "Om almost at the end of first book in the Wicked series by Gregory  Maguire. 'Oz 'for grown ...",
+            "description": "Top answer · 1 vote",
+            "url": "https://www.facebook.com/groups/mybookloversclub/posts/7257952710940309/",
+            "domain": "www.facebook.com"
+          },
+          {
+            "type": "link_element",
+            "title": "I'd suggest The Night Circus and The Starless Sea",
+            "description": "1 vote",
+            "url": "https://www.facebook.com/groups/mybookloversclub/posts/7257952710940309/",
+            "domain": "www.facebook.com"
+          },
+          {
+            "type": "link_element",
+            "title": "A Wrinkle in Time by Madeleine L’Engle.",
+            "description": "1 vote",
+            "url": "https://www.facebook.com/groups/mybookloversclub/posts/7257952710940309/",
+            "domain": "www.facebook.com"
+          }
+        ],
+        "faq": null,
+        "extended_people_also_search": null,
+        "about_this_result": null,
+        "related_result": null,
+        "timestamp": "2024-04-11 00:00:00 +00:00",
+        "rectangle": null
+      },
+      {
+        "type": "organic",
+        "rank_group": 4,
+        "rank_absolute": 5,
+        "page": 1,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]",
+        "domain": "www.reddit.com",
+        "title": "Which of Baum's books should I read? : r/wizardofoz",
+        "url": "https://www.reddit.com/r/wizardofoz/comments/1kuzs8i/which_of_baums_books_should_i_read/",
+        "cache_url": null,
+        "related_search_url": null,
+        "breadcrumb": "1 comment",
+        "website_name": "Reddit · r/wizardofoz",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "is_web_story": false,
+        "checks": null,
+        "description": "I recently read the comic adaptations of the first 6 Oz books (the ones published by Marvel about 15 years ago), and am now going through the original ...",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "images": null,
+        "amp_version": false,
+        "rating": null,
+        "price": null,
+        "highlighted": null,
+        "links": [
+          {
+            "type": "link_element",
+            "title": "I honestly recommend slogging through them because they're short books designed to be accessible ...",
+            "description": "Top answer · 5 votes",
+            "url": "https://www.reddit.com/r/wizardofoz/comments/1kuzs8i/which_of_baums_books_should_i_read/mu6x8x9/",
+            "domain": "www.reddit.com"
+          },
+          {
+            "type": "link_element",
+            "title": "Honestly id say the story telling largely improves but generally follows the same plot beats ...",
+            "description": "3 votes",
+            "url": "https://www.reddit.com/r/wizardofoz/comments/1kuzs8i/which_of_baums_books_should_i_read/mu6kvej/",
+            "domain": "www.reddit.com"
+          },
+          {
+            "type": "link_element",
+            "title": "Of the non-Oz books, I always liked Sky Island as a kid.\n\nand while The Road to Oz doesn't have ...",
+            "description": "1 vote",
+            "url": "https://www.reddit.com/r/wizardofoz/comments/1kuzs8i/which_of_baums_books_should_i_read/mujdczm/",
+            "domain": "www.reddit.com"
+          },
+          {
+            "type": "link_element",
+            "title": "Yes there is so much repetitiveness in the books, as they go on, that \"aimlessly bumming ...",
+            "description": "1 vote",
+            "url": "https://www.reddit.com/r/wizardofoz/comments/1kuzs8i/which_of_baums_books_should_i_read/mur7ii6/",
+            "domain": "www.reddit.com"
+          }
+        ],
+        "faq": null,
+        "extended_people_also_search": null,
+        "about_this_result": null,
+        "related_result": null,
+        "timestamp": "2025-11-20 11:59:01 +00:00",
+        "rectangle": null
+      },
+      {
+        "type": "organic",
+        "rank_group": 5,
+        "rank_absolute": 6,
+        "page": 1,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[12]/div[1]/div[1]/div[1]/div[1]",
+        "domain": "itsastampede.com",
+        "title": "The Wizard of Oz books in order | It's A Stampede!",
+        "url": "https://itsastampede.com/2025/09/20/what-is-the-order-of-the-wizard-of-oz-books/",
+        "cache_url": null,
+        "related_search_url": null,
+        "breadcrumb": "https://itsastampede.com",
+        "website_name": "itsastampede.com",
+        "is_image": true,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "is_web_story": false,
+        "checks": [
+          "is_image"
+        ],
+        "description": "Sep 20, 2025 — The Wonderful Wizard of Oz (1900 ) · The Marvelous Land of Oz (1904) · Ozma of Oz (1907) · Dorothy and the Wizard in Oz (1908) · The Road to Oz (1909) ...",
+        "pre_snippet": "The Wonderful Wizard of Oz (1900) · The Marvelous Land of Oz (1904) · Ozma of Oz (1907) · Dorothy and the Wizard in Oz (1908) · The Road to Oz (1909) ...",
+        "extended_snippet": null,
+        "images": [
+          {
+            "type": "images_element",
+            "alt": null,
+            "url": null,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwWB0ngegLRDHVp4ITUmblKQtgYeeueX6X8VHx-DmM9waErH6b-ouhewQ&s"
+          },
+          {
+            "type": "images_element",
+            "alt": null,
+            "url": null,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlqpNaP2mQMdvUUP0lhei2R3bHIlx89cW4Dev1PlEY6qMQ7dLBdQvEX_M&s"
+          },
+          {
+            "type": "images_element",
+            "alt": null,
+            "url": null,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm4FpXrUwlfElLR8uuWSuOWfTGSjGrZs026S19Rvns4651et-pJo09dKw&s"
+          }
+        ],
+        "amp_version": false,
+        "rating": null,
+        "price": null,
+        "highlighted": [
+          "The Wonderful Wizard of Oz (1900"
+        ],
+        "links": null,
+        "faq": null,
+        "extended_people_also_search": null,
+        "about_this_result": null,
+        "related_result": null,
+        "timestamp": "2025-09-20 00:00:00 +00:00",
+        "rectangle": null
+      },
+      {
+        "type": "organic",
+        "rank_group": 6,
+        "rank_absolute": 7,
+        "page": 1,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]/div[1]",
+        "domain": "toppsta.com",
+        "title": "All the The Wizard of Oz Collection Books in Order",
+        "url": "https://toppsta.com/books/series/1878/the-wizard-of-oz-collection",
+        "cache_url": null,
+        "related_search_url": null,
+        "breadcrumb": "https://toppsta.com",
+        "website_name": "Toppsta",
+        "is_image": true,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "is_web_story": false,
+        "checks": [
+          "is_image"
+        ],
+        "description": "Book 1. The Wonderful Wizard Of Oz ; Book 2. The Marvellous Land of Oz ; Book 3. Ozma of Oz ; Book 4. Dorothy and the Wizard in Oz ; Book 5. The Road to Oz.",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "images": [
+          {
+            "type": "images_element",
+            "alt": null,
+            "url": null,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRijsssPFrtYYD4DCDAO_1i6BJf_WxNyffHrGQmWG_7tS-TggohJ5W8w532b5uTVhODSSbyqKBs&s"
+          },
+          {
+            "type": "images_element",
+            "alt": null,
+            "url": null,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1q0Wp3WjZWVGaGBOriWerX5do6LPytxQSygFurTc5McRubhzo7Lcn4bQ&s"
+          },
+          {
+            "type": "images_element",
+            "alt": null,
+            "url": null,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxi6_czBza92iGJ5EuMsN4Wb2KUJZpZIC9dAVpfB7A5O2khao17HlhzfiFU7-b8_15gxDq-08&s"
+          }
+        ],
+        "amp_version": false,
+        "rating": {
+          "rating_type": "Max5",
+          "value": 4.4,
+          "votes_count": 14,
+          "rating_max": 5
+        },
+        "price": null,
+        "highlighted": [
+          "The Wonderful Wizard Of Oz"
+        ],
+        "links": null,
+        "faq": null,
+        "extended_people_also_search": null,
+        "about_this_result": null,
+        "related_result": null,
+        "timestamp": null,
+        "rectangle": null
+      },
+      {
+        "type": "organic",
+        "rank_group": 7,
+        "rank_absolute": 8,
+        "page": 1,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[16]/div[1]/div[1]/div[1]/div[1]",
+        "domain": "www.biblio.com",
+        "title": "The Wizard Of Oz by L Frank Baum - Biblio",
+        "url": "https://www.biblio.com/the-wizard-of-oz-by-l-frank-baum/work/1753?srsltid=AYCX9vIRqGGe4L56NwdgKNAlJEc9rocLwGzzcdXLl4on2njjFnZ5y7XG",
+        "cache_url": null,
+        "related_search_url": null,
+        "breadcrumb": "https://www.biblio.com",
+        "website_name": "biblio.com",
+        "is_image": true,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "is_web_story": false,
+        "checks": [
+          "is_image"
+        ],
+        "description": "The Wonderful Wizard of Oz is a children's novel written by L. Frank Baum and illustrated by W.W. Denslow. It was originally published by the George M. Hill ...",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "images": [
+          {
+            "type": "images_element",
+            "alt": null,
+            "url": null,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyZ6hq6qADbvVI5kBjjC9kEGLSh4pLgT_KjmicZEcumEjGedFSKyz9l_0bfROPdYEWHnjVgQ&s"
+          },
+          {
+            "type": "images_element",
+            "alt": null,
+            "url": null,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrx6pn8JX-awFjtSWBP56fodYoW5qVyf2cUDnYDfPput6LMj0WgpUvRg&s"
+          },
+          {
+            "type": "images_element",
+            "alt": null,
+            "url": null,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStxx5j7gtfhG_Wy_G5Yv9P4spgNrtjXisZ3Ifuqw_IQLHE2lYgWB8hneyi_NK27T3x-oc&s"
+          },
+          {
+            "type": "images_element",
+            "alt": null,
+            "url": null,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5E5-0CjF65JJinMF-B3DnoNJFkURLWom2xMdyhBS5jeiDVjzwR4iRxA&s"
+          },
+          {
+            "type": "images_element",
+            "alt": null,
+            "url": null,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWeqmIBOXT5v75sCMAsy6xkCooAbtKSdiYCn2vEtqEb_TPLA0BjSVIyUo&s"
+          }
+        ],
+        "amp_version": false,
+        "rating": {
+          "rating_type": "Max5",
+          "value": 4.7,
+          "votes_count": 5600,
+          "rating_max": 5
+        },
+        "price": null,
+        "highlighted": [
+          "The Wonderful Wizard of Oz"
+        ],
+        "links": null,
+        "faq": null,
+        "extended_people_also_search": null,
+        "about_this_result": null,
+        "related_result": null,
+        "timestamp": null,
+        "rectangle": null
+      },
+      {
+        "type": "organic",
+        "rank_group": 8,
+        "rank_absolute": 9,
+        "page": 1,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[18]/div[1]/div[1]/div[1]/div[1]",
+        "domain": "www.goodreads.com",
+        "title": "Editions of The Wizard of Oz 15 Book Collection by L. Frank Baum",
+        "url": "https://www.goodreads.com/work/editions/91638202-the-wizard-of-oz-15-book-collection",
+        "cache_url": null,
+        "related_search_url": null,
+        "breadcrumb": "https://www.goodreads.com",
+        "website_name": "Goodreads",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "is_web_story": false,
+        "checks": null,
+        "description": "The Wonderful Wizard of Oz Box Set, The Marvellous Land of Oz, Ozma of Oz, Dorothy and the Wizard in Oz, The Road",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "images": null,
+        "amp_version": false,
+        "rating": null,
+        "price": null,
+        "highlighted": [
+          "The Wonderful Wizard of Oz Box Set"
+        ],
+        "links": null,
+        "faq": null,
+        "extended_people_also_search": null,
+        "about_this_result": null,
+        "related_result": null,
+        "timestamp": null,
+        "rectangle": null
+      },
+      {
+        "type": "popular_products",
+        "rank_group": 1,
+        "rank_absolute": 10,
+        "page": 1,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[20]",
+        "title": "Popular products",
+        "items": [
+          {
+            "type": "popular_products_element",
+            "title": "The Complete Collection Wizard of oz Series 15 Books Collection Box Set By L. Frank Baum",
+            "url": "https://www.google.com/search?ibp=oshop&q=which+wizard+of+oz+books+are+considered+the+best%3F&prds=gpcid:9782597564211266257,rds:PC_9782597564211266257%7CPROD_PC_9782597564211266257,headlineOfferDocid:12742217866533452316,catalogid:219987181247714376,pvo:3,pvt:hg&hl=en&gl=US",
+            "domain": "www.google.com",
+            "description": "Walmart - USA 4 Books & more",
+            "more_sellers": true,
+            "seller": "Walmart - USA 4 Books",
+            "group_title": null,
+            "group_source": null,
+            "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSuLyiOjit9nNOiVRjlxp673VBpmExZvJ44TCbNy4ntGKgXxOThbzfvp85FBZ_3JFd59DN46hN43Njgfv3I1AAnByx93y7qtNTfEoWbFVFghX69PP7q7O0e",
+            "price": {
+              "current": 32.99,
+              "regular": null,
+              "max_value": null,
+              "currency": "USD",
+              "is_price_range": false,
+              "displayed_price": "$32.99"
+            },
+            "rating": {
+              "rating_type": "Max5",
+              "value": 4.4,
+              "votes_count": 7,
+              "rating_max": 5
+            },
+            "product_identifiers": {
+              "product_id": "219987181247714376",
+              "data_docid": "13931846446857532536",
+              "gid": "9782597564211266257"
+            }
+          },
+          {
+            "type": "popular_products_element",
+            "title": "The Complete Wizard of oz Collection (100 Copy Collector's Edition)",
+            "url": "https://www.google.com/search?ibp=oshop&q=which+wizard+of+oz+books+are+considered+the+best%3F&prds=gpcid:17269646140482374999,rds:PC_17269646140482374999%7CPROD_PC_17269646140482374999,headlineOfferDocid:17198523325683248468,catalogid:10939126331556953239,pvo:3,pvt:hg&hl=en&gl=US",
+            "domain": "www.google.com",
+            "description": "Barnes & Noble & more\nFree delivery by Mon",
+            "more_sellers": true,
+            "seller": "Barnes & Noble",
+            "group_title": null,
+            "group_source": null,
+            "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSsVZh9U4PPBuaoAHOf37UXoUYoxoFsKCMEU_2Gkn6nRVlhWrSjsMa42LiI6gu93XqhS7csP3OtEVqRE5-oVCNIL2bdeYY1Ghb-4putkVQ",
+            "price": {
+              "current": 69.95,
+              "regular": null,
+              "max_value": null,
+              "currency": "USD",
+              "is_price_range": false,
+              "displayed_price": "$69.95"
+            },
+            "rating": {
+              "rating_type": "Max5",
+              "value": 5,
+              "votes_count": 1,
+              "rating_max": 5
+            },
+            "product_identifiers": {
+              "product_id": "10939126331556953239",
+              "data_docid": "9361335595063755211",
+              "gid": "17269646140482374999"
+            }
+          },
+          {
+            "type": "popular_products_element",
+            "title": "The Wizard of oz 15 Book Deluxe Hardcover Collection for Young Readers Classic",
+            "url": "https://www.google.com/search?ibp=oshop&q=which+wizard+of+oz+books+are+considered+the+best%3F&prds=gpcid:252538000947774281,rds:PC_252538000947774281%7CPROD_PC_252538000947774281,headlineOfferDocid:3336944141785463937,catalogid:630958418254139825,pvo:3,pvt:hg&hl=en&gl=US",
+            "domain": "www.google.com",
+            "description": "Walmart - USA 4 Books & more",
+            "more_sellers": true,
+            "seller": "Walmart - USA 4 Books",
+            "group_title": null,
+            "group_source": null,
+            "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTC_2dS0E-jDcsaTxyphfbu6iG3kq9TyBoel32v7nQTRcExy9CH5zJtjrYUcBFi1Qpl1Aot4buLtSA79VTJbPmarPCaVl-DRpCS2q57WrNhiF6d5miimuWU",
+            "price": {
+              "current": 55.99,
+              "regular": 3.73,
+              "max_value": null,
+              "currency": "USD",
+              "is_price_range": false,
+              "displayed_price": "$55.99 $3.73/ct"
+            },
+            "rating": null,
+            "product_identifiers": {
+              "product_id": "630958418254139825",
+              "data_docid": "7879657364984675332",
+              "gid": "252538000947774281"
+            }
+          },
+          {
+            "type": "popular_products_element",
+            "title": "The Wonderful Wizard of oz (Masterpiece Library Edition)",
+            "url": "https://www.google.com/search?ibp=oshop&q=which+wizard+of+oz+books+are+considered+the+best%3F&prds=gpcid:17341862908893177768,rds:PC_17341862908893177768%7CPROD_PC_17341862908893177768,headlineOfferDocid:9472643214447249503,catalogid:13427016050317704434,pvo:3,pvt:hg&hl=en&gl=US",
+            "domain": "www.google.com",
+            "description": "Penguin Bookshop & more",
+            "more_sellers": true,
+            "seller": "Penguin Bookshop",
+            "group_title": null,
+            "group_source": null,
+            "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSf9p0a12ZYksWkH-I2wTw0dFVWxZCDG9iT0JlRbys2qvDhmuDzvstq8UI-dmharNzIw0xBHUkM4Yoft5v55HAgexZcBvIXIQ",
+            "price": {
+              "current": 17.99,
+              "regular": null,
+              "max_value": null,
+              "currency": "USD",
+              "is_price_range": false,
+              "displayed_price": "$17.99"
+            },
+            "rating": {
+              "rating_type": "Max5",
+              "value": 5,
+              "votes_count": 1,
+              "rating_max": 5
+            },
+            "product_identifiers": {
+              "product_id": "13427016050317704434",
+              "data_docid": "6609278609176322028",
+              "gid": "17341862908893177768"
+            }
+          },
+          {
+            "type": "popular_products_element",
+            "title": "The Wizard of Oz: And Other Wonderful Books of Oz: The Emerald City of oz And Glinda of oz",
+            "url": "https://www.google.com/search?ibp=oshop&q=which+wizard+of+oz+books+are+considered+the+best%3F&prds=gpcid:8157022932295753886,rds:PC_8157022932295753886%7CPROD_PC_8157022932295753886,headlineOfferDocid:5489078427629392607,catalogid:10468238073324328299,pvo:3,pvt:hg&hl=en&gl=US",
+            "domain": "www.google.com",
+            "description": "Target & more\nFree delivery on $35+",
+            "more_sellers": true,
+            "seller": "Target",
+            "group_title": null,
+            "group_source": null,
+            "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcST_FziQKVdDNnE-0Q7IJYKEl41Mwo8s8bbTZYaYy0puvx-0GdL0G4ufGUgxgJmUZ37IRG35TCQPkWTbT57-XFQqDrYNfjRyw3Nc2rBYFjY",
+            "price": {
+              "current": 12.4,
+              "regular": null,
+              "max_value": null,
+              "currency": "USD",
+              "is_price_range": false,
+              "displayed_price": "$12.40"
+            },
+            "rating": {
+              "rating_type": "Max5",
+              "value": 3.8,
+              "votes_count": 12,
+              "rating_max": 5
+            },
+            "product_identifiers": {
+              "product_id": "10468238073324328299",
+              "data_docid": "5924673045768100080",
+              "gid": "8157022932295753886"
+            }
+          },
+          {
+            "type": "popular_products_element",
+            "title": "The Wizard of oz",
+            "url": "https://www.google.com/search?ibp=oshop&q=which+wizard+of+oz+books+are+considered+the+best%3F&prds=gpcid:457556484845208556,rds:PC_457556484845208556%7CPROD_PC_457556484845208556,headlineOfferDocid:2728016584719040578,catalogid:10140398646443296322,pvo:3,pvt:hg&hl=en&gl=US",
+            "domain": "www.google.com",
+            "description": "Penguin Random House & more",
+            "more_sellers": true,
+            "seller": "Penguin Random House",
+            "group_title": null,
+            "group_source": null,
+            "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTDpMQGp2BngpIVRD5URcNzRO6G9vLTwimbrkN-Ic4Ly7stdC_BpW7uX66wQNltR5INYkS1OWRf_yXTJ5_8M_Xrel2cMLh9lXj4I-8616U",
+            "price": {
+              "current": 5.99,
+              "regular": null,
+              "max_value": null,
+              "currency": "USD",
+              "is_price_range": false,
+              "displayed_price": "$5.99"
+            },
+            "rating": {
+              "rating_type": "Max5",
+              "value": 4.7,
+              "votes_count": 33,
+              "rating_max": 5
+            },
+            "product_identifiers": {
+              "product_id": "10140398646443296322",
+              "data_docid": "7360653576960414692",
+              "gid": "457556484845208556"
+            }
+          }
+        ],
+        "rectangle": null
+      },
+      {
+        "type": "organic",
+        "rank_group": 9,
+        "rank_absolute": 11,
+        "page": 1,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[22]/div[1]/div[1]/div[1]/div[1]",
+        "domain": "www.reddit.com",
+        "title": "Favourite Oz books apart from the Famous Fourty? : r/wizardofoz",
+        "url": "https://www.reddit.com/r/wizardofoz/comments/1hb6sif/favourite_oz_books_apart_from_the_famous_fourty/",
+        "cache_url": null,
+        "related_search_url": null,
+        "breadcrumb": "https://www.reddit.com",
+        "website_name": "Reddit",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "is_web_story": false,
+        "checks": null,
+        "description": "Dec 10, 2024 — The only one I've read that I really remember is Dorothy of Oz. my new years resolution is to read more of the post famous forty Oz books though.",
+        "pre_snippet": "12/10/2024 00:00:00",
+        "extended_snippet": null,
+        "images": null,
+        "amp_version": false,
+        "rating": null,
+        "price": null,
+        "highlighted": [
+          "Dorothy of Oz"
+        ],
+        "links": null,
+        "faq": null,
+        "extended_people_also_search": null,
+        "about_this_result": null,
+        "related_result": null,
+        "timestamp": "2024-12-10 00:00:00 +00:00",
+        "rectangle": null
+      },
+      {
+        "type": "organic",
+        "rank_group": 10,
+        "rank_absolute": 12,
+        "page": 1,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[24]/div[1]/div[1]/div[1]/div[1]",
+        "domain": "www.facebook.com",
+        "title": "Hi everyone!! I have a question for Oz' readers, would you recommend to ...",
+        "url": "https://www.facebook.com/groups/884776152862900/posts/1308040797203098/",
+        "cache_url": null,
+        "related_search_url": null,
+        "breadcrumb": "https://www.facebook.com",
+        "website_name": "Facebook",
+        "is_image": true,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "is_web_story": false,
+        "checks": [
+          "is_image"
+        ],
+        "description": "Hi everyone!!\n\nI have a question for Oz’ readers, would you recommend to read all of the books from Oz?\nIf not… which ones do you think are ...",
+        "pre_snippet": "01/26/2025 00:00:00",
+        "extended_snippet": null,
+        "images": [
+          {
+            "type": "images_element",
+            "alt": null,
+            "url": null,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWeafzDosjpj450HmExMQse8-dO7rOrp-GDrByRRFvdYSGlfETtDLlNSdclYs5LVfZ-vOerDs&s"
+          },
+          {
+            "type": "images_element",
+            "alt": null,
+            "url": null,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREJ0zqu1EnDDmIB-FSivA85YyynJ4HYmTVxPrXpJxSfPOgP29qpxR5Nfw&s"
+          },
+          {
+            "type": "images_element",
+            "alt": null,
+            "url": null,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWDJPhdf8VQDs72tB6Pve7_jvXZmRdBy2qvhuAcIEURhUOcI70RczXF3_bKw&s"
+          }
+        ],
+        "amp_version": false,
+        "rating": null,
+        "price": null,
+        "highlighted": null,
+        "links": [
+          {
+            "type": "link_element",
+            "title": "If you're only going to see the musical and the movie, it's not necessary to read them. But if you're going to read the Wicked book, I recommend reading ...",
+            "description": "Top answer · 1 vote",
+            "url": "https://www.facebook.com/groups/884776152862900/posts/1308040797203098/",
+            "domain": "www.facebook.com"
+          }
+        ],
+        "faq": null,
+        "extended_people_also_search": null,
+        "about_this_result": null,
+        "related_result": null,
+        "timestamp": "2025-01-26 00:00:00 +00:00",
+        "rectangle": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,1168 @@
+{
+  "cost": 0.004,
+  "result": {
+    "keyword": "which wizard of oz books are considered the best?",
+    "type": "organic",
+    "se_domain": "google.com",
+    "location_code": 2840,
+    "language_code": "en",
+    "check_url": "https://www.google.com/search?q=which%20wizard%20of%20oz%20books%20are%20considered%20the%20best%3F&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+    "datetime": "2026-11-20 11:58:18 +00:00",
+    "spell": null,
+    "refinement_chips": {
+      "type": "refinement_chips",
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[4]/div[1]/div[1]/div[2]/span[1]/div[1]/div[1]/div[1]/div[2]",
+      "items": [
+        {
+          "type": "refinement_chips_element",
+          "title": "Kids' Books",
+          "url": "https://www.google.com/search?q=kids'+books+which+wizard+of+oz+are+considered+the+best&hl=en&gl=US&shoprs=GAEqMHdoaWNoIHdpemFyZCBvZiBveiBib29rcyBhcmUgY29uc2lkZXJlZCB0aGUgYmVzdDIbCAESC0tpZHMnIEJvb2tzOgoIzqk6EPXAOjACWNupIGAB&sa=X&ved=2ahUKEwi2-qOKv5aYAxVul2oFHXgfK6kQip4GKAF6BAgREAQ",
+          "domain": "www.google.com",
+          "options": null
+        },
+        {
+          "type": "refinement_chips_element",
+          "title": "On sale",
+          "url": "https://www.google.com/search?q=which+wizard+of+oz+books+are+considered+the+best?+sale&hl=en&gl=US&shoprs=EgRKAhgBGAYqMHdoaWNoIHdpemFyZCBvZiBveiBib29rcyBhcmUgY29uc2lkZXJlZCB0aGUgYmVzdDITCAYSB09uIHNhbGUYAiIESgIYAVjbqSBgAQ&sa=X&ved=2ahUKEwi2-qOKv5aYAxVul2oFHXgfK6kQip4GKAJ6BAgREAU",
+          "domain": "www.google.com",
+          "options": null
+        },
+        {
+          "type": "refinement_chips_element",
+          "title": "Adult",
+          "url": "https://www.google.com/search?q=adult+which+wizard+of+oz+books+are+considered+the+best&hl=en&gl=US&shoprs=GBIqMHdoaWNoIHdpemFyZCBvZiBveiBib29rcyBhcmUgY29uc2lkZXJlZCB0aGUgYmVzdDIJCBISBUFkdWx0YAE&sa=X&ved=2ahUKEwi2-qOKv5aYAxVul2oFHXgfK6kQip4GKAN6BAgREAY",
+          "domain": "www.google.com",
+          "options": null
+        },
+        {
+          "type": "refinement_chips_element",
+          "title": "Under $5",
+          "url": "https://www.google.com/search?q=which+wizard+of+oz+books+are+considered+the+best?+under+$5&hl=en&gl=US&shoprs=Eg0SCxEAAAAAiCpRQRgBGAUqMHdoaWNoIHdpemFyZCBvZiBveiBib29rcyBhcmUgY29uc2lkZXJlZCB0aGUgYmVzdDIhCAUSCFVuZGVyICQ1GAIiDRILEQAAAACIKlFBGAEqAhgBWNupIGAB&sa=X&ved=2ahUKEwi2-qOKv5aYAxVul2oFHXgfK6kQip4GKAR6BAgREAc",
+          "domain": "www.google.com",
+          "options": null
+        },
+        {
+          "type": "refinement_chips_element",
+          "title": "Get it fast",
+          "url": "https://www.google.com/search?q=which+wizard+of+oz+books+are+considered+the+best&hl=en&gl=US&shoprs=Eg2aAQoKCBADOAFAAUgBGBQqMHdoaWNoIHdpemFyZCBvZiBveiBib29rcyBhcmUgY29uc2lkZXJlZCB0aGUgYmVzdDIkCBQSC0dldCBpdCBmYXN0Ig2aAQoKCBADOAFAAUgBKgQQARgBYAE&sa=X&ved=2ahUKEwi2-qOKv5aYAxVul2oFHXgfK6kQip4GKAV6BAgREAg",
+          "domain": "www.google.com",
+          "options": null
+        },
+        {
+          "type": "refinement_chips_element",
+          "title": "Man",
+          "url": "https://www.google.com/search?q=man+which+wizard+of+oz+books+are+considered+the+best&hl=en&gl=US&shoprs=GBIqMHdoaWNoIHdpemFyZCBvZiBveiBib29rcyBhcmUgY29uc2lkZXJlZCB0aGUgYmVzdDIHCBISA01hbmAB&sa=X&ved=2ahUKEwi2-qOKv5aYAxVul2oFHXgfK6kQip4GKAZ6BAgREAk",
+          "domain": "www.google.com",
+          "options": null
+        },
+        {
+          "type": "refinement_chips_element",
+          "title": "Movie",
+          "url": "https://www.google.com/search?q=movie+which+wizard+of+oz+books+are+considered+the+best&hl=en&gl=US&shoprs=GBIqMHdoaWNoIHdpemFyZCBvZiBveiBib29rcyBhcmUgY29uc2lkZXJlZCB0aGUgYmVzdDIJCBISBU1vdmllYAE&sa=X&ved=2ahUKEwi2-qOKv5aYAxVul2oFHXgfK6kQip4GKAd6BAgREAo",
+          "domain": "www.google.com",
+          "options": null
+        },
+        {
+          "type": "refinement_chips_element",
+          "title": "Free",
+          "url": "https://www.google.com/search?q=free+which+wizard+of+oz+books+are+considered+the+best&hl=en&gl=US&shoprs=GBIqMHdoaWNoIHdpemFyZCBvZiBveiBib29rcyBhcmUgY29uc2lkZXJlZCB0aGUgYmVzdDIICBISBEZyZWVgAQ&sa=X&ved=2ahUKEwi2-qOKv5aYAxVul2oFHXgfK6kQip4GKAh6BAgREAs",
+          "domain": "www.google.com",
+          "options": null
+        },
+        {
+          "type": "refinement_chips_element",
+          "title": "Woman",
+          "url": "https://www.google.com/search?q=woman+which+wizard+of+oz+books+are+considered+the+best&hl=en&gl=US&shoprs=GBIqMHdoaWNoIHdpemFyZCBvZiBveiBib29rcyBhcmUgY29uc2lkZXJlZCB0aGUgYmVzdDIJCBISBVdvbWFuYAE&sa=X&ved=2ahUKEwi2-qOKv5aYAxVul2oFHXgfK6kQip4GKAl6BAgREAw",
+          "domain": "www.google.com",
+          "options": null
+        },
+        {
+          "type": "refinement_chips_element",
+          "title": "Girl",
+          "url": "https://www.google.com/search?q=girl+which+wizard+of+oz+books+are+considered+the+best&hl=en&gl=US&shoprs=GBIqMHdoaWNoIHdpemFyZCBvZiBveiBib29rcyBhcmUgY29uc2lkZXJlZCB0aGUgYmVzdDIICBISBEdpcmxgAQ&sa=X&ved=2ahUKEwi2-qOKv5aYAxVul2oFHXgfK6kQip4GKAp6BAgREA0",
+          "domain": "www.google.com",
+          "options": null
+        }
+      ]
+    },
+    "item_types": [
+      "ai_overview",
+      "organic",
+      "people_also_ask",
+      "video",
+      "popular_products",
+      "people_also_search"
+    ],
+    "se_results_count": 0,
+    "pages_count": 1,
+    "items_count": 13,
+    "items": [
+      {
+        "type": "ai_overview",
+        "rank_group": 1,
+        "rank_absolute": 1,
+        "page": 1,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[1]/div[1]",
+        "asynchronous_ai_overview": true,
+        "markdown": "![What edition of the original Wizard of Oz book is best to read?](https://api.dataforseo.com/cdn/i/11201157-2831-0139-0000-9f297adbb598:4)\n**The Wonderful Wizard of Oz**, **Ozma of Oz**, **The Marvelous Land of Oz** , and **The Lost Princess of Oz** are widely considered the standout entries in L. Frank Baum 's Oz series.[[1]](https://www.reddit.com/r/wizardofoz/comments/wsna7q/best_oz_books/)[[2]](https://www.youtube.com/watch?v=2BWTRMZKrU4)\n\n#### Top Picks in the Series\n\n- **The Wonderful Wizard of Oz** : The 1900 original that introduces Dorothy, Toto, the Scarecrow, the Tin Woodman, and the Cowardly Lion on their journey to the Emerald City.\n- **The Marvelous Land of Oz** : The second book, shifting focus to Tip and introducing memorable characters like Jack Pumpkinhead and the Sawhorse.\n- **Ozma of Oz** : A fan favorite featuring Princess Ozma, Tik-Tok, and Billina the chicken in a perilous sea voyage to Ev. Readers on [Reddit](https://www.reddit.com/r/wizardofoz/comments/wsna7q/best_oz_books/) generally agree that this title is among the best in the series.\n- **The Lost Princess of Oz** : A mystery-driven later entry where Ozma vanishes and search parties explore unfamiliar corners of Oz.\n- **The Patchwork Girl of Oz** & **Rinkitink in Oz** : Popular later installments praised for whimsical humor, creative quests, and rich world-building. As noted in [Gore Vidal's essay on rereading the Oz books](https://www.nybooks.com/articles/1977/10/13/on-rereading-the-oz-books/) , later entries like *Rinkitink* and *The Lost Princess* often rival the original in appeal.[[1]](https://www.nybooks.com/articles/1977/10/13/on-rereading-the-oz-books/)[[2]](https://www.reddit.com/r/wizardofoz/comments/wsna7q/best_oz_books/)[[3]](https://forums.welltrainedmind.com/topic/118906-which-of-the-wizard-of-oz-series-are-good-reads/)[[4]](https://www.youtube.com/watch?v=uRSV_Lo0SZY&t=66)[[5]](https://www.youtube.com/watch?v=2BWTRMZKrU4)[[6]](https://www.resetera.com/threads/i-read-all-the-first-14-of-the-oz-books-by-l-frank-baum-plus-the-life-and-adventures-of-santa-claus-and-here-is-my-opinion.1164009/)[[7]](https://www.google.com/search?q=product&prds=pvt:hg,pvo:29,productid:7637871619649985088,catalogid:5860389292056252645,gpcid:9670077570537974811,mid:432988&ibp=oshop)[[8]](https://www.google.com/search?q=product&prds=pvt:hg,pvo:29,productid:7879657364984675332,catalogid:630958418254139825,gpcid:252538000947774281,mid:576462914862123629&ibp=oshop)\n\nFor collectors looking at editions, [Beautiful Books](https://beautifulbooks.info/wizard-of-oz/) offers a guide to illustrated, pop-up, and collector editions of the series.[[1]](https://beautifulbooks.info/wizard-of-oz/)Are you looking for a **good starting point** for a first-time reader, or do you want **edition recommendations** (such as illustrated or collector sets)?",
+        "items": [
+          {
+            "type": "ai_overview_element",
+            "position": "left",
+            "title": null,
+            "text": "The Wonderful Wizard of Oz, Ozma of Oz, The Marvelous Land of Oz, and The Lost Princess of Oz are widely considered the standout entries in L. Frank Baum 's Oz series.",
+            "markdown": "![What edition of the original Wizard of Oz book is best to read?](https://api.dataforseo.com/cdn/i/11201157-2831-0139-0000-9f297adbb598:2)\n**The Wonderful Wizard of Oz**, **Ozma of Oz**, **The Marvelous Land of Oz** , and **The Lost Princess of Oz** are widely considered the standout entries in L. Frank Baum 's Oz series.[[1]](https://www.reddit.com/r/wizardofoz/comments/wsna7q/best_oz_books/)[[2]](https://www.youtube.com/watch?v=2BWTRMZKrU4)",
+            "links": null,
+            "images": [
+              {
+                "type": "images_element",
+                "alt": "What edition of the original Wizard of Oz book is best to read?",
+                "url": null,
+                "image_url": "https://api.dataforseo.com/cdn/i/11201157-2831-0139-0000-9f297adbb598:3"
+              }
+            ],
+            "references": [
+              {
+                "type": "ai_overview_reference",
+                "position": "left",
+                "source": "Reddit",
+                "domain": "www.reddit.com",
+                "url": "https://www.reddit.com/r/wizardofoz/comments/wsna7q/best_oz_books/",
+                "title": "Best Oz Books? : r/wizardofoz - Reddit",
+                "text": "Recommended Oz Books: Highly recommended books in the Oz series include *The Marvelous Land of Oz*, *Ozma of Oz*, *Rinkitink in Oz*, and *The Lost Princess of O..."
+              },
+              {
+                "type": "ai_overview_reference",
+                "position": "left",
+                "source": "YouTube",
+                "domain": "www.youtube.com",
+                "url": "https://www.youtube.com/watch?v=2BWTRMZKrU4",
+                "title": "Ranking all 14 of L. Frank Baum's Oz Books!",
+                "text": "it's just so much fun i think if you've never read an Oz. book. this is not a bad one to start with especially if you know the basics of like the story of the W..."
+              }
+            ]
+          },
+          {
+            "type": "ai_overview_element",
+            "position": "left",
+            "title": "Top Picks in the Series",
+            "text": "The Wonderful Wizard of Oz : The 1900 original that introduces Dorothy, Toto, the Scarecrow, the Tin Woodman, and the Cowardly Lion on their journey to the Emerald City. The Marvelous Land of Oz : The second book, shifting focus to Tip and introducing memorable characters like Jack Pumpkinhead and the Sawhorse. Ozma of Oz : A fan favorite featuring Princess Ozma, Tik-Tok, and Billina the chicken in a perilous sea voyage to Ev. Readers on Reddit generally agree that this title is among the best in the series. The Lost Princess of Oz : A mystery-driven later entry where Ozma vanishes and search parties explore unfamiliar corners of Oz. The Patchwork Girl of Oz & Rinkitink in Oz : Popular later installments praised for whimsical humor, creative quests, and rich world-building. As noted in Gore Vidal's essay on rereading the Oz books, later entries like Rinkitink and The Lost Princess often rival the original in appeal.",
+            "markdown": "- **The Wonderful Wizard of Oz** : The 1900 original that introduces Dorothy, Toto, the Scarecrow, the Tin Woodman, and the Cowardly Lion on their journey to the Emerald City.\n- **The Marvelous Land of Oz** : The second book, shifting focus to Tip and introducing memorable characters like Jack Pumpkinhead and the Sawhorse.\n- **Ozma of Oz** : A fan favorite featuring Princess Ozma, Tik-Tok, and Billina the chicken in a perilous sea voyage to Ev. Readers on [Reddit](https://www.reddit.com/r/wizardofoz/comments/wsna7q/best_oz_books/) generally agree that this title is among the best in the series.\n- **The Lost Princess of Oz** : A mystery-driven later entry where Ozma vanishes and search parties explore unfamiliar corners of Oz.\n- **The Patchwork Girl of Oz** & **Rinkitink in Oz** : Popular later installments praised for whimsical humor, creative quests, and rich world-building. As noted in [Gore Vidal's essay on rereading the Oz books](https://www.nybooks.com/articles/1977/10/13/on-rereading-the-oz-books/) , later entries like *Rinkitink* and *The Lost Princess* often rival the original in appeal.[[1]](https://www.nybooks.com/articles/1977/10/13/on-rereading-the-oz-books/)[[2]](https://www.reddit.com/r/wizardofoz/comments/wsna7q/best_oz_books/)[[3]](https://forums.welltrainedmind.com/topic/118906-which-of-the-wizard-of-oz-series-are-good-reads/)[[4]](https://www.youtube.com/watch?v=uRSV_Lo0SZY&t=66)[[5]](https://www.youtube.com/watch?v=2BWTRMZKrU4)[[6]](https://www.resetera.com/threads/i-read-all-the-first-14-of-the-oz-books-by-l-frank-baum-plus-the-life-and-adventures-of-santa-claus-and-here-is-my-opinion.1164009/)[[7]](https://www.google.com/search?q=product&prds=pvt:hg,pvo:29,productid:7637871619649985088,catalogid:5860389292056252645,gpcid:9670077570537974811,mid:432988&ibp=oshop)[[8]](https://www.google.com/search?q=product&prds=pvt:hg,pvo:29,productid:7879657364984675332,catalogid:630958418254139825,gpcid:252538000947774281,mid:576462914862123629&ibp=oshop)",
+            "links": [
+              {
+                "type": "link_element",
+                "title": "Reddit",
+                "description": null,
+                "url": "https://www.reddit.com/r/wizardofoz/comments/wsna7q/best_oz_books/",
+                "domain": "www.reddit.com"
+              },
+              {
+                "type": "link_element",
+                "title": "Gore Vidal's essay on rereading the Oz books",
+                "description": null,
+                "url": "https://www.nybooks.com/articles/1977/10/13/on-rereading-the-oz-books/",
+                "domain": "www.nybooks.com"
+              }
+            ],
+            "images": null,
+            "references": [
+              {
+                "type": "ai_overview_reference",
+                "position": "left",
+                "source": "The New York Review of Books",
+                "domain": "www.nybooks.com",
+                "url": "https://www.nybooks.com/articles/1977/10/13/on-rereading-the-oz-books/",
+                "title": "On Rereading the Oz Books | Gore Vidal",
+                "text": "I have reread the Oz books in the order in which they were written. Some things are as I remember. Others strike me as being entirely new. I was struck by the u..."
+              },
+              {
+                "type": "ai_overview_reference",
+                "position": "left",
+                "source": "Reddit",
+                "domain": "www.reddit.com",
+                "url": "https://www.reddit.com/r/wizardofoz/comments/wsna7q/best_oz_books/",
+                "title": "Best Oz Books? : r/wizardofoz - Reddit",
+                "text": "Recommended Oz Books: Highly recommended books in the Oz series include *The Marvelous Land of Oz*, *Ozma of Oz*, *Rinkitink in Oz*, and *The Lost Princess of Oz*."
+              },
+              {
+                "type": "ai_overview_reference",
+                "position": "left",
+                "source": "The Well-Trained Mind Community",
+                "domain": "forums.welltrainedmind.com",
+                "url": "https://forums.welltrainedmind.com/topic/118906-which-of-the-wizard-of-oz-series-are-good-reads/",
+                "title": "Which of the Wizard of Oz series are good reads?",
+                "text": "Recommended Book: Ozma of Oz is a favorite among readers and should not be skipped."
+              },
+              {
+                "type": "ai_overview_reference",
+                "position": "left",
+                "source": "YouTube",
+                "domain": "www.youtube.com",
+                "url": "https://www.youtube.com/watch?v=uRSV_Lo0SZY&t=66",
+                "title": "The Forgotten Final Oz Books: Bizarre, Brilliant, or Both | Oz Book Report Part 3",
+                "text": "The Forgotten Final Oz Books: Bizarre, Brilliant, or Both | Oz Book Report Part 3 books i think it's safe to say that Bal often seemed chained to Oz by popular ..."
+              },
+              {
+                "type": "ai_overview_reference",
+                "position": "left",
+                "source": "YouTube",
+                "domain": "www.youtube.com",
+                "url": "https://www.youtube.com/watch?v=2BWTRMZKrU4",
+                "title": "Ranking all 14 of L. Frank Baum's Oz Books!",
+                "text": "it's just so much fun i think if you've never read an Oz. book. this is not a bad one to start with especially if you know the basics of like the story of the Wiza"
+              },
+              {
+                "type": "ai_overview_reference",
+                "position": "left",
+                "source": "ResetEra",
+                "domain": "www.resetera.com",
+                "url": "https://www.resetera.com/threads/i-read-all-the-first-14-of-the-oz-books-by-l-frank-baum-plus-the-life-and-adventures-of-santa-claus-and-here-is-my-opinion.1164009/",
+                "title": "I read all the first 14 of the Oz books by L. Frank Baum (plus The Life and ...",
+                "text": "And about the books, one of the best was Rinkitink in Oz, even though it obviously wasn't an Oz book initially, but I thought it was the one with the best devel..."
+              },
+              {
+                "type": "ai_overview_reference",
+                "position": "left",
+                "source": "Google",
+                "domain": "www.google.com",
+                "url": "https://www.google.com/search?q=product&prds=pvt:hg,pvo:29,productid:7637871619649985088,catalogid:5860389292056252645,gpcid:9670077570537974811,mid:432988&ibp=oshop",
+                "title": "The Wonderful Wizard of oz",
+                "text": "One of the true classics of American literature, The Wonderful Wizard of Oz has stirred the imagination of young and old alike for over four generations. Origin..."
+              },
+              {
+                "type": "ai_overview_reference",
+                "position": "left",
+                "source": "Google",
+                "domain": "www.google.com",
+                "url": "https://www.google.com/search?q=product&prds=pvt:hg,pvo:29,productid:7879657364984675332,catalogid:630958418254139825,gpcid:252538000947774281,mid:576462914862123629&ibp=oshop",
+                "title": "The Wizard of oz 15 Book Deluxe Hardcover Collection for Young Readers Classic",
+                "text": "Introduction Step into the magical world of Oz with this complete collection of 15 beautifully bound hardback books, perfect for children aged 8+ years and fans..."
+              }
+            ]
+          },
+          {
+            "type": "ai_overview_element",
+            "position": "left",
+            "title": null,
+            "text": "For collectors looking at editions, Beautiful Books offers a guide to illustrated, pop-up, and collector editions of the series.",
+            "markdown": "For collectors looking at editions, [Beautiful Books](https://beautifulbooks.info/wizard-of-oz/) offers a guide to illustrated, pop-up, and collector editions of the series.[[1]](https://beautifulbooks.info/wizard-of-oz/)",
+            "links": [
+              {
+                "type": "link_element",
+                "title": "Beautiful Books",
+                "description": null,
+                "url": "https://beautifulbooks.info/wizard-of-oz/",
+                "domain": "beautifulbooks.info"
+              }
+            ],
+            "images": null,
+            "references": [
+              {
+                "type": "ai_overview_reference",
+                "position": "left",
+                "source": "Beautiful Books",
+                "domain": "beautifulbooks.info",
+                "url": "https://beautifulbooks.info/wizard-of-oz/",
+                "title": "Wizard of Oz Books | Beautiful Editions & Collector's Guide",
+                "text": "Best affordable edition: The Barnes & Noble Children's Classics edition is bound in pretty bonded leather and has all the classics illustrations. Best standard ..."
+              }
+            ]
+          },
+          {
+            "type": "ai_overview_element",
+            "position": "left",
+            "title": null,
+            "text": "Are you looking for a good starting point for a first-time reader, or do you want edition recommendations (such as illustrated or collector sets)?",
+            "markdown": "Are you looking for a **good starting point** for a first-time reader, or do you want **edition recommendations** (such as illustrated or collector sets)?",
+            "links": null,
+            "images": null,
+            "references": null
+          }
+        ],
+        "references": [
+          {
+            "type": "ai_overview_reference",
+            "position": "right",
+            "source": "YouTube",
+            "domain": "www.youtube.com",
+            "url": "https://www.youtube.com/watch?v=2BWTRMZKrU4",
+            "title": "Ranking all 14 of L. Frank Baum's Oz Books!",
+            "text": "it's just so much fun i think if you've never read an Oz. book. this is not a bad one to start with especially if you know the basics of like the story of the Wiza"
+          },
+          {
+            "type": "ai_overview_reference",
+            "position": "right",
+            "source": "YouTube",
+            "domain": "www.youtube.com",
+            "url": "https://www.youtube.com/watch?v=uRSV_Lo0SZY&t=66",
+            "title": "The Forgotten Final Oz Books: Bizarre, Brilliant, or Both | Oz Book Report Part 3",
+            "text": "The Forgotten Final Oz Books: Bizarre, Brilliant, or Both | Oz Book Report Part 3 books i think it's safe to say that Bal often seemed chained to Oz by popular dem"
+          },
+          {
+            "type": "ai_overview_reference",
+            "position": "right",
+            "source": "Reddit",
+            "domain": "www.reddit.com",
+            "url": "https://www.reddit.com/r/wizardofoz/comments/wsna7q/best_oz_books/",
+            "title": "Best Oz Books? : r/wizardofoz - Reddit",
+            "text": "Recommended Oz Books: Highly recommended books in the Oz series include *The Marvelous Land of Oz*, *Ozma of Oz*, *Rinkitink in Oz*, and *The Lost Princess of Oz*."
+          },
+          {
+            "type": "ai_overview_reference",
+            "position": "right",
+            "source": "The New York Review of Books",
+            "domain": "www.nybooks.com",
+            "url": "https://www.nybooks.com/articles/1977/10/13/on-rereading-the-oz-books/",
+            "title": "On Rereading the Oz Books | Gore Vidal",
+            "text": "I have reread the Oz books in the order in which they were written. Some things are as I remember. Others strike me as being entirely new. I was struck by the unev..."
+          },
+          {
+            "type": "ai_overview_reference",
+            "position": "right",
+            "source": "The New York Review of Books",
+            "domain": "www.nybooks.com",
+            "url": "https://www.nybooks.com/articles/1977/10/13/on-rereading-the-oz-books/",
+            "title": "On Rereading the Oz Books | Gore Vidal",
+            "text": "After all, the first book is the one in which Oz was invented. Yet, as a child, I preferred The Emerald City, Rinkitink, and The Lost Princess ..."
+          },
+          {
+            "type": "ai_overview_reference",
+            "position": "right",
+            "source": "Beautiful Books",
+            "domain": "beautifulbooks.info",
+            "url": "https://beautifulbooks.info/wizard-of-oz/",
+            "title": "Wizard of Oz Books | Beautiful Editions & Collector's Guide",
+            "text": "Best affordable edition: The Barnes & Noble Children's Classics edition is bound in pretty bonded leather and has all the classics illustrations. Best standard edi..."
+          },
+          {
+            "type": "ai_overview_reference",
+            "position": "right",
+            "source": "The Well-Trained Mind Community",
+            "domain": "forums.welltrainedmind.com",
+            "url": "https://forums.welltrainedmind.com/topic/118906-which-of-the-wizard-of-oz-series-are-good-reads/",
+            "title": "Which of the Wizard of Oz series are good reads?",
+            "text": "Recommended Book: Ozma of Oz is a favorite among readers and should not be skipped."
+          },
+          {
+            "type": "ai_overview_reference",
+            "position": "right",
+            "source": "ResetEra",
+            "domain": "www.resetera.com",
+            "url": "https://www.resetera.com/threads/i-read-all-the-first-14-of-the-oz-books-by-l-frank-baum-plus-the-life-and-adventures-of-santa-claus-and-here-is-my-opinion.1164009/",
+            "title": "I read all the first 14 of the Oz books by L. Frank Baum (plus The Life and ...",
+            "text": "And about the books, one of the best was Rinkitink in Oz, even though it obviously wasn't an Oz book initially, but I thought it was the one with the best developm..."
+          },
+          {
+            "type": "ai_overview_reference",
+            "position": "right",
+            "source": "Google",
+            "domain": "www.google.com",
+            "url": "https://www.google.com/search?q=product&prds=pvt:hg,pvo:29,productid:7637871619649985088,catalogid:5860389292056252645,gpcid:9670077570537974811,mid:432988&ibp=oshop",
+            "title": "The Wonderful Wizard of oz",
+            "text": "One of the true classics of American literature, The Wonderful Wizard of Oz has stirred the imagination of young and old alike for over four generations. Originally published in 1900, it was the first truly American fairy tale, as Baum crafted a wonderful out of such familiar items as a cornfield scarecrow, a mechanical woodman, and a humbug wizard who used old-fashioned hokum to express that universal theme, \"There's no place like home.\" Follow the adventures of young Dorothy Gale and her dog, Toto, as their Kansas house is swept away by a cyclone and they find themselves in a strange land called Oz. Here she meets the Munchkins and joins the Scarecrow, Tin Woodman, and the Cowardly Lion on an unforgettable journey to the Emerald City, where lives the all-powered Wizard of Oz. This lavishly produced facsimile of the rare first edition contains all 24 of W. W. Denslow's original color plates, the colorful pictorial binding, and the 130 two-color illustrations that help make The Wonderful Wizard of Oz so special and enduring."
+          },
+          {
+            "type": "ai_overview_reference",
+            "position": "right",
+            "source": "Google",
+            "domain": "www.google.com",
+            "url": "https://www.google.com/search?q=product&prds=pvt:hg,pvo:29,productid:7879657364984675332,catalogid:630958418254139825,gpcid:252538000947774281,mid:576462914862123629&ibp=oshop",
+            "title": "The Wizard of oz 15 Book Deluxe Hardcover Collection for Young Readers Classic",
+            "text": "Introduction Step into the magical world of Oz with this complete collection of 15 beautifully bound hardback books, perfect for children aged 8+ years and fans of classic fantasy adventures! Frank Baum and his successors, this enchanting series takes readers far beyond the Yellow Brick Road, introducing them to new lands, daring heroes, and unforgettable characters. Follow Dorothy, the Scarecrow, the Tin Man, and the Cowardly Lion as they embark on their first journey to the Emerald City in The Wonderful Wizard of Oz. But the adventure doesn’t stop there—throughout the series, meet brave new characters like Ozma of Oz, Tik-Tok, Jack Pumpkinhead, and Glinda the Good, and explore magical realms filled with wonders, witches, and whimsical creatures. Titles in this Set: The Wonderful Wizard of Oz The Marvelous Land of Oz Ozma of Oz Dorothy and the Wizard in Oz The Road to Oz The Emerald City of Oz The Patchwork Girl of Oz Tik-Tok of Oz The Scarecrow of Oz Rinkitink in Oz The Lost Princess of Oz The Tin Woodman of Oz The Magic of Oz Glinda of Oz The Royal Book of Oz With captivating storytelling, timeless characters, and magical adventures, this classic fantasy series is perfect for young readers and collectors alike. Whether revisiting Oz or discovering it for the first time, this deluxe hardback collection is a treasure to be enjoyed for generations. Rediscover the magic of Oz—where courage, friendship, and adventure await!"
+          }
+        ],
+        "rectangle": null
+      },
+      {
+        "type": "organic",
+        "rank_group": 1,
+        "rank_absolute": 2,
+        "page": 1,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]",
+        "domain": "www.reddit.com",
+        "title": "Best Oz Books? : r/wizardofoz",
+        "url": "https://www.reddit.com/r/wizardofoz/comments/wsna7q/best_oz_books/",
+        "cache_url": null,
+        "related_search_url": null,
+        "breadcrumb": "9 comments",
+        "website_name": "Reddit · r/wizardofoz",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "is_web_story": false,
+        "checks": null,
+        "description": "Outside of the original Wizard of Oz book, what are the best books in the series to read or the ones that contain the most symbolism or deeper meanings ...",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "images": null,
+        "amp_version": false,
+        "rating": null,
+        "price": null,
+        "highlighted": null,
+        "links": [
+          {
+            "type": "link_element",
+            "title": "What are everyone's favorite Oz novels?r/wizardofoz·20+ comments·1y",
+            "description": null,
+            "url": "https://www.reddit.com/r/wizardofoz/comments/1i40p9y/what_are_everyones_favorite_oz_novels/",
+            "domain": "www.reddit.com"
+          },
+          {
+            "type": "link_element",
+            "title": "Original 14 books ratingr/wizardofoz·7 comments·1y",
+            "description": null,
+            "url": "https://www.reddit.com/r/wizardofoz/comments/1l3k7qo/original_14_books_rating/",
+            "domain": "www.reddit.com"
+          },
+          {
+            "type": "link_element",
+            "title": "I'm not sure you're going to find any with deeper meaning or symbolism. Baum himself stated ...",
+            "description": "Top answer · 9 votes",
+            "url": "https://www.reddit.com/r/wizardofoz/comments/wsna7q/best_oz_books/ikz9ol6/",
+            "domain": "www.reddit.com"
+          },
+          {
+            "type": "link_element",
+            "title": "Best books in my opinion? Top 5 be The Wizard of Oz, The Marevlous Land of Oz, Ozma of Oz, Rinkitink ...",
+            "description": "7 votes",
+            "url": "https://www.reddit.com/r/wizardofoz/comments/wsna7q/best_oz_books/ikzbnvo/",
+            "domain": "www.reddit.com"
+          },
+          {
+            "type": "link_element",
+            "title": "It’s hard to choose favorites, but I love Ozma of Oz, Lost Princess of Oz and Glinda of Oz.",
+            "description": "4 votes",
+            "url": "https://www.reddit.com/r/wizardofoz/comments/wsna7q/best_oz_books/il0o43y/",
+            "domain": "www.reddit.com"
+          },
+          {
+            "type": "link_element",
+            "title": "Two more highly regarded books by Baum that haven't been mentioned yet are The Emerald City ...",
+            "description": "4 votes",
+            "url": "https://www.reddit.com/r/wizardofoz/comments/wsna7q/best_oz_books/il2ayrk/",
+            "domain": "www.reddit.com"
+          },
+          {
+            "type": "link_element",
+            "title": "\"Deep\" might be exaggerating it, but I thought *Tin Woodman* was the book that more than any ...",
+            "description": "1 vote",
+            "url": "https://www.reddit.com/r/wizardofoz/comments/wsna7q/best_oz_books/ikzl07c/",
+            "domain": "www.reddit.com"
+          },
+          {
+            "type": "link_element",
+            "title": "Paradox In Oz by Edward Einhorn has some great stuff about multiple universe theory",
+            "description": "1 vote",
+            "url": "https://www.reddit.com/r/wizardofoz/comments/wsna7q/best_oz_books/il07bsy/",
+            "domain": "www.reddit.com"
+          },
+          {
+            "type": "link_element",
+            "title": "I think im late to the party but russian retelling of the story is pretty neat. Search ...",
+            "description": "1 vote",
+            "url": "https://www.reddit.com/r/wizardofoz/comments/wsna7q/best_oz_books/p7ljm02/",
+            "domain": "www.reddit.com"
+          }
+        ],
+        "faq": null,
+        "extended_people_also_search": null,
+        "about_this_result": null,
+        "related_result": null,
+        "timestamp": "2022-11-20 11:57:04 +00:00",
+        "rectangle": null
+      },
+      {
+        "type": "people_also_ask",
+        "rank_group": 1,
+        "rank_absolute": 3,
+        "page": 1,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[6]/div[1]",
+        "items": [
+          {
+            "type": "people_also_ask_element",
+            "title": "Which version of The Wizard of Oz is the best?",
+            "seed_question": null,
+            "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[6]/div[1]/div[2]/div[2]/div[1]",
+            "expanded_element": [
+              {
+                "type": "people_also_ask_ai_overview_expanded_element",
+                "items": null,
+                "references": null,
+                "asynchronous_ai_overview": true
+              }
+            ]
+          },
+          {
+            "type": "people_also_ask_element",
+            "title": "How much are the original Wizard of Oz books worth today?",
+            "seed_question": null,
+            "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[6]/div[1]/div[2]/div[2]/div[2]",
+            "expanded_element": [
+              {
+                "type": "people_also_ask_ai_overview_expanded_element",
+                "items": null,
+                "references": null,
+                "asynchronous_ai_overview": true
+              }
+            ]
+          },
+          {
+            "type": "people_also_ask_element",
+            "title": "What books do high IQ people read?",
+            "seed_question": null,
+            "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[6]/div[1]/div[2]/div[2]/div[3]",
+            "expanded_element": [
+              {
+                "type": "people_also_ask_ai_overview_expanded_element",
+                "items": null,
+                "references": null,
+                "asynchronous_ai_overview": true
+              }
+            ]
+          },
+          {
+            "type": "people_also_ask_element",
+            "title": "What book is considered to be the greatest of all time?",
+            "seed_question": null,
+            "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[6]/div[1]/div[2]/div[2]/div[4]",
+            "expanded_element": [
+              {
+                "type": "people_also_ask_ai_overview_expanded_element",
+                "items": null,
+                "references": null,
+                "asynchronous_ai_overview": true
+              }
+            ]
+          }
+        ],
+        "rectangle": null
+      },
+      {
+        "type": "organic",
+        "rank_group": 2,
+        "rank_absolute": 4,
+        "page": 1,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]",
+        "domain": "www.nybooks.com",
+        "title": "On Rereading the Oz Books | Gore Vidal",
+        "url": "https://www.nybooks.com/articles/1977/10/13/on-rereading-the-oz-books/",
+        "cache_url": null,
+        "related_search_url": null,
+        "breadcrumb": "https://www.nybooks.com",
+        "website_name": "The New York Review of Books",
+        "is_image": true,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "is_web_story": false,
+        "checks": [
+          "is_image"
+        ],
+        "description": "Oct 13, 1977 — Arguably, The Wizard of Oz is the best of the lot. I preferred The Emerald City, Rinkitink, and The Lost Princess to The Wizard.",
+        "pre_snippet": "10/13/1977 00:00:00",
+        "extended_snippet": null,
+        "images": [
+          {
+            "type": "images_element",
+            "alt": "which wizard of oz books are considered the best? from www.nybooks.com",
+            "url": "https://www.nybooks.com/articles/1977/10/13/on-rereading-the-oz-books/",
+            "image_url": "https://api.dataforseo.com/cdn/i/11201157-2831-0139-0000-9f297adbb598:5"
+          }
+        ],
+        "amp_version": false,
+        "rating": null,
+        "price": null,
+        "highlighted": [
+          "The Wizard of Oz is the best of the lot"
+        ],
+        "links": null,
+        "faq": null,
+        "extended_people_also_search": [
+          "are the wizard",
+          "ozma of oz",
+          "wicked book"
+        ],
+        "about_this_result": null,
+        "related_result": null,
+        "timestamp": "1977-10-13 00:00:00 +00:00",
+        "rectangle": null
+      },
+      {
+        "type": "organic",
+        "rank_group": 3,
+        "rank_absolute": 5,
+        "page": 1,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]",
+        "domain": "en.wikipedia.org",
+        "title": "List of Oz books",
+        "url": "https://en.wikipedia.org/wiki/List_of_Oz_books",
+        "cache_url": null,
+        "related_search_url": null,
+        "breadcrumb": "https://en.wikipedia.org",
+        "website_name": "Wikipedia",
+        "is_image": true,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "is_web_story": false,
+        "checks": [
+          "is_image"
+        ],
+        "description": "The forty books in Reilly & Lee's Oz series are called \"the Famous Forty\" by fans, and are considered the canonical Oz texts.",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "images": [
+          {
+            "type": "images_element",
+            "alt": "which wizard of oz books are considered the best? from en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/List_of_Oz_books",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPqXYL839lafjxJAgPzpKRMKeGXBjQSxbWe8HCF3h1Ww&usqp=CAE&s"
+          }
+        ],
+        "amp_version": false,
+        "rating": null,
+        "price": null,
+        "highlighted": null,
+        "links": [
+          {
+            "type": "link_element",
+            "title": "Books by L. Frank Baum",
+            "description": null,
+            "url": "https://en.wikipedia.org/wiki/List_of_Oz_books#Books_by_L._Frank_Baum",
+            "domain": "en.wikipedia.org"
+          },
+          {
+            "type": "link_element",
+            "title": "The rest of the \"Famous Forty\"",
+            "description": null,
+            "url": "https://en.wikipedia.org/wiki/List_of_Oz_books#The_rest_of_the_%22Famous_Forty%22",
+            "domain": "en.wikipedia.org"
+          },
+          {
+            "type": "link_element",
+            "title": "Additional books",
+            "description": null,
+            "url": "https://en.wikipedia.org/wiki/List_of_Oz_books#Additional_books",
+            "domain": "en.wikipedia.org"
+          },
+          {
+            "type": "link_element",
+            "title": "Short stories",
+            "description": null,
+            "url": "https://en.wikipedia.org/wiki/List_of_Oz_books#Short_stories",
+            "domain": "en.wikipedia.org"
+          },
+          {
+            "type": "link_element",
+            "title": "Alternative Oz books",
+            "description": null,
+            "url": "https://en.wikipedia.org/wiki/List_of_Oz_books#Alternative_Oz_books",
+            "domain": "en.wikipedia.org"
+          }
+        ],
+        "faq": null,
+        "extended_people_also_search": [
+          "are the wizard",
+          "ozma of oz",
+          "wicked book"
+        ],
+        "about_this_result": null,
+        "related_result": null,
+        "timestamp": null,
+        "rectangle": null
+      },
+      {
+        "type": "video",
+        "rank_group": 1,
+        "rank_absolute": 6,
+        "page": 1,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[12]",
+        "items": [
+          {
+            "type": "video_element",
+            "source": "Shaun Stevenson Books",
+            "title": "Ranking all 14 of L. Frank Baum's Oz Books!",
+            "timestamp": "2025-01-26 00:00:00 +00:00",
+            "url": "https://www.youtube.com/watch?v=2BWTRMZKrU4"
+          },
+          {
+            "type": "video_element",
+            "source": "Living With Eve",
+            "title": "WARNING! Don't Read The Oz Series to Your Children: Book Review ...",
+            "timestamp": "2024-12-18 00:00:00 +00:00",
+            "url": "https://www.youtube.com/watch?v=T_ZAdARNmgQ"
+          },
+          {
+            "type": "video_element",
+            "source": "Gavin Reads It All",
+            "title": "I Read All 14 Wizard of Oz Books By L. Frank Baum 🌪️📚",
+            "timestamp": "2023-11-26 00:00:00 +00:00",
+            "url": "https://www.youtube.com/watch?v=asY0vXALmUc"
+          }
+        ],
+        "rectangle": null
+      },
+      {
+        "type": "organic",
+        "rank_group": 4,
+        "rank_absolute": 7,
+        "page": 1,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]/div[1]",
+        "domain": "thebookstop.wordpress.com",
+        "title": "Ozathon 2024: Reading L. Frank Baum's Oz Series - The Book Stop",
+        "url": "https://thebookstop.wordpress.com/ozathon-2024-reading-l-frank-baums-oz-series/",
+        "cache_url": null,
+        "related_search_url": null,
+        "breadcrumb": "https://thebookstop.wordpress.com",
+        "website_name": "WordPress.com",
+        "is_image": true,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "is_web_story": false,
+        "checks": [
+          "is_image"
+        ],
+        "description": "The first books are some of the most iconic and must-reads to understand the series, though several of the last eight (Patchwork Girl, Lost Princess and Glinda, ...",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "images": [
+          {
+            "type": "images_element",
+            "alt": "which wizard of oz books are considered the best? from thebookstop.wordpress.com",
+            "url": "https://thebookstop.wordpress.com/ozathon-2024-reading-l-frank-baums-oz-series/",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdEII5LuZn9SorzSMyM93IuXR3UkWsj82t4n0KzGyFCA&usqp=CAE&s"
+          }
+        ],
+        "amp_version": false,
+        "rating": null,
+        "price": null,
+        "highlighted": null,
+        "links": null,
+        "faq": null,
+        "extended_people_also_search": null,
+        "about_this_result": null,
+        "related_result": null,
+        "timestamp": null,
+        "rectangle": null
+      },
+      {
+        "type": "organic",
+        "rank_group": 5,
+        "rank_absolute": 8,
+        "page": 1,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[16]/div[1]/div[1]/div[1]/div[1]",
+        "domain": "www.facebook.com",
+        "title": "What edition of the original Wizard of Oz book is best to read?",
+        "url": "https://www.facebook.com/groups/TwoGirlsMustReads/posts/1707837493348735/",
+        "cache_url": null,
+        "related_search_url": null,
+        "breadcrumb": "20+ comments",
+        "website_name": "Facebook · 📚Must Read Book Recommendations📚",
+        "is_image": true,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "is_web_story": false,
+        "checks": [
+          "is_image"
+        ],
+        "description": "The original Oz books, written by L. Frank Baum, with \"The Road to Oz\" being the fifth book in the series.",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "images": [
+          {
+            "type": "images_element",
+            "alt": "which wizard of oz books are considered the best? from www.facebook.com",
+            "url": "https://www.facebook.com/groups/TwoGirlsMustReads/posts/1707837493348735/",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9JMpifILiGt0dBMkB_h5NfoFuWd2h6NlfjP6paCsaOw&usqp=CAE&s"
+          }
+        ],
+        "amp_version": false,
+        "rating": null,
+        "price": null,
+        "highlighted": [
+          "The original Oz books"
+        ],
+        "links": null,
+        "faq": null,
+        "extended_people_also_search": null,
+        "about_this_result": null,
+        "related_result": null,
+        "timestamp": "2024-11-20 11:57:04 +00:00",
+        "rectangle": null
+      },
+      {
+        "type": "organic",
+        "rank_group": 6,
+        "rank_absolute": 9,
+        "page": 1,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[18]/div[1]/div[1]/div[1]/div[1]",
+        "domain": "beautifulbooks.info",
+        "title": "Wizard of Oz Books | Beautiful Editions & Collector's Guide",
+        "url": "https://beautifulbooks.info/wizard-of-oz/",
+        "cache_url": null,
+        "related_search_url": null,
+        "breadcrumb": "https://beautifulbooks.info",
+        "website_name": "Beautiful Books",
+        "is_image": true,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "is_web_story": false,
+        "checks": [
+          "is_image"
+        ],
+        "description": "Nov 4, 2025 — Best adapted edition: Robert Sabuda's Pop-Up Wizard of Oz is simply incredible, one of my favorite pop-up books ever. Best expensive edition: I ...",
+        "pre_snippet": "11/04/2025 00:00:00",
+        "extended_snippet": null,
+        "images": [
+          {
+            "type": "images_element",
+            "alt": null,
+            "url": null,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh98-ijZxOt_Qmlfo9D1xFE_yIlMZQ1rga_a1NdBgcFZjYMmi0PbWT5Q&s"
+          },
+          {
+            "type": "images_element",
+            "alt": null,
+            "url": null,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT7JncwWNBOwRVNUoO1EcnOa_SIS_N0dtODqS-CFScpA0NUGXPYUZ-L63Lx49vgDEE8_F6&s"
+          },
+          {
+            "type": "images_element",
+            "alt": null,
+            "url": null,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxUXdJ8PdzpIfC2XHtdgJEDQemkY-OdXEDb0cXLZS3xC-2Dfl8ceWasg&s"
+          },
+          {
+            "type": "images_element",
+            "alt": null,
+            "url": null,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCH-LR7Gl6TUhSz4TdXqh54KyDGg1tUekFs_wIG0V0u6UMoijrLQWgwjzD&s"
+          },
+          {
+            "type": "images_element",
+            "alt": null,
+            "url": null,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxGl15L8rLPbuy560mERI4w6PL-yTfVA13E3cLVd3oj0jvmcBZx1b2bSa2rA&s"
+          },
+          {
+            "type": "images_element",
+            "alt": null,
+            "url": null,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTncBRrxpSHHU5aXUYL06k2iPu1DpERhPUPOq54iriSa3D3DCV8wDgqzA&s"
+          }
+        ],
+        "amp_version": false,
+        "rating": null,
+        "price": null,
+        "highlighted": [
+          "Robert Sabuda's Pop-Up Wizard of Oz"
+        ],
+        "links": null,
+        "faq": null,
+        "extended_people_also_search": null,
+        "about_this_result": null,
+        "related_result": null,
+        "timestamp": "2025-11-04 00:00:00 +00:00",
+        "rectangle": null
+      },
+      {
+        "type": "organic",
+        "rank_group": 7,
+        "rank_absolute": 10,
+        "page": 1,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[20]/div[1]/div[1]/div[1]/div[1]",
+        "domain": "boards.straightdope.com",
+        "title": "Best/Favorite Oz book - Cafe Society",
+        "url": "https://boards.straightdope.com/t/best-favorite-oz-book/146565",
+        "cache_url": null,
+        "related_search_url": null,
+        "breadcrumb": "https://boards.straightdope.com",
+        "website_name": "Straight Dope Message Board",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "is_web_story": false,
+        "checks": null,
+        "description": "Jan 4, 2003 — I like the Marvelous Land of Oz and Glinda of Oz best. A tie between Ozma of Oz and a Road to Oz. Probably The Wonderful Wizard of Oz. For ...",
+        "pre_snippet": "01/04/2003 00:00:00",
+        "extended_snippet": null,
+        "images": null,
+        "amp_version": false,
+        "rating": null,
+        "price": null,
+        "highlighted": [
+          "Marvelous Land of Oz"
+        ],
+        "links": null,
+        "faq": null,
+        "extended_people_also_search": null,
+        "about_this_result": null,
+        "related_result": null,
+        "timestamp": "2003-01-04 00:00:00 +00:00",
+        "rectangle": null
+      },
+      {
+        "type": "popular_products",
+        "rank_group": 1,
+        "rank_absolute": 11,
+        "page": 1,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[22]",
+        "title": "Popular products",
+        "items": [
+          {
+            "type": "popular_products_element",
+            "title": "The Wizard of oz 15 Book Deluxe Hardcover Collection for Young Readers Classic",
+            "url": "https://www.google.com/search?ibp=oshop&q=which+wizard+of+oz+books+are+considered+the+best%3F&prds=gpcid:252538000947774281,rds:PC_252538000947774281%7CPROD_PC_252538000947774281,headlineOfferDocid:3336944141785463937,catalogid:630958418254139825,pvo:3,pvt:hg&hl=en&gl=US",
+            "domain": "www.google.com",
+            "description": "Walmart - USA 4 Books & more",
+            "more_sellers": true,
+            "seller": "Walmart - USA 4 Books",
+            "group_title": null,
+            "group_source": null,
+            "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTC_2dS0E-jDcsaTxyphfbu6iG3kq9TyBoel32v7nQTRcExy9CH5zJtjrYUcBFi1Qpl1Aot4buLtSA79VTJbPmarPCaVl-DRpCS2q57WrNhiF6d5miimuWU",
+            "price": {
+              "current": 55.99,
+              "regular": 3.73,
+              "max_value": null,
+              "currency": "USD",
+              "is_price_range": false,
+              "displayed_price": "$55.99 $3.73/ct"
+            },
+            "rating": null,
+            "product_identifiers": {
+              "product_id": "630958418254139825",
+              "data_docid": "7879657364984675332",
+              "gid": "252538000947774281"
+            }
+          },
+          {
+            "type": "popular_products_element",
+            "title": "The Complete Wizard of oz Collection (100 Copy Collector's Edition)",
+            "url": "https://www.google.com/search?ibp=oshop&q=which+wizard+of+oz+books+are+considered+the+best%3F&prds=gpcid:17269646140482374999,rds:PC_17269646140482374999%7CPROD_PC_17269646140482374999,headlineOfferDocid:17198523325683248468,catalogid:10939126331556953239,pvo:3,pvt:hg&hl=en&gl=US",
+            "domain": "www.google.com",
+            "description": "Barnes & Noble & more\nFree delivery by Mon",
+            "more_sellers": true,
+            "seller": "Barnes & Noble",
+            "group_title": null,
+            "group_source": null,
+            "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSsVZh9U4PPBuaoAHOf37UXoUYoxoFsKCMEU_2Gkn6nRVlhWrSjsMa42LiI6gu93XqhS7csP3OtEVqRE5-oVCNIL2bdeYY1Ghb-4putkVQ",
+            "price": {
+              "current": 69.95,
+              "regular": null,
+              "max_value": null,
+              "currency": "USD",
+              "is_price_range": false,
+              "displayed_price": "$69.95"
+            },
+            "rating": {
+              "rating_type": "Max5",
+              "value": 5,
+              "votes_count": 1,
+              "rating_max": 5
+            },
+            "product_identifiers": {
+              "product_id": "10939126331556953239",
+              "data_docid": "9361335595063755211",
+              "gid": "17269646140482374999"
+            }
+          },
+          {
+            "type": "popular_products_element",
+            "title": "The Wonderful Wizard of oz (Masterpiece Library Edition)",
+            "url": "https://www.google.com/search?ibp=oshop&q=which+wizard+of+oz+books+are+considered+the+best%3F&prds=gpcid:17341862908893177768,rds:PC_17341862908893177768%7CPROD_PC_17341862908893177768,headlineOfferDocid:9472643214447249503,catalogid:13427016050317704434,pvo:3,pvt:hg&hl=en&gl=US",
+            "domain": "www.google.com",
+            "description": "Penguin Bookshop & more",
+            "more_sellers": true,
+            "seller": "Penguin Bookshop",
+            "group_title": null,
+            "group_source": null,
+            "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSf9p0a12ZYksWkH-I2wTw0dFVWxZCDG9iT0JlRbys2qvDhmuDzvstq8UI-dmharNzIw0xBHUkM4Yoft5v55HAgexZcBvIXIQ",
+            "price": {
+              "current": 17.99,
+              "regular": null,
+              "max_value": null,
+              "currency": "USD",
+              "is_price_range": false,
+              "displayed_price": "$17.99"
+            },
+            "rating": {
+              "rating_type": "Max5",
+              "value": 5,
+              "votes_count": 1,
+              "rating_max": 5
+            },
+            "product_identifiers": {
+              "product_id": "13427016050317704434",
+              "data_docid": "6609278609176322028",
+              "gid": "17341862908893177768"
+            }
+          },
+          {
+            "type": "popular_products_element",
+            "title": "The Wizard of oz",
+            "url": "https://www.google.com/search?ibp=oshop&q=which+wizard+of+oz+books+are+considered+the+best%3F&prds=gpcid:457556484845208556,rds:PC_457556484845208556%7CPROD_PC_457556484845208556,headlineOfferDocid:8887240152241702622,catalogid:10140398646443296322,pvo:3,pvt:hg&hl=en&gl=US",
+            "domain": "www.google.com",
+            "description": "Barnes & Noble & more\nFree delivery on $60+",
+            "more_sellers": true,
+            "seller": "Barnes & Noble",
+            "group_title": null,
+            "group_source": null,
+            "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSw1LEI8g1dGSp_jDoi_vJf6Z_3v7ibhu0TWE2WfzQo3Xmv4_hlXn43dP_Fc7Rb1LzQuUjL7O2ikOSWmMwhIk8nrL0vtTvCOCANbRh7N80",
+            "price": {
+              "current": 5.99,
+              "regular": null,
+              "max_value": null,
+              "currency": "USD",
+              "is_price_range": false,
+              "displayed_price": "$5.99"
+            },
+            "rating": {
+              "rating_type": "Max5",
+              "value": 4.7,
+              "votes_count": 33,
+              "rating_max": 5
+            },
+            "product_identifiers": {
+              "product_id": "10140398646443296322",
+              "data_docid": "7360653576960414692",
+              "gid": "457556484845208556"
+            }
+          },
+          {
+            "type": "popular_products_element",
+            "title": "The Wizard Of Oz: The First Five Novels (Barnes & Noble Col... - Ebook",
+            "url": "https://www.google.com/search?ibp=oshop&q=which+wizard+of+oz+books+are+considered+the+best%3F&prds=gpcid:4686759706559737360,rds:PC_4686759706559737360%7CPROD_PC_4686759706559737360,headlineOfferDocid:5707108068250618150,catalogid:8722364954766089059,pvo:3,pvt:hg&hl=en&gl=US",
+            "domain": "www.google.com",
+            "description": "Wonder Book and Video & more\nFree delivery",
+            "more_sellers": true,
+            "seller": "Wonder Book and Video",
+            "group_title": null,
+            "group_source": null,
+            "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTrP3Njxqb8CHOfqd71lDJ1k8DGZbWi6l-kW7urUsRPFARUkHhPnTYW0o1eFuvqTnMDi-xk1-uY7g40Z0YXld8bYN-NP8gnigu2YrlPUMRogiVq3kbH5sCH",
+            "price": {
+              "current": 7.27,
+              "regular": null,
+              "max_value": 11,
+              "currency": "USD",
+              "is_price_range": true,
+              "displayed_price": "$7.27 Usually $11"
+            },
+            "rating": {
+              "rating_type": "Max5",
+              "value": 5,
+              "votes_count": 2,
+              "rating_max": 5
+            },
+            "product_identifiers": {
+              "product_id": "8722364954766089059",
+              "data_docid": "12784691655864452010",
+              "gid": "4686759706559737360"
+            }
+          },
+          {
+            "type": "popular_products_element",
+            "title": "Oz, The Complete Collection, Volume 1 : The Wonderful Wizard of Oz/The Marvelous Land of Oz/Ozma of oz",
+            "url": "https://www.google.com/search?ibp=oshop&q=which+wizard+of+oz+books+are+considered+the+best%3F&prds=gpcid:12663083763603474560,rds:PC_12663083763603474560%7CPROD_PC_12663083763603474560,headlineOfferDocid:16050684701267318078,catalogid:9888703630919367147,pvo:3,pvt:hg&hl=en&gl=US",
+            "domain": "www.google.com",
+            "description": "Bookshop.org & more",
+            "more_sellers": true,
+            "seller": "Bookshop.org",
+            "group_title": null,
+            "group_source": null,
+            "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQAQZL7GWcov4ExPhgDLyvEa2J57VJBBZe0L-k733qCU3CYWzczJ93p3LVEkruVE2CZPtwWGYuZLiXS-fVUvGPsgQ0V9Mb4-yxsAv3zJu9T",
+            "price": {
+              "current": 18.63,
+              "regular": null,
+              "max_value": null,
+              "currency": "USD",
+              "is_price_range": false,
+              "displayed_price": "$18.63"
+            },
+            "rating": {
+              "rating_type": "Max5",
+              "value": 3.7,
+              "votes_count": 3,
+              "rating_max": 5
+            },
+            "product_identifiers": {
+              "product_id": "9888703630919367147",
+              "data_docid": "11636254036533045390",
+              "gid": "12663083763603474560"
+            }
+          }
+        ],
+        "rectangle": null
+      },
+      {
+        "type": "organic",
+        "rank_group": 8,
+        "rank_absolute": 12,
+        "page": 1,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[3]/div[1]/div[1]/div[24]/div[1]/div[1]/div[1]/div[1]",
+        "domain": "forums.welltrainedmind.com",
+        "title": "Which of the Wizard of Oz series are good reads?",
+        "url": "https://forums.welltrainedmind.com/topic/118906-which-of-the-wizard-of-oz-series-are-good-reads/",
+        "cache_url": null,
+        "related_search_url": null,
+        "breadcrumb": "https://forums.welltrainedmind.com",
+        "website_name": "The Well-Trained Mind Community",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "is_web_story": false,
+        "checks": null,
+        "description": "Aug 3, 2009 — Wizard of Oz · the marvelous land of oz · ozma of oz · dorothy and the wizard of oz · the road to oz · emerald city of oz · the patchwork girl of oz.",
+        "pre_snippet": "Wizard of Oz · the marvelous land of oz · ozma of oz · dorothy and the wizard of oz · the road to oz · emerald city of oz · the patchwork girl of oz.",
+        "extended_snippet": null,
+        "images": null,
+        "amp_version": false,
+        "rating": null,
+        "price": null,
+        "highlighted": [
+          "the marvelous land of oz"
+        ],
+        "links": null,
+        "faq": null,
+        "extended_people_also_search": null,
+        "about_this_result": null,
+        "related_result": null,
+        "timestamp": "2009-08-03 00:00:00 +00:00",
+        "rectangle": null
+      },
+      {
+        "type": "people_also_search",
+        "rank_group": 1,
+        "rank_absolute": 13,
+        "page": 1,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[15]/div[4]/div[1]/div[3]/div[1]",
+        "title": "People also search for",
+        "items": [
+          "Which wizard of oz books are considered the best reddit",
+          "Which wizard of oz books are considered the best in order",
+          "Are the Wizard of Oz books good",
+          "Ozma of Oz"
+        ],
+        "rectangle": null
+      }
+    ]
+  }
+}

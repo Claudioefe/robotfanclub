@@ -1,0 +1,647 @@
+{
+  "version": "0.1.20261117",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "52.2898 sec.",
+  "cost": 0.004,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "11201220-2831-0629-0000-84bfaafa1cad",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "52.1307 sec.",
+      "cost": 0.004,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "chat_gpt",
+        "llm_scraper",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "live",
+        "se": "chat_gpt",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "most valuable children's books",
+        "force_web_search": true,
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "most valuable children's books",
+          "location_code": 2840,
+          "language_code": "en",
+          "model": "gpt-6",
+          "check_url": "https://chatgpt.com/?prompt=most%20valuable%20children%27s%20books&hints=search",
+          "datetime": "2026-11-20 12:21:22 +00:00",
+          "markdown": "# The most valuable children's books\n\nIf you mean **children's books with the highest monetary value as rare and collectible editions**, some are worth thousands or even hundreds of thousands of dollars.\n\nThe biggest factors are first-edition status, first printing, author signatures, rarity, original illustrations, and condition.\n\n## Top collectible children's books\n\nEstimated historical auction prices and specialist valuations, not guaranteed current resale prices.\n\n![Curious George by H. A. Rey: (1941) First Edition, Early Printing. | Ernestoic Books](https://images.openai.com/static-rsc-4/belCnoBFWm6vDPw9GcSb70mw_C4UL7xpMpiEK7_ufjkDvKqzpYc_kwrNlI1mATBh_HqXPf_bSzHi4zFUFK5fFsOb6xQLBt6CtPZYIRZ5YU_f3CUU5c33fil9n8L_ntlatzvt_PZBr4xTvSdxkMFvsdwNRx-aO8gQnu46ZRye0z_WuK9anO8ib2qHpI_i2yq6?purpose=fullsize)\n\n**1\\. Curious George \\(1941)**\n\nH.A. Rey\n\n# \\$28,400\n\nEstimated first-edition value\n\n---\n\n![Goodnight Moon. by WISE BROWN, Margaret; HURD, Clement (illustrator).: (1947) | Shapero Rare Books](https://images.openai.com/static-rsc-4/tl0G8DoNxc_imDZCGucSvsuKzAQVJEb-rFG42kC9_qDhMpV0ECypwldog6rNFBvz8RpP5SOdrREzljjwn6ku_leWjRVCB1VJFbF1cUiZ6yyJVZFuOccaeRYW5c9r2e3G8usjtDnr_bHQ-SyRj2z7v3mlV1rM4RJpusokZa2rCWITazFu-bzdrDZ8ZoWumV7H?purpose=fullsize)\n\n**2\\. Goodnight Moon \\(1947)**\n\nMargaret Wise Brown\n\n# \\$26,600\n\n---\n\n![And To Think I Saw It On Mulberry Street by Dr. Seuss (First Edition, 1937) | Secret Bookstore](https://images.openai.com/static-rsc-4/q-SxUP_n0w99UH0JlZ500xYSPO-HOD6c1L_6IytE_Sxuf53MhyzvLDs9MtafPhSSBclcW-vvb72QS2Pw85scf_LdFJzaBekhSIBXtRn8lZ0GPxWRxe5ODwiJ_s_LdLFJa--pOsUtfiR4D0O3gUtBIWJk32b3V32W4Z7JASyW8n72Q8emOm3rfaO1SRMj6x6_?purpose=fullsize)\n\n**3\\. And to Think That I Saw It on Mulberry Street \\(1937)**\n\nDr. Seuss\n\n# \\$22,000\n\n---\n\n![The Snowy Day | Ezra Jack Keats | First Edition](https://images.openai.com/static-rsc-4/tOpER2YPgE2yWgd2QMGKpngh89jURcYvyMJwoWtXqv-C7L9-ZqoXmMdpoiKitwf-XtNwe2DlcBru_oeM0_25ZYv_Kf7Rt9_lSyDpYTb7hdGL5v5nyQgWqo6L9ISzWjjO23kuIvQoOBFNH1mxosqRMxug7uBjGwGQXVyULMR8waqqPyZkpmhh8J_4sk6S5Vnr?purpose=fullsize)\n\n**4\\. The Snowy Day \\(1962)**\n\nEzra Jack Keats\n\n# \\$21,800\n\n---\n\n![Horton Hatches the Egg by Dr. Seuss (Random House, 1940) First Edition HC by Dr. Seuss: Fair Hardcover (1940) First Edition. | Neutral Balloon Books](https://images.openai.com/static-rsc-4/1FmHMZOBtMOciwbRWh9PrbIWOyWNmpAhk-8O55L-SkIwyT6-JAWw2WME5ZImMxy-p-Cdm7S156fPHtnbzIuX6xehfG5dv7TN5ssYW_C8RQCCoPw4z_WwAbMetitRMbE1YWx1ks6lgGVx323Ogd6mhUVARKnUV34Ufscb7uUZujd88k0edQTrStjqI5wwLwjU?purpose=fullsize)\n\n**5\\. Horton Hatches the Egg \\(1940)**\n\nDr. Seuss\n\n# \\$16,000\n\n---\n\n![Make Way for Ducklings | Robert McCloskey | First edition](https://images.openai.com/static-rsc-4/JgBk9QvW7IktZ7ITeS0uPuBdm2gHVA7H9oE3Zfn3OxayvM8EvV8rvHulMyP3oymOEnK719LtbhsIg6ki7V2NfFhLwpGb2bGIr-k1qacrlFksa5cDx3qn7lYs37Q_1cPM3LjvI9py3zOMTTwF8N0Omij1mdwHdCI8UqmBbCnyKG_boqfmQSqgpHdL5QfJ4ZwZ?purpose=fullsize)\n\n**6\\. Make Way for Ducklings \\(1941)**\n\nRobert McCloskey\n\n# \\$15,600\n\n---\n\n![Eric Carle Vintage The Very Hungry Caterpillar First Edition Available For Immediate Sale At Sotheby’s](https://images.openai.com/static-rsc-4/u6JGkNhwPrj2B5AuZBFeHgGM0UPCKwa7B8KP-c-4kFQgnyyHBB0x7PAdGaq5nvK4jjXDLpX_Y2Itlaeg5z8QkG2sQ5LyKV8U6LaU47YQ-TXf34w0p6HDNY6NZhfmDc21Y2IHZo2a1863Ns8vr0QNVVTp1YgnKO4vgia0GBka4jHORSgQlnPBRFs01nSjpZue?purpose=fullsize)\n\n**7\\. The Very Hungry Caterpillar \\(1969)**\n\nEric Carle\n\n# \\$14,400\n\n---\n\n![Where the Wild Things Are | Maurice Sendak | First Edition](https://images.openai.com/static-rsc-4/1qsPst1lfrqxhGTnvk-y5w4gxa0OPfCUyZevvCaJUG2utK24YK4jFulZ4FjJRsCuvSfE6LmSXIke2bv_F9NvlT4fsAHo62xubbBthJRBP3lp7JSWp8FBRaLvn895vdni4mluO8Q6IT2I-Li9pxhPhisTfDR5l-W119ZAFUx5Tsuf-mwVHUIvgM5y7iJK7nD3?purpose=fullsize)\n\n**8\\. Where the Wild Things Are \\(1963)**\n\nMaurice Sendak\n\n# \\$11,600\n\nSource: Children's Picturebook Price Guide, estimates for first editions in very good condition with original dust jackets. [1stedition.net](https://1stedition.net/?pg=%2Fvalues%2Fmostvaluable&utm_source=chatgpt.com)\n\n## Other exceptionally valuable children's books\n\nThese are notable for major auction sales\\:\n\n| Book | Reported sale |\n|--------|--------|\n| Harry Potter and the Philosopher's Stone \\(1997) | \\$471,000 |\n| The Hobbit \\(1937) | £43,000 |\n| The Tale of Peter Rabbit \\(1901) | £43,400 |\n| Where the Wild Things Are \\(1963) | \\$25,000 signed copy |\n\n\n[myvolumes.com](https://myvolumes.com/guides/most-valuable-first-editions/?utm_source=chatgpt.com)[www.abebooks.com](https://www.abebooks.com/books/rarebooks/most-valuable-childrens-books.shtml?utm_source=chatgpt.com)[www.mentalfloss.com](https://www.mentalfloss.com/literature/books/most-valuable-childrens-books?utm_source=chatgpt.com)\n\n## What makes a children's book valuable?\n\n1. Original first printing, not simply a first edition.\n2. Original dust jacket in excellent condition.\n3. Author's signature or personal inscription.\n4. Rare original illustrations or limited editions.\n5. Historical importance and collector demand.\n\n## One question: What kind of value are you interested in?\n\n**What are you looking for?**\n\nBooks that could be worth a lot of money\n\nThe most meaningful and enriching books for children\n\nRare vintage and collectible books to hunt for\n\nA timeless children's library worth preserving\n\n---\n\n**Age group**\n\n[Find the best books]",
+          "search_results": [
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://myvolumes.com/guides/most-valuable-first-editions/",
+              "domain": "myvolumes.com",
+              "title": "Most Valuable First Edition Books | Home Finds | MyVolumes",
+              "description": null,
+              "breadcrumb": "myvolumes.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://1stedition.net/?pg=%2Fvalues%2Fmostvaluable",
+              "domain": "1stedition.net",
+              "title": null,
+              "description": null,
+              "breadcrumb": "1stedition.net"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://1stedition.net/?pg=/values/mostvaluable",
+              "domain": "1stedition.net",
+              "title": "1stedition.net",
+              "description": "Total lines: 212\n",
+              "breadcrumb": "1stedition.net"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.abebooks.com/books/rarebooks/most-valuable-childrens-books.shtml",
+              "domain": "www.abebooks.com",
+              "title": "The world's most valuable children's books",
+              "description": null,
+              "breadcrumb": "www.abebooks.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.1stedition.net/?pg=%2Fvalues%2Fmostvaluable",
+              "domain": "www.1stedition.net",
+              "title": null,
+              "description": null,
+              "breadcrumb": "www.1stedition.net"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.scotsman.com/whats-on/arts-and-entertainment/most-expensive-first-edition-childrens-books-2025-5273090",
+              "domain": "www.scotsman.com",
+              "title": "Most expensive first-edition children's books in 2025 - are any sitting on your bookshelf?",
+              "description": null,
+              "breadcrumb": "www.scotsman.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://ravelstein.com/wiki/market-analysis/children-s-book-collecting-guide/",
+              "domain": "ravelstein.com",
+              "title": "Children's Book Collecting — A Complete Guide to the Most Challenging Category — Ravelstein",
+              "description": null,
+              "breadcrumb": "ravelstein.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://ravelstein.com/wiki/market-analysis/childrens-books-first-editions-guide/",
+              "domain": "ravelstein.com",
+              "title": "Children's Books First Editions — Collecting Guide — Ravelstein",
+              "description": null,
+              "breadcrumb": "ravelstein.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://brbweb2022.baumanrarebooks.com/rare-books/children/",
+              "domain": "brbweb2022.baumanrarebooks.com",
+              "title": "Children's Books Rare Books and First Editions - Bauman Rare Books",
+              "description": null,
+              "breadcrumb": "brbweb2022.baumanrarebooks.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.abebooks.co.uk/books/rarebooks/most-valuable-childrens-books.shtml",
+              "domain": "www.abebooks.co.uk",
+              "title": "The world's most valuable children's books",
+              "description": null,
+              "breadcrumb": "www.abebooks.co.uk"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.mentalfloss.com/literature/books/most-valuable-childrens-books",
+              "domain": "www.mentalfloss.com",
+              "title": "10 of the Most Valuable Children’s Books",
+              "description": null,
+              "breadcrumb": "www.mentalfloss.com"
+            }
+          ],
+          "sources": [
+            {
+              "type": "chat_gpt_source",
+              "title": null,
+              "snippet": "Total lines: 212",
+              "domain": "1stedition.net",
+              "url": "https://1stedition.net/?pg=%2Fvalues%2Fmostvaluable&utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "1st Edition",
+              "publication_date": null,
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Most Valuable First Edition Books | Home Finds",
+              "snippet": null,
+              "domain": "myvolumes.com",
+              "url": "https://myvolumes.com/guides/most-valuable-first-editions/?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "MyVolumes",
+              "publication_date": "2026-10-19 00:00:00 +00:00",
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "The world's most valuable children's books",
+              "snippet": null,
+              "domain": "www.abebooks.com",
+              "url": "https://www.abebooks.com/books/rarebooks/most-valuable-childrens-books.shtml?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "AbeBooks",
+              "publication_date": null,
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "10 of the Most Valuable Children’s Books",
+              "snippet": null,
+              "domain": "www.mentalfloss.com",
+              "url": "https://www.mentalfloss.com/literature/books/most-valuable-childrens-books?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "Mental Floss",
+              "publication_date": "2024-06-07 00:00:00 +00:00",
+              "markdown": null
+            }
+          ],
+          "fan_out_queries": [
+            "most valuable children's books rare first editions highest auction prices"
+          ],
+          "brand_entities": [
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "1941 children's picture book by H.A. Rey",
+              "category": "book",
+              "markdown": "Curious George",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "1947 picture book by Margaret Wise Brown",
+              "category": "book",
+              "markdown": "Goodnight Moon",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "And to Think That I Saw It on Mulberry Street",
+              "category": "book",
+              "markdown": "And to Think That I Saw It on Mulberry Street",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "1962 picture book by Ezra Jack Keats",
+              "category": "book",
+              "markdown": "The Snowy Day",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Horton Hatches the Egg",
+              "category": "book",
+              "markdown": "Horton Hatches the Egg",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Make Way for Ducklings",
+              "category": "book",
+              "markdown": "Make Way for Ducklings",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "The Very Hungry Caterpillar",
+              "category": "book",
+              "markdown": "The Very Hungry Caterpillar",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Where the Wild Things Are",
+              "category": "book",
+              "markdown": "Where the Wild Things Are",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Harry Potter and the Philosopher's Stone",
+              "category": "book",
+              "markdown": "Harry Potter and the Philosopher's Stone",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "The Hobbit",
+              "category": "book",
+              "markdown": "The Hobbit",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "The Tale of Peter Rabbit",
+              "category": "book",
+              "markdown": "The Tale of Peter Rabbit",
+              "urls": null
+            }
+          ],
+          "se_results_count": 0,
+          "item_types": [
+            "chat_gpt_text",
+            "chat_gpt_images",
+            "chat_gpt_table"
+          ],
+          "items_count": 19,
+          "items": [
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "markdown": "# The most valuable children's books\n\nIf you mean **children's books with the highest monetary value as rare and collectible editions**, some are worth thousands or even hundreds of thousands of dollars.\n\nThe biggest factors are first-edition status, first printing, author signatures, rarity, original illustrations, and condition.\n\n## Top collectible children's books\n\nEstimated historical auction prices and specialist valuations, not guaranteed current resale prices.\n\n",
+              "sources": null,
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "markdown": "![Curious George by H. A. Rey: (1941) First Edition, Early Printing. | Ernestoic Books](https://images.openai.com/static-rsc-4/belCnoBFWm6vDPw9GcSb70mw_C4UL7xpMpiEK7_ufjkDvKqzpYc_kwrNlI1mATBh_HqXPf_bSzHi4zFUFK5fFsOb6xQLBt6CtPZYIRZ5YU_f3CUU5c33fil9n8L_ntlatzvt_PZBr4xTvSdxkMFvsdwNRx-aO8gQnu46ZRye0z_WuK9anO8ib2qHpI_i2yq6?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.abebooks.com/first-edition/Curious-George-H-A-Rey-Houghton/32341504693/bd",
+                  "alt": "Curious George by H. A. Rey: (1941) First Edition, Early Printing. | Ernestoic Books",
+                  "image_url": "https://images.openai.com/static-rsc-4/belCnoBFWm6vDPw9GcSb70mw_C4UL7xpMpiEK7_ufjkDvKqzpYc_kwrNlI1mATBh_HqXPf_bSzHi4zFUFK5fFsOb6xQLBt6CtPZYIRZ5YU_f3CUU5c33fil9n8L_ntlatzvt_PZBr4xTvSdxkMFvsdwNRx-aO8gQnu46ZRye0z_WuK9anO8ib2qHpI_i2yq6?purpose=fullsize",
+                  "markdown": "![Curious George by H. A. Rey: (1941) First Edition, Early Printing. | Ernestoic Books](https://images.openai.com/static-rsc-4/belCnoBFWm6vDPw9GcSb70mw_C4UL7xpMpiEK7_ufjkDvKqzpYc_kwrNlI1mATBh_HqXPf_bSzHi4zFUFK5fFsOb6xQLBt6CtPZYIRZ5YU_f3CUU5c33fil9n8L_ntlatzvt_PZBr4xTvSdxkMFvsdwNRx-aO8gQnu46ZRye0z_WuK9anO8ib2qHpI_i2yq6?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "markdown": "\n\n**1\\. Curious George \\(1941)**\n\nH.A. Rey\n\n# \\$28,400\n\nEstimated first-edition value\n\n---\n\n",
+              "sources": null,
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "1941 children's picture book by H.A. Rey",
+                  "category": "book",
+                  "markdown": "Curious George",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "markdown": "![Goodnight Moon. by WISE BROWN, Margaret; HURD, Clement (illustrator).: (1947) | Shapero Rare Books](https://images.openai.com/static-rsc-4/tl0G8DoNxc_imDZCGucSvsuKzAQVJEb-rFG42kC9_qDhMpV0ECypwldog6rNFBvz8RpP5SOdrREzljjwn6ku_leWjRVCB1VJFbF1cUiZ6yyJVZFuOccaeRYW5c9r2e3G8usjtDnr_bHQ-SyRj2z7v3mlV1rM4RJpusokZa2rCWITazFu-bzdrDZ8ZoWumV7H?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.abebooks.com/first-edition/Goodnight-Moon-WISE-BROWN-Margaret-HURD/32205658117/bd",
+                  "alt": "Goodnight Moon. by WISE BROWN, Margaret; HURD, Clement (illustrator).: (1947) | Shapero Rare Books",
+                  "image_url": "https://images.openai.com/static-rsc-4/tl0G8DoNxc_imDZCGucSvsuKzAQVJEb-rFG42kC9_qDhMpV0ECypwldog6rNFBvz8RpP5SOdrREzljjwn6ku_leWjRVCB1VJFbF1cUiZ6yyJVZFuOccaeRYW5c9r2e3G8usjtDnr_bHQ-SyRj2z7v3mlV1rM4RJpusokZa2rCWITazFu-bzdrDZ8ZoWumV7H?purpose=fullsize",
+                  "markdown": "![Goodnight Moon. by WISE BROWN, Margaret; HURD, Clement (illustrator).: (1947) | Shapero Rare Books](https://images.openai.com/static-rsc-4/tl0G8DoNxc_imDZCGucSvsuKzAQVJEb-rFG42kC9_qDhMpV0ECypwldog6rNFBvz8RpP5SOdrREzljjwn6ku_leWjRVCB1VJFbF1cUiZ6yyJVZFuOccaeRYW5c9r2e3G8usjtDnr_bHQ-SyRj2z7v3mlV1rM4RJpusokZa2rCWITazFu-bzdrDZ8ZoWumV7H?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 3,
+              "rank_absolute": 5,
+              "markdown": "\n\n**2\\. Goodnight Moon \\(1947)**\n\nMargaret Wise Brown\n\n# \\$26,600\n\n---\n\n",
+              "sources": null,
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "1947 picture book by Margaret Wise Brown",
+                  "category": "book",
+                  "markdown": "Goodnight Moon",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 3,
+              "rank_absolute": 6,
+              "markdown": "![And To Think I Saw It On Mulberry Street by Dr. Seuss (First Edition, 1937) | Secret Bookstore](https://images.openai.com/static-rsc-4/q-SxUP_n0w99UH0JlZ500xYSPO-HOD6c1L_6IytE_Sxuf53MhyzvLDs9MtafPhSSBclcW-vvb72QS2Pw85scf_LdFJzaBekhSIBXtRn8lZ0GPxWRxe5ODwiJ_s_LdLFJa--pOsUtfiR4D0O3gUtBIWJk32b3V32W4Z7JASyW8n72Q8emOm3rfaO1SRMj6x6_?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.thesecretbookstoresterling.com/product/and-to-think-i-saw-it-on-mulberry-street-by-dr-seuss-first-edition-1937-/622",
+                  "alt": "And To Think I Saw It On Mulberry Street by Dr. Seuss (First Edition, 1937) | Secret Bookstore",
+                  "image_url": "https://images.openai.com/static-rsc-4/q-SxUP_n0w99UH0JlZ500xYSPO-HOD6c1L_6IytE_Sxuf53MhyzvLDs9MtafPhSSBclcW-vvb72QS2Pw85scf_LdFJzaBekhSIBXtRn8lZ0GPxWRxe5ODwiJ_s_LdLFJa--pOsUtfiR4D0O3gUtBIWJk32b3V32W4Z7JASyW8n72Q8emOm3rfaO1SRMj6x6_?purpose=fullsize",
+                  "markdown": "![And To Think I Saw It On Mulberry Street by Dr. Seuss (First Edition, 1937) | Secret Bookstore](https://images.openai.com/static-rsc-4/q-SxUP_n0w99UH0JlZ500xYSPO-HOD6c1L_6IytE_Sxuf53MhyzvLDs9MtafPhSSBclcW-vvb72QS2Pw85scf_LdFJzaBekhSIBXtRn8lZ0GPxWRxe5ODwiJ_s_LdLFJa--pOsUtfiR4D0O3gUtBIWJk32b3V32W4Z7JASyW8n72Q8emOm3rfaO1SRMj6x6_?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "markdown": "\n\n**3\\. And to Think That I Saw It on Mulberry Street \\(1937)**\n\nDr. Seuss\n\n# \\$22,000\n\n---\n\n",
+              "sources": null,
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "And to Think That I Saw It on Mulberry Street",
+                  "category": "book",
+                  "markdown": "And to Think That I Saw It on Mulberry Street",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 4,
+              "rank_absolute": 8,
+              "markdown": "![The Snowy Day | Ezra Jack Keats | First Edition](https://images.openai.com/static-rsc-4/tOpER2YPgE2yWgd2QMGKpngh89jURcYvyMJwoWtXqv-C7L9-ZqoXmMdpoiKitwf-XtNwe2DlcBru_oeM0_25ZYv_Kf7Rt9_lSyDpYTb7hdGL5v5nyQgWqo6L9ISzWjjO23kuIvQoOBFNH1mxosqRMxug7uBjGwGQXVyULMR8waqqPyZkpmhh8J_4sk6S5Vnr?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.burnsiderarebooks.com/pages/books/140948215/ezra-jack-keats/the-snowy-day",
+                  "alt": "The Snowy Day | Ezra Jack Keats | First Edition",
+                  "image_url": "https://images.openai.com/static-rsc-4/tOpER2YPgE2yWgd2QMGKpngh89jURcYvyMJwoWtXqv-C7L9-ZqoXmMdpoiKitwf-XtNwe2DlcBru_oeM0_25ZYv_Kf7Rt9_lSyDpYTb7hdGL5v5nyQgWqo6L9ISzWjjO23kuIvQoOBFNH1mxosqRMxug7uBjGwGQXVyULMR8waqqPyZkpmhh8J_4sk6S5Vnr?purpose=fullsize",
+                  "markdown": "![The Snowy Day | Ezra Jack Keats | First Edition](https://images.openai.com/static-rsc-4/tOpER2YPgE2yWgd2QMGKpngh89jURcYvyMJwoWtXqv-C7L9-ZqoXmMdpoiKitwf-XtNwe2DlcBru_oeM0_25ZYv_Kf7Rt9_lSyDpYTb7hdGL5v5nyQgWqo6L9ISzWjjO23kuIvQoOBFNH1mxosqRMxug7uBjGwGQXVyULMR8waqqPyZkpmhh8J_4sk6S5Vnr?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 5,
+              "rank_absolute": 9,
+              "markdown": "\n\n**4\\. The Snowy Day \\(1962)**\n\nEzra Jack Keats\n\n# \\$21,800\n\n---\n\n",
+              "sources": null,
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "1962 picture book by Ezra Jack Keats",
+                  "category": "book",
+                  "markdown": "The Snowy Day",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 5,
+              "rank_absolute": 10,
+              "markdown": "![Horton Hatches the Egg by Dr. Seuss (Random House, 1940) First Edition HC by Dr. Seuss: Fair Hardcover (1940) First Edition. | Neutral Balloon Books](https://images.openai.com/static-rsc-4/1FmHMZOBtMOciwbRWh9PrbIWOyWNmpAhk-8O55L-SkIwyT6-JAWw2WME5ZImMxy-p-Cdm7S156fPHtnbzIuX6xehfG5dv7TN5ssYW_C8RQCCoPw4z_WwAbMetitRMbE1YWx1ks6lgGVx323Ogd6mhUVARKnUV34Ufscb7uUZujd88k0edQTrStjqI5wwLwjU?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.abebooks.com/first-edition/Horton-Hatches-Egg-Seuss-Random-House/32275298487/bd",
+                  "alt": "Horton Hatches the Egg by Dr. Seuss (Random House, 1940) First Edition HC by Dr. Seuss: Fair Hardcover (1940) First Edition. | Neutral Balloon Books",
+                  "image_url": "https://images.openai.com/static-rsc-4/1FmHMZOBtMOciwbRWh9PrbIWOyWNmpAhk-8O55L-SkIwyT6-JAWw2WME5ZImMxy-p-Cdm7S156fPHtnbzIuX6xehfG5dv7TN5ssYW_C8RQCCoPw4z_WwAbMetitRMbE1YWx1ks6lgGVx323Ogd6mhUVARKnUV34Ufscb7uUZujd88k0edQTrStjqI5wwLwjU?purpose=fullsize",
+                  "markdown": "![Horton Hatches the Egg by Dr. Seuss (Random House, 1940) First Edition HC by Dr. Seuss: Fair Hardcover (1940) First Edition. | Neutral Balloon Books](https://images.openai.com/static-rsc-4/1FmHMZOBtMOciwbRWh9PrbIWOyWNmpAhk-8O55L-SkIwyT6-JAWw2WME5ZImMxy-p-Cdm7S156fPHtnbzIuX6xehfG5dv7TN5ssYW_C8RQCCoPw4z_WwAbMetitRMbE1YWx1ks6lgGVx323Ogd6mhUVARKnUV34Ufscb7uUZujd88k0edQTrStjqI5wwLwjU?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 6,
+              "rank_absolute": 11,
+              "markdown": "\n\n**5\\. Horton Hatches the Egg \\(1940)**\n\nDr. Seuss\n\n# \\$16,000\n\n---\n\n",
+              "sources": null,
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Horton Hatches the Egg",
+                  "category": "book",
+                  "markdown": "Horton Hatches the Egg",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 6,
+              "rank_absolute": 12,
+              "markdown": "![Make Way for Ducklings | Robert McCloskey | First edition](https://images.openai.com/static-rsc-4/JgBk9QvW7IktZ7ITeS0uPuBdm2gHVA7H9oE3Zfn3OxayvM8EvV8rvHulMyP3oymOEnK719LtbhsIg6ki7V2NfFhLwpGb2bGIr-k1qacrlFksa5cDx3qn7lYs37Q_1cPM3LjvI9py3zOMTTwF8N0Omij1mdwHdCI8UqmBbCnyKG_boqfmQSqgpHdL5QfJ4ZwZ?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.whitmorerarebooks.com/pages/books/6760/robert-mccloskey/make-way-for-ducklings",
+                  "alt": "Make Way for Ducklings | Robert McCloskey | First edition",
+                  "image_url": "https://images.openai.com/static-rsc-4/JgBk9QvW7IktZ7ITeS0uPuBdm2gHVA7H9oE3Zfn3OxayvM8EvV8rvHulMyP3oymOEnK719LtbhsIg6ki7V2NfFhLwpGb2bGIr-k1qacrlFksa5cDx3qn7lYs37Q_1cPM3LjvI9py3zOMTTwF8N0Omij1mdwHdCI8UqmBbCnyKG_boqfmQSqgpHdL5QfJ4ZwZ?purpose=fullsize",
+                  "markdown": "![Make Way for Ducklings | Robert McCloskey | First edition](https://images.openai.com/static-rsc-4/JgBk9QvW7IktZ7ITeS0uPuBdm2gHVA7H9oE3Zfn3OxayvM8EvV8rvHulMyP3oymOEnK719LtbhsIg6ki7V2NfFhLwpGb2bGIr-k1qacrlFksa5cDx3qn7lYs37Q_1cPM3LjvI9py3zOMTTwF8N0Omij1mdwHdCI8UqmBbCnyKG_boqfmQSqgpHdL5QfJ4ZwZ?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 7,
+              "rank_absolute": 13,
+              "markdown": "\n\n**6\\. Make Way for Ducklings \\(1941)**\n\nRobert McCloskey\n\n# \\$15,600\n\n---\n\n",
+              "sources": null,
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Make Way for Ducklings",
+                  "category": "book",
+                  "markdown": "Make Way for Ducklings",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 7,
+              "rank_absolute": 14,
+              "markdown": "![Eric Carle Vintage The Very Hungry Caterpillar First Edition Available For Immediate Sale At Sotheby’s](https://images.openai.com/static-rsc-4/u6JGkNhwPrj2B5AuZBFeHgGM0UPCKwa7B8KP-c-4kFQgnyyHBB0x7PAdGaq5nvK4jjXDLpX_Y2Itlaeg5z8QkG2sQ5LyKV8U6LaU47YQ-TXf34w0p6HDNY6NZhfmDc21Y2IHZo2a1863Ns8vr0QNVVTp1YgnKO4vgia0GBka4jHORSgQlnPBRFs01nSjpZue?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.sothebys.com/en/buy/books-manuscripts/first-editions/_the-very-hungry-caterpillar-3949",
+                  "alt": "Eric Carle Vintage The Very Hungry Caterpillar First Edition Available For Immediate Sale At Sotheby’s",
+                  "image_url": "https://images.openai.com/static-rsc-4/u6JGkNhwPrj2B5AuZBFeHgGM0UPCKwa7B8KP-c-4kFQgnyyHBB0x7PAdGaq5nvK4jjXDLpX_Y2Itlaeg5z8QkG2sQ5LyKV8U6LaU47YQ-TXf34w0p6HDNY6NZhfmDc21Y2IHZo2a1863Ns8vr0QNVVTp1YgnKO4vgia0GBka4jHORSgQlnPBRFs01nSjpZue?purpose=fullsize",
+                  "markdown": "![Eric Carle Vintage The Very Hungry Caterpillar First Edition Available For Immediate Sale At Sotheby’s](https://images.openai.com/static-rsc-4/u6JGkNhwPrj2B5AuZBFeHgGM0UPCKwa7B8KP-c-4kFQgnyyHBB0x7PAdGaq5nvK4jjXDLpX_Y2Itlaeg5z8QkG2sQ5LyKV8U6LaU47YQ-TXf34w0p6HDNY6NZhfmDc21Y2IHZo2a1863Ns8vr0QNVVTp1YgnKO4vgia0GBka4jHORSgQlnPBRFs01nSjpZue?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 8,
+              "rank_absolute": 15,
+              "markdown": "\n\n**7\\. The Very Hungry Caterpillar \\(1969)**\n\nEric Carle\n\n# \\$14,400\n\n---\n\n",
+              "sources": null,
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "The Very Hungry Caterpillar",
+                  "category": "book",
+                  "markdown": "The Very Hungry Caterpillar",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 8,
+              "rank_absolute": 16,
+              "markdown": "![Where the Wild Things Are | Maurice Sendak | First Edition](https://images.openai.com/static-rsc-4/1qsPst1lfrqxhGTnvk-y5w4gxa0OPfCUyZevvCaJUG2utK24YK4jFulZ4FjJRsCuvSfE6LmSXIke2bv_F9NvlT4fsAHo62xubbBthJRBP3lp7JSWp8FBRaLvn895vdni4mluO8Q6IT2I-Li9pxhPhisTfDR5l-W119ZAFUx5Tsuf-mwVHUIvgM5y7iJK7nD3?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.burnsiderarebooks.com/pages/books/140947882/maurice-sendak/where-the-wild-things-are",
+                  "alt": "Where the Wild Things Are | Maurice Sendak | First Edition",
+                  "image_url": "https://images.openai.com/static-rsc-4/1qsPst1lfrqxhGTnvk-y5w4gxa0OPfCUyZevvCaJUG2utK24YK4jFulZ4FjJRsCuvSfE6LmSXIke2bv_F9NvlT4fsAHo62xubbBthJRBP3lp7JSWp8FBRaLvn895vdni4mluO8Q6IT2I-Li9pxhPhisTfDR5l-W119ZAFUx5Tsuf-mwVHUIvgM5y7iJK7nD3?purpose=fullsize",
+                  "markdown": "![Where the Wild Things Are | Maurice Sendak | First Edition](https://images.openai.com/static-rsc-4/1qsPst1lfrqxhGTnvk-y5w4gxa0OPfCUyZevvCaJUG2utK24YK4jFulZ4FjJRsCuvSfE6LmSXIke2bv_F9NvlT4fsAHo62xubbBthJRBP3lp7JSWp8FBRaLvn895vdni4mluO8Q6IT2I-Li9pxhPhisTfDR5l-W119ZAFUx5Tsuf-mwVHUIvgM5y7iJK7nD3?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 9,
+              "rank_absolute": 17,
+              "markdown": "\n\n**8\\. Where the Wild Things Are \\(1963)**\n\nMaurice Sendak\n\n# \\$11,600\n\nSource: Children's Picturebook Price Guide, estimates for first editions in very good condition with original dust jackets. [1stedition.net](https://1stedition.net/?pg=%2Fvalues%2Fmostvaluable&utm_source=chatgpt.com)\n\n## Other exceptionally valuable children's books\n\nThese are notable for major auction sales\\:\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": null,
+                  "snippet": "Total lines: 212",
+                  "domain": "1stedition.net",
+                  "url": "https://1stedition.net/?pg=%2Fvalues%2Fmostvaluable&utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "1st Edition",
+                  "publication_date": null,
+                  "markdown": null
+                }
+              ],
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Where the Wild Things Are",
+                  "category": "book",
+                  "markdown": "Where the Wild Things Are",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_table",
+              "rank_group": 1,
+              "rank_absolute": 18,
+              "text": null,
+              "markdown": "| Book | Reported sale |\n|--------|--------|\n| Harry Potter and the Philosopher's Stone \\(1997) | \\$471,000 |\n| The Hobbit \\(1937) | £43,000 |\n| The Tale of Peter Rabbit \\(1901) | £43,400 |\n| Where the Wild Things Are \\(1963) | \\$25,000 signed copy |\n\n",
+              "table": {
+                "table_header": [
+                  "Book",
+                  "Reported sale"
+                ],
+                "table_content": [
+                  [
+                    "Harry Potter and the Philosopher's Stone \\(1997)",
+                    "\\$471,000"
+                  ],
+                  [
+                    "The Hobbit \\(1937)",
+                    "£43,000"
+                  ],
+                  [
+                    "The Tale of Peter Rabbit \\(1901)",
+                    "£43,400"
+                  ],
+                  [
+                    "Where the Wild Things Are \\(1963)",
+                    "\\$25,000 signed copy"
+                  ]
+                ]
+              },
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Harry Potter and the Philosopher's Stone",
+                  "category": "book",
+                  "markdown": "Harry Potter and the Philosopher's Stone",
+                  "urls": null
+                },
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "The Hobbit",
+                  "category": "book",
+                  "markdown": "The Hobbit",
+                  "urls": null
+                },
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "The Tale of Peter Rabbit",
+                  "category": "book",
+                  "markdown": "The Tale of Peter Rabbit",
+                  "urls": null
+                },
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Where the Wild Things Are",
+                  "category": "book",
+                  "markdown": "Where the Wild Things Are",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 10,
+              "rank_absolute": 19,
+              "markdown": "\n[myvolumes.com](https://myvolumes.com/guides/most-valuable-first-editions/?utm_source=chatgpt.com)[www.abebooks.com](https://www.abebooks.com/books/rarebooks/most-valuable-childrens-books.shtml?utm_source=chatgpt.com)[www.mentalfloss.com](https://www.mentalfloss.com/literature/books/most-valuable-childrens-books?utm_source=chatgpt.com)\n\n## What makes a children's book valuable?\n\n1. Original first printing, not simply a first edition.\n2. Original dust jacket in excellent condition.\n3. Author's signature or personal inscription.\n4. Rare original illustrations or limited editions.\n5. Historical importance and collector demand.\n\n## One question: What kind of value are you interested in?\n\n**What are you looking for?**\n\nBooks that could be worth a lot of money\n\nThe most meaningful and enriching books for children\n\nRare vintage and collectible books to hunt for\n\nA timeless children's library worth preserving\n\n---\n\n**Age group**\n\n[Find the best books]",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Most Valuable First Edition Books | Home Finds",
+                  "snippet": null,
+                  "domain": "myvolumes.com",
+                  "url": "https://myvolumes.com/guides/most-valuable-first-editions/?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "MyVolumes",
+                  "publication_date": "2026-10-19 00:00:00 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "The world's most valuable children's books",
+                  "snippet": null,
+                  "domain": "www.abebooks.com",
+                  "url": "https://www.abebooks.com/books/rarebooks/most-valuable-childrens-books.shtml?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "AbeBooks",
+                  "publication_date": null,
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "10 of the Most Valuable Children’s Books",
+                  "snippet": null,
+                  "domain": "www.mentalfloss.com",
+                  "url": "https://www.mentalfloss.com/literature/books/most-valuable-childrens-books?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "Mental Floss",
+                  "publication_date": "2024-06-07 00:00:00 +00:00",
+                  "markdown": null
+                }
+              ],
+              "brand_entities": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

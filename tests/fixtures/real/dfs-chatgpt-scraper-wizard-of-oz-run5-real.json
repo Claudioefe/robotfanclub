@@ -1,0 +1,682 @@
+{
+  "version": "0.1.20261117",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "14.6012 sec.",
+  "cost": 0.004,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "11201129-2831-0629-0000-7c7cf11fd3e3",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "14.3874 sec.",
+      "cost": 0.004,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "chat_gpt",
+        "llm_scraper",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "live",
+        "se": "chat_gpt",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "which wizard of oz books are considered the best?",
+        "force_web_search": true,
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "which wizard of oz books are considered the best?",
+          "location_code": 2840,
+          "language_code": "en",
+          "model": "gpt-6",
+          "check_url": "https://chatgpt.com/?prompt=which%20wizard%20of%20oz%20books%20are%20considered%20the%20best%3F&hints=search",
+          "datetime": "2026-11-20 11:29:20 +00:00",
+          "markdown": "If you're looking at the original **Oz books by L. Frank Baum**, there are 14 novels, and a handful are generally considered the standouts. Interestingly, some of the later books are favorites among readers who grew up with the series.\n\nBased on reader ratings, literary commentary, and fan interest, here's the shortlist I'd recommend.\n\n## The best Wizard of Oz books\n\n![A Digital Archive of 1,800+ Children's Books from UCLA |  Open Culture](https://images.openai.com/static-rsc-4/ktPSnTMEmSElZshwWTzqxNKicoMxk-5To_TV0k5UX3P4DSE6dNbSFoI-NJBmZ-0p5qSvlZbxl1y7goSG2kkLHKti8J84mByOHTqDj56vSAraePGvb9H5AAOSl-p-KS9usgOu9FI-7V3OsiPiKAocGb8oW01oeyDic5Q38s9lu2jeUdAa-ma4vNIsqKyBzaDp?purpose=fullsize)\n\n**1\\. The Wonderful Wizard of Oz \\(1900)**\n\n(Essential classic)\n\nThe original and arguably the best. Introduces Dorothy, the Scarecrow, Tin Woodman, Cowardly Lion, and the magical world of Oz. More surprising and occasionally darker than the famous movie.\n\n---\n\n![Ozma of Oz: Record of Her Adventures with Dorothy Gale of Kansas, the Yellow Hen, the Scarecrow, the Tin Woodman, Tiktok, the Cowardly Lion and the Hungry Tiger; Besides Other Good People too Numerous to Mention Faithfully Recorded Herein by L. Frank Baum: Fair Hardcover | Reasons To Live Books](https://images.openai.com/static-rsc-4/b4uqHO2aERnrzTXkUivYASpHWPO3YjpcCsnnsIZs59LdgF7zVOE_DN755uon0xFRojkMHxUS4UfIaWqXfyANOv-o9cArt5G62YnO9EIx4-Snh5jBv362VfysQaFJNphcBal0HPmHjgsSUZHqpV8DYhF2Qvs8O4bUcOEDVUo5oeZf3d4qXKukmBu8Y0B7XSf2?purpose=fullsize)\n\n**2\\. Ozma of Oz \\(1907)**\n\n(One of the fan favorites)\n\nA particularly imaginative adventure featuring Princess Ozma, the Nome King, and the unforgettable mechanical man Tik-Tok. Often rated among Baum's very best.\n\n---\n\n![THE MARVELOUS LAND OF OZ\nby Baum, L. Frank; Neill, John R |\n1904 |\nReilly & Britton |\nBiblio](https://images.openai.com/static-rsc-4/sDL3NOOZ-vo8f-9C_-gE1EM9-bM0y35-oDubDa4N7XVJ9DW7NEgrlHYb1j_4Drh3r66jo69CnmIObKHvSlUYsHnai2KzmcWp5tEV3oxTUnCaDL4jlr-AWbkCWPIGN7f_ezDq97mFgnDfubP490r117lRselp_tvC11URrNl9ONVA4doNEQBhJX1DXqow7ox1?purpose=fullsize)\n\n**3\\. The Marvelous Land of Oz \\(1904)**\n\nIntroduces Tip, Jack Pumpkinhead, the Woggle-Bug, and the origins of Ozma. A wonderfully eccentric sequel with a lot of humor.\n\n---\n\n![[Baum, L. Frank] Emerald City of Oz\nby Baum, L. Frank |\n[1910] |\nReilly & Britton |\nBiblio](https://images.openai.com/static-rsc-4/OJodjw_kD1NOGA_U9j9gI9yK2y2ncwaCQ5liv-RZr7d_IZZtdGoX0Pde9vX4JdMJOhYvFFMKeHVuo5a5wFlrirkBW4Gx2HrufX_kynQY5nH__mgQ282icALpc1-5Ki12fEW2yv6F3StYq1Q1gagyPNYTRwXefKCS-MWETvpewNW2cwl56bj3Wzs0WF-J-dc4?purpose=fullsize)\n\n**4\\. The Emerald City of Oz \\(1910)**\n\nDorothy and her family settle in Oz. Particularly appealing if you love the world-building, history, and magical society of Oz.\n\n---\n\n![L. Frank Baum 'the Lost Princess Of Oz' Book](https://images.openai.com/static-rsc-4/wfQXuyvY5zDcx0MTbm_iM_xzsU082hJimjN_qx9VhknRWXmjcC4pGdFN6lbMbcp6_RXp4F1GUPaasdtQ061uNOQE-ZR9wXz_bVN66R6ypbw9l_G9OEwf_y1Oa291A4FQyzlgx--CDXH3RlaL_tXFs1oWJRoAKuDMK18Y62OSte1pR9XDGi_JT1MyCvAqMVkv?purpose=fullsize)\n\n**5\\. The Lost Princess of Oz \\(1917)**\n\nA mystery-adventure involving the disappearance of Princess Ozma. One of the more enjoyable later entries.\n\n---\n\n![](https://images.openai.com/static-rsc-4/lSeU7s03YVJi_2zEF11nYSC-hRoCqMKZSwrhkUCGz4e2l-RdfimT6oh4yi8siVnVk20J9T5wQD6i5FIKDt6IFht_OJcoVtGH-wKHhS6Bfi2EXMSNj6DCyisGeFAD5FNjgyHr6JsiqZO-NYsTjKY0eZhI4TV5APu6mCteIfgMG4HnJCxnj751LoZZdWfPDZUx?purpose=fullsize)\n\n**6\\. The Patchwork Girl of Oz \\(1913)**\n\nFeatures Scraps, the Patchwork Girl, one of Baum's most memorable creations. Especially good if you enjoy the stranger, more whimsical side of Oz.\n\nThese selections are consistent with reader-rating patterns and critical discussion, although there isn't one universally accepted ranking. [ultimatefantasyranking.com](https://ultimatefantasyranking.com/universes/oz.html?utm_source=chatgpt.com)[www.nybooks.com](https://www.nybooks.com/articles/1977/10/13/on-rereading-the-oz-books/?utm_source=chatgpt.com)[openbookrank.com](https://openbookrank.com/en/author/l-frank-baum?utm_source=chatgpt.com)\n\n## My recommended reading order\n\nIf you want to explore the series properly, I'd read Baum's original books in publication order\\:\n\n1. The Wonderful Wizard of Oz (1900)\n2. The Marvelous Land of Oz (1904)\n3. Ozma of Oz (1907)\n4. Dorothy and the Wizard in Oz (1908)\n5. The Road to Oz (1909)\n6. The Emerald City of Oz (1910)\n7. The Patchwork Girl of Oz (1913)\n8. Tik-Tok of Oz (1914)\n9. The Scarecrow of Oz (1915)\n10. Rinkitink in Oz (1916)\n11. The Lost Princess of Oz (1917)\n12. The Tin Woodman of Oz (1918)\n13. The Magic of Oz (1919)\n14. Glinda of Oz (1920)\n\n[www.fantasticfiction.com](https://www.fantasticfiction.com/b/l-frank-baum/oz/?utm_source=chatgpt.com)[www.chipublib.org](https://www.chipublib.org/blogs/post/chicago-classics-the-oz-books/?utm_source=chatgpt.com)\n\n## What about books written by other authors?\n\nThere are also 26 additional books in the original publisher's famous forty-book Oz canon, written by authors who continued the series after Baum died.\n\nOne especially interesting author is Ruth Plumly Thompson\\. Her books include\\:\n\n- The Royal Book of Oz \\(1921)\n- Kabumpo in Oz \\(1922)\n- The Cowardly Lion of Oz \\(1923)\n\nThese are worth exploring if you become a serious Oz enthusiast. [www.thereadingorder.com](https://www.thereadingorder.com/the-wizard-of-oz-books-in-order/?utm_source=chatgpt.com)[www.cerealreaders.com](https://www.cerealreaders.com/series/246/oz-by-l-frank-baum?utm_source=chatgpt.com)\n\n---\n\n**My personal recommendation\\:** Start with *The Wonderful Wizard of Oz*, *Ozma of Oz*, and *The Marvelous Land of Oz*\\. Those three give you a wonderful sense of what makes Baum's imagination so special.\n\nOne question: Are you interested primarily in the **original classic children's fantasy**, or are you interested in the stranger, darker, more unusual Oz mythology that develops throughout the 40-book series? That distinction changes which books I'd recommend most.",
+          "search_results": [
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://ultimatefantasyranking.com/universes/oz.html?utm_source=chatgpt.com",
+              "domain": "ultimatefantasyranking.com",
+              "title": "Oz: Reading Order & Ranking | The Ultimate Fantasy Series Ranking",
+              "description": "OZ  3.96 IN THE OFFICIAL RANKING · FULL RANKING  Books 14 books Status Complete 1900–1920 Reading commitment High L. Frank Baum Last reviewed 2026-08-13  OVERVIEW  L. Frank Baum's foundational Americ...",
+              "breadcrumb": "ultimatefantasyranking.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.librarything.com/nseries/103/Oz?utm_source=chatgpt.com",
+              "domain": "www.librarything.com",
+              "title": "Oz | Series | LibraryThing",
+              "description": "SERIES OZ  99 Works Popularity 251 (27,964 Members) 65,534 Books 1,103 Reviews [Input]½ 3.8  75 items  CORE  The Wonderful Wizard of Oz by L. Frank Baum 27,318 copies, 486 reviews  | Order: 1 The Mar...",
+              "breadcrumb": "librarything.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://openbookrank.com/en/author/l-frank-baum?utm_source=chatgpt.com",
+              "domain": "openbookrank.com",
+              "title": "L. Frank Baum: best books ranked, every book rated",
+              "description": "Home/L. Frank Baum  LF  Image  Author  L. FRANK BAUM  L. Frank Baum — 6 titles in the rankings, first published between 1904 and 1996. They average 7.8 — level with the catalogue as a whole. One seri...",
+              "breadcrumb": "openbookrank.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.nybooks.com/articles/1977/10/13/on-rereading-the-oz-books/?utm_source=chatgpt.com",
+              "domain": "www.nybooks.com",
+              "title": "On Rereading the Oz Books | Gore Vidal | The New York Review of Books",
+              "description": "ON REREADING THE OZ BOOKS  Gore Vidal  October 13, 1977 issue  Reviewed:  The Wonderful Wizard of Oz  by L. Frank Baum  The Marvelous Land of Oz  by L. Frank Baum  Ozma of Oz  by L. Frank Baum  Dorot...",
+              "breadcrumb": "nybooks.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://teqew.com/blog/reading-order-guide-young-readers-enchanted-adventures?utm_source=chatgpt.com",
+              "domain": "teqew.com",
+              "title": "Where to Start with Enchanted Adventures: A Beginner's Guide to Oz, Neverland, and Beyond - TEQEW Public Domain Literature Library",
+              "description": "FREQUENTLY ASKED QUESTIONS  I'VE NEVER READ ANY CLASSIC CHILDREN'S FANTASY. WHICH BOOK SHOULD I START WITH?  Start with *The Wonderful Wizard of Oz*. It's short, has simple language, and introduces th...",
+              "breadcrumb": "teqew.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.cerealreaders.com/series/246/oz-by-l-frank-baum?utm_source=chatgpt.com",
+              "domain": "www.cerealreaders.com",
+              "title": "The Oz Series by L. Frank Baum | Cereal Readers",
+              "description": "Image: The Wonderful Wizard of Oz  OZ SERIES  by L. Frank Baum (Author)  classicfantasyadventureanimalsmagicfriendship  Reading age: 9+ years  Books in series: 16  Read in order: Yes  Status: Finishe...",
+              "breadcrumb": "cerealreaders.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.fantasticfiction.com/b/l-frank-baum/oz/?utm_source=chatgpt.com",
+              "domain": "www.fantasticfiction.com",
+              "title": "L Frank Baum's Oz books in order",
+              "description": "OZ  A SERIES BY L FRANK BAUM  Oz  1 The Wonderful Wizard of Oz (1900) aka The Wizard of Oz 2 The Marvelous Land of Oz (1904) aka The Land of Oz 3 Ozma of Oz (1907) 4 Dorothy and the Wizard of Oz (190...",
+              "breadcrumb": "fantasticfiction.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://inorderbookseries.com/series/oz?utm_source=chatgpt.com",
+              "domain": "inorderbookseries.com",
+              "title": "Oz Books in Order by L. Frank Baum",
+              "description": "Series · by L. Frank Baum  OZ BOOKS IN ORDER  Editor's note  L. Frank Baum’s Oz series runs for 14 tracked books, beginning with The Wonderful Wizard of Oz, published in 1900, and ending with Glinda...",
+              "breadcrumb": "inorderbookseries.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://loreful.app/universe/oz-universe?utm_source=chatgpt.com",
+              "domain": "loreful.app",
+              "title": "Oz Universe reading order: where to start · Loreful",
+              "description": "WHERE TO START  Two ways in. Pick the one that sounds like you.  [Input][Input]Start here Maguire's revisionist novelsImage: Cover of Oz  Oz 1900  The Wonderful Wizard of Oz (1900) opens Baum's fourte...",
+              "breadcrumb": "loreful.app"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.thereadingorder.com/the-wizard-of-oz-books-in-order/?utm_source=chatgpt.com",
+              "domain": "www.thereadingorder.com",
+              "title": "How to Read The Wizard of Oz Books in Order - The Reading Order",
+              "description": "Image: Oz Books in Order  HOW TO READ THE WIZARD OF OZ BOOKS IN ORDER  November 28, 2025 RamBooks  If you’ve been searching for “the wizard of oz books in order,” you’re in the right place. Most peop...",
+              "breadcrumb": "thereadingorder.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.loc.gov/nls/new-materials/book-lists/wicked-and-the-wizard-of-oz/?utm_source=chatgpt.com",
+              "domain": "www.loc.gov",
+              "title": "Wicked and The Wizard of Oz - National Library Service for the Blind and Print Disabled (NLS) | Library of Congress",
+              "description": "THE WIZARD OF OZ  THE WIZARD OF OZ SERIES BY L. FRANK BAUM  FOR GRADES 4-7  The Wonderful Wizard of Oz Blown by a cyclone from her Kansas home to the Wonderful Land of Oz, Dorothy meets the Tin Woodsm...",
+              "breadcrumb": "loc.gov"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.wonderlit.co/series/oz?utm_source=chatgpt.com",
+              "domain": "www.wonderlit.co",
+              "title": "Oz Books in Order",
+              "description": "OZ  Oz Books in Order | Wonderlit  13 books · Ages 7–12 · Middle Grade  Oz is a 13-book series for ages 7–12 by L. Frank Baum.  WHERE TO START  Image: The Wonderful Wizard of Oz  Start at the beginni...",
+              "breadcrumb": "wonderlit.co"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.chipublib.org/blogs/post/chicago-classics-the-oz-books/?utm_source=chatgpt.com",
+              "domain": "www.chipublib.org",
+              "title": "The Oz Books: Chicago History Classics | Chicago Public Library",
+              "description": "*   *   *   *   * # The Oz Books: Chicago History Classics  by LyleAttention: This post is over 3 years old and the information may be out of date.Attention: This post is over 3 years old and the inf...",
+              "breadcrumb": "chipublib.org"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://themagicofoz.com/library?utm_source=chatgpt.com",
+              "domain": "themagicofoz.com",
+              "title": "The Oz Books in Order — All 25, Free to Read",
+              "description": "THE OZ BOOKS IN ORDER  Twenty-four of the forty canonical Oz books are here, in the order they were written, along with Baum's Little Wizard Stories: his fourteen novels, beginning with The Wonderful...",
+              "breadcrumb": "themagicofoz.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.booksonboard.com/book-series-in-order/oz/?utm_source=chatgpt.com",
+              "domain": "www.booksonboard.com",
+              "title": "Oz Books in Order - Books on Board",
+              "description": "OZ BOOKS IN ORDER  * 24 Books * 1900 – 2013 Published   Reading order [Button: Collapse all]  Publication Order of Oz Books With: L. Frank Baum, Jack Zipes  01  The Wonderful Wizard of Oz / The Wizar...",
+              "breadcrumb": "booksonboard.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://thewizardofoz.info/wiki/About_the_Oz_Books?utm_source=chatgpt.com",
+              "domain": "thewizardofoz.info",
+              "title": "About the Oz Books - OzWiki",
+              "description": "ABOUT THE OZ BOOKS  WHAT ARE THE \"OFFICIAL\" OZ BOOKS?  Here is the complete list of the Famous Forty Oz books (often shortened to the FF) — the ones that most Oz fans agree are true Oz — along with th...",
+              "breadcrumb": "thewizardofoz.info"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.goodreads.com/book/show/236074.The_Wizard_of_Oz?utm_source=chatgpt.com",
+              "domain": "www.goodreads.com",
+              "title": "The Wizard of Oz by Frank L Baum | Goodreads",
+              "description": "OZ #1  THE WIZARD OF OZ  Frank L Baum, Paul Granger (Illustrator)  4.00 526,451 ratings22,412 reviews  Join the wonderful world of Oz. Here is the original book that started the wonderful series and...",
+              "breadcrumb": "goodreads.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.goodreads.com/book/show/7232620-the-wizard-of-oz?utm_source=chatgpt.com",
+              "domain": "www.goodreads.com",
+              "title": "The Wizard of Oz by L. Frank Baum | Goodreads",
+              "description": "OZ #1  THE WIZARD OF OZ  L. Frank Baum, Allen Chaffee (Editor)  4.00 526,114 ratings22,389 reviews  Join the wonderful world of Oz. Here is the original book that started the wonderful series and ins...",
+              "breadcrumb": "goodreads.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.goodreads.com/book/show/18586252?utm_source=chatgpt.com",
+              "domain": "www.goodreads.com",
+              "title": "The Wizard of Oz: The First Five Novels by L. Frank Baum | Goodreads",
+              "description": "RATINGS & REVIEWS  COMMUNITY REVIEWS  4.18  1,429 ratings 104 reviews  5 stars  647 (45%)  4 stars  463 (32%)  3 stars  262 (18%)  2 stars  37 (2%)  1 star  20 (1%)  Search review text  [Input: Search...",
+              "breadcrumb": "goodreads.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.goodreads.com/book/show/2263911?utm_source=chatgpt.com",
+              "domain": "www.goodreads.com",
+              "title": "The Emerald City of Oz by L. Frank Baum | Goodreads",
+              "description": "Garrett Zecker  Author 11 books 76 followers  Follow  Follow  May 26, 2017  Doma Publishing's Wizard of Oz collection has taken me several years to read with my son at bedtime. It was interesting rev...",
+              "breadcrumb": "goodreads.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.goodreads.com/book/show/17781421-road-to-oz?utm_source=chatgpt.com",
+              "domain": "www.goodreads.com",
+              "title": "Road to Oz by L. Frank Baum | Goodreads",
+              "description": "(Reprinted from the Chicago Center for Literature and Photography [cclapcenter.com:]. I am the original author of this essay, as well as the owner of CCLaP; it is not being reprinted here illegally. T...",
+              "breadcrumb": "goodreads.com"
+            }
+          ],
+          "sources": [
+            {
+              "type": "chat_gpt_source",
+              "title": "Oz: Reading Order & Ranking",
+              "snippet": null,
+              "domain": "ultimatefantasyranking.com",
+              "url": "https://ultimatefantasyranking.com/universes/oz.html?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "The Ultimate Fantasy Series Ranking",
+              "publication_date": null,
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "On Rereading the Oz Books | Gore Vidal",
+              "snippet": null,
+              "domain": "www.nybooks.com",
+              "url": "https://www.nybooks.com/articles/1977/10/13/on-rereading-the-oz-books/?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "The New York Review of Books",
+              "publication_date": "1977-10-13 00:00:00 +00:00",
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "L. Frank Baum: best books ranked, every book rated",
+              "snippet": null,
+              "domain": "openbookrank.com",
+              "url": "https://openbookrank.com/en/author/l-frank-baum?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "BookRank",
+              "publication_date": null,
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "L Frank Baum's Oz books in order",
+              "snippet": null,
+              "domain": "www.fantasticfiction.com",
+              "url": "https://www.fantasticfiction.com/b/l-frank-baum/oz/?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "Fantastic Fiction",
+              "publication_date": null,
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "The Oz Books: Chicago History Classics",
+              "snippet": null,
+              "domain": "www.chipublib.org",
+              "url": "https://www.chipublib.org/blogs/post/chicago-classics-the-oz-books/?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "Chicago Public Library",
+              "publication_date": "2016-04-24 00:00:00 +00:00",
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "How to Read The Wizard of Oz Books in Order",
+              "snippet": null,
+              "domain": "www.thereadingorder.com",
+              "url": "https://www.thereadingorder.com/the-wizard-of-oz-books-in-order/?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "The Reading Order",
+              "publication_date": "2025-11-28 00:00:00 +00:00",
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "The Oz Series by L. Frank Baum",
+              "snippet": null,
+              "domain": "www.cerealreaders.com",
+              "url": "https://www.cerealreaders.com/series/246/oz-by-l-frank-baum?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "Cereal Readers",
+              "publication_date": null,
+              "markdown": null
+            }
+          ],
+          "fan_out_queries": [
+            "best Wizard of Oz books L. Frank Baum Oz series rankings critics best books",
+            "Wizard of Oz series best books beyond Wonderful Wizard of Oz recommended reading order"
+          ],
+          "brand_entities": [
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "1900 novel by L. Frank Baum",
+              "category": "book",
+              "markdown": "The Wonderful Wizard of Oz",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "1907 novel by L. Frank Baum",
+              "category": "book",
+              "markdown": "Ozma of Oz",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "1904 novel by L. Frank Baum",
+              "category": "book",
+              "markdown": "The Marvelous Land of Oz",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "1910 novel by L. Frank Baum",
+              "category": "book",
+              "markdown": "The Emerald City of Oz",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "1917 novel by L. Frank Baum",
+              "category": "book",
+              "markdown": "The Lost Princess of Oz",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "1913 novel by L. Frank Baum",
+              "category": "book",
+              "markdown": "The Patchwork Girl of Oz",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "American children's fantasy author",
+              "category": "people",
+              "markdown": "Ruth Plumly Thompson",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "The Royal Book of Oz",
+              "category": "book",
+              "markdown": "The Royal Book of Oz",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Kabumpo in Oz",
+              "category": "book",
+              "markdown": "Kabumpo in Oz",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "The Cowardly Lion of Oz",
+              "category": "book",
+              "markdown": "The Cowardly Lion of Oz",
+              "urls": null
+            }
+          ],
+          "se_results_count": 0,
+          "item_types": [
+            "chat_gpt_text",
+            "chat_gpt_images"
+          ],
+          "items_count": 13,
+          "items": [
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "markdown": "If you're looking at the original **Oz books by L. Frank Baum**, there are 14 novels, and a handful are generally considered the standouts. Interestingly, some of the later books are favorites among readers who grew up with the series.\n\nBased on reader ratings, literary commentary, and fan interest, here's the shortlist I'd recommend.\n\n## The best Wizard of Oz books\n\n",
+              "sources": null,
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "markdown": "![A Digital Archive of 1,800+ Children's Books from UCLA |  Open Culture](https://images.openai.com/static-rsc-4/ktPSnTMEmSElZshwWTzqxNKicoMxk-5To_TV0k5UX3P4DSE6dNbSFoI-NJBmZ-0p5qSvlZbxl1y7goSG2kkLHKti8J84mByOHTqDj56vSAraePGvb9H5AAOSl-p-KS9usgOu9FI-7V3OsiPiKAocGb8oW01oeyDic5Q38s9lu2jeUdAa-ma4vNIsqKyBzaDp?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.openculture.com/2017/11/a-digital-archive-of-1800-childrens-books-from-ucla.html",
+                  "alt": "A Digital Archive of 1,800+ Children's Books from UCLA |  Open Culture",
+                  "image_url": "https://images.openai.com/static-rsc-4/ktPSnTMEmSElZshwWTzqxNKicoMxk-5To_TV0k5UX3P4DSE6dNbSFoI-NJBmZ-0p5qSvlZbxl1y7goSG2kkLHKti8J84mByOHTqDj56vSAraePGvb9H5AAOSl-p-KS9usgOu9FI-7V3OsiPiKAocGb8oW01oeyDic5Q38s9lu2jeUdAa-ma4vNIsqKyBzaDp?purpose=fullsize",
+                  "markdown": "![A Digital Archive of 1,800+ Children's Books from UCLA |  Open Culture](https://images.openai.com/static-rsc-4/ktPSnTMEmSElZshwWTzqxNKicoMxk-5To_TV0k5UX3P4DSE6dNbSFoI-NJBmZ-0p5qSvlZbxl1y7goSG2kkLHKti8J84mByOHTqDj56vSAraePGvb9H5AAOSl-p-KS9usgOu9FI-7V3OsiPiKAocGb8oW01oeyDic5Q38s9lu2jeUdAa-ma4vNIsqKyBzaDp?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "markdown": "\n\n**1\\. The Wonderful Wizard of Oz \\(1900)**\n\n(Essential classic)\n\nThe original and arguably the best. Introduces Dorothy, the Scarecrow, Tin Woodman, Cowardly Lion, and the magical world of Oz. More surprising and occasionally darker than the famous movie.\n\n---\n\n",
+              "sources": null,
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "1900 novel by L. Frank Baum",
+                  "category": "book",
+                  "markdown": "The Wonderful Wizard of Oz",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "markdown": "![Ozma of Oz: Record of Her Adventures with Dorothy Gale of Kansas, the Yellow Hen, the Scarecrow, the Tin Woodman, Tiktok, the Cowardly Lion and the Hungry Tiger; Besides Other Good People too Numerous to Mention Faithfully Recorded Herein by L. Frank Baum: Fair Hardcover | Reasons To Live Books](https://images.openai.com/static-rsc-4/b4uqHO2aERnrzTXkUivYASpHWPO3YjpcCsnnsIZs59LdgF7zVOE_DN755uon0xFRojkMHxUS4UfIaWqXfyANOv-o9cArt5G62YnO9EIx4-Snh5jBv362VfysQaFJNphcBal0HPmHjgsSUZHqpV8DYhF2Qvs8O4bUcOEDVUo5oeZf3d4qXKukmBu8Y0B7XSf2?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.abebooks.com/Ozma-Record-Adventures-Dorothy-Gale-Kansas/31951488098/bd",
+                  "alt": "Ozma of Oz: Record of Her Adventures with Dorothy Gale of Kansas, the Yellow Hen, the Scarecrow, the Tin Woodman, Tiktok, the Cowardly Lion and the Hungry Tiger; Besides Other Good People too Numerous to Mention Faithfully Recorded Herein by L. Frank Baum: Fair Hardcover | Reasons To Live Books",
+                  "image_url": "https://images.openai.com/static-rsc-4/b4uqHO2aERnrzTXkUivYASpHWPO3YjpcCsnnsIZs59LdgF7zVOE_DN755uon0xFRojkMHxUS4UfIaWqXfyANOv-o9cArt5G62YnO9EIx4-Snh5jBv362VfysQaFJNphcBal0HPmHjgsSUZHqpV8DYhF2Qvs8O4bUcOEDVUo5oeZf3d4qXKukmBu8Y0B7XSf2?purpose=fullsize",
+                  "markdown": "![Ozma of Oz: Record of Her Adventures with Dorothy Gale of Kansas, the Yellow Hen, the Scarecrow, the Tin Woodman, Tiktok, the Cowardly Lion and the Hungry Tiger; Besides Other Good People too Numerous to Mention Faithfully Recorded Herein by L. Frank Baum: Fair Hardcover | Reasons To Live Books](https://images.openai.com/static-rsc-4/b4uqHO2aERnrzTXkUivYASpHWPO3YjpcCsnnsIZs59LdgF7zVOE_DN755uon0xFRojkMHxUS4UfIaWqXfyANOv-o9cArt5G62YnO9EIx4-Snh5jBv362VfysQaFJNphcBal0HPmHjgsSUZHqpV8DYhF2Qvs8O4bUcOEDVUo5oeZf3d4qXKukmBu8Y0B7XSf2?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 3,
+              "rank_absolute": 5,
+              "markdown": "\n\n**2\\. Ozma of Oz \\(1907)**\n\n(One of the fan favorites)\n\nA particularly imaginative adventure featuring Princess Ozma, the Nome King, and the unforgettable mechanical man Tik-Tok. Often rated among Baum's very best.\n\n---\n\n",
+              "sources": null,
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "1907 novel by L. Frank Baum",
+                  "category": "book",
+                  "markdown": "Ozma of Oz",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 3,
+              "rank_absolute": 6,
+              "markdown": "![THE MARVELOUS LAND OF OZ\nby Baum, L. Frank; Neill, John R |\n1904 |\nReilly & Britton |\nBiblio](https://images.openai.com/static-rsc-4/sDL3NOOZ-vo8f-9C_-gE1EM9-bM0y35-oDubDa4N7XVJ9DW7NEgrlHYb1j_4Drh3r66jo69CnmIObKHvSlUYsHnai2KzmcWp5tEV3oxTUnCaDL4jlr-AWbkCWPIGN7f_ezDq97mFgnDfubP490r117lRselp_tvC11URrNl9ONVA4doNEQBhJX1DXqow7ox1?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.biblio.com/book/marvelous-land-oz-baum-l-frank/d/1396741862",
+                  "alt": "THE MARVELOUS LAND OF OZ\nby Baum, L. Frank; Neill, John R |\n1904 |\nReilly & Britton |\nBiblio",
+                  "image_url": "https://images.openai.com/static-rsc-4/sDL3NOOZ-vo8f-9C_-gE1EM9-bM0y35-oDubDa4N7XVJ9DW7NEgrlHYb1j_4Drh3r66jo69CnmIObKHvSlUYsHnai2KzmcWp5tEV3oxTUnCaDL4jlr-AWbkCWPIGN7f_ezDq97mFgnDfubP490r117lRselp_tvC11URrNl9ONVA4doNEQBhJX1DXqow7ox1?purpose=fullsize",
+                  "markdown": "![THE MARVELOUS LAND OF OZ\nby Baum, L. Frank; Neill, John R |\n1904 |\nReilly & Britton |\nBiblio](https://images.openai.com/static-rsc-4/sDL3NOOZ-vo8f-9C_-gE1EM9-bM0y35-oDubDa4N7XVJ9DW7NEgrlHYb1j_4Drh3r66jo69CnmIObKHvSlUYsHnai2KzmcWp5tEV3oxTUnCaDL4jlr-AWbkCWPIGN7f_ezDq97mFgnDfubP490r117lRselp_tvC11URrNl9ONVA4doNEQBhJX1DXqow7ox1?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "markdown": "\n\n**3\\. The Marvelous Land of Oz \\(1904)**\n\nIntroduces Tip, Jack Pumpkinhead, the Woggle-Bug, and the origins of Ozma. A wonderfully eccentric sequel with a lot of humor.\n\n---\n\n",
+              "sources": null,
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "1904 novel by L. Frank Baum",
+                  "category": "book",
+                  "markdown": "The Marvelous Land of Oz",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 4,
+              "rank_absolute": 8,
+              "markdown": "![[Baum, L. Frank] Emerald City of Oz\nby Baum, L. Frank |\n[1910] |\nReilly & Britton |\nBiblio](https://images.openai.com/static-rsc-4/OJodjw_kD1NOGA_U9j9gI9yK2y2ncwaCQ5liv-RZr7d_IZZtdGoX0Pde9vX4JdMJOhYvFFMKeHVuo5a5wFlrirkBW4Gx2HrufX_kynQY5nH__mgQ282icALpc1-5Ki12fEW2yv6F3StYq1Q1gagyPNYTRwXefKCS-MWETvpewNW2cwl56bj3Wzs0WF-J-dc4?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.biblio.com/book/baum-l-frank-emerald-city-oz/d/815432190",
+                  "alt": "[Baum, L. Frank] Emerald City of Oz\nby Baum, L. Frank |\n[1910] |\nReilly & Britton |\nBiblio",
+                  "image_url": "https://images.openai.com/static-rsc-4/OJodjw_kD1NOGA_U9j9gI9yK2y2ncwaCQ5liv-RZr7d_IZZtdGoX0Pde9vX4JdMJOhYvFFMKeHVuo5a5wFlrirkBW4Gx2HrufX_kynQY5nH__mgQ282icALpc1-5Ki12fEW2yv6F3StYq1Q1gagyPNYTRwXefKCS-MWETvpewNW2cwl56bj3Wzs0WF-J-dc4?purpose=fullsize",
+                  "markdown": "![[Baum, L. Frank] Emerald City of Oz\nby Baum, L. Frank |\n[1910] |\nReilly & Britton |\nBiblio](https://images.openai.com/static-rsc-4/OJodjw_kD1NOGA_U9j9gI9yK2y2ncwaCQ5liv-RZr7d_IZZtdGoX0Pde9vX4JdMJOhYvFFMKeHVuo5a5wFlrirkBW4Gx2HrufX_kynQY5nH__mgQ282icALpc1-5Ki12fEW2yv6F3StYq1Q1gagyPNYTRwXefKCS-MWETvpewNW2cwl56bj3Wzs0WF-J-dc4?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 5,
+              "rank_absolute": 9,
+              "markdown": "\n\n**4\\. The Emerald City of Oz \\(1910)**\n\nDorothy and her family settle in Oz. Particularly appealing if you love the world-building, history, and magical society of Oz.\n\n---\n\n",
+              "sources": null,
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "1910 novel by L. Frank Baum",
+                  "category": "book",
+                  "markdown": "The Emerald City of Oz",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 5,
+              "rank_absolute": 10,
+              "markdown": "![L. Frank Baum 'the Lost Princess Of Oz' Book](https://images.openai.com/static-rsc-4/wfQXuyvY5zDcx0MTbm_iM_xzsU082hJimjN_qx9VhknRWXmjcC4pGdFN6lbMbcp6_RXp4F1GUPaasdtQ061uNOQE-ZR9wXz_bVN66R6ypbw9l_G9OEwf_y1Oa291A4FQyzlgx--CDXH3RlaL_tXFs1oWJRoAKuDMK18Y62OSte1pR9XDGi_JT1MyCvAqMVkv?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.liveauctioneers.com/price-result/l-frank-baum-the-lost-princess-of-oz-book/",
+                  "alt": "L. Frank Baum 'the Lost Princess Of Oz' Book",
+                  "image_url": "https://images.openai.com/static-rsc-4/wfQXuyvY5zDcx0MTbm_iM_xzsU082hJimjN_qx9VhknRWXmjcC4pGdFN6lbMbcp6_RXp4F1GUPaasdtQ061uNOQE-ZR9wXz_bVN66R6ypbw9l_G9OEwf_y1Oa291A4FQyzlgx--CDXH3RlaL_tXFs1oWJRoAKuDMK18Y62OSte1pR9XDGi_JT1MyCvAqMVkv?purpose=fullsize",
+                  "markdown": "![L. Frank Baum 'the Lost Princess Of Oz' Book](https://images.openai.com/static-rsc-4/wfQXuyvY5zDcx0MTbm_iM_xzsU082hJimjN_qx9VhknRWXmjcC4pGdFN6lbMbcp6_RXp4F1GUPaasdtQ061uNOQE-ZR9wXz_bVN66R6ypbw9l_G9OEwf_y1Oa291A4FQyzlgx--CDXH3RlaL_tXFs1oWJRoAKuDMK18Y62OSte1pR9XDGi_JT1MyCvAqMVkv?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 6,
+              "rank_absolute": 11,
+              "markdown": "\n\n**5\\. The Lost Princess of Oz \\(1917)**\n\nA mystery-adventure involving the disappearance of Princess Ozma. One of the more enjoyable later entries.\n\n---\n\n",
+              "sources": null,
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "1917 novel by L. Frank Baum",
+                  "category": "book",
+                  "markdown": "The Lost Princess of Oz",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 6,
+              "rank_absolute": 12,
+              "markdown": "![](https://images.openai.com/static-rsc-4/lSeU7s03YVJi_2zEF11nYSC-hRoCqMKZSwrhkUCGz4e2l-RdfimT6oh4yi8siVnVk20J9T5wQD6i5FIKDt6IFht_OJcoVtGH-wKHhS6Bfi2EXMSNj6DCyisGeFAD5FNjgyHr6JsiqZO-NYsTjKY0eZhI4TV5APu6mCteIfgMG4HnJCxnj751LoZZdWfPDZUx?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://en.wikipedia.org/wiki/List_of_Oz_books",
+                  "alt": null,
+                  "image_url": "https://images.openai.com/static-rsc-4/lSeU7s03YVJi_2zEF11nYSC-hRoCqMKZSwrhkUCGz4e2l-RdfimT6oh4yi8siVnVk20J9T5wQD6i5FIKDt6IFht_OJcoVtGH-wKHhS6Bfi2EXMSNj6DCyisGeFAD5FNjgyHr6JsiqZO-NYsTjKY0eZhI4TV5APu6mCteIfgMG4HnJCxnj751LoZZdWfPDZUx?purpose=fullsize",
+                  "markdown": "![](https://images.openai.com/static-rsc-4/lSeU7s03YVJi_2zEF11nYSC-hRoCqMKZSwrhkUCGz4e2l-RdfimT6oh4yi8siVnVk20J9T5wQD6i5FIKDt6IFht_OJcoVtGH-wKHhS6Bfi2EXMSNj6DCyisGeFAD5FNjgyHr6JsiqZO-NYsTjKY0eZhI4TV5APu6mCteIfgMG4HnJCxnj751LoZZdWfPDZUx?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 7,
+              "rank_absolute": 13,
+              "markdown": "\n\n**6\\. The Patchwork Girl of Oz \\(1913)**\n\nFeatures Scraps, the Patchwork Girl, one of Baum's most memorable creations. Especially good if you enjoy the stranger, more whimsical side of Oz.\n\nThese selections are consistent with reader-rating patterns and critical discussion, although there isn't one universally accepted ranking. [ultimatefantasyranking.com](https://ultimatefantasyranking.com/universes/oz.html?utm_source=chatgpt.com)[www.nybooks.com](https://www.nybooks.com/articles/1977/10/13/on-rereading-the-oz-books/?utm_source=chatgpt.com)[openbookrank.com](https://openbookrank.com/en/author/l-frank-baum?utm_source=chatgpt.com)\n\n## My recommended reading order\n\nIf you want to explore the series properly, I'd read Baum's original books in publication order\\:\n\n1. The Wonderful Wizard of Oz (1900)\n2. The Marvelous Land of Oz (1904)\n3. Ozma of Oz (1907)\n4. Dorothy and the Wizard in Oz (1908)\n5. The Road to Oz (1909)\n6. The Emerald City of Oz (1910)\n7. The Patchwork Girl of Oz (1913)\n8. Tik-Tok of Oz (1914)\n9. The Scarecrow of Oz (1915)\n10. Rinkitink in Oz (1916)\n11. The Lost Princess of Oz (1917)\n12. The Tin Woodman of Oz (1918)\n13. The Magic of Oz (1919)\n14. Glinda of Oz (1920)\n\n[www.fantasticfiction.com](https://www.fantasticfiction.com/b/l-frank-baum/oz/?utm_source=chatgpt.com)[www.chipublib.org](https://www.chipublib.org/blogs/post/chicago-classics-the-oz-books/?utm_source=chatgpt.com)\n\n## What about books written by other authors?\n\nThere are also 26 additional books in the original publisher's famous forty-book Oz canon, written by authors who continued the series after Baum died.\n\nOne especially interesting author is Ruth Plumly Thompson\\. Her books include\\:\n\n- The Royal Book of Oz \\(1921)\n- Kabumpo in Oz \\(1922)\n- The Cowardly Lion of Oz \\(1923)\n\nThese are worth exploring if you become a serious Oz enthusiast. [www.thereadingorder.com](https://www.thereadingorder.com/the-wizard-of-oz-books-in-order/?utm_source=chatgpt.com)[www.cerealreaders.com](https://www.cerealreaders.com/series/246/oz-by-l-frank-baum?utm_source=chatgpt.com)\n\n---\n\n**My personal recommendation\\:** Start with *The Wonderful Wizard of Oz*, *Ozma of Oz*, and *The Marvelous Land of Oz*\\. Those three give you a wonderful sense of what makes Baum's imagination so special.\n\nOne question: Are you interested primarily in the **original classic children's fantasy**, or are you interested in the stranger, darker, more unusual Oz mythology that develops throughout the 40-book series? That distinction changes which books I'd recommend most.",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Oz: Reading Order & Ranking",
+                  "snippet": null,
+                  "domain": "ultimatefantasyranking.com",
+                  "url": "https://ultimatefantasyranking.com/universes/oz.html?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "The Ultimate Fantasy Series Ranking",
+                  "publication_date": null,
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "On Rereading the Oz Books | Gore Vidal",
+                  "snippet": null,
+                  "domain": "www.nybooks.com",
+                  "url": "https://www.nybooks.com/articles/1977/10/13/on-rereading-the-oz-books/?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "The New York Review of Books",
+                  "publication_date": "1977-10-13 00:00:00 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "L. Frank Baum: best books ranked, every book rated",
+                  "snippet": null,
+                  "domain": "openbookrank.com",
+                  "url": "https://openbookrank.com/en/author/l-frank-baum?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "BookRank",
+                  "publication_date": null,
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "L Frank Baum's Oz books in order",
+                  "snippet": null,
+                  "domain": "www.fantasticfiction.com",
+                  "url": "https://www.fantasticfiction.com/b/l-frank-baum/oz/?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "Fantastic Fiction",
+                  "publication_date": null,
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "The Oz Books: Chicago History Classics",
+                  "snippet": null,
+                  "domain": "www.chipublib.org",
+                  "url": "https://www.chipublib.org/blogs/post/chicago-classics-the-oz-books/?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "Chicago Public Library",
+                  "publication_date": "2016-04-24 00:00:00 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "How to Read The Wizard of Oz Books in Order",
+                  "snippet": null,
+                  "domain": "www.thereadingorder.com",
+                  "url": "https://www.thereadingorder.com/the-wizard-of-oz-books-in-order/?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "The Reading Order",
+                  "publication_date": "2025-11-28 00:00:00 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "The Oz Series by L. Frank Baum",
+                  "snippet": null,
+                  "domain": "www.cerealreaders.com",
+                  "url": "https://www.cerealreaders.com/series/246/oz-by-l-frank-baum?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "Cereal Readers",
+                  "publication_date": null,
+                  "markdown": null
+                }
+              ],
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "1913 novel by L. Frank Baum",
+                  "category": "book",
+                  "markdown": "The Patchwork Girl of Oz",
+                  "urls": null
+                },
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "American children's fantasy author",
+                  "category": "people",
+                  "markdown": "Ruth Plumly Thompson",
+                  "urls": null
+                },
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "The Royal Book of Oz",
+                  "category": "book",
+                  "markdown": "The Royal Book of Oz",
+                  "urls": null
+                },
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Kabumpo in Oz",
+                  "category": "book",
+                  "markdown": "Kabumpo in Oz",
+                  "urls": null
+                },
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "The Cowardly Lion of Oz",
+                  "category": "book",
+                  "markdown": "The Cowardly Lion of Oz",
+                  "urls": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

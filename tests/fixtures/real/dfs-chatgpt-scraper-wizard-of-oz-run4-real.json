@@ -1,0 +1,823 @@
+{
+  "version": "0.1.20261117",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "14.9627 sec.",
+  "cost": 0.004,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "11201129-2831-0629-0000-84b42e05e7d7",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "14.4581 sec.",
+      "cost": 0.004,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "chat_gpt",
+        "llm_scraper",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "live",
+        "se": "chat_gpt",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "which wizard of oz books are considered the best?",
+        "force_web_search": true,
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "which wizard of oz books are considered the best?",
+          "location_code": 2840,
+          "language_code": "en",
+          "model": "gpt-6",
+          "check_url": "https://chatgpt.com/?prompt=which%20wizard%20of%20oz%20books%20are%20considered%20the%20best%3F&hints=search",
+          "datetime": "2026-11-20 11:29:20 +00:00",
+          "markdown": "If you're looking at **L. Frank Baum's original Oz books**, there are 14 novels, and a handful are generally considered standouts. Interestingly, some readers actually prefer the sequels to the famous first book.\n\nBased on reader ratings, literary commentary, and fan rankings, here's how I'd narrow them down.\n\n## The best Wizard of Oz books\n\n![Ozma of Oz: Record of Her Adventures with Dorothy Gale of Kansas, the Yellow Hen, the Scarecrow, the Tin Woodman, Tiktok, the Cowardly Lion and the Hungry Tiger; Besides Other Good People too Numerous to Mention Faithfully Recorded Herein by L. Frank Baum: Fair Hardcover | Reasons To Live Books](https://images.openai.com/static-rsc-4/b4uqHO2aERnrzTXkUivYASpHWPO3YjpcCsnnsIZs59LdgF7zVOE_DN755uon0xFRojkMHxUS4UfIaWqXfyANOv-o9cArt5G62YnO9EIx4-Snh5jBv362VfysQaFJNphcBal0HPmHjgsSUZHqpV8DYhF2Qvs8O4bUcOEDVUo5oeZf3d4qXKukmBu8Y0B7XSf2?purpose=fullsize)\n\n**1\\. Ozma of Oz \\(1907)**\n\n(Best sequel pick)\n\nFrequently ranked among the very best. Introduces memorable characters and expands the mythology of Oz. It is also the highest-rated volume in one comparative series ranking. [openbookrank.com](https://openbookrank.com/en/series/oz-book-series?utm_source=chatgpt.com)[marveloustales.com](https://marveloustales.com/2014/05/28/the-ozma-trilogy/?utm_source=chatgpt.com)[analepsis.org](https://analepsis.org/wp-content/uploads/2011/08/encyclopedia-of-adventure-fiction.pdf?utm_source=chatgpt.com)[ultimatefantasyranking.com](https://ultimatefantasyranking.com/universes/oz.html?utm_source=chatgpt.com)\n\n---\n\n![A Digital Archive of 1,800+ Children's Books from UCLA |  Open Culture](https://images.openai.com/static-rsc-4/ktPSnTMEmSElZshwWTzqxNKicoMxk-5To_TV0k5UX3P4DSE6dNbSFoI-NJBmZ-0p5qSvlZbxl1y7goSG2kkLHKti8J84mByOHTqDj56vSAraePGvb9H5AAOSl-p-KS9usgOu9FI-7V3OsiPiKAocGb8oW01oeyDic5Q38s9lu2jeUdAa-ma4vNIsqKyBzaDp?purpose=fullsize)\n\n**2\\. The Wonderful Wizard of Oz \\(1900)**\n\nThe essential classic. Arguably the strongest overall because it introduces the world, Dorothy, the Scarecrow, Tin Woodman, and Cowardly Lion. Goodreads rating: 4.00/5. [www.nybooks.com](https://www.nybooks.com/articles/1977/10/13/on-rereading-the-oz-books/?utm_source=chatgpt.com)[www.goodreads.com](https://www.goodreads.com/author/show/3242.L_Frank_Baum?utm_source=chatgpt.com)\n\n---\n\n![L. Frank Baum - The Scarecrow Of Oz - 1915 - FIRST EDITION | eBay](https://images.openai.com/static-rsc-4/MZy_5bzcCgtHtDtuh4Y-0EyVVTJCKGsXvtw4I7PYxPIt-EFdGsh3Emvxdzu2mdusjMURljYpql9Xm-IRxTIGL6tbg3oRag_lu-NZ-Zk91xXEEjcmxmKardLeQkzxdqyC8drMZLP7uePmOeTHxs0_Uq2GFpEKNjVmGywqfJby6cmyYFgltPl9M3NHXmSn6Bje?purpose=fullsize)\n\n**3\\. The Scarecrow of Oz \\(1915)**\n\nA particularly strong later installment. Features the Scarecrow and a plot involving the overthrow of a cruel ruler. Highlighted as the best of Baum's later books in an adventure-fiction reference. [openbookrank.com](https://openbookrank.com/en/series/oz-book-series?utm_source=chatgpt.com)[marveloustales.com](https://marveloustales.com/2014/05/28/the-ozma-trilogy/?utm_source=chatgpt.com)[analepsis.org](https://analepsis.org/wp-content/uploads/2011/08/encyclopedia-of-adventure-fiction.pdf?utm_source=chatgpt.com)[ultimatefantasyranking.com](https://ultimatefantasyranking.com/universes/oz.html?utm_source=chatgpt.com)\n\n---\n\n![THE MARVELOUS LAND OF OZ\nby Baum, L. Frank; Neill, John R |\n1904 |\nReilly & Britton |\nBiblio](https://images.openai.com/static-rsc-4/sDL3NOOZ-vo8f-9C_-gE1EM9-bM0y35-oDubDa4N7XVJ9DW7NEgrlHYb1j_4Drh3r66jo69CnmIObKHvSlUYsHnai2KzmcWp5tEV3oxTUnCaDL4jlr-AWbkCWPIGN7f_ezDq97mFgnDfubP490r117lRselp_tvC11URrNl9ONVA4doNEQBhJX1DXqow7ox1?purpose=fullsize)\n\n**4\\. The Marvelous Land of Oz \\(1904)**\n\nThe first sequel. Introduces important characters including Tip, Jack Pumpkinhead, and the Sawhorse. Especially worthwhile for understanding Oz's larger mythology. [openbookrank.com](https://openbookrank.com/en/series/oz-book-series?utm_source=chatgpt.com)[marveloustales.com](https://marveloustales.com/2014/05/28/the-ozma-trilogy/?utm_source=chatgpt.com)[analepsis.org](https://analepsis.org/wp-content/uploads/2011/08/encyclopedia-of-adventure-fiction.pdf?utm_source=chatgpt.com)[ultimatefantasyranking.com](https://ultimatefantasyranking.com/universes/oz.html?utm_source=chatgpt.com)\n\n---\n\n![Lot - L. Frank Baum (1856-1919) & John R. Neill (1877-1943), illus. The Lost Princess of Oz. Chicago: The Reilly & Britton, Co., 1917.](https://images.openai.com/static-rsc-4/c7hWehMWGSxfw8A4iddyrBP187s7FrCgYnRvtNRy9YaWg8QNzSfej1uOFO4RuotvO4A1h645JYJQw7cEtBM1kh48XnPtfhQXmnnHZvUDCfkNDQokxgHd6MzsZlwIAjAsDYnPVb5j6AseM0r7aTsHXmM5crB7r-IKcls5MwpskCZnMWu9K4-Tu3qMqVNFWzt-?purpose=fullsize)\n\n**5\\. The Lost Princess of Oz \\(1917)**\n\nA fun mystery-adventure in which Ozma disappears and Dorothy and her friends search for her. One of the more highly rated later books. [www.nybooks.com](https://www.nybooks.com/articles/1977/10/13/on-rereading-the-oz-books/?utm_source=chatgpt.com)[www.goodreads.com](https://www.goodreads.com/author/show/3242.L_Frank_Baum?utm_source=chatgpt.com)[analepsis.org](https://analepsis.org/wp-content/uploads/2011/08/encyclopedia-of-adventure-fiction.pdf?utm_source=chatgpt.com)[marveloustales.com](https://marveloustales.com/2014/05/28/the-ozma-trilogy/?utm_source=chatgpt.com)[ultimatefantasyranking.com](https://ultimatefantasyranking.com/universes/oz.html?utm_source=chatgpt.com)\n\n---\n\n![](https://images.openai.com/static-rsc-4/KTEpPW8-pAFd1abdcJGg97DmtWFmFYwRO7VsfGn8mxR4a_ObrU4jI-jRvz2KFsxi3oMVABOJQiq35AD46I3EZZ-nf18usxihHL6uID-8T0BrLHI8ZTcqqbt7UOlEICJaZgIWWok4BXfUSgKOF6U0_XtzTkSeKaf0bQh3hv_vZksIeMpo5d6Qa4oqicdFIeH9?purpose=fullsize)\n\n**6\\. The Emerald City of Oz \\(1910)**\n\nParticularly interesting for readers who love the world-building. Explores Oz's society, geography, and inhabitants in greater depth. Gore Vidal also singled it out as a childhood favorite. [ultimatefantasyranking.com](https://ultimatefantasyranking.com/universes/oz.html?utm_source=chatgpt.com)[marveloustales.com](https://marveloustales.com/2014/05/28/the-ozma-trilogy/?utm_source=chatgpt.com)[www.nybooks.com](https://www.nybooks.com/articles/1977/10/13/on-rereading-the-oz-books/?utm_source=chatgpt.com)\n\n## What about the rest?\n\nOther books worth considering\\:\n\n- **The Magic of Oz** \\(1919) – imaginative later adventure.\n- **Rinkitink in Oz** \\(1916) – a somewhat different, fairy-tale-like adventure.\n- **The Patchwork Girl of Oz** \\(1913) – particularly whimsical and inventive.\n- **Tik-Tok of Oz** \\(1914) – another popular adventure featuring unusual characters.\n\n## My recommendation\n\nIf you only want to read three, I'd choose\\:\n\n1. *The Wonderful Wizard of Oz*\n2. *Ozma of Oz*\n3. *The Scarecrow of Oz*\n\nOne interesting observation: Gore Vidal wrote a wonderful 1977 essay, *On Rereading the Oz Books*, discussing how the books hold up as adult literature. He even preferred some of the sequels to the original when he was young. [www.nybooks.com](https://www.nybooks.com/articles/1977/10/13/on-rereading-the-oz-books/?utm_source=chatgpt.com)[www.goodreads.com](https://www.goodreads.com/author/show/3242.L_Frank_Baum?utm_source=chatgpt.com)[analepsis.org](https://analepsis.org/wp-content/uploads/2011/08/encyclopedia-of-adventure-fiction.pdf?utm_source=chatgpt.com)[marveloustales.com](https://marveloustales.com/2014/05/28/the-ozma-trilogy/?utm_source=chatgpt.com)[ultimatefantasyranking.com](https://ultimatefantasyranking.com/universes/oz.html?utm_source=chatgpt.com)\n\n**One question\\:** Are you interested primarily in the original Baum books, or would you also like recommendations for the best modern Oz novels, including Gregory Maguire's *Wicked*?",
+          "search_results": [
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://ultimatefantasyranking.com/universes/oz.html?utm_source=chatgpt.com",
+              "domain": "ultimatefantasyranking.com",
+              "title": "Oz: Reading Order & Ranking | The Ultimate Fantasy Series Ranking",
+              "description": "OZ  3.96 IN THE OFFICIAL RANKING · FULL RANKING  Books 14 books Status Complete 1900–1920 Reading commitment High L. Frank Baum Last reviewed 2026-08-13  OVERVIEW  L. Frank Baum's foundational Americ...",
+              "breadcrumb": "ultimatefantasyranking.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.librarything.com/nseries/103/Oz?utm_source=chatgpt.com",
+              "domain": "www.librarything.com",
+              "title": "Oz | Series | LibraryThing",
+              "description": "SERIES OZ  99 Works Popularity 251 (27,964 Members) 65,534 Books 1,103 Reviews [Input]½ 3.8  75 items  CORE  The Wonderful Wizard of Oz by L. Frank Baum 27,318 copies, 486 reviews  | Order: 1 The Mar...",
+              "breadcrumb": "librarything.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.nybooks.com/articles/1977/10/13/on-rereading-the-oz-books/?utm_source=chatgpt.com",
+              "domain": "www.nybooks.com",
+              "title": "On Rereading the Oz Books | Gore Vidal | The New York Review of Books",
+              "description": "ON REREADING THE OZ BOOKS  Gore Vidal  October 13, 1977 issue  Reviewed:  The Wonderful Wizard of Oz  by L. Frank Baum  The Marvelous Land of Oz  by L. Frank Baum  Ozma of Oz  by L. Frank Baum  Dorot...",
+              "breadcrumb": "nybooks.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://openbookrank.com/en/series/oz-book-series?utm_source=chatgpt.com",
+              "domain": "openbookrank.com",
+              "title": "Oz book series series ranked: which volume is the best",
+              "description": "Series · Fantasy  OZ BOOK SERIES  L. Frank Baum  5 of the 52 volumes have enough ratings to be scored, and they land between 7.7 and 8.0 — the series holds its level.  7.8 7.8 / 10  Score out of 10 3...",
+              "breadcrumb": "openbookrank.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.goodreads.com/author/show/3242.L_Frank_Baum?utm_source=chatgpt.com",
+              "domain": "www.goodreads.com",
+              "title": "L. Frank Baum (Author of The Wonderful Wizard of Oz)",
+              "description": "L. Frank Baum’s books  L. Frank Baum Average rating: 3.97  Image: Loading  · 776,414 ratings · 38,638 reviews · 3,496 distinct works • Similar authors  | The Wonderful Wizard of Oz (Oz, #1) really lik...",
+              "breadcrumb": "goodreads.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.goodreads.com/shelf/show/oz-series?utm_source=chatgpt.com",
+              "domain": "www.goodreads.com",
+              "title": "Oz Series Books",
+              "description": "OZ SERIES BOOKS  Showing 1-41 of 41  The Wonderful Wizard of Oz (Oz, #1) by  L. Frank Baum  (shelved 22 times as oz-series) avg rating 4.00 — 527,405 ratings — published 1900  The Marvelous Land of O...",
+              "breadcrumb": "goodreads.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.goodreads.com/book/show/236074.The_Wizard_of_Oz?utm_source=chatgpt.com",
+              "domain": "www.goodreads.com",
+              "title": "The Wizard of Oz by Frank L Baum | Goodreads",
+              "description": "OZ #1  THE WIZARD OF OZ  Frank L Baum, Paul Granger (Illustrator)  4.00 526,451 ratings22,412 reviews  Join the wonderful world of Oz. Here is the original book that started the wonderful series and...",
+              "breadcrumb": "goodreads.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.goodreads.com/book/show/18634109-oz?utm_source=chatgpt.com",
+              "domain": "www.goodreads.com",
+              "title": "Oz: The Complete Collection (Oz, #1-14) by L. Frank Baum | Goodreads",
+              "description": "OZ: THE COMPLETE COLLECTION    L. Frank Baum, W.W. Denslow (Illustrator)  4.24 7,757 ratings286 reviews  Although most children today are introduced to the world of Oz through the classic 1939 movie,...",
+              "breadcrumb": "goodreads.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.goodreads.com/book/show/60165.L_Frank_Baum?utm_source=chatgpt.com",
+              "domain": "www.goodreads.com",
+              "title": "L. Frank Baum: 15 Books in 1, the Original Oz Series: Wonderful Wizard of Oz \\ Marvelous Land of Oz \\ Ozma of Oz \\ Dorothy & Wizard in Oz \\ Road to Oz \\ Emerald City of Oz \\ Patchwork Girl of Oz \\ Little Wizard Stories by L. Frank Baum | Goodreads",
+              "description": "L. FRANK BAUM: 15 BOOKS IN 1, THE ORIGINAL OZ SERIES: WONDERFUL WIZARD OF OZ \\ MARVELOUS LAND OF OZ \\ OZMA OF OZ \\ DOROTHY & WIZARD IN OZ \\ ROAD TO OZ \\ EMERALD CITY OF OZ \\ PATCHWORK GIRL OF OZ \\ LI...",
+              "breadcrumb": "goodreads.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.goodreads.com/book/show/30961912-oz-books-by-l-frank-baum-volume-1?utm_source=chatgpt.com",
+              "domain": "www.goodreads.com",
+              "title": "Oz Books by L. Frank Baum, Volume 1: The Wonderful Wizard of Oz, The Marvelous Land of Oz, Ozma of Oz by L. Frank Baum | Goodreads",
+              "description": "OZ BOOKS BY L. FRANK BAUM, VOLUME 1: THE WONDERFUL WIZARD OF OZ, THE MARVELOUS LAND OF OZ, OZMA OF OZ  L. Frank Baum  4.09 1,287 ratings182 reviews  This Collection Book includes first three books in...",
+              "breadcrumb": "goodreads.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.goodreads.com/book/show/22444845-ozma-of-oz?utm_source=chatgpt.com",
+              "domain": "www.goodreads.com",
+              "title": "Ozma of Oz (Oz, #3) by L. Frank Baum | Goodreads",
+              "description": "OZ #3  OZMA OF OZ    L. Frank Baum, John R. Neill (Illustrator)  3.95 27,749 ratings1,553 reviews  Want to Read  Shop this series  Rate this book  5 1/4\"x7 3/4\" 208 page paperback published by Schola...",
+              "breadcrumb": "goodreads.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.goodreads.com/book/show/179565.The_Marvelous_Land_of_Oz?utm_source=chatgpt.com",
+              "domain": "www.goodreads.com",
+              "title": "The Marvelous Land of Oz (Oz, #2) by L. Frank Baum | Goodreads",
+              "description": "OZ #2  THE MARVELOUS LAND OF OZ    L. Frank Baum, David McKee (Illustrations)  3.79 26,969 ratings 2,352 reviews  Want to Read  Rate this book  Few fantasy lands have captured our hearts and imaginat...",
+              "breadcrumb": "goodreads.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.goodreads.com/book/show/39395346-adventures-in-oz?utm_source=chatgpt.com",
+              "domain": "www.goodreads.com",
+              "title": "Adventures in Oz: The Wizard of Oz / The Land of Oz / Ozma of Oz by L. Frank Baum | Goodreads",
+              "description": "COMMUNITY REVIEWS  4.09  1,287 ratings 182 reviews  5 stars  501 (38%)  4 stars  467 (36%)  3 stars  261 (20%)  2 stars  48 (3%)  1 star  10 (<1%)  Displaying 1 - 30 of 182 reviews  Melanie (TBR and...",
+              "breadcrumb": "goodreads.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.goodreads.com/book/show/69647050-the-emerald-city-of-oz-illustrated?utm_source=chatgpt.com",
+              "domain": "www.goodreads.com",
+              "title": "The Emerald City of Oz Illustrated by L. Frank Baum | Goodreads",
+              "description": "What follows is my (and my son's) short reviews of the individual books in the series. The Original and Official Oz Books by L. Frank Baum THE WONDERFUL WIZARD OF OZ (1900) READ NOVEMBER 26, 2013 – DE...",
+              "breadcrumb": "goodreads.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.goodreads.com/book/show/2263911?utm_source=chatgpt.com",
+              "domain": "www.goodreads.com",
+              "title": "The Emerald City of Oz by L. Frank Baum | Goodreads",
+              "description": "Garrett Zecker  Author 11 books 76 followers  Follow  Follow  May 26, 2017  Doma Publishing's Wizard of Oz collection has taken me several years to read with my son at bedtime. It was interesting rev...",
+              "breadcrumb": "goodreads.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.goodreads.com/book/show/55384025-the-marvelous-land-of-oz?utm_source=chatgpt.com",
+              "domain": "www.goodreads.com",
+              "title": "The Marvelous Land of Oz (Oz, #2) by L. Frank Baum | Goodreads",
+              "description": "OZ #2  THE MARVELOUS LAND OF OZ    L. Frank Baum  3.79 26,885 ratings2,342 reviews  Want to Read  Rate this book  Few fantasy lands have captured our hearts and imaginations as has the marvelous land...",
+              "breadcrumb": "goodreads.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://goodreads.com/book/show/179668.The_Emerald_City_of_Oz__Oz___6_?utm_source=chatgpt.com",
+              "domain": "goodreads.com",
+              "title": "The Emerald City of Oz (Oz, #6) by L. Frank Baum | Goodreads",
+              "description": "What follows is my (and my son's) short reviews of the individual books in the series. The Original and Official Oz Books by L. Frank Baum THE WONDERFUL WIZARD OF OZ (1900) READ NOVEMBER 26, 2013 – DE...",
+              "breadcrumb": "goodreads.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://marveloustales.com/2014/05/28/the-ozma-trilogy/?utm_source=chatgpt.com",
+              "domain": "marveloustales.com",
+              "title": "The Ozma Trilogy – Tales of the Marvelous",
+              "description": "THE OZMA TRILOGY  On May 28, 2014May 18, 2014 By cherylmahoneyIn Fantasy, Juvenile, Reviews  You may remember I was reading my way through L. Frank Baum’s Oz series, reviewing in batches along the wa...",
+              "breadcrumb": "marveloustales.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://urbanhickster.blogspot.com/2026/?utm_source=chatgpt.com",
+              "domain": "urbanhickster.blogspot.com",
+              "title": "The Urban Hickster: 2026",
+              "description": "THURSDAY, JANUARY 1, 2026  L. FRANK BAUM'S 14 OZ BOOKS RANKED  The original fourteen Oz books are such a treasure. They are light-hearted and whimsical stories that never take themselves too seriousl...",
+              "breadcrumb": "urbanhickster.blogspot.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.chipublib.org/blogs/post/chicago-classics-the-oz-books/?utm_source=chatgpt.com",
+              "domain": "www.chipublib.org",
+              "title": "The Oz Books: Chicago History Classics | Chicago Public Library",
+              "description": "*   *   *   *   * # The Oz Books: Chicago History Classics  by LyleAttention: This post is over 3 years old and the information may be out of date.Attention: This post is over 3 years old and the inf...",
+              "breadcrumb": "chipublib.org"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://thewizardofoz.info/wiki/About_the_Oz_Books?utm_source=chatgpt.com",
+              "domain": "thewizardofoz.info",
+              "title": "About the Oz Books - OzWiki",
+              "description": "ABOUT THE OZ BOOKS  WHAT ARE THE \"OFFICIAL\" OZ BOOKS?  Here is the complete list of the Famous Forty Oz books (often shortened to the FF) — the ones that most Oz fans agree are true Oz — along with th...",
+              "breadcrumb": "thewizardofoz.info"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://tkwadeauthor.blogspot.com/2024/01/?m=0&utm_source=chatgpt.com",
+              "domain": "tkwadeauthor.blogspot.com",
+              "title": "T.K. Wade -- Author: January 2024",
+              "description": "WEDNESDAY, JANUARY 10, 2024  FAIRY TALE SPOTLIGHT: OZ BOOKS 41-71  It's time to stop and list all the Oz books I have read up to this point. I am getting very close to the end, and I just want to be c...",
+              "breadcrumb": "tkwadeauthor.blogspot.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.thereadingorder.com/the-wizard-of-oz-books-in-order/?utm_source=chatgpt.com",
+              "domain": "www.thereadingorder.com",
+              "title": "How to Read The Wizard of Oz Books in Order - The Reading Order",
+              "description": "LIFE AFTER BAUM – THE OFFICIAL “FAMOUS FORTY” CONTINUATIONS  After Baum’s death in 1919, publisher Reilly & Lee continued the series with “official” authors to create the “Famous Forty” Oz books. Ruth...",
+              "breadcrumb": "thereadingorder.com"
+            }
+          ],
+          "sources": [
+            {
+              "type": "chat_gpt_source",
+              "title": "Oz book series series ranked: which volume is the best",
+              "snippet": null,
+              "domain": "openbookrank.com",
+              "url": "https://openbookrank.com/en/series/oz-book-series?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "BookRank",
+              "publication_date": null,
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "The Ozma Trilogy",
+              "snippet": null,
+              "domain": "marveloustales.com",
+              "url": "https://marveloustales.com/2014/05/28/the-ozma-trilogy/?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "Tales of the Marvelous",
+              "publication_date": "2014-05-28 00:00:00 +00:00",
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "The Wizard of Oz 269",
+              "snippet": null,
+              "domain": "analepsis.org",
+              "url": "https://analepsis.org/wp-content/uploads/2011/08/encyclopedia-of-adventure-fiction.pdf?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "analepsis",
+              "publication_date": "2010-08-09 11:06:20 +00:00",
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Oz: Reading Order & Ranking",
+              "snippet": null,
+              "domain": "ultimatefantasyranking.com",
+              "url": "https://ultimatefantasyranking.com/universes/oz.html?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "The Ultimate Fantasy Series Ranking",
+              "publication_date": null,
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "On Rereading the Oz Books | Gore Vidal",
+              "snippet": null,
+              "domain": "www.nybooks.com",
+              "url": "https://www.nybooks.com/articles/1977/10/13/on-rereading-the-oz-books/?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "The New York Review of Books",
+              "publication_date": "1977-10-13 00:00:00 +00:00",
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "L. Frank Baum (Author of The Wonderful Wizard of Oz)",
+              "snippet": null,
+              "domain": "www.goodreads.com",
+              "url": "https://www.goodreads.com/author/show/3242.L_Frank_Baum?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "Goodreads",
+              "publication_date": null,
+              "markdown": null
+            }
+          ],
+          "fan_out_queries": [
+            "best Wizard of Oz books in Oz series ranked critical favorites L. Frank Baum",
+            "L. Frank Baum Oz books reviews best books Ozma of Oz Land of Oz"
+          ],
+          "brand_entities": [
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "1907 novel by L. Frank Baum",
+              "category": "book",
+              "markdown": "Ozma of Oz",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "1900 novel by L. Frank Baum",
+              "category": "book",
+              "markdown": "The Wonderful Wizard of Oz",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "1915 novel by L. Frank Baum",
+              "category": "book",
+              "markdown": "The Scarecrow of Oz",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "1904 novel by L. Frank Baum",
+              "category": "book",
+              "markdown": "The Marvelous Land of Oz",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "1917 novel by L. Frank Baum",
+              "category": "book",
+              "markdown": "The Lost Princess of Oz",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "1910 novel by L. Frank Baum",
+              "category": "book",
+              "markdown": "The Emerald City of Oz",
+              "urls": null
+            }
+          ],
+          "se_results_count": 0,
+          "item_types": [
+            "chat_gpt_text",
+            "chat_gpt_images"
+          ],
+          "items_count": 13,
+          "items": [
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "markdown": "If you're looking at **L. Frank Baum's original Oz books**, there are 14 novels, and a handful are generally considered standouts. Interestingly, some readers actually prefer the sequels to the famous first book.\n\nBased on reader ratings, literary commentary, and fan rankings, here's how I'd narrow them down.\n\n## The best Wizard of Oz books\n\n",
+              "sources": null,
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "markdown": "![Ozma of Oz: Record of Her Adventures with Dorothy Gale of Kansas, the Yellow Hen, the Scarecrow, the Tin Woodman, Tiktok, the Cowardly Lion and the Hungry Tiger; Besides Other Good People too Numerous to Mention Faithfully Recorded Herein by L. Frank Baum: Fair Hardcover | Reasons To Live Books](https://images.openai.com/static-rsc-4/b4uqHO2aERnrzTXkUivYASpHWPO3YjpcCsnnsIZs59LdgF7zVOE_DN755uon0xFRojkMHxUS4UfIaWqXfyANOv-o9cArt5G62YnO9EIx4-Snh5jBv362VfysQaFJNphcBal0HPmHjgsSUZHqpV8DYhF2Qvs8O4bUcOEDVUo5oeZf3d4qXKukmBu8Y0B7XSf2?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.abebooks.com/Ozma-Record-Adventures-Dorothy-Gale-Kansas/31951488098/bd",
+                  "alt": "Ozma of Oz: Record of Her Adventures with Dorothy Gale of Kansas, the Yellow Hen, the Scarecrow, the Tin Woodman, Tiktok, the Cowardly Lion and the Hungry Tiger; Besides Other Good People too Numerous to Mention Faithfully Recorded Herein by L. Frank Baum: Fair Hardcover | Reasons To Live Books",
+                  "image_url": "https://images.openai.com/static-rsc-4/b4uqHO2aERnrzTXkUivYASpHWPO3YjpcCsnnsIZs59LdgF7zVOE_DN755uon0xFRojkMHxUS4UfIaWqXfyANOv-o9cArt5G62YnO9EIx4-Snh5jBv362VfysQaFJNphcBal0HPmHjgsSUZHqpV8DYhF2Qvs8O4bUcOEDVUo5oeZf3d4qXKukmBu8Y0B7XSf2?purpose=fullsize",
+                  "markdown": "![Ozma of Oz: Record of Her Adventures with Dorothy Gale of Kansas, the Yellow Hen, the Scarecrow, the Tin Woodman, Tiktok, the Cowardly Lion and the Hungry Tiger; Besides Other Good People too Numerous to Mention Faithfully Recorded Herein by L. Frank Baum: Fair Hardcover | Reasons To Live Books](https://images.openai.com/static-rsc-4/b4uqHO2aERnrzTXkUivYASpHWPO3YjpcCsnnsIZs59LdgF7zVOE_DN755uon0xFRojkMHxUS4UfIaWqXfyANOv-o9cArt5G62YnO9EIx4-Snh5jBv362VfysQaFJNphcBal0HPmHjgsSUZHqpV8DYhF2Qvs8O4bUcOEDVUo5oeZf3d4qXKukmBu8Y0B7XSf2?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "markdown": "\n\n**1\\. Ozma of Oz \\(1907)**\n\n(Best sequel pick)\n\nFrequently ranked among the very best. Introduces memorable characters and expands the mythology of Oz. It is also the highest-rated volume in one comparative series ranking. [openbookrank.com](https://openbookrank.com/en/series/oz-book-series?utm_source=chatgpt.com)[marveloustales.com](https://marveloustales.com/2014/05/28/the-ozma-trilogy/?utm_source=chatgpt.com)[analepsis.org](https://analepsis.org/wp-content/uploads/2011/08/encyclopedia-of-adventure-fiction.pdf?utm_source=chatgpt.com)[ultimatefantasyranking.com](https://ultimatefantasyranking.com/universes/oz.html?utm_source=chatgpt.com)\n\n---\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Oz book series series ranked: which volume is the best",
+                  "snippet": null,
+                  "domain": "openbookrank.com",
+                  "url": "https://openbookrank.com/en/series/oz-book-series?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "BookRank",
+                  "publication_date": null,
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "The Ozma Trilogy",
+                  "snippet": null,
+                  "domain": "marveloustales.com",
+                  "url": "https://marveloustales.com/2014/05/28/the-ozma-trilogy/?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "Tales of the Marvelous",
+                  "publication_date": "2014-05-28 00:00:00 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "The Wizard of Oz 269",
+                  "snippet": null,
+                  "domain": "analepsis.org",
+                  "url": "https://analepsis.org/wp-content/uploads/2011/08/encyclopedia-of-adventure-fiction.pdf?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "analepsis",
+                  "publication_date": "2010-08-09 11:06:20 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Oz: Reading Order & Ranking",
+                  "snippet": null,
+                  "domain": "ultimatefantasyranking.com",
+                  "url": "https://ultimatefantasyranking.com/universes/oz.html?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "The Ultimate Fantasy Series Ranking",
+                  "publication_date": null,
+                  "markdown": null
+                }
+              ],
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "1907 novel by L. Frank Baum",
+                  "category": "book",
+                  "markdown": "Ozma of Oz",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "markdown": "![A Digital Archive of 1,800+ Children's Books from UCLA |  Open Culture](https://images.openai.com/static-rsc-4/ktPSnTMEmSElZshwWTzqxNKicoMxk-5To_TV0k5UX3P4DSE6dNbSFoI-NJBmZ-0p5qSvlZbxl1y7goSG2kkLHKti8J84mByOHTqDj56vSAraePGvb9H5AAOSl-p-KS9usgOu9FI-7V3OsiPiKAocGb8oW01oeyDic5Q38s9lu2jeUdAa-ma4vNIsqKyBzaDp?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.openculture.com/2017/11/a-digital-archive-of-1800-childrens-books-from-ucla.html",
+                  "alt": "A Digital Archive of 1,800+ Children's Books from UCLA |  Open Culture",
+                  "image_url": "https://images.openai.com/static-rsc-4/ktPSnTMEmSElZshwWTzqxNKicoMxk-5To_TV0k5UX3P4DSE6dNbSFoI-NJBmZ-0p5qSvlZbxl1y7goSG2kkLHKti8J84mByOHTqDj56vSAraePGvb9H5AAOSl-p-KS9usgOu9FI-7V3OsiPiKAocGb8oW01oeyDic5Q38s9lu2jeUdAa-ma4vNIsqKyBzaDp?purpose=fullsize",
+                  "markdown": "![A Digital Archive of 1,800+ Children's Books from UCLA |  Open Culture](https://images.openai.com/static-rsc-4/ktPSnTMEmSElZshwWTzqxNKicoMxk-5To_TV0k5UX3P4DSE6dNbSFoI-NJBmZ-0p5qSvlZbxl1y7goSG2kkLHKti8J84mByOHTqDj56vSAraePGvb9H5AAOSl-p-KS9usgOu9FI-7V3OsiPiKAocGb8oW01oeyDic5Q38s9lu2jeUdAa-ma4vNIsqKyBzaDp?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 3,
+              "rank_absolute": 5,
+              "markdown": "\n\n**2\\. The Wonderful Wizard of Oz \\(1900)**\n\nThe essential classic. Arguably the strongest overall because it introduces the world, Dorothy, the Scarecrow, Tin Woodman, and Cowardly Lion. Goodreads rating: 4.00/5. [www.nybooks.com](https://www.nybooks.com/articles/1977/10/13/on-rereading-the-oz-books/?utm_source=chatgpt.com)[www.goodreads.com](https://www.goodreads.com/author/show/3242.L_Frank_Baum?utm_source=chatgpt.com)\n\n---\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "On Rereading the Oz Books | Gore Vidal",
+                  "snippet": null,
+                  "domain": "www.nybooks.com",
+                  "url": "https://www.nybooks.com/articles/1977/10/13/on-rereading-the-oz-books/?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "The New York Review of Books",
+                  "publication_date": "1977-10-13 00:00:00 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "L. Frank Baum (Author of The Wonderful Wizard of Oz)",
+                  "snippet": null,
+                  "domain": "www.goodreads.com",
+                  "url": "https://www.goodreads.com/author/show/3242.L_Frank_Baum?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "Goodreads",
+                  "publication_date": null,
+                  "markdown": null
+                }
+              ],
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "1900 novel by L. Frank Baum",
+                  "category": "book",
+                  "markdown": "The Wonderful Wizard of Oz",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 3,
+              "rank_absolute": 6,
+              "markdown": "![L. Frank Baum - The Scarecrow Of Oz - 1915 - FIRST EDITION | eBay](https://images.openai.com/static-rsc-4/MZy_5bzcCgtHtDtuh4Y-0EyVVTJCKGsXvtw4I7PYxPIt-EFdGsh3Emvxdzu2mdusjMURljYpql9Xm-IRxTIGL6tbg3oRag_lu-NZ-Zk91xXEEjcmxmKardLeQkzxdqyC8drMZLP7uePmOeTHxs0_Uq2GFpEKNjVmGywqfJby6cmyYFgltPl9M3NHXmSn6Bje?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.ebay.com/itm/335358722574",
+                  "alt": "L. Frank Baum - The Scarecrow Of Oz - 1915 - FIRST EDITION | eBay",
+                  "image_url": "https://images.openai.com/static-rsc-4/MZy_5bzcCgtHtDtuh4Y-0EyVVTJCKGsXvtw4I7PYxPIt-EFdGsh3Emvxdzu2mdusjMURljYpql9Xm-IRxTIGL6tbg3oRag_lu-NZ-Zk91xXEEjcmxmKardLeQkzxdqyC8drMZLP7uePmOeTHxs0_Uq2GFpEKNjVmGywqfJby6cmyYFgltPl9M3NHXmSn6Bje?purpose=fullsize",
+                  "markdown": "![L. Frank Baum - The Scarecrow Of Oz - 1915 - FIRST EDITION | eBay](https://images.openai.com/static-rsc-4/MZy_5bzcCgtHtDtuh4Y-0EyVVTJCKGsXvtw4I7PYxPIt-EFdGsh3Emvxdzu2mdusjMURljYpql9Xm-IRxTIGL6tbg3oRag_lu-NZ-Zk91xXEEjcmxmKardLeQkzxdqyC8drMZLP7uePmOeTHxs0_Uq2GFpEKNjVmGywqfJby6cmyYFgltPl9M3NHXmSn6Bje?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "markdown": "\n\n**3\\. The Scarecrow of Oz \\(1915)**\n\nA particularly strong later installment. Features the Scarecrow and a plot involving the overthrow of a cruel ruler. Highlighted as the best of Baum's later books in an adventure-fiction reference. [openbookrank.com](https://openbookrank.com/en/series/oz-book-series?utm_source=chatgpt.com)[marveloustales.com](https://marveloustales.com/2014/05/28/the-ozma-trilogy/?utm_source=chatgpt.com)[analepsis.org](https://analepsis.org/wp-content/uploads/2011/08/encyclopedia-of-adventure-fiction.pdf?utm_source=chatgpt.com)[ultimatefantasyranking.com](https://ultimatefantasyranking.com/universes/oz.html?utm_source=chatgpt.com)\n\n---\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Oz book series series ranked: which volume is the best",
+                  "snippet": null,
+                  "domain": "openbookrank.com",
+                  "url": "https://openbookrank.com/en/series/oz-book-series?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "BookRank",
+                  "publication_date": null,
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "The Ozma Trilogy",
+                  "snippet": null,
+                  "domain": "marveloustales.com",
+                  "url": "https://marveloustales.com/2014/05/28/the-ozma-trilogy/?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "Tales of the Marvelous",
+                  "publication_date": "2014-05-28 00:00:00 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "The Wizard of Oz 269",
+                  "snippet": null,
+                  "domain": "analepsis.org",
+                  "url": "https://analepsis.org/wp-content/uploads/2011/08/encyclopedia-of-adventure-fiction.pdf?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "analepsis",
+                  "publication_date": "2010-08-09 11:06:20 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Oz: Reading Order & Ranking",
+                  "snippet": null,
+                  "domain": "ultimatefantasyranking.com",
+                  "url": "https://ultimatefantasyranking.com/universes/oz.html?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "The Ultimate Fantasy Series Ranking",
+                  "publication_date": null,
+                  "markdown": null
+                }
+              ],
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "1915 novel by L. Frank Baum",
+                  "category": "book",
+                  "markdown": "The Scarecrow of Oz",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 4,
+              "rank_absolute": 8,
+              "markdown": "![THE MARVELOUS LAND OF OZ\nby Baum, L. Frank; Neill, John R |\n1904 |\nReilly & Britton |\nBiblio](https://images.openai.com/static-rsc-4/sDL3NOOZ-vo8f-9C_-gE1EM9-bM0y35-oDubDa4N7XVJ9DW7NEgrlHYb1j_4Drh3r66jo69CnmIObKHvSlUYsHnai2KzmcWp5tEV3oxTUnCaDL4jlr-AWbkCWPIGN7f_ezDq97mFgnDfubP490r117lRselp_tvC11URrNl9ONVA4doNEQBhJX1DXqow7ox1?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.biblio.com/book/marvelous-land-oz-baum-l-frank/d/1396741862",
+                  "alt": "THE MARVELOUS LAND OF OZ\nby Baum, L. Frank; Neill, John R |\n1904 |\nReilly & Britton |\nBiblio",
+                  "image_url": "https://images.openai.com/static-rsc-4/sDL3NOOZ-vo8f-9C_-gE1EM9-bM0y35-oDubDa4N7XVJ9DW7NEgrlHYb1j_4Drh3r66jo69CnmIObKHvSlUYsHnai2KzmcWp5tEV3oxTUnCaDL4jlr-AWbkCWPIGN7f_ezDq97mFgnDfubP490r117lRselp_tvC11URrNl9ONVA4doNEQBhJX1DXqow7ox1?purpose=fullsize",
+                  "markdown": "![THE MARVELOUS LAND OF OZ\nby Baum, L. Frank; Neill, John R |\n1904 |\nReilly & Britton |\nBiblio](https://images.openai.com/static-rsc-4/sDL3NOOZ-vo8f-9C_-gE1EM9-bM0y35-oDubDa4N7XVJ9DW7NEgrlHYb1j_4Drh3r66jo69CnmIObKHvSlUYsHnai2KzmcWp5tEV3oxTUnCaDL4jlr-AWbkCWPIGN7f_ezDq97mFgnDfubP490r117lRselp_tvC11URrNl9ONVA4doNEQBhJX1DXqow7ox1?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 5,
+              "rank_absolute": 9,
+              "markdown": "\n\n**4\\. The Marvelous Land of Oz \\(1904)**\n\nThe first sequel. Introduces important characters including Tip, Jack Pumpkinhead, and the Sawhorse. Especially worthwhile for understanding Oz's larger mythology. [openbookrank.com](https://openbookrank.com/en/series/oz-book-series?utm_source=chatgpt.com)[marveloustales.com](https://marveloustales.com/2014/05/28/the-ozma-trilogy/?utm_source=chatgpt.com)[analepsis.org](https://analepsis.org/wp-content/uploads/2011/08/encyclopedia-of-adventure-fiction.pdf?utm_source=chatgpt.com)[ultimatefantasyranking.com](https://ultimatefantasyranking.com/universes/oz.html?utm_source=chatgpt.com)\n\n---\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Oz book series series ranked: which volume is the best",
+                  "snippet": null,
+                  "domain": "openbookrank.com",
+                  "url": "https://openbookrank.com/en/series/oz-book-series?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "BookRank",
+                  "publication_date": null,
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "The Ozma Trilogy",
+                  "snippet": null,
+                  "domain": "marveloustales.com",
+                  "url": "https://marveloustales.com/2014/05/28/the-ozma-trilogy/?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "Tales of the Marvelous",
+                  "publication_date": "2014-05-28 00:00:00 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "The Wizard of Oz 269",
+                  "snippet": null,
+                  "domain": "analepsis.org",
+                  "url": "https://analepsis.org/wp-content/uploads/2011/08/encyclopedia-of-adventure-fiction.pdf?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "analepsis",
+                  "publication_date": "2010-08-09 11:06:20 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Oz: Reading Order & Ranking",
+                  "snippet": null,
+                  "domain": "ultimatefantasyranking.com",
+                  "url": "https://ultimatefantasyranking.com/universes/oz.html?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "The Ultimate Fantasy Series Ranking",
+                  "publication_date": null,
+                  "markdown": null
+                }
+              ],
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "1904 novel by L. Frank Baum",
+                  "category": "book",
+                  "markdown": "The Marvelous Land of Oz",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 5,
+              "rank_absolute": 10,
+              "markdown": "![Lot - L. Frank Baum (1856-1919) & John R. Neill (1877-1943), illus. The Lost Princess of Oz. Chicago: The Reilly & Britton, Co., 1917.](https://images.openai.com/static-rsc-4/c7hWehMWGSxfw8A4iddyrBP187s7FrCgYnRvtNRy9YaWg8QNzSfej1uOFO4RuotvO4A1h645JYJQw7cEtBM1kh48XnPtfhQXmnnHZvUDCfkNDQokxgHd6MzsZlwIAjAsDYnPVb5j6AseM0r7aTsHXmM5crB7r-IKcls5MwpskCZnMWu9K4-Tu3qMqVNFWzt-?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.swanngalleries.com/auction-lot/l.-frank-baum-1856-1919-john-r.-neill-1877-1_B86BBA5650",
+                  "alt": "Lot - L. Frank Baum (1856-1919) & John R. Neill (1877-1943), illus. The Lost Princess of Oz. Chicago: The Reilly & Britton, Co., 1917.",
+                  "image_url": "https://images.openai.com/static-rsc-4/c7hWehMWGSxfw8A4iddyrBP187s7FrCgYnRvtNRy9YaWg8QNzSfej1uOFO4RuotvO4A1h645JYJQw7cEtBM1kh48XnPtfhQXmnnHZvUDCfkNDQokxgHd6MzsZlwIAjAsDYnPVb5j6AseM0r7aTsHXmM5crB7r-IKcls5MwpskCZnMWu9K4-Tu3qMqVNFWzt-?purpose=fullsize",
+                  "markdown": "![Lot - L. Frank Baum (1856-1919) & John R. Neill (1877-1943), illus. The Lost Princess of Oz. Chicago: The Reilly & Britton, Co., 1917.](https://images.openai.com/static-rsc-4/c7hWehMWGSxfw8A4iddyrBP187s7FrCgYnRvtNRy9YaWg8QNzSfej1uOFO4RuotvO4A1h645JYJQw7cEtBM1kh48XnPtfhQXmnnHZvUDCfkNDQokxgHd6MzsZlwIAjAsDYnPVb5j6AseM0r7aTsHXmM5crB7r-IKcls5MwpskCZnMWu9K4-Tu3qMqVNFWzt-?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 6,
+              "rank_absolute": 11,
+              "markdown": "\n\n**5\\. The Lost Princess of Oz \\(1917)**\n\nA fun mystery-adventure in which Ozma disappears and Dorothy and her friends search for her. One of the more highly rated later books. [www.nybooks.com](https://www.nybooks.com/articles/1977/10/13/on-rereading-the-oz-books/?utm_source=chatgpt.com)[www.goodreads.com](https://www.goodreads.com/author/show/3242.L_Frank_Baum?utm_source=chatgpt.com)[analepsis.org](https://analepsis.org/wp-content/uploads/2011/08/encyclopedia-of-adventure-fiction.pdf?utm_source=chatgpt.com)[marveloustales.com](https://marveloustales.com/2014/05/28/the-ozma-trilogy/?utm_source=chatgpt.com)[ultimatefantasyranking.com](https://ultimatefantasyranking.com/universes/oz.html?utm_source=chatgpt.com)\n\n---\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "On Rereading the Oz Books | Gore Vidal",
+                  "snippet": null,
+                  "domain": "www.nybooks.com",
+                  "url": "https://www.nybooks.com/articles/1977/10/13/on-rereading-the-oz-books/?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "The New York Review of Books",
+                  "publication_date": "1977-10-13 00:00:00 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "L. Frank Baum (Author of The Wonderful Wizard of Oz)",
+                  "snippet": null,
+                  "domain": "www.goodreads.com",
+                  "url": "https://www.goodreads.com/author/show/3242.L_Frank_Baum?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "Goodreads",
+                  "publication_date": null,
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "The Wizard of Oz 269",
+                  "snippet": null,
+                  "domain": "analepsis.org",
+                  "url": "https://analepsis.org/wp-content/uploads/2011/08/encyclopedia-of-adventure-fiction.pdf?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "analepsis",
+                  "publication_date": "2010-08-09 11:06:20 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "The Ozma Trilogy",
+                  "snippet": null,
+                  "domain": "marveloustales.com",
+                  "url": "https://marveloustales.com/2014/05/28/the-ozma-trilogy/?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "Tales of the Marvelous",
+                  "publication_date": "2014-05-28 00:00:00 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Oz: Reading Order & Ranking",
+                  "snippet": null,
+                  "domain": "ultimatefantasyranking.com",
+                  "url": "https://ultimatefantasyranking.com/universes/oz.html?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "The Ultimate Fantasy Series Ranking",
+                  "publication_date": null,
+                  "markdown": null
+                }
+              ],
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "1917 novel by L. Frank Baum",
+                  "category": "book",
+                  "markdown": "The Lost Princess of Oz",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 6,
+              "rank_absolute": 12,
+              "markdown": "![](https://images.openai.com/static-rsc-4/KTEpPW8-pAFd1abdcJGg97DmtWFmFYwRO7VsfGn8mxR4a_ObrU4jI-jRvz2KFsxi3oMVABOJQiq35AD46I3EZZ-nf18usxihHL6uID-8T0BrLHI8ZTcqqbt7UOlEICJaZgIWWok4BXfUSgKOF6U0_XtzTkSeKaf0bQh3hv_vZksIeMpo5d6Qa4oqicdFIeH9?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://en.wikipedia.org/wiki/List_of_Oz_books",
+                  "alt": null,
+                  "image_url": "https://images.openai.com/static-rsc-4/KTEpPW8-pAFd1abdcJGg97DmtWFmFYwRO7VsfGn8mxR4a_ObrU4jI-jRvz2KFsxi3oMVABOJQiq35AD46I3EZZ-nf18usxihHL6uID-8T0BrLHI8ZTcqqbt7UOlEICJaZgIWWok4BXfUSgKOF6U0_XtzTkSeKaf0bQh3hv_vZksIeMpo5d6Qa4oqicdFIeH9?purpose=fullsize",
+                  "markdown": "![](https://images.openai.com/static-rsc-4/KTEpPW8-pAFd1abdcJGg97DmtWFmFYwRO7VsfGn8mxR4a_ObrU4jI-jRvz2KFsxi3oMVABOJQiq35AD46I3EZZ-nf18usxihHL6uID-8T0BrLHI8ZTcqqbt7UOlEICJaZgIWWok4BXfUSgKOF6U0_XtzTkSeKaf0bQh3hv_vZksIeMpo5d6Qa4oqicdFIeH9?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 7,
+              "rank_absolute": 13,
+              "markdown": "\n\n**6\\. The Emerald City of Oz \\(1910)**\n\nParticularly interesting for readers who love the world-building. Explores Oz's society, geography, and inhabitants in greater depth. Gore Vidal also singled it out as a childhood favorite. [ultimatefantasyranking.com](https://ultimatefantasyranking.com/universes/oz.html?utm_source=chatgpt.com)[marveloustales.com](https://marveloustales.com/2014/05/28/the-ozma-trilogy/?utm_source=chatgpt.com)[www.nybooks.com](https://www.nybooks.com/articles/1977/10/13/on-rereading-the-oz-books/?utm_source=chatgpt.com)\n\n## What about the rest?\n\nOther books worth considering\\:\n\n- **The Magic of Oz** \\(1919) – imaginative later adventure.\n- **Rinkitink in Oz** \\(1916) – a somewhat different, fairy-tale-like adventure.\n- **The Patchwork Girl of Oz** \\(1913) – particularly whimsical and inventive.\n- **Tik-Tok of Oz** \\(1914) – another popular adventure featuring unusual characters.\n\n## My recommendation\n\nIf you only want to read three, I'd choose\\:\n\n1. *The Wonderful Wizard of Oz*\n2. *Ozma of Oz*\n3. *The Scarecrow of Oz*\n\nOne interesting observation: Gore Vidal wrote a wonderful 1977 essay, *On Rereading the Oz Books*, discussing how the books hold up as adult literature. He even preferred some of the sequels to the original when he was young. [www.nybooks.com](https://www.nybooks.com/articles/1977/10/13/on-rereading-the-oz-books/?utm_source=chatgpt.com)[www.goodreads.com](https://www.goodreads.com/author/show/3242.L_Frank_Baum?utm_source=chatgpt.com)[analepsis.org](https://analepsis.org/wp-content/uploads/2011/08/encyclopedia-of-adventure-fiction.pdf?utm_source=chatgpt.com)[marveloustales.com](https://marveloustales.com/2014/05/28/the-ozma-trilogy/?utm_source=chatgpt.com)[ultimatefantasyranking.com](https://ultimatefantasyranking.com/universes/oz.html?utm_source=chatgpt.com)\n\n**One question\\:** Are you interested primarily in the original Baum books, or would you also like recommendations for the best modern Oz novels, including Gregory Maguire's *Wicked*?",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Oz: Reading Order & Ranking",
+                  "snippet": null,
+                  "domain": "ultimatefantasyranking.com",
+                  "url": "https://ultimatefantasyranking.com/universes/oz.html?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "The Ultimate Fantasy Series Ranking",
+                  "publication_date": null,
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "The Ozma Trilogy",
+                  "snippet": null,
+                  "domain": "marveloustales.com",
+                  "url": "https://marveloustales.com/2014/05/28/the-ozma-trilogy/?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "Tales of the Marvelous",
+                  "publication_date": "2014-05-28 00:00:00 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "On Rereading the Oz Books | Gore Vidal",
+                  "snippet": null,
+                  "domain": "www.nybooks.com",
+                  "url": "https://www.nybooks.com/articles/1977/10/13/on-rereading-the-oz-books/?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "The New York Review of Books",
+                  "publication_date": "1977-10-13 00:00:00 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "L. Frank Baum (Author of The Wonderful Wizard of Oz)",
+                  "snippet": null,
+                  "domain": "www.goodreads.com",
+                  "url": "https://www.goodreads.com/author/show/3242.L_Frank_Baum?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "Goodreads",
+                  "publication_date": null,
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "The Wizard of Oz 269",
+                  "snippet": null,
+                  "domain": "analepsis.org",
+                  "url": "https://analepsis.org/wp-content/uploads/2011/08/encyclopedia-of-adventure-fiction.pdf?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "analepsis",
+                  "publication_date": "2010-08-09 11:06:20 +00:00",
+                  "markdown": null
+                }
+              ],
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "1910 novel by L. Frank Baum",
+                  "category": "book",
+                  "markdown": "The Emerald City of Oz",
+                  "urls": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

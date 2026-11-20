@@ -4,6 +4,7 @@
 
 import { afterAll, beforeAll, describe, expect, it } from "vitest";
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
+import { getCitations, getClient, getHistory, getQueryHistory } from "../../src/lib/data/read.ts";
 
 const url = process.env.SUPABASE_URL;
 const publishableKey = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY;
@@ -67,6 +68,36 @@ describe.skipIf(!hasEnv)("demo client through the portal views", () => {
     if (!seeded) return ctx.skip();
     const { data } = await member.from("latest_checks").select("query, surface").eq("client_id", DEMO);
     expect(data!.filter((r) => r.surface === "ai_overview")).toHaveLength(40);
+  });
+
+  it("reads the whole day-by-day history (more than 1000 checks) and its SLA line ends at the same 13 citations", async (ctx) => {
+    if (!seeded) return ctx.skip();
+    const client = (await getClient(member, DEMO))!;
+    const cit = (await getCitations(member, client))!;
+    const history = await getHistory(member, DEMO, cit);
+    expect(history.days).toHaveLength(cit.day); // one cell per day since the window started
+    expect(history.queries).toHaveLength(40);
+    // The demo stores 38 days of AI Overview checks for 40 queries (1520 rows): they only all show up if the read went past the
+    // 1000-row page limit. (The demo's own "today" is fixed at day 38, so the latest days of a later real date show as not checked.)
+    const stored = history.queries.reduce((n, q) => n + q.surfaces.ai_overview.filter((s) => s !== "unchecked").length, 0);
+    expect(stored).toBe(40 * 38);
+    expect(history.daily.at(-1)!.cumulative).toBe(cit.cited); // the strip and the SLA view agree
+    expect(history.daily.every((d, i) => i === 0 || d.cumulative >= history.daily[i - 1].cumulative)).toBe(true);
+    expect(history.daily.some((d) => d.citedThatDay < d.cumulative)).toBe(true); // citations come and go day to day
+  });
+
+  it("reads one query day by day, newest first, with the evidence of the first citation", async (ctx) => {
+    if (!seeded) return ctx.skip();
+    const client = (await getClient(member, DEMO))!;
+    const cit = (await getCitations(member, client))!;
+    const cited = cit.rows.find((r) => r.cited)!;
+    const days = await getQueryHistory(member, DEMO, cited.query, cit);
+    expect(days).toHaveLength(cit.day);
+    expect(days[0].day > days[1].day).toBe(true);
+    const first = days.find((d) => d.day === cited.firstSeen!.slice(0, 10))!;
+    expect(first.surfaces.ai_overview.state).toBe("cited");
+    expect(first.surfaces.ai_overview.snapshotPath).toBeTruthy();
+    expect(days.filter((d) => d.day < first.day).every((d) => d.state !== "cited")).toBe(true); // nothing cited before the first citation
   });
 
   it("lands the overall mobile INP p75 near the prototype's 214 ms", async (ctx) => {

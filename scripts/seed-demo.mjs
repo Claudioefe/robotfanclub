@@ -153,7 +153,8 @@ async function main() {
   must("clear checks", await sb.from("aio_checks").delete().eq("client_id", DEMO_CLIENT_ID));
 
   const slug = (q) => q.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 80);
-  const modeRnd = mulberry32(77); // separate RNG so the AI Overview numbers stay identical to the prototype
+  // Separate RNG for the day-by-day history, so the numbers that match the prototype (who is cited, who else, positions) stay identical.
+  const histRnd = mulberry32(2026);
   const checks = [];
   const snapshots = [];
   const push = (r, surface, day, cited, others) => {
@@ -170,28 +171,47 @@ async function main() {
       other_domains: others, snapshot_path: path,
     });
   };
+  const noAnswer = (r, surface, day) =>
+    checks.push({ client_id: DEMO_CLIENT_ID, query: r.q, surface, checked_on: isoDay(day), checked_at: `${isoDay(day)}T14:00:00Z`, aio_present: false, cited: false });
+
+  // One check per query, surface and day, like the daily watcher: Google's AI answers come and go from one day to the next
+  // (the real pilot changed state in 12 of 30 checks in a single day, D-046), so the history alternates on purpose.
+  //  - A query the demo marks as cited is first cited on its firstDay (AI Overview), and from then on is cited on about 70% of the
+  //    days an AI answer shows up. AI Mode is cited only after that day, on about 40%: the first citation, and with it the
+  //    "outside the top 10" judgement, always belongs to AI Overview, so the 13 citations and the 6 outside the top 10 hold.
+  //  - A query the demo marks as having no AI answer shows one on about 8% of the days, and is never cited.
   for (const r of rows) {
-    // AI Overview: latest check for every query, plus the first time it was seen cited.
-    if (r.aio) {
-      push(r, "ai_overview", DAY, r.cited, r.others);
-      if (r.cited) push(r, "ai_overview", r.firstDay, true, r.others);
-    } else {
-      checks.push({ client_id: DEMO_CLIENT_ID, query: r.q, surface: "ai_overview", checked_on: isoDay(DAY),
-        checked_at: `${isoDay(DAY)}T14:00:00Z`, aio_present: false, cited: false });
+    for (let day = 1; day <= DAY; day++) {
+      const aioShows = r.aio ? day === r.firstDay || histRnd() < 0.9 : histRnd() < 0.08;
+      if (!aioShows) noAnswer(r, "ai_overview", day);
+      else {
+        const cited = r.cited && day >= r.firstDay && (day === r.firstDay || histRnd() < 0.7);
+        push(r, "ai_overview", day, cited, r.others.length ? r.others : [COMPETITORS[0]]);
+      }
+      if (r.aio) {
+        // AI Mode answers where an AI answer exists for this query.
+        const modeShows = histRnd() < 0.9;
+        if (!modeShows) noAnswer(r, "ai_mode", day);
+        else push(r, "ai_mode", day, r.cited && day > r.firstDay && histRnd() < 0.4, r.others);
+      }
     }
-    // AI Mode: only where an AI answer exists; cited only where AI Overview cited too, so the count stays at 13.
-    if (r.aio) push(r, "ai_mode", DAY, r.cited && modeRnd() < 0.6, r.others);
   }
-  for (const sn of snapshots) {
-    must("snapshot", await sb.storage.from("snapshots").upload(sn.path, JSON.stringify(sn.body), { contentType: "application/json", upsert: true }));
-  }
-  must("aio_checks", await sb.from("aio_checks").insert(checks));
+  // Snapshots are tiny and independent: upload a few at a time.
+  const queue = [...snapshots];
+  await Promise.all(
+    Array.from({ length: 8 }, async () => {
+      for (let sn = queue.shift(); sn; sn = queue.shift()) {
+        must("snapshot", await sb.storage.from("snapshots").upload(sn.path, JSON.stringify(sn.body), { contentType: "application/json", upsert: true }));
+      }
+    }),
+  );
+  for (let i = 0; i < checks.length; i += 500) must("aio_checks", await sb.from("aio_checks").insert(checks.slice(i, i + 500)));
 
   await seedSpeed(sb, must);
   await seedSandbox(sb, must);
 
   const cited = rows.filter((r) => r.cited);
-  console.log(`Demo ready: ${rows.length} queries, ${cited.length} citations, day ${DAY} of ${WINDOW}, speed events and scripts loaded.`);
+  console.log(`Demo ready: ${rows.length} queries, ${cited.length} citations, day ${DAY} of ${WINDOW}, ${checks.length} daily checks, speed events and scripts loaded.`);
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {

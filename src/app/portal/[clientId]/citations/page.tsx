@@ -1,9 +1,11 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { CitationsChart } from "@/components/citations/CitationsChart";
+import { Strip, StripLegend } from "@/components/citations/Strip";
 import { ShareCard } from "@/components/ShareCard";
-import { Badge, Dim, PageHeader, TableWrap, Td, Th } from "@/components/ui";
+import { Badge, Dim, Eyebrow, PageHeader, Panel, TableWrap, Td, Th } from "@/components/ui";
 import { fmtDate, fmtPct } from "@/lib/format";
-import { SURFACES, SURFACE_LABEL, getCitations, getClient, type QueryRow, type Surface } from "@/lib/portal/data";
+import { SURFACES, SURFACE_LABEL, getCitations, getClient, getHistory, type DayState, type QueryRow, type Surface } from "@/lib/portal/data";
 import { citationRate } from "@/lib/sla";
 
 const FILTERS = [
@@ -37,6 +39,10 @@ export default async function Citations({ params, searchParams }: PageProps<"/po
     );
   }
 
+  const history = await getHistory(client, cit);
+  const historyBy = new Map(history.queries.map((h) => [h.query, h]));
+  const daysOf = (states: DayState[]) => ({ cited: states.filter((x) => x === "cited").length, withAi: states.filter((x) => x === "cited" || x === "gap").length });
+
   const surfaceList = surface === "all" ? SURFACES : [surface];
   const aiPresent = (r: QueryRow) => surfaceList.some((s) => r.surfaces[s].aiPresent);
   const citedHere = (r: QueryRow) => (surface === "all" ? r.cited : r.surfaces[surface].cited);
@@ -61,12 +67,25 @@ export default async function Citations({ params, searchParams }: PageProps<"/po
   };
 
   return (
-    <>
+    // data-wide: the portal layout lets this page use the full width of the screen (the table needs it).
+    <div data-wide>
       <PageHeader
         eyebrow="AIO Pro"
         title="AI citations"
         sub={`${cit.rows.length} frozen queries, checked daily in Google AI Overviews and AI Mode (US). Window: ${fmtDate(cit.frozenFrom)} to ${fmtDate(cit.frozenUntil)}.`}
       />
+
+      <Panel className="mt-6">
+        <Eyebrow>Citations over the window</Eyebrow>
+        <div className="mt-3">
+          <CitationsChart daily={history.daily} />
+        </div>
+        <p className="mt-3 max-w-[90ch] text-[13.5px] text-muted">
+          The line is the number the SLA counts: a query counts once it has been cited at least once in the window, and seeing it again does not add to it, so
+          the line never goes down. The bars show how many queries were cited on each single day. That number goes up and down, because Google’s AI answers
+          change from one day to the next, and it is normal.
+        </p>
+      </Panel>
 
       <div role="group" aria-label="Filter queries" className="mb-2 mt-6 flex flex-wrap gap-1.5">
         {FILTERS.map((f) => (
@@ -83,17 +102,18 @@ export default async function Citations({ params, searchParams }: PageProps<"/po
         ))}
       </div>
 
-      <TableWrap minWidth={980}>
+      <div className="mb-2.5">
+        <StripLegend />
+      </div>
+      <TableWrap minWidth={1180}>
         <thead>
           <tr>
             <Th>Query</Th>
-            <Th>AI answer</Th>
             <Th>{client.name} cited</Th>
-            <Th>Surfaces</Th>
+            <Th>Day by day (latest on the right)</Th>
+            <Th>Days cited · rate</Th>
             <Th>Organic rank</Th>
-            <Th>Citation rate</Th>
             <Th>Other sources</Th>
-            <Th>First seen</Th>
             <Th>Evidence</Th>
             <Th>
               <Dim>Card</Dim>
@@ -106,10 +126,17 @@ export default async function Citations({ params, searchParams }: PageProps<"/po
               const here = citedHere(r);
               const ai = aiPresent(r);
               const rate = rateOf(r);
+              const h = historyBy.get(r.query);
+              const shown = h ? (surface === "all" ? h.combined : h.surfaces[surface]) : [];
+              const counts = daysOf(shown);
+              const perSurface = h ? SURFACES.map((s) => `${SURFACE_LABEL[s]}: cited ${daysOf(h.surfaces[s]).cited} of ${daysOf(h.surfaces[s]).withAi} days with an AI answer`).join(". ") : "";
               return (
                 <tr key={r.query}>
-                  <Td className="min-w-[220px] font-medium">{r.query}</Td>
-                  <Td>{ai ? "Yes" : <Dim>No</Dim>}</Td>
+                  <Td className="min-w-[220px] font-medium">
+                    <Link href={`/portal/${client.id}/citations/query?q=${encodeURIComponent(r.query)}`} className="text-ink underline decoration-line underline-offset-4 hover:decoration-accent">
+                      {r.query}
+                    </Link>
+                  </Td>
                   <Td>
                     {here ? (
                       r.offTop10 ? <Badge kind="off">Outside top 10</Badge> : <Badge kind="top">Top 10 page</Badge>
@@ -118,14 +145,15 @@ export default async function Citations({ params, searchParams }: PageProps<"/po
                     ) : (
                       <Dim>No AI answer</Dim>
                     )}
+                    {r.firstSeen && <p className="mt-1 whitespace-nowrap text-[12.5px] text-muted">first seen {fmtDate(r.firstSeen)}</p>}
                   </Td>
+                  <Td>{h ? <Strip days={history.days} surfaces={h.surfaces} summary={perSurface} /> : <Dim>—</Dim>}</Td>
                   <Td className="whitespace-nowrap">
-                    {SURFACES.filter((s) => r.surfaces[s].cited).map((s) => SURFACE_LABEL[s]).join(", ") || <Dim>None</Dim>}
+                    {counts.withAi ? <>{counts.cited} of {counts.withAi} days</> : <Dim>No AI answer yet</Dim>}
+                    <p className="mt-0.5 text-[12.5px] text-muted">{rate === null ? "no rate yet" : `${fmtPct(rate)} citation rate`}</p>
                   </Td>
                   <Td>{r.cited ? (r.organicRank ?? <Dim>Not in top 10</Dim>) : <Dim>—</Dim>}</Td>
-                  <Td>{rate === null ? <Dim>—</Dim> : fmtPct(rate)}</Td>
                   <Td>{r.otherDomains.length ? r.otherDomains.join(", ") : <Dim>None</Dim>}</Td>
-                  <Td>{r.firstSeen ? fmtDate(r.firstSeen) : ""}</Td>
                   <Td>
                     {/* Evidence of the latest check on each surface, also when we were NOT cited: that is what proves a gap. */}
                     <div className="flex flex-col gap-0.5">
@@ -171,9 +199,10 @@ export default async function Citations({ params, searchParams }: PageProps<"/po
       </TableWrap>
       <p className="mt-3.5 max-w-[70ch] text-[13.5px] text-muted">
         How a citation counts: one frozen query where a {client.name} page appears among the AI answer’s sources at least once during the
-        60-day window, on AI Overview or AI Mode. Seeing the same query again does not add to the count. Organic rank is recorded only
-        for cited queries.
+        60-day window, on AI Overview or AI Mode. Seeing the same query again does not add to the count. “Days cited: N of M” counts the days
+        on which that query had an AI answer; days with no AI answer are not a lost citation and are left out of M. Organic rank is recorded only
+        for cited queries. Click a query to see it day by day.
       </p>
-    </>
+    </div>
   );
 }

@@ -1,0 +1,249 @@
+{
+  "cost": 0.004,
+  "result": {
+    "keyword": "which wizard of oz books are considered the best?",
+    "type": "ai_mode",
+    "se_domain": "google.com",
+    "location_code": 2840,
+    "language_code": "en",
+    "check_url": "https://www.google.com/search?q=which%20wizard%20of%20oz%20books%20are%20considered%20the%20best%3F&hl=en&gl=US&udm=50&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+    "datetime": "2026-11-20 11:56:37 +00:00",
+    "spell": null,
+    "refinement_chips": null,
+    "item_types": [
+      "ai_overview"
+    ],
+    "se_results_count": 0,
+    "items_count": 1,
+    "items": [
+      {
+        "type": "ai_overview",
+        "rank_group": 1,
+        "rank_absolute": 1,
+        "page": 1,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[4]/div[3]/div[1]/div[13]/div[1]/div[2]/section[1]/div[1]/div[1]/div[4]/div[5]/div[1]/div[1]/div[1]/div[3]",
+        "markdown": "L. Frank Baum wrote 14 canonical Oz books , and fan consensus—along with literary recommendations—generally singles out a few standout entries as the absolute best.[[1]](https://www.reddit.com/r/wizardofoz/comments/wsna7q/best_oz_books/)\n\n### The Top-Tier Oz Books (Fan & Critical Consensus)\n\n\n\n---\n\n![](https://api.dataforseo.com/cdn/i/11201156-2831-0139-0000-e5d7432248f3:32)\n**The Wonderful Wizard of Oz (Book 1, 1900)** \n\n- **Why it’s a classic:** Where it all starts. It is tighter, darker, and slightly more grounded than the famous 1939 movie, laying the whimsical foundation for the entire mythology.[[1]](https://www.reddit.com/r/wizardofoz/comments/zwsk57/where_to_start_with_the_books/)\n\n\n\n---\n\n![](https://api.dataforseo.com/cdn/i/11201156-2831-0139-0000-e5d7432248f3:33)\n**Ozma of Oz (Book 3, 1907)** \n\n- **Why it’s a fan favorite:** Widely considered by readers to be Baum's best sequel. It introduces Tik-Tok, the Nome King, and Princess Ozma, shifting the tone into a richly inventive, high-stakes fairy tale set outside the Emerald City (mostly on a beach and in underground caves).[[1]](https://www.reddit.com/r/wizardofoz/comments/wsna7q/best_oz_books/)\n\n\n\n---\n\n![](https://api.dataforseo.com/cdn/i/11201156-2831-0139-0000-e5d7432248f3:34)\n**The Marvelous Land of Oz (Book 2, 1904)** \n\n- **Why it’s a standout:** Introduces beloved mainstays like **Tip**, **Jack Pumpkinhead** , and the **Gump** , focusing on a palace coup and identity mystery that expands the political and magical landscape of Oz.[[1]](https://www.reddit.com/r/wizardofoz/comments/wsna7q/best_oz_books/)\n\n\n\n---\n\n![](https://api.dataforseo.com/cdn/i/11201156-2831-0139-0000-e5d7432248f3:35)\n**The Emerald City of Oz (Book 6, 1910)** \n\n- **Why it’s a favorite:** Baum actually intended this to be the final Oz book (before fan mail forced him to continue), and it shows: it brings Dorothy and her aunt and uncle to live in Oz permanently and features a massive, thrilling invasion of the Emerald City.[[1]](https://www.reddit.com/r/wizardofoz/comments/wsna7q/best_oz_books/)\n\n\n\n---\n\n![](https://api.dataforseo.com/cdn/i/11201156-2831-0139-0000-e5d7432248f3:36)\n**Rinkitink in Oz (Book 10, 1916)** \n\n- **Why readers love it:** Though Dorothy and the Wizard take a backseat until later in the story, readers on platforms like [Reddit](https://www.reddit.com/r/wizardofoz/comments/wsna7q/best_oz_books/) frequently highlight it as one of the most charming, distinct standalone adventure tales in the canon.[[1]](https://www.reddit.com/r/wizardofoz/comments/wsna7q/best_oz_books/)\n\n### Other Fan-Favorite Later Books\n\nIf you get through the core early titles, enthusiasts also frequently praise:\n\n\n\n---\n\n![](https://api.dataforseo.com/cdn/i/11201156-2831-0139-0000-e5d7432248f3:37)\n**The Patchwork Girl of Oz (Book 7, 1913):** Celebrated for Scraps, one of the sassiest and funniest characters in the series.\n\n---\n\n![](https://api.dataforseo.com/cdn/i/11201156-2831-0139-0000-e5d7432248f3:38)\n**The Tin Woodman of Oz (Book 12, 1918):** A sweet, quirky quest that dives deep into Nick Chopper’s backstory before he became tin.\n\n---\n\n![](https://api.dataforseo.com/cdn/i/11201156-2831-0139-0000-e5d7432248f3:39)\n**Glinda of Oz (Book 14, 1920):** Baum’s final book, which carries a slightly more dramatic and epic \"grand finale\" feel.\n\nYou can check out recommended reading guides and historical breakdowns on resources like the Chicago Public Library Oz Books Guide or tracking portals like The Wonderful Wizard of Oz Info Wiki.[[1]](https://www.reddit.com/r/wizardofoz/comments/zwsk57/where_to_start_with_the_books/)\n\nAre you looking to **start reading the series from the very beginning** , or are you trying to **pick a great standalone sequel** to dive into right away?",
+        "items": [
+          {
+            "type": "ai_overview_element",
+            "position": "left",
+            "title": null,
+            "text": "L. Frank Baum wrote 14 canonical Oz books, and fan consensus—along with literary recommendations—generally singles out a few standout entries as the absolute best.",
+            "markdown": "L. Frank Baum wrote 14 canonical Oz books , and fan consensus—along with literary recommendations—generally singles out a few standout entries as the absolute best.[[1]](https://www.reddit.com/r/wizardofoz/comments/wsna7q/best_oz_books/)",
+            "links": null,
+            "images": null,
+            "references": [
+              {
+                "type": "ai_overview_reference",
+                "position": "left",
+                "source": "Reddit",
+                "domain": "www.reddit.com",
+                "url": "https://www.reddit.com/r/wizardofoz/comments/wsna7q/best_oz_books/",
+                "title": "Best Oz Books? : r/wizardofoz - Reddit",
+                "text": "Highly recommended books in the Oz series include *The Marvelous Land of Oz*, *Ozma of Oz*, *Rinkitink in Oz*, and *The Lost Princess of Oz*."
+              }
+            ]
+          },
+          {
+            "type": "ai_overview_element",
+            "position": "left",
+            "title": "The Top-Tier Oz Books (Fan & Critical Consensus)",
+            "text": "The Wonderful Wizard of Oz (Book 1, 1900)Why it’s a classic: Where it all starts. It is tighter, darker, and slightly more grounded than the famous 1939 movie, laying the whimsical foundation for the entire mythology.",
+            "markdown": "---\n\n![](https://api.dataforseo.com/cdn/i/11201156-2831-0139-0000-e5d7432248f3:16)\n**The Wonderful Wizard of Oz (Book 1, 1900)** \n\n- **Why it’s a classic:** Where it all starts. It is tighter, darker, and slightly more grounded than the famous 1939 movie, laying the whimsical foundation for the entire mythology.[[1]](https://www.reddit.com/r/wizardofoz/comments/zwsk57/where_to_start_with_the_books/)",
+            "links": null,
+            "images": [
+              {
+                "type": "images_element",
+                "alt": null,
+                "url": null,
+                "image_url": "https://api.dataforseo.com/cdn/i/11201156-2831-0139-0000-e5d7432248f3:17"
+              }
+            ],
+            "references": null
+          },
+          {
+            "type": "ai_overview_element",
+            "position": "left",
+            "title": null,
+            "text": "Ozma of Oz (Book 3, 1907)Why it’s a fan favorite: Widely considered by readers to be Baum's best sequel. It introduces Tik-Tok, the Nome King, and Princess Ozma, shifting the tone into a richly inventive, high-stakes fairy tale set outside the Emerald City (mostly on a beach and in underground caves).",
+            "markdown": "---\n\n![](https://api.dataforseo.com/cdn/i/11201156-2831-0139-0000-e5d7432248f3:18)\n**Ozma of Oz (Book 3, 1907)** \n\n- **Why it’s a fan favorite:** Widely considered by readers to be Baum's best sequel. It introduces Tik-Tok, the Nome King, and Princess Ozma, shifting the tone into a richly inventive, high-stakes fairy tale set outside the Emerald City (mostly on a beach and in underground caves).[[1]](https://www.reddit.com/r/wizardofoz/comments/wsna7q/best_oz_books/)",
+            "links": null,
+            "images": [
+              {
+                "type": "images_element",
+                "alt": null,
+                "url": null,
+                "image_url": "https://api.dataforseo.com/cdn/i/11201156-2831-0139-0000-e5d7432248f3:19"
+              }
+            ],
+            "references": null
+          },
+          {
+            "type": "ai_overview_element",
+            "position": "left",
+            "title": null,
+            "text": "The Marvelous Land of Oz (Book 2, 1904)Why it’s a standout: Introduces beloved mainstays like Tip, Jack Pumpkinhead, and the Gump, focusing on a palace coup and identity mystery that expands the political and magical landscape of Oz.",
+            "markdown": "---\n\n![](https://api.dataforseo.com/cdn/i/11201156-2831-0139-0000-e5d7432248f3:20)\n**The Marvelous Land of Oz (Book 2, 1904)** \n\n- **Why it’s a standout:** Introduces beloved mainstays like **Tip**, **Jack Pumpkinhead** , and the **Gump** , focusing on a palace coup and identity mystery that expands the political and magical landscape of Oz.[[1]](https://www.reddit.com/r/wizardofoz/comments/wsna7q/best_oz_books/)",
+            "links": null,
+            "images": [
+              {
+                "type": "images_element",
+                "alt": null,
+                "url": null,
+                "image_url": "https://api.dataforseo.com/cdn/i/11201156-2831-0139-0000-e5d7432248f3:21"
+              }
+            ],
+            "references": null
+          },
+          {
+            "type": "ai_overview_element",
+            "position": "left",
+            "title": null,
+            "text": "The Emerald City of Oz (Book 6, 1910)Why it’s a favorite: Baum actually intended this to be the final Oz book (before fan mail forced him to continue), and it shows: it brings Dorothy and her aunt and uncle to live in Oz permanently and features a massive, thrilling invasion of the Emerald City.",
+            "markdown": "---\n\n![](https://api.dataforseo.com/cdn/i/11201156-2831-0139-0000-e5d7432248f3:22)\n**The Emerald City of Oz (Book 6, 1910)** \n\n- **Why it’s a favorite:** Baum actually intended this to be the final Oz book (before fan mail forced him to continue), and it shows: it brings Dorothy and her aunt and uncle to live in Oz permanently and features a massive, thrilling invasion of the Emerald City.[[1]](https://www.reddit.com/r/wizardofoz/comments/wsna7q/best_oz_books/)",
+            "links": null,
+            "images": [
+              {
+                "type": "images_element",
+                "alt": null,
+                "url": null,
+                "image_url": "https://api.dataforseo.com/cdn/i/11201156-2831-0139-0000-e5d7432248f3:23"
+              }
+            ],
+            "references": null
+          },
+          {
+            "type": "ai_overview_element",
+            "position": "left",
+            "title": null,
+            "text": "Rinkitink in Oz (Book 10, 1916)Why readers love it: Though Dorothy and the Wizard take a backseat until later in the story, readers on platforms like Reddit frequently highlight it as one of the most charming, distinct standalone adventure tales in the canon.",
+            "markdown": "---\n\n![](https://api.dataforseo.com/cdn/i/11201156-2831-0139-0000-e5d7432248f3:24)\n**Rinkitink in Oz (Book 10, 1916)** \n\n- **Why readers love it:** Though Dorothy and the Wizard take a backseat until later in the story, readers on platforms like [Reddit](https://www.reddit.com/r/wizardofoz/comments/wsna7q/best_oz_books/) frequently highlight it as one of the most charming, distinct standalone adventure tales in the canon.[[1]](https://www.reddit.com/r/wizardofoz/comments/wsna7q/best_oz_books/)",
+            "links": null,
+            "images": [
+              {
+                "type": "images_element",
+                "alt": null,
+                "url": null,
+                "image_url": "https://api.dataforseo.com/cdn/i/11201156-2831-0139-0000-e5d7432248f3:25"
+              }
+            ],
+            "references": null
+          },
+          {
+            "type": "ai_overview_element",
+            "position": "left",
+            "title": "Other Fan-Favorite Later Books",
+            "text": "If you get through the core early titles, enthusiasts also frequently praise:",
+            "markdown": "If you get through the core early titles, enthusiasts also frequently praise:",
+            "links": null,
+            "images": null,
+            "references": null
+          },
+          {
+            "type": "ai_overview_element",
+            "position": "left",
+            "title": null,
+            "text": "The Patchwork Girl of Oz (Book 7, 1913): Celebrated for Scraps, one of the sassiest and funniest characters in the series.",
+            "markdown": "---\n\n![](https://api.dataforseo.com/cdn/i/11201156-2831-0139-0000-e5d7432248f3:26)\n**The Patchwork Girl of Oz (Book 7, 1913):** Celebrated for Scraps, one of the sassiest and funniest characters in the series.",
+            "links": null,
+            "images": [
+              {
+                "type": "images_element",
+                "alt": null,
+                "url": null,
+                "image_url": "https://api.dataforseo.com/cdn/i/11201156-2831-0139-0000-e5d7432248f3:27"
+              }
+            ],
+            "references": null
+          },
+          {
+            "type": "ai_overview_element",
+            "position": "left",
+            "title": null,
+            "text": "The Tin Woodman of Oz (Book 12, 1918): A sweet, quirky quest that dives deep into Nick Chopper’s backstory before he became tin.",
+            "markdown": "---\n\n![](https://api.dataforseo.com/cdn/i/11201156-2831-0139-0000-e5d7432248f3:28)\n**The Tin Woodman of Oz (Book 12, 1918):** A sweet, quirky quest that dives deep into Nick Chopper’s backstory before he became tin.",
+            "links": null,
+            "images": [
+              {
+                "type": "images_element",
+                "alt": null,
+                "url": null,
+                "image_url": "https://api.dataforseo.com/cdn/i/11201156-2831-0139-0000-e5d7432248f3:29"
+              }
+            ],
+            "references": null
+          },
+          {
+            "type": "ai_overview_element",
+            "position": "left",
+            "title": null,
+            "text": "Glinda of Oz (Book 14, 1920): Baum’s final book, which carries a slightly more dramatic and epic \"grand finale\" feel.",
+            "markdown": "---\n\n![](https://api.dataforseo.com/cdn/i/11201156-2831-0139-0000-e5d7432248f3:30)\n**Glinda of Oz (Book 14, 1920):** Baum’s final book, which carries a slightly more dramatic and epic \"grand finale\" feel.",
+            "links": null,
+            "images": [
+              {
+                "type": "images_element",
+                "alt": null,
+                "url": null,
+                "image_url": "https://api.dataforseo.com/cdn/i/11201156-2831-0139-0000-e5d7432248f3:31"
+              }
+            ],
+            "references": null
+          },
+          {
+            "type": "ai_overview_element",
+            "position": "left",
+            "title": null,
+            "text": "You can check out recommended reading guides and historical breakdowns on resources like the Chicago Public Library Oz Books Guide or tracking portals like The Wonderful Wizard of Oz Info Wiki.",
+            "markdown": "You can check out recommended reading guides and historical breakdowns on resources like the Chicago Public Library Oz Books Guide or tracking portals like The Wonderful Wizard of Oz Info Wiki.[[1]](https://www.reddit.com/r/wizardofoz/comments/zwsk57/where_to_start_with_the_books/)",
+            "links": null,
+            "images": null,
+            "references": [
+              {
+                "type": "ai_overview_reference",
+                "position": "left",
+                "source": "Reddit",
+                "domain": "www.reddit.com",
+                "url": "https://www.reddit.com/r/wizardofoz/comments/zwsk57/where_to_start_with_the_books/",
+                "title": "Where to start with the books? : r/wizardofoz - Reddit",
+                "text": "It is recommended to start with the original L. Frank Baum books, beginning with 'The Wizard of Oz,' Resources for recommended reading orders are available at http..."
+              }
+            ]
+          },
+          {
+            "type": "ai_overview_element",
+            "position": "left",
+            "title": null,
+            "text": "Are you looking to start reading the series from the very beginning, or are you trying to pick a great standalone sequel to dive into right away?",
+            "markdown": "Are you looking to **start reading the series from the very beginning** , or are you trying to **pick a great standalone sequel** to dive into right away?",
+            "links": null,
+            "images": null,
+            "references": null
+          }
+        ],
+        "references": [
+          {
+            "type": "ai_overview_reference",
+            "position": "right",
+            "source": "Reddit",
+            "domain": "www.reddit.com",
+            "url": "https://www.reddit.com/r/wizardofoz/comments/zwsk57/where_to_start_with_the_books/",
+            "title": "Where to start with the books? : r/wizardofoz - Reddit",
+            "text": "It is recommended to start with the original L. Frank Baum books, beginning with 'The Wizard of Oz,' Resources for recommended reading orders are available at http..."
+          },
+          {
+            "type": "ai_overview_reference",
+            "position": "right",
+            "source": "Reddit",
+            "domain": "www.reddit.com",
+            "url": "https://www.reddit.com/r/wizardofoz/comments/wsna7q/best_oz_books/",
+            "title": "Best Oz Books? : r/wizardofoz - Reddit",
+            "text": "Highly recommended books in the Oz series include *The Marvelous Land of Oz*, *Ozma of Oz*, *Rinkitink in Oz*, and *The Lost Princess of Oz*."
+          }
+        ],
+        "rectangle": null
+      }
+    ]
+  }
+}
