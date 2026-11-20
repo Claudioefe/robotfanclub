@@ -7,6 +7,8 @@ Routes under `/portal`. What each user sees is decided by RLS: a client sees onl
 | `/portal/[clientId]` | **Overview:** running citation count, straight-line projection to day 60, the ruler (floor 12, target 18, bonus 25), SLA status with clawback risk, off-top10 share against 30%, **citation rate**, an INP summary and the 3 newest Citation Cards |
 | `/citations` | **Chart** of cumulative citations and citations per day against floor/target/bonus; table of the frozen queries with a **day strip** per surface, "days cited N of M", citation rate, organic rank and evidence links; filters (all, cited, off-top10, AI answer without the client) and surface; Slack card button. Uses the full screen width (D-047) |
 | `/citations/query?q=…` | **One query day by day** (D-047): what each surface showed, who else was cited, link to the raw JSON of every check |
+| `/chatgpt` | **Informational, outside the SLA** (D-048): ChatGPT runs per query (one cell per run), "N of M runs", cited vs. only consulted, Google's reading next to it and who ChatGPT cites instead. Uses the full width |
+| `/chatgpt/query?q=…` | One query run by run, with a link to the raw JSON |
 | `/speed` | Headline mobile INP p75, by template, 28-day trend, CrUX windows and Tag Bouncer (simulator) |
 | `/setup` | Measurement snippet with the `client_id` already filled in |
 

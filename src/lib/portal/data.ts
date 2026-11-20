@@ -5,7 +5,7 @@ import * as core from "@/lib/data/read";
 // The portal reads as the signed-in user, so RLS decides what comes back. The queries themselves live in the data core
 // (src/lib/data/read.ts), shared with the MCP server; these wrappers only supply the user's database client.
 export { SURFACES, SURFACE_LABEL, UUID } from "@/lib/data/read";
-export type { AiVisibilityData, CardData, CitationsData, ClientRow, CruxData, CruxPoint, DayDetail, DayPoint, DayState, HistoryData, QueryHistory, QueryRow, SpeedData, Surface, SurfaceDay, SurfaceState, TagScript } from "@/lib/data/read";
+export type { AiVisibilityData, CardData, CitationsData, ClientRow, CruxData, CruxPoint, DayDetail, DayPoint, DayState, HistoryData, LlmData, LlmQueryRow, LlmRelation, LlmRunRow, QueryHistory, QueryRow, SpeedData, Surface, SurfaceDay, SurfaceState, TagScript } from "@/lib/data/read";
 type ClientRow = core.ClientRow;
 
 export async function currentUser() {
@@ -34,6 +34,9 @@ export async function getHistory(client: ClientRow, window: Parameters<typeof co
 }
 export async function getQueryHistory(client: ClientRow, query: string, window: Parameters<typeof core.getQueryHistory>[3]) {
   return core.getQueryHistory(await createClient(), client.id, query, window);
+}
+export async function getLlmRuns(client: ClientRow, frozenQueries: string[]) {
+  return core.getLlmRuns(await createClient(), client.id, frozenQueries);
 }
 export async function getSpeed(client: ClientRow) {
   return core.getSpeed(await createClient(), client);

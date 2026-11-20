@@ -1,5 +1,6 @@
 import type { SupabaseClient } from "@supabase/supabase-js";
 import { queryIdeas, type MentionView, type Platform, type QueryIdea, type RunView } from "../ai-visibility.ts";
+import { buildLlmView, type LlmData, type LlmRunRow } from "./llm.ts";
 import { buildHistory, checkState, combine, daysBetween, type CheckRow, type DayState, type HistoryData } from "./history.ts";
 import { todayUtc, windowDay, windowEnd } from "../sla.ts";
 
@@ -276,6 +277,45 @@ export async function getQueryHistory(sb: SupabaseClient, clientId: string, quer
   return [...days.entries()]
     .map(([day, surfaces]) => ({ day, state: combine(SURFACES.map((s) => surfaces[s].state)), surfaces }))
     .sort((a, b) => b.day.localeCompare(a.day));
+}
+
+// ChatGPT runs (D-048) ---------------------------------------------------------
+
+export type { LlmData, LlmQueryRow, LlmRelation, LlmRunRow } from "./llm.ts";
+
+/** Every stored ChatGPT run of the client, shaped for the ChatGPT page. Null when the table does not exist yet (migration pending). */
+export async function getLlmRuns(sb: SupabaseClient, clientId: string, frozenQueries: string[]): Promise<LlmData | null> {
+  const runs: LlmRunRow[] = [];
+  for (let page = 0; page < HISTORY_MAX_PAGES; page++) {
+    const { data, error } = await sb
+      .from("llm_runs")
+      .select("query, run_at, run_on, relation, source_count, client_source_rank, client_url, other_domains, consulted_count, snapshot_path")
+      .eq("client_id", clientId)
+      .eq("platform", "chat_gpt")
+      .order("run_at", { ascending: true })
+      .order("id", { ascending: true })
+      .range(page * HISTORY_PAGE, (page + 1) * HISTORY_PAGE - 1);
+    if (error) {
+      if (error.code === "PGRST205" || error.code === "42P01") return null; // table not there yet
+      throw new Error(`llm runs: ${error.message}`);
+    }
+    for (const r of data) {
+      runs.push({
+        query: r.query as string,
+        runAt: r.run_at as string,
+        runOn: r.run_on as string,
+        relation: r.relation as LlmRunRow["relation"],
+        sourceCount: Number(r.source_count),
+        clientSourceRank: (r.client_source_rank as number | null) ?? null,
+        clientUrl: (r.client_url as string | null) ?? null,
+        otherDomains: ((r.other_domains as string[] | null) ?? []).slice(),
+        consultedCount: Number(r.consulted_count),
+        snapshotPath: r.snapshot_path as string,
+      });
+    }
+    if (data.length < HISTORY_PAGE) break;
+  }
+  return buildLlmView(runs, frozenQueries);
 }
 
 // Speed ---------------------------------------------------------------------

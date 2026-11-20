@@ -7,6 +7,8 @@ Rutas bajo `/portal`. Lo que ve cada usuario lo decide RLS: un cliente ve solo s
 | `/portal/[clientId]` | **Overview:** citas acumuladas, proyección lineal al día 60, regla (piso 12, objetivo 18, bonus 25), estado del SLA con riesgo de clawback, % off-top10 contra 30%, **tasa de cita**, resumen de INP y las 3 últimas Citation Cards |
 | `/citations` | **Gráfico** de citas acumuladas y de citas por día contra piso/objetivo/bonus; tabla de las queries congeladas con una **tira de días** por superficie, "días citados N de M", tasa de cita, rank orgánico y enlaces a la evidencia; filtros (todas, citadas, off-top10, respuesta de IA sin el cliente) y superficie; botón de card para Slack. Usa todo el ancho de la pantalla (D-047) |
 | `/citations/query?q=…` | **Una query día por día** (D-047): qué mostró cada superficie, quién más fue citado, enlace al JSON crudo de cada chequeo |
+| `/chatgpt` | **Informativa, fuera del SLA** (D-048): corridas de ChatGPT por query (una celda por corrida), "N de M corridas", citada vs. solo consultada, la lectura de Google al lado y a quién cita ChatGPT en cambio. Usa todo el ancho |
+| `/chatgpt/query?q=…` | Una query corrida por corrida, con enlace al JSON crudo |
 | `/speed` | INP p75 móvil de cabecera, por plantilla, tendencia de 28 días, ventanas de CrUX y Tag Bouncer (simulador) |
 | `/setup` | Snippet de medición con el `client_id` ya completo |
 
