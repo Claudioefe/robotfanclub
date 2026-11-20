@@ -1,6 +1,8 @@
 # Plan: de SLA congelado a herramienta de medición flexible (D-049)
 
-Estado: **propuesto, sin ejecutar**. Nada de esto se construye hasta el OK del dueño. Hasta entonces el código sigue con las reglas actuales.
+Estado: **plan aprobado, Fase 1 a la espera de OK, sin ejecutar**.
+
+Punto de retorno: tag git `v1-sla-frozen` (commit 8f68cf0), la versión estable antes del giro. Nada de esto se construye hasta el OK del dueño. Hasta entonces el código sigue con las reglas actuales.
 
 ## Qué cambia (decidido en D-049)
 - Se retira el contrato: sin crédito del 20%, sin lista congelada obligatoria, sin ventana fija de 60 días.
@@ -53,7 +55,7 @@ Estado: **propuesto, sin ejecutar**. Nada de esto se construye hasta el OK del d
 - Aplicar cada migración (Fase 1; y una más en la Fase 6 para retirar `query_sets`).
 - Dar OK al pasar de fase y a cualquier llamada real a DataForSEO.
 
-## Decisiones que necesito de ti (con mi propuesta)
+## Decisiones (aprobadas por el dueño el 2026-11-20, tal como se propusieron)
 1. **¿El INP Sprint conserva su SLA?** (INP p75 ≤ 200 ms en dos ventanas de CrUX). Solo hablamos de citas; propongo no tocarlo hasta que lo decidas.
 2. **"X días" para comparar inicio contra hoy:** propongo 14 por defecto (editable).
 3. **Las listas ya cargadas** (piloto y demo): propongo que sigan activas desde su `frozen_from`, sin cortar nada.

@@ -1,6 +1,8 @@
 # Plan: from a frozen SLA to a flexible measurement tool (D-049)
 
-Status: **proposed, not executed**. None of this is built until the owner approves it. Until then the code keeps the current rules.
+Status: **plan approved, Phase 1 awaiting OK, not executed**.
+
+Rollback point: git tag `v1-sla-frozen` (commit 8f68cf0), the stable version before the turn. None of this is built until the owner approves it. Until then the code keeps the current rules.
 
 ## What changes (decided in D-049)
 - The contract is retired: no 20% credit, no mandatory frozen list, no fixed 60-day window.
@@ -53,7 +55,7 @@ Status: **proposed, not executed**. None of this is built until the owner approv
 - Apply each migration (Phase 1; and one more in Phase 6 to retire `query_sets`).
 - Give the OK to move between phases and for any real DataForSEO call.
 
-## Decisions I need from you (with my proposal)
+## Decisions (approved by the owner on 2026-11-20, as proposed)
 1. **Does the INP Sprint keep its SLA?** (INP p75 ≤ 200 ms over two CrUX windows). We only talked about citations; I propose leaving it untouched until you decide.
 2. **"X days" for comparing start vs today:** I propose 14 by default (editable).
 3. **Lists already loaded** (pilot and demo): I propose they stay active from their `frozen_from`, with nothing cut.
