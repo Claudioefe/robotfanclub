@@ -39,6 +39,8 @@ La especificación completa y las fases están en `docs/spec.md`. Leela antes de
 - `.env.example`: variables necesarias.
 
 ## Reglas del producto (no cambiar sin preguntar)
+> **En proceso de cambio (D-049, 2026-11-20):** el dueño decidió retirar el SLA como contrato (sin crédito del 20%, sin lista congelada obligatoria) y convertir el producto en una herramienta de medición flexible, con queries que se agregan y quitan (la historia se conserva) y objetivos solo como motivación. **Todavía no está implementado**: hasta que haya un plan aprobado, el código y las reglas de abajo siguen vigentes. No construyas nada de este giro sin plan y OK.
+
 SLA de citas (oferta AIO Pro):
 - Ventana de 60 días con lista de queries congelada.
 - Una cita = una query congelada en la que una URL del dominio del cliente aparece entre las referencias de la respuesta de IA al menos una vez dentro de la ventana. Verla de nuevo no suma.
