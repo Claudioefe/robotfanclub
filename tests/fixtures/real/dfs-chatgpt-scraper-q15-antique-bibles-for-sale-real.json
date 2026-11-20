@@ -1,0 +1,441 @@
+{
+  "version": "0.1.20261117",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "23.6118 sec.",
+  "cost": 0.004,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "11201408-2831-0629-0000-58cd6ed26621",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "23.2991 sec.",
+      "cost": 0.004,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "chat_gpt",
+        "llm_scraper",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "live",
+        "se": "chat_gpt",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "antique bibles for sale",
+        "force_web_search": true,
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "antique bibles for sale",
+          "location_code": 2840,
+          "language_code": "en",
+          "model": "gpt-6",
+          "check_url": "https://chatgpt.com/?prompt=antique%20bibles%20for%20sale&hints=search",
+          "datetime": "2026-11-20 14:08:41 +00:00",
+          "markdown": "I found several sources offering **genuine antique Bibles**, including King James Bibles from the 1600s, 1700s, and 1800s, as well as older Geneva Bibles.\n\nHere are the best places to start shopping.\n\n## 1\\. Antique Bibles currently listed for sale\n\n![1688 BIBLE in ENGLISH KING JAMES FOLIO antique OLD & NEW TESTAMENT  | eBay](https://images.openai.com/static-rsc-4/HH4yfOciSEPr32NEJW7cibS5ws6z7XBMElImE4ZIQViERO1FoCo9JzVNTy8U2eefybxzvKSKS5Sr0GbrFICaXvLUDXoNDUsJ4w0cstPezJLfuf6U3A8Iepe-Ar-7yjQizGc2sBgAsWPFnDupAA7gg4PkVHaF8-HsIw22WqObaDIIdp90JO0y9hYWdrngTrwN?purpose=fullsize)\n\n**1683 Antique King James Bible**\n\n# \\$3,570\n\nOriginal 17th-century Bible with Geneva notes.\n\nSeller: Motka\n\n[View listing](https://motka.store/products/1683-bible-in-english-antique-original-binding-rare-folio-king-james-version?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=67590221496622&utm_source=chatgpt.com)\n\n---\n\n![1611 Rebound Black Letter Geneva Bible — Antique Bible](https://images.openai.com/static-rsc-4/aQZtLkwAJt4I-6jrcv59VwvCBCHQReBTtqQDqcoG_AI765hkHE_MsPCQZMVFyu_uuipGjxu0WyNXhGviaGJU-_9tslBuzY2Clt_OUcuAHI-uh8R-9CqBoYH2J_N7Q89X7gplrIPLSrPu8pG9KmVZkbgbFWFcAeSWQnBJNq7AM6f94a9q-xgAddYLQnoqcFTB?purpose=fullsize)\n\n**1611 Geneva Bible**\n\n# \\$12,500\n\nHistoric Geneva Bible offered by Moons Rare Books.\n\n[View listing](https://moons-rare-books.myshopify.com/products/geneva-bible-1612?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=57615996387494&utm_source=chatgpt.com)\n\n---\n\n![1678 Red-Ruled King James Bible in Contemporary Binding — Antique Bible](https://images.openai.com/static-rsc-4/xMYPsM_Rc6M6tM4g7YkF4rSCQ-RYEBYPRT4ccHDk6u4Sfo7qApjgz0WJEbcF-WBuvBw8_szfX596a26bgar2lU5tX-xsFjW0d81nZEqNmkXV0aGsTWVgovmPuyKo8imP1jNkyvbw2bLwK1rP-GdKhitMyCEva9_aSL_Skjw0lFEcl10qOObnejC8RfHsE0GP?purpose=fullsize)\n\n**1680 Antique King James Old Testament**\n\n# \\$1,857\n\nOriginal antique volume with metal clasps. Note: Old Testament only.\n\n[View listing](https://motka.store/products/1680-bible-in-english-old-testament-antique-king-james-version-w-metal-clasps?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=49805788152110&utm_source=chatgpt.com)\n\n## 2\\. Antique Bible specialty dealers\n\nThese are particularly worth exploring\\:\n\n- **[AntiqueBible.com](https://www.antiquebible.com/shop/bible?utm_source=chatgpt.com)** – Specializes in rare Bibles, including Geneva and King James editions. Listings include Bibles from the 1500s and 1600s.\n- **[Collectors Weekly](https://www.collectorsweekly.com/books/bibles?utm_source=chatgpt.com)** – Marketplace listings for antique and collectible Bibles at a variety of prices.\n- **[Antique Bible](https://www.antiquebible.com/?utm_source=chatgpt.com)** – Specialist dealer with historical Bible inventory.\n\nOne caution: GreatSite.com, formerly a major antique Bible dealer, announced that it closed in 2026, so its website is now primarily a historical reference.\n\n## 3\\. Let me narrow down your search\n\nI'd like to help you find an antique Bible that matches what you're looking for.\n\n**1\\. What age Bible interests you most?**\n\n1500s–1600s (very rare)\n\n1700s\n\n1800s\n\nEarly 1900s\n\nAny age, if beautiful and authentic\n\n---\n\n**2\\. What is your budget?**\n\nUnder \\$100\n\n\\$100–\\$500\n\n\\$500–\\$1,000\n\n\\$1,000–\\$3,000\n\n\\$3,000+\n\n---\n\n**3\\. Which Bible would you prefer?**\n\nKing James Version\n\nOld Family Bible\n\nCatholic Bible\n\nGeneva Bible\n\nAny translation\n\n---\n\n**4\\. What condition do you prefer?**\n\nOriginal leather binding\n\nWorn, aged antique appearance\n\nRestored and readable\n\nAny condition\n\n[Find my antique Bibles]\n\nI can help find genuine old Bibles rather than modern reproductions or facsimile editions.",
+          "search_results": [
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://greatsite.com/?utm_source=chatgpt.com",
+              "domain": "greatsite.com",
+              "title": "GREATSITE.COM: Antique Bibles, Rare Bibles, Ancient Bible leaves",
+              "description": "WORLD’S LARGEST DEALER OF RARE & ANTIQUE BIBLES  VIEW AVAILABLE ANCIENT BIBLES  RARE & ANTIQUE HOLY BIBLES  GREATSITE.COM was the premiere online showroom of rare and antique Bibles, from its foundin...",
+              "breadcrumb": "greatsite.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://greatsite.com/about-us/?utm_source=chatgpt.com",
+              "domain": "greatsite.com",
+              "title": "The Bible Museum | Greatsite.com",
+              "description": "About Us  GREATSITE.COM  For over three decades the world turned to GREATSITE.COM for rare and antique Bibles and ancient Biblical materials. Since 1996, up through 2026, we have been the world’s lar...",
+              "breadcrumb": "greatsite.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://greatsite.com/antique-rare-valuable-bibles/?utm_source=chatgpt.com",
+              "domain": "greatsite.com",
+              "title": "Antique Bibles vs. Rare Bibles vs. Valuable Bibles",
+              "description": "ANTIQUE BIBLES VS. RARE BIBLES VS. VALUABLE BIBLES  History  Antique Bibles vs. Rare Bible vs. Valuable Bibles: What is the difference?  A Bible can be antique, but not rare. A Bible can be rare, but...",
+              "breadcrumb": "greatsite.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://greatsite.com/antique-bible-buyers-guide/?utm_source=chatgpt.com",
+              "domain": "greatsite.com",
+              "title": "Antique Bible Buyer's Guide - GreatSite.com",
+              "description": "ANTIQUE BIBLE BUYER'S GUIDE: ANCIENT RARE BIBLES & BOOKS  UPDATE: GREATSITE.COM IS PERMANENTLY CLOSED FOR BUSINESS. WE ARE LEAVING THIS \"ANTIQUE BIBLE BUYER'S GUIDE\" WEBPAGE HERE TO PROVIDE HELPFUL G...",
+              "breadcrumb": "greatsite.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.antiquebible.com/shop/bible?utm_source=chatgpt.com",
+              "domain": "www.antiquebible.com",
+              "title": "Bible — Shop Our Bookshelves — Antique Bible",
+              "description": "SHOP OUR BOOKSHELVES  BROWSE OUR INVENTORY OF RARE BIBLES INCLUDING GENEVA BIBLES, KING JAMES BIBLES, BIBLE LEAVES, THEOLOGY, AND MANUSCRIPTS.   NEED HELP SHOPPING? VIEW OUR ANTIQUE BIBLE BUYING GUI...",
+              "breadcrumb": "antiquebible.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.antiquebible.com/shop?utm_source=chatgpt.com",
+              "domain": "www.antiquebible.com",
+              "title": "Shop Our Bookshelves — Antique Bible",
+              "description": "SHOP OUR BOOKSHELVES  BROWSE OUR INVENTORY OF RARE BIBLES INCLUDING GENEVA BIBLES, KING JAMES BIBLES, BIBLE LEAVES, THEOLOGY, AND MANUSCRIPTS.   NEED HELP SHOPPING? VIEW OUR ANTIQUE BIBLE BUYING GUI...",
+              "breadcrumb": "antiquebible.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.antiquebible.com/antique-bible-buying-guide?utm_source=chatgpt.com",
+              "domain": "www.antiquebible.com",
+              "title": "Rare Bible Buying Guide — Antique Bible",
+              "description": "ANTIQUE BIBLE BUYING GUIDE  Interested in purchasing an antique Bible? Whether you're looking for an early King James Bible to serve as a cherished family heirloom, planning to gift a Geneva Bible f...",
+              "breadcrumb": "antiquebible.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.antiquebible.com/?utm_source=chatgpt.com",
+              "domain": "www.antiquebible.com",
+              "title": "Antique Bible - Rare & Antique Bibles from the Protestant Reformation",
+              "description": "ANTIQUE BIBLES ARE:  GREAT GIFT IDEAS  Searching for a truly one-of-a-kind gift—something timeless, historically significant, and utterly unique? Antique Bibles and Bible leaves make exceptional gift...",
+              "breadcrumb": "antiquebible.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.antiquebible.com/shop?date=1601-1650&utm_source=chatgpt.com",
+              "domain": "www.antiquebible.com",
+              "title": "Shop Our Bookshelves — Antique Bible",
+              "description": "SHOP OUR BOOKSHELVES  BROWSE OUR INVENTORY OF RARE BIBLES INCLUDING GENEVA BIBLES, KING JAMES BIBLES, BIBLE LEAVES, THEOLOGY, AND MANUSCRIPTS.   NEED HELP SHOPPING? VIEW OUR ANTIQUE BIBLE BUYING GUI...",
+              "breadcrumb": "antiquebible.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.antiquebible.com/shop?date=1651-1840&utm_source=chatgpt.com",
+              "domain": "www.antiquebible.com",
+              "title": "Shop Our Bookshelves — Antique Bible",
+              "description": "SHOP OUR BOOKSHELVES  BROWSE OUR INVENTORY OF RARE BIBLES INCLUDING GENEVA BIBLES, KING JAMES BIBLES, BIBLE LEAVES, THEOLOGY, AND MANUSCRIPT MATERIAL.   NEED HELP SHOPPING? VIEW OUR ANTIQUE BIBLE BU...",
+              "breadcrumb": "antiquebible.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.collectorsweekly.com/books/bibles?utm_source=chatgpt.com",
+              "domain": "www.collectorsweekly.com",
+              "title": "Antique Bibles | Collectors Weekly",
+              "description": "ANTIQUE BIBLES  As the most widely read book in Western civilization, the Bible offers a variety of collecting possibilities. Many collectors pursue specific themes, including very old Bibles, family...",
+              "breadcrumb": "collectorsweekly.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://etrarebooks.com/pages/faqs?utm_source=chatgpt.com",
+              "domain": "etrarebooks.com",
+              "title": "FAQs: E.T. Rare Books: Worlds Finest & Rarest Antiquarian Bibles & Theology",
+              "description": "FREQUENTLY ASKED QUESTIONS  Q: WHERE CAN I LEARN ABOUT COLLECTING ANTIQUARIAN BOOKS?  A: A great place to start to learn more about collecting antiquarian Bibles and Theology is this website.  It is...",
+              "breadcrumb": "etrarebooks.com"
+            }
+          ],
+          "sources": [
+            {
+              "type": "chat_gpt_source",
+              "title": "View listing",
+              "snippet": null,
+              "domain": "motka.store",
+              "url": "https://motka.store/products/1683-bible-in-english-antique-original-binding-rare-folio-king-james-version?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=67590221496622&utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[View listing](https://motka.store/products/1683-bible-in-english-antique-original-binding-rare-folio-king-james-version?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=67590221496622&utm_source=chatgpt.com)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "View listing",
+              "snippet": null,
+              "domain": "moons-rare-books.myshopify.com",
+              "url": "https://moons-rare-books.myshopify.com/products/geneva-bible-1612?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=57615996387494&utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[View listing](https://moons-rare-books.myshopify.com/products/geneva-bible-1612?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=57615996387494&utm_source=chatgpt.com)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "View listing",
+              "snippet": null,
+              "domain": "motka.store",
+              "url": "https://motka.store/products/1680-bible-in-english-old-testament-antique-king-james-version-w-metal-clasps?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=49805788152110&utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[View listing](https://motka.store/products/1680-bible-in-english-old-testament-antique-king-james-version-w-metal-clasps?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=49805788152110&utm_source=chatgpt.com)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "AntiqueBible.com",
+              "snippet": null,
+              "domain": "www.antiquebible.com",
+              "url": "https://www.antiquebible.com/shop/bible?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[AntiqueBible.com](https://www.antiquebible.com/shop/bible?utm_source=chatgpt.com)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Collectors Weekly",
+              "snippet": null,
+              "domain": "www.collectorsweekly.com",
+              "url": "https://www.collectorsweekly.com/books/bibles?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[Collectors Weekly](https://www.collectorsweekly.com/books/bibles?utm_source=chatgpt.com)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Antique Bible",
+              "snippet": null,
+              "domain": "www.antiquebible.com",
+              "url": "https://www.antiquebible.com/?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[Antique Bible](https://www.antiquebible.com/?utm_source=chatgpt.com)"
+            }
+          ],
+          "fan_out_queries": [
+            "antique Bibles for sale reputable dealers marketplace rare old Bible buying guide"
+          ],
+          "brand_entities": null,
+          "se_results_count": 0,
+          "item_types": [
+            "chat_gpt_text",
+            "chat_gpt_images",
+            "chat_gpt_products"
+          ],
+          "items_count": 9,
+          "items": [
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "markdown": "I found several sources offering **genuine antique Bibles**, including King James Bibles from the 1600s, 1700s, and 1800s, as well as older Geneva Bibles.\n\nHere are the best places to start shopping.\n\n## 1\\. Antique Bibles currently listed for sale\n\n",
+              "sources": null,
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "markdown": "![1688 BIBLE in ENGLISH KING JAMES FOLIO antique OLD & NEW TESTAMENT  | eBay](https://images.openai.com/static-rsc-4/HH4yfOciSEPr32NEJW7cibS5ws6z7XBMElImE4ZIQViERO1FoCo9JzVNTy8U2eefybxzvKSKS5Sr0GbrFICaXvLUDXoNDUsJ4w0cstPezJLfuf6U3A8Iepe-Ar-7yjQizGc2sBgAsWPFnDupAA7gg4PkVHaF8-HsIw22WqObaDIIdp90JO0y9hYWdrngTrwN?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.ebay.com/itm/396646410025",
+                  "alt": "1688 BIBLE in ENGLISH KING JAMES FOLIO antique OLD & NEW TESTAMENT  | eBay",
+                  "image_url": "https://images.openai.com/static-rsc-4/HH4yfOciSEPr32NEJW7cibS5ws6z7XBMElImE4ZIQViERO1FoCo9JzVNTy8U2eefybxzvKSKS5Sr0GbrFICaXvLUDXoNDUsJ4w0cstPezJLfuf6U3A8Iepe-Ar-7yjQizGc2sBgAsWPFnDupAA7gg4PkVHaF8-HsIw22WqObaDIIdp90JO0y9hYWdrngTrwN?purpose=fullsize",
+                  "markdown": "![1688 BIBLE in ENGLISH KING JAMES FOLIO antique OLD & NEW TESTAMENT  | eBay](https://images.openai.com/static-rsc-4/HH4yfOciSEPr32NEJW7cibS5ws6z7XBMElImE4ZIQViERO1FoCo9JzVNTy8U2eefybxzvKSKS5Sr0GbrFICaXvLUDXoNDUsJ4w0cstPezJLfuf6U3A8Iepe-Ar-7yjQizGc2sBgAsWPFnDupAA7gg4PkVHaF8-HsIw22WqObaDIIdp90JO0y9hYWdrngTrwN?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "markdown": "\n\n**1683 Antique King James Bible**\n\n# \\$3,570\n\nOriginal 17th-century Bible with Geneva notes.\n\nSeller: Motka\n\n[View listing](https://motka.store/products/1683-bible-in-english-antique-original-binding-rare-folio-king-james-version?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=67590221496622&utm_source=chatgpt.com)\n\n---\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "View listing",
+                  "snippet": null,
+                  "domain": "motka.store",
+                  "url": "https://motka.store/products/1683-bible-in-english-antique-original-binding-rare-folio-king-james-version?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=67590221496622&utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[View listing](https://motka.store/products/1683-bible-in-english-antique-original-binding-rare-folio-king-james-version?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=67590221496622&utm_source=chatgpt.com)"
+                }
+              ],
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "markdown": "![1611 Rebound Black Letter Geneva Bible — Antique Bible](https://images.openai.com/static-rsc-4/aQZtLkwAJt4I-6jrcv59VwvCBCHQReBTtqQDqcoG_AI765hkHE_MsPCQZMVFyu_uuipGjxu0WyNXhGviaGJU-_9tslBuzY2Clt_OUcuAHI-uh8R-9CqBoYH2J_N7Q89X7gplrIPLSrPu8pG9KmVZkbgbFWFcAeSWQnBJNq7AM6f94a9q-xgAddYLQnoqcFTB?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.antiquebible.com/shop/p/1611-rebound-black-letter-geneva-bible",
+                  "alt": "1611 Rebound Black Letter Geneva Bible — Antique Bible",
+                  "image_url": "https://images.openai.com/static-rsc-4/aQZtLkwAJt4I-6jrcv59VwvCBCHQReBTtqQDqcoG_AI765hkHE_MsPCQZMVFyu_uuipGjxu0WyNXhGviaGJU-_9tslBuzY2Clt_OUcuAHI-uh8R-9CqBoYH2J_N7Q89X7gplrIPLSrPu8pG9KmVZkbgbFWFcAeSWQnBJNq7AM6f94a9q-xgAddYLQnoqcFTB?purpose=fullsize",
+                  "markdown": "![1611 Rebound Black Letter Geneva Bible — Antique Bible](https://images.openai.com/static-rsc-4/aQZtLkwAJt4I-6jrcv59VwvCBCHQReBTtqQDqcoG_AI765hkHE_MsPCQZMVFyu_uuipGjxu0WyNXhGviaGJU-_9tslBuzY2Clt_OUcuAHI-uh8R-9CqBoYH2J_N7Q89X7gplrIPLSrPu8pG9KmVZkbgbFWFcAeSWQnBJNq7AM6f94a9q-xgAddYLQnoqcFTB?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 3,
+              "rank_absolute": 5,
+              "markdown": "\n\n**1611 Geneva Bible**\n\n# \\$12,500\n\nHistoric Geneva Bible offered by Moons Rare Books.\n\n[View listing](https://moons-rare-books.myshopify.com/products/geneva-bible-1612?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=57615996387494&utm_source=chatgpt.com)\n\n---\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "View listing",
+                  "snippet": null,
+                  "domain": "moons-rare-books.myshopify.com",
+                  "url": "https://moons-rare-books.myshopify.com/products/geneva-bible-1612?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=57615996387494&utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[View listing](https://moons-rare-books.myshopify.com/products/geneva-bible-1612?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=57615996387494&utm_source=chatgpt.com)"
+                }
+              ],
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 3,
+              "rank_absolute": 6,
+              "markdown": "![1678 Red-Ruled King James Bible in Contemporary Binding — Antique Bible](https://images.openai.com/static-rsc-4/xMYPsM_Rc6M6tM4g7YkF4rSCQ-RYEBYPRT4ccHDk6u4Sfo7qApjgz0WJEbcF-WBuvBw8_szfX596a26bgar2lU5tX-xsFjW0d81nZEqNmkXV0aGsTWVgovmPuyKo8imP1jNkyvbw2bLwK1rP-GdKhitMyCEva9_aSL_Skjw0lFEcl10qOObnejC8RfHsE0GP?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.antiquebible.com/shop/p/1678-red-ruled-king-james-bible-in-contemporary-binding",
+                  "alt": "1678 Red-Ruled King James Bible in Contemporary Binding — Antique Bible",
+                  "image_url": "https://images.openai.com/static-rsc-4/xMYPsM_Rc6M6tM4g7YkF4rSCQ-RYEBYPRT4ccHDk6u4Sfo7qApjgz0WJEbcF-WBuvBw8_szfX596a26bgar2lU5tX-xsFjW0d81nZEqNmkXV0aGsTWVgovmPuyKo8imP1jNkyvbw2bLwK1rP-GdKhitMyCEva9_aSL_Skjw0lFEcl10qOObnejC8RfHsE0GP?purpose=fullsize",
+                  "markdown": "![1678 Red-Ruled King James Bible in Contemporary Binding — Antique Bible](https://images.openai.com/static-rsc-4/xMYPsM_Rc6M6tM4g7YkF4rSCQ-RYEBYPRT4ccHDk6u4Sfo7qApjgz0WJEbcF-WBuvBw8_szfX596a26bgar2lU5tX-xsFjW0d81nZEqNmkXV0aGsTWVgovmPuyKo8imP1jNkyvbw2bLwK1rP-GdKhitMyCEva9_aSL_Skjw0lFEcl10qOObnejC8RfHsE0GP?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "markdown": "\n\n**1680 Antique King James Old Testament**\n\n# \\$1,857\n\nOriginal antique volume with metal clasps. Note: Old Testament only.\n\n[View listing](https://motka.store/products/1680-bible-in-english-old-testament-antique-king-james-version-w-metal-clasps?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=49805788152110&utm_source=chatgpt.com)\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "View listing",
+                  "snippet": null,
+                  "domain": "motka.store",
+                  "url": "https://motka.store/products/1680-bible-in-english-old-testament-antique-king-james-version-w-metal-clasps?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=49805788152110&utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[View listing](https://motka.store/products/1680-bible-in-english-old-testament-antique-king-james-version-w-metal-clasps?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=49805788152110&utm_source=chatgpt.com)"
+                }
+              ],
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_products",
+              "rank_group": 1,
+              "rank_absolute": 8,
+              "items": [
+                {
+                  "type": "chat_gpt_products_element",
+                  "product_id": null,
+                  "merchants": null,
+                  "id_to_token_map": null,
+                  "title": "1683 Antique King James Bible",
+                  "rating": null,
+                  "price": 3570,
+                  "currency": "USD",
+                  "tag": null,
+                  "url": "https://motka.store/products/1683-bible-in-english-antique-original-binding-rare-folio-king-james-version?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=67590221496622&utm_source=chatgpt.com",
+                  "domain": "motka.store",
+                  "images": [
+                    "https://images.openai.com/static-rsc-4/HH4yfOciSEPr32NEJW7cibS5ws6z7XBMElImE4ZIQViERO1FoCo9JzVNTy8U2eefybxzvKSKS5Sr0GbrFICaXvLUDXoNDUsJ4w0cstPezJLfuf6U3A8Iepe-Ar-7yjQizGc2sBgAsWPFnDupAA7gg4PkVHaF8-HsIw22WqObaDIIdp90JO0y9hYWdrngTrwN?purpose=fullsize"
+                  ],
+                  "product_ids": null
+                },
+                {
+                  "type": "chat_gpt_products_element",
+                  "product_id": null,
+                  "merchants": null,
+                  "id_to_token_map": null,
+                  "title": "1611 Geneva Bible",
+                  "rating": null,
+                  "price": 12500,
+                  "currency": "USD",
+                  "tag": null,
+                  "url": "https://moons-rare-books.myshopify.com/products/geneva-bible-1612?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=57615996387494&utm_source=chatgpt.com",
+                  "domain": "moons-rare-books.myshopify.com",
+                  "images": [
+                    "https://images.openai.com/static-rsc-4/aQZtLkwAJt4I-6jrcv59VwvCBCHQReBTtqQDqcoG_AI765hkHE_MsPCQZMVFyu_uuipGjxu0WyNXhGviaGJU-_9tslBuzY2Clt_OUcuAHI-uh8R-9CqBoYH2J_N7Q89X7gplrIPLSrPu8pG9KmVZkbgbFWFcAeSWQnBJNq7AM6f94a9q-xgAddYLQnoqcFTB?purpose=fullsize"
+                  ],
+                  "product_ids": null
+                },
+                {
+                  "type": "chat_gpt_products_element",
+                  "product_id": null,
+                  "merchants": null,
+                  "id_to_token_map": null,
+                  "title": "1680 Antique King James Old Testament",
+                  "rating": null,
+                  "price": 1857,
+                  "currency": "USD",
+                  "tag": null,
+                  "url": "https://motka.store/products/1680-bible-in-english-old-testament-antique-king-james-version-w-metal-clasps?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=49805788152110&utm_source=chatgpt.com",
+                  "domain": "motka.store",
+                  "images": [
+                    "https://images.openai.com/static-rsc-4/xMYPsM_Rc6M6tM4g7YkF4rSCQ-RYEBYPRT4ccHDk6u4Sfo7qApjgz0WJEbcF-WBuvBw8_szfX596a26bgar2lU5tX-xsFjW0d81nZEqNmkXV0aGsTWVgovmPuyKo8imP1jNkyvbw2bLwK1rP-GdKhitMyCEva9_aSL_Skjw0lFEcl10qOObnejC8RfHsE0GP?purpose=fullsize"
+                  ],
+                  "product_ids": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 5,
+              "rank_absolute": 9,
+              "markdown": "## 2\\. Antique Bible specialty dealers\n\nThese are particularly worth exploring\\:\n\n- **[AntiqueBible.com](https://www.antiquebible.com/shop/bible?utm_source=chatgpt.com)** – Specializes in rare Bibles, including Geneva and King James editions. Listings include Bibles from the 1500s and 1600s.\n- **[Collectors Weekly](https://www.collectorsweekly.com/books/bibles?utm_source=chatgpt.com)** – Marketplace listings for antique and collectible Bibles at a variety of prices.\n- **[Antique Bible](https://www.antiquebible.com/?utm_source=chatgpt.com)** – Specialist dealer with historical Bible inventory.\n\nOne caution: GreatSite.com, formerly a major antique Bible dealer, announced that it closed in 2026, so its website is now primarily a historical reference.\n\n## 3\\. Let me narrow down your search\n\nI'd like to help you find an antique Bible that matches what you're looking for.\n\n**1\\. What age Bible interests you most?**\n\n1500s–1600s (very rare)\n\n1700s\n\n1800s\n\nEarly 1900s\n\nAny age, if beautiful and authentic\n\n---\n\n**2\\. What is your budget?**\n\nUnder \\$100\n\n\\$100–\\$500\n\n\\$500–\\$1,000\n\n\\$1,000–\\$3,000\n\n\\$3,000+\n\n---\n\n**3\\. Which Bible would you prefer?**\n\nKing James Version\n\nOld Family Bible\n\nCatholic Bible\n\nGeneva Bible\n\nAny translation\n\n---\n\n**4\\. What condition do you prefer?**\n\nOriginal leather binding\n\nWorn, aged antique appearance\n\nRestored and readable\n\nAny condition\n\n[Find my antique Bibles]\n\nI can help find genuine old Bibles rather than modern reproductions or facsimile editions.",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "AntiqueBible.com",
+                  "snippet": null,
+                  "domain": "www.antiquebible.com",
+                  "url": "https://www.antiquebible.com/shop/bible?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[AntiqueBible.com](https://www.antiquebible.com/shop/bible?utm_source=chatgpt.com)"
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Collectors Weekly",
+                  "snippet": null,
+                  "domain": "www.collectorsweekly.com",
+                  "url": "https://www.collectorsweekly.com/books/bibles?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[Collectors Weekly](https://www.collectorsweekly.com/books/bibles?utm_source=chatgpt.com)"
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Antique Bible",
+                  "snippet": null,
+                  "domain": "www.antiquebible.com",
+                  "url": "https://www.antiquebible.com/?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[Antique Bible](https://www.antiquebible.com/?utm_source=chatgpt.com)"
+                }
+              ],
+              "brand_entities": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

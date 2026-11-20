@@ -1,0 +1,353 @@
+{
+  "version": "0.1.20261117",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "16.5904 sec.",
+  "cost": 0.004,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "11201408-2831-0629-0000-6cad8580ab19",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "15.8274 sec.",
+      "cost": 0.004,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "chat_gpt",
+        "llm_scraper",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "live",
+        "se": "chat_gpt",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "old bibles for sale",
+        "force_web_search": true,
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "old bibles for sale",
+          "location_code": 2840,
+          "language_code": "en",
+          "model": "gpt-6",
+          "check_url": "https://chatgpt.com/?prompt=old%20bibles%20for%20sale&hints=search",
+          "datetime": "2026-11-20 14:08:28 +00:00",
+          "markdown": "I found several places selling **antique and old Bibles**, including genuine 1800s editions, leather-bound family Bibles, and much older collectible editions.\n\nHere are some places to start shopping.\n\n## Old Bibles currently listed for sale\n\n![1870 Pictorial Family Bible with Double Fore-Edge Painting — Antique Bible](https://images.openai.com/static-rsc-4/uxlhSplzdtrIlTVg8tGJ2szQ-HyQSUxFFQlfP-2Yf9I7EObFLWT_DK8GwVOKySZVuZbdzT1Gfq1SrSK0eZuCwAEsaELuJfU2hGcAOvh9b9FeoEDUc_j5pEEZAUSb9HrK4Oktq15rH2IgD_z7FKuPkVG_E7fNBexrI8HPfCx-TqCs3b5dvTdmyJj-3RpwD-W5?purpose=fullsize)\n\n**1\\. Antique 1800s Family Bibles**\n\nApproximate listings: \\$40–\\$600+\n\nLeather-bound editions, illustrated pages, family records, and brass clasps.\n\n[Shop antique Bibles on eBay](https://www.ebay.com/shop/antique-bible?_nkw=antique+bible&utm_source=chatgpt.com)\n\n---\n\n![Holy Bible, American Bible Society 1850\n – Barbara's Bookstore Collectibles](https://images.openai.com/static-rsc-4/IZKVaAHOJU__8AnONi-h9YAIvLwOI7nfHpDwhhID5aOr8U4XPMPoYX3kQ12NfHAu-NprKraONhAFdV_VTZEyudnG_ee7CxId9tLJP6K9vWHK28Ql2ZLsMGrnr2awAiExZRWAoM_da-RQcANEQ5WxJ1mEYjr0jLHjSTICKQBrr_CpVlXR5ghSU1JKPS_95R2z?purpose=fullsize)\n\n**2\\. 1800s American Bibles**\n\nExamples listed around \\$39–\\$175.\n\nSome date from before the Civil War.\n\n[See old Bibles on eBay](https://www.ebay.com/shop/old-bible?_nkw=old+bible&utm_source=chatgpt.com)\n\n---\n\n![1595 Complete Geneva Bible with Title Pages — Antique Bible](https://images.openai.com/static-rsc-4/ILBZVqvhCQjjIKjzn8Wmxc-FoqQw-UQoU_Avtwgu1AJzvSYF9jp492cpmrByAoltIkT91R2v4RxpMlmQGbyZh0M2chwieOlpUPtoiF7eRUIR1oHAx-crgzrwZ20yWLbI6jAEz5yXzF_zciGySGh3DD9YJZBHZQhE9hl_dDrJ05yci8rCFFnEqRU_c1liQvkI?purpose=fullsize)\n\n**3\\. Antique Bibles on Etsy**\n\nListings include Geneva Bible editions, Victorian Bibles, and vintage family Bibles.\n\n[Shop antique Bibles on Etsy](https://www.etsy.com/market/old_bibles_for_sale_antique?utm_source=chatgpt.com)\n\n---\n\n![Spectacular leather bound 1873 Family Bible](https://images.openai.com/static-rsc-4/HoXO4oqm-LE9Fhpszu8JrbM6ky8W7b1RxyCcVYLn6HxX4q-NtgUIL5U8NJ18uvgqvojzHc4OFqY0-tS_LZf041uVT0iqdWBqDk-we5hI4Xsf20LA_sDXmPZWWi004LbMZCc5hSeS6wN6tR0aWVuRwrCf9gc4qvrKdVRmkvRlwZkX8y1sZ4Fj3_XHOntywSuP?purpose=fullsize)\n\n**4\\. 1873 Illustrated Family Bible**\n\nListed around \\$450.\n\nLarge antique Philadelphia family Bible.\n\n[See this Bible for sale](https://sellsail.us/products/large-illustrated-holy-bible-1873-in-embossed-leather-binding?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=67830771908835&utm_source=chatgpt.com)\n\n## Let me narrow down the search\n\nI'm curious what kind of old Bible you're looking for.\n\n**1\\. How old?**\n\nBefore 1700\n\n1700–1799\n\n1800–1899\n\n1900–1950\n\nAny age, just old-looking\n\n---\n\n**2\\. What's your price range?**\n\nUnder \\$100\n\n\\$100–\\$250\n\n\\$250–\\$500\n\n\\$500–\\$1,000\n\nOver \\$1,000\n\n---\n\n**3\\. What kind of Bible?**\n\nKing James Version\n\nFamily Bible with family records\n\nCatholic Bible\n\nAny old antique Bible\n\n[Find Bibles for me]\n\nI can look for genuine antique Bibles, especially older leather-bound editions, rather than modern reproductions.",
+          "search_results": [
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.ebay.com/shop/antique-bible?_nkw=antique+bible&utm_source=chatgpt.com",
+              "domain": "www.ebay.com",
+              "title": "25+ Antique Bible for sale | Updated Oct 2026",
+              "description": "ANTIQUE BIBLE  21,000+ results  RESULTS  * Find more like this See all similar items on eBay.  New ListingOld Rare Vintage Antique Polyglott Bible Philadelphia PA 1837 PhilaOpens in a new window or t...",
+              "breadcrumb": "ebay.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.ebay.com/shop/old-bible?_nkw=old+bible&utm_source=chatgpt.com",
+              "domain": "www.ebay.com",
+              "title": "25+ Old Bible for sale | Updated Nov 2026",
+              "description": "OLD BIBLE  7,700+ results  * ## Popular Filters  1850-1899 - apply Popular Filters filter  * 1800-1849 - apply Popular Filters filter  * 1700-1799 - apply Popular Filters filter  * English - apply Po...",
+              "breadcrumb": "ebay.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.ebay.com/b/Christianity-Bibles-Original-1850-1899-Antiquarian-Collectible-Books/29223/bn_55464521?utm_source=chatgpt.com",
+              "domain": "www.ebay.com",
+              "title": "25+ Christianity, Bibles Original 1850-1899 Antiquarian & Collectible Books for sale | Updated Nov 2026",
+              "description": "ALL FILTERS  Failed to load refinements  [Button: Reset][Button: Apply]  SORT: BEST MATCH  * Best Match * Time: ending soonest * Time: newly listed * Price + Shipping: lowest first * Price + Shipping:...",
+              "breadcrumb": "ebay.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.ebay.com/b/Rare-Bible-Antiquarian-Collectible-Books/29223/bn_7023396468?utm_source=chatgpt.com",
+              "domain": "www.ebay.com",
+              "title": "25+ Rare Bible Antiquarian & Collectible Books for sale | Updated Nov 2026",
+              "description": "1800's Holy Bible Combination Edition Look at Photos Copyright 1886  US $199.96  or Best Offer$9.55 shipping  *     *     *     *     * Only 1 left!  Rare Little Leather Library Complete 30 HOLY BIBLE...",
+              "breadcrumb": "ebay.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.ebay.com/b/Christianity-Bibles-Vintage-Paperback-Antiquarian-Collectible-Books-in-English/29223/bn_78138658?utm_source=chatgpt.com",
+              "domain": "www.ebay.com",
+              "title": "25+ Christianity, Bibles Vintage Paperback Antiquarian & Collectible Books in English for sale | Updated Nov 2026",
+              "description": "* Language (1) * English(980) * German(13) * Russian(5) * Latin(1) * French(6) * Greek(12) * Spanish(5) * Hebrew(3) * Hungarian(1) * Italian(1) * Japanese(1) * Latvian(1) * Condition * Used(2) * Not S...",
+              "breadcrumb": "ebay.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.ebay.com/b/Leather-Christianity-Bibles-1850-1899-Antiquarian-Collectible-Books/29223/bn_55466207?utm_source=chatgpt.com",
+              "domain": "www.ebay.com",
+              "title": "25+ Leather Christianity, Bibles 1850-1899 Antiquarian & Collectible Books for sale | Updated Nov 2026",
+              "description": "1,107 results  Sort: Best Match  * Best Match * Time: ending soonest * Time: newly listed * Price + Shipping: lowest first * Price + Shipping: highest first * Distance: nearest first  * List View * Ga...",
+              "breadcrumb": "ebay.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.ebay.com/b/Christianity-Bibles-1800-1849-Antiquarian-Collectible-Books/29223/bn_43523539?utm_source=chatgpt.com",
+              "domain": "www.ebay.com",
+              "title": "25+ Christianity, Bibles 1800-1849 Antiquarian & Collectible Books for sale | Updated Nov 2026",
+              "description": "1,039 results  *     *     *     *     * 1847 Holy Bible Translated From The Original Tongues Antique Old & New Testament  US $60.00  $5.88 shipping  1 bid · 24m  *     *     *     *     * New Listing...",
+              "breadcrumb": "ebay.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.ebay.com/b/Christianity-Bibles-1850-1899-Antiquarian-Collectible-Books-in-English/29223/bn_55469482?utm_source=chatgpt.com",
+              "domain": "www.ebay.com",
+              "title": "25+ Christianity, Bibles 1850-1899 Antiquarian & Collectible Books in English for sale | Updated Nov 2026",
+              "description": "*     *     *     *     * 1856 Holy Bible Old & New Testaments Jesper Harding AS IS  US $100.00  $15.00 shipping  *     *     *     *     * New Listing  William W. Harding 1877 Holy Bible, Containing...",
+              "breadcrumb": "ebay.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.etsy.com/market/old_bibles_for_sale_antique?utm_source=chatgpt.com",
+              "domain": "www.etsy.com",
+              "title": "Old Bibles for Sale Antique - Etsy",
+              "description": "OLD BIBLES FOR SALE ANTIQUE  485+ items  Exclude digital items Free shipping Arrives within 7 days Star Seller Ships from United States  Sort by: Relevancy  * The Geneva Bible 1560 [Leather Bound] (1...",
+              "breadcrumb": "etsy.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.etsy.com/market/antique_old_bibles_for_sale?utm_source=chatgpt.com",
+              "domain": "www.etsy.com",
+              "title": "Antique Old Bibles for Sale - Etsy",
+              "description": "ANTIQUE OLD BIBLES FOR SALE  35+ items  Exclude digital items Free shipping Arrives within 7 days Star Seller Ships from United States  Sort by: Relevancy  * 1611 King James Bible Facsimile w/ Apocry...",
+              "breadcrumb": "etsy.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.etsy.com/market/antique_bibles_for_sale?utm_source=chatgpt.com",
+              "domain": "www.etsy.com",
+              "title": "Antique Bibles for Sale - Etsy",
+              "description": "ANTIQUE BIBLES FOR SALE  77+ items  Exclude digital items Free shipping Arrives within 7 days Star Seller Ships from United States  Sort by: Relevancy  * 1611 King James Bible Facsimile w/ Apocrypha,...",
+              "breadcrumb": "etsy.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://greatsite.com/about-us/?utm_source=chatgpt.com",
+              "domain": "greatsite.com",
+              "title": "The Bible Museum | Greatsite.com",
+              "description": "About Us  GREATSITE.COM  For over three decades the world turned to GREATSITE.COM for rare and antique Bibles and ancient Biblical materials. Since 1996, up through 2026, we have been the world’s lar...",
+              "breadcrumb": "greatsite.com"
+            }
+          ],
+          "sources": [
+            {
+              "type": "chat_gpt_source",
+              "title": "Shop antique Bibles on eBay",
+              "snippet": null,
+              "domain": "www.ebay.com",
+              "url": "https://www.ebay.com/shop/antique-bible?_nkw=antique+bible&utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[Shop antique Bibles on eBay](https://www.ebay.com/shop/antique-bible?_nkw=antique+bible&utm_source=chatgpt.com)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "See old Bibles on eBay",
+              "snippet": null,
+              "domain": "www.ebay.com",
+              "url": "https://www.ebay.com/shop/old-bible?_nkw=old+bible&utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[See old Bibles on eBay](https://www.ebay.com/shop/old-bible?_nkw=old+bible&utm_source=chatgpt.com)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Shop antique Bibles on Etsy",
+              "snippet": null,
+              "domain": "www.etsy.com",
+              "url": "https://www.etsy.com/market/old_bibles_for_sale_antique?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[Shop antique Bibles on Etsy](https://www.etsy.com/market/old_bibles_for_sale_antique?utm_source=chatgpt.com)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "See this Bible for sale",
+              "snippet": null,
+              "domain": "sellsail.us",
+              "url": "https://sellsail.us/products/large-illustrated-holy-bible-1873-in-embossed-leather-binding?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=67830771908835&utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[See this Bible for sale](https://sellsail.us/products/large-illustrated-holy-bible-1873-in-embossed-leather-binding?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=67830771908835&utm_source=chatgpt.com)"
+            }
+          ],
+          "fan_out_queries": [
+            "antique vintage old Bibles for sale collectible marketplaces dealers"
+          ],
+          "brand_entities": null,
+          "se_results_count": 0,
+          "item_types": [
+            "chat_gpt_text",
+            "chat_gpt_images"
+          ],
+          "items_count": 9,
+          "items": [
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "markdown": "I found several places selling **antique and old Bibles**, including genuine 1800s editions, leather-bound family Bibles, and much older collectible editions.\n\nHere are some places to start shopping.\n\n## Old Bibles currently listed for sale\n\n",
+              "sources": null,
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "markdown": "![1870 Pictorial Family Bible with Double Fore-Edge Painting — Antique Bible](https://images.openai.com/static-rsc-4/uxlhSplzdtrIlTVg8tGJ2szQ-HyQSUxFFQlfP-2Yf9I7EObFLWT_DK8GwVOKySZVuZbdzT1Gfq1SrSK0eZuCwAEsaELuJfU2hGcAOvh9b9FeoEDUc_j5pEEZAUSb9HrK4Oktq15rH2IgD_z7FKuPkVG_E7fNBexrI8HPfCx-TqCs3b5dvTdmyJj-3RpwD-W5?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.antiquebible.com/shop/p/1870-pictorial-family-bible-with-double-fore-edge-painting",
+                  "alt": "1870 Pictorial Family Bible with Double Fore-Edge Painting — Antique Bible",
+                  "image_url": "https://images.openai.com/static-rsc-4/uxlhSplzdtrIlTVg8tGJ2szQ-HyQSUxFFQlfP-2Yf9I7EObFLWT_DK8GwVOKySZVuZbdzT1Gfq1SrSK0eZuCwAEsaELuJfU2hGcAOvh9b9FeoEDUc_j5pEEZAUSb9HrK4Oktq15rH2IgD_z7FKuPkVG_E7fNBexrI8HPfCx-TqCs3b5dvTdmyJj-3RpwD-W5?purpose=fullsize",
+                  "markdown": "![1870 Pictorial Family Bible with Double Fore-Edge Painting — Antique Bible](https://images.openai.com/static-rsc-4/uxlhSplzdtrIlTVg8tGJ2szQ-HyQSUxFFQlfP-2Yf9I7EObFLWT_DK8GwVOKySZVuZbdzT1Gfq1SrSK0eZuCwAEsaELuJfU2hGcAOvh9b9FeoEDUc_j5pEEZAUSb9HrK4Oktq15rH2IgD_z7FKuPkVG_E7fNBexrI8HPfCx-TqCs3b5dvTdmyJj-3RpwD-W5?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "markdown": "\n\n**1\\. Antique 1800s Family Bibles**\n\nApproximate listings: \\$40–\\$600+\n\nLeather-bound editions, illustrated pages, family records, and brass clasps.\n\n[Shop antique Bibles on eBay](https://www.ebay.com/shop/antique-bible?_nkw=antique+bible&utm_source=chatgpt.com)\n\n---\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Shop antique Bibles on eBay",
+                  "snippet": null,
+                  "domain": "www.ebay.com",
+                  "url": "https://www.ebay.com/shop/antique-bible?_nkw=antique+bible&utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[Shop antique Bibles on eBay](https://www.ebay.com/shop/antique-bible?_nkw=antique+bible&utm_source=chatgpt.com)"
+                }
+              ],
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "markdown": "![Holy Bible, American Bible Society 1850\n – Barbara's Bookstore Collectibles](https://images.openai.com/static-rsc-4/IZKVaAHOJU__8AnONi-h9YAIvLwOI7nfHpDwhhID5aOr8U4XPMPoYX3kQ12NfHAu-NprKraONhAFdV_VTZEyudnG_ee7CxId9tLJP6K9vWHK28Ql2ZLsMGrnr2awAiExZRWAoM_da-RQcANEQ5WxJ1mEYjr0jLHjSTICKQBrr_CpVlXR5ghSU1JKPS_95R2z?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://barbarascollectibles.com/products/holy-bible",
+                  "alt": "Holy Bible, American Bible Society 1850\n – Barbara's Bookstore Collectibles",
+                  "image_url": "https://images.openai.com/static-rsc-4/IZKVaAHOJU__8AnONi-h9YAIvLwOI7nfHpDwhhID5aOr8U4XPMPoYX3kQ12NfHAu-NprKraONhAFdV_VTZEyudnG_ee7CxId9tLJP6K9vWHK28Ql2ZLsMGrnr2awAiExZRWAoM_da-RQcANEQ5WxJ1mEYjr0jLHjSTICKQBrr_CpVlXR5ghSU1JKPS_95R2z?purpose=fullsize",
+                  "markdown": "![Holy Bible, American Bible Society 1850\n – Barbara's Bookstore Collectibles](https://images.openai.com/static-rsc-4/IZKVaAHOJU__8AnONi-h9YAIvLwOI7nfHpDwhhID5aOr8U4XPMPoYX3kQ12NfHAu-NprKraONhAFdV_VTZEyudnG_ee7CxId9tLJP6K9vWHK28Ql2ZLsMGrnr2awAiExZRWAoM_da-RQcANEQ5WxJ1mEYjr0jLHjSTICKQBrr_CpVlXR5ghSU1JKPS_95R2z?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 3,
+              "rank_absolute": 5,
+              "markdown": "\n\n**2\\. 1800s American Bibles**\n\nExamples listed around \\$39–\\$175.\n\nSome date from before the Civil War.\n\n[See old Bibles on eBay](https://www.ebay.com/shop/old-bible?_nkw=old+bible&utm_source=chatgpt.com)\n\n---\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "See old Bibles on eBay",
+                  "snippet": null,
+                  "domain": "www.ebay.com",
+                  "url": "https://www.ebay.com/shop/old-bible?_nkw=old+bible&utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[See old Bibles on eBay](https://www.ebay.com/shop/old-bible?_nkw=old+bible&utm_source=chatgpt.com)"
+                }
+              ],
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 3,
+              "rank_absolute": 6,
+              "markdown": "![1595 Complete Geneva Bible with Title Pages — Antique Bible](https://images.openai.com/static-rsc-4/ILBZVqvhCQjjIKjzn8Wmxc-FoqQw-UQoU_Avtwgu1AJzvSYF9jp492cpmrByAoltIkT91R2v4RxpMlmQGbyZh0M2chwieOlpUPtoiF7eRUIR1oHAx-crgzrwZ20yWLbI6jAEz5yXzF_zciGySGh3DD9YJZBHZQhE9hl_dDrJ05yci8rCFFnEqRU_c1liQvkI?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.antiquebible.com/shop/p/1595-complete-geneva-bible-with-title-pages",
+                  "alt": "1595 Complete Geneva Bible with Title Pages — Antique Bible",
+                  "image_url": "https://images.openai.com/static-rsc-4/ILBZVqvhCQjjIKjzn8Wmxc-FoqQw-UQoU_Avtwgu1AJzvSYF9jp492cpmrByAoltIkT91R2v4RxpMlmQGbyZh0M2chwieOlpUPtoiF7eRUIR1oHAx-crgzrwZ20yWLbI6jAEz5yXzF_zciGySGh3DD9YJZBHZQhE9hl_dDrJ05yci8rCFFnEqRU_c1liQvkI?purpose=fullsize",
+                  "markdown": "![1595 Complete Geneva Bible with Title Pages — Antique Bible](https://images.openai.com/static-rsc-4/ILBZVqvhCQjjIKjzn8Wmxc-FoqQw-UQoU_Avtwgu1AJzvSYF9jp492cpmrByAoltIkT91R2v4RxpMlmQGbyZh0M2chwieOlpUPtoiF7eRUIR1oHAx-crgzrwZ20yWLbI6jAEz5yXzF_zciGySGh3DD9YJZBHZQhE9hl_dDrJ05yci8rCFFnEqRU_c1liQvkI?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "markdown": "\n\n**3\\. Antique Bibles on Etsy**\n\nListings include Geneva Bible editions, Victorian Bibles, and vintage family Bibles.\n\n[Shop antique Bibles on Etsy](https://www.etsy.com/market/old_bibles_for_sale_antique?utm_source=chatgpt.com)\n\n---\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Shop antique Bibles on Etsy",
+                  "snippet": null,
+                  "domain": "www.etsy.com",
+                  "url": "https://www.etsy.com/market/old_bibles_for_sale_antique?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[Shop antique Bibles on Etsy](https://www.etsy.com/market/old_bibles_for_sale_antique?utm_source=chatgpt.com)"
+                }
+              ],
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 4,
+              "rank_absolute": 8,
+              "markdown": "![Spectacular leather bound 1873 Family Bible](https://images.openai.com/static-rsc-4/HoXO4oqm-LE9Fhpszu8JrbM6ky8W7b1RxyCcVYLn6HxX4q-NtgUIL5U8NJ18uvgqvojzHc4OFqY0-tS_LZf041uVT0iqdWBqDk-we5hI4Xsf20LA_sDXmPZWWi004LbMZCc5hSeS6wN6tR0aWVuRwrCf9gc4qvrKdVRmkvRlwZkX8y1sZ4Fj3_XHOntywSuP?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.icollector.com/Spectacular-leather-bound-1873-Family-Bible_i16226136",
+                  "alt": "Spectacular leather bound 1873 Family Bible",
+                  "image_url": "https://images.openai.com/static-rsc-4/HoXO4oqm-LE9Fhpszu8JrbM6ky8W7b1RxyCcVYLn6HxX4q-NtgUIL5U8NJ18uvgqvojzHc4OFqY0-tS_LZf041uVT0iqdWBqDk-we5hI4Xsf20LA_sDXmPZWWi004LbMZCc5hSeS6wN6tR0aWVuRwrCf9gc4qvrKdVRmkvRlwZkX8y1sZ4Fj3_XHOntywSuP?purpose=fullsize",
+                  "markdown": "![Spectacular leather bound 1873 Family Bible](https://images.openai.com/static-rsc-4/HoXO4oqm-LE9Fhpszu8JrbM6ky8W7b1RxyCcVYLn6HxX4q-NtgUIL5U8NJ18uvgqvojzHc4OFqY0-tS_LZf041uVT0iqdWBqDk-we5hI4Xsf20LA_sDXmPZWWi004LbMZCc5hSeS6wN6tR0aWVuRwrCf9gc4qvrKdVRmkvRlwZkX8y1sZ4Fj3_XHOntywSuP?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 5,
+              "rank_absolute": 9,
+              "markdown": "\n\n**4\\. 1873 Illustrated Family Bible**\n\nListed around \\$450.\n\nLarge antique Philadelphia family Bible.\n\n[See this Bible for sale](https://sellsail.us/products/large-illustrated-holy-bible-1873-in-embossed-leather-binding?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=67830771908835&utm_source=chatgpt.com)\n\n## Let me narrow down the search\n\nI'm curious what kind of old Bible you're looking for.\n\n**1\\. How old?**\n\nBefore 1700\n\n1700–1799\n\n1800–1899\n\n1900–1950\n\nAny age, just old-looking\n\n---\n\n**2\\. What's your price range?**\n\nUnder \\$100\n\n\\$100–\\$250\n\n\\$250–\\$500\n\n\\$500–\\$1,000\n\nOver \\$1,000\n\n---\n\n**3\\. What kind of Bible?**\n\nKing James Version\n\nFamily Bible with family records\n\nCatholic Bible\n\nAny old antique Bible\n\n[Find Bibles for me]\n\nI can look for genuine antique Bibles, especially older leather-bound editions, rather than modern reproductions.",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "See this Bible for sale",
+                  "snippet": null,
+                  "domain": "sellsail.us",
+                  "url": "https://sellsail.us/products/large-illustrated-holy-bible-1873-in-embossed-leather-binding?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=67830771908835&utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[See this Bible for sale](https://sellsail.us/products/large-illustrated-holy-bible-1873-in-embossed-leather-binding?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=67830771908835&utm_source=chatgpt.com)"
+                }
+              ],
+              "brand_entities": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

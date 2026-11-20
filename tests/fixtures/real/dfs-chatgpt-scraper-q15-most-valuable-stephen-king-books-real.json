@@ -1,0 +1,563 @@
+{
+  "version": "0.1.20261117",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "16.5027 sec.",
+  "cost": 0.004,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "11201407-2831-0629-0000-6b098db57ed0",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "15.8526 sec.",
+      "cost": 0.004,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "chat_gpt",
+        "llm_scraper",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "live",
+        "se": "chat_gpt",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "most valuable stephen king books",
+        "force_web_search": true,
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "most valuable stephen king books",
+          "location_code": 2840,
+          "language_code": "en",
+          "model": "gpt-6",
+          "check_url": "https://chatgpt.com/?prompt=most%20valuable%20stephen%20king%20books&hints=search",
+          "datetime": "2026-11-20 14:07:38 +00:00",
+          "markdown": "If you're looking for **the most valuable Stephen King books to collect or sell**, the biggest money is generally in early first editions, first printings, signed copies, and rare limited editions.\n\nHere are the books I'd look for, based on collector price guides and reported sales as of November 2026.\n\n# Most valuable Stephen King books\n\n![Stephen King \"Carrie\" US First Edition, First Printing w/Custom Clam Shell Case [F/NF]](https://images.openai.com/static-rsc-4/9S8-IKg2CnpD2pmz-5Fo-rA6jS-43Yv9R8w4fyjePrSMi9l3gdnYmM62O3ykwsn8S3EtgV2HYxZANccm3cDHKEXl2q3UZ4XnXvkNORrpg_PVG-d-Zn1fuMt9lfzeE2MRzDgYyTvv5NZJCMaQusbpuyzlNefqqlUIwhjcb1koWeI9haRLFFua70f0rLazxOdm?purpose=fullsize)\n\n**1\\. Carrie \\(1974)**\n\n(Top collectible)\n\n- Unsigned first printing: \\$4,000–\\$4,500\n- Signed: potentially \\$8,000+\n- Publisher: Doubleday\n\n---\n\n![Salem's Lot by Stephen King: (1975) First Edition, Early Printing. | Ernestoic Books](https://images.openai.com/static-rsc-4/fZZh8kJu_D2xMQyMAq5uW4CxCo6kFKpjrT3eTVF4QcL2eInA7BwERGsR150B2X9eo7QoEkRJJIskUj1CF-1Xy0w6tsbShzBQfMkuowBTiq6Tv3S0i1G3hPp_kU_K8XBflWD7y7UsbhakaO3Vshos_93_OvgwPaO6z6_Rh1q9CgX3ATRdvNjf2RuFaIvyvea7?purpose=fullsize)\n\n**2\\. 'Salem's Lot \\(1975)**\n\n- Unsigned first printing: \\$750–\\$3,500+\n- Signed: potentially \\$12,000+\n- First-state dust jacket is especially valuable.\n\n---\n\n![The Shining | Stephen King | First edition](https://images.openai.com/static-rsc-4/kERHmRRvLf9Rh7p9VnDSVsS7eITF-91otL2j3cf_qiOz37oo2ydOEgC0itS8VkBiUqPfYJ0UmbFWjkEmJytSwTU2TZx4t4OT6T8DdMCeN33VP4_Px2L5hWuTjBAgct4Z0zMEczit9xomorzt0Oob-yeBdplGArtOMvqDoR3OfXKJlSGN60Cu9ZYD8SJILEJp?purpose=fullsize)\n\n**3\\. The Shining \\(1977)**\n\n- Unsigned first printing: \\$500–\\$2,200\n- Signed: potentially \\$7,000+\n\n---\n\n![Stephen King \"Night Shift\" First Edition, First Printing w/CustomSlipcase](https://images.openai.com/static-rsc-4/7eOu8kXvAjWR_wGbtM2xwCH_qwAmQ5xPO3IYrlcSZlBPZavDbqGMJbRsWcf8BG1iJIBMsOwEyFz9RQcpX0s-7Cj-Sk4uEpOZOG55FTGyUZzxkaqzSHjLxcLg8QKPCVlHoz6AThYYYFS0MUBauro7u5h9prgE8xuSvni7VTM4s-qzmJks2cG961PjeEO1Oifq?purpose=fullsize)\n\n**4\\. Night Shift \\(1978)**\n\n- First printing: approximately \\$2,500–\\$4,500\n- Particularly desirable early collection.\n\n---\n\n![The Stand ($12.95; First Printing; T39; Doubleday) by Stephen King: Fine Hardcover (1978) 1st Edition | true1stbooks](https://images.openai.com/static-rsc-4/Mf6EL_TINoWRh8LrXNbG9md7W5s71BhIF7HtRE63Gx5VOCm2POch8F0NPZxWu6Oq2akgbVNnB4Aa6u8xfTCcZRMSjvx7NO2JomF3qzXF13w_VE8K8vVbzVctKricUlao8tbbX5TVgr_fs6WhGlo7kfM5bfdej-E6ErYV9ufYxCl2M24sd8E6oznbJBcI3Nzh?purpose=fullsize)\n\n**5\\. The Stand \\(1978)**\n\n- Unsigned first printing: \\$450–\\$1,750\n- Signed: potentially \\$5,000+\n\n---\n\n![The Gunslinger (The Dark Tower, Book 1)\nby Stephen King |\nHardcover |\n1982 |\nDonald m Grant Publishing Inc |\n9780937986509 |\nBiblio](https://images.openai.com/static-rsc-4/xDvTQGZi2A4hTWlRyU2rODk7hrTmjJIAAU6oAHD1DbtXp6xCzEd4CSpJjNXiTuvnGOsMoUl0Sjf5DtPAc6zj1xlLLGQyqNVLFPDvWt80E10g2FCWU9_kI06p-TReneQ7qnQPxpSQHYPWyrChF0qvbS0phYNsqZ9QiO8FlH0UhBBjhGqBD85k75Qh5yy9ghIs?purpose=fullsize)\n\n**6\\. The Gunslinger \\(1982)**\n\n- First trade edition: \\$750–\\$2,300\n- Signed limited edition of 500 copies: potentially \\$5,000–\\$15,000.\n\n---\n\n![The Eyes of the Dragon | Stephen King | First edition, number 344 of 1000 copies](https://images.openai.com/static-rsc-4/aTLGftbldcW3OgfT5r1LMrDJHaQM1IYY1F__UGeC_DzV4oLFnGLA_sxpMi9DuOVBLWPcKvtJPCyRTSOZhKH1mQZSV_ELBCYu-zCiNdkV70L3MdkUE4ZLSztIqbYS7iHEAsygvPk_q8ef3DWCQar0O5ydxyjT5Djrk1NHycAYhjmFPiMMCOd38GIUzvP6OTjr?purpose=fullsize)\n\n**7\\. The Eyes of the Dragon \\(1984)**\n\n- Limited edition: approximately \\$1,750–\\$3,000\n- Only 1,250 numbered copies.\n\n---\n\n![Stephen King \"The Plant\" Signed Limited Edition (Fine 3 Vol. set) | VeryFineBooks.com](https://images.openai.com/static-rsc-4/xnERihJsG1VZKsCP21o7IJW0fhMZBDRGrBhcvvrVH72HSmAoXM-6feeZaS5jg81QG7o_8UxL-VlsfvxSIgCqwFJtxkzKzQYtEkZ_DenucAsAh4HFOxkrZnEPkcESe6Qsd21Jp-IlCAfUxwjglXa1wZm6bt4tNEwpeVatT9uX777NxGpImzns3fx07OXvw4Dv?purpose=fullsize)\n\n**8\\. The Plant \\(1982–1985)**\n\n- Complete three-part collection: estimated \\$15,000–\\$25,000\n- Extremely scarce privately printed editions.\n\nSources: [www.bbourse.ai](https://www.bbourse.ai/authors/stephen-king?utm_source=chatgpt.com)[www.collectibledetective.com](https://www.collectibledetective.com/books/stephen-king/?utm_source=chatgpt.com)[myvolumes.com](https://myvolumes.com/guides/stephen-king-first-editions/?utm_source=chatgpt.com)[www.bbourse.ai](https://www.bbourse.ai/guides/stephen-king-first-editions?utm_source=chatgpt.com)\n\n# What makes a Stephen King book valuable?\n\nThe most important things to check\\:\n\n1. **First edition AND first printing.** Just saying first edition isn't enough.\n2. **Original dust jacket.** Especially important for early Doubleday books.\n3. **Author's actual signature.**\n4. **Condition.** No water damage, writing, missing pages or heavily damaged jackets.\n5. **Limited print runs.** Particularly Donald M. Grant and Philtrum Press editions.\n\n# I can help identify valuable books in your collection\n\nIf you own Stephen King books, I'd be interested in helping you identify potential treasures.\n\n**Which are you interested in?**\n\nI own Stephen King books and want to know their value\n\nI want to find rare books to buy\n\nI want to identify valuable first editions\n\nI want to sell a collection\n\n---\n\nWhich titles do you have? (Optional)\n\n[Textarea placeholder: Carrie, The Shining, The Stand, etc\\.] (Current value unavailable.)\n\n[Continue]\n\nYou might have a book worth hundreds or even thousands of dollars sitting on your shelf.",
+          "search_results": [
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.bbourse.ai/authors/stephen-king?utm_source=chatgpt.com",
+              "domain": "www.bbourse.ai",
+              "title": "Stephen King First Editions: Complete List & Values",
+              "description": "STEPHEN KING FIRST EDITIONS  Stephen King first editions run from a few dollars for recent bestsellers to thousands for Carrie, ’Salem’s Lot, The Shining and The Stand in their first printings. Below...",
+              "breadcrumb": "bbourse.ai"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.bbourse.ai/guides/stephen-king-first-editions?utm_source=chatgpt.com",
+              "domain": "www.bbourse.ai",
+              "title": "Stephen King First Edition Guide: How to Identify Every First Printing · BBourse",
+              "description": "A first printing in a book club jacket, or a book club book in a first-printing jacket, is a “married” copy: check both the book and the jacket.  CARRIE FIRST EDITION (DOUBLEDAY, 1974): P6 ON PAGE 19...",
+              "breadcrumb": "bbourse.ai"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.collectibledetective.com/books/stephen-king/?utm_source=chatgpt.com",
+              "domain": "www.collectibledetective.com",
+              "title": "Stephen King Books In Order & First Edition Values (2026)",
+              "description": "STEPHEN KING BOOKS IN ORDER: FIRST EDITIONS, VALUES, AND SIGNED COPIES  Stephen King has sold more than 400 million books, which is exactly why most of them are worth very little. The money is in the...",
+              "breadcrumb": "collectibledetective.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.collectibledetective.com/books/stephen-king/autographs/?utm_source=chatgpt.com",
+              "domain": "www.collectibledetective.com",
+              "title": "Signed Stephen King Books: How To Spot A Real Autograph | Collectible Detective",
+              "description": "SIGNED STEPHEN KING BOOKS: HOW TO SPOT A REAL AUTOGRAPH  Image: Night Shift first edition, Doubleday, 1978  Stephen King is one of the most forged authors in the book trade, for a simple reason: his...",
+              "breadcrumb": "collectibledetective.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.collectibledetective.com/books/stephen-king/first-editions/?utm_source=chatgpt.com",
+              "domain": "www.collectibledetective.com",
+              "title": "How To Identify Stephen King First Editions | Collectible Detective",
+              "description": "STEPHEN KING FIRST EDITION POINTS BY TITLE  Use this table with a copy in hand. “Line A” means the number line includes a “1” in the sequence 1 3 5 7 9 10 8 6 4 2. Values for each title are on our Ste...",
+              "breadcrumb": "collectibledetective.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://myvolumes.com/guides/stephen-king-first-editions/?utm_source=chatgpt.com",
+              "domain": "myvolumes.com",
+              "title": "Stephen King First Editions | Points & Values | MyVolumes",
+              "description": "Carrie  | 1974  | $5.95  | \"First Edition\"  | P6 on page 199  | King's first book and the hardest Doubleday first to find in a clean jacket 'Salem's Lot  | 1975  | $8.95, later $7.95  | \"First Edition...",
+              "breadcrumb": "myvolumes.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://ravelstein.com/wiki/signed-firsts/stephen-king-signed-firsts-deep-cuts-guide/?utm_source=chatgpt.com",
+              "domain": "ravelstein.com",
+              "title": "Stephen King Signed First Editions: The Deep Cuts and Specialty Press Complete Guide — Ravelstein",
+              "description": "These are the investment-grade items.  Title  | Year  | Limited Print Run  | Signed Limited Value --- | --- | --- | --- The Dark Tower: The Gunslinger  | 1982  | 500  | $5,000-$15,000 The Talisman  |...",
+              "breadcrumb": "ravelstein.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://litreactor.com/columns/steven-kings-top-ten-rare-and-pricey-books/?utm_source=chatgpt.com",
+              "domain": "litreactor.com",
+              "title": "The Top 10 Rare and Pricey Stephen King Books | LitReactor",
+              "description": "Written by Gabino Iglesias  Contents  * 10. 'Firestarter' signed/limited edition from Phantasia Press — $2,500 * 9. 'Salem's Lot' signed first edition - $3,168.75 * 8. 'The Stand' signed 1st edition...",
+              "breadcrumb": "litreactor.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.abebooks.com/books/jerusalems-salems-lot/collecting-rare-stephen-king.shtml?utm_source=chatgpt.com",
+              "domain": "www.abebooks.com",
+              "title": "The ultimate prize for Stephen King collectors",
+              "description": "Bare Bones: Conversations on Terror with Stephen King  Published by Tim Underwood & Chuck Miller in 1988, this is a private press edition with lettered copies.  More  The Talisman  Written jointly wi...",
+              "breadcrumb": "abebooks.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.abebooks.com/servlet/SearchResults?an=Stephen+King&ds=50&dym=off&fe=on&pt=book&rollup=off&sortby=1&utm_source=chatgpt.com",
+              "domain": "www.abebooks.com",
+              "title": "Stephen King, First Edition: Books – AbeBooks",
+              "description": "…  The Shining - signed, inscribed, and dated by Stephen King - first edition, first printing, in original dust jacket  King, Stephen  Language: English  Published by Doubleday, Garden City New York,...",
+              "breadcrumb": "abebooks.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://web.baumanrarebooks.com/authors/Stephen-KING/205284?utm_source=chatgpt.com",
+              "domain": "web.baumanrarebooks.com",
+              "title": "Stephen KING Rare Books and First Editions at Bauman Rare Books",
+              "description": "STEPHEN KING  Found 28 books(s). Showing results 1 thru 28.  SIGNED BY STEPHEN KING  KING, Stephen. Doctor Sleep. Baltimore, 2013.  Signed limited first edition, issued the same year as the Scribner'...",
+              "breadcrumb": "baumanrarebooks.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://bidandsold.com/collector-guides/books-first-editions/rarest-stephen-king-books?utm_source=chatgpt.com",
+              "domain": "bidandsold.com",
+              "title": "Rarest Stephen King Books: Carrie, Salem’s Lot, Bachman and Dark Tower Grails",
+              "description": "RAREST STEPHEN KING BOOKS: CARRIE, SALEM’S LOT, BACHMAN AND DARK TOWER GRAILS  Stephen King collecting is dominated by edition-state details that ordinary marketplace titles often omit. A book-club C...",
+              "breadcrumb": "bidandsold.com"
+            }
+          ],
+          "sources": [
+            {
+              "type": "chat_gpt_source",
+              "title": "Stephen King First Editions: Complete List & Values",
+              "snippet": null,
+              "domain": "www.bbourse.ai",
+              "url": "https://www.bbourse.ai/authors/stephen-king?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "BBourse",
+              "publication_date": null,
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Stephen King Books In Order & First Edition Values (2026)",
+              "snippet": null,
+              "domain": "www.collectibledetective.com",
+              "url": "https://www.collectibledetective.com/books/stephen-king/?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "collectibledetective.com",
+              "publication_date": "2026-10-23 23:57:57 +00:00",
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Stephen King First Editions | Points & Values",
+              "snippet": null,
+              "domain": "myvolumes.com",
+              "url": "https://myvolumes.com/guides/stephen-king-first-editions/?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "MyVolumes",
+              "publication_date": "2026-10-19 00:00:00 +00:00",
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Stephen King First Edition Guide: How to Identify Every First Printing",
+              "snippet": null,
+              "domain": "www.bbourse.ai",
+              "url": "https://www.bbourse.ai/guides/stephen-king-first-editions?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "BBourse",
+              "publication_date": null,
+              "markdown": null
+            }
+          ],
+          "fan_out_queries": [
+            "most valuable Stephen King books first editions signed rare collectible prices"
+          ],
+          "brand_entities": [
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Stephen King novel, 1974",
+              "category": "book",
+              "markdown": "Carrie",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Stephen King novel, 1975",
+              "category": "book",
+              "markdown": "'Salem's Lot",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Stephen King novel, 1977",
+              "category": "book",
+              "markdown": "The Shining",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Stephen King short story collection, 1978",
+              "category": "book",
+              "markdown": "Night Shift",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Stephen King novel, 1978",
+              "category": "book",
+              "markdown": "The Stand",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Stephen King Dark Tower series, 1982",
+              "category": "book",
+              "markdown": "The Gunslinger",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Stephen King novel, Philtrum Press edition",
+              "category": "book",
+              "markdown": "The Eyes of the Dragon",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Stephen King privately printed serial, 1982–1985",
+              "category": "book",
+              "markdown": "The Plant",
+              "urls": null
+            }
+          ],
+          "se_results_count": 0,
+          "item_types": [
+            "chat_gpt_text",
+            "chat_gpt_images"
+          ],
+          "items_count": 17,
+          "items": [
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "markdown": "If you're looking for **the most valuable Stephen King books to collect or sell**, the biggest money is generally in early first editions, first printings, signed copies, and rare limited editions.\n\nHere are the books I'd look for, based on collector price guides and reported sales as of November 2026.\n\n# Most valuable Stephen King books\n\n",
+              "sources": null,
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "markdown": "![Stephen King \"Carrie\" US First Edition, First Printing w/Custom Clam Shell Case [F/NF]](https://images.openai.com/static-rsc-4/9S8-IKg2CnpD2pmz-5Fo-rA6jS-43Yv9R8w4fyjePrSMi9l3gdnYmM62O3ykwsn8S3EtgV2HYxZANccm3cDHKEXl2q3UZ4XnXvkNORrpg_PVG-d-Zn1fuMt9lfzeE2MRzDgYyTvv5NZJCMaQusbpuyzlNefqqlUIwhjcb1koWeI9haRLFFua70f0rLazxOdm?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://veryfinebooks.com/stephen-king-carrie-us-first-edition-printing-doubleday-1974-p6-code/",
+                  "alt": "Stephen King \"Carrie\" US First Edition, First Printing w/Custom Clam Shell Case [F/NF]",
+                  "image_url": "https://images.openai.com/static-rsc-4/9S8-IKg2CnpD2pmz-5Fo-rA6jS-43Yv9R8w4fyjePrSMi9l3gdnYmM62O3ykwsn8S3EtgV2HYxZANccm3cDHKEXl2q3UZ4XnXvkNORrpg_PVG-d-Zn1fuMt9lfzeE2MRzDgYyTvv5NZJCMaQusbpuyzlNefqqlUIwhjcb1koWeI9haRLFFua70f0rLazxOdm?purpose=fullsize",
+                  "markdown": "![Stephen King \"Carrie\" US First Edition, First Printing w/Custom Clam Shell Case [F/NF]](https://images.openai.com/static-rsc-4/9S8-IKg2CnpD2pmz-5Fo-rA6jS-43Yv9R8w4fyjePrSMi9l3gdnYmM62O3ykwsn8S3EtgV2HYxZANccm3cDHKEXl2q3UZ4XnXvkNORrpg_PVG-d-Zn1fuMt9lfzeE2MRzDgYyTvv5NZJCMaQusbpuyzlNefqqlUIwhjcb1koWeI9haRLFFua70f0rLazxOdm?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "markdown": "\n\n**1\\. Carrie \\(1974)**\n\n(Top collectible)\n\n- Unsigned first printing: \\$4,000–\\$4,500\n- Signed: potentially \\$8,000+\n- Publisher: Doubleday\n\n---\n\n",
+              "sources": null,
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Stephen King novel, 1974",
+                  "category": "book",
+                  "markdown": "Carrie",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "markdown": "![Salem's Lot by Stephen King: (1975) First Edition, Early Printing. | Ernestoic Books](https://images.openai.com/static-rsc-4/fZZh8kJu_D2xMQyMAq5uW4CxCo6kFKpjrT3eTVF4QcL2eInA7BwERGsR150B2X9eo7QoEkRJJIskUj1CF-1Xy0w6tsbShzBQfMkuowBTiq6Tv3S0i1G3hPp_kU_K8XBflWD7y7UsbhakaO3Vshos_93_OvgwPaO6z6_Rh1q9CgX3ATRdvNjf2RuFaIvyvea7?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.abebooks.co.uk/first-edition/Salems-Lot-Stephen-King-Doubleday-Company/32040255914/bd",
+                  "alt": "Salem's Lot by Stephen King: (1975) First Edition, Early Printing. | Ernestoic Books",
+                  "image_url": "https://images.openai.com/static-rsc-4/fZZh8kJu_D2xMQyMAq5uW4CxCo6kFKpjrT3eTVF4QcL2eInA7BwERGsR150B2X9eo7QoEkRJJIskUj1CF-1Xy0w6tsbShzBQfMkuowBTiq6Tv3S0i1G3hPp_kU_K8XBflWD7y7UsbhakaO3Vshos_93_OvgwPaO6z6_Rh1q9CgX3ATRdvNjf2RuFaIvyvea7?purpose=fullsize",
+                  "markdown": "![Salem's Lot by Stephen King: (1975) First Edition, Early Printing. | Ernestoic Books](https://images.openai.com/static-rsc-4/fZZh8kJu_D2xMQyMAq5uW4CxCo6kFKpjrT3eTVF4QcL2eInA7BwERGsR150B2X9eo7QoEkRJJIskUj1CF-1Xy0w6tsbShzBQfMkuowBTiq6Tv3S0i1G3hPp_kU_K8XBflWD7y7UsbhakaO3Vshos_93_OvgwPaO6z6_Rh1q9CgX3ATRdvNjf2RuFaIvyvea7?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 3,
+              "rank_absolute": 5,
+              "markdown": "\n\n**2\\. 'Salem's Lot \\(1975)**\n\n- Unsigned first printing: \\$750–\\$3,500+\n- Signed: potentially \\$12,000+\n- First-state dust jacket is especially valuable.\n\n---\n\n",
+              "sources": null,
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Stephen King novel, 1975",
+                  "category": "book",
+                  "markdown": "'Salem's Lot",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 3,
+              "rank_absolute": 6,
+              "markdown": "![The Shining | Stephen King | First edition](https://images.openai.com/static-rsc-4/kERHmRRvLf9Rh7p9VnDSVsS7eITF-91otL2j3cf_qiOz37oo2ydOEgC0itS8VkBiUqPfYJ0UmbFWjkEmJytSwTU2TZx4t4OT6T8DdMCeN33VP4_Px2L5hWuTjBAgct4Z0zMEczit9xomorzt0Oob-yeBdplGArtOMvqDoR3OfXKJlSGN60Cu9ZYD8SJILEJp?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.whitmorerarebooks.com/pages/books/7854/stephen-king/the-shining",
+                  "alt": "The Shining | Stephen King | First edition",
+                  "image_url": "https://images.openai.com/static-rsc-4/kERHmRRvLf9Rh7p9VnDSVsS7eITF-91otL2j3cf_qiOz37oo2ydOEgC0itS8VkBiUqPfYJ0UmbFWjkEmJytSwTU2TZx4t4OT6T8DdMCeN33VP4_Px2L5hWuTjBAgct4Z0zMEczit9xomorzt0Oob-yeBdplGArtOMvqDoR3OfXKJlSGN60Cu9ZYD8SJILEJp?purpose=fullsize",
+                  "markdown": "![The Shining | Stephen King | First edition](https://images.openai.com/static-rsc-4/kERHmRRvLf9Rh7p9VnDSVsS7eITF-91otL2j3cf_qiOz37oo2ydOEgC0itS8VkBiUqPfYJ0UmbFWjkEmJytSwTU2TZx4t4OT6T8DdMCeN33VP4_Px2L5hWuTjBAgct4Z0zMEczit9xomorzt0Oob-yeBdplGArtOMvqDoR3OfXKJlSGN60Cu9ZYD8SJILEJp?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "markdown": "\n\n**3\\. The Shining \\(1977)**\n\n- Unsigned first printing: \\$500–\\$2,200\n- Signed: potentially \\$7,000+\n\n---\n\n",
+              "sources": null,
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Stephen King novel, 1977",
+                  "category": "book",
+                  "markdown": "The Shining",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 4,
+              "rank_absolute": 8,
+              "markdown": "![Stephen King \"Night Shift\" First Edition, First Printing w/CustomSlipcase](https://images.openai.com/static-rsc-4/7eOu8kXvAjWR_wGbtM2xwCH_qwAmQ5xPO3IYrlcSZlBPZavDbqGMJbRsWcf8BG1iJIBMsOwEyFz9RQcpX0s-7Cj-Sk4uEpOZOG55FTGyUZzxkaqzSHjLxcLg8QKPCVlHoz6AThYYYFS0MUBauro7u5h9prgE8xuSvni7VTM4s-qzmJks2cG961PjeEO1Oifq?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://veryfinebooks.com/stephen-king-night-shift-first-edition-first-printing-S52-code-1978/",
+                  "alt": "Stephen King \"Night Shift\" First Edition, First Printing w/CustomSlipcase",
+                  "image_url": "https://images.openai.com/static-rsc-4/7eOu8kXvAjWR_wGbtM2xwCH_qwAmQ5xPO3IYrlcSZlBPZavDbqGMJbRsWcf8BG1iJIBMsOwEyFz9RQcpX0s-7Cj-Sk4uEpOZOG55FTGyUZzxkaqzSHjLxcLg8QKPCVlHoz6AThYYYFS0MUBauro7u5h9prgE8xuSvni7VTM4s-qzmJks2cG961PjeEO1Oifq?purpose=fullsize",
+                  "markdown": "![Stephen King \"Night Shift\" First Edition, First Printing w/CustomSlipcase](https://images.openai.com/static-rsc-4/7eOu8kXvAjWR_wGbtM2xwCH_qwAmQ5xPO3IYrlcSZlBPZavDbqGMJbRsWcf8BG1iJIBMsOwEyFz9RQcpX0s-7Cj-Sk4uEpOZOG55FTGyUZzxkaqzSHjLxcLg8QKPCVlHoz6AThYYYFS0MUBauro7u5h9prgE8xuSvni7VTM4s-qzmJks2cG961PjeEO1Oifq?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 5,
+              "rank_absolute": 9,
+              "markdown": "\n\n**4\\. Night Shift \\(1978)**\n\n- First printing: approximately \\$2,500–\\$4,500\n- Particularly desirable early collection.\n\n---\n\n",
+              "sources": null,
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Stephen King short story collection, 1978",
+                  "category": "book",
+                  "markdown": "Night Shift",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 5,
+              "rank_absolute": 10,
+              "markdown": "![The Stand ($12.95; First Printing; T39; Doubleday) by Stephen King: Fine Hardcover (1978) 1st Edition | true1stbooks](https://images.openai.com/static-rsc-4/Mf6EL_TINoWRh8LrXNbG9md7W5s71BhIF7HtRE63Gx5VOCm2POch8F0NPZxWu6Oq2akgbVNnB4Aa6u8xfTCcZRMSjvx7NO2JomF3qzXF13w_VE8K8vVbzVctKricUlao8tbbX5TVgr_fs6WhGlo7kfM5bfdej-E6ErYV9ufYxCl2M24sd8E6oznbJBcI3Nzh?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.abebooks.com/first-edition/Stand-%2412.95-First-Printing-T39-Doubleday/32396125201/bd",
+                  "alt": "The Stand ($12.95; First Printing; T39; Doubleday) by Stephen King: Fine Hardcover (1978) 1st Edition | true1stbooks",
+                  "image_url": "https://images.openai.com/static-rsc-4/Mf6EL_TINoWRh8LrXNbG9md7W5s71BhIF7HtRE63Gx5VOCm2POch8F0NPZxWu6Oq2akgbVNnB4Aa6u8xfTCcZRMSjvx7NO2JomF3qzXF13w_VE8K8vVbzVctKricUlao8tbbX5TVgr_fs6WhGlo7kfM5bfdej-E6ErYV9ufYxCl2M24sd8E6oznbJBcI3Nzh?purpose=fullsize",
+                  "markdown": "![The Stand ($12.95; First Printing; T39; Doubleday) by Stephen King: Fine Hardcover (1978) 1st Edition | true1stbooks](https://images.openai.com/static-rsc-4/Mf6EL_TINoWRh8LrXNbG9md7W5s71BhIF7HtRE63Gx5VOCm2POch8F0NPZxWu6Oq2akgbVNnB4Aa6u8xfTCcZRMSjvx7NO2JomF3qzXF13w_VE8K8vVbzVctKricUlao8tbbX5TVgr_fs6WhGlo7kfM5bfdej-E6ErYV9ufYxCl2M24sd8E6oznbJBcI3Nzh?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 6,
+              "rank_absolute": 11,
+              "markdown": "\n\n**5\\. The Stand \\(1978)**\n\n- Unsigned first printing: \\$450–\\$1,750\n- Signed: potentially \\$5,000+\n\n---\n\n",
+              "sources": null,
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Stephen King novel, 1978",
+                  "category": "book",
+                  "markdown": "The Stand",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 6,
+              "rank_absolute": 12,
+              "markdown": "![The Gunslinger (The Dark Tower, Book 1)\nby Stephen King |\nHardcover |\n1982 |\nDonald m Grant Publishing Inc |\n9780937986509 |\nBiblio](https://images.openai.com/static-rsc-4/xDvTQGZi2A4hTWlRyU2rODk7hrTmjJIAAU6oAHD1DbtXp6xCzEd4CSpJjNXiTuvnGOsMoUl0Sjf5DtPAc6zj1xlLLGQyqNVLFPDvWt80E10g2FCWU9_kI06p-TReneQ7qnQPxpSQHYPWyrChF0qvbS0phYNsqZ9QiO8FlH0UhBBjhGqBD85k75Qh5yy9ghIs?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.biblio.com/book/gunslinger-dark-tower-book-1/d/1566861627",
+                  "alt": "The Gunslinger (The Dark Tower, Book 1)\nby Stephen King |\nHardcover |\n1982 |\nDonald m Grant Publishing Inc |\n9780937986509 |\nBiblio",
+                  "image_url": "https://images.openai.com/static-rsc-4/xDvTQGZi2A4hTWlRyU2rODk7hrTmjJIAAU6oAHD1DbtXp6xCzEd4CSpJjNXiTuvnGOsMoUl0Sjf5DtPAc6zj1xlLLGQyqNVLFPDvWt80E10g2FCWU9_kI06p-TReneQ7qnQPxpSQHYPWyrChF0qvbS0phYNsqZ9QiO8FlH0UhBBjhGqBD85k75Qh5yy9ghIs?purpose=fullsize",
+                  "markdown": "![The Gunslinger (The Dark Tower, Book 1)\nby Stephen King |\nHardcover |\n1982 |\nDonald m Grant Publishing Inc |\n9780937986509 |\nBiblio](https://images.openai.com/static-rsc-4/xDvTQGZi2A4hTWlRyU2rODk7hrTmjJIAAU6oAHD1DbtXp6xCzEd4CSpJjNXiTuvnGOsMoUl0Sjf5DtPAc6zj1xlLLGQyqNVLFPDvWt80E10g2FCWU9_kI06p-TReneQ7qnQPxpSQHYPWyrChF0qvbS0phYNsqZ9QiO8FlH0UhBBjhGqBD85k75Qh5yy9ghIs?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 7,
+              "rank_absolute": 13,
+              "markdown": "\n\n**6\\. The Gunslinger \\(1982)**\n\n- First trade edition: \\$750–\\$2,300\n- Signed limited edition of 500 copies: potentially \\$5,000–\\$15,000.\n\n---\n\n",
+              "sources": null,
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Stephen King Dark Tower series, 1982",
+                  "category": "book",
+                  "markdown": "The Gunslinger",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 7,
+              "rank_absolute": 14,
+              "markdown": "![The Eyes of the Dragon | Stephen King | First edition, number 344 of 1000 copies](https://images.openai.com/static-rsc-4/aTLGftbldcW3OgfT5r1LMrDJHaQM1IYY1F__UGeC_DzV4oLFnGLA_sxpMi9DuOVBLWPcKvtJPCyRTSOZhKH1mQZSV_ELBCYu-zCiNdkV70L3MdkUE4ZLSztIqbYS7iHEAsygvPk_q8ef3DWCQar0O5ydxyjT5Djrk1NHycAYhjmFPiMMCOd38GIUzvP6OTjr?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.perusethestacks.com/pages/books/8055/stephen-king/the-eyes-of-the-dragon?soldItem=true",
+                  "alt": "The Eyes of the Dragon | Stephen King | First edition, number 344 of 1000 copies",
+                  "image_url": "https://images.openai.com/static-rsc-4/aTLGftbldcW3OgfT5r1LMrDJHaQM1IYY1F__UGeC_DzV4oLFnGLA_sxpMi9DuOVBLWPcKvtJPCyRTSOZhKH1mQZSV_ELBCYu-zCiNdkV70L3MdkUE4ZLSztIqbYS7iHEAsygvPk_q8ef3DWCQar0O5ydxyjT5Djrk1NHycAYhjmFPiMMCOd38GIUzvP6OTjr?purpose=fullsize",
+                  "markdown": "![The Eyes of the Dragon | Stephen King | First edition, number 344 of 1000 copies](https://images.openai.com/static-rsc-4/aTLGftbldcW3OgfT5r1LMrDJHaQM1IYY1F__UGeC_DzV4oLFnGLA_sxpMi9DuOVBLWPcKvtJPCyRTSOZhKH1mQZSV_ELBCYu-zCiNdkV70L3MdkUE4ZLSztIqbYS7iHEAsygvPk_q8ef3DWCQar0O5ydxyjT5Djrk1NHycAYhjmFPiMMCOd38GIUzvP6OTjr?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 8,
+              "rank_absolute": 15,
+              "markdown": "\n\n**7\\. The Eyes of the Dragon \\(1984)**\n\n- Limited edition: approximately \\$1,750–\\$3,000\n- Only 1,250 numbered copies.\n\n---\n\n",
+              "sources": null,
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Stephen King novel, Philtrum Press edition",
+                  "category": "book",
+                  "markdown": "The Eyes of the Dragon",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 8,
+              "rank_absolute": 16,
+              "markdown": "![Stephen King \"The Plant\" Signed Limited Edition (Fine 3 Vol. set) | VeryFineBooks.com](https://images.openai.com/static-rsc-4/xnERihJsG1VZKsCP21o7IJW0fhMZBDRGrBhcvvrVH72HSmAoXM-6feeZaS5jg81QG7o_8UxL-VlsfvxSIgCqwFJtxkzKzQYtEkZ_DenucAsAh4HFOxkrZnEPkcESe6Qsd21Jp-IlCAfUxwjglXa1wZm6bt4tNEwpeVatT9uX777NxGpImzns3fx07OXvw4Dv?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://veryfinebooks.com/stephen-king-the-plant-trilogy-signed-limited-edition-3-vol-matching-set-inscribed-to-marty-ketchum-leather-bound-tray-cased-fine/",
+                  "alt": "Stephen King \"The Plant\" Signed Limited Edition (Fine 3 Vol. set) | VeryFineBooks.com",
+                  "image_url": "https://images.openai.com/static-rsc-4/xnERihJsG1VZKsCP21o7IJW0fhMZBDRGrBhcvvrVH72HSmAoXM-6feeZaS5jg81QG7o_8UxL-VlsfvxSIgCqwFJtxkzKzQYtEkZ_DenucAsAh4HFOxkrZnEPkcESe6Qsd21Jp-IlCAfUxwjglXa1wZm6bt4tNEwpeVatT9uX777NxGpImzns3fx07OXvw4Dv?purpose=fullsize",
+                  "markdown": "![Stephen King \"The Plant\" Signed Limited Edition (Fine 3 Vol. set) | VeryFineBooks.com](https://images.openai.com/static-rsc-4/xnERihJsG1VZKsCP21o7IJW0fhMZBDRGrBhcvvrVH72HSmAoXM-6feeZaS5jg81QG7o_8UxL-VlsfvxSIgCqwFJtxkzKzQYtEkZ_DenucAsAh4HFOxkrZnEPkcESe6Qsd21Jp-IlCAfUxwjglXa1wZm6bt4tNEwpeVatT9uX777NxGpImzns3fx07OXvw4Dv?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 9,
+              "rank_absolute": 17,
+              "markdown": "\n\n**8\\. The Plant \\(1982–1985)**\n\n- Complete three-part collection: estimated \\$15,000–\\$25,000\n- Extremely scarce privately printed editions.\n\nSources: [www.bbourse.ai](https://www.bbourse.ai/authors/stephen-king?utm_source=chatgpt.com)[www.collectibledetective.com](https://www.collectibledetective.com/books/stephen-king/?utm_source=chatgpt.com)[myvolumes.com](https://myvolumes.com/guides/stephen-king-first-editions/?utm_source=chatgpt.com)[www.bbourse.ai](https://www.bbourse.ai/guides/stephen-king-first-editions?utm_source=chatgpt.com)\n\n# What makes a Stephen King book valuable?\n\nThe most important things to check\\:\n\n1. **First edition AND first printing.** Just saying first edition isn't enough.\n2. **Original dust jacket.** Especially important for early Doubleday books.\n3. **Author's actual signature.**\n4. **Condition.** No water damage, writing, missing pages or heavily damaged jackets.\n5. **Limited print runs.** Particularly Donald M. Grant and Philtrum Press editions.\n\n# I can help identify valuable books in your collection\n\nIf you own Stephen King books, I'd be interested in helping you identify potential treasures.\n\n**Which are you interested in?**\n\nI own Stephen King books and want to know their value\n\nI want to find rare books to buy\n\nI want to identify valuable first editions\n\nI want to sell a collection\n\n---\n\nWhich titles do you have? (Optional)\n\n[Textarea placeholder: Carrie, The Shining, The Stand, etc\\.] (Current value unavailable.)\n\n[Continue]\n\nYou might have a book worth hundreds or even thousands of dollars sitting on your shelf.",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Stephen King First Editions: Complete List & Values",
+                  "snippet": null,
+                  "domain": "www.bbourse.ai",
+                  "url": "https://www.bbourse.ai/authors/stephen-king?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "BBourse",
+                  "publication_date": null,
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Stephen King Books In Order & First Edition Values (2026)",
+                  "snippet": null,
+                  "domain": "www.collectibledetective.com",
+                  "url": "https://www.collectibledetective.com/books/stephen-king/?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "collectibledetective.com",
+                  "publication_date": "2026-10-23 23:57:57 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Stephen King First Editions | Points & Values",
+                  "snippet": null,
+                  "domain": "myvolumes.com",
+                  "url": "https://myvolumes.com/guides/stephen-king-first-editions/?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "MyVolumes",
+                  "publication_date": "2026-10-19 00:00:00 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Stephen King First Edition Guide: How to Identify Every First Printing",
+                  "snippet": null,
+                  "domain": "www.bbourse.ai",
+                  "url": "https://www.bbourse.ai/guides/stephen-king-first-editions?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "BBourse",
+                  "publication_date": null,
+                  "markdown": null
+                }
+              ],
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Stephen King privately printed serial, 1982–1985",
+                  "category": "book",
+                  "markdown": "The Plant",
+                  "urls": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

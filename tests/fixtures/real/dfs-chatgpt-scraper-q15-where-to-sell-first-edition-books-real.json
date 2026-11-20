@@ -1,0 +1,746 @@
+{
+  "version": "0.1.20261117",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "19.3057 sec.",
+  "cost": 0.004,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "11201407-2831-0629-0000-cb9f11168b46",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "19.1362 sec.",
+      "cost": 0.004,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "chat_gpt",
+        "llm_scraper",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "live",
+        "se": "chat_gpt",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "where to sell first edition books",
+        "force_web_search": true,
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "where to sell first edition books",
+          "location_code": 2840,
+          "language_code": "en",
+          "model": "gpt-6",
+          "check_url": "https://chatgpt.com/?prompt=where%20to%20sell%20first%20edition%20books&hints=search",
+          "datetime": "2026-11-20 14:08:18 +00:00",
+          "markdown": "If you're looking to sell **first-edition books**, there are several good options, particularly in New York City. I would start with specialist rare-book dealers before trying general online marketplaces.\n\n## Best places in New York City to sell first editions\n\n\n![Bauman Rare Books moves New York City gallery and offices - New York Business Journal](https://images.openai.com/static-rsc-4/_uBK38VDwgULG0DGA3OJSQZM49Ko3QN7va-QYZWuJ13GXjCW1VMxUWSeRJvrgOtAcbe94-sK9e_5p4gowWruxYVJJiVqG5nAM13H9ZkZrPkjY3NPIBFhd3p1cJgP019RWm7Ox7ltGc3iHEXjsm6vSaM8tGDSO5wFb_9eG52yf1HoPRq5Ut-_QEluIWnEjz1N?purpose=fullsize)\n\n**1\\. Manhattan Rare Book Company**\n\n52 Vanderbilt Avenue, Midtown Manhattan.\n\nActively looking to acquire fine first editions. Particularly good starting point for collectible literary books.\n\nWebsite: [Submit books for consideration](https://www.manhattanrarebooks.com/books-to-sell.php)\n\n---\n\n![Bauman Rare Books moves New York City gallery and offices - New York Business Journal](https://images.openai.com/static-rsc-4/KDjj0sJo8nOUDUswxhkdB9LPNXSNSJ_SiYaLBzojjhUdUyp2j9t8ILIJNnR2jnjerSSW72PgxMdnV25YpxeiGkLGXzkAfxMwuNgxNpeZ0O8xi7fssyCdWSxbh_ifSxVPcMsQpZjOjta_Kt5pL2NnpB6-529zjHsH_NfStqqOTXtk-OFm1QN-Eb4rbzgcA0e_?purpose=fullsize)\n\n**2\\. Bauman Rare Books**\n\n485 Madison Avenue, Manhattan.\n\nBuys rare books, first editions, signed books and historical documents.\n\nWebsite: [Selling to Bauman Rare Books](https://www.baumanrarebooks.com/selling-something.aspx)\n\n---\n\n![Find Rare and Out of Print Books at the Best Used Bookstores in NYC - Capitalize My Title](https://images.openai.com/static-rsc-4/D5CLr3OjRcE2uHKS19Lzkhmh9jVvUIqeVospBE5zM9svC0iTyvVz6u4l0OOmHPcnttvUFTuIefMCx95XKj44G5SBvfOF54Xz_jL_jDidAw4k4FW49HVRmDXg3TYDz4tqxOvgU2BiArxe-JuM6njocYuDktIVCknuKSxidncBWf88TvzfftVAbE8r_3XG0pyw?purpose=fullsize)\n\n**3\\. Rare Book Buyer**\n\n1050 Second Avenue, Gallery 90.\n\nSpecializes in buying rare books and manuscripts. Offers evaluations and buying services.\n\nCall: 646-469-1851.\n\n---\n\n![A Review of Westsider Rare & Used Books — James H Duncan](https://images.openai.com/static-rsc-4/RzAuoTlpxdPmVp5oPb8TXUPCZZxAkA6--C6q64zdkowyRKg0hG5bucX_Qku5W_Nukkwn-i7xnFPW48JMOZO1_OgM-hk-LvAq5uz8pQqbjewHC1XEGP8pTsC34fjV_QfcXcdBwFt9jDYa9rpo_zNuSkKbkMO79rSMxj3r0ykBD8w1eSz38sd3cGra0une3UYX?purpose=fullsize)\n\n**4\\. Westsider Rare & Used Books**\n\n2246 Broadway, Upper West Side.\n\nBuys first editions, signed books, limited editions and other collectibles.\n\nEmail: info\\@westsiderbooks.com\n\nWebsite: [Buying and selling information](https://westsiderbooks.com/buyselltrade)\n\n---\n\n![Ambling Around Argosy Books — Read + Roam](https://images.openai.com/static-rsc-4/xjeH0jfq7wKGH0EDwzwnVuQFRDCPU5k987Xv1s9iPiAR2fUGelk69DmqpBoWYgaU7sILTVr4LduoeS4dbtW06WeK5_BkUl8NcwnIf58_LQ5x1khdtcLeb_lMX1cEZ9zL2oR5x7aSxqdWYhEP_H1L8efZTsRFLFv9aCwOmKdY5l9w6zQ23bNltbN2bkLsYmeC?purpose=fullsize)\n\n**5\\. Argosy Book Store**\n\n116 East 59th Street.\n\nEstablished antiquarian bookstore handling collectible and older books.\n\nPhone: 212-753-4455.\n\nWebsite: [Argosy Book Store](https://www.argosybooks.com/)\n\n## National auction houses\n\nIf you have particularly valuable first editions, consider getting an estimate from these auction houses before accepting a dealer's offer.\n\n![US-ART-AUCTION-RELIGION](https://images.openai.com/static-rsc-4/X7PnPA-R6xxO8PHUoGF5bGv4-Bn9PdSFblXZdhQVfn-pXe7Z7sjoNe0XyjqRtfjB1A_gBXdrexqHlfwna4MyTJ6Pi4DTW-dW7HhNQnfaRXAzBReQD_F7NFvOmne1YfAJBrax0mzYSiU8YTntQzSjEB-XjnzAgVOqUAXtZv1rr4o6uwGY6YRxLJpU_7FBib-u?purpose=fullsize)\n\n**Sotheby's**\n\nOffers complimentary preliminary estimates for rare books and collections.\n\n[Submit books to Sotheby's](https://www.sothebys.com/en/sell/books?utm_source=chatgpt.com)\n\n![Going Once! 11 World-Class Auctioneers Tell Us the Stories and Strange Rituals Behind Their Luckiest Gavels](https://images.openai.com/static-rsc-4/hMDwbqwznABm-yJyjviuCPbtpiS6jjxbUvqdEEW7hSwborbHenf_VXI56kzR3zDfAmsvbwqXsWcliaMfRoQsdURHxLsJacdyeD6h87rzViBDdwCygzlyHkHRi_FkR4Vihp_nlV7jhdYnKJ13-KmG5C1tfN0CcFBVecblQh50Rg71lqXNBy4xxTMYG1wcKkFT?purpose=fullsize)\n\n**Christie's**\n\nSpecializes in rare books, manuscripts and important literary works.\n\n[Request a free estimate](https://www.christies.com/en/selling-guide/rare-books?utm_source=chatgpt.com)\n\n## Online selling options\n\n- [eBay](https://www.ebay.com/) – Good for selling individual collectible books directly.\n- [AbeBooks](https://www.abebooks.com/) – Marketplace specializing in rare and collectible books.\n- [Biblio](https://www.biblio.com/) – Another marketplace for antiquarian and collectible books.\n\n## How to get the best price\n\nBefore selling\\:\n\n1. Confirm that the book is genuinely a first edition and, ideally, first printing.\n2. Check whether it has its original dust jacket.\n3. Look for an author's signature or inscription.\n4. Compare actual sold prices, not just asking prices.\n5. Get at least two or three offers before accepting.\n\n---\n\n## Let me help identify the best buyer for your books.\n\nI have three questions\\:\n\n1. **What authors or titles do you have?** For example, Hemingway, F. Scott Fitzgerald, Stephen King, Tolkien, Dickens, etc.\n2. **Are they signed by the authors?**\n3. **Approximately how many books are you selling?** One or two, 5–20, or an entire collection?\n\nYou can also upload photographs of the books.\n\nI can help identify which ones might be valuable, estimate potential resale values, and narrow down the best places to sell them.",
+          "search_results": [
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://firstfolio.io/blog/where-to-sell-old-and-rare-books?utm_source=chatgpt.com",
+              "domain": "firstfolio.io",
+              "title": "Where to Sell Old and Rare Books: Dealers, Auctions, eBay, and Bulk",
+              "description": "Book Collecting  September 19, 2026  12 min read  WHERE TO SELL OLD AND RARE BOOKS  The right place to sell a book depends on what it is worth. The best venues for valuable, mid-value, and common boo...",
+              "breadcrumb": "firstfolio.io"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.sothebys.com/en/sell/books?utm_source=chatgpt.com",
+              "domain": "www.sothebys.com",
+              "title": "How to Sell Rare Books with Sotheby's | Sotheby’s",
+              "description": "HOW TO SELL RARE BOOKS WITH SOTHEBY'S  * ## Rare Book Consignment  Sotheby’s began as an auctioneer of books in 1744. More than 270 years later, our dedicated team of specialists continues to lead th...",
+              "breadcrumb": "sothebys.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.sothebys.com/en/departments/books-manuscripts?utm_source=chatgpt.com",
+              "domain": "www.sothebys.com",
+              "title": "Rare Books & Manuscript Auctions | Sotheby’s",
+              "description": "BOOKS & MANUSCRIPTS  UPCOMING AUCTIONS & EXHIBITIONS  Type: auction Category: Upcoming Auction Magnum Opus | Evening Auction 21 October 2026 | 7:00 PM EDT | New York  View Auction  Type: auction Categ...",
+              "breadcrumb": "sothebys.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://thefirstedition.com/sell-rare-books/?utm_source=chatgpt.com",
+              "domain": "thefirstedition.com",
+              "title": "Sell Your Rare Books | The First Edition Rare Books",
+              "description": "* # Sell Your Rare Books  Do you have a rare book that you are considering selling? First Edition Rare Books is interested in buying your specific rare book or an entire library. We offer competitive...",
+              "breadcrumb": "thefirstedition.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://thefirstedition.com/about/?utm_source=chatgpt.com",
+              "domain": "thefirstedition.com",
+              "title": "About - The First Edition Rare Books",
+              "description": "* # About  The First Edition offers collectors the finest selection of notable rare books by important world figures. Located in Cincinnati, Ohio, Indianapolis, Indiana, and Vero Beach, Florida, we ta...",
+              "breadcrumb": "thefirstedition.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.britannicauctions.com/first-editions/?utm_source=chatgpt.com",
+              "domain": "www.britannicauctions.com",
+              "title": "Sell First Edition Books | Rare Book Auctions & Consignment",
+              "description": "First Edition Book Auctions  SELL FIRST EDITION BOOKS & RARE BOOK COLLECTIONS AT AUCTION  Britannic Auctions helps families, collectors, estates, and dealers sell first edition books, signed books, m...",
+              "breadcrumb": "britannicauctions.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.christies.com/en/selling-guide/rare-books?utm_source=chatgpt.com",
+              "domain": "www.christies.com",
+              "title": "How to Sell Your Rare Books | Antique & Rare Book Appraisals",
+              "description": "HOW TO SELL RARE BOOKS    SELL YOUR RARE BOOKS WITH CHRISTIE’S  Selling a rare book with Christie’s is a smooth and effortless experience. Our books and manuscripts specialists will dedicate their exp...",
+              "breadcrumb": "christies.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://d3dzzbbvj9im7s.cloudfront.net/sell-old-rare-books?utm_source=chatgpt.com",
+              "domain": "d3dzzbbvj9im7s.cloudfront.net",
+              "title": "Sell Old & Rare Books | Peter Harrington, London & New York",
+              "description": "OPEN TO DISCOVERIES  WHERE TO SELL OLD AND RARE BOOKS  Overview Current Requests FAQ Contact Form  OPEN TO DISCOVERIES  SELLING RARE AND FIRST EDITIONS  If you are wondering where to sell old books,...",
+              "breadcrumb": "d3dzzbbvj9im7s.cloudfront.net"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.pressmark.co/collecting/where-to-buy?utm_source=chatgpt.com",
+              "domain": "www.pressmark.co",
+              "title": "Where to Buy: Dealers, Auctions, Online — Collecting Guide | Pressmark",
+              "description": "WHERE TO BUY: DEALERS, AUCTIONS, ONLINE  The channels of the trade, and what each is actually for  THE SHAPE OF THE TRADE  Rare books reach collectors through four broad channels: specialist dealers,...",
+              "breadcrumb": "pressmark.co"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://westsiderbooks.com/buyselltrade?utm_source=chatgpt.com",
+              "domain": "westsiderbooks.com",
+              "title": "Sell Rare and Used Books NYC | Westsider Rare and Used Books",
+              "description": "SELL TO WESTSIDER  BUYING HOURS  WEEKDAYS FROM NOON TO 6PM  ON SUNDAY BY APPOINTMENT ONLY  * ##### Please call ahead, especially for lots larger than two boxes  * All purchasing is done through the b...",
+              "breadcrumb": "westsiderbooks.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.manhattanrarebooks.com/books-to-sell.php?utm_source=chatgpt.com",
+              "domain": "www.manhattanrarebooks.com",
+              "title": "Books to Sell | The Manhattan Rare Book Company",
+              "description": "BOOKS TO SELL  The Manhattan Rare Book Company is always looking for fine first editions to acquire. If you think you have something valuable, please feel free to email us at: info@manhattanrarebooks...",
+              "breadcrumb": "manhattanrarebooks.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.baumanrarebooks.com/selling-something.aspx?utm_source=chatgpt.com",
+              "domain": "www.baumanrarebooks.com",
+              "title": "Sell Your Rare Books & First Edition to Bauman Rare Books",
+              "description": "BOOKS TO SELL  At Bauman Rare Books, we're passionate about buying rare books--especially first editions--as well as valuable letters and manuscripts. In fact, we might be interested in buying them f...",
+              "breadcrumb": "baumanrarebooks.com"
+            }
+          ],
+          "sources": [
+            {
+              "type": "chat_gpt_source",
+              "title": "Submit books for consideration",
+              "snippet": null,
+              "domain": "www.manhattanrarebooks.com",
+              "url": "https://www.manhattanrarebooks.com/books-to-sell.php",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[Submit books for consideration](https://www.manhattanrarebooks.com/books-to-sell.php)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Selling to Bauman Rare Books",
+              "snippet": null,
+              "domain": "www.baumanrarebooks.com",
+              "url": "https://www.baumanrarebooks.com/selling-something.aspx",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[Selling to Bauman Rare Books](https://www.baumanrarebooks.com/selling-something.aspx)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Buying and selling information",
+              "snippet": null,
+              "domain": "westsiderbooks.com",
+              "url": "https://westsiderbooks.com/buyselltrade",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[Buying and selling information](https://westsiderbooks.com/buyselltrade)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Argosy Book Store",
+              "snippet": null,
+              "domain": "www.argosybooks.com",
+              "url": "https://www.argosybooks.com/",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[Argosy Book Store](https://www.argosybooks.com/)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Submit books to Sotheby's",
+              "snippet": null,
+              "domain": "www.sothebys.com",
+              "url": "https://www.sothebys.com/en/sell/books?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[Submit books to Sotheby's](https://www.sothebys.com/en/sell/books?utm_source=chatgpt.com)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Request a free estimate",
+              "snippet": null,
+              "domain": "www.christies.com",
+              "url": "https://www.christies.com/en/selling-guide/rare-books?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[Request a free estimate](https://www.christies.com/en/selling-guide/rare-books?utm_source=chatgpt.com)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "eBay",
+              "snippet": null,
+              "domain": "www.ebay.com",
+              "url": "https://www.ebay.com/",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[eBay](https://www.ebay.com/)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "AbeBooks",
+              "snippet": null,
+              "domain": "www.abebooks.com",
+              "url": "https://www.abebooks.com/",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[AbeBooks](https://www.abebooks.com/)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Biblio",
+              "snippet": null,
+              "domain": "www.biblio.com",
+              "url": "https://www.biblio.com/",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[Biblio](https://www.biblio.com/)"
+            }
+          ],
+          "fan_out_queries": [
+            "where to sell first edition books rare book dealers auction houses online consignment 2026"
+          ],
+          "brand_entities": [
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Manhattan Rare Book Company",
+              "category": "local_business",
+              "markdown": "Manhattan Rare Book Company",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Bauman Rare Books",
+              "category": "local_business",
+              "markdown": "Bauman Rare Books",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Rare Book Buyer",
+              "category": "local_business",
+              "markdown": "Rare Book Buyer",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Westsider Rare & Used Books",
+              "category": "local_business",
+              "markdown": "Westsider Rare & Used Books",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Argosy Book Store",
+              "category": "local_business",
+              "markdown": "Argosy Book Store",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "International auction house",
+              "category": "company",
+              "markdown": "Sotheby's",
+              "urls": null
+            }
+          ],
+          "se_results_count": 0,
+          "item_types": [
+            "chat_gpt_text",
+            "chat_gpt_local_businesses",
+            "chat_gpt_images"
+          ],
+          "items_count": 17,
+          "items": [
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "markdown": "If you're looking to sell **first-edition books**, there are several good options, particularly in New York City. I would start with specialist rare-book dealers before trying general online marketplaces.\n\n## Best places in New York City to sell first editions\n",
+              "sources": null,
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_local_businesses",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "markdown": null,
+              "items": [
+                {
+                  "type": "chat_gpt_local_businesses_element",
+                  "title": "Manhattan Rare Book Company",
+                  "description": "Rare book store",
+                  "address": "52 Vanderbilt Ave Ste 1501, New York, NY 10017, United States",
+                  "phone": "+1 212-326-8907",
+                  "reviews_count": 13,
+                  "url": "http://www.manhattanrarebooks.com/",
+                  "domain": "www.manhattanrarebooks.com",
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.5,
+                    "votes_count": 13,
+                    "rating_max": 5
+                  }
+                },
+                {
+                  "type": "chat_gpt_local_businesses_element",
+                  "title": "Bauman Rare Books",
+                  "description": "Book store",
+                  "address": "485 Madison Ave, New York, NY 10022, United States",
+                  "phone": "+1 212-751-0011",
+                  "reviews_count": 11,
+                  "url": "https://www.baumanrarebooks.com/about-us/locations.aspx?location=newyork",
+                  "domain": "www.baumanrarebooks.com",
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.8,
+                    "votes_count": 11,
+                    "rating_max": 5
+                  }
+                },
+                {
+                  "type": "chat_gpt_local_businesses_element",
+                  "title": "Rare Book Buyer",
+                  "description": "Rare book store",
+                  "address": "Antique Center Gallery, 1050 2nd Ave #90, New York, NY 10022, United States",
+                  "phone": "+1 646-469-1851",
+                  "reviews_count": 7,
+                  "url": "http://www.rarebookbuyer.com/",
+                  "domain": "www.rarebookbuyer.com",
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.9,
+                    "votes_count": 7,
+                    "rating_max": 5
+                  }
+                },
+                {
+                  "type": "chat_gpt_local_businesses_element",
+                  "title": "Westsider Rare & Used Books Inc.",
+                  "description": "Used book store",
+                  "address": "2246 Broadway, New York, NY 10024, United States",
+                  "phone": "+1 212-362-0706",
+                  "reviews_count": 155,
+                  "url": "https://westsiderbooks.com/",
+                  "domain": "westsiderbooks.com",
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4,
+                    "votes_count": 155,
+                    "rating_max": 5
+                  }
+                },
+                {
+                  "type": "chat_gpt_local_businesses_element",
+                  "title": "Argosy Book Store",
+                  "description": "Book store",
+                  "address": "116 E 59th St, New York, NY 10022, United States",
+                  "phone": "+1 212-753-4455",
+                  "reviews_count": 85,
+                  "url": "http://www.argosybooks.com/",
+                  "domain": "www.argosybooks.com",
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.3,
+                    "votes_count": 85,
+                    "rating_max": 5
+                  }
+                },
+                {
+                  "type": "chat_gpt_local_businesses_element",
+                  "title": "James Cummins Bookseller",
+                  "description": "Rare book store",
+                  "address": "699 Madison Ave #7, New York, NY 10065, United States",
+                  "phone": "+1 212-688-6441",
+                  "reviews_count": 5,
+                  "url": "http://www.jamescumminsbookseller.com/",
+                  "domain": "www.jamescumminsbookseller.com",
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 5,
+                    "rating_max": 5
+                  }
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "markdown": "\n\n",
+              "sources": null,
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "markdown": "![Bauman Rare Books moves New York City gallery and offices - New York Business Journal](https://images.openai.com/static-rsc-4/_uBK38VDwgULG0DGA3OJSQZM49Ko3QN7va-QYZWuJ13GXjCW1VMxUWSeRJvrgOtAcbe94-sK9e_5p4gowWruxYVJJiVqG5nAM13H9ZkZrPkjY3NPIBFhd3p1cJgP019RWm7Ox7ltGc3iHEXjsm6vSaM8tGDSO5wFb_9eG52yf1HoPRq5Ut-_QEluIWnEjz1N?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.bizjournals.com/newyork/news/2024/10/07/bauman-rare-books-moves-nyc-gallery-office.html",
+                  "alt": "Bauman Rare Books moves New York City gallery and offices - New York Business Journal",
+                  "image_url": "https://images.openai.com/static-rsc-4/_uBK38VDwgULG0DGA3OJSQZM49Ko3QN7va-QYZWuJ13GXjCW1VMxUWSeRJvrgOtAcbe94-sK9e_5p4gowWruxYVJJiVqG5nAM13H9ZkZrPkjY3NPIBFhd3p1cJgP019RWm7Ox7ltGc3iHEXjsm6vSaM8tGDSO5wFb_9eG52yf1HoPRq5Ut-_QEluIWnEjz1N?purpose=fullsize",
+                  "markdown": "![Bauman Rare Books moves New York City gallery and offices - New York Business Journal](https://images.openai.com/static-rsc-4/_uBK38VDwgULG0DGA3OJSQZM49Ko3QN7va-QYZWuJ13GXjCW1VMxUWSeRJvrgOtAcbe94-sK9e_5p4gowWruxYVJJiVqG5nAM13H9ZkZrPkjY3NPIBFhd3p1cJgP019RWm7Ox7ltGc3iHEXjsm6vSaM8tGDSO5wFb_9eG52yf1HoPRq5Ut-_QEluIWnEjz1N?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 3,
+              "rank_absolute": 5,
+              "markdown": "\n\n**1\\. Manhattan Rare Book Company**\n\n52 Vanderbilt Avenue, Midtown Manhattan.\n\nActively looking to acquire fine first editions. Particularly good starting point for collectible literary books.\n\nWebsite: [Submit books for consideration](https://www.manhattanrarebooks.com/books-to-sell.php)\n\n---\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Submit books for consideration",
+                  "snippet": null,
+                  "domain": "www.manhattanrarebooks.com",
+                  "url": "https://www.manhattanrarebooks.com/books-to-sell.php",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[Submit books for consideration](https://www.manhattanrarebooks.com/books-to-sell.php)"
+                }
+              ],
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Manhattan Rare Book Company",
+                  "category": "local_business",
+                  "markdown": "Manhattan Rare Book Company",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 2,
+              "rank_absolute": 6,
+              "markdown": "![Bauman Rare Books moves New York City gallery and offices - New York Business Journal](https://images.openai.com/static-rsc-4/KDjj0sJo8nOUDUswxhkdB9LPNXSNSJ_SiYaLBzojjhUdUyp2j9t8ILIJNnR2jnjerSSW72PgxMdnV25YpxeiGkLGXzkAfxMwuNgxNpeZ0O8xi7fssyCdWSxbh_ifSxVPcMsQpZjOjta_Kt5pL2NnpB6-529zjHsH_NfStqqOTXtk-OFm1QN-Eb4rbzgcA0e_?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.bizjournals.com/newyork/news/2024/10/07/bauman-rare-books-moves-nyc-gallery-office.html",
+                  "alt": "Bauman Rare Books moves New York City gallery and offices - New York Business Journal",
+                  "image_url": "https://images.openai.com/static-rsc-4/KDjj0sJo8nOUDUswxhkdB9LPNXSNSJ_SiYaLBzojjhUdUyp2j9t8ILIJNnR2jnjerSSW72PgxMdnV25YpxeiGkLGXzkAfxMwuNgxNpeZ0O8xi7fssyCdWSxbh_ifSxVPcMsQpZjOjta_Kt5pL2NnpB6-529zjHsH_NfStqqOTXtk-OFm1QN-Eb4rbzgcA0e_?purpose=fullsize",
+                  "markdown": "![Bauman Rare Books moves New York City gallery and offices - New York Business Journal](https://images.openai.com/static-rsc-4/KDjj0sJo8nOUDUswxhkdB9LPNXSNSJ_SiYaLBzojjhUdUyp2j9t8ILIJNnR2jnjerSSW72PgxMdnV25YpxeiGkLGXzkAfxMwuNgxNpeZ0O8xi7fssyCdWSxbh_ifSxVPcMsQpZjOjta_Kt5pL2NnpB6-529zjHsH_NfStqqOTXtk-OFm1QN-Eb4rbzgcA0e_?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "markdown": "\n\n**2\\. Bauman Rare Books**\n\n485 Madison Avenue, Manhattan.\n\nBuys rare books, first editions, signed books and historical documents.\n\nWebsite: [Selling to Bauman Rare Books](https://www.baumanrarebooks.com/selling-something.aspx)\n\n---\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Selling to Bauman Rare Books",
+                  "snippet": null,
+                  "domain": "www.baumanrarebooks.com",
+                  "url": "https://www.baumanrarebooks.com/selling-something.aspx",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[Selling to Bauman Rare Books](https://www.baumanrarebooks.com/selling-something.aspx)"
+                }
+              ],
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Bauman Rare Books",
+                  "category": "local_business",
+                  "markdown": "Bauman Rare Books",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 3,
+              "rank_absolute": 8,
+              "markdown": "![Find Rare and Out of Print Books at the Best Used Bookstores in NYC - Capitalize My Title](https://images.openai.com/static-rsc-4/D5CLr3OjRcE2uHKS19Lzkhmh9jVvUIqeVospBE5zM9svC0iTyvVz6u4l0OOmHPcnttvUFTuIefMCx95XKj44G5SBvfOF54Xz_jL_jDidAw4k4FW49HVRmDXg3TYDz4tqxOvgU2BiArxe-JuM6njocYuDktIVCknuKSxidncBWf88TvzfftVAbE8r_3XG0pyw?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://capitalizemytitle.com/best-used-bookstores-in-nyc/",
+                  "alt": "Find Rare and Out of Print Books at the Best Used Bookstores in NYC - Capitalize My Title",
+                  "image_url": "https://images.openai.com/static-rsc-4/D5CLr3OjRcE2uHKS19Lzkhmh9jVvUIqeVospBE5zM9svC0iTyvVz6u4l0OOmHPcnttvUFTuIefMCx95XKj44G5SBvfOF54Xz_jL_jDidAw4k4FW49HVRmDXg3TYDz4tqxOvgU2BiArxe-JuM6njocYuDktIVCknuKSxidncBWf88TvzfftVAbE8r_3XG0pyw?purpose=fullsize",
+                  "markdown": "![Find Rare and Out of Print Books at the Best Used Bookstores in NYC - Capitalize My Title](https://images.openai.com/static-rsc-4/D5CLr3OjRcE2uHKS19Lzkhmh9jVvUIqeVospBE5zM9svC0iTyvVz6u4l0OOmHPcnttvUFTuIefMCx95XKj44G5SBvfOF54Xz_jL_jDidAw4k4FW49HVRmDXg3TYDz4tqxOvgU2BiArxe-JuM6njocYuDktIVCknuKSxidncBWf88TvzfftVAbE8r_3XG0pyw?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 5,
+              "rank_absolute": 9,
+              "markdown": "\n\n**3\\. Rare Book Buyer**\n\n1050 Second Avenue, Gallery 90.\n\nSpecializes in buying rare books and manuscripts. Offers evaluations and buying services.\n\nCall: 646-469-1851.\n\n---\n\n",
+              "sources": null,
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Rare Book Buyer",
+                  "category": "local_business",
+                  "markdown": "Rare Book Buyer",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 4,
+              "rank_absolute": 10,
+              "markdown": "![A Review of Westsider Rare & Used Books — James H Duncan](https://images.openai.com/static-rsc-4/RzAuoTlpxdPmVp5oPb8TXUPCZZxAkA6--C6q64zdkowyRKg0hG5bucX_Qku5W_Nukkwn-i7xnFPW48JMOZO1_OgM-hk-LvAq5uz8pQqbjewHC1XEGP8pTsC34fjV_QfcXcdBwFt9jDYa9rpo_zNuSkKbkMO79rSMxj3r0ykBD8w1eSz38sd3cGra0une3UYX?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.jameshduncan.com/the-bookshop-hunter/2019/4/22/a-review-of-westsider-rare-amp-used-books",
+                  "alt": "A Review of Westsider Rare & Used Books — James H Duncan",
+                  "image_url": "https://images.openai.com/static-rsc-4/RzAuoTlpxdPmVp5oPb8TXUPCZZxAkA6--C6q64zdkowyRKg0hG5bucX_Qku5W_Nukkwn-i7xnFPW48JMOZO1_OgM-hk-LvAq5uz8pQqbjewHC1XEGP8pTsC34fjV_QfcXcdBwFt9jDYa9rpo_zNuSkKbkMO79rSMxj3r0ykBD8w1eSz38sd3cGra0une3UYX?purpose=fullsize",
+                  "markdown": "![A Review of Westsider Rare & Used Books — James H Duncan](https://images.openai.com/static-rsc-4/RzAuoTlpxdPmVp5oPb8TXUPCZZxAkA6--C6q64zdkowyRKg0hG5bucX_Qku5W_Nukkwn-i7xnFPW48JMOZO1_OgM-hk-LvAq5uz8pQqbjewHC1XEGP8pTsC34fjV_QfcXcdBwFt9jDYa9rpo_zNuSkKbkMO79rSMxj3r0ykBD8w1eSz38sd3cGra0une3UYX?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 6,
+              "rank_absolute": 11,
+              "markdown": "\n\n**4\\. Westsider Rare & Used Books**\n\n2246 Broadway, Upper West Side.\n\nBuys first editions, signed books, limited editions and other collectibles.\n\nEmail: info\\@westsiderbooks.com\n\nWebsite: [Buying and selling information](https://westsiderbooks.com/buyselltrade)\n\n---\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Buying and selling information",
+                  "snippet": null,
+                  "domain": "westsiderbooks.com",
+                  "url": "https://westsiderbooks.com/buyselltrade",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[Buying and selling information](https://westsiderbooks.com/buyselltrade)"
+                }
+              ],
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Westsider Rare & Used Books",
+                  "category": "local_business",
+                  "markdown": "Westsider Rare & Used Books",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 5,
+              "rank_absolute": 12,
+              "markdown": "![Ambling Around Argosy Books — Read + Roam](https://images.openai.com/static-rsc-4/xjeH0jfq7wKGH0EDwzwnVuQFRDCPU5k987Xv1s9iPiAR2fUGelk69DmqpBoWYgaU7sILTVr4LduoeS4dbtW06WeK5_BkUl8NcwnIf58_LQ5x1khdtcLeb_lMX1cEZ9zL2oR5x7aSxqdWYhEP_H1L8efZTsRFLFv9aCwOmKdY5l9w6zQ23bNltbN2bkLsYmeC?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.readandroam.com/blog/2022/2/17/ambling-around-argosy-books",
+                  "alt": "Ambling Around Argosy Books — Read + Roam",
+                  "image_url": "https://images.openai.com/static-rsc-4/xjeH0jfq7wKGH0EDwzwnVuQFRDCPU5k987Xv1s9iPiAR2fUGelk69DmqpBoWYgaU7sILTVr4LduoeS4dbtW06WeK5_BkUl8NcwnIf58_LQ5x1khdtcLeb_lMX1cEZ9zL2oR5x7aSxqdWYhEP_H1L8efZTsRFLFv9aCwOmKdY5l9w6zQ23bNltbN2bkLsYmeC?purpose=fullsize",
+                  "markdown": "![Ambling Around Argosy Books — Read + Roam](https://images.openai.com/static-rsc-4/xjeH0jfq7wKGH0EDwzwnVuQFRDCPU5k987Xv1s9iPiAR2fUGelk69DmqpBoWYgaU7sILTVr4LduoeS4dbtW06WeK5_BkUl8NcwnIf58_LQ5x1khdtcLeb_lMX1cEZ9zL2oR5x7aSxqdWYhEP_H1L8efZTsRFLFv9aCwOmKdY5l9w6zQ23bNltbN2bkLsYmeC?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 7,
+              "rank_absolute": 13,
+              "markdown": "\n\n**5\\. Argosy Book Store**\n\n116 East 59th Street.\n\nEstablished antiquarian bookstore handling collectible and older books.\n\nPhone: 212-753-4455.\n\nWebsite: [Argosy Book Store](https://www.argosybooks.com/)\n\n## National auction houses\n\nIf you have particularly valuable first editions, consider getting an estimate from these auction houses before accepting a dealer's offer.\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Argosy Book Store",
+                  "snippet": null,
+                  "domain": "www.argosybooks.com",
+                  "url": "https://www.argosybooks.com/",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[Argosy Book Store](https://www.argosybooks.com/)"
+                }
+              ],
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Argosy Book Store",
+                  "category": "local_business",
+                  "markdown": "Argosy Book Store",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 6,
+              "rank_absolute": 14,
+              "markdown": "![US-ART-AUCTION-RELIGION](https://images.openai.com/static-rsc-4/X7PnPA-R6xxO8PHUoGF5bGv4-Bn9PdSFblXZdhQVfn-pXe7Z7sjoNe0XyjqRtfjB1A_gBXdrexqHlfwna4MyTJ6Pi4DTW-dW7HhNQnfaRXAzBReQD_F7NFvOmne1YfAJBrax0mzYSiU8YTntQzSjEB-XjnzAgVOqUAXtZv1rr4o6uwGY6YRxLJpU_7FBib-u?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://media.gettyimages.com/id/1255509131/photo/us-art-auction-religion.jpg?b=1&c=nyG0hpvUrHCVT1zaJG198NlNsFe1fh7EQOdUabkZbCQ%3D&k=20&s=612x612&w=0",
+                  "alt": "US-ART-AUCTION-RELIGION",
+                  "image_url": "https://images.openai.com/static-rsc-4/X7PnPA-R6xxO8PHUoGF5bGv4-Bn9PdSFblXZdhQVfn-pXe7Z7sjoNe0XyjqRtfjB1A_gBXdrexqHlfwna4MyTJ6Pi4DTW-dW7HhNQnfaRXAzBReQD_F7NFvOmne1YfAJBrax0mzYSiU8YTntQzSjEB-XjnzAgVOqUAXtZv1rr4o6uwGY6YRxLJpU_7FBib-u?purpose=fullsize",
+                  "markdown": "![US-ART-AUCTION-RELIGION](https://images.openai.com/static-rsc-4/X7PnPA-R6xxO8PHUoGF5bGv4-Bn9PdSFblXZdhQVfn-pXe7Z7sjoNe0XyjqRtfjB1A_gBXdrexqHlfwna4MyTJ6Pi4DTW-dW7HhNQnfaRXAzBReQD_F7NFvOmne1YfAJBrax0mzYSiU8YTntQzSjEB-XjnzAgVOqUAXtZv1rr4o6uwGY6YRxLJpU_7FBib-u?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 8,
+              "rank_absolute": 15,
+              "markdown": "\n\n**Sotheby's**\n\nOffers complimentary preliminary estimates for rare books and collections.\n\n[Submit books to Sotheby's](https://www.sothebys.com/en/sell/books?utm_source=chatgpt.com)\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Submit books to Sotheby's",
+                  "snippet": null,
+                  "domain": "www.sothebys.com",
+                  "url": "https://www.sothebys.com/en/sell/books?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[Submit books to Sotheby's](https://www.sothebys.com/en/sell/books?utm_source=chatgpt.com)"
+                }
+              ],
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "International auction house",
+                  "category": "company",
+                  "markdown": "Sotheby's",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 7,
+              "rank_absolute": 16,
+              "markdown": "![Going Once! 11 World-Class Auctioneers Tell Us the Stories and Strange Rituals Behind Their Luckiest Gavels](https://images.openai.com/static-rsc-4/hMDwbqwznABm-yJyjviuCPbtpiS6jjxbUvqdEEW7hSwborbHenf_VXI56kzR3zDfAmsvbwqXsWcliaMfRoQsdURHxLsJacdyeD6h87rzViBDdwCygzlyHkHRi_FkR4Vihp_nlV7jhdYnKJ13-KmG5C1tfN0CcFBVecblQh50Rg71lqXNBy4xxTMYG1wcKkFT?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://news.artnet.com/market/going-11-top-auctioneers-tell-us-special-gavel-brings-good-luck-1928416",
+                  "alt": "Going Once! 11 World-Class Auctioneers Tell Us the Stories and Strange Rituals Behind Their Luckiest Gavels",
+                  "image_url": "https://images.openai.com/static-rsc-4/hMDwbqwznABm-yJyjviuCPbtpiS6jjxbUvqdEEW7hSwborbHenf_VXI56kzR3zDfAmsvbwqXsWcliaMfRoQsdURHxLsJacdyeD6h87rzViBDdwCygzlyHkHRi_FkR4Vihp_nlV7jhdYnKJ13-KmG5C1tfN0CcFBVecblQh50Rg71lqXNBy4xxTMYG1wcKkFT?purpose=fullsize",
+                  "markdown": "![Going Once! 11 World-Class Auctioneers Tell Us the Stories and Strange Rituals Behind Their Luckiest Gavels](https://images.openai.com/static-rsc-4/hMDwbqwznABm-yJyjviuCPbtpiS6jjxbUvqdEEW7hSwborbHenf_VXI56kzR3zDfAmsvbwqXsWcliaMfRoQsdURHxLsJacdyeD6h87rzViBDdwCygzlyHkHRi_FkR4Vihp_nlV7jhdYnKJ13-KmG5C1tfN0CcFBVecblQh50Rg71lqXNBy4xxTMYG1wcKkFT?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 9,
+              "rank_absolute": 17,
+              "markdown": "\n\n**Christie's**\n\nSpecializes in rare books, manuscripts and important literary works.\n\n[Request a free estimate](https://www.christies.com/en/selling-guide/rare-books?utm_source=chatgpt.com)\n\n## Online selling options\n\n- [eBay](https://www.ebay.com/) – Good for selling individual collectible books directly.\n- [AbeBooks](https://www.abebooks.com/) – Marketplace specializing in rare and collectible books.\n- [Biblio](https://www.biblio.com/) – Another marketplace for antiquarian and collectible books.\n\n## How to get the best price\n\nBefore selling\\:\n\n1. Confirm that the book is genuinely a first edition and, ideally, first printing.\n2. Check whether it has its original dust jacket.\n3. Look for an author's signature or inscription.\n4. Compare actual sold prices, not just asking prices.\n5. Get at least two or three offers before accepting.\n\n---\n\n## Let me help identify the best buyer for your books.\n\nI have three questions\\:\n\n1. **What authors or titles do you have?** For example, Hemingway, F. Scott Fitzgerald, Stephen King, Tolkien, Dickens, etc.\n2. **Are they signed by the authors?**\n3. **Approximately how many books are you selling?** One or two, 5–20, or an entire collection?\n\nYou can also upload photographs of the books.\n\nI can help identify which ones might be valuable, estimate potential resale values, and narrow down the best places to sell them.",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Request a free estimate",
+                  "snippet": null,
+                  "domain": "www.christies.com",
+                  "url": "https://www.christies.com/en/selling-guide/rare-books?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[Request a free estimate](https://www.christies.com/en/selling-guide/rare-books?utm_source=chatgpt.com)"
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "eBay",
+                  "snippet": null,
+                  "domain": "www.ebay.com",
+                  "url": "https://www.ebay.com/",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[eBay](https://www.ebay.com/)"
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "AbeBooks",
+                  "snippet": null,
+                  "domain": "www.abebooks.com",
+                  "url": "https://www.abebooks.com/",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[AbeBooks](https://www.abebooks.com/)"
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Biblio",
+                  "snippet": null,
+                  "domain": "www.biblio.com",
+                  "url": "https://www.biblio.com/",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[Biblio](https://www.biblio.com/)"
+                }
+              ],
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "International auction house",
+                  "category": "company",
+                  "markdown": "Christie's",
+                  "urls": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

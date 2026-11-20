@@ -1,0 +1,638 @@
+{
+  "version": "0.1.20261117",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "21.8153 sec.",
+  "cost": 0.004,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "11201408-2831-0629-0000-169967c94d9f",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "21.6103 sec.",
+      "cost": 0.004,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "chat_gpt",
+        "llm_scraper",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "live",
+        "se": "chat_gpt",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "rare books for sale",
+        "force_web_search": true,
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "rare books for sale",
+          "location_code": 2840,
+          "language_code": "en",
+          "model": "gpt-6",
+          "check_url": "https://chatgpt.com/?prompt=rare%20books%20for%20sale&hints=search",
+          "datetime": "2026-11-20 14:08:25 +00:00",
+          "markdown": "I found several good places to buy **rare, antique, collectible, and first-edition books**, including specialist dealers and marketplaces.\n\nHere are the best places to start, along with some actual books currently listed for sale.\n\n## Rare books currently for sale\n\n\n\n**1816 MORT D'ARTHUR Malory**\n\n**\\$872.24**\n\nAntiquarian edition · McClosky's Antiquarian Books\n\nA three-volume Arthurian classic, published in an early edition.\n\n[View book for sale](https://mccloskys.com/products/1816-mort-darthur-malory?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=43913876832438&utm_source=chatgpt.com)\n\n---\n\n\n\n**1895 Captain Antifer, Jules Verne**\n\n**\\$471.01**\n\n1895 UK edition · Jules Verne\n\nIllustrated vintage edition from Sampson Low.\n\n[View book for sale](https://mccloskys.com/products/jules-verne-captain-antifer-sampson-low-1895-rare-1st-uk-edition-illustrations?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=31262286854&utm_source=chatgpt.com)\n\n---\n\n\n\n**The Quality of Life**\n\n**\\$250.00**\n\nSigned first edition · 1970\n\nJames A. Michener book with illustrations by James B. Wyeth.\n\n[View book for sale](https://windersrarebooks.com/products/the-quality-of-life?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=48143729721549&utm_source=chatgpt.com)\n\n## Best websites for finding rare books\n\n![IES MA student puts together the latest Maggs Bros. Ltd. catalogue | Institute of English Studies](https://images.openai.com/static-rsc-4/9BzJ7KjpPWMVsOnNSqESZkM_pD1G02JiTCZrSBLBuKsGdE3ch1a1wZ41GNT7IdbdG4cRGS_v20Z21fanBvyuieWibyHuLdxbQlkAf2W9fb9ZhroxumJtim-OtmwtBw60NPZoogUZeK7skvMIPJtUBt3EeOB5nSSOMUN0avZFBMbzVh3QyhuD6DNzTl55DLMc?purpose=fullsize)\n\n**1\\. AbeBooks**\n\n(Great starting point)\n\nFirst editions, signed copies, antique books, out-of-print books and manuscripts.\n\n[Browse rare books](https://www.abebooks.com/books/rarebooks/?utm_source=chatgpt.com)\n\n---\n\n![Viaggio nel fascino dei documenti dell’Archivio di Stato](https://images.openai.com/static-rsc-4/vCoWwKyX1leD1T8uW-tL7YRurr7Hp3i9pPH0nZ81IiHVvubqT18xN5FCEGCQIQgXiutqT0i7xLwgTCVLUGkVxogn96vBAmDGaihCrWSGYhUUiErTOWksZk3Hc6Ep-7XARwBlmAR2SLo91QHuc5T1K85G23etMBqE3QcF1-YkH2-1FlmH8tPtnR1-cZtDW0jU?purpose=fullsize)\n\n**2\\. ILAB**\n\nSearch inventories of professional antiquarian booksellers worldwide.\n\n[Search rare books](https://ilab.org/page/book-search?utm_source=chatgpt.com)\n\n---\n\n![Bauman Rare Books (2026) - Alles wat u MOET weten voordat je gaat (met foto's) - Tripadvisor](https://images.openai.com/static-rsc-4/LGw0XgkWkafLo32wIXmEIK7pYbPXpxR1KFE7ZSBE06IoUe0_IayuWuUI1xC2UDTXdOHWbs-tACLNEpyhhFsBDGgCEyB0JzTX6o7tkS3lEVT5G_WnOK2VjMwG4SLQhW8TVStmqLBBiKMKJCf8nHzPtYNmbYfUxbLGTteCUPDhMHoCVY5PX-FRWWFVmgqBupq-?purpose=fullsize)\n\n**3\\. Rare Books Intel**\n\nAggregates over a million listings from dealers and auction houses.\n\n[Explore listings](https://rarebooks.sector-intel.com/?utm_source=chatgpt.com)\n\n---\n\n![Alibris Attempts to Encourage Collecting](https://images.openai.com/static-rsc-4/JOz8hfFQ44_n_UCglVv1xPS_cfj42e-gGhvlk4E4WYCDUSg5_Tq6WbnFtMgS4oTPLu4yEOTQ1AExFZupgn-efbFAZw5T0WRmS3tj_7dyZB-yYG3s6kk6fDpVyQ3DZl08Am8NEmTZebzR7MjDQi7T6qMg11IBaIPsxOTpooyasOhYSmkyKUXBV1t3ty-rHY9g?purpose=fullsize)\n\n**4\\. Alibris**\n\nRare, signed, collectible and out-of-print books.\n\n[Shop rare books](https://libraries.alibris.com/books/rare-collectible?utm_source=chatgpt.com)\n\n## Let me narrow down the search\n\nWhat kind of rare books are you interested in?\n\n**1\\. Type of rare books**\n\n---\n\n**2\\. Budget**\n\n---\n\n**3\\. What are you looking for?**\n\n[Find rare books for sale]\n\nI can then find specific books, asking prices, and sellers rather than just general book websites.",
+          "search_results": [
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.abebooks.com/books/rarebooks/",
+              "domain": "www.abebooks.com",
+              "title": "Rare Books",
+              "description": null,
+              "breadcrumb": "www.abebooks.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.abebooks.com/books/rarebooks/directory.shtml",
+              "domain": "www.abebooks.com",
+              "title": "Directory of Rare & Antiquarian Booksellers",
+              "description": null,
+              "breadcrumb": "www.abebooks.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://ilab.org/page/book-search",
+              "domain": "ilab.org",
+              "title": "Book Search | International League of Antiquarian Booksellers (ILAB)",
+              "description": null,
+              "breadcrumb": "ilab.org"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://prod2.ilab.org/page/book-search",
+              "domain": "prod2.ilab.org",
+              "title": "Book Search | International League of Antiquarian Booksellers (ILAB)",
+              "description": null,
+              "breadcrumb": "prod2.ilab.org"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.pbfa.org/books",
+              "domain": "www.pbfa.org",
+              "title": "Used Books for Sale | Antiquarian Booksellers | PBFA",
+              "description": null,
+              "breadcrumb": "www.pbfa.org"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://rarebooks.sector-intel.com/",
+              "domain": "rarebooks.sector-intel.com",
+              "title": "Rare Books Intel — antiquarian books from dealers and auction houses worldwide",
+              "description": null,
+              "breadcrumb": "rarebooks.sector-intel.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://libraries.alibris.com/books/rare-collectible",
+              "domain": "libraries.alibris.com",
+              "title": "Rare Books: Dive into Unique Collectibles & Classics | Alibris",
+              "description": null,
+              "breadcrumb": "libraries.alibris.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.antiqbook.com/",
+              "domain": "www.antiqbook.com",
+              "title": "Rare & antiquarian books online | Antiqbook",
+              "description": null,
+              "breadcrumb": "www.antiqbook.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.charlesagvent.com/",
+              "domain": "www.charlesagvent.com",
+              "title": "CHARLES AGVENT",
+              "description": null,
+              "breadcrumb": "www.charlesagvent.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://bostonbookworld.com/",
+              "domain": "bostonbookworld.com",
+              "title": "Boston Book World | Rare, Signed & First Edition Books",
+              "description": null,
+              "breadcrumb": "bostonbookworld.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://chapterhearth.com/collections/rarebooks-antiquarian-collectible-firsteditions-signed-bibliophile",
+              "domain": "chapterhearth.com",
+              "title": "Discover Exceptional Rare & Antiquarian Books – Chapter & Hearth Booksellers",
+              "description": null,
+              "breadcrumb": "chapterhearth.com"
+            }
+          ],
+          "sources": [
+            {
+              "type": "chat_gpt_source",
+              "title": "View book for sale",
+              "snippet": null,
+              "domain": "mccloskys.com",
+              "url": "https://mccloskys.com/products/1816-mort-darthur-malory?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=43913876832438&utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[View book for sale](https://mccloskys.com/products/1816-mort-darthur-malory?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=43913876832438&utm_source=chatgpt.com)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "View book for sale",
+              "snippet": null,
+              "domain": "mccloskys.com",
+              "url": "https://mccloskys.com/products/jules-verne-captain-antifer-sampson-low-1895-rare-1st-uk-edition-illustrations?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=31262286854&utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[View book for sale](https://mccloskys.com/products/jules-verne-captain-antifer-sampson-low-1895-rare-1st-uk-edition-illustrations?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=31262286854&utm_source=chatgpt.com)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "View book for sale",
+              "snippet": null,
+              "domain": "windersrarebooks.com",
+              "url": "https://windersrarebooks.com/products/the-quality-of-life?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=48143729721549&utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[View book for sale](https://windersrarebooks.com/products/the-quality-of-life?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=48143729721549&utm_source=chatgpt.com)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Browse rare books",
+              "snippet": null,
+              "domain": "www.abebooks.com",
+              "url": "https://www.abebooks.com/books/rarebooks/?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[Browse rare books](https://www.abebooks.com/books/rarebooks/?utm_source=chatgpt.com)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Search rare books",
+              "snippet": null,
+              "domain": "ilab.org",
+              "url": "https://ilab.org/page/book-search?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[Search rare books](https://ilab.org/page/book-search?utm_source=chatgpt.com)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Explore listings",
+              "snippet": null,
+              "domain": "rarebooks.sector-intel.com",
+              "url": "https://rarebooks.sector-intel.com/?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[Explore listings](https://rarebooks.sector-intel.com/?utm_source=chatgpt.com)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Shop rare books",
+              "snippet": null,
+              "domain": "libraries.alibris.com",
+              "url": "https://libraries.alibris.com/books/rare-collectible?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[Shop rare books](https://libraries.alibris.com/books/rare-collectible?utm_source=chatgpt.com)"
+            }
+          ],
+          "fan_out_queries": [
+            "rare books for sale online antiquarian booksellers marketplaces first editions"
+          ],
+          "brand_entities": [
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "1816 MORT D'ARTHUR Malory",
+              "category": "product",
+              "markdown": "1816 MORT D'ARTHUR Malory",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "1895 Captain Antifer, Jules Verne",
+              "category": "product",
+              "markdown": "1895 Captain Antifer, Jules Verne",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "The Quality of Life",
+              "category": "product",
+              "markdown": "The Quality of Life",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Online rare and antiquarian book marketplace",
+              "category": "company",
+              "markdown": "AbeBooks",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "International League of Antiquarian Booksellers",
+              "category": "organization",
+              "markdown": "ILAB",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Rare book listings and price discovery aggregator",
+              "category": "software",
+              "markdown": "Rare Books Intel",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Online used and collectible book marketplace",
+              "category": "company",
+              "markdown": "Alibris",
+              "urls": null
+            }
+          ],
+          "se_results_count": 0,
+          "item_types": [
+            "chat_gpt_text",
+            "chat_gpt_images",
+            "chat_gpt_products"
+          ],
+          "items_count": 17,
+          "items": [
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "markdown": "I found several good places to buy **rare, antique, collectible, and first-edition books**, including specialist dealers and marketplaces.\n\nHere are the best places to start, along with some actual books currently listed for sale.\n\n## Rare books currently for sale\n\n",
+              "sources": null,
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "markdown": null,
+              "items": null
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "markdown": "\n\n**1816 MORT D'ARTHUR Malory**\n\n**\\$872.24**\n\nAntiquarian edition · McClosky's Antiquarian Books\n\nA three-volume Arthurian classic, published in an early edition.\n\n[View book for sale](https://mccloskys.com/products/1816-mort-darthur-malory?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=43913876832438&utm_source=chatgpt.com)\n\n---\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "View book for sale",
+                  "snippet": null,
+                  "domain": "mccloskys.com",
+                  "url": "https://mccloskys.com/products/1816-mort-darthur-malory?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=43913876832438&utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[View book for sale](https://mccloskys.com/products/1816-mort-darthur-malory?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=43913876832438&utm_source=chatgpt.com)"
+                }
+              ],
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "1816 MORT D'ARTHUR Malory",
+                  "category": "product",
+                  "markdown": "1816 MORT D'ARTHUR Malory",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "markdown": null,
+              "items": null
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 3,
+              "rank_absolute": 5,
+              "markdown": "\n\n**1895 Captain Antifer, Jules Verne**\n\n**\\$471.01**\n\n1895 UK edition · Jules Verne\n\nIllustrated vintage edition from Sampson Low.\n\n[View book for sale](https://mccloskys.com/products/jules-verne-captain-antifer-sampson-low-1895-rare-1st-uk-edition-illustrations?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=31262286854&utm_source=chatgpt.com)\n\n---\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "View book for sale",
+                  "snippet": null,
+                  "domain": "mccloskys.com",
+                  "url": "https://mccloskys.com/products/jules-verne-captain-antifer-sampson-low-1895-rare-1st-uk-edition-illustrations?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=31262286854&utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[View book for sale](https://mccloskys.com/products/jules-verne-captain-antifer-sampson-low-1895-rare-1st-uk-edition-illustrations?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=31262286854&utm_source=chatgpt.com)"
+                }
+              ],
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "1895 Captain Antifer, Jules Verne",
+                  "category": "product",
+                  "markdown": "1895 Captain Antifer, Jules Verne",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 3,
+              "rank_absolute": 6,
+              "markdown": null,
+              "items": null
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "markdown": "\n\n**The Quality of Life**\n\n**\\$250.00**\n\nSigned first edition · 1970\n\nJames A. Michener book with illustrations by James B. Wyeth.\n\n[View book for sale](https://windersrarebooks.com/products/the-quality-of-life?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=48143729721549&utm_source=chatgpt.com)\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "View book for sale",
+                  "snippet": null,
+                  "domain": "windersrarebooks.com",
+                  "url": "https://windersrarebooks.com/products/the-quality-of-life?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=48143729721549&utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[View book for sale](https://windersrarebooks.com/products/the-quality-of-life?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=48143729721549&utm_source=chatgpt.com)"
+                }
+              ],
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "The Quality of Life",
+                  "category": "product",
+                  "markdown": "The Quality of Life",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_products",
+              "rank_group": 1,
+              "rank_absolute": 8,
+              "items": [
+                {
+                  "type": "chat_gpt_products_element",
+                  "product_id": "gid://shopify/p/3FqXt4N3P3YrH527XTSxTp",
+                  "merchants": "McClosky's Antiquarian Books & Cards",
+                  "id_to_token_map": null,
+                  "title": "1816 MORT D'ARTHUR Malory",
+                  "rating": null,
+                  "price": 872.24,
+                  "currency": "USD",
+                  "tag": null,
+                  "url": "https://mccloskys.com/products/1816-mort-darthur-malory?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=43913876832438&utm_source=chatgpt.com",
+                  "domain": "mccloskys.com",
+                  "images": [
+                    "https://images.openai.com/static-rsc-1/q3Iv9LOSxgERlX6TWVNrt1YELPBWTKQXMS94t4bgvhJySKImKpuqKCwZaEwI9VD1YmJa1ATbVTYIGrm5H20l7OdYo2Jd8kdOgwKLZvBpLwI",
+                    "https://images.openai.com/static-rsc-1/QOJ9wY66WtPAN6Z_v_IqmrehcwzT5ImE2CzYPU1C8CeqY8rIuSWS2AU_NNbwI_qSMywB3USPCtnJQCXM7Vk6AZcKsxjtYWKU_Uzf1IvWkKjXpvxM2Raej1mwII_0pwom",
+                    "https://images.openai.com/static-rsc-1/d_z1MkQURYQD_ZOnNnfxGANgyx_tHS8xej4OnWQw2hFphdtiCRT6bY-SEC7rBa83DrWh65281Y85rZSNsA5R8pTTSExyaSEy0SmqXZWDLRAybs444oTK397pWiIRl2n-"
+                  ],
+                  "product_ids": null
+                },
+                {
+                  "type": "chat_gpt_products_element",
+                  "product_id": "gid://shopify/p/5ZBQ3VgmdUHdytCPhcO9P8",
+                  "merchants": "McClosky's Antiquarian Books & Cards",
+                  "id_to_token_map": null,
+                  "title": "1895 Captain Antifer, Jules Verne",
+                  "rating": null,
+                  "price": 471.01,
+                  "currency": "USD",
+                  "tag": null,
+                  "url": "https://mccloskys.com/products/jules-verne-captain-antifer-sampson-low-1895-rare-1st-uk-edition-illustrations?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=31262286854&utm_source=chatgpt.com",
+                  "domain": "mccloskys.com",
+                  "images": [
+                    "https://images.openai.com/static-rsc-1/T4BYMXdNKzYyfBnvUpervgcAtIqEJ8YV4Zy859QqP58MoZ9eRi-5DAYiWY4bsctiUeSN1lmdJJoeVNFbIo9C3qyQvxxt-USImHAvswcmtIxQEx7z-WfRsPX03Muwx_4kKbP_90lzKDLsreK5hZKbCO4upPxyBzseSJoxDiKREF0",
+                    "https://images.openai.com/static-rsc-1/kTTZ-zWcFTt9EUAJSfl5LZO9Nss0IWplS-FMDTCPddmGCs_0Sp5KfDzKQeJTwJir5gjjrnOJvSuvkv7-9-bJMTrDBatuLRDYXncqzATkxmWEBVc9EH-2fFfGiS35bRidpW-56A87D233SkX7liUAgoYDaSCM0xoyNbzOqUgw3l0",
+                    "https://images.openai.com/static-rsc-1/ddE-IPe6N_zrdp37_rlBVMVW7O2wLqNU6TRcFiT2fZMb08V8SoozEuR-Y7caE01M7D_FqbYx2aomQN_6yTJIlRA55D4Ei-JJmDNA74jvXDSJwN4bc0jZq6Twaww0vlHRl22z2b0HIJgO93x30DlWMEs8oEKOTsrWjkX_5EpZYxA"
+                  ],
+                  "product_ids": null
+                },
+                {
+                  "type": "chat_gpt_products_element",
+                  "product_id": "gid://shopify/p/7ojgdCWLdyY8SKMAjxJ27k",
+                  "merchants": "Winders Rare Books",
+                  "id_to_token_map": null,
+                  "title": "The Quality of Life",
+                  "rating": null,
+                  "price": 250,
+                  "currency": "USD",
+                  "tag": null,
+                  "url": "https://windersrarebooks.com/products/the-quality-of-life?utm_campaign=openai_catalog&utm_content=product_card&utm_medium=feed&variant=48143729721549&utm_source=chatgpt.com",
+                  "domain": "windersrarebooks.com",
+                  "images": [
+                    "https://images.openai.com/static-rsc-1/fU4sfwZuReienojVQGWjBV2AfSiv55b8rRTe9sMPZt5RWh7PexSKEfb1hIJStn81-vuS9WQohgDDFqCJxu76pFdOd-OSXVA4cqDLb87ytmtEklrYygKOo3m5peWoJ-4bc7Jk2K-4dxw8d-idM4Z2Mg",
+                    "https://images.openai.com/static-rsc-1/V8ozYNcT2WHsOxpsfz3p2JgKgHA5EoJnwgumQpYhgF4eY2TAnzYEpgTV9cjgfZazYV8joS6hNHFPqYVOUCvtd30Dki8ku4wHU0S6PTTbdq3RkNZD3tJjCfzAHQ_WKAWo1IMijWygCl9m93u1-1bsTQ",
+                    "https://images.openai.com/static-rsc-1/i0mkaWwx1KMYnw35DiAlAmNQsX_NcGBocBde4MR3ay5TaEonNfnlMy1-vu1qGFYGzf894HBZCzSq61Apwlw98Vj5lDVUhvXNeYE1-dFU9cpofA_ihw0wptZcmAZfNhjv0rDJ9xoGMVvw1WDNUBmNag"
+                  ],
+                  "product_ids": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 5,
+              "rank_absolute": 9,
+              "markdown": "## Best websites for finding rare books\n\n",
+              "sources": null,
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 4,
+              "rank_absolute": 10,
+              "markdown": "![IES MA student puts together the latest Maggs Bros. Ltd. catalogue | Institute of English Studies](https://images.openai.com/static-rsc-4/9BzJ7KjpPWMVsOnNSqESZkM_pD1G02JiTCZrSBLBuKsGdE3ch1a1wZ41GNT7IdbdG4cRGS_v20Z21fanBvyuieWibyHuLdxbQlkAf2W9fb9ZhroxumJtim-OtmwtBw60NPZoogUZeK7skvMIPJtUBt3EeOB5nSSOMUN0avZFBMbzVh3QyhuD6DNzTl55DLMc?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://ies.sas.ac.uk/news-events/news/ies-ma-student-puts-together-latest-maggs-bros-ltd-catalogue",
+                  "alt": "IES MA student puts together the latest Maggs Bros. Ltd. catalogue | Institute of English Studies",
+                  "image_url": "https://images.openai.com/static-rsc-4/9BzJ7KjpPWMVsOnNSqESZkM_pD1G02JiTCZrSBLBuKsGdE3ch1a1wZ41GNT7IdbdG4cRGS_v20Z21fanBvyuieWibyHuLdxbQlkAf2W9fb9ZhroxumJtim-OtmwtBw60NPZoogUZeK7skvMIPJtUBt3EeOB5nSSOMUN0avZFBMbzVh3QyhuD6DNzTl55DLMc?purpose=fullsize",
+                  "markdown": "![IES MA student puts together the latest Maggs Bros. Ltd. catalogue | Institute of English Studies](https://images.openai.com/static-rsc-4/9BzJ7KjpPWMVsOnNSqESZkM_pD1G02JiTCZrSBLBuKsGdE3ch1a1wZ41GNT7IdbdG4cRGS_v20Z21fanBvyuieWibyHuLdxbQlkAf2W9fb9ZhroxumJtim-OtmwtBw60NPZoogUZeK7skvMIPJtUBt3EeOB5nSSOMUN0avZFBMbzVh3QyhuD6DNzTl55DLMc?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 6,
+              "rank_absolute": 11,
+              "markdown": "\n\n**1\\. AbeBooks**\n\n(Great starting point)\n\nFirst editions, signed copies, antique books, out-of-print books and manuscripts.\n\n[Browse rare books](https://www.abebooks.com/books/rarebooks/?utm_source=chatgpt.com)\n\n---\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Browse rare books",
+                  "snippet": null,
+                  "domain": "www.abebooks.com",
+                  "url": "https://www.abebooks.com/books/rarebooks/?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[Browse rare books](https://www.abebooks.com/books/rarebooks/?utm_source=chatgpt.com)"
+                }
+              ],
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Online rare and antiquarian book marketplace",
+                  "category": "company",
+                  "markdown": "AbeBooks",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 5,
+              "rank_absolute": 12,
+              "markdown": "![Viaggio nel fascino dei documenti dell’Archivio di Stato](https://images.openai.com/static-rsc-4/vCoWwKyX1leD1T8uW-tL7YRurr7Hp3i9pPH0nZ81IiHVvubqT18xN5FCEGCQIQgXiutqT0i7xLwgTCVLUGkVxogn96vBAmDGaihCrWSGYhUUiErTOWksZk3Hc6Ep-7XARwBlmAR2SLo91QHuc5T1K85G23etMBqE3QcF1-YkH2-1FlmH8tPtnR1-cZtDW0jU?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.ilrestodelcarlino.it/pesaro/cronaca/viaggio-nel-fascino-dei-documenti-dellarchivio-di-stato-12b310af",
+                  "alt": "Viaggio nel fascino dei documenti dell’Archivio di Stato",
+                  "image_url": "https://images.openai.com/static-rsc-4/vCoWwKyX1leD1T8uW-tL7YRurr7Hp3i9pPH0nZ81IiHVvubqT18xN5FCEGCQIQgXiutqT0i7xLwgTCVLUGkVxogn96vBAmDGaihCrWSGYhUUiErTOWksZk3Hc6Ep-7XARwBlmAR2SLo91QHuc5T1K85G23etMBqE3QcF1-YkH2-1FlmH8tPtnR1-cZtDW0jU?purpose=fullsize",
+                  "markdown": "![Viaggio nel fascino dei documenti dell’Archivio di Stato](https://images.openai.com/static-rsc-4/vCoWwKyX1leD1T8uW-tL7YRurr7Hp3i9pPH0nZ81IiHVvubqT18xN5FCEGCQIQgXiutqT0i7xLwgTCVLUGkVxogn96vBAmDGaihCrWSGYhUUiErTOWksZk3Hc6Ep-7XARwBlmAR2SLo91QHuc5T1K85G23etMBqE3QcF1-YkH2-1FlmH8tPtnR1-cZtDW0jU?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 7,
+              "rank_absolute": 13,
+              "markdown": "\n\n**2\\. ILAB**\n\nSearch inventories of professional antiquarian booksellers worldwide.\n\n[Search rare books](https://ilab.org/page/book-search?utm_source=chatgpt.com)\n\n---\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Search rare books",
+                  "snippet": null,
+                  "domain": "ilab.org",
+                  "url": "https://ilab.org/page/book-search?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[Search rare books](https://ilab.org/page/book-search?utm_source=chatgpt.com)"
+                }
+              ],
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "International League of Antiquarian Booksellers",
+                  "category": "organization",
+                  "markdown": "ILAB",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 6,
+              "rank_absolute": 14,
+              "markdown": "![Bauman Rare Books (2026) - Alles wat u MOET weten voordat je gaat (met foto's) - Tripadvisor](https://images.openai.com/static-rsc-4/LGw0XgkWkafLo32wIXmEIK7pYbPXpxR1KFE7ZSBE06IoUe0_IayuWuUI1xC2UDTXdOHWbs-tACLNEpyhhFsBDGgCEyB0JzTX6o7tkS3lEVT5G_WnOK2VjMwG4SLQhW8TVStmqLBBiKMKJCf8nHzPtYNmbYfUxbLGTteCUPDhMHoCVY5PX-FRWWFVmgqBupq-?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.tripadvisor.be/Attraction_Review-g60763-d565299-Reviews-Bauman_Rare_Books-New_York_City_New_York.html",
+                  "alt": "Bauman Rare Books (2026) - Alles wat u MOET weten voordat je gaat (met foto's) - Tripadvisor",
+                  "image_url": "https://images.openai.com/static-rsc-4/LGw0XgkWkafLo32wIXmEIK7pYbPXpxR1KFE7ZSBE06IoUe0_IayuWuUI1xC2UDTXdOHWbs-tACLNEpyhhFsBDGgCEyB0JzTX6o7tkS3lEVT5G_WnOK2VjMwG4SLQhW8TVStmqLBBiKMKJCf8nHzPtYNmbYfUxbLGTteCUPDhMHoCVY5PX-FRWWFVmgqBupq-?purpose=fullsize",
+                  "markdown": "![Bauman Rare Books (2026) - Alles wat u MOET weten voordat je gaat (met foto's) - Tripadvisor](https://images.openai.com/static-rsc-4/LGw0XgkWkafLo32wIXmEIK7pYbPXpxR1KFE7ZSBE06IoUe0_IayuWuUI1xC2UDTXdOHWbs-tACLNEpyhhFsBDGgCEyB0JzTX6o7tkS3lEVT5G_WnOK2VjMwG4SLQhW8TVStmqLBBiKMKJCf8nHzPtYNmbYfUxbLGTteCUPDhMHoCVY5PX-FRWWFVmgqBupq-?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 8,
+              "rank_absolute": 15,
+              "markdown": "\n\n**3\\. Rare Books Intel**\n\nAggregates over a million listings from dealers and auction houses.\n\n[Explore listings](https://rarebooks.sector-intel.com/?utm_source=chatgpt.com)\n\n---\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Explore listings",
+                  "snippet": null,
+                  "domain": "rarebooks.sector-intel.com",
+                  "url": "https://rarebooks.sector-intel.com/?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[Explore listings](https://rarebooks.sector-intel.com/?utm_source=chatgpt.com)"
+                }
+              ],
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Rare book listings and price discovery aggregator",
+                  "category": "software",
+                  "markdown": "Rare Books Intel",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 7,
+              "rank_absolute": 16,
+              "markdown": "![Alibris Attempts to Encourage Collecting](https://images.openai.com/static-rsc-4/JOz8hfFQ44_n_UCglVv1xPS_cfj42e-gGhvlk4E4WYCDUSg5_Tq6WbnFtMgS4oTPLu4yEOTQ1AExFZupgn-efbFAZw5T0WRmS3tj_7dyZB-yYG3s6kk6fDpVyQ3DZl08Am8NEmTZebzR7MjDQi7T6qMg11IBaIPsxOTpooyasOhYSmkyKUXBV1t3ty-rHY9g?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.rarebookhub.com/articles/727",
+                  "alt": "Alibris Attempts to Encourage Collecting",
+                  "image_url": "https://images.openai.com/static-rsc-4/JOz8hfFQ44_n_UCglVv1xPS_cfj42e-gGhvlk4E4WYCDUSg5_Tq6WbnFtMgS4oTPLu4yEOTQ1AExFZupgn-efbFAZw5T0WRmS3tj_7dyZB-yYG3s6kk6fDpVyQ3DZl08Am8NEmTZebzR7MjDQi7T6qMg11IBaIPsxOTpooyasOhYSmkyKUXBV1t3ty-rHY9g?purpose=fullsize",
+                  "markdown": "![Alibris Attempts to Encourage Collecting](https://images.openai.com/static-rsc-4/JOz8hfFQ44_n_UCglVv1xPS_cfj42e-gGhvlk4E4WYCDUSg5_Tq6WbnFtMgS4oTPLu4yEOTQ1AExFZupgn-efbFAZw5T0WRmS3tj_7dyZB-yYG3s6kk6fDpVyQ3DZl08Am8NEmTZebzR7MjDQi7T6qMg11IBaIPsxOTpooyasOhYSmkyKUXBV1t3ty-rHY9g?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 9,
+              "rank_absolute": 17,
+              "markdown": "\n\n**4\\. Alibris**\n\nRare, signed, collectible and out-of-print books.\n\n[Shop rare books](https://libraries.alibris.com/books/rare-collectible?utm_source=chatgpt.com)\n\n## Let me narrow down the search\n\nWhat kind of rare books are you interested in?\n\n**1\\. Type of rare books**\n\n---\n\n**2\\. Budget**\n\n---\n\n**3\\. What are you looking for?**\n\n[Find rare books for sale]\n\nI can then find specific books, asking prices, and sellers rather than just general book websites.",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Shop rare books",
+                  "snippet": null,
+                  "domain": "libraries.alibris.com",
+                  "url": "https://libraries.alibris.com/books/rare-collectible?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[Shop rare books](https://libraries.alibris.com/books/rare-collectible?utm_source=chatgpt.com)"
+                }
+              ],
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Online used and collectible book marketplace",
+                  "category": "company",
+                  "markdown": "Alibris",
+                  "urls": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

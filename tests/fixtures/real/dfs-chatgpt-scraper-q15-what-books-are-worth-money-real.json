@@ -1,0 +1,433 @@
+{
+  "version": "0.1.20261117",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "67.1515 sec.",
+  "cost": 0.004,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "11201407-2831-0629-0000-83a0896b4fe7",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "66.8249 sec.",
+      "cost": 0.004,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "chat_gpt",
+        "llm_scraper",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "live",
+        "se": "chat_gpt",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "what books are worth money",
+        "force_web_search": true,
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "what books are worth money",
+          "location_code": 2840,
+          "language_code": "en",
+          "model": "gpt-6",
+          "check_url": "https://chatgpt.com/?prompt=what%20books%20are%20worth%20money&hints=search",
+          "datetime": "2026-11-20 14:08:12 +00:00",
+          "markdown": "Some books can be worth hundreds, thousands, or even tens of thousands of dollars\\! The trick is knowing **which editions, printings, and authors collectors are looking for.**\n\nIf you're checking books around your house, don't throw any old books away before checking them.\n\n## Books that can be worth serious money\n\nHere are some examples of collectible books to look for\\:\n\n![A Guide to Identifying Harry Potter First Editions | Books & Manuscripts | Sotheby’s](https://images.openai.com/static-rsc-4/ty4Ha0A8aZ0GUXHC-NszvkEut6erEC3L6CXo0Gw1cevIwVqYKWvB86GPCRQaUmycdxIE63ffnj8o4lGBWzTxC8WQzqcBG0yXfQixGyKIzGTZYII6RaBQq8vbDFlSSZtMl2ppywgv0Yl7_KsHqudfc-aRAm0VtHVOkstnok54NKIQ-GGJUD9n1sh4MuXhjVRi?purpose=fullsize)\n\n**1\\. Harry Potter and the Philosopher's Stone**\n\n1997 first UK printing.\n\nPotentially thousands to hundreds of thousands for exceptionally rare copies.\n\n---\n\n![The Hobbit | J. R. R. Tolkien | First edition](https://images.openai.com/static-rsc-4/DjP5VMtCdrJpjPkyU1DmE-iGbtEwcODeAe5nMzZOirfw4scGO5dWuraUOyBHGKAM3pfdyg_Ha0f8XW7MT2Zx-0pYkyLHFjXtaBP6I69bJzzQSpGmGviceNManiTAbvfkmH3HE10nWteMS1LZm6hOnOhCz1EFtyJEZZ1lKL2IjkMbmS7xaPmJLZ0z6uicN6hh?purpose=fullsize)\n\n**2\\. The Hobbit**\n\n1937 first edition.\n\nRare original copies can sell for tens of thousands.\n\n---\n\n![FITZGERALD, F. Scott (1896-1940). The Great Gatsby. New York: Charles Scribner's Sons, 1925. | Christie's](https://images.openai.com/static-rsc-4/2x7BF0H-vzrEAE7wo6qMMd3gzBDSiKO4eESIZoaTVyTI06skbN6XwOcw4aUQ4Wk2XOZPUKlSOksyvKQ_WNWxDj9s7E8DkyMkpy-CgtVfK4chf9iSEdEA1qPfIaLjSK23uUWSEjF2LJIHrB9L1rODlx5aSNvzIAxzVdeug02cyGMHkSs5tGbZ-roKs0_tYOCB?purpose=fullsize)\n\n**3\\. The Great Gatsby**\n\n1925 first edition.\n\nExceptional copies with original dust jackets can be worth over \\$100,000.\n\n---\n\n![Sold at Auction: Frank Herbert, Frank Herbert (1920-1986) Dune. Fine First Edition. Philadelphia: Chilton Books, 1965.](https://images.openai.com/static-rsc-4/ui0cbhs0kOUA-YZGQVnte7F_OXAJ1zmoyPLKzfAUbSdl1BZJTTQRFF1GEg-Y60eTC-bEg6llteHCSphzWLw_hvssJiKrQokp4DSYhcc7kSPEpDCVhIgQsIs_s_9J8OtuimiLQmFz7JrxC6wvBCNPMhJ_eLMUzberEBOZYemBK7OrSsC46h3y-WoWFYj4poSS?purpose=fullsize)\n\n**4\\. Dune**\n\n1965 first edition.\n\nCertain copies have sold for over \\$10,000.\n\n---\n\n![Sold at Auction: Harper Lee: To Kill a Mockingbird (First Edition with Original Dust Jacket)](https://images.openai.com/static-rsc-4/se2UloQmS0kmXgZ14fNXWZ-UwP7Qxbmvv0YFOc6KtvaNzNa3jhHyaObZYiqhP54E9be1lc2rKqh31RGO-k2ShcgGsSPmmowZUzjnswxR-r8jmcy4J0OgPYqBG24eam_LBUWHV_rjJz3-A5qcZdKpSDYnC1KRJ396pUcmTUib-hsQSolMAkIwn5WTHq-opwXK?purpose=fullsize)\n\n**5\\. To Kill a Mockingbird**\n\n1960 first edition.\n\nSome first printings sell for thousands.\n\n---\n\n![Carrie | Stephen King | First Edition](https://images.openai.com/static-rsc-4/hZsYIRzUFVzrQbvUyMypiD_Zf6bjS9bybMWBoeWFr1Rs6JcQFLDI2RLBPWHUOIimP7WfbD555NmthvcskwB0gg1GgAHiFm3ytylNE8r0YvE0MUcqJMM61xtao7hLaMkODW84LEuARz8w4URrrCaZ-rEEgzCCAdOUAwkW7cHvNtaWi9lSsLNSxtkIyRVcxZt7?purpose=fullsize)\n\n**6\\. Carrie**\n\n1974 first edition.\n\nCollectible copies can be worth hundreds or more.\n\nThese are exceptional collectible editions, not typical copies. Values depend heavily on printing, condition and authenticity. [myvolumes.com](https://myvolumes.com/guides/most-valuable-first-editions/?utm_source=chatgpt.com)[www.sothebys.com](https://www.sothebys.com/en/articles/10-things-that-make-books-valuable?utm_source=chatgpt.com)[www.bbourse.ai](https://www.bbourse.ai/most-valuable-books?utm_source=chatgpt.com)\n\n## What to look for in your books\n\n- First edition or first printing.\n- Author's actual signature.\n- Original dust jacket.\n- Older books, especially pre-1900.\n- Rare children's books and illustrated books.\n- Old comic books and original printing collections.\n\n## I can help you find valuable books in your house\\!\n\n**You can send me pictures of your books**, and I'll help identify\\:\n\n- What the book is.\n- Whether it's a first edition.\n- Estimated resale value.\n- Whether collectors are looking for it.\n\n**One important thing\\:** Take a picture of the front cover AND the copyright page inside the book. That's how we can narrow down its value.\n\nYou might have something worth hundreds or even thousands of dollars sitting on your bookshelf\\!",
+          "search_results": [
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.bbourse.ai/most-valuable-books",
+              "domain": "www.bbourse.ai",
+              "title": "Most Valuable Books: First Editions Worth Money, by Real Sales · BBourse",
+              "description": null,
+              "breadcrumb": "www.bbourse.ai"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://myvolumes.com/guides/most-valuable-first-editions/",
+              "domain": "myvolumes.com",
+              "title": "Most Valuable First Edition Books | Home Finds | MyVolumes",
+              "description": null,
+              "breadcrumb": "myvolumes.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.sothebys.com/en/articles/10-things-that-make-books-valuable",
+              "domain": "www.sothebys.com",
+              "title": "10 Things That Make Books Valuable | Books & Manuscripts | Sotheby’s",
+              "description": null,
+              "breadcrumb": "www.sothebys.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.sothebys.com/en/articles/how-to-tell-if-your-mark-twain-book-is-valuable",
+              "domain": "www.sothebys.com",
+              "title": "How to Tell if Your Mark Twain Book is Valuable | Books & Manuscripts | Sotheby’s",
+              "description": null,
+              "breadcrumb": "www.sothebys.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.sothebys.com/en/articles/specialist-picks-shop-the-best-rare-and-first-edition-books-to-buy-now",
+              "domain": "www.sothebys.com",
+              "title": "Specialist Picks: Shop the Best Rare and First Edition Books to Buy Now | Books & Manuscripts | Sotheby’s",
+              "description": null,
+              "breadcrumb": "www.sothebys.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.collectibledetective.com/books/",
+              "domain": "www.collectibledetective.com",
+              "title": "Rare & Signed First Edition Books: Values & Price Guides (2026)",
+              "description": null,
+              "breadcrumb": "www.collectibledetective.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://ilab.org/article/first-editions-and-lasting-treasures-how-to-be-a-book-collector",
+              "domain": "ilab.org",
+              "title": "First editions and lasting treasures: how to be a book collector | International League of Antiquarian Booksellers (ILAB)",
+              "description": null,
+              "breadcrumb": "ilab.org"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.worthpic.com/guides/signed-books-value/",
+              "domain": "www.worthpic.com",
+              "title": "Signed Books Value: Flat Signed, Inscribed, Bookplates, Fakes | WorthPic",
+              "description": null,
+              "breadcrumb": "www.worthpic.com"
+            }
+          ],
+          "sources": [
+            {
+              "type": "chat_gpt_source",
+              "title": "Most Valuable First Edition Books | Home Finds",
+              "snippet": null,
+              "domain": "myvolumes.com",
+              "url": "https://myvolumes.com/guides/most-valuable-first-editions/?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "MyVolumes",
+              "publication_date": "2026-10-19 00:00:00 +00:00",
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "10 Things That Make Books Valuable | Books & Manuscripts",
+              "snippet": null,
+              "domain": "www.sothebys.com",
+              "url": "https://www.sothebys.com/en/articles/10-things-that-make-books-valuable?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "Sotheby’s",
+              "publication_date": "2026-10-07 00:00:00 +00:00",
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Most Valuable Books: First Editions Worth Money, by Real Sales",
+              "snippet": null,
+              "domain": "www.bbourse.ai",
+              "url": "https://www.bbourse.ai/most-valuable-books?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "BBourse",
+              "publication_date": null,
+              "markdown": null
+            }
+          ],
+          "fan_out_queries": [
+            "most valuable collectible books first editions signed rare books valuable editions guide examples 2026"
+          ],
+          "brand_entities": [
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "J.K. Rowling novel",
+              "category": "book",
+              "markdown": "Harry Potter and the Philosopher's Stone",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "J.R.R. Tolkien novel",
+              "category": "book",
+              "markdown": "The Hobbit",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "F. Scott Fitzgerald novel",
+              "category": "book",
+              "markdown": "The Great Gatsby",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Frank Herbert science fiction novel",
+              "category": "book",
+              "markdown": "Dune",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Harper Lee novel",
+              "category": "book",
+              "markdown": "To Kill a Mockingbird",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Stephen King novel",
+              "category": "book",
+              "markdown": "Carrie",
+              "urls": null
+            }
+          ],
+          "se_results_count": 0,
+          "item_types": [
+            "chat_gpt_text",
+            "chat_gpt_images"
+          ],
+          "items_count": 13,
+          "items": [
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "markdown": "Some books can be worth hundreds, thousands, or even tens of thousands of dollars\\! The trick is knowing **which editions, printings, and authors collectors are looking for.**\n\nIf you're checking books around your house, don't throw any old books away before checking them.\n\n## Books that can be worth serious money\n\nHere are some examples of collectible books to look for\\:\n\n",
+              "sources": null,
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "markdown": "![A Guide to Identifying Harry Potter First Editions | Books & Manuscripts | Sotheby’s](https://images.openai.com/static-rsc-4/ty4Ha0A8aZ0GUXHC-NszvkEut6erEC3L6CXo0Gw1cevIwVqYKWvB86GPCRQaUmycdxIE63ffnj8o4lGBWzTxC8WQzqcBG0yXfQixGyKIzGTZYII6RaBQq8vbDFlSSZtMl2ppywgv0Yl7_KsHqudfc-aRAm0VtHVOkstnok54NKIQ-GGJUD9n1sh4MuXhjVRi?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.sothebys.com/en/articles/a-guide-to-identifying-harry-potter-first-editions",
+                  "alt": "A Guide to Identifying Harry Potter First Editions | Books & Manuscripts | Sotheby’s",
+                  "image_url": "https://images.openai.com/static-rsc-4/ty4Ha0A8aZ0GUXHC-NszvkEut6erEC3L6CXo0Gw1cevIwVqYKWvB86GPCRQaUmycdxIE63ffnj8o4lGBWzTxC8WQzqcBG0yXfQixGyKIzGTZYII6RaBQq8vbDFlSSZtMl2ppywgv0Yl7_KsHqudfc-aRAm0VtHVOkstnok54NKIQ-GGJUD9n1sh4MuXhjVRi?purpose=fullsize",
+                  "markdown": "![A Guide to Identifying Harry Potter First Editions | Books & Manuscripts | Sotheby’s](https://images.openai.com/static-rsc-4/ty4Ha0A8aZ0GUXHC-NszvkEut6erEC3L6CXo0Gw1cevIwVqYKWvB86GPCRQaUmycdxIE63ffnj8o4lGBWzTxC8WQzqcBG0yXfQixGyKIzGTZYII6RaBQq8vbDFlSSZtMl2ppywgv0Yl7_KsHqudfc-aRAm0VtHVOkstnok54NKIQ-GGJUD9n1sh4MuXhjVRi?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "markdown": "\n\n**1\\. Harry Potter and the Philosopher's Stone**\n\n1997 first UK printing.\n\nPotentially thousands to hundreds of thousands for exceptionally rare copies.\n\n---\n\n",
+              "sources": null,
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "J.K. Rowling novel",
+                  "category": "book",
+                  "markdown": "Harry Potter and the Philosopher's Stone",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "markdown": "![The Hobbit | J. R. R. Tolkien | First edition](https://images.openai.com/static-rsc-4/DjP5VMtCdrJpjPkyU1DmE-iGbtEwcODeAe5nMzZOirfw4scGO5dWuraUOyBHGKAM3pfdyg_Ha0f8XW7MT2Zx-0pYkyLHFjXtaBP6I69bJzzQSpGmGviceNManiTAbvfkmH3HE10nWteMS1LZm6hOnOhCz1EFtyJEZZ1lKL2IjkMbmS7xaPmJLZ0z6uicN6hh?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.whitmorerarebooks.com/pages/books/5074/j-r-r-tolkien/the-hobbit?soldItem=true",
+                  "alt": "The Hobbit | J. R. R. Tolkien | First edition",
+                  "image_url": "https://images.openai.com/static-rsc-4/DjP5VMtCdrJpjPkyU1DmE-iGbtEwcODeAe5nMzZOirfw4scGO5dWuraUOyBHGKAM3pfdyg_Ha0f8XW7MT2Zx-0pYkyLHFjXtaBP6I69bJzzQSpGmGviceNManiTAbvfkmH3HE10nWteMS1LZm6hOnOhCz1EFtyJEZZ1lKL2IjkMbmS7xaPmJLZ0z6uicN6hh?purpose=fullsize",
+                  "markdown": "![The Hobbit | J. R. R. Tolkien | First edition](https://images.openai.com/static-rsc-4/DjP5VMtCdrJpjPkyU1DmE-iGbtEwcODeAe5nMzZOirfw4scGO5dWuraUOyBHGKAM3pfdyg_Ha0f8XW7MT2Zx-0pYkyLHFjXtaBP6I69bJzzQSpGmGviceNManiTAbvfkmH3HE10nWteMS1LZm6hOnOhCz1EFtyJEZZ1lKL2IjkMbmS7xaPmJLZ0z6uicN6hh?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 3,
+              "rank_absolute": 5,
+              "markdown": "\n\n**2\\. The Hobbit**\n\n1937 first edition.\n\nRare original copies can sell for tens of thousands.\n\n---\n\n",
+              "sources": null,
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "J.R.R. Tolkien novel",
+                  "category": "book",
+                  "markdown": "The Hobbit",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 3,
+              "rank_absolute": 6,
+              "markdown": "![FITZGERALD, F. Scott (1896-1940). The Great Gatsby. New York: Charles Scribner's Sons, 1925. | Christie's](https://images.openai.com/static-rsc-4/2x7BF0H-vzrEAE7wo6qMMd3gzBDSiKO4eESIZoaTVyTI06skbN6XwOcw4aUQ4Wk2XOZPUKlSOksyvKQ_WNWxDj9s7E8DkyMkpy-CgtVfK4chf9iSEdEA1qPfIaLjSK23uUWSEjF2LJIHrB9L1rODlx5aSNvzIAxzVdeug02cyGMHkSs5tGbZ-roKs0_tYOCB?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.christies.com/en/lot/lot-6210594",
+                  "alt": "FITZGERALD, F. Scott (1896-1940). The Great Gatsby. New York: Charles Scribner's Sons, 1925. | Christie's",
+                  "image_url": "https://images.openai.com/static-rsc-4/2x7BF0H-vzrEAE7wo6qMMd3gzBDSiKO4eESIZoaTVyTI06skbN6XwOcw4aUQ4Wk2XOZPUKlSOksyvKQ_WNWxDj9s7E8DkyMkpy-CgtVfK4chf9iSEdEA1qPfIaLjSK23uUWSEjF2LJIHrB9L1rODlx5aSNvzIAxzVdeug02cyGMHkSs5tGbZ-roKs0_tYOCB?purpose=fullsize",
+                  "markdown": "![FITZGERALD, F. Scott (1896-1940). The Great Gatsby. New York: Charles Scribner's Sons, 1925. | Christie's](https://images.openai.com/static-rsc-4/2x7BF0H-vzrEAE7wo6qMMd3gzBDSiKO4eESIZoaTVyTI06skbN6XwOcw4aUQ4Wk2XOZPUKlSOksyvKQ_WNWxDj9s7E8DkyMkpy-CgtVfK4chf9iSEdEA1qPfIaLjSK23uUWSEjF2LJIHrB9L1rODlx5aSNvzIAxzVdeug02cyGMHkSs5tGbZ-roKs0_tYOCB?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "markdown": "\n\n**3\\. The Great Gatsby**\n\n1925 first edition.\n\nExceptional copies with original dust jackets can be worth over \\$100,000.\n\n---\n\n",
+              "sources": null,
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "F. Scott Fitzgerald novel",
+                  "category": "book",
+                  "markdown": "The Great Gatsby",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 4,
+              "rank_absolute": 8,
+              "markdown": "![Sold at Auction: Frank Herbert, Frank Herbert (1920-1986) Dune. Fine First Edition. Philadelphia: Chilton Books, 1965.](https://images.openai.com/static-rsc-4/ui0cbhs0kOUA-YZGQVnte7F_OXAJ1zmoyPLKzfAUbSdl1BZJTTQRFF1GEg-Y60eTC-bEg6llteHCSphzWLw_hvssJiKrQokp4DSYhcc7kSPEpDCVhIgQsIs_s_9J8OtuimiLQmFz7JrxC6wvBCNPMhJ_eLMUzberEBOZYemBK7OrSsC46h3y-WoWFYj4poSS?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.invaluable.com/auction-lot/frank-herbert-1920-1986-dune-fine-first-edition-p-267-c-2815735665",
+                  "alt": "Sold at Auction: Frank Herbert, Frank Herbert (1920-1986) Dune. Fine First Edition. Philadelphia: Chilton Books, 1965.",
+                  "image_url": "https://images.openai.com/static-rsc-4/ui0cbhs0kOUA-YZGQVnte7F_OXAJ1zmoyPLKzfAUbSdl1BZJTTQRFF1GEg-Y60eTC-bEg6llteHCSphzWLw_hvssJiKrQokp4DSYhcc7kSPEpDCVhIgQsIs_s_9J8OtuimiLQmFz7JrxC6wvBCNPMhJ_eLMUzberEBOZYemBK7OrSsC46h3y-WoWFYj4poSS?purpose=fullsize",
+                  "markdown": "![Sold at Auction: Frank Herbert, Frank Herbert (1920-1986) Dune. Fine First Edition. Philadelphia: Chilton Books, 1965.](https://images.openai.com/static-rsc-4/ui0cbhs0kOUA-YZGQVnte7F_OXAJ1zmoyPLKzfAUbSdl1BZJTTQRFF1GEg-Y60eTC-bEg6llteHCSphzWLw_hvssJiKrQokp4DSYhcc7kSPEpDCVhIgQsIs_s_9J8OtuimiLQmFz7JrxC6wvBCNPMhJ_eLMUzberEBOZYemBK7OrSsC46h3y-WoWFYj4poSS?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 5,
+              "rank_absolute": 9,
+              "markdown": "\n\n**4\\. Dune**\n\n1965 first edition.\n\nCertain copies have sold for over \\$10,000.\n\n---\n\n",
+              "sources": null,
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Frank Herbert science fiction novel",
+                  "category": "book",
+                  "markdown": "Dune",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 5,
+              "rank_absolute": 10,
+              "markdown": "![Sold at Auction: Harper Lee: To Kill a Mockingbird (First Edition with Original Dust Jacket)](https://images.openai.com/static-rsc-4/se2UloQmS0kmXgZ14fNXWZ-UwP7Qxbmvv0YFOc6KtvaNzNa3jhHyaObZYiqhP54E9be1lc2rKqh31RGO-k2ShcgGsSPmmowZUzjnswxR-r8jmcy4J0OgPYqBG24eam_LBUWHV_rjJz3-A5qcZdKpSDYnC1KRJ396pUcmTUib-hsQSolMAkIwn5WTHq-opwXK?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.invaluable.com/auction-lot/harper-lee-to-kill-a-mockingbird-first-edition-wi-5086-c-5044f9c8a5",
+                  "alt": "Sold at Auction: Harper Lee: To Kill a Mockingbird (First Edition with Original Dust Jacket)",
+                  "image_url": "https://images.openai.com/static-rsc-4/se2UloQmS0kmXgZ14fNXWZ-UwP7Qxbmvv0YFOc6KtvaNzNa3jhHyaObZYiqhP54E9be1lc2rKqh31RGO-k2ShcgGsSPmmowZUzjnswxR-r8jmcy4J0OgPYqBG24eam_LBUWHV_rjJz3-A5qcZdKpSDYnC1KRJ396pUcmTUib-hsQSolMAkIwn5WTHq-opwXK?purpose=fullsize",
+                  "markdown": "![Sold at Auction: Harper Lee: To Kill a Mockingbird (First Edition with Original Dust Jacket)](https://images.openai.com/static-rsc-4/se2UloQmS0kmXgZ14fNXWZ-UwP7Qxbmvv0YFOc6KtvaNzNa3jhHyaObZYiqhP54E9be1lc2rKqh31RGO-k2ShcgGsSPmmowZUzjnswxR-r8jmcy4J0OgPYqBG24eam_LBUWHV_rjJz3-A5qcZdKpSDYnC1KRJ396pUcmTUib-hsQSolMAkIwn5WTHq-opwXK?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 6,
+              "rank_absolute": 11,
+              "markdown": "\n\n**5\\. To Kill a Mockingbird**\n\n1960 first edition.\n\nSome first printings sell for thousands.\n\n---\n\n",
+              "sources": null,
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Harper Lee novel",
+                  "category": "book",
+                  "markdown": "To Kill a Mockingbird",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 6,
+              "rank_absolute": 12,
+              "markdown": "![Carrie | Stephen King | First Edition](https://images.openai.com/static-rsc-4/hZsYIRzUFVzrQbvUyMypiD_Zf6bjS9bybMWBoeWFr1Rs6JcQFLDI2RLBPWHUOIimP7WfbD555NmthvcskwB0gg1GgAHiFm3ytylNE8r0YvE0MUcqJMM61xtao7hLaMkODW84LEuARz8w4URrrCaZ-rEEgzCCAdOUAwkW7cHvNtaWi9lSsLNSxtkIyRVcxZt7?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.downtownbrown.com/pages/books/259021/stephen-king/carrie?soldItem=true",
+                  "alt": "Carrie | Stephen King | First Edition",
+                  "image_url": "https://images.openai.com/static-rsc-4/hZsYIRzUFVzrQbvUyMypiD_Zf6bjS9bybMWBoeWFr1Rs6JcQFLDI2RLBPWHUOIimP7WfbD555NmthvcskwB0gg1GgAHiFm3ytylNE8r0YvE0MUcqJMM61xtao7hLaMkODW84LEuARz8w4URrrCaZ-rEEgzCCAdOUAwkW7cHvNtaWi9lSsLNSxtkIyRVcxZt7?purpose=fullsize",
+                  "markdown": "![Carrie | Stephen King | First Edition](https://images.openai.com/static-rsc-4/hZsYIRzUFVzrQbvUyMypiD_Zf6bjS9bybMWBoeWFr1Rs6JcQFLDI2RLBPWHUOIimP7WfbD555NmthvcskwB0gg1GgAHiFm3ytylNE8r0YvE0MUcqJMM61xtao7hLaMkODW84LEuARz8w4URrrCaZ-rEEgzCCAdOUAwkW7cHvNtaWi9lSsLNSxtkIyRVcxZt7?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 7,
+              "rank_absolute": 13,
+              "markdown": "\n\n**6\\. Carrie**\n\n1974 first edition.\n\nCollectible copies can be worth hundreds or more.\n\nThese are exceptional collectible editions, not typical copies. Values depend heavily on printing, condition and authenticity. [myvolumes.com](https://myvolumes.com/guides/most-valuable-first-editions/?utm_source=chatgpt.com)[www.sothebys.com](https://www.sothebys.com/en/articles/10-things-that-make-books-valuable?utm_source=chatgpt.com)[www.bbourse.ai](https://www.bbourse.ai/most-valuable-books?utm_source=chatgpt.com)\n\n## What to look for in your books\n\n- First edition or first printing.\n- Author's actual signature.\n- Original dust jacket.\n- Older books, especially pre-1900.\n- Rare children's books and illustrated books.\n- Old comic books and original printing collections.\n\n## I can help you find valuable books in your house\\!\n\n**You can send me pictures of your books**, and I'll help identify\\:\n\n- What the book is.\n- Whether it's a first edition.\n- Estimated resale value.\n- Whether collectors are looking for it.\n\n**One important thing\\:** Take a picture of the front cover AND the copyright page inside the book. That's how we can narrow down its value.\n\nYou might have something worth hundreds or even thousands of dollars sitting on your bookshelf\\!",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Most Valuable First Edition Books | Home Finds",
+                  "snippet": null,
+                  "domain": "myvolumes.com",
+                  "url": "https://myvolumes.com/guides/most-valuable-first-editions/?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "MyVolumes",
+                  "publication_date": "2026-10-19 00:00:00 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "10 Things That Make Books Valuable | Books & Manuscripts",
+                  "snippet": null,
+                  "domain": "www.sothebys.com",
+                  "url": "https://www.sothebys.com/en/articles/10-things-that-make-books-valuable?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "Sotheby’s",
+                  "publication_date": "2026-10-07 00:00:00 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Most Valuable Books: First Editions Worth Money, by Real Sales",
+                  "snippet": null,
+                  "domain": "www.bbourse.ai",
+                  "url": "https://www.bbourse.ai/most-valuable-books?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "BBourse",
+                  "publication_date": null,
+                  "markdown": null
+                }
+              ],
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Stephen King novel",
+                  "category": "book",
+                  "markdown": "Carrie",
+                  "urls": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

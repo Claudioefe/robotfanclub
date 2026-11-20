@@ -1,0 +1,540 @@
+{
+  "version": "0.1.20261117",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "13.8079 sec.",
+  "cost": 0.004,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "11201407-2831-0629-0000-ab7e645f1bf1",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "13.6995 sec.",
+      "cost": 0.004,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "chat_gpt",
+        "llm_scraper",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "live",
+        "se": "chat_gpt",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "first edition jane austen",
+        "force_web_search": true,
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "first edition jane austen",
+          "location_code": 2840,
+          "language_code": "en",
+          "model": "gpt-6",
+          "check_url": "https://chatgpt.com/?prompt=first%20edition%20jane%20austen&hints=search",
+          "datetime": "2026-11-20 14:08:03 +00:00",
+          "markdown": "Jane Austen's original first editions are highly collectible rare books, published between 1811 and 1818. Here is the publication list.\n\n## Jane Austen's six original first editions\n\n![Sense and Sensibility, Jane Austen, 1811 | Christie's](https://images.openai.com/static-rsc-4/4kXCdzDXgyNc0caE1t-k_UDn3JKbEm18JYQ-IidHeYr9RWSTgsl_TOHYHyFYG380hi80wo_hfJ0-Wvvwz7gLbaim2U18SFWxGQmeVMQU7rQy3WqbtOZgdS1zQA0fnme_8h-qClohN-p4XLanLLeI19M1x6Lh-lH0LxLRs93Osf29LKnJqYKghe0ZneL1aF45?purpose=fullsize)\n\n**1\\. Sense and Sensibility**\n\n(First published 1811)\n\nPublisher: Thomas Egerton, London. Three volumes. Title page says \"By a Lady.\"\n\n---\n\n![Pride and Prejudice, Jane Austen, 1813 | Christie's](https://images.openai.com/static-rsc-4/tR9Cag4397GKxBLrr-KAS-G27kg4C02aGA78SV4ooqc9TCJp6kQpb8VTsS5OUe7iQKtUUcGefbLuOorLNNe2Y86dMmfcoleA34L2FH1rMrtEv4X_fguw-6cbWVNZH9cjxHITjz9m2KSlCS5KYFlzhcsDxNd2M7gqMdqp9OdWmfXjIqKVXfwqbCC-n7O5MQiX?purpose=fullsize)\n\n**2\\. Pride and Prejudice**\n\n(First published 1813)\n\nPublisher: Thomas Egerton. Three volumes.\n\n---\n\n![Mansfield Park, Jane Austen, 1814 | Christie's](https://images.openai.com/static-rsc-4/rsD3Hrct-g7CnlllYGbuDpKmeuGnJzFGKlSWrDxvR-KzrX5eNLj8wkmdofo3ro41FZ4MCwgsv2kn_uxBV7kgTRXnGuchvhbi2c58W4OH-w2h68jntMCUUQ4prVHxeeRXn0GisC3nuugRZdAK0n4RqyHzg6NpmW7FbllvsmGiRgxGUfybG0cxZp8W5GKE-WMu?purpose=fullsize)\n\n**3\\. Mansfield Park**\nFirst published 1814. Thomas Egerton. Three volumes.\n\n---\n\n![Bonhams : A FINE COPY OF AUSTEN'S \"PERFECT NOVEL\" WITH 1815 WATERMARKS. AUSTEN, JANE. 1775-1817. Emma: A Novel in Three Volumes. London: Printed for John Murray, 1816.](https://images.openai.com/static-rsc-4/E4fyKmMaZN4LAxuNL4GkemUVi0D98c_1-q7IvZvkjTiA0riTjbNO2JcHquTdjwsg2HkviDXIB0h6DqireDqrRYkPFHbPkSzQxs2FxZmrj3PGUAgKDI6maeRP_0b5EFXnqPgryWRNi0-ctItwAfSmAjXQsS_g_3HCMh25kKnsPJ4SUGXonlnC8XsCirfHwkXW?purpose=fullsize)\n\n**4\\. Emma**\nFirst published December 1815; title page dated 1816. John Murray.\n\n---\n\n![Jane Austen, Northanger Abbey and Persuasion, First Edition in Four Volumes sold at auction on 17th April  | Michaan's Auctions](https://images.openai.com/static-rsc-4/gKFiWjCMiuznd6vm-DdgT3K4sZJOCKUAkwt1Acw-fN6arwNYbSgowJn0Awvi3A9gtltzfx470FdTEtveAmQHCri1SuTuNsD4BuuTxpMRTTxQ15aG-Ri9_s_gnyRuVkJgB6ylxnwMHUqRgLsZOKfhHGH4bQezEtvL0Cl6aT30GFx6WzQEa1xkVTMJjHmppLr6?purpose=fullsize)\n\n**5\\. Northanger Abbey**\nFirst published posthumously in December 1817; title page dated 1818.\n\n---\n\n![Category:Persuasion by Jane Austen - Wikimedia Commons](https://images.openai.com/static-rsc-4/vhzPD3r6zur0sOp3oeRKO860quABbM1ZrVjrr_iTQXXkjzRXC5Sj5fVAGI94DZv-WJ1VDB5uP9xl4s6l4khvsHtg2qBYqmxJU6SHVSngPH2c_bGZUNXuwwFy6WQXOjLKbTZG2jV2D27lTtVMcRUtKlHRS0Rm-A-X2idybvQ4ZRW31jotCSgH_l9GjAeeD63G?purpose=fullsize)\n\n**6\\. Persuasion**\nFirst published posthumously in December 1817; title page dated 1818.\n\nSources: [janeaustensociety.org.uk](https://janeaustensociety.org.uk/jane-austen/the-novels/?utm_source=chatgpt.com)[www.bl.uk](https://www.bl.uk/stories/blogs/posts/jane-austen-names-and-notability?utm_source=chatgpt.com)[myvolumes.com](https://myvolumes.com/guides/jane-austen-first-editions/?utm_source=chatgpt.com)[janeaustensworld.com](https://janeaustensworld.com/2023/06/26/jane-austens-publishing-journey/?utm_source=chatgpt.com)\n\n## Where to research original first editions\n\n- [British Library](https://www.bl.uk/) – historical copies and collections.\n- [AbeBooks](https://www.abebooks.com/) – rare-book listings.\n- [Sotheby's](https://www.sothebys.com/) – auction records and rare copies.\n- [Antiquarian Booksellers' Association of America](https://www.abaa.org/) – specialist rare-book dealers.\n\n## One question\n\nAre you looking to\\:\n\n1. **Buy** an original first edition of Jane Austen.\n2. **Find out the value** of one you own.\n3. **See photographs** of the original 1811–1818 books.\n4. Find a **first-edition Pride and Prejudice** in particular.\n\nI can help you investigate authenticity, current asking prices, and auction values.",
+          "search_results": [
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://academic.oup.com/book/48768/chapter-abstract/422782889?utm_source=chatgpt.com",
+              "domain": "academic.oup.com",
+              "title": "Jane Austen",
+              "description": "Literature of the Romantic Period: A Bibliographical Guide  Chapter  12 JANE AUSTEN  Get access  Fiona Stafford  Fiona Stafford  Find on  Oxford Academic  Google Scholar  https://doi.org/10.1093/oso/...",
+              "breadcrumb": "oup.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://janeaustensociety.org.uk/jane-austen/the-novels/?utm_source=chatgpt.com",
+              "domain": "janeaustensociety.org.uk",
+              "title": "The Novels - The Jane Austen Society UK",
+              "description": "THE NOVELS  The NovelsMariette-JB2026-11-15T15:39:22+00:00  A brief chronology of the composition and publication of her major novels and other writings is provided below.  STEVENTON: 1775 -1801  ca....",
+              "breadcrumb": "janeaustensociety.org.uk"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.bl.uk/stories/blogs/posts/jane-austen-names-and-notability?utm_source=chatgpt.com",
+              "domain": "www.bl.uk",
+              "title": "Jane Austen: names and notability",
+              "description": "JANE AUSTEN: NAMES AND NOTABILITY  Early printed books on display at the British Library to mark the 250th anniversary of Jane Austen's birth reveal her first steps from anonymity to literary immorta...",
+              "breadcrumb": "bl.uk"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://dev.gutenberg.org/cache/epub/52622/pg52622-images.html?utm_source=chatgpt.com",
+              "domain": "dev.gutenberg.org",
+              "title": "Jane Austen and Her Times",
+              "description": "TABULAR STATEMENT OF DATES OF NOVELS  Name.  | Begun.  | Finished.  | Published. Pride and Prejudice (First Impressions)  | Oct. 1796  | Aug. 1797  | Early in 1813 Sense and Sensibility (Elinor and Ma...",
+              "breadcrumb": "gutenberg.org"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://austen.com/jane-austen/?utm_source=chatgpt.com",
+              "domain": "austen.com",
+              "title": "Jane Austen — A Life (1775–1817) | Austen.com",
+              "description": "THE BATH YEARS AND THE LONG SILENCE 1801–1806  In December 1800, with no consultation, the Austen parents announced that they were retiring to Bath and giving Steventon to James. Jane is said to have...",
+              "breadcrumb": "austen.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://jane-austen-lf.squarespace.com/pride-and-possibilities-articles/2017/9/24/issue-20-getting-jane-published-some-observations-from-a-book-collector?utm_source=chatgpt.com",
+              "domain": "jane-austen-lf.squarespace.com",
+              "title": "Issue 21: Getting Jane published - observations of a book collector — Jane Austen Literacy Foundation",
+              "description": "Emily Prince  September 24, 2017  ISSUE 21: GETTING JANE PUBLISHED - OBSERVATIONS OF A BOOK COLLECTOR  Emily Prince  September 24, 2017  CHRIS BROWNE HAS BEEN A SERIOUS COLLECTOR OF BOOKS FOR MORE TH...",
+              "breadcrumb": "squarespace.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.janeausten.org/jane-austen-timeline.php?utm_source=chatgpt.com",
+              "domain": "www.janeausten.org",
+              "title": "Jane Austen Timeline",
+              "description": "Age 34  1811  (February) Jane works on Mansfield Park.  Age 35  1811  (March) Jane visits Henry and wife Eliza in London.  Age 35  1811  (Wednesday, October 30th) Sense & Sensibility is published by T...",
+              "breadcrumb": "janeausten.org"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://austenprose.com/2012/03/31/publication-dates-of-jane-austens-novels-and-minor-works/?utm_source=chatgpt.com",
+              "domain": "austenprose.com",
+              "title": "Publication Dates of Jane Austen’s Novels and Minor Works – Austenprose",
+              "description": "PUBLICATION DATES OF JANE AUSTEN’S NOVELS AND MINOR WORKS  Inquiring reader Lily recently wrote to me and expressed her frustration at not being able to locate the publication dates of Jane Austen’s...",
+              "breadcrumb": "austenprose.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://myvolumes.com/authors/jane-austen/?utm_source=chatgpt.com",
+              "domain": "myvolumes.com",
+              "title": "Jane Austen Books in Order | First Editions | MyVolumes",
+              "description": "Image: Jane Austen  AUSTEN, JANE, 1775 to 1817  JANE AUSTEN  Jane Austen (1775-1817) was an English novelist whose works include Sense and Sensibility, Pride and Prejudice and Emma.  Books 11  Editio...",
+              "breadcrumb": "myvolumes.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://myvolumes.com/guides/jane-austen-first-editions/?utm_source=chatgpt.com",
+              "domain": "myvolumes.com",
+              "title": "Jane Austen First Editions: How to Identify Them and What",
+              "description": "JANE AUSTEN FIRST EDITIONS: HOW TO IDENTIFY THEM AND WHAT THEY SELL FOR  By Harriet Ellis, MyVolumes editor · 7 min read  IN SHORT  Jane Austen's six novels were first published in London between 181...",
+              "breadcrumb": "myvolumes.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://janeaustensworld.com/2023/06/26/jane-austens-publishing-journey/?utm_source=chatgpt.com",
+              "domain": "janeaustensworld.com",
+              "title": "Jane Austen’s Publishing Journey | Jane Austen's World",
+              "description": "JANE AUSTEN’S PUBLISHED BOOKS  Title  | Written/Revised  | Published  | Publisher  | How?  | Income during Austen’s lifetime Sense and Sensibility (originally Elinor and Marianne)  | 1795 as letters,...",
+              "breadcrumb": "janeaustensworld.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://janeaustens.house/object_category/janeaustennovels/?utm_source=chatgpt.com",
+              "domain": "janeaustens.house",
+              "title": "Jane Austen's novels Archives | Jane Austen's House",
+              "description": "FIRST EDITION: PRIDE AND PREJUDICE  Object name: Pride and Prejudice, First Edition  Object number: CHWJA:JAHB13.2.1-3  Category: Books  Description: First edition of Pride and Prejudice, published i...",
+              "breadcrumb": "janeaustens.house"
+            }
+          ],
+          "sources": [
+            {
+              "type": "chat_gpt_source",
+              "title": "The Novels",
+              "snippet": null,
+              "domain": "janeaustensociety.org.uk",
+              "url": "https://janeaustensociety.org.uk/jane-austen/the-novels/?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "The Jane Austen Society UK",
+              "publication_date": null,
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Jane Austen: names and notability",
+              "snippet": null,
+              "domain": "www.bl.uk",
+              "url": "https://www.bl.uk/stories/blogs/posts/jane-austen-names-and-notability?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "British Library",
+              "publication_date": "2025-12-02 00:00:00 +00:00",
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Jane Austen First Editions: How to Identify Them and What",
+              "snippet": null,
+              "domain": "myvolumes.com",
+              "url": "https://myvolumes.com/guides/jane-austen-first-editions/?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "MyVolumes",
+              "publication_date": null,
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Jane Austen’s Publishing Journey",
+              "snippet": null,
+              "domain": "janeaustensworld.com",
+              "url": "https://janeaustensworld.com/2023/06/26/jane-austens-publishing-journey/?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "Jane Austen's World",
+              "publication_date": "2023-06-26 00:00:00 +00:00",
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "British Library",
+              "snippet": null,
+              "domain": "www.bl.uk",
+              "url": "https://www.bl.uk/",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[British Library](https://www.bl.uk/)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "AbeBooks",
+              "snippet": null,
+              "domain": "www.abebooks.com",
+              "url": "https://www.abebooks.com/",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[AbeBooks](https://www.abebooks.com/)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Sotheby's",
+              "snippet": null,
+              "domain": "www.sothebys.com",
+              "url": "https://www.sothebys.com/",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[Sotheby's](https://www.sothebys.com/)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Antiquarian Booksellers' Association of America",
+              "snippet": null,
+              "domain": "www.abaa.org",
+              "url": "https://www.abaa.org/",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[Antiquarian Booksellers' Association of America](https://www.abaa.org/)"
+            }
+          ],
+          "fan_out_queries": [
+            "Jane Austen first editions novels publication dates first edition books"
+          ],
+          "brand_entities": [
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Jane Austen novel",
+              "category": "book",
+              "markdown": "Sense and Sensibility",
+              "urls": null
+            }
+          ],
+          "se_results_count": 0,
+          "item_types": [
+            "chat_gpt_text",
+            "chat_gpt_images"
+          ],
+          "items_count": 13,
+          "items": [
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "markdown": "Jane Austen's original first editions are highly collectible rare books, published between 1811 and 1818. Here is the publication list.\n\n## Jane Austen's six original first editions\n\n",
+              "sources": null,
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "markdown": "![Sense and Sensibility, Jane Austen, 1811 | Christie's](https://images.openai.com/static-rsc-4/4kXCdzDXgyNc0caE1t-k_UDn3JKbEm18JYQ-IidHeYr9RWSTgsl_TOHYHyFYG380hi80wo_hfJ0-Wvvwz7gLbaim2U18SFWxGQmeVMQU7rQy3WqbtOZgdS1zQA0fnme_8h-qClohN-p4XLanLLeI19M1x6Lh-lH0LxLRs93Osf29LKnJqYKghe0ZneL1aF45?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.christies.com/en/lot/lot-6332109",
+                  "alt": "Sense and Sensibility, Jane Austen, 1811 | Christie's",
+                  "image_url": "https://images.openai.com/static-rsc-4/4kXCdzDXgyNc0caE1t-k_UDn3JKbEm18JYQ-IidHeYr9RWSTgsl_TOHYHyFYG380hi80wo_hfJ0-Wvvwz7gLbaim2U18SFWxGQmeVMQU7rQy3WqbtOZgdS1zQA0fnme_8h-qClohN-p4XLanLLeI19M1x6Lh-lH0LxLRs93Osf29LKnJqYKghe0ZneL1aF45?purpose=fullsize",
+                  "markdown": "![Sense and Sensibility, Jane Austen, 1811 | Christie's](https://images.openai.com/static-rsc-4/4kXCdzDXgyNc0caE1t-k_UDn3JKbEm18JYQ-IidHeYr9RWSTgsl_TOHYHyFYG380hi80wo_hfJ0-Wvvwz7gLbaim2U18SFWxGQmeVMQU7rQy3WqbtOZgdS1zQA0fnme_8h-qClohN-p4XLanLLeI19M1x6Lh-lH0LxLRs93Osf29LKnJqYKghe0ZneL1aF45?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "markdown": "\n\n**1\\. Sense and Sensibility**\n\n(First published 1811)\n\nPublisher: Thomas Egerton, London. Three volumes. Title page says \"By a Lady.\"\n\n---\n\n",
+              "sources": null,
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Jane Austen novel",
+                  "category": "book",
+                  "markdown": "Sense and Sensibility",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "markdown": "![Pride and Prejudice, Jane Austen, 1813 | Christie's](https://images.openai.com/static-rsc-4/tR9Cag4397GKxBLrr-KAS-G27kg4C02aGA78SV4ooqc9TCJp6kQpb8VTsS5OUe7iQKtUUcGefbLuOorLNNe2Y86dMmfcoleA34L2FH1rMrtEv4X_fguw-6cbWVNZH9cjxHITjz9m2KSlCS5KYFlzhcsDxNd2M7gqMdqp9OdWmfXjIqKVXfwqbCC-n7O5MQiX?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.christies.com/en/lot/lot-6332110",
+                  "alt": "Pride and Prejudice, Jane Austen, 1813 | Christie's",
+                  "image_url": "https://images.openai.com/static-rsc-4/tR9Cag4397GKxBLrr-KAS-G27kg4C02aGA78SV4ooqc9TCJp6kQpb8VTsS5OUe7iQKtUUcGefbLuOorLNNe2Y86dMmfcoleA34L2FH1rMrtEv4X_fguw-6cbWVNZH9cjxHITjz9m2KSlCS5KYFlzhcsDxNd2M7gqMdqp9OdWmfXjIqKVXfwqbCC-n7O5MQiX?purpose=fullsize",
+                  "markdown": "![Pride and Prejudice, Jane Austen, 1813 | Christie's](https://images.openai.com/static-rsc-4/tR9Cag4397GKxBLrr-KAS-G27kg4C02aGA78SV4ooqc9TCJp6kQpb8VTsS5OUe7iQKtUUcGefbLuOorLNNe2Y86dMmfcoleA34L2FH1rMrtEv4X_fguw-6cbWVNZH9cjxHITjz9m2KSlCS5KYFlzhcsDxNd2M7gqMdqp9OdWmfXjIqKVXfwqbCC-n7O5MQiX?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 3,
+              "rank_absolute": 5,
+              "markdown": "\n\n**2\\. Pride and Prejudice**\n\n(First published 1813)\n\nPublisher: Thomas Egerton. Three volumes.\n\n---\n\n",
+              "sources": null,
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Jane Austen novel",
+                  "category": "book",
+                  "markdown": "Pride and Prejudice",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 3,
+              "rank_absolute": 6,
+              "markdown": "![Mansfield Park, Jane Austen, 1814 | Christie's](https://images.openai.com/static-rsc-4/rsD3Hrct-g7CnlllYGbuDpKmeuGnJzFGKlSWrDxvR-KzrX5eNLj8wkmdofo3ro41FZ4MCwgsv2kn_uxBV7kgTRXnGuchvhbi2c58W4OH-w2h68jntMCUUQ4prVHxeeRXn0GisC3nuugRZdAK0n4RqyHzg6NpmW7FbllvsmGiRgxGUfybG0cxZp8W5GKE-WMu?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.christies.com/en/lot/lot-6332111",
+                  "alt": "Mansfield Park, Jane Austen, 1814 | Christie's",
+                  "image_url": "https://images.openai.com/static-rsc-4/rsD3Hrct-g7CnlllYGbuDpKmeuGnJzFGKlSWrDxvR-KzrX5eNLj8wkmdofo3ro41FZ4MCwgsv2kn_uxBV7kgTRXnGuchvhbi2c58W4OH-w2h68jntMCUUQ4prVHxeeRXn0GisC3nuugRZdAK0n4RqyHzg6NpmW7FbllvsmGiRgxGUfybG0cxZp8W5GKE-WMu?purpose=fullsize",
+                  "markdown": "![Mansfield Park, Jane Austen, 1814 | Christie's](https://images.openai.com/static-rsc-4/rsD3Hrct-g7CnlllYGbuDpKmeuGnJzFGKlSWrDxvR-KzrX5eNLj8wkmdofo3ro41FZ4MCwgsv2kn_uxBV7kgTRXnGuchvhbi2c58W4OH-w2h68jntMCUUQ4prVHxeeRXn0GisC3nuugRZdAK0n4RqyHzg6NpmW7FbllvsmGiRgxGUfybG0cxZp8W5GKE-WMu?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "markdown": "\n\n**3\\. Mansfield Park**\nFirst published 1814. Thomas Egerton. Three volumes.\n\n---\n\n",
+              "sources": null,
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Jane Austen novel",
+                  "category": "book",
+                  "markdown": "Mansfield Park",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 4,
+              "rank_absolute": 8,
+              "markdown": "![Bonhams : A FINE COPY OF AUSTEN'S \"PERFECT NOVEL\" WITH 1815 WATERMARKS. AUSTEN, JANE. 1775-1817. Emma: A Novel in Three Volumes. London: Printed for John Murray, 1816.](https://images.openai.com/static-rsc-4/E4fyKmMaZN4LAxuNL4GkemUVi0D98c_1-q7IvZvkjTiA0riTjbNO2JcHquTdjwsg2HkviDXIB0h6DqireDqrRYkPFHbPkSzQxs2FxZmrj3PGUAgKDI6maeRP_0b5EFXnqPgryWRNi0-ctItwAfSmAjXQsS_g_3HCMh25kKnsPJ4SUGXonlnC8XsCirfHwkXW?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.bonhams.com/auction/31200/lot/146/a-fine-copy-of-austens-perfect-novel-with-1815-watermarks-austen-jane-1775-1817-emma-a-novel-in-three-volumes-london-printed-for-john-murray-1816/",
+                  "alt": "Bonhams : A FINE COPY OF AUSTEN'S \"PERFECT NOVEL\" WITH 1815 WATERMARKS. AUSTEN, JANE. 1775-1817. Emma: A Novel in Three Volumes. London: Printed for John Murray, 1816.",
+                  "image_url": "https://images.openai.com/static-rsc-4/E4fyKmMaZN4LAxuNL4GkemUVi0D98c_1-q7IvZvkjTiA0riTjbNO2JcHquTdjwsg2HkviDXIB0h6DqireDqrRYkPFHbPkSzQxs2FxZmrj3PGUAgKDI6maeRP_0b5EFXnqPgryWRNi0-ctItwAfSmAjXQsS_g_3HCMh25kKnsPJ4SUGXonlnC8XsCirfHwkXW?purpose=fullsize",
+                  "markdown": "![Bonhams : A FINE COPY OF AUSTEN'S \"PERFECT NOVEL\" WITH 1815 WATERMARKS. AUSTEN, JANE. 1775-1817. Emma: A Novel in Three Volumes. London: Printed for John Murray, 1816.](https://images.openai.com/static-rsc-4/E4fyKmMaZN4LAxuNL4GkemUVi0D98c_1-q7IvZvkjTiA0riTjbNO2JcHquTdjwsg2HkviDXIB0h6DqireDqrRYkPFHbPkSzQxs2FxZmrj3PGUAgKDI6maeRP_0b5EFXnqPgryWRNi0-ctItwAfSmAjXQsS_g_3HCMh25kKnsPJ4SUGXonlnC8XsCirfHwkXW?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 5,
+              "rank_absolute": 9,
+              "markdown": "\n\n**4\\. Emma**\nFirst published December 1815; title page dated 1816. John Murray.\n\n---\n\n",
+              "sources": null,
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Jane Austen novel",
+                  "category": "book",
+                  "markdown": "Emma",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 5,
+              "rank_absolute": 10,
+              "markdown": "![Jane Austen, Northanger Abbey and Persuasion, First Edition in Four Volumes sold at auction on 17th April  | Michaan's Auctions](https://images.openai.com/static-rsc-4/gKFiWjCMiuznd6vm-DdgT3K4sZJOCKUAkwt1Acw-fN6arwNYbSgowJn0Awvi3A9gtltzfx470FdTEtveAmQHCri1SuTuNsD4BuuTxpMRTTxQ15aG-Ri9_s_gnyRuVkJgB6ylxnwMHUqRgLsZOKfhHGH4bQezEtvL0Cl6aT30GFx6WzQEa1xkVTMJjHmppLr6?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://auction.michaans.com/online-auctions/michaans/jane-austen-northanger-abbey-and-persuasion-first-edition-in-four-volumes-9010949",
+                  "alt": "Jane Austen, Northanger Abbey and Persuasion, First Edition in Four Volumes sold at auction on 17th April  | Michaan's Auctions",
+                  "image_url": "https://images.openai.com/static-rsc-4/gKFiWjCMiuznd6vm-DdgT3K4sZJOCKUAkwt1Acw-fN6arwNYbSgowJn0Awvi3A9gtltzfx470FdTEtveAmQHCri1SuTuNsD4BuuTxpMRTTxQ15aG-Ri9_s_gnyRuVkJgB6ylxnwMHUqRgLsZOKfhHGH4bQezEtvL0Cl6aT30GFx6WzQEa1xkVTMJjHmppLr6?purpose=fullsize",
+                  "markdown": "![Jane Austen, Northanger Abbey and Persuasion, First Edition in Four Volumes sold at auction on 17th April  | Michaan's Auctions](https://images.openai.com/static-rsc-4/gKFiWjCMiuznd6vm-DdgT3K4sZJOCKUAkwt1Acw-fN6arwNYbSgowJn0Awvi3A9gtltzfx470FdTEtveAmQHCri1SuTuNsD4BuuTxpMRTTxQ15aG-Ri9_s_gnyRuVkJgB6ylxnwMHUqRgLsZOKfhHGH4bQezEtvL0Cl6aT30GFx6WzQEa1xkVTMJjHmppLr6?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 6,
+              "rank_absolute": 11,
+              "markdown": "\n\n**5\\. Northanger Abbey**\nFirst published posthumously in December 1817; title page dated 1818.\n\n---\n\n",
+              "sources": null,
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Jane Austen novel",
+                  "category": "book",
+                  "markdown": "Northanger Abbey",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 6,
+              "rank_absolute": 12,
+              "markdown": "![Category:Persuasion by Jane Austen - Wikimedia Commons](https://images.openai.com/static-rsc-4/vhzPD3r6zur0sOp3oeRKO860quABbM1ZrVjrr_iTQXXkjzRXC5Sj5fVAGI94DZv-WJ1VDB5uP9xl4s6l4khvsHtg2qBYqmxJU6SHVSngPH2c_bGZUNXuwwFy6WQXOjLKbTZG2jV2D27lTtVMcRUtKlHRS0Rm-A-X2idybvQ4ZRW31jotCSgH_l9GjAeeD63G?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://commons.wikimedia.org/wiki/Category%3APersuasion_by_Jane_Austen",
+                  "alt": "Category:Persuasion by Jane Austen - Wikimedia Commons",
+                  "image_url": "https://images.openai.com/static-rsc-4/vhzPD3r6zur0sOp3oeRKO860quABbM1ZrVjrr_iTQXXkjzRXC5Sj5fVAGI94DZv-WJ1VDB5uP9xl4s6l4khvsHtg2qBYqmxJU6SHVSngPH2c_bGZUNXuwwFy6WQXOjLKbTZG2jV2D27lTtVMcRUtKlHRS0Rm-A-X2idybvQ4ZRW31jotCSgH_l9GjAeeD63G?purpose=fullsize",
+                  "markdown": "![Category:Persuasion by Jane Austen - Wikimedia Commons](https://images.openai.com/static-rsc-4/vhzPD3r6zur0sOp3oeRKO860quABbM1ZrVjrr_iTQXXkjzRXC5Sj5fVAGI94DZv-WJ1VDB5uP9xl4s6l4khvsHtg2qBYqmxJU6SHVSngPH2c_bGZUNXuwwFy6WQXOjLKbTZG2jV2D27lTtVMcRUtKlHRS0Rm-A-X2idybvQ4ZRW31jotCSgH_l9GjAeeD63G?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 7,
+              "rank_absolute": 13,
+              "markdown": "\n\n**6\\. Persuasion**\nFirst published posthumously in December 1817; title page dated 1818.\n\nSources: [janeaustensociety.org.uk](https://janeaustensociety.org.uk/jane-austen/the-novels/?utm_source=chatgpt.com)[www.bl.uk](https://www.bl.uk/stories/blogs/posts/jane-austen-names-and-notability?utm_source=chatgpt.com)[myvolumes.com](https://myvolumes.com/guides/jane-austen-first-editions/?utm_source=chatgpt.com)[janeaustensworld.com](https://janeaustensworld.com/2023/06/26/jane-austens-publishing-journey/?utm_source=chatgpt.com)\n\n## Where to research original first editions\n\n- [British Library](https://www.bl.uk/) – historical copies and collections.\n- [AbeBooks](https://www.abebooks.com/) – rare-book listings.\n- [Sotheby's](https://www.sothebys.com/) – auction records and rare copies.\n- [Antiquarian Booksellers' Association of America](https://www.abaa.org/) – specialist rare-book dealers.\n\n## One question\n\nAre you looking to\\:\n\n1. **Buy** an original first edition of Jane Austen.\n2. **Find out the value** of one you own.\n3. **See photographs** of the original 1811–1818 books.\n4. Find a **first-edition Pride and Prejudice** in particular.\n\nI can help you investigate authenticity, current asking prices, and auction values.",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "The Novels",
+                  "snippet": null,
+                  "domain": "janeaustensociety.org.uk",
+                  "url": "https://janeaustensociety.org.uk/jane-austen/the-novels/?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "The Jane Austen Society UK",
+                  "publication_date": null,
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Jane Austen: names and notability",
+                  "snippet": null,
+                  "domain": "www.bl.uk",
+                  "url": "https://www.bl.uk/stories/blogs/posts/jane-austen-names-and-notability?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "British Library",
+                  "publication_date": "2025-12-02 00:00:00 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Jane Austen First Editions: How to Identify Them and What",
+                  "snippet": null,
+                  "domain": "myvolumes.com",
+                  "url": "https://myvolumes.com/guides/jane-austen-first-editions/?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "MyVolumes",
+                  "publication_date": null,
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Jane Austen’s Publishing Journey",
+                  "snippet": null,
+                  "domain": "janeaustensworld.com",
+                  "url": "https://janeaustensworld.com/2023/06/26/jane-austens-publishing-journey/?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "Jane Austen's World",
+                  "publication_date": "2023-06-26 00:00:00 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "British Library",
+                  "snippet": null,
+                  "domain": "www.bl.uk",
+                  "url": "https://www.bl.uk/",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[British Library](https://www.bl.uk/)"
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "AbeBooks",
+                  "snippet": null,
+                  "domain": "www.abebooks.com",
+                  "url": "https://www.abebooks.com/",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[AbeBooks](https://www.abebooks.com/)"
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Sotheby's",
+                  "snippet": null,
+                  "domain": "www.sothebys.com",
+                  "url": "https://www.sothebys.com/",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[Sotheby's](https://www.sothebys.com/)"
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Antiquarian Booksellers' Association of America",
+                  "snippet": null,
+                  "domain": "www.abaa.org",
+                  "url": "https://www.abaa.org/",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[Antiquarian Booksellers' Association of America](https://www.abaa.org/)"
+                }
+              ],
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Jane Austen novel",
+                  "category": "book",
+                  "markdown": "Persuasion",
+                  "urls": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "version": "0.1.20261117",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "13.1539 sec.",
+  "cost": 0.004,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "11201407-2831-0629-0000-6f87a5cd74bf",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "12.8478 sec.",
+      "cost": 0.004,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "chat_gpt",
+        "llm_scraper",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "live",
+        "se": "chat_gpt",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "are stephen king books worth anything",
+        "force_web_search": true,
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "are stephen king books worth anything",
+          "location_code": 2840,
+          "language_code": "en",
+          "model": "gpt-6",
+          "check_url": "https://chatgpt.com/?prompt=are%20stephen%20king%20books%20worth%20anything&hints=search",
+          "datetime": "2026-11-20 14:07:52 +00:00",
+          "markdown": "Yes\\! **Stephen King books can be worth quite a bit of money**, especially early editions, first printings, signed copies, and books with limited print runs.\n\nSome Stephen King books are worth only a few dollars, while rare collectible editions can sell for hundreds or even thousands.\n\nThe biggest things that determine value are\\:\n\n- **First edition\\:** Particularly first-printing hardcover editions.\n- **Author signature\\:** Signed copies can bring substantially more.\n- **Condition\\:** Dust jacket, intact pages, no water damage, and clean covers matter.\n- **Publication year\\:** Early books from the 1970s and 1980s are especially interesting to collectors.\n\n**Some books to look for first\\:**\n\n![Stephen King \"Carrie\" US First Edition, First Printing w/Custom Clam Shell Case [F/NF]](https://images.openai.com/static-rsc-4/9S8-IKg2CnpD2pmz-5Fo-rA6jS-43Yv9R8w4fyjePrSMi9l3gdnYmM62O3ykwsn8S3EtgV2HYxZANccm3cDHKEXl2q3UZ4XnXvkNORrpg_PVG-d-Zn1fuMt9lfzeE2MRzDgYyTvv5NZJCMaQusbpuyzlNefqqlUIwhjcb1koWeI9haRLFFua70f0rLazxOdm?purpose=fullsize)\n\n**Carrie \\(1974)**\n\nPotentially thousands for a genuine first printing.\n\n!['Salem's Lot Father Cody | Stephen King | First Edition](https://images.openai.com/static-rsc-4/1vpqdo4vaepnEHFqAgSnoAAf_jKgfGLEYODE8-ml4-mja-3xQ_1yaFYsavnlff4b-vIr2dwnGjU43-PaSEketWg_3H4pNSGLdd1J-oFSpkLeb4x8kGpxYY4KJjPHHngtQjMQjVFfodLNlYVjN2s2fu1YlyVyI0pEq5KScHURuBiGBnqddqTMeDiRNsw1o-4o?purpose=fullsize)\n\n**'Salem's Lot \\(1975)**\n\nRare first editions can be worth thousands.\n\n![Doubleday 1977, Stephen King \"The Shining\" First Edition, First Printing w/Custom Slipcase](https://images.openai.com/static-rsc-4/iXl8p3W1_iyfcgkAk_UGVuSZIpyKAVApyma9d7zWROLpEWh3ZzavXpVHqb_fApFpmKOsLjLQYaD_LpGnQHE1bhtQefoFWj-znZMuLPexzKFd87mIcQJnHKRN07FJFMzfgEXVHmvTXel8TGzah8O3acnDVFCf2ikIqft0xgjrqKjiLEvuDFQGPqA_jphplLCw?purpose=fullsize)\n\n**The Shining \\(1977)**\n\nSome first printings are worth thousands.\n\n![Stephen King \"Night Shift\" First Edition, First Printing w/CustomSlipcase](https://images.openai.com/static-rsc-4/7eOu8kXvAjWR_wGbtM2xwCH_qwAmQ5xPO3IYrlcSZlBPZavDbqGMJbRsWcf8BG1iJIBMsOwEyFz9RQcpX0s-7Cj-Sk4uEpOZOG55FTGyUZzxkaqzSHjLxcLg8QKPCVlHoz6AThYYYFS0MUBauro7u5h9prgE8xuSvni7VTM4s-qzmJks2cG961PjeEO1Oifq?purpose=fullsize)\n\n**Night Shift \\(1978)**\n\nFirst printings can be particularly collectible.\n\n[www.bbourse.ai](https://www.bbourse.ai/guides/stephen-king-first-editions?utm_source=chatgpt.com)[stephenking.com](https://stephenking.com/other/identifying_first_editions.pdf?utm_source=chatgpt.com)[myvolumes.com](https://myvolumes.com/guides/stephen-king-first-editions/?utm_source=chatgpt.com)\n\n### Let me help you see what yours are worth\\!\n\nYou can upload pictures of your Stephen King books. Ideally, take pictures of\\:\n\n1. The front cover.\n2. The copyright page inside.\n3. The back of the dust jacket.\n4. The inside jacket flap showing the original price.\n\n**Even better\\:** Tell me which Stephen King titles you have.\n\nI can help identify first editions, first printings, approximate resale values, and which ones might be worth serious money. Don't sell them until you've checked\\!",
+          "search_results": [
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.collectibledetective.com/books/stephen-king/",
+              "domain": "www.collectibledetective.com",
+              "title": "Stephen King Books In Order & First Edition Values (2026)",
+              "description": null,
+              "breadcrumb": "www.collectibledetective.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.collectibledetective.com/books/stephen-king/first-editions/",
+              "domain": "www.collectibledetective.com",
+              "title": "How To Identify Stephen King First Editions | Collectible Detective",
+              "description": null,
+              "breadcrumb": "www.collectibledetective.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.bbourse.ai/authors/stephen-king",
+              "domain": "www.bbourse.ai",
+              "title": "Stephen King First Editions: Complete List & Values",
+              "description": null,
+              "breadcrumb": "www.bbourse.ai"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.bbourse.ai/guides/stephen-king-first-editions",
+              "domain": "www.bbourse.ai",
+              "title": "Stephen King First Edition Guide: How to Identify Every First Printing · BBourse",
+              "description": null,
+              "breadcrumb": "www.bbourse.ai"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://myvolumes.com/guides/stephen-king-first-editions/",
+              "domain": "myvolumes.com",
+              "title": "Stephen King First Editions | Points & Values | MyVolumes",
+              "description": null,
+              "breadcrumb": "myvolumes.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://stephenking.com/other/identifying_first_editions.pdf",
+              "domain": "stephenking.com",
+              "title": "Year",
+              "description": null,
+              "breadcrumb": "stephenking.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://ravelstein.com/wiki/signed-firsts/stephen-king-signed-firsts-deep-cuts-guide/",
+              "domain": "ravelstein.com",
+              "title": "Stephen King Signed First Editions: The Deep Cuts and Specialty Press Complete Guide — Ravelstein",
+              "description": null,
+              "breadcrumb": "ravelstein.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://bidandsold.com/collector-guides/books-first-editions/rarest-stephen-king-books",
+              "domain": "bidandsold.com",
+              "title": "Rarest Stephen King Books: Carrie, Salem’s Lot, Bachman and Dark Tower Grails",
+              "description": null,
+              "breadcrumb": "bidandsold.com"
+            }
+          ],
+          "sources": [
+            {
+              "type": "chat_gpt_source",
+              "title": "Stephen King First Edition Guide: How to Identify Every First Printing",
+              "snippet": null,
+              "domain": "www.bbourse.ai",
+              "url": "https://www.bbourse.ai/guides/stephen-king-first-editions?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "BBourse",
+              "publication_date": null,
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Year",
+              "snippet": null,
+              "domain": "stephenking.com",
+              "url": "https://stephenking.com/other/identifying_first_editions.pdf?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "Stephen King",
+              "publication_date": "2024-05-12 15:44:31 +00:00",
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Stephen King First Editions | Points & Values",
+              "snippet": null,
+              "domain": "myvolumes.com",
+              "url": "https://myvolumes.com/guides/stephen-king-first-editions/?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "MyVolumes",
+              "publication_date": "2026-10-19 00:00:00 +00:00",
+              "markdown": null
+            }
+          ],
+          "fan_out_queries": [
+            "Stephen King rare first edition books auction values Carrie Salem's Lot The Shining signed first printing collectible prices"
+          ],
+          "brand_entities": [
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Stephen King novel",
+              "category": "book",
+              "markdown": "Carrie",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Stephen King short story collection",
+              "category": "book",
+              "markdown": "Night Shift",
+              "urls": null
+            }
+          ],
+          "se_results_count": 0,
+          "item_types": [
+            "chat_gpt_text",
+            "chat_gpt_images"
+          ],
+          "items_count": 9,
+          "items": [
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "markdown": "Yes\\! **Stephen King books can be worth quite a bit of money**, especially early editions, first printings, signed copies, and books with limited print runs.\n\nSome Stephen King books are worth only a few dollars, while rare collectible editions can sell for hundreds or even thousands.\n\nThe biggest things that determine value are\\:\n\n- **First edition\\:** Particularly first-printing hardcover editions.\n- **Author signature\\:** Signed copies can bring substantially more.\n- **Condition\\:** Dust jacket, intact pages, no water damage, and clean covers matter.\n- **Publication year\\:** Early books from the 1970s and 1980s are especially interesting to collectors.\n\n**Some books to look for first\\:**\n\n",
+              "sources": null,
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "markdown": "![Stephen King \"Carrie\" US First Edition, First Printing w/Custom Clam Shell Case [F/NF]](https://images.openai.com/static-rsc-4/9S8-IKg2CnpD2pmz-5Fo-rA6jS-43Yv9R8w4fyjePrSMi9l3gdnYmM62O3ykwsn8S3EtgV2HYxZANccm3cDHKEXl2q3UZ4XnXvkNORrpg_PVG-d-Zn1fuMt9lfzeE2MRzDgYyTvv5NZJCMaQusbpuyzlNefqqlUIwhjcb1koWeI9haRLFFua70f0rLazxOdm?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://veryfinebooks.com/stephen-king-carrie-us-first-edition-printing-doubleday-1974-p6-code/",
+                  "alt": "Stephen King \"Carrie\" US First Edition, First Printing w/Custom Clam Shell Case [F/NF]",
+                  "image_url": "https://images.openai.com/static-rsc-4/9S8-IKg2CnpD2pmz-5Fo-rA6jS-43Yv9R8w4fyjePrSMi9l3gdnYmM62O3ykwsn8S3EtgV2HYxZANccm3cDHKEXl2q3UZ4XnXvkNORrpg_PVG-d-Zn1fuMt9lfzeE2MRzDgYyTvv5NZJCMaQusbpuyzlNefqqlUIwhjcb1koWeI9haRLFFua70f0rLazxOdm?purpose=fullsize",
+                  "markdown": "![Stephen King \"Carrie\" US First Edition, First Printing w/Custom Clam Shell Case [F/NF]](https://images.openai.com/static-rsc-4/9S8-IKg2CnpD2pmz-5Fo-rA6jS-43Yv9R8w4fyjePrSMi9l3gdnYmM62O3ykwsn8S3EtgV2HYxZANccm3cDHKEXl2q3UZ4XnXvkNORrpg_PVG-d-Zn1fuMt9lfzeE2MRzDgYyTvv5NZJCMaQusbpuyzlNefqqlUIwhjcb1koWeI9haRLFFua70f0rLazxOdm?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "markdown": "\n\n**Carrie \\(1974)**\n\nPotentially thousands for a genuine first printing.\n\n",
+              "sources": null,
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Stephen King novel",
+                  "category": "book",
+                  "markdown": "Carrie",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "markdown": "!['Salem's Lot Father Cody | Stephen King | First Edition](https://images.openai.com/static-rsc-4/1vpqdo4vaepnEHFqAgSnoAAf_jKgfGLEYODE8-ml4-mja-3xQ_1yaFYsavnlff4b-vIr2dwnGjU43-PaSEketWg_3H4pNSGLdd1J-oFSpkLeb4x8kGpxYY4KJjPHHngtQjMQjVFfodLNlYVjN2s2fu1YlyVyI0pEq5KScHURuBiGBnqddqTMeDiRNsw1o-4o?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.downtownbrown.com/pages/books/364522/stephen-king/salems-lot-father-cody",
+                  "alt": "'Salem's Lot Father Cody | Stephen King | First Edition",
+                  "image_url": "https://images.openai.com/static-rsc-4/1vpqdo4vaepnEHFqAgSnoAAf_jKgfGLEYODE8-ml4-mja-3xQ_1yaFYsavnlff4b-vIr2dwnGjU43-PaSEketWg_3H4pNSGLdd1J-oFSpkLeb4x8kGpxYY4KJjPHHngtQjMQjVFfodLNlYVjN2s2fu1YlyVyI0pEq5KScHURuBiGBnqddqTMeDiRNsw1o-4o?purpose=fullsize",
+                  "markdown": "!['Salem's Lot Father Cody | Stephen King | First Edition](https://images.openai.com/static-rsc-4/1vpqdo4vaepnEHFqAgSnoAAf_jKgfGLEYODE8-ml4-mja-3xQ_1yaFYsavnlff4b-vIr2dwnGjU43-PaSEketWg_3H4pNSGLdd1J-oFSpkLeb4x8kGpxYY4KJjPHHngtQjMQjVFfodLNlYVjN2s2fu1YlyVyI0pEq5KScHURuBiGBnqddqTMeDiRNsw1o-4o?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 3,
+              "rank_absolute": 5,
+              "markdown": "\n\n**'Salem's Lot \\(1975)**\n\nRare first editions can be worth thousands.\n\n",
+              "sources": null,
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Stephen King novel",
+                  "category": "book",
+                  "markdown": "'Salem's Lot",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 3,
+              "rank_absolute": 6,
+              "markdown": "![Doubleday 1977, Stephen King \"The Shining\" First Edition, First Printing w/Custom Slipcase](https://images.openai.com/static-rsc-4/iXl8p3W1_iyfcgkAk_UGVuSZIpyKAVApyma9d7zWROLpEWh3ZzavXpVHqb_fApFpmKOsLjLQYaD_LpGnQHE1bhtQefoFWj-znZMuLPexzKFd87mIcQJnHKRN07FJFMzfgEXVHmvTXel8TGzah8O3acnDVFCf2ikIqft0xgjrqKjiLEvuDFQGPqA_jphplLCw?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://veryfinebooks.com/stephen-king-the-shining-first-edition-printing-doubleday-1977/?srsltid=AfmBOop_vQqomU7GxK-Q89aPQsJI1nkXiuemrQKE0KPNJm-auNEGqLoa",
+                  "alt": "Doubleday 1977, Stephen King \"The Shining\" First Edition, First Printing w/Custom Slipcase",
+                  "image_url": "https://images.openai.com/static-rsc-4/iXl8p3W1_iyfcgkAk_UGVuSZIpyKAVApyma9d7zWROLpEWh3ZzavXpVHqb_fApFpmKOsLjLQYaD_LpGnQHE1bhtQefoFWj-znZMuLPexzKFd87mIcQJnHKRN07FJFMzfgEXVHmvTXel8TGzah8O3acnDVFCf2ikIqft0xgjrqKjiLEvuDFQGPqA_jphplLCw?purpose=fullsize",
+                  "markdown": "![Doubleday 1977, Stephen King \"The Shining\" First Edition, First Printing w/Custom Slipcase](https://images.openai.com/static-rsc-4/iXl8p3W1_iyfcgkAk_UGVuSZIpyKAVApyma9d7zWROLpEWh3ZzavXpVHqb_fApFpmKOsLjLQYaD_LpGnQHE1bhtQefoFWj-znZMuLPexzKFd87mIcQJnHKRN07FJFMzfgEXVHmvTXel8TGzah8O3acnDVFCf2ikIqft0xgjrqKjiLEvuDFQGPqA_jphplLCw?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "markdown": "\n\n**The Shining \\(1977)**\n\nSome first printings are worth thousands.\n\n",
+              "sources": null,
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Stephen King novel",
+                  "category": "book",
+                  "markdown": "The Shining",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 4,
+              "rank_absolute": 8,
+              "markdown": "![Stephen King \"Night Shift\" First Edition, First Printing w/CustomSlipcase](https://images.openai.com/static-rsc-4/7eOu8kXvAjWR_wGbtM2xwCH_qwAmQ5xPO3IYrlcSZlBPZavDbqGMJbRsWcf8BG1iJIBMsOwEyFz9RQcpX0s-7Cj-Sk4uEpOZOG55FTGyUZzxkaqzSHjLxcLg8QKPCVlHoz6AThYYYFS0MUBauro7u5h9prgE8xuSvni7VTM4s-qzmJks2cG961PjeEO1Oifq?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://veryfinebooks.com/stephen-king-night-shift-first-edition-first-printing-S52-code-1978/",
+                  "alt": "Stephen King \"Night Shift\" First Edition, First Printing w/CustomSlipcase",
+                  "image_url": "https://images.openai.com/static-rsc-4/7eOu8kXvAjWR_wGbtM2xwCH_qwAmQ5xPO3IYrlcSZlBPZavDbqGMJbRsWcf8BG1iJIBMsOwEyFz9RQcpX0s-7Cj-Sk4uEpOZOG55FTGyUZzxkaqzSHjLxcLg8QKPCVlHoz6AThYYYFS0MUBauro7u5h9prgE8xuSvni7VTM4s-qzmJks2cG961PjeEO1Oifq?purpose=fullsize",
+                  "markdown": "![Stephen King \"Night Shift\" First Edition, First Printing w/CustomSlipcase](https://images.openai.com/static-rsc-4/7eOu8kXvAjWR_wGbtM2xwCH_qwAmQ5xPO3IYrlcSZlBPZavDbqGMJbRsWcf8BG1iJIBMsOwEyFz9RQcpX0s-7Cj-Sk4uEpOZOG55FTGyUZzxkaqzSHjLxcLg8QKPCVlHoz6AThYYYFS0MUBauro7u5h9prgE8xuSvni7VTM4s-qzmJks2cG961PjeEO1Oifq?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 5,
+              "rank_absolute": 9,
+              "markdown": "\n\n**Night Shift \\(1978)**\n\nFirst printings can be particularly collectible.\n\n[www.bbourse.ai](https://www.bbourse.ai/guides/stephen-king-first-editions?utm_source=chatgpt.com)[stephenking.com](https://stephenking.com/other/identifying_first_editions.pdf?utm_source=chatgpt.com)[myvolumes.com](https://myvolumes.com/guides/stephen-king-first-editions/?utm_source=chatgpt.com)\n\n### Let me help you see what yours are worth\\!\n\nYou can upload pictures of your Stephen King books. Ideally, take pictures of\\:\n\n1. The front cover.\n2. The copyright page inside.\n3. The back of the dust jacket.\n4. The inside jacket flap showing the original price.\n\n**Even better\\:** Tell me which Stephen King titles you have.\n\nI can help identify first editions, first printings, approximate resale values, and which ones might be worth serious money. Don't sell them until you've checked\\!",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Stephen King First Edition Guide: How to Identify Every First Printing",
+                  "snippet": null,
+                  "domain": "www.bbourse.ai",
+                  "url": "https://www.bbourse.ai/guides/stephen-king-first-editions?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "BBourse",
+                  "publication_date": null,
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Year",
+                  "snippet": null,
+                  "domain": "stephenking.com",
+                  "url": "https://stephenking.com/other/identifying_first_editions.pdf?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "Stephen King",
+                  "publication_date": "2024-05-12 15:44:31 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Stephen King First Editions | Points & Values",
+                  "snippet": null,
+                  "domain": "myvolumes.com",
+                  "url": "https://myvolumes.com/guides/stephen-king-first-editions/?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "MyVolumes",
+                  "publication_date": "2026-10-19 00:00:00 +00:00",
+                  "markdown": null
+                }
+              ],
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Stephen King short story collection",
+                  "category": "book",
+                  "markdown": "Night Shift",
+                  "urls": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

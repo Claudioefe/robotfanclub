@@ -1,0 +1,486 @@
+{
+  "version": "0.1.20261117",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "16.7625 sec.",
+  "cost": 0.004,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "11201408-2831-0629-0000-3c0bf47ef6d1",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "16.6018 sec.",
+      "cost": 0.004,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "chat_gpt",
+        "llm_scraper",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "live",
+        "se": "chat_gpt",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "rare book dealers",
+        "force_web_search": true,
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "rare book dealers",
+          "location_code": 2840,
+          "language_code": "en",
+          "model": "gpt-6",
+          "check_url": "https://chatgpt.com/?prompt=rare%20book%20dealers&hints=search",
+          "datetime": "2026-11-20 14:08:42 +00:00",
+          "markdown": "Here are some useful resources for finding reputable rare book dealers, including specialists in antiquarian books, first editions, signed copies, manuscripts, and collectible books.\n\n## Rare book dealer directories\n\n![Featured Items — Carlson Turner Antiquarian Books & Bookbindery](https://images.openai.com/static-rsc-4/ec-ox2C0ld8VcqOX1aLbuKrdiv3h_UUmmTLAjR5NulW6UL4nnnZ4LhwB6iqgCbabQSm4MQMyHStBZZTY6bhSGE8ozU5OhZ5X4Wa_s7zo4Dm7Ns4u4R9EuHhPFuiSUMO4AAQRa2fy-G_Qx2w4jkfWQlvT6aW8rgy2O1gmr8fPRCmIFhc-Vvcm-fbmBWz5c6pC?purpose=fullsize)\n\n**1\\. Antiquarian Booksellers' Association of America (ABAA)**\n\nProfessional American rare-book dealers, searchable by specialty and location.\n\n[Browse ABAA booksellers](https://www.abaa.org/find-bookseller/results?view=all&utm_source=chatgpt.com)\n\n---\n\n![Viaggio nel fascino dei documenti dell’Archivio di Stato](https://images.openai.com/static-rsc-4/vCoWwKyX1leD1T8uW-tL7YRurr7Hp3i9pPH0nZ81IiHVvubqT18xN5FCEGCQIQgXiutqT0i7xLwgTCVLUGkVxogn96vBAmDGaihCrWSGYhUUiErTOWksZk3Hc6Ep-7XARwBlmAR2SLo91QHuc5T1K85G23etMBqE3QcF1-YkH2-1FlmH8tPtnR1-cZtDW0jU?purpose=fullsize)\n\n**2\\. International League of Antiquarian Booksellers (ILAB)**\n\nInternational directory with more than 1,600 professional booksellers.\n\n[Search ILAB dealers](https://ilab.org/page/booksellers?utm_source=chatgpt.com)\n\n---\n\n![Bauman Rare Books (2026) - Alles wat u MOET weten voordat je gaat (met foto's) - Tripadvisor](https://images.openai.com/static-rsc-4/LGw0XgkWkafLo32wIXmEIK7pYbPXpxR1KFE7ZSBE06IoUe0_IayuWuUI1xC2UDTXdOHWbs-tACLNEpyhhFsBDGgCEyB0JzTX6o7tkS3lEVT5G_WnOK2VjMwG4SLQhW8TVStmqLBBiKMKJCf8nHzPtYNmbYfUxbLGTteCUPDhMHoCVY5PX-FRWWFVmgqBupq-?purpose=fullsize)\n\n**3\\. AbeBooks Rare Book Directory**\n\nA broad directory of antiquarian and collectible book dealers.\n\n[Browse AbeBooks directory](https://www.abebooks.com/books/rarebooks/directory.shtml?utm_source=chatgpt.com)\n\n## Dealers in Virginia and the Mid-Atlantic\n\nSome notable dealers listed in professional bookseller directories\\:\n\n| Dealer | Location | Specialty |\n|--------|--------|--------|\n| Lorne Bair Rare Books | Winchester, VA | American social movements, history |\n| Second Story Books | Washington, DC | Rare and out-of-print books |\n| Back Creek Books | Annapolis, MD | Antiquarian books, Maryland history |\n| Franklin Gilliam Rare Books | Charlottesville, VA | Americana, manuscripts, early printing |\n| Marninart | Reston, VA | Rare illustrated art books |\n\n\nSources: [www.abaa.org](https://www.abaa.org/find-bookseller/results?view=all&utm_source=chatgpt.com)[www.abaa.org](https://www.abaa.org/chapters/mid-atlantic-chapter-antiquarian-booksellers-association-of-america?utm_source=chatgpt.com)[www.abaa.org](https://www.abaa.org/chapters/southeast-chapter-antiquarian-booksellers-association-of-america?utm_source=chatgpt.com)\n\n## What kind of rare book dealers are you looking for?\n\nI can narrow the search considerably depending on your purpose.\n\n**1\\. What is your objective?**\n\nBuying rare and collectible books\n\nSelling or consigning rare books\n\nGetting books appraised\n\nSelling an entire library or estate\n\nConnecting with specialist dealers and collectors\n\n---\n\n**2\\. Preferred location**\n\nVirginia, Maryland, Washington DC\n\nWithin 100 miles of Ashburn, Virginia\n\nAnywhere in the United States\n\nInternational\n\n---\n\n**3\\. Book specialty**\n\nGeneral antiquarian books\n\nFirst editions and signed books\n\nBooks published before 1900\n\nManuscripts, maps and documents\n\nFine bindings and leather-bound collections\n\nSpecific authors or subjects\n\n[Find matching dealers]\n\nI can also identify dealers who actively purchase private collections, which is a particularly useful distinction if you are looking to sell valuable books.",
+          "search_results": [
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://ilab.org/page/booksellers?utm_source=chatgpt.com",
+              "domain": "ilab.org",
+              "title": "Booksellers | International League of Antiquarian Booksellers (ILAB)",
+              "description": "BOOKSELLERS  Over 1600 professional booksellers in 39 countries belong to the international network of ILAB. But why buy books from an ILAB dealer? Individual bookseller members are admitted to their...",
+              "breadcrumb": "ilab.org"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://prod.ilab.org/page/booksellers?utm_source=chatgpt.com",
+              "domain": "prod.ilab.org",
+              "title": "Booksellers | International League of Antiquarian Booksellers (ILAB)",
+              "description": "BOOKSELLERS  Over 1600 professional booksellers in 39 countries belong to the international network of ILAB. But why buy books from an ILAB dealer? Individual bookseller members are admitted to their...",
+              "breadcrumb": "ilab.org"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://ilab.org/page/directory?utm_source=chatgpt.com",
+              "domain": "ilab.org",
+              "title": "Bookseller Directory | International League of Antiquarian Booksellers (ILAB)",
+              "description": "BOOKSELLER DIRECTORY  Please use this page to search for an ILAB bookseller.  SEARCH FOR BOOKSELLERS  Image: 2019 09 bibliothèque St Xandre  Business Name [Input: Business Name]  Contact [Input: Con...",
+              "breadcrumb": "ilab.org"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://ilab.org/page/affiliate-search-results/p4?specialty=ephemera&utm_source=chatgpt.com",
+              "domain": "ilab.org",
+              "title": "Bookseller Search Results | International League of Antiquarian Booksellers (ILAB)",
+              "description": "BOOKSELLER SEARCH RESULTS  76 matches found for your search.  John Waite, LLC  John Waite  Ascutney, VT, United States  (802) 674-2665  jwrb@comcast.net  Full contact details  johnson rare books & ar...",
+              "breadcrumb": "ilab.org"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://ilab.org/page/affiliate-search-results/p99?utm_source=chatgpt.com",
+              "domain": "ilab.org",
+              "title": "Bookseller Search Results | International League of Antiquarian Booksellers (ILAB)",
+              "description": "New York Bound Books  Barbara L. Cohen  New York, NY, United States  (212) 777-0283  newyorkbound@verizon.net  http://newyorkboundbookstore.com/  Nicholas D. Riccio Rare Books & Prints  Nicholas D. R...",
+              "breadcrumb": "ilab.org"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.abaa.org/find-bookseller/results?view=all&utm_source=chatgpt.com",
+              "domain": "www.abaa.org",
+              "title": "Bookstore Search Results",
+              "description": "BOOKSELLER LIST   A  ABACUS BOOKS  1224 S Terry Street Longmont, CO 80501  *   * [email protected] * (303) 817-7349  Specializing in Antiquarian, Collectible and Academic Books in all fields. Ephemer...",
+              "breadcrumb": "abaa.org"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.abaa.org/chapters/southeast-chapter-antiquarian-booksellers-association-of-america?utm_source=chatgpt.com",
+              "domain": "www.abaa.org",
+              "title": "Southeast Chapter Antiquarian Booksellers' Association of America",
+              "description": "Bartman, Bookseller】 * BioMed Rare Books, LLC * Black Swan Books, Inc. * Blind Horse Books * Blue Whale Books * The Book Block * Wonder Book * The Bookpress, Ltd. * Books 4 Ewe Rare Books * Books Tell...",
+              "breadcrumb": "abaa.org"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.abaa.org/chapters/mid-atlantic-chapter-antiquarian-booksellers-association-of-america?utm_source=chatgpt.com",
+              "domain": "www.abaa.org",
+              "title": "Mid Atlantic Chapter Antiquarian Booksellers' Association of America",
+              "description": "* B & B Rare Books, Ltd. * W. C. Baker Rare Books & Ephemera * Battledore Ltd. * Bauman Rare Books * David Bergman * Jeffrey Bergman Books * Between the Covers Rare Books, Inc. * Bluemango Books and M...",
+              "breadcrumb": "abaa.org"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.abebooks.com/books/rarebooks/directory.shtml?utm_source=chatgpt.com",
+              "domain": "www.abebooks.com",
+              "title": "Directory of Rare & Antiquarian Booksellers",
+              "description": "DIRECTORY OF RARE & ANTIQUARIAN BOOKSELLERS  You won't find a better selection of rare and antiquarian booksellers anywhere. Our booksellers are experts in their fields and you will find a vast array...",
+              "breadcrumb": "abebooks.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.pressmark.co/dealers/country/united-states?utm_source=chatgpt.com",
+              "domain": "www.pressmark.co",
+              "title": "Rare Book Dealers in United States | Pressmark",
+              "description": "Dealers  /  United States  UNITED STATES  42 credentialed houses across 30 cities in the register.  Outside New York, almost every American house is the only one in its town. That is the shape of the...",
+              "breadcrumb": "pressmark.co"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.finebooksmagazine.com/resource-guide?category=48571&utm_source=chatgpt.com",
+              "domain": "www.finebooksmagazine.com",
+              "title": "FB&C Resource Guide | Fine Books & Collections",
+              "description": "We buy books and perform appraisals.  BACK CREEK BOOKS  Image: ABAA Association Logo  Image: ILAB Association Logo  194 Main Street (Open Shop)  Annapolis, MD  21401  (410) 626-1363  www.backcreekbook...",
+              "breadcrumb": "finebooksmagazine.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.finebooksmagazine.com/resource-guide/by-category/48571?utm_source=chatgpt.com",
+              "domain": "www.finebooksmagazine.com",
+              "title": "FineBooks & Collections Resource Guide | Fine Books & Collections",
+              "description": "BOOK DEALER: ANTIQUARIAN & RARE LISTINGS  BLUEMANGO BOOKS AND MANUSCRIPTS  Image: ABAA Association Logo  (920) 284-6444  Bluemango1966@hotmail.com  Elizabeth Kelly-Griswold. Early American primary so...",
+              "breadcrumb": "finebooksmagazine.com"
+            }
+          ],
+          "sources": [
+            {
+              "type": "chat_gpt_source",
+              "title": "Browse ABAA booksellers",
+              "snippet": null,
+              "domain": "www.abaa.org",
+              "url": "https://www.abaa.org/find-bookseller/results?view=all&utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[Browse ABAA booksellers](https://www.abaa.org/find-bookseller/results?view=all&utm_source=chatgpt.com)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Search ILAB dealers",
+              "snippet": null,
+              "domain": "ilab.org",
+              "url": "https://ilab.org/page/booksellers?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[Search ILAB dealers](https://ilab.org/page/booksellers?utm_source=chatgpt.com)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Browse AbeBooks directory",
+              "snippet": null,
+              "domain": "www.abebooks.com",
+              "url": "https://www.abebooks.com/books/rarebooks/directory.shtml?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[Browse AbeBooks directory](https://www.abebooks.com/books/rarebooks/directory.shtml?utm_source=chatgpt.com)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Mid Atlantic Chapter Antiquarian Booksellers' Association of America",
+              "snippet": null,
+              "domain": "www.abaa.org",
+              "url": "https://www.abaa.org/chapters/mid-atlantic-chapter-antiquarian-booksellers-association-of-america?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "abaa.org",
+              "publication_date": null,
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Southeast Chapter Antiquarian Booksellers' Association of America",
+              "snippet": null,
+              "domain": "www.abaa.org",
+              "url": "https://www.abaa.org/chapters/southeast-chapter-antiquarian-booksellers-association-of-america?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "abaa.org",
+              "publication_date": null,
+              "markdown": null
+            }
+          ],
+          "fan_out_queries": [
+            "rare book dealers United States reputable antiquarian booksellers directory ABAA ILAB"
+          ],
+          "brand_entities": [
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Lorne Bair Rare Books",
+              "category": "local_business",
+              "markdown": "Lorne Bair Rare Books",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Second Story Books",
+              "category": "local_business",
+              "markdown": "Second Story Books",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Back Creek Books",
+              "category": "local_business",
+              "markdown": "Back Creek Books",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Franklin Gilliam Rare Books",
+              "category": "local_business",
+              "markdown": "Franklin Gilliam Rare Books",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Marninart",
+              "category": "local_business",
+              "markdown": "Marninart",
+              "urls": null
+            }
+          ],
+          "se_results_count": 0,
+          "item_types": [
+            "chat_gpt_text",
+            "chat_gpt_images",
+            "chat_gpt_table"
+          ],
+          "items_count": 9,
+          "items": [
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "markdown": "Here are some useful resources for finding reputable rare book dealers, including specialists in antiquarian books, first editions, signed copies, manuscripts, and collectible books.\n\n## Rare book dealer directories\n\n",
+              "sources": null,
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "markdown": "![Featured Items — Carlson Turner Antiquarian Books & Bookbindery](https://images.openai.com/static-rsc-4/ec-ox2C0ld8VcqOX1aLbuKrdiv3h_UUmmTLAjR5NulW6UL4nnnZ4LhwB6iqgCbabQSm4MQMyHStBZZTY6bhSGE8ozU5OhZ5X4Wa_s7zo4Dm7Ns4u4R9EuHhPFuiSUMO4AAQRa2fy-G_Qx2w4jkfWQlvT6aW8rgy2O1gmr8fPRCmIFhc-Vvcm-fbmBWz5c6pC?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://carlsonturnerbooks.com/featured-items",
+                  "alt": "Featured Items — Carlson Turner Antiquarian Books & Bookbindery",
+                  "image_url": "https://images.openai.com/static-rsc-4/ec-ox2C0ld8VcqOX1aLbuKrdiv3h_UUmmTLAjR5NulW6UL4nnnZ4LhwB6iqgCbabQSm4MQMyHStBZZTY6bhSGE8ozU5OhZ5X4Wa_s7zo4Dm7Ns4u4R9EuHhPFuiSUMO4AAQRa2fy-G_Qx2w4jkfWQlvT6aW8rgy2O1gmr8fPRCmIFhc-Vvcm-fbmBWz5c6pC?purpose=fullsize",
+                  "markdown": "![Featured Items — Carlson Turner Antiquarian Books & Bookbindery](https://images.openai.com/static-rsc-4/ec-ox2C0ld8VcqOX1aLbuKrdiv3h_UUmmTLAjR5NulW6UL4nnnZ4LhwB6iqgCbabQSm4MQMyHStBZZTY6bhSGE8ozU5OhZ5X4Wa_s7zo4Dm7Ns4u4R9EuHhPFuiSUMO4AAQRa2fy-G_Qx2w4jkfWQlvT6aW8rgy2O1gmr8fPRCmIFhc-Vvcm-fbmBWz5c6pC?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "markdown": "\n\n**1\\. Antiquarian Booksellers' Association of America (ABAA)**\n\nProfessional American rare-book dealers, searchable by specialty and location.\n\n[Browse ABAA booksellers](https://www.abaa.org/find-bookseller/results?view=all&utm_source=chatgpt.com)\n\n---\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Browse ABAA booksellers",
+                  "snippet": null,
+                  "domain": "www.abaa.org",
+                  "url": "https://www.abaa.org/find-bookseller/results?view=all&utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[Browse ABAA booksellers](https://www.abaa.org/find-bookseller/results?view=all&utm_source=chatgpt.com)"
+                }
+              ],
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "markdown": "![Viaggio nel fascino dei documenti dell’Archivio di Stato](https://images.openai.com/static-rsc-4/vCoWwKyX1leD1T8uW-tL7YRurr7Hp3i9pPH0nZ81IiHVvubqT18xN5FCEGCQIQgXiutqT0i7xLwgTCVLUGkVxogn96vBAmDGaihCrWSGYhUUiErTOWksZk3Hc6Ep-7XARwBlmAR2SLo91QHuc5T1K85G23etMBqE3QcF1-YkH2-1FlmH8tPtnR1-cZtDW0jU?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.ilrestodelcarlino.it/pesaro/cronaca/viaggio-nel-fascino-dei-documenti-dellarchivio-di-stato-12b310af",
+                  "alt": "Viaggio nel fascino dei documenti dell’Archivio di Stato",
+                  "image_url": "https://images.openai.com/static-rsc-4/vCoWwKyX1leD1T8uW-tL7YRurr7Hp3i9pPH0nZ81IiHVvubqT18xN5FCEGCQIQgXiutqT0i7xLwgTCVLUGkVxogn96vBAmDGaihCrWSGYhUUiErTOWksZk3Hc6Ep-7XARwBlmAR2SLo91QHuc5T1K85G23etMBqE3QcF1-YkH2-1FlmH8tPtnR1-cZtDW0jU?purpose=fullsize",
+                  "markdown": "![Viaggio nel fascino dei documenti dell’Archivio di Stato](https://images.openai.com/static-rsc-4/vCoWwKyX1leD1T8uW-tL7YRurr7Hp3i9pPH0nZ81IiHVvubqT18xN5FCEGCQIQgXiutqT0i7xLwgTCVLUGkVxogn96vBAmDGaihCrWSGYhUUiErTOWksZk3Hc6Ep-7XARwBlmAR2SLo91QHuc5T1K85G23etMBqE3QcF1-YkH2-1FlmH8tPtnR1-cZtDW0jU?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 3,
+              "rank_absolute": 5,
+              "markdown": "\n\n**2\\. International League of Antiquarian Booksellers (ILAB)**\n\nInternational directory with more than 1,600 professional booksellers.\n\n[Search ILAB dealers](https://ilab.org/page/booksellers?utm_source=chatgpt.com)\n\n---\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Search ILAB dealers",
+                  "snippet": null,
+                  "domain": "ilab.org",
+                  "url": "https://ilab.org/page/booksellers?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[Search ILAB dealers](https://ilab.org/page/booksellers?utm_source=chatgpt.com)"
+                }
+              ],
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 3,
+              "rank_absolute": 6,
+              "markdown": "![Bauman Rare Books (2026) - Alles wat u MOET weten voordat je gaat (met foto's) - Tripadvisor](https://images.openai.com/static-rsc-4/LGw0XgkWkafLo32wIXmEIK7pYbPXpxR1KFE7ZSBE06IoUe0_IayuWuUI1xC2UDTXdOHWbs-tACLNEpyhhFsBDGgCEyB0JzTX6o7tkS3lEVT5G_WnOK2VjMwG4SLQhW8TVStmqLBBiKMKJCf8nHzPtYNmbYfUxbLGTteCUPDhMHoCVY5PX-FRWWFVmgqBupq-?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.tripadvisor.be/Attraction_Review-g60763-d565299-Reviews-Bauman_Rare_Books-New_York_City_New_York.html",
+                  "alt": "Bauman Rare Books (2026) - Alles wat u MOET weten voordat je gaat (met foto's) - Tripadvisor",
+                  "image_url": "https://images.openai.com/static-rsc-4/LGw0XgkWkafLo32wIXmEIK7pYbPXpxR1KFE7ZSBE06IoUe0_IayuWuUI1xC2UDTXdOHWbs-tACLNEpyhhFsBDGgCEyB0JzTX6o7tkS3lEVT5G_WnOK2VjMwG4SLQhW8TVStmqLBBiKMKJCf8nHzPtYNmbYfUxbLGTteCUPDhMHoCVY5PX-FRWWFVmgqBupq-?purpose=fullsize",
+                  "markdown": "![Bauman Rare Books (2026) - Alles wat u MOET weten voordat je gaat (met foto's) - Tripadvisor](https://images.openai.com/static-rsc-4/LGw0XgkWkafLo32wIXmEIK7pYbPXpxR1KFE7ZSBE06IoUe0_IayuWuUI1xC2UDTXdOHWbs-tACLNEpyhhFsBDGgCEyB0JzTX6o7tkS3lEVT5G_WnOK2VjMwG4SLQhW8TVStmqLBBiKMKJCf8nHzPtYNmbYfUxbLGTteCUPDhMHoCVY5PX-FRWWFVmgqBupq-?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "markdown": "\n\n**3\\. AbeBooks Rare Book Directory**\n\nA broad directory of antiquarian and collectible book dealers.\n\n[Browse AbeBooks directory](https://www.abebooks.com/books/rarebooks/directory.shtml?utm_source=chatgpt.com)\n\n## Dealers in Virginia and the Mid-Atlantic\n\nSome notable dealers listed in professional bookseller directories\\:\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Browse AbeBooks directory",
+                  "snippet": null,
+                  "domain": "www.abebooks.com",
+                  "url": "https://www.abebooks.com/books/rarebooks/directory.shtml?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[Browse AbeBooks directory](https://www.abebooks.com/books/rarebooks/directory.shtml?utm_source=chatgpt.com)"
+                }
+              ],
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_table",
+              "rank_group": 1,
+              "rank_absolute": 8,
+              "text": null,
+              "markdown": "| Dealer | Location | Specialty |\n|--------|--------|--------|\n| Lorne Bair Rare Books | Winchester, VA | American social movements, history |\n| Second Story Books | Washington, DC | Rare and out-of-print books |\n| Back Creek Books | Annapolis, MD | Antiquarian books, Maryland history |\n| Franklin Gilliam Rare Books | Charlottesville, VA | Americana, manuscripts, early printing |\n| Marninart | Reston, VA | Rare illustrated art books |\n\n",
+              "table": {
+                "table_header": [
+                  "Dealer",
+                  "Location",
+                  "Specialty"
+                ],
+                "table_content": [
+                  [
+                    "Lorne Bair Rare Books",
+                    "Winchester, VA",
+                    "American social movements, history"
+                  ],
+                  [
+                    "Second Story Books",
+                    "Washington, DC",
+                    "Rare and out-of-print books"
+                  ],
+                  [
+                    "Back Creek Books",
+                    "Annapolis, MD",
+                    "Antiquarian books, Maryland history"
+                  ],
+                  [
+                    "Franklin Gilliam Rare Books",
+                    "Charlottesville, VA",
+                    "Americana, manuscripts, early printing"
+                  ],
+                  [
+                    "Marninart",
+                    "Reston, VA",
+                    "Rare illustrated art books"
+                  ]
+                ]
+              },
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Lorne Bair Rare Books",
+                  "category": "local_business",
+                  "markdown": "Lorne Bair Rare Books",
+                  "urls": null
+                },
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Second Story Books",
+                  "category": "local_business",
+                  "markdown": "Second Story Books",
+                  "urls": null
+                },
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Back Creek Books",
+                  "category": "local_business",
+                  "markdown": "Back Creek Books",
+                  "urls": null
+                },
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Franklin Gilliam Rare Books",
+                  "category": "local_business",
+                  "markdown": "Franklin Gilliam Rare Books",
+                  "urls": null
+                },
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Marninart",
+                  "category": "local_business",
+                  "markdown": "Marninart",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 5,
+              "rank_absolute": 9,
+              "markdown": "\nSources: [www.abaa.org](https://www.abaa.org/find-bookseller/results?view=all&utm_source=chatgpt.com)[www.abaa.org](https://www.abaa.org/chapters/mid-atlantic-chapter-antiquarian-booksellers-association-of-america?utm_source=chatgpt.com)[www.abaa.org](https://www.abaa.org/chapters/southeast-chapter-antiquarian-booksellers-association-of-america?utm_source=chatgpt.com)\n\n## What kind of rare book dealers are you looking for?\n\nI can narrow the search considerably depending on your purpose.\n\n**1\\. What is your objective?**\n\nBuying rare and collectible books\n\nSelling or consigning rare books\n\nGetting books appraised\n\nSelling an entire library or estate\n\nConnecting with specialist dealers and collectors\n\n---\n\n**2\\. Preferred location**\n\nVirginia, Maryland, Washington DC\n\nWithin 100 miles of Ashburn, Virginia\n\nAnywhere in the United States\n\nInternational\n\n---\n\n**3\\. Book specialty**\n\nGeneral antiquarian books\n\nFirst editions and signed books\n\nBooks published before 1900\n\nManuscripts, maps and documents\n\nFine bindings and leather-bound collections\n\nSpecific authors or subjects\n\n[Find matching dealers]\n\nI can also identify dealers who actively purchase private collections, which is a particularly useful distinction if you are looking to sell valuable books.",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Bookstore Search Results",
+                  "snippet": null,
+                  "domain": "www.abaa.org",
+                  "url": "https://www.abaa.org/find-bookseller/results?view=all&utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "abaa.org",
+                  "publication_date": null,
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Mid Atlantic Chapter Antiquarian Booksellers' Association of America",
+                  "snippet": null,
+                  "domain": "www.abaa.org",
+                  "url": "https://www.abaa.org/chapters/mid-atlantic-chapter-antiquarian-booksellers-association-of-america?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "abaa.org",
+                  "publication_date": null,
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Southeast Chapter Antiquarian Booksellers' Association of America",
+                  "snippet": null,
+                  "domain": "www.abaa.org",
+                  "url": "https://www.abaa.org/chapters/southeast-chapter-antiquarian-booksellers-association-of-america?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "abaa.org",
+                  "publication_date": null,
+                  "markdown": null
+                }
+              ],
+              "brand_entities": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

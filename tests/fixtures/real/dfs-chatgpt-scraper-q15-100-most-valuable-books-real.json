@@ -1,0 +1,1108 @@
+{
+  "version": "0.1.20261117",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "44.2242 sec.",
+  "cost": 0.004,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "11201407-2831-0629-0000-69f73691d635",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "42.4970 sec.",
+      "cost": 0.004,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "chat_gpt",
+        "llm_scraper",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "live",
+        "se": "chat_gpt",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "100 most valuable books",
+        "force_web_search": true,
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "100 most valuable books",
+          "location_code": 2840,
+          "language_code": "en",
+          "model": "gpt-6",
+          "check_url": "https://chatgpt.com/?prompt=100%20most%20valuable%20books&hints=search",
+          "datetime": "2026-11-20 14:07:49 +00:00",
+          "markdown": "# The 100 most valuable books in the world\n\nI'm interpreting “most valuable” as **the most expensive and collectible books, manuscripts, and historical documents ever sold**, ranked by reported sale value.\n\nThese are not ordinary bookstore prices. Their value comes from historical significance, extreme rarity, famous authorship, condition, and provenance.\n\nOne important distinction: a handwritten original manuscript can be worth vastly more than a printed first edition of the same work.\n\n## Top 25 highest-value books and manuscripts\n\nPrices below are reported historical sale prices, not current appraisals. The ranking uses the available sales records, with some differences depending on inflation adjustment.\n\n| \\# | Book or manuscript | Reported sale price |\n|--------|--------|--------|\n| 1 | Codex Leicester — Leonardo da Vinci | \\$30.8M |\n| 2 | First printing of the U.S. Constitution | \\$43.2M |\n| 3 | Letters of Zhao Mengfu | \\$38.2M |\n| 4 | Codex Sassoon | \\$38.1M |\n| 5 | Book of Mormon — printer's manuscript | \\$35M |\n| 6 | Letter of Zeng Gong | \\$31.7M |\n| 7 | Magna Carta — 1297 copy | \\$21.32M |\n| 8 | Sherborne Missal | \\$21.21M |\n| 9 | Book of Tang — ancient Chinese edition | \\$17.06M |\n| 10 | St Cuthbert Gospel | \\$14.34M |\n| 11 | Bay Psalm Book | \\$14.2M |\n| 12 | Rothschild Prayerbook | \\$13.6M |\n| 13 | Einstein-Besso manuscript | \\$13.2M |\n| 14 | Shahnameh of Shah Tahmasp | \\$12.15M |\n| 15 | On the Road — Jack Kerouac's original scroll | \\$12.14M |\n| 16 | Gospels of Henry the Lion | \\$11.7M |\n| 17 | The Birds of America — John James Audubon | \\$11.57M |\n| 18 | Waldseemüller Map | \\$10M |\n| 19 | Shakespeare's First Folio | \\$9.98M |\n| 20 | George Washington's annotated Constitution | \\$9.83M |\n| 21 | The Birds of America — another copy | \\$9.65M |\n| 22 | Babylonian Talmud | \\$9.32M |\n| 23 | Yongle Encyclopedia | \\$9.19M |\n| 24 | Superman \\#1 | \\$9.12M |\n| 25 | Casanova's Histoire de ma vie | \\$9.06M |\n\n\n[en.wikipedia.org](https://en.wikipedia.org/wiki/List_of_most_expensive_books_and_manuscripts?utm_source=chatgpt.com)[www.forbes.com](https://www.forbes.com/sites/maryroeloffs/2023/09/28/two-books-break-book-sales-records-at-christies-auction---here-are-the-most-expensive-books-ever-sold/?utm_source=chatgpt.com)[www.sothebys.com](https://www.sothebys.com/en/articles/2023-in-review-books-and-manuscripts?utm_source=chatgpt.com)\n\n## Books and manuscripts ranked 26–50\n\n| \\# | Title | Historical sale price |\n|--------|--------|--------|\n| 26 | Olympic Manifesto — Pierre de Coubertin | \\$8.80M |\n| 27 | The Birds of America — another copy | \\$8.80M |\n| 28 | Persian Quran manuscript | \\$8.76M |\n| 29 | Luzzatto High Holiday Mahzor | \\$8.31M |\n| 30 | U.S. Declaration of Independence — Dunlap broadside | \\$8.14M |\n| 31 | The Canterbury Tales — first edition | \\$7.57M |\n| 32 | The 120 Days of Sodom — original manuscript | \\$7M |\n| 33 | The Birds of America — another copy | \\$6.64M |\n| 34 | Shahnameh illustrated folio | \\$6.33M |\n| 35 | Deeds of Sir Gillion de Trazegnies | \\$6.20M |\n| 36 | Shakespeare's First Folio — another copy | \\$6.17M |\n| 37 | Francis Crick's DNA letter | \\$6.06M |\n| 38 | Action Comics \\#1 | \\$6M |\n| 39 | Northumberland Bestiary | \\$5.80M |\n| 40 | Mahler's Symphony No. 2 manuscript | \\$5.68M |\n| 41 | The Birds of America — another copy | \\$5.62M |\n| 42 | Les Liliacées — Pierre-Joseph Redouté | \\$5.50M |\n| 43 | Gutenberg Bible | \\$5.39M |\n| 44 | Shakespeare's First Folio — another copy | \\$5.17M |\n| 45 | Royal Mamluk Quran | \\$4.86M |\n| 46 | Burdett Psalter | \\$4.59M |\n| 47 | Traité des Arbres Fruitiers | \\$4.47M |\n| 48 | Cornaro Missal | \\$4.45M |\n| 49 | Declaration of Independence — Stone copy | \\$4.42M |\n| 50 | Mozart's Nine Symphonies manuscript | \\$4.34M |\n\n\n## Books and manuscripts ranked 51–75\n\n| \\# | Title | Historical sale price |\n|--------|--------|--------|\n| 51 | Original Rules of Basketball | \\$4.34M |\n| 52 | Songs of Innocence and of Experience — William Blake | \\$4.32M |\n| 53 | Hours of Albrecht of Brandenburg | \\$4.17M |\n| 54 | The Birds of America — another copy | \\$4.07M |\n| 55 | The Tales of Beedle the Bard — J.K. Rowling | \\$3.97M |\n| 56 | Geographia Cosmographia — Ptolemy | \\$3.96M |\n| 57 | Christopher Columbus's 1493 letter | \\$3.92M |\n| 58 | First printed Hebrew Torah | \\$3.86M |\n| 59 | Emancipation Proclamation | \\$3.78M |\n| 60 | Rochefoucauld Grail | \\$3.77M |\n| 61 | Principia Mathematica — Isaac Newton | \\$3.72M |\n| 62 | Medieval Book of Hours | \\$3.63M |\n| 63 | Hebrew Bible manuscript | \\$3.61M |\n| 64 | Amazing Fantasy \\#15 — Spider-Man | \\$3.60M |\n| 65 | The Birds of America — another copy | \\$3.53M |\n| 66 | Beethoven's Symphony No. 9 manuscript | \\$3.49M |\n| 67 | Abraham Lincoln's letter to children | \\$3.40M |\n| 68 | Bach's Prelude, Fugue and Allegro | \\$3.33M |\n| 69 | George Washington's letter to Bushrod Washington | \\$3.22M |\n| 70 | Captain America Comics \\#1 | \\$3.12M |\n| 71 | Gospels of Queen Theutberga | \\$3.11M |\n| 72 | Lincoln's Last Address as President | \\$3.09M |\n| 73 | Dune storyboard — Jodorowsky project | \\$3.03M |\n| 74 | Monypenny Breviary | \\$3.03M |\n| 75 | Surrealist Manifesto — André Breton | \\$2.97M |\n\n\n## Books and manuscripts ranked 76–100\n\n| \\# | Title | Historical sale price |\n|--------|--------|--------|\n| 76 | Einstein's God Letter | \\$2.89M |\n| 77 | The North American Indian — Edward S. Curtis | \\$2.88M |\n| 78 | Das Große Stammbuch | \\$2.80M |\n| 79 | Portolan Atlas — Battista Agnese | \\$2.77M |\n| 80 | Shakespeare's First Folio — another copy | \\$2.75M |\n| 81 | Psalter and Hours of Elizabeth de Bohun | \\$2.70M |\n| 82 | Imhof Prayerbook | \\$2.57M |\n| 83 | Doria Atlas | \\$2.56M |\n| 84 | Hortus Eystettensis | \\$2.55M |\n| 85 | Newton's Principia Mathematica — presentation copy | \\$2.52M |\n| 86 | The First Book of Urizen — William Blake | \\$2.50M |\n| 87 | On the Road — original scroll | \\$2.50M |\n| 88 | Quran leaf palimpsest | \\$2.48M |\n| 89 | Jones Declaration of Independence | \\$2.47M |\n| 90 | Marvel Comics \\#1 | \\$2.43M |\n| 91 | Biblia Pauperum | \\$2.42M |\n| 92 | Thirteenth Amendment to the U.S. Constitution | \\$2.41M |\n| 93 | Gutenberg Bible — another copy | \\$2.40M |\n| 94 | First account of Copernicus's heliocentrism | \\$2.40M |\n| 95 | Florentine Machzor | \\$2.40M |\n| 96 | Noam Elimelech | \\$2.36M |\n| 97 | Shakespeare's First Folio — another copy | \\$2.36M |\n| 98 | 1203 Quran manuscript | \\$2.34M |\n| 99 | Detective Comics \\#27 — Batman's first appearance | \\$2.32M |\n| 100 | Schumann's Symphony No. 2 manuscript | \\$2.30M |\n\n\n[en.wikipedia.org](https://en.wikipedia.org/wiki/List_of_most_expensive_books_and_manuscripts?utm_source=chatgpt.com)\n\n*Note: This is a compilation of reported historical sales, including books, individual manuscripts, maps, comics, and documents. Some entries are different copies of the same work. It is not a verified ranking of 100 unique book titles or their current market values.*\n\n## What makes a book extraordinarily valuable?\n\n![The Codex Leicester - Leonardo da Vinci Manuscript - Framed Prints by Leonardo da Vinci | Buy Posters, Frames, Canvas & Digital Art Prints | Small, Compact, Medium and Large Variants](https://images.openai.com/static-rsc-4/PgOFDfgOs6hFljEhDMHbTHZOvYnIkR7PKvCgdmYTC6QDAaBQXab_HTLpOrlpw_a-wb_yETgskmlTw8P0WfVPLNX3IwFrEVsaUphNUk1mBN6KlOVqDOXn0QbFyl3d4COHJeoWcxJbwcjV9uEebmutmN9HJbng3yO17aeEWDyUpyqd39vaXIfFPipiY3VNuPkH?purpose=fullsize)\n\n**Original manuscripts**\n\nHandwritten by historically important figures.\n\n![480. Prayer of Habakkuk (Habbakuk ch. 3), Zephaniah, II, 154v–155r | The Morgan Gutenberg Bible Online | The Morgan Library & Museum](https://images.openai.com/static-rsc-4/fslKK9oxbFrnSIKkEV0QiL7FMoeqR64yNGyH6nDKqDSmCFnKAxV7U3ZsuEYiaCIohKHmR0XbAIp0l_jgpGLzuToG4ELebIo_KXcBRZZWVtlzKdmrJ4ZCeagkW7b6v71ffBIPyP_0PP-8VqweSQbEbs7g3pI4wp1gbP7Zat5JprBHKcP54sp7bUHbC5yC-Vyo?purpose=fullsize)\n\n**Early printed books**\n\nExtremely rare early printing editions.\n\n![Rare Shakespeare First Folio acquired by Canadian university to go on view at Vancouver Art Gallery - The Art Newspaper - International art news and events](https://images.openai.com/static-rsc-4/ZKjfczvK9MUm3qyfEUdeprjCHX_lSTjw_XRHn3anrvkG-MgvxmETsZ4uv_vvyXLdEFkDspNphkGJBXrg7eaMIgWMPEH4HtJl8mNO_1dZIJ-FvWhP7a4kMNyxpxA0xfYWN4RTbeXmEeEdsn4pcuWKwZtzrEuwahB5hDQh8ubcpjXbx72M3RUFz-MJdzquyFL_?purpose=fullsize)\n\n**First editions**\n\nImportant original editions of literary classics.\n\n![The birds of American Animals | Natural History Museum](https://images.openai.com/static-rsc-4/o0OkSC4RjVxUoPjRY_IQKdaX4jh0hZNpNf6qsM-M_3HQoo9_gFBCBqVPtpxwXdy7qW5RjkkvKWogML0YMaVzZ8l7QSYsqNQD6BRDg00aJCulGi9O3GgxZ9bPFGQe4kCFvIrUYHEqR7GwLDPE6zwfCMMquRehiCRB2Uc2mXRUt288F3SZkgIPN-_5S_eQ_v8J?purpose=fullsize)\n\n**Illustrated masterpieces**\n\nRare books with exceptional artwork and craftsmanship.\n\n**Primary research sources\\:**\n\n- [Full historical sales database – Most Expensive Books and Manuscripts](https://en.wikipedia.org/wiki/List_of_most_expensive_books_and_manuscripts?utm_source=chatgpt.com)\n- [Sotheby's Books and Manuscripts auction records](https://www.sothebys.com/en/articles/2023-in-review-books-and-manuscripts?utm_source=chatgpt.com)\n- [Forbes – Most Expensive Books Ever Sold](https://www.forbes.com/sites/maryroeloffs/2023/09/28/two-books-break-book-sales-records-at-christies-auction---here-are-the-most-expensive-books-ever-sold/?utm_source=chatgpt.com)\n\nOne interesting next direction would be a separate list of the **100 most valuable books to own and read for knowledge, wealth, business, psychology, and personal development**—rather than books that are expensive because they are rare.",
+          "search_results": [
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://anystat.ai/stats/1038/most-expensive-books-manuscripts-ever-sold-1783882447",
+              "domain": "anystat.ai",
+              "title": "Most Expensive Books & Manuscripts Ever Sold · ANYSTAT",
+              "description": null,
+              "breadcrumb": "anystat.ai"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://en.wikipedia.org/wiki/List_of_most_expensive_books_and_manuscripts",
+              "domain": "en.wikipedia.org",
+              "title": "List of most expensive books and manuscripts",
+              "description": null,
+              "breadcrumb": "en.wikipedia.org"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://en.wikipedia.org/wiki/List_of_most_expensive_books_and_manuscripts",
+              "domain": "en.wikipedia.org",
+              "title": "List of most expensive books and manuscripts - Wikipedia",
+              "description": "Total lines: 613\n",
+              "breadcrumb": "en.wikipedia.org"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://en.wikipedia.org/wiki/List_of_most_expensive_books_and_manuscripts",
+              "domain": "en.wikipedia.org",
+              "title": "List of most expensive books and manuscripts - Wikipedia",
+              "description": "Total lines: 613\n",
+              "breadcrumb": "en.wikipedia.org"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://tpl.ca/wp-content/uploads/sites/164/2025/09/02_jan.pdf",
+              "domain": "tpl.ca",
+              "title": "TORONTO PUBLIC LIBRARY NEWS AND VIEWS",
+              "description": null,
+              "breadcrumb": "tpl.ca"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.booksolve.com/what-is-the-most-expensive-book-ever-sold",
+              "domain": "www.booksolve.com",
+              "title": "What is the most expensive book ever sold? | Booksolve",
+              "description": null,
+              "breadcrumb": "www.booksolve.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://newikis.com/en/List_of_most_expensive_books_and_manuscripts",
+              "domain": "newikis.com",
+              "title": "List of most expensive books and manuscripts - Newikis",
+              "description": null,
+              "breadcrumb": "newikis.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://kiwix.drnathanhutchins.com/content/wikipedia_en_all_maxi_2026-02/List_of_most_expensive_books_and_manuscripts",
+              "domain": "kiwix.drnathanhutchins.com",
+              "title": "List of most expensive books and manuscripts",
+              "description": null,
+              "breadcrumb": "kiwix.drnathanhutchins.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.forbes.com/sites/maryroeloffs/2023/09/28/two-books-break-book-sales-records-at-christies-auction---here-are-the-most-expensive-books-ever-sold/",
+              "domain": "www.forbes.com",
+              "title": "Two Books Break Book Sales Records At Christie’s Auction — Here Are The Most Expensive Books Ever Sold",
+              "description": null,
+              "breadcrumb": "www.forbes.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://findartinfo.com/browse/antique/books-maps-manuscripts",
+              "domain": "findartinfo.com",
+              "title": "Antique Books & Manuscripts Auction Prices | FindArtInfo",
+              "description": null,
+              "breadcrumb": "findartinfo.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.invaluable.com/blog/most-expensive-books/",
+              "domain": "www.invaluable.com",
+              "title": "The 15 Most Expensive Books & Manuscripts Ever Sold",
+              "description": null,
+              "breadcrumb": "www.invaluable.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://wiki.labowski.net/content/wikipedia_en_all_maxi_2026-08/List_of_most_expensive_books_and_manuscripts",
+              "domain": "wiki.labowski.net",
+              "title": "List of most expensive books and manuscripts",
+              "description": null,
+              "breadcrumb": "wiki.labowski.net"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://auctiontool.ai/en/news/the-10-most-expensive-books-and-manuscripts-ever-auctioned",
+              "domain": "auctiontool.ai",
+              "title": "The 10 most expensive books and manuscripts ever auctioned — AuctionTool.ai",
+              "description": null,
+              "breadcrumb": "auctiontool.ai"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.sothebys.com/en/articles/2023-in-review-books-and-manuscripts",
+              "domain": "www.sothebys.com",
+              "title": "2023 In Review: Books and Manuscripts | Books & Manuscripts | Sotheby’s",
+              "description": null,
+              "breadcrumb": "www.sothebys.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.thecollector.com/top-10-books-manuscripts-that-achieved-incredible-results/",
+              "domain": "www.thecollector.com",
+              "title": "Top 10 Books & Manuscripts that Achieved Incredible Results | TheCollector",
+              "description": null,
+              "breadcrumb": "www.thecollector.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.antiqueparchments.com/blogs/research-library/10-most-valuable-antique-books-ever-sold-at-auction",
+              "domain": "www.antiqueparchments.com",
+              "title": "10 Most Valuable Antique Books Ever Sold at Auction – Antique Parchments",
+              "description": null,
+              "breadcrumb": "www.antiqueparchments.com"
+            }
+          ],
+          "sources": [
+            {
+              "type": "chat_gpt_source",
+              "title": "List of most expensive books and manuscripts",
+              "snippet": "Total lines: 613",
+              "domain": "en.wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/List_of_most_expensive_books_and_manuscripts?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "Wikipedia",
+              "publication_date": null,
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Two Books Break Book Sales Records At Christie’s Auction — Here Are The Most Expensive Books Ever Sold",
+              "snippet": null,
+              "domain": "www.forbes.com",
+              "url": "https://www.forbes.com/sites/maryroeloffs/2023/09/28/two-books-break-book-sales-records-at-christies-auction---here-are-the-most-expensive-books-ever-sold/?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "Forbes",
+              "publication_date": "2023-09-28 00:00:00 +00:00",
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "2023 In Review: Books and Manuscripts | Books & Manuscripts",
+              "snippet": null,
+              "domain": "www.sothebys.com",
+              "url": "https://www.sothebys.com/en/articles/2023-in-review-books-and-manuscripts?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "Sotheby’s",
+              "publication_date": "2023-12-22 00:00:00 +00:00",
+              "markdown": null
+            }
+          ],
+          "fan_out_queries": [
+            "100 most valuable books ever sold auction prices rare books most expensive manuscripts",
+            "100 most valuable books ever sold auction prices rare books manuscripts first editions list"
+          ],
+          "brand_entities": [
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Leonardo da Vinci scientific notebook",
+              "category": "book",
+              "markdown": "Codex Leicester",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Ancient Hebrew Bible manuscript",
+              "category": "book",
+              "markdown": "Codex Sassoon",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Printer's manuscript",
+              "category": "book",
+              "markdown": "Book of Mormon",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "1297 historical charter",
+              "category": "book",
+              "markdown": "Magna Carta",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Bay Psalm Book",
+              "category": "book",
+              "markdown": "Bay Psalm Book",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "On the Road",
+              "category": "book",
+              "markdown": "On the Road",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "The Birds of America",
+              "category": "book",
+              "markdown": "The Birds of America",
+              "urls": null
+            }
+          ],
+          "se_results_count": 0,
+          "item_types": [
+            "chat_gpt_text",
+            "chat_gpt_table",
+            "chat_gpt_images"
+          ],
+          "items_count": 17,
+          "items": [
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "markdown": "# The 100 most valuable books in the world\n\nI'm interpreting “most valuable” as **the most expensive and collectible books, manuscripts, and historical documents ever sold**, ranked by reported sale value.\n\nThese are not ordinary bookstore prices. Their value comes from historical significance, extreme rarity, famous authorship, condition, and provenance.\n\nOne important distinction: a handwritten original manuscript can be worth vastly more than a printed first edition of the same work.\n\n## Top 25 highest-value books and manuscripts\n\nPrices below are reported historical sale prices, not current appraisals. The ranking uses the available sales records, with some differences depending on inflation adjustment.\n\n",
+              "sources": null,
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_table",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "text": null,
+              "markdown": "| \\# | Book or manuscript | Reported sale price |\n|--------|--------|--------|\n| 1 | Codex Leicester — Leonardo da Vinci | \\$30.8M |\n| 2 | First printing of the U.S. Constitution | \\$43.2M |\n| 3 | Letters of Zhao Mengfu | \\$38.2M |\n| 4 | Codex Sassoon | \\$38.1M |\n| 5 | Book of Mormon — printer's manuscript | \\$35M |\n| 6 | Letter of Zeng Gong | \\$31.7M |\n| 7 | Magna Carta — 1297 copy | \\$21.32M |\n| 8 | Sherborne Missal | \\$21.21M |\n| 9 | Book of Tang — ancient Chinese edition | \\$17.06M |\n| 10 | St Cuthbert Gospel | \\$14.34M |\n| 11 | Bay Psalm Book | \\$14.2M |\n| 12 | Rothschild Prayerbook | \\$13.6M |\n| 13 | Einstein-Besso manuscript | \\$13.2M |\n| 14 | Shahnameh of Shah Tahmasp | \\$12.15M |\n| 15 | On the Road — Jack Kerouac's original scroll | \\$12.14M |\n| 16 | Gospels of Henry the Lion | \\$11.7M |\n| 17 | The Birds of America — John James Audubon | \\$11.57M |\n| 18 | Waldseemüller Map | \\$10M |\n| 19 | Shakespeare's First Folio | \\$9.98M |\n| 20 | George Washington's annotated Constitution | \\$9.83M |\n| 21 | The Birds of America — another copy | \\$9.65M |\n| 22 | Babylonian Talmud | \\$9.32M |\n| 23 | Yongle Encyclopedia | \\$9.19M |\n| 24 | Superman \\#1 | \\$9.12M |\n| 25 | Casanova's Histoire de ma vie | \\$9.06M |\n\n",
+              "table": {
+                "table_header": [
+                  "\\#",
+                  "Book or manuscript",
+                  "Reported sale price"
+                ],
+                "table_content": [
+                  [
+                    "1",
+                    "Codex Leicester — Leonardo da Vinci",
+                    "\\$30.8M"
+                  ],
+                  [
+                    "2",
+                    "First printing of the U.S. Constitution",
+                    "\\$43.2M"
+                  ],
+                  [
+                    "3",
+                    "Letters of Zhao Mengfu",
+                    "\\$38.2M"
+                  ],
+                  [
+                    "4",
+                    "Codex Sassoon",
+                    "\\$38.1M"
+                  ],
+                  [
+                    "5",
+                    "Book of Mormon — printer's manuscript",
+                    "\\$35M"
+                  ],
+                  [
+                    "6",
+                    "Letter of Zeng Gong",
+                    "\\$31.7M"
+                  ],
+                  [
+                    "7",
+                    "Magna Carta — 1297 copy",
+                    "\\$21.32M"
+                  ],
+                  [
+                    "8",
+                    "Sherborne Missal",
+                    "\\$21.21M"
+                  ],
+                  [
+                    "9",
+                    "Book of Tang — ancient Chinese edition",
+                    "\\$17.06M"
+                  ],
+                  [
+                    "10",
+                    "St Cuthbert Gospel",
+                    "\\$14.34M"
+                  ],
+                  [
+                    "11",
+                    "Bay Psalm Book",
+                    "\\$14.2M"
+                  ],
+                  [
+                    "12",
+                    "Rothschild Prayerbook",
+                    "\\$13.6M"
+                  ],
+                  [
+                    "13",
+                    "Einstein-Besso manuscript",
+                    "\\$13.2M"
+                  ],
+                  [
+                    "14",
+                    "Shahnameh of Shah Tahmasp",
+                    "\\$12.15M"
+                  ],
+                  [
+                    "15",
+                    "On the Road — Jack Kerouac's original scroll",
+                    "\\$12.14M"
+                  ],
+                  [
+                    "16",
+                    "Gospels of Henry the Lion",
+                    "\\$11.7M"
+                  ],
+                  [
+                    "17",
+                    "The Birds of America — John James Audubon",
+                    "\\$11.57M"
+                  ],
+                  [
+                    "18",
+                    "Waldseemüller Map",
+                    "\\$10M"
+                  ],
+                  [
+                    "19",
+                    "Shakespeare's First Folio",
+                    "\\$9.98M"
+                  ],
+                  [
+                    "20",
+                    "George Washington's annotated Constitution",
+                    "\\$9.83M"
+                  ],
+                  [
+                    "21",
+                    "The Birds of America — another copy",
+                    "\\$9.65M"
+                  ],
+                  [
+                    "22",
+                    "Babylonian Talmud",
+                    "\\$9.32M"
+                  ],
+                  [
+                    "23",
+                    "Yongle Encyclopedia",
+                    "\\$9.19M"
+                  ],
+                  [
+                    "24",
+                    "Superman \\#1",
+                    "\\$9.12M"
+                  ],
+                  [
+                    "25",
+                    "Casanova's Histoire de ma vie",
+                    "\\$9.06M"
+                  ]
+                ]
+              },
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Leonardo da Vinci scientific notebook",
+                  "category": "book",
+                  "markdown": "Codex Leicester",
+                  "urls": null
+                },
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Ancient Hebrew Bible manuscript",
+                  "category": "book",
+                  "markdown": "Codex Sassoon",
+                  "urls": null
+                },
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Printer's manuscript",
+                  "category": "book",
+                  "markdown": "Book of Mormon",
+                  "urls": null
+                },
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "1297 historical charter",
+                  "category": "book",
+                  "markdown": "Magna Carta",
+                  "urls": null
+                },
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Bay Psalm Book",
+                  "category": "book",
+                  "markdown": "Bay Psalm Book",
+                  "urls": null
+                },
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "On the Road",
+                  "category": "book",
+                  "markdown": "On the Road",
+                  "urls": null
+                },
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "The Birds of America",
+                  "category": "book",
+                  "markdown": "The Birds of America",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "markdown": "\n[en.wikipedia.org](https://en.wikipedia.org/wiki/List_of_most_expensive_books_and_manuscripts?utm_source=chatgpt.com)[www.forbes.com](https://www.forbes.com/sites/maryroeloffs/2023/09/28/two-books-break-book-sales-records-at-christies-auction---here-are-the-most-expensive-books-ever-sold/?utm_source=chatgpt.com)[www.sothebys.com](https://www.sothebys.com/en/articles/2023-in-review-books-and-manuscripts?utm_source=chatgpt.com)\n\n## Books and manuscripts ranked 26–50\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "List of most expensive books and manuscripts",
+                  "snippet": "Total lines: 613",
+                  "domain": "en.wikipedia.org",
+                  "url": "https://en.wikipedia.org/wiki/List_of_most_expensive_books_and_manuscripts?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "Wikipedia",
+                  "publication_date": null,
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Two Books Break Book Sales Records At Christie’s Auction — Here Are The Most Expensive Books Ever Sold",
+                  "snippet": null,
+                  "domain": "www.forbes.com",
+                  "url": "https://www.forbes.com/sites/maryroeloffs/2023/09/28/two-books-break-book-sales-records-at-christies-auction---here-are-the-most-expensive-books-ever-sold/?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "Forbes",
+                  "publication_date": "2023-09-28 00:00:00 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "2023 In Review: Books and Manuscripts | Books & Manuscripts",
+                  "snippet": null,
+                  "domain": "www.sothebys.com",
+                  "url": "https://www.sothebys.com/en/articles/2023-in-review-books-and-manuscripts?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "Sotheby’s",
+                  "publication_date": "2023-12-22 00:00:00 +00:00",
+                  "markdown": null
+                }
+              ],
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_table",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "text": null,
+              "markdown": "| \\# | Title | Historical sale price |\n|--------|--------|--------|\n| 26 | Olympic Manifesto — Pierre de Coubertin | \\$8.80M |\n| 27 | The Birds of America — another copy | \\$8.80M |\n| 28 | Persian Quran manuscript | \\$8.76M |\n| 29 | Luzzatto High Holiday Mahzor | \\$8.31M |\n| 30 | U.S. Declaration of Independence — Dunlap broadside | \\$8.14M |\n| 31 | The Canterbury Tales — first edition | \\$7.57M |\n| 32 | The 120 Days of Sodom — original manuscript | \\$7M |\n| 33 | The Birds of America — another copy | \\$6.64M |\n| 34 | Shahnameh illustrated folio | \\$6.33M |\n| 35 | Deeds of Sir Gillion de Trazegnies | \\$6.20M |\n| 36 | Shakespeare's First Folio — another copy | \\$6.17M |\n| 37 | Francis Crick's DNA letter | \\$6.06M |\n| 38 | Action Comics \\#1 | \\$6M |\n| 39 | Northumberland Bestiary | \\$5.80M |\n| 40 | Mahler's Symphony No. 2 manuscript | \\$5.68M |\n| 41 | The Birds of America — another copy | \\$5.62M |\n| 42 | Les Liliacées — Pierre-Joseph Redouté | \\$5.50M |\n| 43 | Gutenberg Bible | \\$5.39M |\n| 44 | Shakespeare's First Folio — another copy | \\$5.17M |\n| 45 | Royal Mamluk Quran | \\$4.86M |\n| 46 | Burdett Psalter | \\$4.59M |\n| 47 | Traité des Arbres Fruitiers | \\$4.47M |\n| 48 | Cornaro Missal | \\$4.45M |\n| 49 | Declaration of Independence — Stone copy | \\$4.42M |\n| 50 | Mozart's Nine Symphonies manuscript | \\$4.34M |\n\n",
+              "table": {
+                "table_header": [
+                  "\\#",
+                  "Title",
+                  "Historical sale price"
+                ],
+                "table_content": [
+                  [
+                    "26",
+                    "Olympic Manifesto — Pierre de Coubertin",
+                    "\\$8.80M"
+                  ],
+                  [
+                    "27",
+                    "The Birds of America — another copy",
+                    "\\$8.80M"
+                  ],
+                  [
+                    "28",
+                    "Persian Quran manuscript",
+                    "\\$8.76M"
+                  ],
+                  [
+                    "29",
+                    "Luzzatto High Holiday Mahzor",
+                    "\\$8.31M"
+                  ],
+                  [
+                    "30",
+                    "U.S. Declaration of Independence — Dunlap broadside",
+                    "\\$8.14M"
+                  ],
+                  [
+                    "31",
+                    "The Canterbury Tales — first edition",
+                    "\\$7.57M"
+                  ],
+                  [
+                    "32",
+                    "The 120 Days of Sodom — original manuscript",
+                    "\\$7M"
+                  ],
+                  [
+                    "33",
+                    "The Birds of America — another copy",
+                    "\\$6.64M"
+                  ],
+                  [
+                    "34",
+                    "Shahnameh illustrated folio",
+                    "\\$6.33M"
+                  ],
+                  [
+                    "35",
+                    "Deeds of Sir Gillion de Trazegnies",
+                    "\\$6.20M"
+                  ],
+                  [
+                    "36",
+                    "Shakespeare's First Folio — another copy",
+                    "\\$6.17M"
+                  ],
+                  [
+                    "37",
+                    "Francis Crick's DNA letter",
+                    "\\$6.06M"
+                  ],
+                  [
+                    "38",
+                    "Action Comics \\#1",
+                    "\\$6M"
+                  ],
+                  [
+                    "39",
+                    "Northumberland Bestiary",
+                    "\\$5.80M"
+                  ],
+                  [
+                    "40",
+                    "Mahler's Symphony No. 2 manuscript",
+                    "\\$5.68M"
+                  ],
+                  [
+                    "41",
+                    "The Birds of America — another copy",
+                    "\\$5.62M"
+                  ],
+                  [
+                    "42",
+                    "Les Liliacées — Pierre-Joseph Redouté",
+                    "\\$5.50M"
+                  ],
+                  [
+                    "43",
+                    "Gutenberg Bible",
+                    "\\$5.39M"
+                  ],
+                  [
+                    "44",
+                    "Shakespeare's First Folio — another copy",
+                    "\\$5.17M"
+                  ],
+                  [
+                    "45",
+                    "Royal Mamluk Quran",
+                    "\\$4.86M"
+                  ],
+                  [
+                    "46",
+                    "Burdett Psalter",
+                    "\\$4.59M"
+                  ],
+                  [
+                    "47",
+                    "Traité des Arbres Fruitiers",
+                    "\\$4.47M"
+                  ],
+                  [
+                    "48",
+                    "Cornaro Missal",
+                    "\\$4.45M"
+                  ],
+                  [
+                    "49",
+                    "Declaration of Independence — Stone copy",
+                    "\\$4.42M"
+                  ],
+                  [
+                    "50",
+                    "Mozart's Nine Symphonies manuscript",
+                    "\\$4.34M"
+                  ]
+                ]
+              },
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 3,
+              "rank_absolute": 5,
+              "markdown": "\n## Books and manuscripts ranked 51–75\n\n",
+              "sources": null,
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_table",
+              "rank_group": 3,
+              "rank_absolute": 6,
+              "text": null,
+              "markdown": "| \\# | Title | Historical sale price |\n|--------|--------|--------|\n| 51 | Original Rules of Basketball | \\$4.34M |\n| 52 | Songs of Innocence and of Experience — William Blake | \\$4.32M |\n| 53 | Hours of Albrecht of Brandenburg | \\$4.17M |\n| 54 | The Birds of America — another copy | \\$4.07M |\n| 55 | The Tales of Beedle the Bard — J.K. Rowling | \\$3.97M |\n| 56 | Geographia Cosmographia — Ptolemy | \\$3.96M |\n| 57 | Christopher Columbus's 1493 letter | \\$3.92M |\n| 58 | First printed Hebrew Torah | \\$3.86M |\n| 59 | Emancipation Proclamation | \\$3.78M |\n| 60 | Rochefoucauld Grail | \\$3.77M |\n| 61 | Principia Mathematica — Isaac Newton | \\$3.72M |\n| 62 | Medieval Book of Hours | \\$3.63M |\n| 63 | Hebrew Bible manuscript | \\$3.61M |\n| 64 | Amazing Fantasy \\#15 — Spider-Man | \\$3.60M |\n| 65 | The Birds of America — another copy | \\$3.53M |\n| 66 | Beethoven's Symphony No. 9 manuscript | \\$3.49M |\n| 67 | Abraham Lincoln's letter to children | \\$3.40M |\n| 68 | Bach's Prelude, Fugue and Allegro | \\$3.33M |\n| 69 | George Washington's letter to Bushrod Washington | \\$3.22M |\n| 70 | Captain America Comics \\#1 | \\$3.12M |\n| 71 | Gospels of Queen Theutberga | \\$3.11M |\n| 72 | Lincoln's Last Address as President | \\$3.09M |\n| 73 | Dune storyboard — Jodorowsky project | \\$3.03M |\n| 74 | Monypenny Breviary | \\$3.03M |\n| 75 | Surrealist Manifesto — André Breton | \\$2.97M |\n\n",
+              "table": {
+                "table_header": [
+                  "\\#",
+                  "Title",
+                  "Historical sale price"
+                ],
+                "table_content": [
+                  [
+                    "51",
+                    "Original Rules of Basketball",
+                    "\\$4.34M"
+                  ],
+                  [
+                    "52",
+                    "Songs of Innocence and of Experience — William Blake",
+                    "\\$4.32M"
+                  ],
+                  [
+                    "53",
+                    "Hours of Albrecht of Brandenburg",
+                    "\\$4.17M"
+                  ],
+                  [
+                    "54",
+                    "The Birds of America — another copy",
+                    "\\$4.07M"
+                  ],
+                  [
+                    "55",
+                    "The Tales of Beedle the Bard — J.K. Rowling",
+                    "\\$3.97M"
+                  ],
+                  [
+                    "56",
+                    "Geographia Cosmographia — Ptolemy",
+                    "\\$3.96M"
+                  ],
+                  [
+                    "57",
+                    "Christopher Columbus's 1493 letter",
+                    "\\$3.92M"
+                  ],
+                  [
+                    "58",
+                    "First printed Hebrew Torah",
+                    "\\$3.86M"
+                  ],
+                  [
+                    "59",
+                    "Emancipation Proclamation",
+                    "\\$3.78M"
+                  ],
+                  [
+                    "60",
+                    "Rochefoucauld Grail",
+                    "\\$3.77M"
+                  ],
+                  [
+                    "61",
+                    "Principia Mathematica — Isaac Newton",
+                    "\\$3.72M"
+                  ],
+                  [
+                    "62",
+                    "Medieval Book of Hours",
+                    "\\$3.63M"
+                  ],
+                  [
+                    "63",
+                    "Hebrew Bible manuscript",
+                    "\\$3.61M"
+                  ],
+                  [
+                    "64",
+                    "Amazing Fantasy \\#15 — Spider-Man",
+                    "\\$3.60M"
+                  ],
+                  [
+                    "65",
+                    "The Birds of America — another copy",
+                    "\\$3.53M"
+                  ],
+                  [
+                    "66",
+                    "Beethoven's Symphony No. 9 manuscript",
+                    "\\$3.49M"
+                  ],
+                  [
+                    "67",
+                    "Abraham Lincoln's letter to children",
+                    "\\$3.40M"
+                  ],
+                  [
+                    "68",
+                    "Bach's Prelude, Fugue and Allegro",
+                    "\\$3.33M"
+                  ],
+                  [
+                    "69",
+                    "George Washington's letter to Bushrod Washington",
+                    "\\$3.22M"
+                  ],
+                  [
+                    "70",
+                    "Captain America Comics \\#1",
+                    "\\$3.12M"
+                  ],
+                  [
+                    "71",
+                    "Gospels of Queen Theutberga",
+                    "\\$3.11M"
+                  ],
+                  [
+                    "72",
+                    "Lincoln's Last Address as President",
+                    "\\$3.09M"
+                  ],
+                  [
+                    "73",
+                    "Dune storyboard — Jodorowsky project",
+                    "\\$3.03M"
+                  ],
+                  [
+                    "74",
+                    "Monypenny Breviary",
+                    "\\$3.03M"
+                  ],
+                  [
+                    "75",
+                    "Surrealist Manifesto — André Breton",
+                    "\\$2.97M"
+                  ]
+                ]
+              },
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "markdown": "\n## Books and manuscripts ranked 76–100\n\n",
+              "sources": null,
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_table",
+              "rank_group": 4,
+              "rank_absolute": 8,
+              "text": null,
+              "markdown": "| \\# | Title | Historical sale price |\n|--------|--------|--------|\n| 76 | Einstein's God Letter | \\$2.89M |\n| 77 | The North American Indian — Edward S. Curtis | \\$2.88M |\n| 78 | Das Große Stammbuch | \\$2.80M |\n| 79 | Portolan Atlas — Battista Agnese | \\$2.77M |\n| 80 | Shakespeare's First Folio — another copy | \\$2.75M |\n| 81 | Psalter and Hours of Elizabeth de Bohun | \\$2.70M |\n| 82 | Imhof Prayerbook | \\$2.57M |\n| 83 | Doria Atlas | \\$2.56M |\n| 84 | Hortus Eystettensis | \\$2.55M |\n| 85 | Newton's Principia Mathematica — presentation copy | \\$2.52M |\n| 86 | The First Book of Urizen — William Blake | \\$2.50M |\n| 87 | On the Road — original scroll | \\$2.50M |\n| 88 | Quran leaf palimpsest | \\$2.48M |\n| 89 | Jones Declaration of Independence | \\$2.47M |\n| 90 | Marvel Comics \\#1 | \\$2.43M |\n| 91 | Biblia Pauperum | \\$2.42M |\n| 92 | Thirteenth Amendment to the U.S. Constitution | \\$2.41M |\n| 93 | Gutenberg Bible — another copy | \\$2.40M |\n| 94 | First account of Copernicus's heliocentrism | \\$2.40M |\n| 95 | Florentine Machzor | \\$2.40M |\n| 96 | Noam Elimelech | \\$2.36M |\n| 97 | Shakespeare's First Folio — another copy | \\$2.36M |\n| 98 | 1203 Quran manuscript | \\$2.34M |\n| 99 | Detective Comics \\#27 — Batman's first appearance | \\$2.32M |\n| 100 | Schumann's Symphony No. 2 manuscript | \\$2.30M |\n\n",
+              "table": {
+                "table_header": [
+                  "\\#",
+                  "Title",
+                  "Historical sale price"
+                ],
+                "table_content": [
+                  [
+                    "76",
+                    "Einstein's God Letter",
+                    "\\$2.89M"
+                  ],
+                  [
+                    "77",
+                    "The North American Indian — Edward S. Curtis",
+                    "\\$2.88M"
+                  ],
+                  [
+                    "78",
+                    "Das Große Stammbuch",
+                    "\\$2.80M"
+                  ],
+                  [
+                    "79",
+                    "Portolan Atlas — Battista Agnese",
+                    "\\$2.77M"
+                  ],
+                  [
+                    "80",
+                    "Shakespeare's First Folio — another copy",
+                    "\\$2.75M"
+                  ],
+                  [
+                    "81",
+                    "Psalter and Hours of Elizabeth de Bohun",
+                    "\\$2.70M"
+                  ],
+                  [
+                    "82",
+                    "Imhof Prayerbook",
+                    "\\$2.57M"
+                  ],
+                  [
+                    "83",
+                    "Doria Atlas",
+                    "\\$2.56M"
+                  ],
+                  [
+                    "84",
+                    "Hortus Eystettensis",
+                    "\\$2.55M"
+                  ],
+                  [
+                    "85",
+                    "Newton's Principia Mathematica — presentation copy",
+                    "\\$2.52M"
+                  ],
+                  [
+                    "86",
+                    "The First Book of Urizen — William Blake",
+                    "\\$2.50M"
+                  ],
+                  [
+                    "87",
+                    "On the Road — original scroll",
+                    "\\$2.50M"
+                  ],
+                  [
+                    "88",
+                    "Quran leaf palimpsest",
+                    "\\$2.48M"
+                  ],
+                  [
+                    "89",
+                    "Jones Declaration of Independence",
+                    "\\$2.47M"
+                  ],
+                  [
+                    "90",
+                    "Marvel Comics \\#1",
+                    "\\$2.43M"
+                  ],
+                  [
+                    "91",
+                    "Biblia Pauperum",
+                    "\\$2.42M"
+                  ],
+                  [
+                    "92",
+                    "Thirteenth Amendment to the U.S. Constitution",
+                    "\\$2.41M"
+                  ],
+                  [
+                    "93",
+                    "Gutenberg Bible — another copy",
+                    "\\$2.40M"
+                  ],
+                  [
+                    "94",
+                    "First account of Copernicus's heliocentrism",
+                    "\\$2.40M"
+                  ],
+                  [
+                    "95",
+                    "Florentine Machzor",
+                    "\\$2.40M"
+                  ],
+                  [
+                    "96",
+                    "Noam Elimelech",
+                    "\\$2.36M"
+                  ],
+                  [
+                    "97",
+                    "Shakespeare's First Folio — another copy",
+                    "\\$2.36M"
+                  ],
+                  [
+                    "98",
+                    "1203 Quran manuscript",
+                    "\\$2.34M"
+                  ],
+                  [
+                    "99",
+                    "Detective Comics \\#27 — Batman's first appearance",
+                    "\\$2.32M"
+                  ],
+                  [
+                    "100",
+                    "Schumann's Symphony No. 2 manuscript",
+                    "\\$2.30M"
+                  ]
+                ]
+              },
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 5,
+              "rank_absolute": 9,
+              "markdown": "\n[en.wikipedia.org](https://en.wikipedia.org/wiki/List_of_most_expensive_books_and_manuscripts?utm_source=chatgpt.com)\n\n*Note: This is a compilation of reported historical sales, including books, individual manuscripts, maps, comics, and documents. Some entries are different copies of the same work. It is not a verified ranking of 100 unique book titles or their current market values.*\n\n## What makes a book extraordinarily valuable?\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "List of most expensive books and manuscripts",
+                  "snippet": "Total lines: 613",
+                  "domain": "en.wikipedia.org",
+                  "url": "https://en.wikipedia.org/wiki/List_of_most_expensive_books_and_manuscripts?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "Wikipedia",
+                  "publication_date": null,
+                  "markdown": null
+                }
+              ],
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 1,
+              "rank_absolute": 10,
+              "markdown": "![The Codex Leicester - Leonardo da Vinci Manuscript - Framed Prints by Leonardo da Vinci | Buy Posters, Frames, Canvas & Digital Art Prints | Small, Compact, Medium and Large Variants](https://images.openai.com/static-rsc-4/PgOFDfgOs6hFljEhDMHbTHZOvYnIkR7PKvCgdmYTC6QDAaBQXab_HTLpOrlpw_a-wb_yETgskmlTw8P0WfVPLNX3IwFrEVsaUphNUk1mBN6KlOVqDOXn0QbFyl3d4COHJeoWcxJbwcjV9uEebmutmN9HJbng3yO17aeEWDyUpyqd39vaXIfFPipiY3VNuPkH?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.tallengestore.com/products/the-codex-leicester-leonardo-da-vinci-manuscript-framed-prints",
+                  "alt": "The Codex Leicester - Leonardo da Vinci Manuscript - Framed Prints by Leonardo da Vinci | Buy Posters, Frames, Canvas & Digital Art Prints | Small, Compact, Medium and Large Variants",
+                  "image_url": "https://images.openai.com/static-rsc-4/PgOFDfgOs6hFljEhDMHbTHZOvYnIkR7PKvCgdmYTC6QDAaBQXab_HTLpOrlpw_a-wb_yETgskmlTw8P0WfVPLNX3IwFrEVsaUphNUk1mBN6KlOVqDOXn0QbFyl3d4COHJeoWcxJbwcjV9uEebmutmN9HJbng3yO17aeEWDyUpyqd39vaXIfFPipiY3VNuPkH?purpose=fullsize",
+                  "markdown": "![The Codex Leicester - Leonardo da Vinci Manuscript - Framed Prints by Leonardo da Vinci | Buy Posters, Frames, Canvas & Digital Art Prints | Small, Compact, Medium and Large Variants](https://images.openai.com/static-rsc-4/PgOFDfgOs6hFljEhDMHbTHZOvYnIkR7PKvCgdmYTC6QDAaBQXab_HTLpOrlpw_a-wb_yETgskmlTw8P0WfVPLNX3IwFrEVsaUphNUk1mBN6KlOVqDOXn0QbFyl3d4COHJeoWcxJbwcjV9uEebmutmN9HJbng3yO17aeEWDyUpyqd39vaXIfFPipiY3VNuPkH?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 6,
+              "rank_absolute": 11,
+              "markdown": "\n\n**Original manuscripts**\n\nHandwritten by historically important figures.\n\n",
+              "sources": null,
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 2,
+              "rank_absolute": 12,
+              "markdown": "![480. Prayer of Habakkuk (Habbakuk ch. 3), Zephaniah, II, 154v–155r | The Morgan Gutenberg Bible Online | The Morgan Library & Museum](https://images.openai.com/static-rsc-4/fslKK9oxbFrnSIKkEV0QiL7FMoeqR64yNGyH6nDKqDSmCFnKAxV7U3ZsuEYiaCIohKHmR0XbAIp0l_jgpGLzuToG4ELebIo_KXcBRZZWVtlzKdmrJ4ZCeagkW7b6v71ffBIPyP_0PP-8VqweSQbEbs7g3pI4wp1gbP7Zat5JprBHKcP54sp7bUHbC5yC-Vyo?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.themorgan.org/collections/works/gutenberg/page/480",
+                  "alt": "480. Prayer of Habakkuk (Habbakuk ch. 3), Zephaniah, II, 154v–155r | The Morgan Gutenberg Bible Online | The Morgan Library & Museum",
+                  "image_url": "https://images.openai.com/static-rsc-4/fslKK9oxbFrnSIKkEV0QiL7FMoeqR64yNGyH6nDKqDSmCFnKAxV7U3ZsuEYiaCIohKHmR0XbAIp0l_jgpGLzuToG4ELebIo_KXcBRZZWVtlzKdmrJ4ZCeagkW7b6v71ffBIPyP_0PP-8VqweSQbEbs7g3pI4wp1gbP7Zat5JprBHKcP54sp7bUHbC5yC-Vyo?purpose=fullsize",
+                  "markdown": "![480. Prayer of Habakkuk (Habbakuk ch. 3), Zephaniah, II, 154v–155r | The Morgan Gutenberg Bible Online | The Morgan Library & Museum](https://images.openai.com/static-rsc-4/fslKK9oxbFrnSIKkEV0QiL7FMoeqR64yNGyH6nDKqDSmCFnKAxV7U3ZsuEYiaCIohKHmR0XbAIp0l_jgpGLzuToG4ELebIo_KXcBRZZWVtlzKdmrJ4ZCeagkW7b6v71ffBIPyP_0PP-8VqweSQbEbs7g3pI4wp1gbP7Zat5JprBHKcP54sp7bUHbC5yC-Vyo?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 7,
+              "rank_absolute": 13,
+              "markdown": "\n\n**Early printed books**\n\nExtremely rare early printing editions.\n\n",
+              "sources": null,
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 3,
+              "rank_absolute": 14,
+              "markdown": "![Rare Shakespeare First Folio acquired by Canadian university to go on view at Vancouver Art Gallery - The Art Newspaper - International art news and events](https://images.openai.com/static-rsc-4/ZKjfczvK9MUm3qyfEUdeprjCHX_lSTjw_XRHn3anrvkG-MgvxmETsZ4uv_vvyXLdEFkDspNphkGJBXrg7eaMIgWMPEH4HtJl8mNO_1dZIJ-FvWhP7a4kMNyxpxA0xfYWN4RTbeXmEeEdsn4pcuWKwZtzrEuwahB5hDQh8ubcpjXbx72M3RUFz-MJdzquyFL_?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.theartnewspaper.com/2022/01/12/shakespeare-folio-acquired-canadian-university-vancouver-art-gallery",
+                  "alt": "Rare Shakespeare First Folio acquired by Canadian university to go on view at Vancouver Art Gallery - The Art Newspaper - International art news and events",
+                  "image_url": "https://images.openai.com/static-rsc-4/ZKjfczvK9MUm3qyfEUdeprjCHX_lSTjw_XRHn3anrvkG-MgvxmETsZ4uv_vvyXLdEFkDspNphkGJBXrg7eaMIgWMPEH4HtJl8mNO_1dZIJ-FvWhP7a4kMNyxpxA0xfYWN4RTbeXmEeEdsn4pcuWKwZtzrEuwahB5hDQh8ubcpjXbx72M3RUFz-MJdzquyFL_?purpose=fullsize",
+                  "markdown": "![Rare Shakespeare First Folio acquired by Canadian university to go on view at Vancouver Art Gallery - The Art Newspaper - International art news and events](https://images.openai.com/static-rsc-4/ZKjfczvK9MUm3qyfEUdeprjCHX_lSTjw_XRHn3anrvkG-MgvxmETsZ4uv_vvyXLdEFkDspNphkGJBXrg7eaMIgWMPEH4HtJl8mNO_1dZIJ-FvWhP7a4kMNyxpxA0xfYWN4RTbeXmEeEdsn4pcuWKwZtzrEuwahB5hDQh8ubcpjXbx72M3RUFz-MJdzquyFL_?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 8,
+              "rank_absolute": 15,
+              "markdown": "\n\n**First editions**\n\nImportant original editions of literary classics.\n\n",
+              "sources": null,
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 4,
+              "rank_absolute": 16,
+              "markdown": "![The birds of American Animals | Natural History Museum](https://images.openai.com/static-rsc-4/o0OkSC4RjVxUoPjRY_IQKdaX4jh0hZNpNf6qsM-M_3HQoo9_gFBCBqVPtpxwXdy7qW5RjkkvKWogML0YMaVzZ8l7QSYsqNQD6BRDg00aJCulGi9O3GgxZ9bPFGQe4kCFvIrUYHEqR7GwLDPE6zwfCMMquRehiCRB2Uc2mXRUt288F3SZkgIPN-_5S_eQ_v8J?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.nhm.ac.uk/discover/the-birds-of-american-animals.html",
+                  "alt": "The birds of American Animals | Natural History Museum",
+                  "image_url": "https://images.openai.com/static-rsc-4/o0OkSC4RjVxUoPjRY_IQKdaX4jh0hZNpNf6qsM-M_3HQoo9_gFBCBqVPtpxwXdy7qW5RjkkvKWogML0YMaVzZ8l7QSYsqNQD6BRDg00aJCulGi9O3GgxZ9bPFGQe4kCFvIrUYHEqR7GwLDPE6zwfCMMquRehiCRB2Uc2mXRUt288F3SZkgIPN-_5S_eQ_v8J?purpose=fullsize",
+                  "markdown": "![The birds of American Animals | Natural History Museum](https://images.openai.com/static-rsc-4/o0OkSC4RjVxUoPjRY_IQKdaX4jh0hZNpNf6qsM-M_3HQoo9_gFBCBqVPtpxwXdy7qW5RjkkvKWogML0YMaVzZ8l7QSYsqNQD6BRDg00aJCulGi9O3GgxZ9bPFGQe4kCFvIrUYHEqR7GwLDPE6zwfCMMquRehiCRB2Uc2mXRUt288F3SZkgIPN-_5S_eQ_v8J?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 9,
+              "rank_absolute": 17,
+              "markdown": "\n\n**Illustrated masterpieces**\n\nRare books with exceptional artwork and craftsmanship.\n\n**Primary research sources\\:**\n\n- [Full historical sales database – Most Expensive Books and Manuscripts](https://en.wikipedia.org/wiki/List_of_most_expensive_books_and_manuscripts?utm_source=chatgpt.com)\n- [Sotheby's Books and Manuscripts auction records](https://www.sothebys.com/en/articles/2023-in-review-books-and-manuscripts?utm_source=chatgpt.com)\n- [Forbes – Most Expensive Books Ever Sold](https://www.forbes.com/sites/maryroeloffs/2023/09/28/two-books-break-book-sales-records-at-christies-auction---here-are-the-most-expensive-books-ever-sold/?utm_source=chatgpt.com)\n\nOne interesting next direction would be a separate list of the **100 most valuable books to own and read for knowledge, wealth, business, psychology, and personal development**—rather than books that are expensive because they are rare.",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Full historical sales database – Most Expensive Books and Manuscripts",
+                  "snippet": null,
+                  "domain": "en.wikipedia.org",
+                  "url": "https://en.wikipedia.org/wiki/List_of_most_expensive_books_and_manuscripts?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[Full historical sales database – Most Expensive Books and Manuscripts](https://en.wikipedia.org/wiki/List_of_most_expensive_books_and_manuscripts?utm_source=chatgpt.com)"
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Sotheby's Books and Manuscripts auction records",
+                  "snippet": null,
+                  "domain": "www.sothebys.com",
+                  "url": "https://www.sothebys.com/en/articles/2023-in-review-books-and-manuscripts?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[Sotheby's Books and Manuscripts auction records](https://www.sothebys.com/en/articles/2023-in-review-books-and-manuscripts?utm_source=chatgpt.com)"
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Forbes – Most Expensive Books Ever Sold",
+                  "snippet": null,
+                  "domain": "www.forbes.com",
+                  "url": "https://www.forbes.com/sites/maryroeloffs/2023/09/28/two-books-break-book-sales-records-at-christies-auction---here-are-the-most-expensive-books-ever-sold/?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[Forbes – Most Expensive Books Ever Sold](https://www.forbes.com/sites/maryroeloffs/2023/09/28/two-books-break-book-sales-records-at-christies-auction---here-are-the-most-expensive-books-ever-sold/?utm_source=chatgpt.com)"
+                }
+              ],
+              "brand_entities": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

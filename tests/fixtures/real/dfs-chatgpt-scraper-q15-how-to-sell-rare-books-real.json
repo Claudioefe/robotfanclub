@@ -1,0 +1,772 @@
+{
+  "version": "0.1.20261117",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "70.5204 sec.",
+  "cost": 0.004,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "11201407-2831-0629-0000-3312beb629e1",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "67.9417 sec.",
+      "cost": 0.004,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "chat_gpt",
+        "llm_scraper",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "live",
+        "se": "chat_gpt",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "how to sell rare books",
+        "force_web_search": true,
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "how to sell rare books",
+          "location_code": 2840,
+          "language_code": "en",
+          "model": "gpt-6",
+          "check_url": "https://chatgpt.com/?prompt=how%20to%20sell%20rare%20books&hints=search",
+          "datetime": "2026-11-20 14:09:02 +00:00",
+          "markdown": "Selling rare books can be profitable, but the most important thing is identifying exactly what you have before accepting an offer. A rare first edition, signed copy, antique book, or historically significant volume can be worth hundreds or even thousands of dollars.\n\nHere is a practical guide to selling them.\n\n# 1\\. Determine what your rare books are worth\n![Sold at Auction: HEMINGWAY, ERNEST. The Sun Also Rises.](https://images.openai.com/static-rsc-4/PWfjdRs-moN6Y3QrsH14o1qhjHp_84Lc4rALIYQjZ9ezSV5qtnX7O56fUCBP2op7fxljS-VD3EhkHS7RJz7G5LEjLItG38ak1bO93ZZk_hogdgKSSe2fb6cO1CKFEMCVDosG6NOvFhPvU19dPwjrofL_352C9RoGzzzp1CmcjPtkP41vIe76V4XH0CqA1CHX?purpose=fullsize)![Set of 13 18th/19th Century French Leather Bound Books at 1stDibs](https://images.openai.com/static-rsc-4/YmD7crDsdeVVyEjREmM3LwSsfYJCZhhnA6b9F4JmrZ16qkiENUq99Y45Oo2qJ7JpZal2LpxQcQlvAvSW5oN-W0WkzrLC2rmVkEBbvR1xertL1iebeHIUjkZZ-G1mfnSc9G5J1xZjq7P3QA6gc7eEW9y6rTgA8FsTdobi30odOOYvbsaa8DnBH05Ck0mDonS5?purpose=fullsize)![Lot - Dual-Signed as Samuel Clemens / Mark Twain, 37 Vols. \"The Works of Mark Twain\", Scarce!](https://images.openai.com/static-rsc-4/eZsZ-Ahb-qdNGCBKdZDqTCM1lqMvcyDnQ7zLOXgGmE5ZzmRvpVapZVBTaSg_of8bx1NcmSIXdnPEbLQAjTs-T27JuZVsXxC54ePHN2vzT2sDc-YqC8vnIsAbmjkHXhw69gJSenX87HGILfN1LmbaAIDI-zX5MgP59AnMEomROBp66M4cGtbg3sqDrjGkYw7Q?purpose=fullsize)![The Age of Innocence. by Wharton, Edith: (1920) | Raptis Rare Books](https://images.openai.com/static-rsc-4/qxLOWY3b7Mb8ytUwGGsHbxt0rshteVq3rWU-QsJFoVF0CKfuUHcYJk9K9FejMvMSjvW6Kc745Q_bgmO5KTeUPqv1OnxOVJ52TsCjbW-IEsF0hUdNEiqJd1BYDbtrNV7ayf8Y8qrWrVwc3m-8Wk6Jy9Wt4lHvdevMD1GIciS4C1uslF667MZXsaAAJh38xyrh?purpose=fullsize)![[exemplaire avec feuillet autographe signé] Oeuvres - Stances et Poèmes (1865-1866) ; Les Épreuves / Les Solitudes (1866-1872) ; Les Vaines Tendresses (1872-1878) by Sully Prudhomme (1839-1907): Très bon Couverture rigide (1879) Edition originale | Librairie À la Demi-Lune](https://images.openai.com/static-rsc-4/0_kyeEUxC10Tw6eTZMYEV9ISqWiQAIybsD7Qt-2FOJ_VDT2txfL1QcdazcDTVNbnNA6QlRJFjFa5dN5gfau2xO0vZ-bTFT6P9uULPnH4zs0nd5-54oHonRJXntRiAIeWvmlV2R3cMV4BMp13ahN5MNW4V0WKqBfPAL7TH9_xVsmcS32l94e0HdmvhFMF3ULa?purpose=fullsize)![Our archives: the Academy's scientific heritage | Académie des sciences](https://images.openai.com/static-rsc-4/cq94thvg6Uvr9JQvuS257K5DcyzcF4YGaYc83oU52XqXfBN9eb41IKhhMPRNbEp5bq7D0fkgD5p0-7Y_DZ_ZVX3uIxZI1Te5RXCb6TtXMLHFYVPDhNrk89MoEQenKj2vYJhjfnQP5skO9oyI2n_GnGxQnS2BHGDNZskOQuSx67YXa6q1VeRTfyU7L2NOrPjD?purpose=fullsize)![J. Joachim. Collection of printed and manuscript music belonging to Joachim and his family, C19th | Music | 2022 | Sotheby's](https://images.openai.com/static-rsc-4/l2yjzd5sDXfjCvTeY54h0aFNXKoC715ZuTVWyPw-L4fD9YF3Z_O2rN-tZosBxCmmGfQ6z8fO-UUaDjWG8776v2Ml1ubY2ud1TqiStZvH-Bs42ddl1xO44nSKTMNIiuql1GohPf-QMsJFTz8TWibHnczURbpJS7b_1aOzn5dvB3DtlHjafBoDsZsv7xeYOfak?purpose=fullsize)![Books for Sale in Online Auctions - Catawiki](https://images.openai.com/static-rsc-4/a2CEZyeC63u1uvjhPXQ_FLDvTAmNYwFY1jkRf_3PuNHRJ6VsX5mZ1Gw9sxxeJ41vCqehVOFehXVrglLb3LXk08uUnQa0uAv1vYxAjE8P1kZnIA0wgSU0zwWTbKWhX4DFyPYX6sULXeCUzrPY00a_TfZHQc_f6wW4R1tEov3nQmQ-lRSsWo5hfrecxaYJOYGc?purpose=fullsize)![Lot - Ernest Hemingway. For Whom the Bell Tolls, Inscribed First Edition. New York: Charles Scribner’s Sons, 1940.](https://images.openai.com/static-rsc-4/AmW5JK7klrN8JBo_u0ymhiQ9tRIND6v3KJ_3kpUhjlhq4XZAEOcoKNnRw6hpCQeSkVu_1ix6OGAaWNUtV4DzwQWMTArXnJ1LoxSgjUZfCyyqr5RrCGa-e-jwinbx-J4IjcGmHQpi4-l47BwQCNo7WNR0sm2fGf_LNVYicX0nOesl2-SAaRnGjgNRJS9K2QJ4?purpose=fullsize)![Lot 758 - Of Bernard Barton (the Quaker Poet) and](https://images.openai.com/static-rsc-4/DQd44sET8ZuClpnLchKJvLw1PJ3BDiLPLtSintxsGm_heieU9L8l8NQozFfz0hk8a3bVXWzl_WrvC82OG4yUdkX9BgX3BbifN1bJOvOdAwp_b_Kxrw3gmN9nZyza8HTtDmhLAAoOLC86EAtKwUEpAeqfT4KUPQ3-1w7vjikgMeQrmvj2g8hfAx4q7LhoJURr?purpose=fullsize)\n\nA book's value depends on several factors\\:\n\n- **First edition\\:** Especially first printings of important works.\n- **Author signature\\:** Signed or personally inscribed copies.\n- **Age\\:** Particularly early printed books and historically significant publications.\n- **Rarity\\:** How many copies survive.\n- **Condition\\:** Original binding, intact pages, dust jacket, and minimal damage.\n- **Provenance\\:** Previous ownership by an important person or institution.\n\nImportantly, old does not necessarily mean valuable. Demand matters just as much as scarcity. [www.abaa.org](https://www.abaa.org/general-content-pages/evaluating-books?utm_source=chatgpt.com)[www.sothebys.com](https://www.sothebys.com/en/articles/10-things-that-make-books-valuable?utm_source=chatgpt.com)[guides.lib.uchicago.edu](https://guides.lib.uchicago.edu/c.php?g=298052&p=1988412&utm_source=chatgpt.com)\n\n# 2\\. Where to sell rare books\n\nThese are some of the best places to start.\n\n![First Four Folios OF Shakespeare's Collected Work Up For Auction](https://images.openai.com/static-rsc-4/bfzNBcX4D-KYfbKHR8ZJICyqAsL0apjb4dpYwSiVPv2BVT3_mFR2Ltbc0VfVSk9zgyLsv70t3I5fO3kxJDm-12RCtXexc5T7z7WMo-NP8SgPQKZCl8S-Z8cVCeWc_ofKIWyAopYFxge96WHdi8YZSaR_GKyIrESv6Gq0wSQdxZ1gsI2Djb-ZpxZalXNIFmXQ?purpose=fullsize)\n\n**1\\. Christie's**\n\nBest for exceptionally rare, valuable, and historically significant books.\n\n- Free preliminary online estimates.\n- International auction exposure.\n- Specialist book and manuscript department.\n\n[Sell books through Christie's](https://www.christies.com/en/selling-guide/rare-books?utm_source=chatgpt.com)\n\n---\n\n![Jane Austen’s Life-Changing Legacy | Books & Manuscripts | Sotheby’s](https://images.openai.com/static-rsc-4/ORo26EIXi1VFMn6nIS3kMfcW8GrO_G0WY5BVHFZbjDIIOy_ilDl5XaYdy1Y4cZlFX6v24AsqaC7ev8GwfpY8axw5rmgyzeVU37qhI8BlseuQgf0ZVVx5590i0KlYWMbNzCsS9ejv8ufvpneLlVAlehkK4t7m6sTiYuJTPlDyTkyte48EgjhY30L7Hla5pNg7?purpose=fullsize)\n\n**2\\. Sotheby's**\n\nBest for high-value first editions, manuscripts, signed books, and historic collections.\n\n- Complimentary preliminary estimates.\n- Live and online auctions.\n\n[Sell books through Sotheby's](https://www.sothebys.com/en/sell/books?utm_source=chatgpt.com)\n\n---\n\n![Deutsche & internationale Antiquariate laden nach Stuttgart ein](https://images.openai.com/static-rsc-4/IYqp6QiTu0W0cx1KPLaPp3GLYWOZ6eA31DX2tWoFAQqazaAu_YxfwYAKtZ39T08GcNJJvZ3M1UHl21q9PUkt6sDexD2URs_udkGd9cohS6X8ytxQjX1ef0Z7Z4qlK0V4XNEnviCwGxR9hlEVN7RqBi1nq68Rc9XNI_v6bjPivry46iAnAWx0NO4K-L2aJwml?purpose=fullsize)\n\n**3\\. ABAA**\n\nOne of my strongest recommendations for finding qualified rare-book dealers.\n\n- Connect with specialist booksellers.\n- Find dealers who purchase private collections.\n- Seek expert evaluations.\n\n[ABAA seller information](https://www.abaa.org/general-content-pages/frequently-asked-questions?utm_source=chatgpt.com)\n\n---\n\n![Rare Book Monthly «  March - 2016](https://images.openai.com/static-rsc-4/p0MPOgVP4K1_nwhTgeGPPSBd4N5fe7fWAjuWIsb5wS6rJki8DMN95FRA3i6dYTsaVm9MTMAaPrX7yqqiPFdOyTrITrg0LI8MI-CorIn01sXp8IsHgUHHbeMczhX4lkOALa3uiSSU3Z3E369Irec7Xs7e63JJBcsye3JiRsWDQ-fmqeFErqBn_RTfFdq7a_2R?purpose=fullsize)\n\n**4\\. AbeBooks**\n\nBest for selling collectible books directly to buyers through an online marketplace.\n\n[Visit AbeBooks](https://www.abebooks.com/)\n\n---\n\n![Military Memoirs of Field Marshal the Duke of Wellington... in Two Volumes (bound as One) - Etsy UK](https://images.openai.com/static-rsc-4/n5Q1RvdlF8TrkIsh_Tga62ypSZHqHr4mMy3CY4KOMnFOS1N1GLqYcMxg1pLFFYn53XARBlu6bjsyLR_bSz0MeVIiLTwjKa3tbxs50X7-k4EVJ_vcidBJOMz9PzoakVaV-qlEn9CFxT2CaQnNAlHWFTpKUIVSSxIQvuLGpHjHtAqErjg99rdjzg9_69JcC9Kt?purpose=fullsize)\n\n**5\\. eBay**\n\nUseful for collectible books, signed editions, and books with established collector demand.\n\n[Visit eBay](https://www.ebay.com/)\n\n# 3\\. How to prepare your books for sale\n\nBefore contacting buyers\\:\n\n1. Photograph the front cover and back cover.\n2. Photograph the title page.\n3. Photograph the copyright/publication page.\n4. Photograph signatures and inscriptions.\n5. Photograph any damage or missing pages.\n6. Record the author's name, publisher, and publication year.\n\n**Do not clean, repair, rebind, or remove anything from an antique book before having it evaluated.** These changes can affect its value.\n\nThe Smithsonian and ABAA offer useful identification and valuation guidance. [www.abaa.org](https://www.abaa.org/general-content-pages/evaluating-books?utm_source=chatgpt.com)[www.sothebys.com](https://www.sothebys.com/en/articles/10-things-that-make-books-valuable?utm_source=chatgpt.com)[guides.lib.uchicago.edu](https://guides.lib.uchicago.edu/c.php?g=298052&p=1988412&utm_source=chatgpt.com)[library.si.edu](https://library.si.edu/departments/special-collections/information-old-books?utm_source=chatgpt.com)\n\n# 4\\. My recommendation: Get multiple valuations\n\nIf you believe you have genuinely rare books, I would\\:\n\n- Obtain an evaluation from an ABAA specialist.\n- Request an auction estimate from Christie's or Sotheby's if the books appear particularly valuable.\n- Compare actual auction results rather than relying exclusively on asking prices.\n\nDon't immediately accept the first offer.\n\n---\n\n# 5\\. Let me help you identify and sell your books\n\nI can help research individual books, identify potentially valuable editions, estimate market values, and determine the best places to sell them.\n\n**First, I have one question\\:**\n\nWhat type of rare books do you have?\n\n**1\\. What kind of books?**\n\n---\n\n**2\\. Approximately how many?**\n\n---\n\n**3\\. What's your goal?**\n\n[Submit]\n\nYou can also upload photographs of your books. I can help identify which ones may be valuable and which ones deserve a professional appraisal before you sell them.",
+          "search_results": [
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.abaa.org/general-content-pages/frequently-asked-questions?utm_source=chatgpt.com",
+              "domain": "www.abaa.org",
+              "title": "Frequently Asked Questions",
+              "description": "FREQUENTLY ASKED QUESTIONS  FOR SELLERS  How much is my book worth?  The value of a particular copy of any given book will be further affected by many other factors: its condition, its binding, its p...",
+              "breadcrumb": "abaa.org"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.abaa.org/general-content-pages/evaluating-books?utm_source=chatgpt.com",
+              "domain": "www.abaa.org",
+              "title": "Evaluating Books",
+              "description": "EVALUATING BOOKS  Individuals with old books or manuscripts in their possession often wonder how to ascertain the value of such material. Unfortunately, there is no single reference work or \"price gu...",
+              "breadcrumb": "abaa.org"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.abaa.org/articles/identifying-first-editions?utm_source=chatgpt.com",
+              "domain": "www.abaa.org",
+              "title": "Identifying First Editions | News | ABAA",
+              "description": "WHY COLLECT FIRST EDITIONS?  There are numerous reasons to collect first editions. Physically, they usually come without irritating \"Winner\" or \"Nominee\" stickers with which later printings are often...",
+              "breadcrumb": "abaa.org"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.christies.com/en/selling-guide/rare-books?utm_source=chatgpt.com",
+              "domain": "www.christies.com",
+              "title": "How to Sell Your Rare Books | Antique & Rare Book Appraisals",
+              "description": "HOW TO SELL RARE BOOKS    SELL YOUR RARE BOOKS WITH CHRISTIE’S  Selling a rare book with Christie’s is a smooth and effortless experience. Our books and manuscripts specialists will dedicate their exp...",
+              "breadcrumb": "christies.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://guides.lib.uchicago.edu/c.php?g=298052&p=1988412&utm_source=chatgpt.com",
+              "domain": "guides.lib.uchicago.edu",
+              "title": "Library Guides: Rare Books and Early Manuscripts at the University of Chicago Library: About",
+              "description": "RARE BOOKS AND EARLY MANUSCRIPTS AT THE UNIVERSITY OF CHICAGO LIBRARY  This guide contains resources, descriptions, and tutorials on how to use the rare book and early manuscript collections at the U...",
+              "breadcrumb": "uchicago.edu"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.sothebys.com/en/sell/books?utm_source=chatgpt.com",
+              "domain": "www.sothebys.com",
+              "title": "How to Sell Rare Books with Sotheby's | Sotheby’s",
+              "description": "HOW TO SELL RARE BOOKS WITH SOTHEBY'S  * ## Rare Book Consignment  Sotheby’s began as an auctioneer of books in 1744. More than 270 years later, our dedicated team of specialists continues to lead th...",
+              "breadcrumb": "sothebys.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.sothebys.com/en/articles/10-things-that-make-books-valuable?utm_source=chatgpt.com",
+              "domain": "www.sothebys.com",
+              "title": "10 Things That Make Books Valuable | Books & Manuscripts | Sotheby’s",
+              "description": "10 Things That Make Books Valuable  10 THINGS THAT MAKE BOOKS VALUABLE  By Sotheby's | Oct 7, 2026  See what makes a rare book valuable, from first editions and condition to provenance, original bindi...",
+              "breadcrumb": "sothebys.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.pa.gov/agencies/statelibrary/programs-and-services/research-guides/book-collecting?utm_source=chatgpt.com",
+              "domain": "www.pa.gov",
+              "title": "Book Collecting | State Library of Pennsylvania | Commonwealth of Pennsylvania",
+              "description": "BOOK COLLECTING  People often have questions about their old and (possibly) rare books. Is my book rare and valuable, or just old? If it is valuable, what makes it valuable? How can I determine the c...",
+              "breadcrumb": "pa.gov"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://firstfolio.io/blog/how-to-sell-a-rare-book?utm_source=chatgpt.com",
+              "domain": "firstfolio.io",
+              "title": "How to Sell a Rare Book: A Step-by-Step Guide",
+              "description": "Book Collecting  September 19, 2026  13 min read  HOW TO SELL A RARE BOOK WITHOUT LEAVING MONEY ON THE TABLE  A step-by-step guide to selling a rare book or a first edition: confirm what you have, fi...",
+              "breadcrumb": "firstfolio.io"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://firstfolio.io/blog/where-to-sell-old-and-rare-books?utm_source=chatgpt.com",
+              "domain": "firstfolio.io",
+              "title": "Where to Sell Old and Rare Books: Dealers, Auctions, eBay, and Bulk",
+              "description": "Book Collecting  September 19, 2026  12 min read  WHERE TO SELL OLD AND RARE BOOKS  The right place to sell a book depends on what it is worth. The best venues for valuable, mid-value, and common boo...",
+              "breadcrumb": "firstfolio.io"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://library.si.edu/departments/special-collections/information-old-books?utm_source=chatgpt.com",
+              "domain": "library.si.edu",
+              "title": "Information on Old Books",
+              "description": "APPRAISALS  The Smithsonian Libraries does not provide appraisals of old books.  OLD_BOOKS-2.JPG  Image: A green Appraisal sign   For a formal appraisal of books and collections, we advise that you co...",
+              "breadcrumb": "si.edu"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://aba.org.uk/page/general-advice-for-the-public?utm_source=chatgpt.com",
+              "domain": "aba.org.uk",
+              "title": "General Advice for the Public | ABA: The Antiquarian Bookseller Association",
+              "description": "GENERAL ADVICE FOR THE PUBLIC  Advice on:  * Finding a specific type of book, if you wish to buy or sell * Finding an ABA member to help you * Bookbinders  The following general advice should enable...",
+              "breadcrumb": "aba.org.uk"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.pressmark.co/collecting/how-to-sell?utm_source=chatgpt.com",
+              "domain": "www.pressmark.co",
+              "title": "How to sell — Collecting Guide | Pressmark",
+              "description": "HOW TO SELL  Auction, dealer, private sale or platform — matching the channel to the book  THE FOUR CHANNELS  When the time comes to sell — and it comes to every collector, or to their heirs — there...",
+              "breadcrumb": "pressmark.co"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.kelmscottbookshop.com/sell-to-us.php?utm_source=chatgpt.com",
+              "domain": "www.kelmscottbookshop.com",
+              "title": "Sell to Us",
+              "description": "SELL TO US  We purchase rare and unusual books in ALL areas - in very good or better condition. We are most interested in purchasing:  * Books Printed by Private Presses (esp. Kelmscott Press) * Book...",
+              "breadcrumb": "kelmscottbookshop.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://fairappraisers.org/rare-books-manuscripts-appraisal-guide/?utm_source=chatgpt.com",
+              "domain": "fairappraisers.org",
+              "title": "Rare Books & Manuscripts Appraisal Guide: First Editions, Provenance & Archives | FAIR",
+              "description": "FAIR Rare Books Guide  RARE BOOKS & MANUSCRIPTS APPRAISAL GUIDE  For owners and advisors choosing an appraisal route.  A rare books or manuscripts appraisal identifies edition or authorship, document...",
+              "breadcrumb": "fairappraisers.org"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://pryorjohnsonrarebooks.squarespace.com/sell?utm_source=chatgpt.com",
+              "domain": "pryorjohnsonrarebooks.squarespace.com",
+              "title": "Sell — Pryor-Johnson Rare Books",
+              "description": "PRYOR-JOHNSON RARE BOOKS  1123 Broadway, Suite 517  New York, NY, 10010  12124521990  Fine books from the sixteenth to the twenty-first centuries  INFO@Pryorjohnsonrarebooks.com  PRYOR-JOHNSON RARE B...",
+              "breadcrumb": "squarespace.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://web.baumanrarebooks.com/customer-service/faq.aspx?utm_source=chatgpt.com",
+              "domain": "web.baumanrarebooks.com",
+              "title": "Bauman Rare Books / First Editions, Signed and Inscribed Rare Book Dealers in New York, Las Vegas and Philadelphia",
+              "description": "FREQUENTLY ASKED QUESTIONS  WHAT MAKES A BOOK RARE?  Rarity does not simply mean that something is old or hard to find. A rare book is one that is important, desirable, and scarce. An important book...",
+              "breadcrumb": "baumanrarebooks.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.baumanrarebooks.com/selling-something.aspx?utm_source=chatgpt.com",
+              "domain": "www.baumanrarebooks.com",
+              "title": "Sell Your Rare Books & First Edition to Bauman Rare Books",
+              "description": "BOOKS TO SELL  At Bauman Rare Books, we're passionate about buying rare books--especially first editions--as well as valuable letters and manuscripts. In fact, we might be interested in buying them f...",
+              "breadcrumb": "baumanrarebooks.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.blueboxauction.com/about/books-documents-americana/?utm_source=chatgpt.com",
+              "domain": "www.blueboxauction.com",
+              "title": "Books, Documents & Americana : Blue Box Auction Gallery",
+              "description": "TALK TO JIM WEIGL  * * *  Jim founded Blue Box Auction Gallery in 2020, after more than a decade in the auction industry. As auctioneer and appraiser, he and the team work closely with consignors, fr...",
+              "breadcrumb": "blueboxauction.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://marshallrarebooks.com/sell-rare-books/?utm_source=chatgpt.com",
+              "domain": "marshallrarebooks.com",
+              "title": "Sell rare books to us | Marshall Rare Books",
+              "description": "Sell to us  HAVE A BOOK OR ANTIQUARIAN ITEM TO SELL?  We are always interested in rare works of comparable quality to the ones we list on our website. We also buy collections.  WHAT WE BUY  At Marsha...",
+              "breadcrumb": "marshallrarebooks.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.catawiki.com/en/stories/5243?utm_source=chatgpt.com",
+              "domain": "www.catawiki.com",
+              "title": "Where, why and how to sell books online - Catawiki",
+              "description": "WHERE, WHY AND HOW TO SELL BOOKS ONLINE  It’s easy to sell a book online; nowadays there are plenty of places you can go to. But what if your book is particularly special or important? You probably w...",
+              "breadcrumb": "catawiki.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.fabsocieties.org/some-ideas-for-rehoming-books/?utm_source=chatgpt.com",
+              "domain": "www.fabsocieties.org",
+              "title": "Some Ideas for Rehoming Books – Fellowship of American Bibliophilic Societies",
+              "description": "Selling books  Look through the books and put aside anything that looks interesting or unusual for checking. You can find out a lot about the value of most books online. Websites that search across a...",
+              "breadcrumb": "fabsocieties.org"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.rarebookhub.com/articles/3480/print?page_id=5554&utm_source=chatgpt.com",
+              "domain": "www.rarebookhub.com",
+              "title": "Rare Book Hub - Rare Books, Book Auctions, Antiquarian Book Collecting",
+              "description": "Need to Sell Your Valuable Books but have No Idea How? We Can Help!  - by Bruce E. McKinney  Image  Clarity, speed, & fair outcomes  Over the past 20 years, the Rare Book Hub has grown to be far and...",
+              "breadcrumb": "rarebookhub.com"
+            }
+          ],
+          "sources": [
+            {
+              "type": "chat_gpt_source",
+              "title": "Evaluating Books",
+              "snippet": null,
+              "domain": "www.abaa.org",
+              "url": "https://www.abaa.org/general-content-pages/evaluating-books?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "ABAA",
+              "publication_date": null,
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "10 Things That Make Books Valuable | Books & Manuscripts",
+              "snippet": null,
+              "domain": "www.sothebys.com",
+              "url": "https://www.sothebys.com/en/articles/10-things-that-make-books-valuable?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "Sotheby’s",
+              "publication_date": "2026-10-07 00:00:00 +00:00",
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Library Guides: Rare Books and Early Manuscripts at the University of Chicago Library: About",
+              "snippet": null,
+              "domain": "guides.lib.uchicago.edu",
+              "url": "https://guides.lib.uchicago.edu/c.php?g=298052&p=1988412&utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "Library Guides",
+              "publication_date": null,
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Sell books through Christie's",
+              "snippet": null,
+              "domain": "www.christies.com",
+              "url": "https://www.christies.com/en/selling-guide/rare-books?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[Sell books through Christie's](https://www.christies.com/en/selling-guide/rare-books?utm_source=chatgpt.com)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Sell books through Sotheby's",
+              "snippet": null,
+              "domain": "www.sothebys.com",
+              "url": "https://www.sothebys.com/en/sell/books?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[Sell books through Sotheby's](https://www.sothebys.com/en/sell/books?utm_source=chatgpt.com)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "ABAA seller information",
+              "snippet": null,
+              "domain": "www.abaa.org",
+              "url": "https://www.abaa.org/general-content-pages/frequently-asked-questions?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[ABAA seller information](https://www.abaa.org/general-content-pages/frequently-asked-questions?utm_source=chatgpt.com)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Visit AbeBooks",
+              "snippet": null,
+              "domain": "www.abebooks.com",
+              "url": "https://www.abebooks.com/",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[Visit AbeBooks](https://www.abebooks.com/)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Visit eBay",
+              "snippet": null,
+              "domain": "www.ebay.com",
+              "url": "https://www.ebay.com/",
+              "thumbnail": null,
+              "source_name": null,
+              "publication_date": null,
+              "markdown": "[Visit eBay](https://www.ebay.com/)"
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Information on Old Books",
+              "snippet": null,
+              "domain": "library.si.edu",
+              "url": "https://library.si.edu/departments/special-collections/information-old-books?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "Smithsonian Libraries",
+              "publication_date": "2014-01-01 00:00:00 +00:00",
+              "markdown": null
+            }
+          ],
+          "fan_out_queries": [
+            "how to sell rare books appraisal auction house antiquarian bookseller online guide",
+            "rare books selling guide condition description provenance first editions ABAA bookseller advice"
+          ],
+          "brand_entities": [
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Christie's",
+              "category": "company",
+              "markdown": "Christie's",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Sotheby's",
+              "category": "company",
+              "markdown": "Sotheby's",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "Antiquarian Booksellers Association of America",
+              "category": "organization",
+              "markdown": "ABAA",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "AbeBooks",
+              "category": "company",
+              "markdown": "AbeBooks",
+              "urls": null
+            },
+            {
+              "type": "chat_gpt_brand_entity",
+              "title": "eBay",
+              "category": "company",
+              "markdown": "eBay",
+              "urls": null
+            }
+          ],
+          "se_results_count": 0,
+          "item_types": [
+            "chat_gpt_text",
+            "chat_gpt_images"
+          ],
+          "items_count": 13,
+          "items": [
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "markdown": "Selling rare books can be profitable, but the most important thing is identifying exactly what you have before accepting an offer. A rare first edition, signed copy, antique book, or historically significant volume can be worth hundreds or even thousands of dollars.\n\nHere is a practical guide to selling them.\n\n# 1\\. Determine what your rare books are worth\n",
+              "sources": null,
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "markdown": "![Sold at Auction: HEMINGWAY, ERNEST. The Sun Also Rises.](https://images.openai.com/static-rsc-4/PWfjdRs-moN6Y3QrsH14o1qhjHp_84Lc4rALIYQjZ9ezSV5qtnX7O56fUCBP2op7fxljS-VD3EhkHS7RJz7G5LEjLItG38ak1bO93ZZk_hogdgKSSe2fb6cO1CKFEMCVDosG6NOvFhPvU19dPwjrofL_352C9RoGzzzp1CmcjPtkP41vIe76V4XH0CqA1CHX?purpose=fullsize)![Set of 13 18th/19th Century French Leather Bound Books at 1stDibs](https://images.openai.com/static-rsc-4/YmD7crDsdeVVyEjREmM3LwSsfYJCZhhnA6b9F4JmrZ16qkiENUq99Y45Oo2qJ7JpZal2LpxQcQlvAvSW5oN-W0WkzrLC2rmVkEBbvR1xertL1iebeHIUjkZZ-G1mfnSc9G5J1xZjq7P3QA6gc7eEW9y6rTgA8FsTdobi30odOOYvbsaa8DnBH05Ck0mDonS5?purpose=fullsize)![Lot - Dual-Signed as Samuel Clemens / Mark Twain, 37 Vols. \"The Works of Mark Twain\", Scarce!](https://images.openai.com/static-rsc-4/eZsZ-Ahb-qdNGCBKdZDqTCM1lqMvcyDnQ7zLOXgGmE5ZzmRvpVapZVBTaSg_of8bx1NcmSIXdnPEbLQAjTs-T27JuZVsXxC54ePHN2vzT2sDc-YqC8vnIsAbmjkHXhw69gJSenX87HGILfN1LmbaAIDI-zX5MgP59AnMEomROBp66M4cGtbg3sqDrjGkYw7Q?purpose=fullsize)![The Age of Innocence. by Wharton, Edith: (1920) | Raptis Rare Books](https://images.openai.com/static-rsc-4/qxLOWY3b7Mb8ytUwGGsHbxt0rshteVq3rWU-QsJFoVF0CKfuUHcYJk9K9FejMvMSjvW6Kc745Q_bgmO5KTeUPqv1OnxOVJ52TsCjbW-IEsF0hUdNEiqJd1BYDbtrNV7ayf8Y8qrWrVwc3m-8Wk6Jy9Wt4lHvdevMD1GIciS4C1uslF667MZXsaAAJh38xyrh?purpose=fullsize)![[exemplaire avec feuillet autographe signé] Oeuvres - Stances et Poèmes (1865-1866) ; Les Épreuves / Les Solitudes (1866-1872) ; Les Vaines Tendresses (1872-1878) by Sully Prudhomme (1839-1907): Très bon Couverture rigide (1879) Edition originale | Librairie À la Demi-Lune](https://images.openai.com/static-rsc-4/0_kyeEUxC10Tw6eTZMYEV9ISqWiQAIybsD7Qt-2FOJ_VDT2txfL1QcdazcDTVNbnNA6QlRJFjFa5dN5gfau2xO0vZ-bTFT6P9uULPnH4zs0nd5-54oHonRJXntRiAIeWvmlV2R3cMV4BMp13ahN5MNW4V0WKqBfPAL7TH9_xVsmcS32l94e0HdmvhFMF3ULa?purpose=fullsize)![Our archives: the Academy's scientific heritage | Académie des sciences](https://images.openai.com/static-rsc-4/cq94thvg6Uvr9JQvuS257K5DcyzcF4YGaYc83oU52XqXfBN9eb41IKhhMPRNbEp5bq7D0fkgD5p0-7Y_DZ_ZVX3uIxZI1Te5RXCb6TtXMLHFYVPDhNrk89MoEQenKj2vYJhjfnQP5skO9oyI2n_GnGxQnS2BHGDNZskOQuSx67YXa6q1VeRTfyU7L2NOrPjD?purpose=fullsize)![J. Joachim. Collection of printed and manuscript music belonging to Joachim and his family, C19th | Music | 2022 | Sotheby's](https://images.openai.com/static-rsc-4/l2yjzd5sDXfjCvTeY54h0aFNXKoC715ZuTVWyPw-L4fD9YF3Z_O2rN-tZosBxCmmGfQ6z8fO-UUaDjWG8776v2Ml1ubY2ud1TqiStZvH-Bs42ddl1xO44nSKTMNIiuql1GohPf-QMsJFTz8TWibHnczURbpJS7b_1aOzn5dvB3DtlHjafBoDsZsv7xeYOfak?purpose=fullsize)![Books for Sale in Online Auctions - Catawiki](https://images.openai.com/static-rsc-4/a2CEZyeC63u1uvjhPXQ_FLDvTAmNYwFY1jkRf_3PuNHRJ6VsX5mZ1Gw9sxxeJ41vCqehVOFehXVrglLb3LXk08uUnQa0uAv1vYxAjE8P1kZnIA0wgSU0zwWTbKWhX4DFyPYX6sULXeCUzrPY00a_TfZHQc_f6wW4R1tEov3nQmQ-lRSsWo5hfrecxaYJOYGc?purpose=fullsize)![Lot - Ernest Hemingway. For Whom the Bell Tolls, Inscribed First Edition. New York: Charles Scribner’s Sons, 1940.](https://images.openai.com/static-rsc-4/AmW5JK7klrN8JBo_u0ymhiQ9tRIND6v3KJ_3kpUhjlhq4XZAEOcoKNnRw6hpCQeSkVu_1ix6OGAaWNUtV4DzwQWMTArXnJ1LoxSgjUZfCyyqr5RrCGa-e-jwinbx-J4IjcGmHQpi4-l47BwQCNo7WNR0sm2fGf_LNVYicX0nOesl2-SAaRnGjgNRJS9K2QJ4?purpose=fullsize)![Lot 758 - Of Bernard Barton (the Quaker Poet) and](https://images.openai.com/static-rsc-4/DQd44sET8ZuClpnLchKJvLw1PJ3BDiLPLtSintxsGm_heieU9L8l8NQozFfz0hk8a3bVXWzl_WrvC82OG4yUdkX9BgX3BbifN1bJOvOdAwp_b_Kxrw3gmN9nZyza8HTtDmhLAAoOLC86EAtKwUEpAeqfT4KUPQ3-1w7vjikgMeQrmvj2g8hfAx4q7LhoJURr?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.invaluable.com/auction-lot/hemingway-ernest-the-sun-also-rises-178-c-1be47f7bee",
+                  "alt": "Sold at Auction: HEMINGWAY, ERNEST. The Sun Also Rises.",
+                  "image_url": "https://images.openai.com/static-rsc-4/PWfjdRs-moN6Y3QrsH14o1qhjHp_84Lc4rALIYQjZ9ezSV5qtnX7O56fUCBP2op7fxljS-VD3EhkHS7RJz7G5LEjLItG38ak1bO93ZZk_hogdgKSSe2fb6cO1CKFEMCVDosG6NOvFhPvU19dPwjrofL_352C9RoGzzzp1CmcjPtkP41vIe76V4XH0CqA1CHX?purpose=fullsize",
+                  "markdown": "![Sold at Auction: HEMINGWAY, ERNEST. The Sun Also Rises.](https://images.openai.com/static-rsc-4/PWfjdRs-moN6Y3QrsH14o1qhjHp_84Lc4rALIYQjZ9ezSV5qtnX7O56fUCBP2op7fxljS-VD3EhkHS7RJz7G5LEjLItG38ak1bO93ZZk_hogdgKSSe2fb6cO1CKFEMCVDosG6NOvFhPvU19dPwjrofL_352C9RoGzzzp1CmcjPtkP41vIe76V4XH0CqA1CHX?purpose=fullsize)"
+                },
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.1stdibs.com/furniture/more-furniture-collectibles/collectibles-curiosities/books/set-of-13-18th-19th-century-french-leather-bound-books/id-f_41007942/",
+                  "alt": "Set of 13 18th/19th Century French Leather Bound Books at 1stDibs",
+                  "image_url": "https://images.openai.com/static-rsc-4/YmD7crDsdeVVyEjREmM3LwSsfYJCZhhnA6b9F4JmrZ16qkiENUq99Y45Oo2qJ7JpZal2LpxQcQlvAvSW5oN-W0WkzrLC2rmVkEBbvR1xertL1iebeHIUjkZZ-G1mfnSc9G5J1xZjq7P3QA6gc7eEW9y6rTgA8FsTdobi30odOOYvbsaa8DnBH05Ck0mDonS5?purpose=fullsize",
+                  "markdown": "![Set of 13 18th/19th Century French Leather Bound Books at 1stDibs](https://images.openai.com/static-rsc-4/YmD7crDsdeVVyEjREmM3LwSsfYJCZhhnA6b9F4JmrZ16qkiENUq99Y45Oo2qJ7JpZal2LpxQcQlvAvSW5oN-W0WkzrLC2rmVkEBbvR1xertL1iebeHIUjkZZ-G1mfnSc9G5J1xZjq7P3QA6gc7eEW9y6rTgA8FsTdobi30odOOYvbsaa8DnBH05Ck0mDonS5?purpose=fullsize)"
+                },
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.universityarchives.com/auction-lot/dual-signed-as-samuel-clemens-mark-twain-37-vo_02249C1ADB",
+                  "alt": "Lot - Dual-Signed as Samuel Clemens / Mark Twain, 37 Vols. \"The Works of Mark Twain\", Scarce!",
+                  "image_url": "https://images.openai.com/static-rsc-4/eZsZ-Ahb-qdNGCBKdZDqTCM1lqMvcyDnQ7zLOXgGmE5ZzmRvpVapZVBTaSg_of8bx1NcmSIXdnPEbLQAjTs-T27JuZVsXxC54ePHN2vzT2sDc-YqC8vnIsAbmjkHXhw69gJSenX87HGILfN1LmbaAIDI-zX5MgP59AnMEomROBp66M4cGtbg3sqDrjGkYw7Q?purpose=fullsize",
+                  "markdown": "![Lot - Dual-Signed as Samuel Clemens / Mark Twain, 37 Vols. \"The Works of Mark Twain\", Scarce!](https://images.openai.com/static-rsc-4/eZsZ-Ahb-qdNGCBKdZDqTCM1lqMvcyDnQ7zLOXgGmE5ZzmRvpVapZVBTaSg_of8bx1NcmSIXdnPEbLQAjTs-T27JuZVsXxC54ePHN2vzT2sDc-YqC8vnIsAbmjkHXhw69gJSenX87HGILfN1LmbaAIDI-zX5MgP59AnMEomROBp66M4cGtbg3sqDrjGkYw7Q?purpose=fullsize)"
+                },
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.abebooks.com/first-edition/Age-Innocence-Wharton-Edith-Appleton-New/18954295633/bd",
+                  "alt": "The Age of Innocence. by Wharton, Edith: (1920) | Raptis Rare Books",
+                  "image_url": "https://images.openai.com/static-rsc-4/qxLOWY3b7Mb8ytUwGGsHbxt0rshteVq3rWU-QsJFoVF0CKfuUHcYJk9K9FejMvMSjvW6Kc745Q_bgmO5KTeUPqv1OnxOVJ52TsCjbW-IEsF0hUdNEiqJd1BYDbtrNV7ayf8Y8qrWrVwc3m-8Wk6Jy9Wt4lHvdevMD1GIciS4C1uslF667MZXsaAAJh38xyrh?purpose=fullsize",
+                  "markdown": "![The Age of Innocence. by Wharton, Edith: (1920) | Raptis Rare Books](https://images.openai.com/static-rsc-4/qxLOWY3b7Mb8ytUwGGsHbxt0rshteVq3rWU-QsJFoVF0CKfuUHcYJk9K9FejMvMSjvW6Kc745Q_bgmO5KTeUPqv1OnxOVJ52TsCjbW-IEsF0hUdNEiqJd1BYDbtrNV7ayf8Y8qrWrVwc3m-8Wk6Jy9Wt4lHvdevMD1GIciS4C1uslF667MZXsaAAJh38xyrh?purpose=fullsize)"
+                },
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.abebooks.com/first-edition/exemplaire-feuillet-autographe-sign%C3%A9-Oeuvres-Stances/31426546942/bd",
+                  "alt": "[exemplaire avec feuillet autographe signé] Oeuvres - Stances et Poèmes (1865-1866) ; Les Épreuves / Les Solitudes (1866-1872) ; Les Vaines Tendresses (1872-1878) by Sully Prudhomme (1839-1907): Très bon Couverture rigide (1879) Edition originale | Librairie À la Demi-Lune",
+                  "image_url": "https://images.openai.com/static-rsc-4/0_kyeEUxC10Tw6eTZMYEV9ISqWiQAIybsD7Qt-2FOJ_VDT2txfL1QcdazcDTVNbnNA6QlRJFjFa5dN5gfau2xO0vZ-bTFT6P9uULPnH4zs0nd5-54oHonRJXntRiAIeWvmlV2R3cMV4BMp13ahN5MNW4V0WKqBfPAL7TH9_xVsmcS32l94e0HdmvhFMF3ULa?purpose=fullsize",
+                  "markdown": "![[exemplaire avec feuillet autographe signé] Oeuvres - Stances et Poèmes (1865-1866) ; Les Épreuves / Les Solitudes (1866-1872) ; Les Vaines Tendresses (1872-1878) by Sully Prudhomme (1839-1907): Très bon Couverture rigide (1879) Edition originale | Librairie À la Demi-Lune](https://images.openai.com/static-rsc-4/0_kyeEUxC10Tw6eTZMYEV9ISqWiQAIybsD7Qt-2FOJ_VDT2txfL1QcdazcDTVNbnNA6QlRJFjFa5dN5gfau2xO0vZ-bTFT6P9uULPnH4zs0nd5-54oHonRJXntRiAIeWvmlV2R3cMV4BMp13ahN5MNW4V0WKqBfPAL7TH9_xVsmcS32l94e0HdmvhFMF3ULa?purpose=fullsize)"
+                },
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.academie-sciences.fr/en/our-archives-academys-scientific-heritage",
+                  "alt": "Our archives: the Academy's scientific heritage | Académie des sciences",
+                  "image_url": "https://images.openai.com/static-rsc-4/cq94thvg6Uvr9JQvuS257K5DcyzcF4YGaYc83oU52XqXfBN9eb41IKhhMPRNbEp5bq7D0fkgD5p0-7Y_DZ_ZVX3uIxZI1Te5RXCb6TtXMLHFYVPDhNrk89MoEQenKj2vYJhjfnQP5skO9oyI2n_GnGxQnS2BHGDNZskOQuSx67YXa6q1VeRTfyU7L2NOrPjD?purpose=fullsize",
+                  "markdown": "![Our archives: the Academy's scientific heritage | Académie des sciences](https://images.openai.com/static-rsc-4/cq94thvg6Uvr9JQvuS257K5DcyzcF4YGaYc83oU52XqXfBN9eb41IKhhMPRNbEp5bq7D0fkgD5p0-7Y_DZ_ZVX3uIxZI1Te5RXCb6TtXMLHFYVPDhNrk89MoEQenKj2vYJhjfnQP5skO9oyI2n_GnGxQnS2BHGDNZskOQuSx67YXa6q1VeRTfyU7L2NOrPjD?purpose=fullsize)"
+                },
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.sothebys.com/en/buy/auction/2022/music/j-joachim-collection-of-printed-and-manuscript",
+                  "alt": "J. Joachim. Collection of printed and manuscript music belonging to Joachim and his family, C19th | Music | 2022 | Sotheby's",
+                  "image_url": "https://images.openai.com/static-rsc-4/l2yjzd5sDXfjCvTeY54h0aFNXKoC715ZuTVWyPw-L4fD9YF3Z_O2rN-tZosBxCmmGfQ6z8fO-UUaDjWG8776v2Ml1ubY2ud1TqiStZvH-Bs42ddl1xO44nSKTMNIiuql1GohPf-QMsJFTz8TWibHnczURbpJS7b_1aOzn5dvB3DtlHjafBoDsZsv7xeYOfak?purpose=fullsize",
+                  "markdown": "![J. Joachim. Collection of printed and manuscript music belonging to Joachim and his family, C19th | Music | 2022 | Sotheby's](https://images.openai.com/static-rsc-4/l2yjzd5sDXfjCvTeY54h0aFNXKoC715ZuTVWyPw-L4fD9YF3Z_O2rN-tZosBxCmmGfQ6z8fO-UUaDjWG8776v2Ml1ubY2ud1TqiStZvH-Bs42ddl1xO44nSKTMNIiuql1GohPf-QMsJFTz8TWibHnczURbpJS7b_1aOzn5dvB3DtlHjafBoDsZsv7xeYOfak?purpose=fullsize)"
+                },
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.catawiki.com/en/l/76308283-signe-jean-lorrain-lot-de-34-livres-dont-2-signees-sensations-et-souvenirs-le-vice-errant-1895",
+                  "alt": "Books for Sale in Online Auctions - Catawiki",
+                  "image_url": "https://images.openai.com/static-rsc-4/a2CEZyeC63u1uvjhPXQ_FLDvTAmNYwFY1jkRf_3PuNHRJ6VsX5mZ1Gw9sxxeJ41vCqehVOFehXVrglLb3LXk08uUnQa0uAv1vYxAjE8P1kZnIA0wgSU0zwWTbKWhX4DFyPYX6sULXeCUzrPY00a_TfZHQc_f6wW4R1tEov3nQmQ-lRSsWo5hfrecxaYJOYGc?purpose=fullsize",
+                  "markdown": "![Books for Sale in Online Auctions - Catawiki](https://images.openai.com/static-rsc-4/a2CEZyeC63u1uvjhPXQ_FLDvTAmNYwFY1jkRf_3PuNHRJ6VsX5mZ1Gw9sxxeJ41vCqehVOFehXVrglLb3LXk08uUnQa0uAv1vYxAjE8P1kZnIA0wgSU0zwWTbKWhX4DFyPYX6sULXeCUzrPY00a_TfZHQc_f6wW4R1tEov3nQmQ-lRSsWo5hfrecxaYJOYGc?purpose=fullsize)"
+                },
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.swanngalleries.com/auction-lot/ernest-hemingway.-for-whom-the-bell-tolls-inscri_8D74DFE9A4",
+                  "alt": "Lot - Ernest Hemingway. For Whom the Bell Tolls, Inscribed First Edition. New York: Charles Scribner’s Sons, 1940.",
+                  "image_url": "https://images.openai.com/static-rsc-4/AmW5JK7klrN8JBo_u0ymhiQ9tRIND6v3KJ_3kpUhjlhq4XZAEOcoKNnRw6hpCQeSkVu_1ix6OGAaWNUtV4DzwQWMTArXnJ1LoxSgjUZfCyyqr5RrCGa-e-jwinbx-J4IjcGmHQpi4-l47BwQCNo7WNR0sm2fGf_LNVYicX0nOesl2-SAaRnGjgNRJS9K2QJ4?purpose=fullsize",
+                  "markdown": "![Lot - Ernest Hemingway. For Whom the Bell Tolls, Inscribed First Edition. New York: Charles Scribner’s Sons, 1940.](https://images.openai.com/static-rsc-4/AmW5JK7klrN8JBo_u0ymhiQ9tRIND6v3KJ_3kpUhjlhq4XZAEOcoKNnRw6hpCQeSkVu_1ix6OGAaWNUtV4DzwQWMTArXnJ1LoxSgjUZfCyyqr5RrCGa-e-jwinbx-J4IjcGmHQpi4-l47BwQCNo7WNR0sm2fGf_LNVYicX0nOesl2-SAaRnGjgNRJS9K2QJ4?purpose=fullsize)"
+                },
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.reemandansie.com/auction/lot/lot-758---of-bernard-barton-the-quaker-poet-and-wooodbrige-interest-first-edition-book-and-handwritten-poem--letter/?lot=120814&sd=1",
+                  "alt": "Lot 758 - Of Bernard Barton (the Quaker Poet) and",
+                  "image_url": "https://images.openai.com/static-rsc-4/DQd44sET8ZuClpnLchKJvLw1PJ3BDiLPLtSintxsGm_heieU9L8l8NQozFfz0hk8a3bVXWzl_WrvC82OG4yUdkX9BgX3BbifN1bJOvOdAwp_b_Kxrw3gmN9nZyza8HTtDmhLAAoOLC86EAtKwUEpAeqfT4KUPQ3-1w7vjikgMeQrmvj2g8hfAx4q7LhoJURr?purpose=fullsize",
+                  "markdown": "![Lot 758 - Of Bernard Barton (the Quaker Poet) and](https://images.openai.com/static-rsc-4/DQd44sET8ZuClpnLchKJvLw1PJ3BDiLPLtSintxsGm_heieU9L8l8NQozFfz0hk8a3bVXWzl_WrvC82OG4yUdkX9BgX3BbifN1bJOvOdAwp_b_Kxrw3gmN9nZyza8HTtDmhLAAoOLC86EAtKwUEpAeqfT4KUPQ3-1w7vjikgMeQrmvj2g8hfAx4q7LhoJURr?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "markdown": "\n\nA book's value depends on several factors\\:\n\n- **First edition\\:** Especially first printings of important works.\n- **Author signature\\:** Signed or personally inscribed copies.\n- **Age\\:** Particularly early printed books and historically significant publications.\n- **Rarity\\:** How many copies survive.\n- **Condition\\:** Original binding, intact pages, dust jacket, and minimal damage.\n- **Provenance\\:** Previous ownership by an important person or institution.\n\nImportantly, old does not necessarily mean valuable. Demand matters just as much as scarcity. [www.abaa.org](https://www.abaa.org/general-content-pages/evaluating-books?utm_source=chatgpt.com)[www.sothebys.com](https://www.sothebys.com/en/articles/10-things-that-make-books-valuable?utm_source=chatgpt.com)[guides.lib.uchicago.edu](https://guides.lib.uchicago.edu/c.php?g=298052&p=1988412&utm_source=chatgpt.com)\n\n# 2\\. Where to sell rare books\n\nThese are some of the best places to start.\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Evaluating Books",
+                  "snippet": null,
+                  "domain": "www.abaa.org",
+                  "url": "https://www.abaa.org/general-content-pages/evaluating-books?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "ABAA",
+                  "publication_date": null,
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "10 Things That Make Books Valuable | Books & Manuscripts",
+                  "snippet": null,
+                  "domain": "www.sothebys.com",
+                  "url": "https://www.sothebys.com/en/articles/10-things-that-make-books-valuable?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "Sotheby’s",
+                  "publication_date": "2026-10-07 00:00:00 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Library Guides: Rare Books and Early Manuscripts at the University of Chicago Library: About",
+                  "snippet": null,
+                  "domain": "guides.lib.uchicago.edu",
+                  "url": "https://guides.lib.uchicago.edu/c.php?g=298052&p=1988412&utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "Library Guides",
+                  "publication_date": null,
+                  "markdown": null
+                }
+              ],
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "markdown": "![First Four Folios OF Shakespeare's Collected Work Up For Auction](https://images.openai.com/static-rsc-4/bfzNBcX4D-KYfbKHR8ZJICyqAsL0apjb4dpYwSiVPv2BVT3_mFR2Ltbc0VfVSk9zgyLsv70t3I5fO3kxJDm-12RCtXexc5T7z7WMo-NP8SgPQKZCl8S-Z8cVCeWc_ofKIWyAopYFxge96WHdi8YZSaR_GKyIrESv6Gq0wSQdxZ1gsI2Djb-ZpxZalXNIFmXQ?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://media.gettyimages.com/id/522410240/photo/first-four-folios-of-shakespeares-collected-work-up-for-auction.jpg?b=1&c=1IkPFoJi8k1cNBtV1Ur7Dd_HWgQDwXKe9kuA5Vs68fw%3D&k=20&s=612x612&w=0",
+                  "alt": "First Four Folios OF Shakespeare's Collected Work Up For Auction",
+                  "image_url": "https://images.openai.com/static-rsc-4/bfzNBcX4D-KYfbKHR8ZJICyqAsL0apjb4dpYwSiVPv2BVT3_mFR2Ltbc0VfVSk9zgyLsv70t3I5fO3kxJDm-12RCtXexc5T7z7WMo-NP8SgPQKZCl8S-Z8cVCeWc_ofKIWyAopYFxge96WHdi8YZSaR_GKyIrESv6Gq0wSQdxZ1gsI2Djb-ZpxZalXNIFmXQ?purpose=fullsize",
+                  "markdown": "![First Four Folios OF Shakespeare's Collected Work Up For Auction](https://images.openai.com/static-rsc-4/bfzNBcX4D-KYfbKHR8ZJICyqAsL0apjb4dpYwSiVPv2BVT3_mFR2Ltbc0VfVSk9zgyLsv70t3I5fO3kxJDm-12RCtXexc5T7z7WMo-NP8SgPQKZCl8S-Z8cVCeWc_ofKIWyAopYFxge96WHdi8YZSaR_GKyIrESv6Gq0wSQdxZ1gsI2Djb-ZpxZalXNIFmXQ?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 3,
+              "rank_absolute": 5,
+              "markdown": "\n\n**1\\. Christie's**\n\nBest for exceptionally rare, valuable, and historically significant books.\n\n- Free preliminary online estimates.\n- International auction exposure.\n- Specialist book and manuscript department.\n\n[Sell books through Christie's](https://www.christies.com/en/selling-guide/rare-books?utm_source=chatgpt.com)\n\n---\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Sell books through Christie's",
+                  "snippet": null,
+                  "domain": "www.christies.com",
+                  "url": "https://www.christies.com/en/selling-guide/rare-books?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[Sell books through Christie's](https://www.christies.com/en/selling-guide/rare-books?utm_source=chatgpt.com)"
+                }
+              ],
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Christie's",
+                  "category": "company",
+                  "markdown": "Christie's",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 3,
+              "rank_absolute": 6,
+              "markdown": "![Jane Austen’s Life-Changing Legacy | Books & Manuscripts | Sotheby’s](https://images.openai.com/static-rsc-4/ORo26EIXi1VFMn6nIS3kMfcW8GrO_G0WY5BVHFZbjDIIOy_ilDl5XaYdy1Y4cZlFX6v24AsqaC7ev8GwfpY8axw5rmgyzeVU37qhI8BlseuQgf0ZVVx5590i0KlYWMbNzCsS9ejv8ufvpneLlVAlehkK4t7m6sTiYuJTPlDyTkyte48EgjhY30L7Hla5pNg7?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.sothebys.com/en/articles/jane-austens-life-changing-legacy",
+                  "alt": "Jane Austen’s Life-Changing Legacy | Books & Manuscripts | Sotheby’s",
+                  "image_url": "https://images.openai.com/static-rsc-4/ORo26EIXi1VFMn6nIS3kMfcW8GrO_G0WY5BVHFZbjDIIOy_ilDl5XaYdy1Y4cZlFX6v24AsqaC7ev8GwfpY8axw5rmgyzeVU37qhI8BlseuQgf0ZVVx5590i0KlYWMbNzCsS9ejv8ufvpneLlVAlehkK4t7m6sTiYuJTPlDyTkyte48EgjhY30L7Hla5pNg7?purpose=fullsize",
+                  "markdown": "![Jane Austen’s Life-Changing Legacy | Books & Manuscripts | Sotheby’s](https://images.openai.com/static-rsc-4/ORo26EIXi1VFMn6nIS3kMfcW8GrO_G0WY5BVHFZbjDIIOy_ilDl5XaYdy1Y4cZlFX6v24AsqaC7ev8GwfpY8axw5rmgyzeVU37qhI8BlseuQgf0ZVVx5590i0KlYWMbNzCsS9ejv8ufvpneLlVAlehkK4t7m6sTiYuJTPlDyTkyte48EgjhY30L7Hla5pNg7?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "markdown": "\n\n**2\\. Sotheby's**\n\nBest for high-value first editions, manuscripts, signed books, and historic collections.\n\n- Complimentary preliminary estimates.\n- Live and online auctions.\n\n[Sell books through Sotheby's](https://www.sothebys.com/en/sell/books?utm_source=chatgpt.com)\n\n---\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Sell books through Sotheby's",
+                  "snippet": null,
+                  "domain": "www.sothebys.com",
+                  "url": "https://www.sothebys.com/en/sell/books?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[Sell books through Sotheby's](https://www.sothebys.com/en/sell/books?utm_source=chatgpt.com)"
+                }
+              ],
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Sotheby's",
+                  "category": "company",
+                  "markdown": "Sotheby's",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 4,
+              "rank_absolute": 8,
+              "markdown": "![Deutsche & internationale Antiquariate laden nach Stuttgart ein](https://images.openai.com/static-rsc-4/IYqp6QiTu0W0cx1KPLaPp3GLYWOZ6eA31DX2tWoFAQqazaAu_YxfwYAKtZ39T08GcNJJvZ3M1UHl21q9PUkt6sDexD2URs_udkGd9cohS6X8ytxQjX1ef0Z7Z4qlK0V4XNEnviCwGxR9hlEVN7RqBi1nq68Rc9XNI_v6bjPivry46iAnAWx0NO4K-L2aJwml?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.zvab.com/antiquarische-buecher/antiquariatsmesse-stuttgart",
+                  "alt": "Deutsche & internationale Antiquariate laden nach Stuttgart ein",
+                  "image_url": "https://images.openai.com/static-rsc-4/IYqp6QiTu0W0cx1KPLaPp3GLYWOZ6eA31DX2tWoFAQqazaAu_YxfwYAKtZ39T08GcNJJvZ3M1UHl21q9PUkt6sDexD2URs_udkGd9cohS6X8ytxQjX1ef0Z7Z4qlK0V4XNEnviCwGxR9hlEVN7RqBi1nq68Rc9XNI_v6bjPivry46iAnAWx0NO4K-L2aJwml?purpose=fullsize",
+                  "markdown": "![Deutsche & internationale Antiquariate laden nach Stuttgart ein](https://images.openai.com/static-rsc-4/IYqp6QiTu0W0cx1KPLaPp3GLYWOZ6eA31DX2tWoFAQqazaAu_YxfwYAKtZ39T08GcNJJvZ3M1UHl21q9PUkt6sDexD2URs_udkGd9cohS6X8ytxQjX1ef0Z7Z4qlK0V4XNEnviCwGxR9hlEVN7RqBi1nq68Rc9XNI_v6bjPivry46iAnAWx0NO4K-L2aJwml?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 5,
+              "rank_absolute": 9,
+              "markdown": "\n\n**3\\. ABAA**\n\nOne of my strongest recommendations for finding qualified rare-book dealers.\n\n- Connect with specialist booksellers.\n- Find dealers who purchase private collections.\n- Seek expert evaluations.\n\n[ABAA seller information](https://www.abaa.org/general-content-pages/frequently-asked-questions?utm_source=chatgpt.com)\n\n---\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "ABAA seller information",
+                  "snippet": null,
+                  "domain": "www.abaa.org",
+                  "url": "https://www.abaa.org/general-content-pages/frequently-asked-questions?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[ABAA seller information](https://www.abaa.org/general-content-pages/frequently-asked-questions?utm_source=chatgpt.com)"
+                }
+              ],
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "Antiquarian Booksellers Association of America",
+                  "category": "organization",
+                  "markdown": "ABAA",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 5,
+              "rank_absolute": 10,
+              "markdown": "![Rare Book Monthly «  March - 2016](https://images.openai.com/static-rsc-4/p0MPOgVP4K1_nwhTgeGPPSBd4N5fe7fWAjuWIsb5wS6rJki8DMN95FRA3i6dYTsaVm9MTMAaPrX7yqqiPFdOyTrITrg0LI8MI-CorIn01sXp8IsHgUHHbeMczhX4lkOALa3uiSSU3Z3E369Irec7Xs7e63JJBcsye3JiRsWDQ-fmqeFErqBn_RTfFdq7a_2R?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.rarebookhub.com/articles/monthly/2016/3",
+                  "alt": "Rare Book Monthly «  March - 2016",
+                  "image_url": "https://images.openai.com/static-rsc-4/p0MPOgVP4K1_nwhTgeGPPSBd4N5fe7fWAjuWIsb5wS6rJki8DMN95FRA3i6dYTsaVm9MTMAaPrX7yqqiPFdOyTrITrg0LI8MI-CorIn01sXp8IsHgUHHbeMczhX4lkOALa3uiSSU3Z3E369Irec7Xs7e63JJBcsye3JiRsWDQ-fmqeFErqBn_RTfFdq7a_2R?purpose=fullsize",
+                  "markdown": "![Rare Book Monthly «  March - 2016](https://images.openai.com/static-rsc-4/p0MPOgVP4K1_nwhTgeGPPSBd4N5fe7fWAjuWIsb5wS6rJki8DMN95FRA3i6dYTsaVm9MTMAaPrX7yqqiPFdOyTrITrg0LI8MI-CorIn01sXp8IsHgUHHbeMczhX4lkOALa3uiSSU3Z3E369Irec7Xs7e63JJBcsye3JiRsWDQ-fmqeFErqBn_RTfFdq7a_2R?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 6,
+              "rank_absolute": 11,
+              "markdown": "\n\n**4\\. AbeBooks**\n\nBest for selling collectible books directly to buyers through an online marketplace.\n\n[Visit AbeBooks](https://www.abebooks.com/)\n\n---\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Visit AbeBooks",
+                  "snippet": null,
+                  "domain": "www.abebooks.com",
+                  "url": "https://www.abebooks.com/",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[Visit AbeBooks](https://www.abebooks.com/)"
+                }
+              ],
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "AbeBooks",
+                  "category": "company",
+                  "markdown": "AbeBooks",
+                  "urls": null
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_images",
+              "rank_group": 6,
+              "rank_absolute": 12,
+              "markdown": "![Military Memoirs of Field Marshal the Duke of Wellington... in Two Volumes (bound as One) - Etsy UK](https://images.openai.com/static-rsc-4/n5Q1RvdlF8TrkIsh_Tga62ypSZHqHr4mMy3CY4KOMnFOS1N1GLqYcMxg1pLFFYn53XARBlu6bjsyLR_bSz0MeVIiLTwjKa3tbxs50X7-k4EVJ_vcidBJOMz9PzoakVaV-qlEn9CFxT2CaQnNAlHWFTpKUIVSSxIQvuLGpHjHtAqErjg99rdjzg9_69JcC9Kt?purpose=fullsize)",
+              "items": [
+                {
+                  "type": "chat_gpt_images_element",
+                  "url": "https://www.etsy.com/listing/1718371402/military-memoirs-of-field-marshal-the",
+                  "alt": "Military Memoirs of Field Marshal the Duke of Wellington... in Two Volumes (bound as One) - Etsy UK",
+                  "image_url": "https://images.openai.com/static-rsc-4/n5Q1RvdlF8TrkIsh_Tga62ypSZHqHr4mMy3CY4KOMnFOS1N1GLqYcMxg1pLFFYn53XARBlu6bjsyLR_bSz0MeVIiLTwjKa3tbxs50X7-k4EVJ_vcidBJOMz9PzoakVaV-qlEn9CFxT2CaQnNAlHWFTpKUIVSSxIQvuLGpHjHtAqErjg99rdjzg9_69JcC9Kt?purpose=fullsize",
+                  "markdown": "![Military Memoirs of Field Marshal the Duke of Wellington... in Two Volumes (bound as One) - Etsy UK](https://images.openai.com/static-rsc-4/n5Q1RvdlF8TrkIsh_Tga62ypSZHqHr4mMy3CY4KOMnFOS1N1GLqYcMxg1pLFFYn53XARBlu6bjsyLR_bSz0MeVIiLTwjKa3tbxs50X7-k4EVJ_vcidBJOMz9PzoakVaV-qlEn9CFxT2CaQnNAlHWFTpKUIVSSxIQvuLGpHjHtAqErjg99rdjzg9_69JcC9Kt?purpose=fullsize)"
+                }
+              ]
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 7,
+              "rank_absolute": 13,
+              "markdown": "\n\n**5\\. eBay**\n\nUseful for collectible books, signed editions, and books with established collector demand.\n\n[Visit eBay](https://www.ebay.com/)\n\n# 3\\. How to prepare your books for sale\n\nBefore contacting buyers\\:\n\n1. Photograph the front cover and back cover.\n2. Photograph the title page.\n3. Photograph the copyright/publication page.\n4. Photograph signatures and inscriptions.\n5. Photograph any damage or missing pages.\n6. Record the author's name, publisher, and publication year.\n\n**Do not clean, repair, rebind, or remove anything from an antique book before having it evaluated.** These changes can affect its value.\n\nThe Smithsonian and ABAA offer useful identification and valuation guidance. [www.abaa.org](https://www.abaa.org/general-content-pages/evaluating-books?utm_source=chatgpt.com)[www.sothebys.com](https://www.sothebys.com/en/articles/10-things-that-make-books-valuable?utm_source=chatgpt.com)[guides.lib.uchicago.edu](https://guides.lib.uchicago.edu/c.php?g=298052&p=1988412&utm_source=chatgpt.com)[library.si.edu](https://library.si.edu/departments/special-collections/information-old-books?utm_source=chatgpt.com)\n\n# 4\\. My recommendation: Get multiple valuations\n\nIf you believe you have genuinely rare books, I would\\:\n\n- Obtain an evaluation from an ABAA specialist.\n- Request an auction estimate from Christie's or Sotheby's if the books appear particularly valuable.\n- Compare actual auction results rather than relying exclusively on asking prices.\n\nDon't immediately accept the first offer.\n\n---\n\n# 5\\. Let me help you identify and sell your books\n\nI can help research individual books, identify potentially valuable editions, estimate market values, and determine the best places to sell them.\n\n**First, I have one question\\:**\n\nWhat type of rare books do you have?\n\n**1\\. What kind of books?**\n\n---\n\n**2\\. Approximately how many?**\n\n---\n\n**3\\. What's your goal?**\n\n[Submit]\n\nYou can also upload photographs of your books. I can help identify which ones may be valuable and which ones deserve a professional appraisal before you sell them.",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Visit eBay",
+                  "snippet": null,
+                  "domain": "www.ebay.com",
+                  "url": "https://www.ebay.com/",
+                  "thumbnail": null,
+                  "source_name": null,
+                  "publication_date": null,
+                  "markdown": "[Visit eBay](https://www.ebay.com/)"
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Evaluating Books",
+                  "snippet": null,
+                  "domain": "www.abaa.org",
+                  "url": "https://www.abaa.org/general-content-pages/evaluating-books?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "ABAA",
+                  "publication_date": null,
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "10 Things That Make Books Valuable | Books & Manuscripts",
+                  "snippet": null,
+                  "domain": "www.sothebys.com",
+                  "url": "https://www.sothebys.com/en/articles/10-things-that-make-books-valuable?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "Sotheby’s",
+                  "publication_date": "2026-10-07 00:00:00 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Library Guides: Rare Books and Early Manuscripts at the University of Chicago Library: About",
+                  "snippet": null,
+                  "domain": "guides.lib.uchicago.edu",
+                  "url": "https://guides.lib.uchicago.edu/c.php?g=298052&p=1988412&utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "Library Guides",
+                  "publication_date": null,
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Information on Old Books",
+                  "snippet": null,
+                  "domain": "library.si.edu",
+                  "url": "https://library.si.edu/departments/special-collections/information-old-books?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "Smithsonian Libraries",
+                  "publication_date": "2014-01-01 00:00:00 +00:00",
+                  "markdown": null
+                }
+              ],
+              "brand_entities": [
+                {
+                  "type": "chat_gpt_brand_entity",
+                  "title": "eBay",
+                  "category": "company",
+                  "markdown": "eBay",
+                  "urls": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
