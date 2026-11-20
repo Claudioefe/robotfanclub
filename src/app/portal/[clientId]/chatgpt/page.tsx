@@ -88,7 +88,7 @@ export default async function ChatGptPage({ params }: PageProps<"/portal/[client
                   )}
                   {!r.frozen && <p className="mt-0.5 text-[12.5px] font-normal text-muted">extra query, not in the frozen list</p>}
                 </Td>
-                <Td>
+                <Td className="min-w-[116px]">
                   <RunDots runs={r.runs} summary={`${r.cited} of ${r.runs.length} runs cited, ${r.consulted} consulted only`} />
                 </Td>
                 <Td className="whitespace-nowrap">

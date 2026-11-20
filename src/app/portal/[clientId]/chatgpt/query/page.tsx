@@ -48,7 +48,7 @@ export default async function ChatGptQueryPage({ params, searchParams }: PagePro
                   <p className="mt-0.5 text-[12.5px] font-normal text-muted">{r.runAt.slice(11, 16)} UTC</p>
                 </Td>
                 <Td>
-                  {r.relation === "cited" ? <Badge kind="top">Cited · source {r.clientSourceRank} of {r.sourceCount}</Badge> : r.relation === "consulted" ? <Badge kind="off">{RELATION_LABEL.consulted}</Badge> : <Dim>{RELATION_LABEL.none}</Dim>}
+                  {r.relation === "cited" ? <Badge kind="off">Cited · source {r.clientSourceRank} of {r.sourceCount}</Badge> : r.relation === "consulted" ? <Badge kind="top">{RELATION_LABEL.consulted}</Badge> : <Dim>{RELATION_LABEL.none}</Dim>}
                 </Td>
                 <Td className="max-w-[280px] break-words">
                   {r.clientUrl ? (
